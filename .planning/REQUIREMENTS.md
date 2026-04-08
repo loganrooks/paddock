@@ -102,34 +102,34 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| PACK-01 | TBD | Pending |
-| PACK-02 | TBD | Pending |
-| PACK-03 | TBD | Pending |
-| PACK-04 | TBD | Pending |
-| PACK-05 | TBD | Pending |
-| GAME-01 | TBD | Pending |
-| GAME-02 | TBD | Pending |
-| GAME-03 | TBD | Pending |
-| GAME-04 | TBD | Pending |
-| GAME-05 | TBD | Pending |
-| ROOM-01 | TBD | Pending |
-| ROOM-02 | TBD | Pending |
-| ROOM-03 | TBD | Pending |
-| ROOM-04 | TBD | Pending |
-| ROOM-05 | TBD | Pending |
-| UX-01 | TBD | Pending |
-| UX-02 | TBD | Pending |
-| UX-03 | TBD | Pending |
-| UX-04 | TBD | Pending |
-| OPS-01 | TBD | Pending |
-| OPS-02 | TBD | Pending |
-| OPS-03 | TBD | Pending |
+| PACK-01 | Phase 3 | Pending |
+| PACK-02 | Phase 1 | Pending |
+| PACK-03 | Phase 1 | Pending |
+| PACK-04 | Phase 1 | Pending |
+| PACK-05 | Phase 6 | Pending |
+| GAME-01 | Phase 2 | Pending |
+| GAME-02 | Phase 2 | Pending |
+| GAME-03 | Phase 2 | Pending |
+| GAME-04 | Phase 3 | Pending |
+| GAME-05 | Phase 2 | Pending |
+| ROOM-01 | Phase 3 | Pending |
+| ROOM-02 | Phase 4 | Pending |
+| ROOM-03 | Phase 3 | Pending |
+| ROOM-04 | Phase 7 | Pending |
+| ROOM-05 | Phase 5 | Pending |
+| UX-01 | Phase 5 | Pending |
+| UX-02 | Phase 4 | Pending |
+| UX-03 | Phase 4 | Pending |
+| UX-04 | Phase 5 | Pending |
+| OPS-01 | Phase 1 | Pending |
+| OPS-02 | Phase 6 | Pending |
+| OPS-03 | Phase 2 | Pending |
 
 **Coverage:**
 - v1 requirements: 22 total
-- Mapped to phases: 0
-- Unmapped: 22 ⚠️
+- Mapped to phases: 22
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-04-08*
-*Last updated: 2026-04-08 after initial definition*
+*Last updated: 2026-04-08 after roadmap traceability mapping*
