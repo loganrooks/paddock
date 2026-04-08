@@ -1,0 +1,82 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-04-08T22:00:31.553Z",
+  "phase": "1",
+  "phase_name": "Authored Round Contract",
+  "phase_dir": ".planning/phases/01-authored-round-contract",
+  "plan": 0,
+  "task": 0,
+  "total_tasks": 0,
+  "status": "paused",
+  "completed_tasks": [
+    {
+      "id": 1,
+      "name": "Reset Phase 1 to a clean pre-plan state",
+      "status": "done",
+      "commit": "1c42573"
+    },
+    {
+      "id": 2,
+      "name": "Capture Phase 1 exploratory context cleanly",
+      "status": "done",
+      "commit": "001b238"
+    },
+    {
+      "id": 3,
+      "name": "Record Phase 1 state after context capture",
+      "status": "done",
+      "commit": "48141d7"
+    },
+    {
+      "id": 4,
+      "name": "Pin Codex-native role model policy and orchestration guardrails",
+      "status": "done",
+      "commit": "f3105d8"
+    }
+  ],
+  "remaining_tasks": [
+    {
+      "id": 5,
+      "name": "Run Phase 1 planning from the top-level orchestrator using direct role-agent spawns",
+      "status": "not_started"
+    },
+    {
+      "id": 6,
+      "name": "Run Phase 1 execution only after planner and checker complete cleanly",
+      "status": "not_started"
+    }
+  ],
+  "blockers": [
+    {
+      "description": "Phase 1 planning has not been rerun yet under the corrected non-recursive Codex orchestration path.",
+      "type": "technical",
+      "workaround": "Resume by reading AGENTS.md and the phase context, then orchestrate gsd-phase-researcher, gsd-planner, and gsd-plan-checker directly from the top level with explicit model/reasoning choices."
+    }
+  ],
+  "human_actions_pending": [],
+  "decisions": [
+    {
+      "decision": "Use repo-local regular GSD for Codex, not GSD Reflect.",
+      "rationale": "This repo was initialized around regular GSD and now has a repo-local portable overlay under .codex/get-shit-done.",
+      "phase": "1"
+    },
+    {
+      "decision": "Treat Codex GSD orchestration as a top-level responsibility.",
+      "rationale": "Recursive generic-agent -> skill -> agent call graphs caused broken-telephone risk and obscured debugging.",
+      "phase": "1"
+    },
+    {
+      "decision": "Pin core GSD role agents to gpt-5.4 via model_overrides.",
+      "rationale": "The default resolve_model_ids=omit behavior left Codex model selection too ambiguous for reliable orchestration.",
+      "phase": "1"
+    },
+    {
+      "decision": "Use gpt-5.4 xhigh for the top-level orchestrator and gpt-5.4 high for core role agents.",
+      "rationale": "The main recent failures were orchestration and planning quality failures, not token-budget failures.",
+      "phase": "1"
+    }
+  ],
+  "uncommitted_files": [],
+  "next_action": "Read AGENTS.md, .planning/config.json, .planning/STATE.md, and the Phase 1 context artifacts, then restart Phase 1 planning by directly orchestrating gsd-phase-researcher -> gsd-planner -> gsd-plan-checker from the top level with no nested skill-inside-agent calls.",
+  "context_notes": "The repo is in a clean state with Phase 1 context captured but no plans yet. The most important learned failure modes are recursive GSD orchestration, manual plan substitution when agent paths are uncertain, create-target files appearing in read_first, and treating short agent silence as failure."
+}
