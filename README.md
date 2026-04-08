@@ -1,0 +1,52 @@
+# Prix Guesser
+
+Prix Guesser is an F1-themed geography and party-game project.
+
+The core idea is an expert-first, socially playable "GeoGuessr for Formula 1 places" experience centered on circuits, venues, race-weekend texture, and authored reveal logic rather than generic geography scoring.
+
+This repository currently contains the project discovery and initialization artifacts used to shape the build:
+
+- [`discovery/`](./discovery) — exploratory research, option space, feasibility, comparables, and decision context
+- [`.planning/PROJECT.md`](./.planning/PROJECT.md) — project context
+- [`.planning/REQUIREMENTS.md`](./.planning/REQUIREMENTS.md) — scoped v1 requirements
+- [`.planning/ROADMAP.md`](./.planning/ROADMAP.md) — phased implementation roadmap
+- [`.planning/STATE.md`](./.planning/STATE.md) — current workflow state
+
+## Current Shape
+
+The current roadmap is intentionally narrow:
+
+- one authored F1 geography-and-circuit anchor mode
+- private-room social play
+- host-screen plus phone-controller flow
+- curated packs and reveal explanations
+
+Broader F1 party-game expansion is still part of the long-term idea, but it is not being forced into v1.
+
+## Workflow
+
+This repo uses regular GSD for Codex, not GSD Reflect.
+
+Local install:
+
+```bash
+npx get-shit-done-cc --codex --local
+```
+
+Current next step:
+
+```bash
+$gsd-plan-phase 1
+```
+
+If you want steering before execution:
+
+```bash
+$gsd-discuss-phase 1
+```
+
+## Notes
+
+- This is currently a browser-first project plan, not a finished app.
+- The public repository is mainly for the project docs, discovery work, and build scaffolding at this stage.
+- No open-source license has been added yet.
