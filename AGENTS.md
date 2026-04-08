@@ -4,7 +4,9 @@
 
 This repository is using regular GSD for Codex, not GSD Reflect.
 
-The local runtime for this project lives at:
+GSD for this project is repo-local. Do not assume a global `$HOME/.codex/get-shit-done` install is the active runtime.
+
+The active local runtime for this project lives at:
 - `.codex/get-shit-done`
 
 The local installation command is:
@@ -58,3 +60,7 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
 - The most important early architectural decisions are likely the authored round/content model and the room authority model.
 - Do not collapse those into a premature frontend-framework choice.
 - Circuit-internal recognition is the primary fantasy; venue-approach clues are secondary and should not silently replace it.
+- Process lesson: if planner/checker agents fail or stall, do not treat manually written PLAN artifacts as equivalent to a properly verified GSD planning pass. Either restore the planning/checking path or perform stricter local validation before any execution attempt.
+- Orchestration lesson: do not treat short agent silence as proof of failure. Use a proper gauntlet first: allow a longer uninterrupted run, check for artifact output or commits, send one status probe, and only then classify the agent path as blocked.
+- Plan-authoring rule: never put create-target files in a task's `read_first` list. `read_first` is only for files that already exist and must be inspected before edits. For create-from-scratch tasks, point `read_first` at existing source-of-truth or reference files instead.
+- Environment rule: do not assume bare `pnpm` exists on PATH in this repo. Prefer `corepack pnpm` unless the environment has already proven otherwise.
