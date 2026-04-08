@@ -30,8 +30,10 @@ This repo uses regular GSD for Codex, not GSD Reflect.
 Local install:
 
 ```bash
-npx get-shit-done-cc --codex --local
+./scripts/setup-portable-gsd.sh
 ```
+
+That script installs the repo-local regular GSD runtime and reapplies this repo's tracked GSD overlay so exploratory discuss-phase behavior and future-aware `CONTEXT.md` generation stay reproducible across machines.
 
 Current next step:
 

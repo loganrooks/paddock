@@ -8,7 +8,12 @@ The local runtime for this project lives at:
 - `.codex/get-shit-done`
 
 The local installation command is:
-- `npx get-shit-done-cc --codex --local`
+- `./scripts/setup-portable-gsd.sh`
+
+That script:
+- installs regular repo-local GSD for Codex
+- reapplies this repo's tracked overlay in `tooling/portable-gsd/overlay/`
+- preserves the exploratory discuss-phase and future-aware `CONTEXT.md` behavior expected by this project
 
 Do not use:
 - `~/.codex/get-shit-done-reflect`
@@ -38,6 +43,8 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
 - Treat `discovery/` as upstream exploratory context, not as the active implementation workflow state.
 - Once initialized, treat `.planning/` as the canonical project workflow state.
 - Keep product decisions explicit, but do not prematurely lock open design questions that were intentionally preserved in discovery.
+- This project now uses `workflow.discuss_mode: exploratory` in `.planning/config.json`.
+- Treat `CONTEXT.md` as a steering brief: decisions, assumptions, open questions, canonical refs, code context, and future awareness all matter downstream.
 
 ## Current Product Posture
 
