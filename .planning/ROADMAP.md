@@ -37,7 +37,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. A pack can mix Street View clues and non-Street-View fallback media without changing the round contract.
   3. Pack validation rejects incomplete, ambiguous, or broken rounds before they become playable.
   4. Content workflow records each round's venue coverage class and fallback strategy so fallback-first venues are explicit instead of silent substitutions.
-**Plans**: TBD
+**Plans**: 4 plans
+Plans:
+- [ ] 01-01-PLAN.md — Bootstrap the workspace and shared content-contract interfaces
+- [ ] 01-02-PLAN.md — Implement strict domain schemas, normalization, and contract tests
+- [ ] 01-03-PLAN.md — Author venue profiles and starter-pack YAML fixtures
+- [ ] 01-04-PLAN.md — Build the YAML compiler, invariant checks, and compile CLI
 
 ### Phase 2: Core Round Rules
 **Goal**: Testers can run the anchor round loop against frozen authored content with explicit judging, partial credit, and reveal grammar independent of room transport and UI layers.
@@ -112,7 +117,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Authored Round Contract | 0/TBD | Not started | - |
+| 1. Authored Round Contract | 0/4 | Ready to execute | - |
 | 2. Core Round Rules | 0/TBD | Not started | - |
 | 3. Session Snapshots And Room Authority | 0/TBD | Not started | - |
 | 4. Guest Join And Mobile Controller UI | 0/TBD | Not started | - |
