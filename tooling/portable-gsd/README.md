@@ -25,6 +25,16 @@ The overlay currently patches regular local GSD so this project gets:
 - `future_awareness` support in context generation
 - research/planning prompts that consume assumptions, open questions, and future-aware constraints
 
+## Codex Model Policy
+
+This repo treats Codex model selection as a repo-level policy, not an implicit runtime default.
+
+- `.planning/config.json` uses `model_overrides` to pin core GSD role agents to `gpt-5.4`
+- top-level orchestration is expected to use `gpt-5.4` with `xhigh` reasoning
+- spawned core GSD role agents are expected to use `gpt-5.4` with `high` reasoning
+
+This is intentionally separate from the legacy `opus` / `sonnet` / `haiku` profile tables, which are too ambiguous for Codex-native orchestration.
+
 ## Updating The Overlay
 
 If you intentionally patch the local `.codex/` GSD runtime again, regenerate the overlay from the live patched files before committing:

@@ -35,6 +35,12 @@
   },
   "project_code": null,
   "phase_naming": "sequential",
+  "model_overrides": {
+    "gsd-planner": "gpt-5.4",
+    "gsd-phase-researcher": "gpt-5.4",
+    "gsd-plan-checker": "gpt-5.4",
+    "gsd-executor": "gpt-5.4"
+  },
   "agent_skills": {},
   "resolve_model_ids": "omit",
   "mode": "yolo",

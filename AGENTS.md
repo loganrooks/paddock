@@ -60,6 +60,11 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
 - The most important early architectural decisions are likely the authored round/content model and the room authority model.
 - Do not collapse those into a premature frontend-framework choice.
 - Circuit-internal recognition is the primary fantasy; venue-approach clues are secondary and should not silently replace it.
+- Codex GSD orchestration must happen at the top level. The main orchestrator should run the workflow logic itself and spawn role agents directly (`gsd-phase-researcher`, `gsd-planner`, `gsd-plan-checker`, `gsd-executor`) rather than spawning a generic agent whose job is to invoke a GSD skill.
+- Do not create recursive GSD call graphs like `orchestrator -> generic agent -> gsd-plan-phase skill -> gsd-planner`. That introduces broken-telephone risk and makes debugging much harder.
+- When agent orchestration is needed, prefer high-reasoning top-level orchestration and keep the call graph explicit before launching anything.
+- Codex-native model policy for this repo: top-level orchestration should prefer `gpt-5.4` with `xhigh` reasoning. Core GSD role agents should prefer `gpt-5.4` with `high` reasoning unless a narrower task justifies less.
+- Repo config pins the core GSD role models via `.planning/config.json` `model_overrides`. Do not rely on legacy `opus`/`sonnet` labels to mean anything precise in Codex.
 - Process lesson: if planner/checker agents fail or stall, do not treat manually written PLAN artifacts as equivalent to a properly verified GSD planning pass. Either restore the planning/checking path or perform stricter local validation before any execution attempt.
 - Orchestration lesson: do not treat short agent silence as proof of failure. Use a proper gauntlet first: allow a longer uninterrupted run, check for artifact output or commits, send one status probe, and only then classify the agent path as blocked.
 - Plan-authoring rule: never put create-target files in a task's `read_first` list. `read_first` is only for files that already exist and must be inspected before edits. For create-from-scratch tasks, point `read_first` at existing source-of-truth or reference files instead.
