@@ -43,6 +43,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Canonical refs**:
 - `.planning/REQUIREMENTS.md` — `PACK-02`, `PACK-03`, `PACK-04`, `OPS-01`, `SEAM-01`, `SEAM-04`, `DEF-01`, `DEF-04`
 - `.planning/PROJECT.md` — future-aware posture, private trusted-group product stance, geography fidelity
+- `.planning/LONG-ARC.md` — long-arc product, visibility, hosting, support, and wrapper doctrine that current work must preserve without widening v1 scope
 **Plans**: 4 plans
 **Protects**: The authored round substrate, answer-surface contract, and fallback-media model stay extensible enough for later `venue -> circuit -> section -> corner` growth or wrapper expansion without rewriting the pack contract.
 **Does not decide yet**: Public challenge surfaces, room runtime, account-backed persistence, and adjacent non-anchor modes.
@@ -66,6 +67,7 @@ Plans:
 **Canonical refs**:
 - `.planning/REQUIREMENTS.md` — `GAME-01`, `GAME-02`, `GAME-03`, `GAME-05`, `OPS-03`, `SEAM-01`, `SEAM-02`, `DEF-04`
 - `.planning/PROJECT.md` — anchor-mode posture, authored-round bias, geography fidelity
+- `.planning/LONG-ARC.md` — long-arc product, visibility, hosting, support, and wrapper doctrine that current work must preserve without widening v1 scope
 **Plans**: TBD
 **Protects**: Structured judging, reveal grammar, and gameplay logic that can survive later room, controller, or wrapper changes.
 **Does not decide yet**: Live-room transport, public challenge modes, account systems, or finer-grained answer surfaces as default v1 scope.
@@ -84,6 +86,7 @@ Plans:
 **Canonical refs**:
 - `.planning/REQUIREMENTS.md` — `PACK-01`, `GAME-04`, `ROOM-01`, `ROOM-03`, `DEPLOY-01`, `DEPLOY-04`, `DEPLOY-05`, `SEAM-03`, `SEAM-05`, `DEF-01`, `DEF-02`, `DEF-03`
 - `.planning/PROJECT.md` — future-aware posture, private-room bias, room authority remains open until planning
+- `.planning/LONG-ARC.md` — long-arc product, visibility, hosting, support, and wrapper doctrine that current work must preserve without widening v1 scope
 **Plans**: TBD
 **Protects**: Room authority, frozen session definitions, and pack-to-session seams that later controllers, host screens, async wrappers, or reconnect logic can rely on.
 **Does not decide yet**: Public rooms, monetized hosting, ambient discovery flows, or stronger public reliability promises than private-room play needs.
@@ -102,6 +105,7 @@ Plans:
 **Canonical refs**:
 - `.planning/REQUIREMENTS.md` — `UX-01`, `UX-02`, `UX-03`, `UX-04`, `DEPLOY-02`, `DEPLOY-03`, `SEAM-03`
 - `.planning/PROJECT.md` — watchability bias, browser-first guest experience, private trusted-room posture
+- `.planning/LONG-ARC.md` — long-arc product, visibility, hosting, support, and wrapper doctrine that current work must preserve without widening v1 scope
 - `.planning/audits/2026-04-08-pre-execution-review/CONVERGENCE.md` — converged design-gap diagnosis
 **Plans**: TBD
 **Protects**: The host/controller split, motion grammar, and room-legibility contract from being improvised file-by-file during implementation.
@@ -121,6 +125,7 @@ Plans:
 **Canonical refs**:
 - `.planning/REQUIREMENTS.md` — `ROOM-02`, `UX-02`, `UX-03`, `DEPLOY-02`, `SEAM-03`, `DEF-01`, `DEF-02`
 - `.planning/PROJECT.md` — future-aware posture, browser-first private social play
+- `.planning/LONG-ARC.md` — long-arc product, visibility, hosting, support, and wrapper doctrine that current work must preserve without widening v1 scope
 **Plans**: TBD
 **Protects**: A reusable controller contract and answer-entry surface that can survive later room wrappers or teammate variants.
 **Does not decide yet**: Native apps, public onboarding, spectator participation, or account-linked identity flows.
@@ -139,6 +144,7 @@ Plans:
 **Canonical refs**:
 - `.planning/REQUIREMENTS.md` — `ROOM-05`, `UX-01`, `UX-04`, `DEPLOY-03`, `SEAM-02`, `SEAM-03`, `DEF-01`, `DEF-02`
 - `.planning/PROJECT.md` — watchability bias, host-screen-friendly social format
+- `.planning/LONG-ARC.md` — long-arc product, visibility, hosting, support, and wrapper doctrine that current work must preserve without widening v1 scope
 **Plans**: TBD
 **Protects**: A watchable shared-screen ritual that could later support stream-friendly or showcase-adjacent wrappers without changing the core room contract.
 **Does not decide yet**: Public spectator flows, open showcases, or asynchronous viewing/replay products.
@@ -156,6 +162,7 @@ Plans:
 **Canonical refs**:
 - `.planning/REQUIREMENTS.md` — `PACK-05`, `OPS-02`, `SEAM-04`, `DEF-02`, `DEF-03`, `DEF-04`
 - `.planning/PROJECT.md` — curated-quality posture, shared substrate remains reusable
+- `.planning/LONG-ARC.md` — long-arc product, visibility, hosting, support, and wrapper doctrine that current work must preserve without widening v1 scope
 **Plans**: TBD
 **Protects**: Content curation and calibration seams that can later power broader pack libraries or other wrappers without assuming a marketplace now.
 **Does not decide yet**: Public UGC publishing, pack marketplace logic, or large-scale telemetry/service obligations.
@@ -172,6 +179,7 @@ Plans:
 **Canonical refs**:
 - `.planning/REQUIREMENTS.md` — `ROOM-04`, `SEAM-03`, `DEF-03`
 - `.planning/PROJECT.md` — private-room posture, modest but real durability expectations
+- `.planning/LONG-ARC.md` — long-arc product, visibility, hosting, support, and wrapper doctrine that current work must preserve without widening v1 scope
 **Plans**: TBD
 **Protects**: Session durability seams that later wrappers or stronger hosting promises can build on without rewriting room state ownership.
 **Does not decide yet**: SLA-like uptime guarantees, paid access, or public-scale reliability commitments.

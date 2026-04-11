@@ -61,6 +61,7 @@ Recent decisions affecting current work:
 - The roadmap now includes Phase `3.1` as a formal UI contract gate before Phase 4 and Phase 5 implementation.
 - Browser-first operator and guest flow across local, LAN, and privately hosted remote play is part of the core product posture, not a side concern.
 - The long-arc project frame is now explicit as `Game Night Works -> Play Anytime, Anywhere -> F1 Party Platform`, but only Milestone 1 remains on the active execution spine.
+- `.planning/LONG-ARC.md` is now the canonical long-arc doctrine; future discuss/planning should cite it, and Phase 1 replanning should consume it before any fresh planning artifacts are treated as authoritative.
 
 ### Pending Todos
 

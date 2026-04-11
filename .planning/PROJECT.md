@@ -76,6 +76,8 @@ The consolidated initialization brief is in `discovery/14-gsd-seed.md`.
 
 The project now has a sensible three-milestone directional arc. This is not a second active roadmap; it is the longer-range frame that current-phase planning should preserve without prematurely importing later scope.
 
+For the concise identity and milestone frame, use this document. For the detailed transition doctrine that current planning should preserve, see `.planning/LONG-ARC.md`.
+
 ### Milestone 1: Game Night Works
 
 Goal:
