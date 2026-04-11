@@ -5,6 +5,16 @@
 **Researched:** 2026-04-08
 **Overall confidence:** HIGH for boundary recommendations, MEDIUM for concrete infrastructure choice
 
+## Refresh Note (2026-04-11)
+
+This file remains canonical for the content-first, room-authoritative split.
+
+Read it with these later refinements:
+
+- room-runtime choice is also a deployment and self-host-parity decision, not only a multiplayer-library decision
+- wrapper type, visibility state, and trust boundary are distinct concepts and should not be collapsed into one "mode" decision
+- typed room commands and events should preserve live-room, async, and later spectator reuse
+
 ## Recommended Architecture
 
 Build Prix Guesser as a **hybrid system with three hard separations**:
@@ -43,6 +53,7 @@ Authoring files / sheets / admin tools
 Use a **hybrid architecture**:
 
 - **Shared TypeScript domain package** for content schema, answer payloads, scoring contracts, event contracts
+- **Typed room-command and room-event contracts** for join, submit, phase advance, reconnect, and host control
 - **Separate content store** for authored packs and media metadata
 - **Separate authoritative room runtime** for live sessions
 - **Thin client surfaces** that send intents and render server-owned room state
@@ -186,6 +197,7 @@ Separate surfaces:
 - **Host display**: watchable round presentation, pacing, reveal, scoreboard
 - **Player controller**: private input, clue view, answer UI, reconnect
 - **Future solo/challenge surface**: no room presence, same content and rules engine
+- **Future audience/spectator surface**: watch or participate in bounded ways without inheriting full player authority
 - **Future admin/authoring surface**: content preview, validation, pack publishing
 
 Keep these as separate route bundles or apps that share contracts and UI primitives, not as one giant screen-state tree.

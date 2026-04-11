@@ -5,11 +5,22 @@
 **Researched:** 2026-04-08
 **Confidence:** MEDIUM-HIGH
 
+## Refresh Note (2026-04-11)
+
+This file remains canonical for the content/rules/room separation and the private-first, authored-round product thesis.
+
+Read it with these later refinements from the 2026-04-10 research wave and the refreshed canon:
+
+- live private rooms remain the first wrapper, but future async, spectator, and public-read surfaces are explicit later wrappers rather than rejected futures
+- browser-first operator launch, join URL and QR flow, and TV-distance host readability are now explicit v1 concerns
+- the UI and interaction contract is a formal gate before Phase 4 implementation, not an implicit polish task
+- `Supabase` should be read as one optional managed convenience, not the canonical hosting posture
+
 ## Executive Summary
 
 Prix Guesser is not best understood as a generic geography game with Formula 1 theming. The research consistently points toward an authored, expert-first F1 game in which the core value comes from recognizing circuits, venue texture, sections, eras, and clue logic that feel native to fandom. The product shape experts build for this is content-first and room-aware: authored packs, explicit answer surfaces, reveal explanations, and a host-friendly private session loop that works across a shared screen and phone controllers.
 
-The strongest implementation direction is a split architecture rather than a monolithic web framework choice. Research across stack and architecture recommends a shared TypeScript domain model, frozen match snapshots, a pure rules layer, and an authoritative room runtime, with `React + Vite + TypeScript` as the practical frontend baseline and `PostgreSQL + Drizzle + Supabase Storage` as the durable content substrate. There is still a real implementation fork on live rooms: `Colyseus` is the stronger default if reconnect safety and timer correctness matter early, while `PartyKit` remains credible if the first milestone is explicitly optimizing for the fastest private prototype. That disagreement should stay open until roadmap planning decides how durable the first room promise really is.
+The strongest implementation direction is a split architecture rather than a monolithic web framework choice. Research across stack and architecture recommends a shared TypeScript domain model, frozen match snapshots, a pure rules layer, and an authoritative room runtime, with `React + Vite + TypeScript` as the practical frontend baseline and `PostgreSQL + Drizzle` plus provider-neutral media storage as the durable content substrate. `Supabase` can remain a later hosted convenience, but it should not be treated as the canonical runtime assumption. There is still a real implementation fork on live rooms: `Colyseus` is the stronger default if reconnect safety, timer correctness, and self-host parity matter early, while `PartyKit` remains credible if the first milestone is explicitly optimizing for the fastest private prototype. That disagreement should stay open until roadmap planning decides how durable the first room promise really is.
 
 The biggest risks are not cosmetic. They are product-shape failures: shipping a thin geo clone, letting venue-approach clues quietly replace circuit-internal recognition, and broadening into a party platform before the anchor mode proves repeat play value. The roadmap should therefore prove one authored anchor mode and one social wrapper first, with content validation, scoring clarity, and watchable reveals treated as foundational work rather than later polish.
 
@@ -84,6 +95,8 @@ The architecture research is the clearest of the four inputs: separate authored 
 7. **Expanding into a broader party platform too soon** — avoid this by proving one anchor mode and one social wrapper before adding daily loops, side modes, or async wrappers.
 
 ## Implications for Roadmap
+
+**Update 2026-04-11:** Treat the numbered phase sketch below as ordering rationale, not as the active roadmap. The canonical phase list now lives in `.planning/ROADMAP.md`, which keeps the same private-room spine but uses a 7-phase roadmap plus a formal Phase `3.1` UI contract gate.
 
 Based on the combined research, the roadmap should prove the authored F1 substrate before it tries to prove scale, breadth, or long-term retention systems. The right grouping is not “frontend, backend, content” in isolation; it is “content grammar, rules truth, live-room orchestration, then playability hardening.”
 

@@ -4,6 +4,16 @@
 **Researched:** 2026-04-08  
 **Overall confidence:** MEDIUM-HIGH
 
+## Refresh Note (2026-04-11)
+
+Read this file as product-shape guidance, not as the active phase list.
+
+Later research and the refreshed canon kept the live private-room wrapper first, but made three additions explicit:
+
+- browser-first operator launch and join flow are v1 concerns, not backstage implementation details
+- TV-distance host readability and room-code/link/QR join are first-class requirements, not polish
+- public discovery, async challenge, and streamer-facing surfaces remain later wrappers rather than rejected futures
+
 ## Executive Take
 
 Products adjacent to Prix Guesser tend to cluster into three families:

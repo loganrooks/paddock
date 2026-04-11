@@ -20,6 +20,7 @@ Knowledgeable F1 fans can have a genuinely compelling, social, expert-feeling ga
 
 - [ ] Deliver one strong F1 geography-and-circuit anchor mode that feels meaningfully different from a generic geography quiz.
 - [ ] Support private social play rather than only solo play, with a room structure that can fit couch, remote, or hybrid sessions.
+- [ ] Keep the guest experience browser-first and low-friction across local, LAN, and privately hosted remote sessions.
 - [ ] Use an authored round model that can represent circuit, venue, section, clue ladder, reveal explanation, and multiple answer surfaces.
 - [ ] Build a curated content corpus strong enough to prove the core loop with real venues and recognizable fan texture.
 - [ ] Preserve room for adjacent F1 party-game expansion without letting broader mode sprawl dominate the first implementation.
@@ -40,6 +41,13 @@ Three tensions need to stay visible:
 - the seed fantasy is "GeoGuessr for grand prix locations"
 - the bigger ambition is "an F1-flavored party game platform"
 - the current reality is "private-only project for personal and friend play"
+
+The current most useful vocabulary distinction is:
+
+- **anchor mode**: the authored geography-and-circuit round contract itself
+- **session wrapper**: live room, solo practice, frozen challenge, or later spectator-facing shell
+- **watchability layer**: the host-screen clarity, suspense, and reveal payoff that make a session socially legible
+- **platform shell**: the broader long-arc product, if later wrappers and sibling modes genuinely reuse the same substrate
 
 Research and synthesis so far suggest:
 
@@ -64,6 +72,16 @@ Open-source references already studied include:
 
 The consolidated initialization brief is in `discovery/14-gsd-seed.md`.
 
+## Future-Aware Posture
+
+The current product posture should stay explicit while planning evolves:
+
+- The emotional center of v1 is a watchable private game-night ritual for trusted groups, not ambient public discovery.
+- The guest-facing product surface should stay browser-first whether the operator is running locally, on a LAN, or on a privately hosted remote box.
+- The shared substrate should stay reusable across likely later wrappers such as solo practice, frozen challenge links, private remote rooms, or spectator-facing shells.
+- Visibility state should stay explicit: trusted private rooms now, unlisted/share-by-link surfaces later, and broader public discovery only when the project deliberately accepts stronger moderation and status obligations.
+- Current trust and service assumptions remain modest: private use, low moderation burden, no strong public uptime promise, no paid guaranteed access promise, and no obligation yet to support stranger participation well.
+
 ## Constraints
 
 - **Product scope**: Private-only, unofficial fan project — early choices should optimize for real play value instead of public-safe caution.
@@ -78,24 +96,25 @@ The consolidated initialization brief is in `discovery/14-gsd-seed.md`.
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Initialize as a private-only fan project | Public-safe constraints would distort the early product and reduce fidelity | — Pending |
-| Treat geography as the anchor rather than the entire product identity | Preserves the clean hook while keeping broader F1 party-game expansion possible | — Pending |
-| Bias toward authored F1 rounds instead of thin location-only rounds | The game should reward F1-specific recognition and explanation, not only generic geography guessing | — Pending |
-| Keep the frontend/framework decision open | Ecosystem, room model, and content architecture matter more than locking a UI framework too early | — Pending |
-| Keep the room/backend decision open | The correct authority model depends on how durable and synchronized the first live-room experience needs to be | — Pending |
-| Bias toward host-screen-friendly private play | The strongest current social fantasy is couch or private-room play with strong watchability | — Pending |
+| Initialize as a private-only fan project | Public-safe constraints would distort the early product and reduce fidelity | Adopted |
+| Treat geography as the anchor rather than the entire product identity | Preserves the clean hook while keeping broader F1 party-game expansion possible | Adopted |
+| Bias toward authored F1 rounds instead of thin location-only rounds | The game should reward F1-specific recognition and explanation, not only generic geography guessing | Adopted |
+| Keep the frontend/framework decision open | Ecosystem, room model, and content architecture matter more than locking a UI framework too early | Still open |
+| Keep the room/backend decision open | The correct authority model depends on how durable, self-hostable, and synchronized the first live-room experience needs to be | Still open |
+| Bias toward host-screen-friendly private play | The strongest current social fantasy is couch or private-room play with strong watchability | Adopted for v1 |
+| Treat browser-first host/controller join as the real product surface | Guests should experience one coherent product whether the operator runs locally or on a private host | Adopted for v1 |
 
 ## Open Questions
 
 | Question | Why It Matters | Criticality | Status |
 |----------|----------------|-------------|--------|
-| Is the best first product a tight geography game or a broader party shell with one anchor mode? | This shapes the roadmap width and how much the architecture must anticipate multi-mode expansion | Critical | Pending |
-| Should the first shared format be live rooms or challenge links? | This changes room architecture, content flow, and where synchronization complexity lands | Critical | Pending |
+| Is the best first product a tight geography game or a broader party shell with one anchor mode? | This shapes the roadmap width and how much the architecture must anticipate multi-mode expansion | Critical | Leaning: anchor-first with future wrappers protected |
+| Which later wrapper should prove substrate reuse first after live private rooms: solo practice, frozen challenge links, or spectator-facing shells? | This shapes what Phase 1 and Phase 3 must protect without widening v1 prematurely | Critical | Pending |
 | Which answer surfaces should become first-class in the authored round model? | This determines schema design, scoring logic, and content authoring workload | Critical | Pending |
 | How much unrestricted Street View exploration should exist, if any? | This affects clue design, difficulty, dependency on external APIs, and gameplay feel | Medium | Pending |
-| How much should the first version optimize for watchability versus pure solver challenge? | This changes reveal pacing, host tooling, and UI priorities | Medium | Pending |
+| How much should the first version optimize for watchability versus pure solver challenge? | This changes reveal pacing, host tooling, and UI priorities | Medium | Leaning: watchability is load-bearing, exact balance still open |
 | When do internal authoring tools become necessary? | This determines whether v0 can stay file- or spreadsheet-driven or needs productized tooling immediately | Medium | Pending |
-| How much should future non-geography party modes influence v1 architecture? | Over-weighting future expansion could over-engineer v1, but under-weighting it could force a rewrite | Medium | Pending |
+| Which visibility state, if any, should arrive first after trusted private rooms? | Public read surfaces, async challenge sharing, and public participation carry different trust and service obligations | Medium | Pending |
 
 ## Evolution
 
@@ -115,4 +134,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-08 after initialization*
+*Last updated: 2026-04-11 after roadmap refresh reread*

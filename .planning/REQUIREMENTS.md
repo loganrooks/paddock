@@ -46,7 +46,7 @@
 
 ### Host And Controller Experience
 
-- [ ] **UX-01**: Host display presents clue state, lock state, reveal, and standings in a watchable shared-screen format.
+- [ ] **UX-01**: Host display presents clue state, lock state, reveal, and standings in a watchable shared-screen format that remains legible on a 16:9 TV at couch distance.
   - *Motivation:* `research: .planning/research/SUMMARY.md#Expected Features`
 - [ ] **UX-02**: Player controller is usable on mobile and supports answer entry and submission within the active round timer.
   - *Motivation:* `research: .planning/research/FEATURES.md#Table Stakes`
@@ -55,11 +55,24 @@
 - [ ] **UX-04**: Session ends with a summary that lets the group review outcomes and immediately replay or switch packs.
   - *Motivation:* `research: .planning/research/FEATURES.md#Table Stakes`
 
+### Deployment And Access
+
+- [ ] **DEPLOY-01**: Host can start a playable local-LAN or privately hosted session from one documented operator flow without requiring guests to install anything beyond a browser.
+  - *Motivation:* `research: .planning/research/2026-04-10-vision-hosting-wave/findings/02-hosting-transition.md#Feasible Staged Paths`
+- [ ] **DEPLOY-02**: The system can generate and display a valid join URL and QR code for the current deployment mode.
+  - *Motivation:* `research: .planning/research/2026-04-10-vision-hosting-wave/findings/02-hosting-transition.md#Transition Patterns That Preserve Trust`
+- [ ] **DEPLOY-03**: Host display is usable on a 16:9 TV or fullscreen display at couch distance and supports fullscreen presentation without cast-specific integrations.
+  - *Motivation:* `research: .planning/research/2026-04-10-vision-hosting-wave/findings/03-precedents-and-trajectories.md#Transferable Patterns`
+- [ ] **DEPLOY-04**: Privately hosted remote play supports HTTPS and WebSocket-capable ingress without requiring guest networking tools such as Tailscale.
+  - *Motivation:* `research: .planning/research/2026-04-10-vision-hosting-wave/findings/02-hosting-transition.md#Path 2: Private remote play from personal hardware`
+- [ ] **DEPLOY-05**: Operator can start and stop the hosted deployment on demand with one documented command or script.
+  - *Motivation:* `research: .planning/research/2026-04-10-vision-hosting-wave/findings/02-hosting-transition.md#Path 3: Small public hosted operation`
+
 ### Content Operations And Calibration
 
 - [ ] **OPS-01**: Content workflow records venue coverage class and fallback strategy so rounds do not assume uniform Street View viability.
   - *Motivation:* `research: .planning/research/PITFALLS.md#Pitfall 6: Treating Street View coverage as uniform, stable, and available at play time`
-- [ ] **OPS-02**: Session data records per-round outcomes sufficient to identify broken, trivial, misleading, or high-value rounds.
+- [ ] **OPS-02**: Session data records round-level and clue-step outcomes sufficient to identify broken, trivial, misleading, fallback-heavy, or high-value rounds.
   - *Motivation:* `research: .planning/research/PITFALLS.md#Pitfall 9: No calibration loop for authored content`
 - [ ] **OPS-03**: The system's core gameplay logic is testable independently of the room transport and UI layers.
   - *Motivation:* `research: .planning/research/SUMMARY.md#Architecture Approach`
@@ -84,7 +97,27 @@
 ### Retention And Public Features
 
 - **RET-01**: Product supports a daily or recurring challenge format.
-- **RET-02**: Product supports account-backed history or profile persistence.
+- **RET-02**: Product supports lightweight player identity and session history without requiring a heavy public-account posture.
+
+## Protected Seams And Explicit Deferrals
+
+These are planning-reference anchors, not additional ship-gates. They exist so future-aware seams and deliberate deferrals can be cited directly in roadmap entries, context files, plans, and later reviews.
+
+### Protected Seams
+
+- **SEAM-01**: The authored round model should preserve explicit `venue -> circuit -> section -> corner` relationships rather than collapsing the answer contract to coordinates only or flat labels only.
+- **SEAM-02**: Judging, reveal, and scoring contracts should remain separable from room transport and UI surfaces.
+- **SEAM-03**: Room authority and session-state ownership should remain separable from host-screen and phone-controller presentation.
+- **SEAM-04**: The authored content substrate should stay reusable across private-room play and plausible later wrapper surfaces such as async challenges, solo practice, or adjacent expert-facing modes.
+- **SEAM-05**: Wrapper access policy and visibility state should remain separable from the shared content and session substrate so private rooms, unlisted challenges, and later spectator/public read surfaces do not require a second product core.
+
+### Explicit Deferrals
+
+- **DEF-01**: Visibility decisions stronger than private rooms or share-by-link flows remain deferred until the private social loop proves itself.
+- **DEF-02**: Public participant trust, moderation, and service-obligation surfaces remain deferred.
+- **DEF-03**: Paid guaranteed access, public uptime promises, or commercialization hardening remain deferred.
+- **DEF-04**: Adjacent non-anchor F1 party modes remain deferred until the anchor geography-and-circuit loop is proven.
+- **DEF-05**: Public room discovery, stranger participation, and open creator publishing remain deferred until the project intentionally accepts their moderation and trust obligations.
 
 ## Out of Scope
 
@@ -93,7 +126,7 @@
 | Public matchmaking and ranked ladders | Misaligned with private-only posture and expensive before the core room loop is proven |
 | Broad public UGC publishing or pack marketplace | Curated authored quality matters more than scale at initialization |
 | Unrestricted Street View free-roam as the default play mode | Weakens authored pacing, increases dependency risk, and can blur the circuit-focused fantasy |
-| Cosmetics, progression economies, or collection systems | Do not strengthen the core expert-fan social loop |
+| Progression economies, collection systems, or cosmetic unlock loops | Do not strengthen the core expert-fan social loop |
 | Native mobile apps | Browser-first host and phone-controller play is sufficient for v1 |
 | In-app voice or video chat | External voice or couch play already covers the social need with less complexity |
 | Public-release legal or commercial hardening | This project is private-only for now |
@@ -121,15 +154,20 @@
 | UX-02 | Phase 4 | Pending |
 | UX-03 | Phase 4 | Pending |
 | UX-04 | Phase 5 | Pending |
+| DEPLOY-01 | Phase 3 | Pending |
+| DEPLOY-02 | Phase 4 | Pending |
+| DEPLOY-03 | Phase 5 | Pending |
+| DEPLOY-04 | Phase 3 | Pending |
+| DEPLOY-05 | Phase 3 | Pending |
 | OPS-01 | Phase 1 | Pending |
 | OPS-02 | Phase 6 | Pending |
 | OPS-03 | Phase 2 | Pending |
 
 **Coverage:**
-- v1 requirements: 22 total
-- Mapped to phases: 22
+- v1 requirements: 27 total
+- Mapped to phases: 27
 - Unmapped: 0
 
 ---
 *Requirements defined: 2026-04-08*
-*Last updated: 2026-04-08 after roadmap traceability mapping*
+*Last updated: 2026-04-11 after roadmap refresh reread*

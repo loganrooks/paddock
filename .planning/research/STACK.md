@@ -5,13 +5,24 @@
 **Researched:** 2026-04-08  
 **Overall confidence:** MEDIUM-HIGH
 
+## Refresh Note (2026-04-11)
+
+This file remains useful for frontend/runtime/tooling fit, but its original hosted-backend posture was too managed-platform-specific.
+
+Read it with these refreshed assumptions:
+
+- self-host parity across local LAN, private remote hosting, and later VPS deployment is now a first-class concern
+- `Supabase` is optional hosted convenience, not the canonical database or storage assumption
+- deployment shape and operator simplicity matter alongside framework choice
+
 ## Executive Recommendation
 
 Use a **split web-game stack**, not a monolithic app-framework-by-default stack:
 
 - **Frontend:** `React 19.2.5` + `Vite 8.0.7` + `TypeScript 6.0.2`
 - **Realtime rooms:** `Colyseus 0.17.8` for the serious host-screen + phone-controller path
-- **Persistence and assets:** `PostgreSQL 18` + `Drizzle ORM 0.45.2` + `Supabase` (`@supabase/supabase-js 2.102.1`, Storage, optional Auth later)
+- **Persistence and assets:** `PostgreSQL 18` + `Drizzle ORM 0.45.2` + provider-neutral object storage or filesystem-backed private media storage, with `Supabase` still acceptable as an optional managed convenience
+- **Deployment shape:** browser-first web app with `Docker Compose` and documented operator scripts for local or privately hosted sessions
 - **Maps/media:** `MapLibre GL JS 5.22.0` for answer/reveal maps, with **Google Maps JavaScript API Street View** as a clue provider where coverage is good
 - **Client state / validation:** `Zod 4.3.6`, `TanStack Query 5.96.2`, `Zustand 5.0.12`
 - **Testing:** `Vitest 4.1.3` + `Playwright 1.59.1`
@@ -40,8 +51,9 @@ The main unresolved decision is still **how durable and authoritative the first 
 | Realtime room engine | `Colyseus 0.17.8` | HIGH | Best fit when timer correctness, reconnects, room lifecycle, and authoritative server state matter early. Its room/state model maps cleanly onto host-screen plus phone-controller play. | More upfront structure than PartyKit. |
 | Database | `PostgreSQL 18` | HIGH | Strong relational fit for authored rounds, packs, media references, reveals, rooms, and analytics. Postgres is the right substrate for content-rich game data. | Requires schema design up front. |
 | ORM / SQL layer | `Drizzle ORM 0.45.2` | MEDIUM-HIGH | Stronger here than Prisma because it keeps SQL and migrations explicit, which matters for authored content, pack imports, and AI-assisted maintenance. | Slightly less batteries-included than Prisma. |
-| Managed platform | `Supabase` | MEDIUM-HIGH | Good default for hosted Postgres, file storage, dashboard/admin convenience, and optional auth later. Useful app plumbing without pretending to be the room authority. | Do not confuse Supabase Realtime with a solved game-loop authority model. |
-| Asset storage | `Supabase Storage` | HIGH | Fits curated media packs, image crops, reference assets, and reveal images with CDN delivery and access control. | If you later move to a Cloudflare-heavy stack, storage location may be revisited. |
+| Deployment / ops | `Docker Compose` + documented operator scripts | HIGH | Best fit for preserving parity between local-LAN play, private remote hosting, and later VPS-style deployment without changing the guest-facing product. | Requires deliberate status UX and operator documentation. |
+| Managed platform convenience | `Supabase` | MEDIUM | Credible optional convenience for hosted Postgres, file storage, dashboard/admin plumbing, and optional auth later. | Should not become the hidden canonical runtime assumption or room authority model. |
+| Asset storage | Filesystem-backed private media or S3-compatible object storage | HIGH | Keeps early private hosting and later hosted storage provider-neutral while still supporting curated media packs and reveal images. | Storage choice should stay subordinate to the browser-first product surface. |
 | Answer / reveal map | `MapLibre GL JS 5.22.0` | HIGH | Strong default for interactive answer placement and cinematic reveal maps without locking the whole product to Google Maps pricing and styling constraints. | Requires choosing a tile provider separately. |
 | Street View clue provider | `Google Maps JavaScript API` / Street View | MEDIUM | Best supported browser Street View integration. Needed if the game really wants pano-style clues where coverage exists. | Coverage, cost, and product dependency should remain explicit; not every circuit should depend on it. |
 | Styling layer | `Tailwind CSS 4.2.2` | MEDIUM | Pragmatic default for rapidly shipping distinct host and controller surfaces without committing to a component framework too early. | Not strategic; can be swapped if a stronger design system emerges. |
@@ -59,7 +71,8 @@ The main unresolved decision is still **how durable and authoritative the first 
 - `Colyseus 0.17.8`
 - `PostgreSQL 18`
 - `Drizzle ORM 0.45.2`
-- `Supabase` for hosted Postgres + Storage
+- provider-neutral object storage or private filesystem-backed media
+- `Docker Compose` plus documented operator scripts
 - `MapLibre GL JS 5.22.0`
 - `Google Maps JavaScript API` only for Street View clue types
 
@@ -68,6 +81,7 @@ Why this is strongest here:
 - Keeps the **authoritative room model** separate from app plumbing.
 - Supports **host screen + phone controllers** cleanly.
 - Gives the authored round model a proper relational home instead of flattening it into document blobs.
+- Preserves **local-to-private-host deployment parity** instead of assuming a managed platform from the start.
 - Preserves room to expand into adjacent party modes without forcing a rewrite into turn-engine abstractions.
 - Matches the existing discovery conclusion that **room authority model** and **authored round model** matter more than a fashionable frontend shell.
 
@@ -79,7 +93,8 @@ Why this is strongest here:
 - `Vite 8.0.7`
 - `TypeScript 6.0.2`
 - `PartyKit 0.0.115`
-- `PostgreSQL 18` via Supabase
+- `PostgreSQL 18`
+- provider-neutral media storage
 - `MapLibre GL JS 5.22.0`
 - `Google Maps JavaScript API` for Street View clues
 

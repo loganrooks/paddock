@@ -4,6 +4,14 @@
 **Researched:** 2026-04-08  
 **Overall confidence:** HIGH for content/media and room-state pitfalls, MEDIUM for broader product-shape pitfalls
 
+## Refresh Note (2026-04-11)
+
+The later 2026-04-10 research wave did not overturn these pitfalls, but it sharpened three of them:
+
+- watchability should be read as shared-legibility, suspense, and reveal payoff, not just as visual style
+- visibility state and trust boundary are staged product choices, not one binary private/public switch
+- scope restraint is itself a trust and safety strategy while the product remains host-led and private-first
+
 This file is intentionally specific to Prix Guesser's current shape:
 - expert-first F1 audience
 - authored rounds rather than generic geography drops
