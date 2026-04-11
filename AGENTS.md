@@ -63,7 +63,19 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
 - Codex GSD orchestration must happen at the top level. The main orchestrator should run the workflow logic itself and spawn role agents directly (`gsd-phase-researcher`, `gsd-planner`, `gsd-plan-checker`, `gsd-executor`) rather than spawning a generic agent whose job is to invoke a GSD skill.
 - Do not create recursive GSD call graphs like `orchestrator -> generic agent -> gsd-plan-phase skill -> gsd-planner`. That introduces broken-telephone risk and makes debugging much harder.
 - When agent orchestration is needed, prefer high-reasoning top-level orchestration and keep the call graph explicit before launching anything.
-- Codex-native model policy for this repo: top-level orchestration should prefer `gpt-5.4` with `xhigh` reasoning. Core GSD role agents should prefer `gpt-5.4` with `high` reasoning unless a narrower task justifies less.
+- Codex-native model policy for this repo: top-level orchestration should prefer `gpt-5.4` with `xhigh` reasoning.
+- Execution and verification agents should prefer `gpt-5.4` with `high` reasoning unless a narrower task justifies less.
+- For the first couple of phases, planning-related agents may use `gpt-5.4` with `xhigh` reasoning when extra rigor is worth the latency. In practice this applies to `gsd-phase-researcher` and `gsd-planner` during early architecture-setting work.
+- Replanning, revision, and gap-closure planning should use `gpt-5.4` with `high` reasoning. Do not use `xhigh` for checker-driven plan fixes or gap-filling passes.
+- `gsd-plan-checker` is treated as a verification agent for reasoning policy and should stay at `gpt-5.4` with `high` reasoning.
+- Before every agent spawn, re-read this `AGENTS.md` section instead of relying on memory.
+- Before every agent spawn, classify the task explicitly as one of: initial architecture research/planning, replanning/revision/gap-filling, or execution/verification.
+- Before every delegation, state the exact mapping in one line in commentary using the format `agent -> model -> reasoning` so the chosen model and reasoning level are visible and auditable.
+- If a user intervention changes delegation policy mid-turn, that intervention overrides any prior delegation plan immediately.
+- If a spawn-policy mistake is detected, stop the delegation loop and correct policy adherence before spawning anything else.
+- Never report requested spawn settings as if they prove the effective launch settings. Requested `spawn_agent` arguments and the runtime-persisted child-thread settings are separate facts.
+- For this Codex environment, verify effective launched settings against the local runtime state after every spawn before claiming the launch matched policy. In practice: requested settings come from `~/.codex/logs_1.sqlite` or `~/.codex/log/codex-tui.log`; effective launched settings come from `~/.codex/state_5.sqlite` child-thread rows.
+- If requested and effective launch settings differ, stop immediately, kill the agent, and report the mismatch plainly. Do not defend the request as if it were the launch.
 - Repo config pins the core GSD role models via `.planning/config.json` `model_overrides`. Do not rely on legacy `opus`/`sonnet` labels to mean anything precise in Codex.
 - Process lesson: if planner/checker agents fail or stall, do not treat manually written PLAN artifacts as equivalent to a properly verified GSD planning pass. Either restore the planning/checking path or perform stricter local validation before any execution attempt.
 - Orchestration lesson: do not treat short agent silence as proof of failure. Use a proper gauntlet first: allow a longer uninterrupted run, check for artifact output or commits, send one status probe, and only then classify the agent path as blocked.
