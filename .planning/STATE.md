@@ -3,11 +3,11 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Session resumed, ready to plan Phase 1
-last_updated: "2026-04-08T22:35:14.448Z"
-last_activity: 2026-04-08 -- Phase 1 planning complete
+stopped_at: Canon refreshed and superseded Phase 1 snapshot archived; rerun Phase 1 planning before execution
+last_updated: "2026-04-11T04:05:00-04:00"
+last_activity: 2026-04-11 -- canon refreshed, long-arc vision tightened, and superseded Phase 1 snapshot archived
 progress:
-  total_phases: 7
+  total_phases: 8
   completed_phases: 0
   total_plans: 4
   completed_plans: 0
@@ -18,17 +18,17 @@ progress:
 
 ## Project Reference
 
-See: .planning/PROJECT.md (updated 2026-04-08)
+See: .planning/PROJECT.md (updated 2026-04-11)
 
 **Core value:** Knowledgeable F1 fans can have a genuinely compelling, social, expert-feeling game night built around authored F1 rounds that reward real sport-specific recognition and interpretation.
 **Current focus:** Phase 1 - Authored Round Contract
 
 ## Current Position
 
-Phase: 1 of 7 (Authored Round Contract)
+Phase: 1 of 8 (Authored Round Contract)
 Plan: 0 of TBD in current phase
-Status: Ready to execute
-Last activity: 2026-04-08 -- Phase 1 planning complete
+Status: Replanning required before execution
+Last activity: 2026-04-11 -- canon refreshed and prior overreach bundle archived as superseded comparison record
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -58,21 +58,23 @@ Progress: [░░░░░░░░░░] 0%
 Decisions are logged in PROJECT.md Key Decisions table.
 Recent decisions affecting current work:
 
-- Phase 1-2: v1 is anchored on authored `circuit` and `venue` answer surfaces before any finer-grained answer expansion.
-- Phase 3: The roadmap preserves the `Colyseus` versus `PartyKit` room-runtime choice until planning clarifies the required durability promise.
-- Phase 5-6: Watchability and curated pack quality are treated as core delivery criteria, not late polish.
+- The roadmap now includes Phase `3.1` as a formal UI contract gate before Phase 4 and Phase 5 implementation.
+- Browser-first operator and guest flow across local, LAN, and privately hosted remote play is part of the core product posture, not a side concern.
+- The long-arc project frame is now explicit as `Game Night Works -> Play Anytime, Anywhere -> F1 Party Platform`, but only Milestone 1 remains on the active execution spine.
 
 ### Pending Todos
 
-None yet.
+- Rerun `discuss-phase` for Phase 1 against refreshed canon before execution.
+- Replan Phase 1 from the refreshed steering brief rather than using the archived superseded bundle.
 
 ### Blockers/Concerns
 
-- Phase 3 planning must explicitly choose the room authority runtime based on reconnect and timer guarantees.
-- Later planning should not widen v1 into async challenges or adjacent party modes before the anchor room loop is proven.
+- Phase 1 and Phase 2 should absorb refreshed canon and long-arc seam protection without widening current scope.
+- Phase 3 planning must explicitly choose the room authority runtime based on reconnect, timer, and deploy-parity guarantees.
+- Later planning should not widen v1 into async challenges, public discovery, or adjacent party modes before the anchor room loop is proven.
 
 ## Session Continuity
 
-Last session: 2026-04-08T18:05:47-04:00
-Stopped at: Session resumed, ready to plan Phase 1
+Last session: 2026-04-11T04:05:00-04:00
+Stopped at: Canon refreshed and superseded Phase 1 snapshot archived; rerun Phase 1 planning before execution
 Resume file: .planning/phases/01-authored-round-contract/.continue-here.md

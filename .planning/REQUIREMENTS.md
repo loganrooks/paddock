@@ -98,6 +98,24 @@
 
 - **RET-01**: Product supports a daily or recurring challenge format.
 - **RET-02**: Product supports lightweight player identity and session history without requiring a heavy public-account posture.
+- **RET-03**: Player can review their own round-by-round history and accuracy trends across sessions.
+- **RET-04**: Session results remain browsable after play as a replay or structured review surface.
+
+### Content Operations
+
+- **OPS-V2-01**: Author can preview a round in isolation before adding it to a pack.
+- **OPS-V2-02**: Author can import, validate, or revise a pack through a more ergonomic interface than raw CLI-only workflows.
+- **OPS-V2-03**: Pack can be exported or shared as a stable artifact that another trusted instance can import.
+
+### Distribution And Access
+
+- **DIST-01**: Product can run from a private remote host and accept trusted browser guests over standard HTTPS and WebSocket ingress without requiring guest-side networking tools.
+- **DIST-02**: Product can run in an always-on private-host mode where trusted users can start or join sessions without the creator being physically present.
+
+### Content Scaling
+
+- **CONTENT-01**: Content pool supports pack generation or curation from tagged round pools.
+- **CONTENT-02**: Round-level calibration data is visible enough to influence curation, balancing, and pack construction.
 
 ## Protected Seams And Explicit Deferrals
 

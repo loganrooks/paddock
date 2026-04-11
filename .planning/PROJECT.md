@@ -72,6 +72,58 @@ Open-source references already studied include:
 
 The consolidated initialization brief is in `discovery/14-gsd-seed.md`.
 
+## Milestone Arc
+
+The project now has a sensible three-milestone directional arc. This is not a second active roadmap; it is the longer-range frame that current-phase planning should preserve without prematurely importing later scope.
+
+### Milestone 1: Game Night Works
+
+Goal:
+
+- prove one authored geography-and-circuit anchor mode and one watchable private-room wrapper that real friends actually want to replay
+
+What this milestone must establish:
+
+- authored round and pack contracts with stable identity and fallback posture
+- pure judging and reveal logic independent of room transport
+- private-room authority, browser-first join, host-screen legibility, and replayable social flow
+- curated starter packs and enough calibration signal to improve the corpus
+
+### Milestone 2: Play Anytime, Anywhere
+
+Goal:
+
+- prove that the same substrate can support asynchronous, remote, recurring, and more sustainable content operations without turning the project into a public-platform obligation too early
+
+What this milestone is expected to add:
+
+- async or solo wrapper surfaces
+- lightweight player identity and session history
+- private-host durability and more persistent remote access patterns
+- authoring and preview tooling that make content production sustainable
+- richer content operations, pack sharing, and calibration insight
+
+### Milestone 3: F1 Party Platform
+
+Goal:
+
+- expand from one strong anchor mode into a broader F1 party platform only if the shared substrate has actually earned that expansion
+
+What this milestone is expected to add:
+
+- adjacent non-anchor mode families
+- team variants and richer room roles
+- spectator-facing or showcase-friendly wrappers
+- deeper content programming, replay, and social surfaces
+
+## How The Long Arc Constrains v1
+
+The long-arc vision should influence current work in one specific way:
+
+- Milestone 1 work should preserve seams for later wrappers, identity, content scaling, and adjacent modes where cheap to do so.
+- Milestone 1 work should not pull Milestone 2 or 3 feature scope forward just because the later path is visible.
+- The shared substrate matters more than forecasting exact later features. Preserve the substrate; defer the wrappers until they are earned.
+
 ## Future-Aware Posture
 
 The current product posture should stay explicit while planning evolves:
