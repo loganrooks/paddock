@@ -3,9 +3,9 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Phase 01 context gathered
-last_updated: "2026-04-11T10:34:41.320Z"
-last_activity: 2026-04-11
+stopped_at: Phase 01 pre-rerun boundary prepared
+last_updated: "2026-04-14T00:22:01-04:00"
+last_activity: 2026-04-14
 progress:
   total_phases: 7
   completed_phases: 0
@@ -28,7 +28,7 @@ See: .planning/PROJECT.md (updated 2026-04-11)
 Phase: 1 of 8 (Authored Round Contract)
 Plan: 0 of TBD in current phase
 Status: Replanning required before execution
-Last activity: 2026-04-11
+Last activity: 2026-04-14
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -65,17 +65,20 @@ Recent decisions affecting current work:
 
 ### Pending Todos
 
-- Rerun `discuss-phase` for Phase 1 against refreshed canon before execution.
-- Replan Phase 1 from the refreshed steering brief rather than using the archived superseded bundle.
+- Run a fresh `discuss-phase` for Phase 1 against refreshed canon before execution.
+- Generate a new live `01-CONTEXT.md` from that rerun rather than treating the current pre-rerun snapshot as execution-approved.
+- Replan Phase 1 from the refreshed steering brief rather than using the pre-rerun snapshot bundle.
+- Decide the long-lived branch/archive posture for `scraped-radio` before calling the workspace development-ready.
 
 ### Blockers/Concerns
 
 - Phase 1 and Phase 2 should absorb refreshed canon and long-arc seam protection without widening current scope.
 - Phase 3 planning must explicitly choose the room authority runtime based on reconnect, timer, and deploy-parity guarantees.
 - Later planning should not widen v1 into async challenges, public discovery, or adjacent party modes before the anchor room loop is proven.
+- The current `01-*` bundle remains useful input, but it is not the live execution-approved Phase 01 steering set until rerun completes.
 
 ## Session Continuity
 
-Last session: 2026-04-11T10:34:41.315Z
-Stopped at: Phase 01 context gathered
+Last session: 2026-04-14T00:22:01-04:00
+Stopped at: Phase 01 pre-rerun boundary prepared
 Resume file: .planning/phases/01-authored-round-contract/01-CONTEXT.md

@@ -1,7 +1,9 @@
 # Phase 1: Authored Round Contract - Context
 
 **Gathered:** 2026-04-11
-**Status:** Ready for planning
+**Status:** Pre-rerun steering snapshot; fresh discuss + plan required before execution
+
+> Status note (2026-04-14): This file has been preserved as the latest pre-rerun steering snapshot and copied to `.planning/phases/01-authored-round-contract/superseded/2026-04-14-pre-rerun-boundary/phase/01-CONTEXT.md`. Use it as input to the next discuss pass, not as an execution-approved final steering brief.
 
 <domain>
 ## Phase Boundary
@@ -145,11 +147,14 @@ Define the authored pack and round substrate for the anchor mode, including answ
 ### Protected Seams
 - Preserve explicit `venue -> circuit -> section -> corner` relationships in the authored model even though v1 gameplay only requires `venue` and `circuit`.
 - Keep authored content, pure judging rules, and room orchestration separable so later wrappers and room-runtime choices do not require a content-contract rewrite.
+- Preserve authored content identity separately from later session snapshots, event/editorial wrappers, and other future context records so `pack` and `session` do not harden into the only durable nouns.
 - Keep clue media provider-agnostic so Street View, static crops, map fragments, authored text, and other clue families can coexist without schema churn.
-- Preserve stable identifiers and explicit pack-to-round references so later snapshots, calibration, sharing, and wrapper reuse can depend on deterministic content identity.
+- Preserve stable identifiers and explicit pack-to-round references so later snapshots, calibration, sharing, wrapper reuse, and layered history records can depend on deterministic content identity.
+- Preserve reveal semantics without implying one universal viewer surface so later host-screen plus private-device play or other topology-sensitive wrappers do not require a content-contract rewrite.
 
 ### Explicit Non-Decisions
 - Do not decide public challenge surfaces, room runtime, account-backed persistence, or adjacent non-anchor modes in Phase 1.
+- Do not decide persistent identity, room/group memory, or event-memory structures in Phase 1.
 - Do not silently promote `section`, `corner`, or composite answers into active v1 gameplay scope just because the schema preserves room for them.
 - Do not decide a full internal authoring product before the file-first contract and validation flow prove where the real authoring pain is.
 
@@ -177,3 +182,4 @@ Define the authored pack and round substrate for the anchor mode, including answ
 
 *Phase: 01-authored-round-contract*
 *Context gathered: 2026-04-11*
+*Carry-forward updated: 2026-04-13 after Round 2B canon patch*

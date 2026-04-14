@@ -1,5 +1,7 @@
 # Phase 01: Authored Round Contract - Research
 
+> Status note (2026-04-14): This memo has been snapshotted at `.planning/phases/01-authored-round-contract/superseded/2026-04-14-pre-rerun-boundary/phase/01-RESEARCH.md`. Keep using it as reference input, but revalidate it against the next live `01-CONTEXT.md` and fresh Phase 01 plan before treating it as current execution guidance. Where its proposed Wave 0 commands or filenames diverge from `01-VALIDATION.md`, treat both as illustrative pre-rerun inputs rather than binding execution truth.
+
 **Researched:** 2026-04-11 [VERIFIED: local date]
 **Domain:** Authored content contracts, YAML content compilation, TypeScript schema validation [VERIFIED: .planning/ROADMAP.md][VERIFIED: .planning/phases/01-authored-round-contract/01-CONTEXT.md]
 **Confidence:** HIGH [ASSUMED]

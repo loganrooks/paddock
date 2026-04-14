@@ -45,6 +45,9 @@ Three tensions need to stay visible:
 The current most useful vocabulary distinction is:
 
 - **anchor mode**: the authored geography-and-circuit round contract itself
+- **event container**: a higher-level social or programmed shell that may outlive one active game
+- **room**: the participant and trust shell in which a group gathers
+- **game instance**: the active playable loop or frozen session currently being run inside a room or wrapper
 - **session wrapper**: live room, solo practice, frozen challenge, or later spectator-facing shell
 - **watchability layer**: the host-screen clarity, suspense, and reveal payoff that make a session socially legible
 - **platform shell**: the broader long-arc product, if later wrappers and sibling modes genuinely reuse the same substrate
@@ -55,6 +58,7 @@ Research and synthesis so far suggest:
 - the geography core should feel circuit-aware and reveal-rich, not merely distance-scored
 - the product is likely strongest in a host-screen-friendly social format
 - one shared content substrate may later support solo, challenge, couch, and private-room wrappers
+- host-screen-friendly should be read as a watchability and shared-legibility bias, not as a claim that every participant always shares one truth surface
 
 The most important modeling distinction discovered so far is:
 
@@ -101,9 +105,10 @@ What this milestone is expected to add:
 
 - async or solo wrapper surfaces
 - lightweight player identity and session history
+- room/group memory and recurrence surfaces, if earned
 - private-host durability and more persistent remote access patterns
 - authoring and preview tooling that make content production sustainable
-- richer content operations, pack sharing, and calibration insight
+- richer content operations, pack sharing, calibration insight, and reusable content/history surfaces across wrappers
 
 ### Milestone 3: F1 Party Platform
 
@@ -133,7 +138,11 @@ The current product posture should stay explicit while planning evolves:
 - The emotional center of v1 is a watchable private game-night ritual for trusted groups, not ambient public discovery.
 - The guest-facing product surface should stay browser-first whether the operator is running locally, on a LAN, or on a privately hosted remote box.
 - The shared substrate should stay reusable across likely later wrappers such as solo practice, frozen challenge links, private remote rooms, or spectator-facing shells.
+- `presence identity` should remain separable from later persistent identity so low-friction room join does not harden into the wrong long-term model.
+- Memory should stay layered: player history, room/group memory, event memory, and content calibration/history should not be treated as one flat ledger by default.
+- Cadence should stay layered: session pacing, editorial/content rhythm, and later event cadence should remain distinguishable even if Milestone 1 implements only a narrow subset.
 - Visibility state should stay explicit: trusted private rooms now, unlisted/share-by-link surfaces later, and broader public discovery only when the project deliberately accepts stronger moderation and status obligations.
+- Bounded public or spectator-facing shells should be understood as wrappers around private-first play, not as evidence that the product center has become public-first.
 - Current trust and service assumptions remain modest: private use, low moderation burden, no strong public uptime promise, no paid guaranteed access promise, and no obligation yet to support stranger participation well.
 
 ## Constraints
@@ -188,4 +197,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-11 after roadmap refresh reread*
+*Last updated: 2026-04-13 after Round 2B canon patch*

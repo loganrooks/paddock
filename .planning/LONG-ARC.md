@@ -45,6 +45,27 @@ Possible wrappers stay explicitly alive but uncommitted:
 
 Some later surfaces may be true wrappers on the same substrate. Others may become sibling products that share theme, audience, or portions of the authored stack more than they share one exact session shell. This doctrine keeps those futures visible without pretending they are all equally likely or equally imminent.
 
+## Room, Wrapper, And Memory Layer Doctrine
+
+The project should not assume that `event container`, `room`, and `active game instance` are the same thing just because Milestone 1 often renders them simply.
+
+- an `event container` is the higher-level social or programmed shell
+- a `room` is the participant and trust shell
+- a `game instance` is the currently active playable loop or frozen session inside that shell
+
+These may often map 1:1 in the first implementation, but planning should preserve the distinction so rematch flow, bounded audience shells, and later recurrence structures do not require a second product core.
+
+The same applies to visibility. Host-screen watchability is a presentation and legibility posture, not a commitment to one permanent participant truth surface. Some later wrappers may require shared-stage plus private devices, same-house-separated local play, role-private views, or audience-readable shells that do not leak player-private state.
+
+Memory and cadence should also stay layered:
+
+- player memory is not the same as room/group memory
+- room/group memory is not the same as event memory
+- event memory is not the same as content calibration/history
+- session pacing is not the same as editorial rhythm or later event cadence
+
+Milestone 1 does not need to implement all of those layers. It does need to avoid flattening them into one profile, one room history, one results ledger, or one cadence model by default.
+
 ## Milestone Arc
 
 Milestone 1 proves that the private ritual works. It proves one authored geography-and-circuit anchor mode inside one watchable private-room wrapper. It protects later wrappers by keeping the substrate and seams reusable, but it does not import those later wrappers into current scope.
@@ -57,7 +78,7 @@ The governing rule across all three milestones is simple: preserve future seams 
 
 ## Transition Doctrine
 
-Transition should be staged by product surface and obligation threshold, not by one binary jump from private to public. Visibility state, hosting shape, and support promises are separate axes and should remain separate in planning.
+Transition should be staged by product surface and obligation threshold, not by one binary jump from private to public. Visibility state, hosting shape, support promises, memory layers, and cadence layers are separate axes and should remain separate in planning.
 
 The doctrine is:
 
@@ -123,7 +144,10 @@ Milestone 1 should actively protect these bets:
 - watchable private-room play is the strongest first proof
 - browser-first guest participation should survive across local, LAN, and privately hosted remote operation
 - visibility state should stay explicit rather than being implied by transport or deployment
+- room shell, active game instance, and later event/container layers should not collapse into one default noun
 - self-hostable authoritative rooms are the correct durability seam
+- bounded audience or public shells should stay possible without becoming the default identity model
+- memory and cadence should stay layered even if Milestone 1 directly implements only a narrow subset
 - judging, reveal, room authority, and presentation should stay separable where practical
 
 These are protected bets, not promises that every future surface will be built. They define what current work should avoid foreclosing.

@@ -27,6 +27,14 @@ Broader F1 party-game expansion is still part of the long-term idea, but it is n
 
 This repo uses regular GSD for Codex, not GSD Reflect.
 
+Operational reference docs:
+
+- [`AGENTS.md`](./AGENTS.md) — agent-facing runtime and delegation rules
+- [`WORKFLOW.md`](./WORKFLOW.md) — git, verification, and devops workflow
+- [`AI-GUARDRAILS.md`](./AI-GUARDRAILS.md) — solo+AI signoff and autonomy rules
+- [`ARTIFACT-GOVERNANCE.md`](./ARTIFACT-GOVERNANCE.md) — artifact classes, staleness, retention, and cleanup policy
+- [`.codex/skills/gsd-rigorous-research/SKILL.md`](./.codex/skills/gsd-rigorous-research/SKILL.md) — repo-local research skill for non-phase-bound investigation, deliberation, and source-traceable synthesis
+
 Local install:
 
 ```bash
@@ -35,17 +43,19 @@ Local install:
 
 That script installs the repo-local regular GSD runtime and reapplies this repo's tracked GSD overlay so exploratory discuss-phase behavior and future-aware `CONTEXT.md` generation stay reproducible across machines.
 
-Current next step:
+To inspect the live project state:
 
 ```bash
-$gsd-plan-phase 1
+$gsd-progress
 ```
 
-If you want steering before execution:
+Phase 01 is currently at a pre-rerun boundary. If you want to start the fresh Phase 1 steering rerun from current canon:
 
 ```bash
 $gsd-discuss-phase 1
 ```
+
+Then regenerate fresh planning from that new steering before starting execution work.
 
 ## Notes
 

@@ -9,6 +9,8 @@ created: 2026-04-11
 
 # Phase 01 — Validation Strategy
 
+> Status note (2026-04-14): This validation artifact has been snapshotted at `.planning/phases/01-authored-round-contract/superseded/2026-04-14-pre-rerun-boundary/phase/01-VALIDATION.md`. Treat it as pre-rerun planning input rather than as the final live validation contract until the next Phase 01 discuss + planning pass completes. Where its proposed Wave 0 commands or filenames diverge from `01-RESEARCH.md`, treat both as illustrative pre-rerun inputs rather than binding execution truth.
+
 > Per-phase validation contract for feedback sampling during execution.
 
 ---

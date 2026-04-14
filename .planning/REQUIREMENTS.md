@@ -121,13 +121,18 @@
 
 These are planning-reference anchors, not additional ship-gates. They exist so future-aware seams and deliberate deferrals can be cited directly in roadmap entries, context files, plans, and later reviews.
 
+Where these seams or deferrals are justified mainly by non-foreclosure rather than immediate Milestone 1 scope, they should be read together with `.planning/LONG-ARC.md`. That doctrine explains why the seam is being preserved without implying that the later wrapper, visibility state, or durability layer is already committed product scope.
+
 ### Protected Seams
 
 - **SEAM-01**: The authored round model should preserve explicit `venue -> circuit -> section -> corner` relationships rather than collapsing the answer contract to coordinates only or flat labels only.
 - **SEAM-02**: Judging, reveal, and scoring contracts should remain separable from room transport and UI surfaces.
-- **SEAM-03**: Room authority and session-state ownership should remain separable from host-screen and phone-controller presentation.
+- **SEAM-03**: Room authority, active-session ownership, and progression control should remain separable from host-screen and phone-controller presentation, and from any single presenting browser.
 - **SEAM-04**: The authored content substrate should stay reusable across private-room play and plausible later wrapper surfaces such as async challenges, solo practice, or adjacent expert-facing modes.
 - **SEAM-05**: Wrapper access policy and visibility state should remain separable from the shared content and session substrate so private rooms, unlisted challenges, and later spectator/public read surfaces do not require a second product core.
+- **SEAM-06**: `event_container`, `room`, and `active game/session instance` should remain logically separable even when Milestone 1 often renders them 1:1 in the visible UI.
+- **SEAM-07**: Visibility publication and staged reveal should remain separable from any one shared participant surface so host-screen plus private devices, same-house-separated play, and bounded audience shells do not require a second product core.
+- **SEAM-08**: Presence identity, persistent identity, room/group memory, event memory, and content calibration history should not collapse into one flat profile or one undifferentiated results ledger.
 
 ### Explicit Deferrals
 
@@ -136,6 +141,7 @@ These are planning-reference anchors, not additional ship-gates. They exist so f
 - **DEF-03**: Paid guaranteed access, public uptime promises, or commercialization hardening remain deferred.
 - **DEF-04**: Adjacent non-anchor F1 party modes remain deferred until the anchor geography-and-circuit loop is proven.
 - **DEF-05**: Public room discovery, stranger participation, and open creator publishing remain deferred until the project intentionally accepts their moderation and trust obligations.
+- **DEF-06**: Exact higher-tempo transport, prediction, rollback, or action-mode authority profiles remain deferred until a future mode family actually earns them.
 
 ## Out of Scope
 
@@ -188,4 +194,4 @@ These are planning-reference anchors, not additional ship-gates. They exist so f
 
 ---
 *Requirements defined: 2026-04-08*
-*Last updated: 2026-04-11 after roadmap refresh reread*
+*Last updated: 2026-04-13 after Round 2B canon patch*
