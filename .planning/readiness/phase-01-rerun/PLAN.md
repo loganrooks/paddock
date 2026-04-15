@@ -150,6 +150,7 @@ For this readiness sequence:
 
 - use the current model policy as already settled unless later evidence materially overturns it
 - use cross-vendor audit selectively at load-bearing review boundaries rather than as a blanket ritual
+- in this repo's current practical context, `cross-vendor` means an Anthropic Claude lane when available, not an abstract second opinion
 - reserve that stronger external reread for artifacts that can materially steer:
   - governance doctrine
   - harness ownership
@@ -161,6 +162,11 @@ Cross-vendor audit is not currently required for:
 - mechanical citation repair
 - routine readiness status updates
 - low-consequence wording cleanup where the governing decision is already settled
+
+Current preferred external model choices from the model-assignment research are:
+
+- `claude-sonnet-4.6` for routine external audit where vendor diversity matters but the highest-cost lane is not justified
+- `claude-opus-4.6` for high-stakes architecture, canon-sensitive planning, harness ownership, rerun-readiness judgment, and stubborn-debug escalation
 
 Do not create a dedicated cross-model-audit skill yet.
 

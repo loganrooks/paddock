@@ -13,6 +13,8 @@ Use this for explicit readiness checkpoint reviews.
 - authoring lane:
 - reviewer:
 - model / reasoning or vendor:
+  - for `internal-verification-agent`, default is `gpt-5.4 high`
+  - for `cross-vendor-reread`, name the exact Claude model used, normally `claude-sonnet-4.6` or `claude-opus-4.6`
 - baseline commit / artifact snapshot:
 - independence relationship:
   - `independent`
@@ -73,5 +75,6 @@ For each material problem, classify the required response as one of:
 
 - Does this review satisfy the checkpoint's independent-review requirement?
 - Was a cross-vendor lane available?
+- If cross-vendor was available, which Claude lane was appropriate here and why?
 - If not used, why not?
 - If used, what did independence add?

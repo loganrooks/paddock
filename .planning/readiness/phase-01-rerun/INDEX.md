@@ -20,6 +20,7 @@ Then as needed:
 - [CHECKPOINT-REVIEW-MATRIX.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CHECKPOINT-REVIEW-MATRIX.md)
 - [REVIEW-POLICY.yaml](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml)
 - [REVIEW-TEMPLATE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEW-TEMPLATE.md)
+- [CLAUDE-REVIEW-COMMANDS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CLAUDE-REVIEW-COMMANDS.md)
 - [CHECKPOINT-LEDGER.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CHECKPOINT-LEDGER.md)
 - [DEVIATIONS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/DEVIATIONS.md)
 - [REGRESSION-CHECKLIST.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REGRESSION-CHECKLIST.md)
@@ -37,6 +38,7 @@ Then as needed:
 - checkpoint review expectations: `CHECKPOINT-REVIEW-MATRIX.md`
 - machine-readable checkpoint review rules: `REVIEW-POLICY.yaml`
 - explicit review spec shape: `REVIEW-TEMPLATE.md`
+- concrete Anthropic Claude review invocations: `CLAUDE-REVIEW-COMMANDS.md`
 - commit history of readiness boundaries: `CHECKPOINT-LEDGER.md`
 - sequence changes: `DEVIATIONS.md`
 

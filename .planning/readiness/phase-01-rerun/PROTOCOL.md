@@ -11,6 +11,7 @@ This file defines how to operate the readiness package without relying on ambien
 5. the active checkpoint file under [GATES/](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/GATES)
 6. [CHECKPOINT-REVIEW-MATRIX.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CHECKPOINT-REVIEW-MATRIX.md) when deciding checkpoint review depth
 7. [REVIEW-POLICY.yaml](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml) for machine-readable closure and independence rules
+8. [CLAUDE-REVIEW-COMMANDS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CLAUDE-REVIEW-COMMANDS.md) when a Claude cross-vendor lane is actually being run
 
 ## Mandatory Updates
 
@@ -33,6 +34,12 @@ Write or update an explicit review artifact from [REVIEW-TEMPLATE.md](/home/rook
 - a checkpoint receives `internal-verification-agent` review
 - a checkpoint receives `cross-vendor-reread`
 - a gate is closed on the strength of a non-trivial review judgment rather than only mechanical closure
+
+If the review uses the Anthropic Claude lane:
+
+- persist the prompt file in the repo first
+- use the command patterns in `CLAUDE-REVIEW-COMMANDS.md`
+- record the exact Claude model and effort used
 
 Update `TASKS.md` whenever:
 
