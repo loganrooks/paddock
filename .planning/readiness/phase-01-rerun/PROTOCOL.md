@@ -9,6 +9,7 @@ This file defines how to operate the readiness package without relying on ambien
 3. [STATUS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/STATUS.md)
 4. [STATE.yaml](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/STATE.yaml)
 5. the active checkpoint file under [GATES/](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/GATES)
+6. [CHECKPOINT-REVIEW-MATRIX.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CHECKPOINT-REVIEW-MATRIX.md) when deciding checkpoint review depth
 
 ## Mandatory Updates
 
@@ -25,6 +26,12 @@ Update the active gate file whenever:
 - a gate is reopened
 - a gate is provisionally or strongly satisfied
 - a gate is closed
+
+Write or update an explicit review artifact from [REVIEW-TEMPLATE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEW-TEMPLATE.md) whenever:
+
+- a checkpoint receives `internal-verification-agent` review
+- a checkpoint receives `cross-vendor-reread`
+- a gate is closed on the strength of a non-trivial review judgment rather than only mechanical closure
 
 Update `TASKS.md` whenever:
 
@@ -66,6 +73,22 @@ Stop and escalate instead of pushing through if:
 - current canon looks inconsistent enough that readiness work is no longer the right next layer
 - the rerun begins reintroducing asymmetries already corrected in `05-gap-closure`
 - a worker output cannot be cleanly accepted, revised, parked, or rejected
+
+## Gap Handling Rule
+
+When review finds gaps, do not jump straight from "finding exists" to "patch something."
+
+Classify the gap first using the disposition ladder in [REVIEW-TEMPLATE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEW-TEMPLATE.md):
+
+- `accept`
+- `revise-current`
+- `reopen-current`
+- `reactivate-earlier`
+- `escalate-cross-vendor`
+- `user-consult`
+- `defer-nonblocking`
+
+The review artifact should make that classification explicit before further work proceeds.
 
 ## Quality Standard
 

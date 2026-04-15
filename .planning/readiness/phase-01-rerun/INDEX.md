@@ -16,6 +16,8 @@ Then as needed:
 - [TASKS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/TASKS.md)
 - [DEFERRED.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/DEFERRED.md)
 - [RESEARCH-INTAKE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/RESEARCH-INTAKE.md)
+- [CHECKPOINT-REVIEW-MATRIX.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CHECKPOINT-REVIEW-MATRIX.md)
+- [REVIEW-TEMPLATE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEW-TEMPLATE.md)
 - [CHECKPOINT-LEDGER.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CHECKPOINT-LEDGER.md)
 - [DEVIATIONS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/DEVIATIONS.md)
 - [REGRESSION-CHECKLIST.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REGRESSION-CHECKLIST.md)
@@ -29,6 +31,8 @@ Then as needed:
 - task routing: `TASKS.md`
 - deferrals: `DEFERRED.md`
 - research absorption / consequences: `RESEARCH-INTAKE.md`
+- checkpoint review expectations: `CHECKPOINT-REVIEW-MATRIX.md`
+- explicit review spec shape: `REVIEW-TEMPLATE.md`
 - commit history of readiness boundaries: `CHECKPOINT-LEDGER.md`
 - sequence changes: `DEVIATIONS.md`
 
