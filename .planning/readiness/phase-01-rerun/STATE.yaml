@@ -1,23 +1,23 @@
-current_checkpoint: 3
-checkpoint_name: workflow_harness_scope_audit
-checkpoint_state: in_progress
+current_checkpoint: 4
+checkpoint_name: phase_workflow_harness_excellence_audit
+checkpoint_state: not_started
 readiness_state: not_ready
-current_task: refine_and_execute_checkpoint_3_gsd_split_mapping
-next_action: checkpoint_spec_refinement_then_launch_deeper_gsd_mapping
+current_task: author_checkpoint_4_launch_bundle
+next_action: write_review_and_launch_checkpoint_4_audit_lanes
 review_policy_path: .planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml
 current_checkpoint_requires_independent_reviewer_for_closure: true
 working_tree_clean_expected: true
 blocked_by:
-  - deeper_gsd_mapping_not_run
-  - gsd_scope_synthesis_not_yet_written
-  - workflow_harness_scope_verdict_not_yet_recorded
+  - checkpoint_4_excellence_audit_not_yet_run
+  - doctrine_to_worker_reach_not_yet_verified
+  - named_agent_authority_and_reasoning_truth_not_yet_verified
+  - compaction_resume_continuity_not_yet_pressure_tested
+  - execution_verification_and_worktree_boundary_not_yet_pressure_tested
 open_findings:
-  - workflow_and_harness_landscape_not_yet_scoped_for_deeper_excellence_audit
-  - initial_gsd_mapping_triggered_split_inside_checkpoint_3
-  - hook_and_config_inventory_ownership_not_yet_scoped
-  - branch_and_worktree_boundary_surface_not_yet_scoped
-  - template_and_review_routing_surfaces_not_yet_scoped
-  - verify_and_ci_surface_ownership_not_yet_scoped
+  - codex_and_gsd_excellence_envelope_not_yet_audited_against_best_possible_standard
+  - agents_governance_reach_into_operative_workers_not_yet_audited
+  - branch_and_worktree_boundary_materialization_not_yet_tested_under_excellence_audit
+  - verify_and_ci_surface_ownership_not_yet_resolved
   - active_phase_workflow_and_harness_excellence_audit_not_yet_run
 open_opportunities:
   - repo_local_non_phase_external_reread_protocol_template
@@ -33,6 +33,15 @@ checkpointed_baselines:
   - dd3966c docs(research): repair governance audit bundle citations and markers
   - 746e53a docs(readiness): add checkpoint 1 audit surface
   - 97bd603 docs(readiness): close checkpoint 1 and advance to checkpoint 2
+  - bcbae15 docs(readiness): close checkpoint 2 and advance to checkpoint 3
+  - af9c21b docs(readiness): checkpoint checkpoint-3 initial surface maps
+  - 6974e54 docs(readiness): refine checkpoint-3 split mapping bundle
+  - 270d43a docs(readiness): add checkpoint-3 split-spec cross-vendor review
+  - f14ecf2 docs(readiness): tighten checkpoint-3 split specs after review
+  - cf174d9 docs(readiness): add checkpoint-3 deeper gsd maps
+  - b10043f docs(readiness): add checkpoint-3 gsd scope synthesis
+  - 302e6b1 docs(readiness): add checkpoint-3 scope audit review specs
+  - 8a6f42c docs(signal): cross-vendor-review-artifact-authority-failure
 next_expected_commit:
-  - checkpoint-3 spec refinement and launch-state checkpoint
+  - checkpoint-4 launch bundle and review-spec checkpoint
 requires_user_input: false

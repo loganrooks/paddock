@@ -1,6 +1,6 @@
 # Checkpoint 3: Workflow / Harness Scope Audit
 
-Status: in progress  
+Status: closed  
 Last updated: 2026-04-15
 
 ## Objective
@@ -47,6 +47,40 @@ Last updated: 2026-04-15
 ## Commit Rule
 
 - if the scoping artifact is independently reviewable, checkpoint it before launching the deeper tandem audit
+
+## Closure Evidence
+
+- authored scope artifact:
+  - [AUDITS/checkpoint-3-workflow-harness-scope-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-workflow-harness-scope-audit.md)
+- upstream resolved mapping inputs:
+  - [AUDITS/checkpoint-3-codex-surface-map.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-codex-surface-map.md)
+  - [AUDITS/checkpoint-3-gsd-surface-map.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-gsd-surface-map.md)
+  - [AUDITS/checkpoint-3-gsd-workflow-chain-and-artifact-contracts.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-gsd-workflow-chain-and-artifact-contracts.md)
+  - [AUDITS/checkpoint-3-gsd-agent-doctrine-and-role-contracts.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-gsd-agent-doctrine-and-role-contracts.md)
+  - [AUDITS/checkpoint-3-gsd-runtime-config-overlay-truth.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-gsd-runtime-config-overlay-truth.md)
+  - [AUDITS/checkpoint-3-gsd-scope-synthesis.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-gsd-scope-synthesis.md)
+- review bundle:
+  - [REVIEWS/checkpoint-3-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-3-internal-review-r1.md)
+  - [REVIEWS/checkpoint-3-scope-audit-cross-vendor-review-opus-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-3-scope-audit-cross-vendor-review-opus-r1.md)
+  - [REVIEWS/checkpoint-3-scope-audit-cross-vendor-review-claude-code-opus-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-3-scope-audit-cross-vendor-review-claude-code-opus-r1.md)
+
+## Closure Verdict
+
+- Checkpoint 3 is closed.
+- Accepted closure basis:
+  - the scope audit now fixes the mispointed execution/verification citation
+  - branch/worktree boundary materialization is now routed explicitly through the Checkpoint 4 execution/verification seam plus the conditional Checkpoint 5 machinery bucket
+  - package state no longer falsely says the deeper GSD mapping and overall scope synthesis were not started
+- Final accepted envelope for Checkpoint 4:
+  - one Codex lane
+  - three GSD excellence sublanes
+  - mandatory seam checks
+- Checkpoint 5 remains conditional.
+
+## Handoff To Checkpoint 4
+
+- Do not reopen whether the GSD side should split unless later evidence shows the accepted Checkpoint 3 map was materially wrong.
+- Launch Checkpoint 4 from the accepted envelope above, not from a fresh omnibus remap of the harness.
 
 ## Reopen Triggers
 

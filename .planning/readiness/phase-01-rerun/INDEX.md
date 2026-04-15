@@ -48,4 +48,4 @@ Then as needed:
 
 ## Current Active Checkpoint
 
-- `Checkpoint 1`: governance-doc normalization audit
+- `Checkpoint 4`: phase workflow / harness excellence audit
