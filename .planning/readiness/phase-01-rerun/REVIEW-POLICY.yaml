@@ -74,12 +74,35 @@ checkpoints:
     closure_requires_independent_reviewer: true
     default_review_modes:
       - internal-verification-agent
+    cross_vendor_default: conditional
+    cross_vendor_preferred_when:
+      - scope_judgment_is_narrowing_or_expanding_load_bearing_audit_surface
+      - machinery_ownership_may_already_be_reallocated
+    cross_vendor_required_when: []
+    preferred_cross_vendor_model: claude-sonnet-4.6
+    escalated_cross_vendor_model: claude-opus-4.6
+  "4":
+    major: true
+    closure_requires_independent_reviewer: true
+    default_review_modes:
+      - internal-verification-agent
+    cross_vendor_default: strongly_preferred
+    cross_vendor_preferred_when:
+      - workflow_or_harness_doctrine_is_being_reshaped
+      - machinery_ownership_may_be_reallocated
+    cross_vendor_required_when: []
+    preferred_cross_vendor_model: claude-opus-4.6
+  "5":
+    major: true
+    closure_requires_independent_reviewer: true
+    default_review_modes:
+      - internal-verification-agent
     cross_vendor_default: strongly_preferred
     cross_vendor_preferred_when:
       - harness_ownership_is_being_reallocated
     cross_vendor_required_when: []
     preferred_cross_vendor_model: claude-opus-4.6
-  "4":
+  "6":
     major: true
     closure_requires_independent_reviewer: true
     default_review_modes:
@@ -91,7 +114,7 @@ checkpoints:
       - readiness_verdict_depends_on_doctrine_sensitive_judgment
     preferred_cross_vendor_model: claude-sonnet-4.6
     escalated_cross_vendor_model: claude-opus-4.6
-  "5":
+  "7":
     major: true
     closure_requires_independent_reviewer: true
     default_review_modes:

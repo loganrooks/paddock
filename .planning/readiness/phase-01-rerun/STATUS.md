@@ -35,6 +35,8 @@ Last updated: 2026-04-15
 
 - governance-doc normalization audit
 - governance-doc normalization patch
+- workflow / harness scoping audit
+- tandem phase-workflow / Codex+GSD harness excellence audit
 - conditional harness/GSD follow-through, if needed
 - repo-local non-phase external-reread protocol/template, if later harness follow-through still needs one
 - rerun-readiness verification
@@ -60,7 +62,7 @@ Last updated: 2026-04-15
 
 ## Immediate next action
 
-- run the governance-doc normalization audit under Checkpoint 1 with an explicit spec, auditable baseline, and independent review plan
+- run the governance-doc normalization audit under Checkpoint 1 with an explicit spec, auditable baseline, and independent review plan; then run a reusable workflow / harness scoping audit before fixing the final envelope for the deeper tandem excellence audit
 
 ## User consultation required?
 

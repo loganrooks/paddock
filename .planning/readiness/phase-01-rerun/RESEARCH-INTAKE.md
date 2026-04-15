@@ -52,18 +52,21 @@ If a research bundle has no current package consequences, say that explicitly.
 - relation to readiness: `blocking`
 - intake status: `partially accepted`
 - current consequences:
-  - Checkpoint 0 remains active until the `01`-`06` bundle is repaired and re-reviewed.
-  - The governance-doc normalization audit is still the next major readiness layer after Checkpoint 0 closes.
+  - Checkpoint 0 is closed and now serves as stable input rather than an active blocker.
+  - The governance-doc normalization audit is the next active readiness layer.
+  - A workflow / harness scoping audit and then a deeper tandem phase-workflow / Codex+GSD harness excellence audit are now required before rerun readiness can be declared.
   - Stronger governance/harness doctrine may require cross-vendor reread at later high-stakes gates.
 - later consequences:
-  - if normalization proves important rule ownership belongs in machinery, escalate to conditional harness follow-through
+  - if Checkpoints 1-3 prove important controls belong in machinery, escalate to conditional harness follow-through
 - package surfaces affected:
   - `PLAN.md`
   - `STATUS.md`
   - `STATE.yaml`
   - `TASKS.md`
   - `GATES/checkpoint-0.md`
+  - `GATES/checkpoint-3.md`
   - `GATES/checkpoint-4.md`
+  - `GATES/checkpoint-6.md`
 
 ### Codex Compaction Context Audit
 
@@ -95,6 +98,7 @@ If a research bundle has no current package consequences, say that explicitly.
 - current consequences:
   - use current model policy as settled readiness input
   - treat cross-vendor audit as a selective requirement at later high-stakes review boundaries, not as an every-artifact ritual
+  - apply that selective reread pressure to the scoping and tandem workflow/harness audit sequence where doctrine or machinery ownership is being shaped
 - later consequences:
   - if external audit becomes routine, define cleaner workflow/harness ownership for it
 - package surfaces affected:
@@ -102,7 +106,9 @@ If a research bundle has no current package consequences, say that explicitly.
   - `TASKS.md`
   - `STATUS.md`
   - `STATE.yaml`
+  - `GATES/checkpoint-3.md`
   - `GATES/checkpoint-4.md`
+  - `GATES/checkpoint-6.md`
 
 ### Cross-Model Audit Integration Research
 
@@ -118,7 +124,7 @@ If a research bundle has no current package consequences, say that explicitly.
   - keep `gsd-review` as the repo-local regular GSD surface for doctrine-sensitive phase-plan rereads
   - treat `gsdr-audit` as Reflect-side precedent only; selectively port useful protocol ideas later rather than adopting it as a runtime dependency in this repo
 - later consequences:
-  - after Checkpoints 1-2 settle, draft a small repo-local non-phase external-reread protocol/template if the later harness follow-through still needs it
+  - after Checkpoints 1-4 settle, draft a small repo-local non-phase external-reread protocol/template if the later harness follow-through still needs it
   - revisit dedicated skill creation only if cross-vendor rereads become routine across multiple non-phase artifact families and protocol discipline proves insufficient
 - package surfaces affected:
   - `PLAN.md`

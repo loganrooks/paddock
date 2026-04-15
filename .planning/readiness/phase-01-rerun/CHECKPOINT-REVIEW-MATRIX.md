@@ -73,7 +73,33 @@ The goal is to make review expectations explicit and proportionate.
   - the patch feels deceptively "clean" after removing a lot of specificity
   - the patch touches load-bearing distinctions from `05-gap-closure`
 
-### Checkpoint 3: Conditional Harness / GSD Follow-Through
+### Checkpoint 3: Workflow / Harness Scope Audit
+
+- default review mode:
+  - `internal-verification-agent`
+- cross-vendor default:
+  - conditional
+- external model choice:
+  - default `claude-sonnet-4.6`
+  - escalate to `claude-opus-4.6` only if the scope judgment is already reallocating machinery ownership or carrying major doctrine risk
+- why:
+  - this checkpoint is about mapping the landscape honestly before we decide the deeper audit envelope
+  - the main risk here is premature narrowing or premature confidence about what matters
+
+### Checkpoint 4: Phase Workflow / Harness Excellence Audit
+
+- default review mode:
+  - `internal-verification-agent`
+- cross-vendor default:
+  - strongly preferred
+- external model choice:
+  - prefer `claude-opus-4.6`
+- why:
+  - this checkpoint is explicitly asking whether the active phase workflow and Codex/GSD harness are driving excellence or mostly enforcing pass/fail minima
+  - it can materially reshape workflow doctrine and machinery ownership decisions
+  - this is one of the highest-leverage places for independent scrutiny
+
+### Checkpoint 5: Conditional Harness / GSD Follow-Through
 
 - default review mode:
   - `internal-verification-agent`
@@ -83,9 +109,9 @@ The goal is to make review expectations explicit and proportionate.
   - prefer `claude-opus-4.6`
 - why:
   - machinery ownership mistakes can produce recurring silent failures
-  - this is one of the highest-leverage places for independent scrutiny
+  - by this stage the repo should already know the issue is really machinery-owned, so the cost of a wrong move is high
 
-### Checkpoint 4: Rerun-Readiness Verification
+### Checkpoint 6: Rerun-Readiness Verification
 
 - default review mode:
   - `internal-verification-agent`
@@ -98,7 +124,7 @@ The goal is to make review expectations explicit and proportionate.
   - this checkpoint decides whether the repo is ready to rerun Phase 01
   - false confidence here is expensive
 
-### Checkpoint 5: Fresh Phase 01 Rerun
+### Checkpoint 7: Fresh Phase 01 Rerun
 
 - discuss/context/planning bundle:
   - default review mode: `internal-verification-agent`

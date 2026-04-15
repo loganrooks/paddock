@@ -8,9 +8,11 @@ This ledger records meaningful readiness checkpoint boundaries and the commits t
 |---|---|---|
 | 1 | governance-doc normalization audit artifact, if independently reviewable | Pending |
 | 2 | governance-doc normalization patch | Pending |
-| 3 | conditional harness/GSD follow-through | Conditional |
-| 4 | rerun-readiness verification artifact, if produced | Pending |
-| 5 | fresh Phase 01 discuss/context/plan bundle before execution approval | Pending |
+| 3 | workflow / harness scoping artifact, if independently reviewable | Pending |
+| 4 | tandem phase-workflow / Codex+GSD harness excellence audit artifact, if independently reviewable | Pending |
+| 5 | conditional harness/GSD follow-through | Conditional |
+| 6 | rerun-readiness verification artifact, if produced | Pending |
+| 7 | fresh Phase 01 discuss/context/plan bundle before execution approval | Pending |
 
 ## Recorded Commits
 

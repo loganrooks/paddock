@@ -13,21 +13,23 @@ This board tracks only work that materially affects Phase 01 rerun readiness.
 | ID | Checkpoint | Task | Status | Output / Evidence |
 |---|---|---|---|---|
 | R2.1 | 2 | Patch governance docs based on normalization audit | Not started | normalized governance docs |
-| R4.1 | 4 | Run rerun-readiness verification gate | Not started | verification artifact or gate verdict |
-| R5.1 | 5 | Run fresh Phase 01 discuss pass | Not started | fresh discuss output |
-| R5.2 | 5 | Produce new live `01-CONTEXT.md` | Not started | refreshed context file |
-| R5.3 | 5 | Produce fresh Phase 01 plan | Not started | refreshed plan artifacts |
+| R3.1 | 3 | Run workflow / harness scoping audit | Not started | scope artifact |
+| R4.1 | 4 | Run tandem phase-workflow / Codex+GSD harness excellence audit | Not started | audit artifact |
+| R6.1 | 6 | Run rerun-readiness verification gate | Not started | verification artifact or gate verdict |
+| R7.1 | 7 | Run fresh Phase 01 discuss pass | Not started | fresh discuss output |
+| R7.2 | 7 | Produce new live `01-CONTEXT.md` | Not started | refreshed context file |
+| R7.3 | 7 | Produce fresh Phase 01 plan | Not started | refreshed plan artifacts |
 
 ## Conditional
 
 | ID | Checkpoint | Task | Trigger | Status |
 |---|---|---|---|---|
-| R3.1 | 3 | Patch repo-local GSD / overlay / workflow machinery | governance normalization audit proves important rule ownership belongs in machinery | Conditional |
-| R3.2 | 3 | Design project-wide compact prompt and Codex/GSD integration | stable project-wide control surfaces are clear enough that the readiness-specific compact prompt should be generalized | Conditional |
-| R3.4 | 3 | Draft repo-local non-phase external-reread protocol/template | Checkpoints 1-2 settle and later harness follow-through still needs a repeatable non-phase external-reread surface | Conditional |
-| R4.2 | 4 | Targeted canon patch before rerun | readiness verification finds real canon gap rather than governance/process gap | Conditional |
-| R4.3 | 4 | Run cross-vendor reread on rerun-readiness verification artifact | rerun-readiness verdict depends on doctrine-sensitive judgment rather than only mechanical closure | Conditional |
-| R5.4 | 5 | Run cross-vendor reread on fresh Phase 01 plan before execution approval | fresh plan remains doctrine-sensitive or contested after internal review | Conditional |
+| R5.1 | 5 | Patch repo-local GSD / overlay / workflow machinery | Checkpoint 4 proves important controls, review steps, or excellence pressures belong in machinery rather than only docs | Conditional |
+| R5.2 | 5 | Design project-wide compact prompt and Codex/GSD integration | Checkpoints 3-5 clarify the durable control surfaces worth preserving across compaction | Conditional |
+| R5.3 | 5 | Draft repo-local non-phase external-reread protocol/template | Checkpoint 4 shows later harness/protocol follow-through still needs a repeatable non-phase external-reread surface | Conditional |
+| R6.2 | 6 | Targeted canon patch before rerun | rerun-readiness verification finds real canon gap rather than governance/process or harness gap | Conditional |
+| R6.3 | 6 | Run cross-vendor reread on rerun-readiness verification artifact | rerun-readiness verdict depends on doctrine-sensitive judgment rather than only mechanical closure | Conditional |
+| R7.4 | 7 | Run cross-vendor reread on fresh Phase 01 plan before execution approval | fresh plan remains doctrine-sensitive or contested after internal review | Conditional |
 
 ## Done
 

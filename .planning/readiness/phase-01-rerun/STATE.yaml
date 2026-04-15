@@ -13,6 +13,8 @@ blocked_by:
 open_findings:
   - governance_docs_show_rule_placement_residue_duplication_drift
   - governance_docs_need_normalization_audit
+  - workflow_and_harness_landscape_not_yet_scoped_for_deeper_excellence_audit
+  - active_phase_workflow_and_harness_excellence_audit_not_yet_run
 open_opportunities:
   - repo_local_non_phase_external_reread_protocol_template
 deferred_items:
