@@ -211,6 +211,10 @@ For review-trail artifacts, important claims must identify both:
 - epistemic type
 - verification or provenance basis
 
+For research-sensitive or technically sensitive artifacts, important claims should also identify:
+
+- source-basis / grounding origin
+
 Use the claim-type ontology as inspiration, adapted here.
 
 Recommended primary types:
@@ -236,6 +240,23 @@ Recommended verification or provenance markers:
 - `bare`
   use sparingly; usually a signal that the claim needs strengthening
 
+Recommended source-basis / grounding-origin markers:
+
+- `internal`
+  grounded only in repo-local artifacts or canon docs
+- `external-direct`
+  directly grounded in outside-repo sources engaged in the current artifact
+- `external-traceable`
+  grounded via a repo-local artifact whose cited claim can be traced to outside-repo sources, but not directly re-engaged in the current artifact
+- `internal+external-direct`
+  materially combining repo-local steering with directly engaged outside-repo sources
+- `internal+external-traceable`
+  materially combining repo-local steering with only traceable/transitive outside support
+- `session`
+  grounded materially in creator feedback or live-session correction
+- `mixed-origin`
+  use when several origins are genuinely combined and the simpler labels would mislead
+
 Examples:
 
 - `[evidenced:cited]`
@@ -243,10 +264,21 @@ Examples:
 - `[assumed:reasoned]`
 - `[evidenced/governing:mixed]`
 
+Extended examples for research-sensitive claims:
+
+- `[evidenced:cited:external-direct]`
+- `[evidenced:cited:internal]`
+- `[evidenced:cited:external-traceable]`
+- `[assumed:reasoned:internal]`
+- `[evidenced/governing:mixed:internal+external-direct]`
+
 Notes:
 
 - `session` is an adaptation for this audit context
 - not all important claims here can or should pretend to be file-cited
+- the source-basis marker is especially important when a review is distinguishing `direct external research` from `repo-local transitive support`
+- `external-traceable` is useful, but it is not the same thing as `external-direct`
+- for doctrine-only product-ordering claims, the source-basis marker may be omitted when the claim is clearly local and non-load-bearing; for load-bearing research judgments it should be present
 
 ## Standard S2: Every significant gap must be recorded in a traceable gap register
 
@@ -541,6 +573,7 @@ In a detailed review / critique artifact:
 
 - gap entries should use typed claims
 - artifact citations should be used where available
+- research-sensitive claims should expose whether they are `internal`, `external-direct`, or only `external-traceable`
 - creator-feedback corrections should be marked as session-grounded
 - stale artifacts should be explicitly labeled as such
 - path and dependency sections should explain how the review moved from files to critique to response requests
@@ -562,6 +595,7 @@ In a next-round output or synthesis:
 - report which requested responses were addressed
 - mark full, partial, or unresolved coverage
 - distinguish new findings from inherited assumptions
+- distinguish direct external research from transitive repo-local support where that difference matters to closure
 - mark scope expansions
 - note where the output is still exploratory rather than closure-ready
 
@@ -618,7 +652,7 @@ The next artifact after this framework should be a detailed review / gap registe
 
 - cites this framework
 - records the current gap analysis in detail
-- marks which claims are file-cited, session-grounded, or reasoned
+- marks which claims are file-cited, session-grounded, reasoned, internally grounded, directly externally grounded, or only externally traceable via another repo artifact
 - identifies the requested response for the next round
 
 The next-round prompt should then inherit from that review rather than from stale carry-forward docs alone.
