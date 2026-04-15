@@ -1,9 +1,9 @@
 current_checkpoint: 4
 checkpoint_name: phase_workflow_harness_excellence_audit
-checkpoint_state: not_started
+checkpoint_state: ready_to_launch
 readiness_state: not_ready
-current_task: author_checkpoint_4_launch_bundle
-next_action: write_review_and_launch_checkpoint_4_audit_lanes
+current_task: launch_checkpoint_4_lanes_1_to_4
+next_action: run_four_authored_checkpoint_4_lanes_then_syntheses
 review_policy_path: .planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml
 current_checkpoint_requires_independent_reviewer_for_closure: true
 working_tree_clean_expected: true
@@ -43,5 +43,5 @@ checkpointed_baselines:
   - 302e6b1 docs(readiness): add checkpoint-3 scope audit review specs
   - 8a6f42c docs(signal): cross-vendor-review-artifact-authority-failure
 next_expected_commit:
-  - checkpoint-4 launch bundle and review-spec checkpoint
+  - checkpoint-4 lane-launch state and active-task update
 requires_user_input: false

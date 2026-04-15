@@ -6,7 +6,7 @@ Last updated: 2026-04-15
 
 - Active checkpoint: `4`
 - Checkpoint name: `Phase workflow / harness excellence audit`
-- Checkpoint state: `not started`
+- Checkpoint state: `ready to launch`
 - Readiness state: `not ready to rerun`
 
 ## Why this is current
@@ -18,6 +18,7 @@ Last updated: 2026-04-15
   - three GSD sublanes
   - mandatory seam checks, including explicit routing of branch/worktree boundary materialization through Checkpoint 4 seam work and conditional Checkpoint 5 follow-through
 - Starting the fresh Phase 01 rerun now would still skip the main question Checkpoint 4 exists to answer: whether the active Codex+GSD workflow stack drives toward excellent work or mostly toward passable closure.
+- The Checkpoint 4 launch bundle is now committed, cross-vendor reread, revised, and finalized as the current launch baseline.
 
 ## Done
 
@@ -85,11 +86,11 @@ Last updated: 2026-04-15
 - Checkpoint 0 closure evidence now lives in:
   - [REVIEWS/checkpoint-0-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r1.md)
   - [REVIEWS/checkpoint-0-internal-review-r2.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r2.md)
-- The next readiness-moving commit should launch Checkpoint 4 from the accepted Checkpoint 3 envelope.
+- The next readiness-moving commit should capture the Checkpoint 4 lane-launch transition and package-state update.
 
 ## Immediate next action
 
-- author and review the Checkpoint 4 launch bundle from the accepted Checkpoint 3 envelope, then launch the Codex lane plus the three GSD excellence sublanes
+- launch Checkpoint 4 lanes 1-4 from the finalized launch bundle, then proceed to seam synthesis and converged synthesis in order
 
 ## User consultation required?
 
