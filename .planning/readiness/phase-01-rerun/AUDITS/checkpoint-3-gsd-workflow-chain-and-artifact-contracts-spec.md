@@ -49,6 +49,7 @@ Then inspect, at minimum:
 - `.codex/get-shit-done/templates/context.md`
 - `.codex/get-shit-done/templates/phase-prompt.md`
 - `.codex/get-shit-done/templates/config.json`
+  Inspect this file for its artifact-contract role in the workflow chain, not as the final runtime/overlay truth surface.
 
 ## Core Questions
 

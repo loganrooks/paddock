@@ -45,6 +45,7 @@ Then inspect, at minimum:
 - `.codex/gsd-local-patches/backup-meta.json`
 - `.planning/config.json`
 - `.codex/get-shit-done/templates/config.json`
+  Inspect this file as the stock baseline for overlay comparison; workflow-chain implications belong to the workflow/artifact-contract lane.
 - the runtime surfaces that resolve active agents or config behavior
 - `.codex/agents/*.md`
 - representative `.codex/agents/*.toml` files where runtime drift or dual-authority is plausible

@@ -21,6 +21,11 @@ Primary motivating readiness surfaces:
 5. [STATUS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/STATUS.md)
 6. [TASKS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/TASKS.md)
 
+The synthesis must still honor the standing claim-typing, source-basis, and research-quality discipline from:
+
+- [AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/AGENTS.md)
+- [.planning/AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/AGENTS.md)
+
 ## Preconditions
 
 Do not run this synthesis until all of the following exist:
@@ -71,6 +76,7 @@ Required sections:
 - do not optimize for the smallest possible GSD audit envelope
 - preserve the distinction between mapped scope and later excellence judgment
 - prefer readiness-package artifacts as authority for why this synthesis exists; use current thread corrections only if they have not yet been rendered into the package
+- cite the input mapping artifacts and their specific sections or line ranges when making scope claims; do not produce summary claims a later reader cannot trace
 
 ## Lane
 

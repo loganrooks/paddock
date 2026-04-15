@@ -15,6 +15,8 @@ Do not run this synthesis until:
 
 ## Inputs
 
+- [AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/AGENTS.md)
+- [.planning/AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/AGENTS.md)
 - [checkpoint-3-workflow-harness-scope-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-workflow-harness-scope-launch-spec.md)
 - [checkpoint-3-codex-surface-map.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-codex-surface-map.md)
 - [checkpoint-3-gsd-surface-map.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-gsd-surface-map.md)
@@ -46,6 +48,7 @@ Required sections:
 - do not optimize for the smallest possible audit envelope
 - do not choose a unit of analysis just because it is easiest to inspect
 - if the initial GSD mapping fired the split trigger, treat the GSD-only synthesis as a required input rather than smoothing the split away
+- cite the input mapping artifacts and their specific sections or line ranges when making scope claims; do not produce summary claims a later reader cannot trace
 
 ## Lane
 
