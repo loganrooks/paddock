@@ -35,9 +35,7 @@ Read these first:
 6. [GATES/checkpoint-4.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/GATES/checkpoint-4.md)
 7. [AUDITS/checkpoint-4-workflow-harness-excellence-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-4-workflow-harness-excellence-launch-spec.md)
 8. [AUDITS/checkpoint-3-codex-surface-map.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-codex-surface-map.md)
-9. [03-compaction-context-response.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-codex-compaction-context-audit/03-compaction-context-response.md)
-10. [SESSION-REENTRY-CHECKLIST.md](/home/rookslog/workspace/projects/prix-guesser/.planning/SESSION-REENTRY-CHECKLIST.md)
-11. [02-model-assignment-policy-response.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-model-assignment-and-cross-audit-research/02-model-assignment-policy-response.md)
+9. [02-model-assignment-policy-response.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-model-assignment-and-cross-audit-research/02-model-assignment-policy-response.md)
 
 Then inspect, at minimum:
 
@@ -46,6 +44,15 @@ Then inspect, at minimum:
 - `.codex/tooling/compact-prompts/`
 - `.codex/agents/`
 - relevant official Codex documentation for instruction loading, config, subagents, hooks, and compaction
+
+Required external evidence:
+
+- relevant official Codex documentation for instruction loading, config, subagents, hooks, and compaction
+
+Conditional supporting inputs, when present and still current:
+
+- [03-compaction-context-response.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-codex-compaction-context-audit/03-compaction-context-response.md)
+- [SESSION-REENTRY-CHECKLIST.md](/home/rookslog/workspace/projects/prix-guesser/.planning/SESSION-REENTRY-CHECKLIST.md)
 - recent still-relevant unofficial issue/discussion evidence where current limitations or operating advice materially affect this repo
 
 ## Core Questions
@@ -77,9 +84,17 @@ Required sections:
 - `Ownership Assessment`
 - `Conditional Follow-Through Candidates`
 
+`Ownership Assessment` must classify each material finding as:
+
+- `doc-level doctrine`
+- `workflow-protocol`
+- `machinery-owned`
+- or `split/ambiguous`
+
 ## Constraints
 
 - keep unofficial-source applicability qualified
+- for unofficial evidence, say why it is still relevant to the current Codex version or operating posture, or qualify it as suggestive rather than settled
 - do not treat stale user reports as present truth without qualification
 - do not confuse product limitation with repo misconfiguration
 - do not patch files

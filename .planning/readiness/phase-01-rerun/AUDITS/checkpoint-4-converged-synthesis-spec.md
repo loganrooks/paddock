@@ -47,6 +47,8 @@ Required sections:
 - `Strongest Justified Criticisms`
 - `Strategic Opportunities`
 - `Doc vs Protocol vs Machinery Ownership Verdict`
+- `Branching-Logic Alignment`
+- `Regression Pressure Check`
 - `Checkpoint 5 Decision`
 - `Readiness Handoff`
 
@@ -55,6 +57,15 @@ The `Checkpoint 5 Decision` section must say one of:
 - `do not open Checkpoint 5`
 - `open a bounded Checkpoint 5`
 - `open Checkpoint 5 only after one narrower follow-up question is resolved`
+
+`Branching-Logic Alignment` must explicitly map the verdict to the relevant failure-mode branching logic in [PLAN.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/PLAN.md).
+
+`Regression Pressure Check` must explicitly test the conclusion against the relevant cross-cutting regressions already named in [PLAN.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/PLAN.md), especially:
+
+- governance-doc regressions
+- delegation/orchestration regressions
+- Git/checkpoint regressions
+- Phase 01 rerun regressions
 
 ## Decision Discipline
 

@@ -66,7 +66,6 @@ Every lane should preserve and feed evidence into the seam set, even when the se
 - `continuity under compaction or resume`
 - `execution-completion plus verification or UAT closure`
 - `branch/worktree boundary materialization`
-- `verify/CI ownership`
 
 The later seam synthesis must assign:
 
@@ -100,6 +99,7 @@ Do not silently widen the lane or bury the split pressure inside vague prose.
 - do not decide that Checkpoint 5 must open just because machinery is interesting
 - do not confuse broad command coverage with real control of the quality bar
 - do not accept `good enough to pass` as a closure condition
+- do not silently widen the accepted Checkpoint 3 seam set; if a new seam becomes necessary, justify the expansion explicitly against the accepted Checkpoint 3 result
 
 ## Expected Primary Outputs
 

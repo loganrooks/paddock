@@ -71,6 +71,13 @@ Required sections:
 - `Ownership Assessment`
 - `Conditional Follow-Through Candidates`
 
+`Ownership Assessment` must classify each material finding as:
+
+- `doc-level doctrine`
+- `workflow-protocol`
+- `machinery-owned`
+- or `split/ambiguous`
+
 ## Constraints
 
 - do not judge the agent-role surface here except where it directly shapes the workflow chain

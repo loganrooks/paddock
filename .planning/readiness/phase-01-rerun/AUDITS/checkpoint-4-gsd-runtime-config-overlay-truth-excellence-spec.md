@@ -61,6 +61,13 @@ Required sections:
 - `Ownership Assessment`
 - `Conditional Follow-Through Candidates`
 
+`Ownership Assessment` must classify each material finding as:
+
+- `doc-level doctrine`
+- `workflow-protocol`
+- `machinery-owned`
+- or `split/ambiguous`
+
 ## Constraints
 
 - do not assume documented config or overlay intent equals runtime truth
