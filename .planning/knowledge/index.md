@@ -1,14 +1,31 @@
-# Knowledge Base Index
+# Knowledge Store Index
 
-## Signals
+**Generated:** 2026-04-15T23:49:16Z
+**Total entries:** 11
 
-- [Cross-Vendor Review Artifact-Authority Failure](signals/prix-guesser/2026-04-15-cross-vendor-review-artifact-authority-failure.md) — artifact presence must outrank process ambiguity before rerunning scarce external review lanes
-- [Citation Source-Basis Enforcement Drift](signals/prix-guesser/2026-04-15-citation-source-basis-enforcement-drift.md) — newer audit bundle stopped surfacing internal vs external-direct vs external-traceable grounding
-- [Dirty Task Transitions And Mixed Worktree Hygiene](signals/prix-guesser/2026-04-15-dirty-task-transitions-mixed-worktree.md) — unresolved concern buckets should block new substantive work
-- [Underdelegated Exploration And Orchestrator Role Drift](signals/prix-guesser/2026-04-15-underdelegated-exploration-orchestrator-role-drift.md) — exploratory scope-shaping work stayed in the main thread instead of delegated lanes
-- [Recursive GSD Orchestration](signals/prix-guesser/2026-04-08-recursive-gsd-orchestration.md) — nested skill-inside-agent delegation causes opaque stalls
-- [Manual Substitute Planning](signals/prix-guesser/2026-04-08-manual-substitute-planning.md) — hand-authored plans bypass validation, break execution
-- [Premature Stall Diagnosis](signals/prix-guesser/2026-04-08-premature-stall-diagnosis.md) — treating agent silence as failure triggers bad recovery
-- [Codex Reasoning Effort Mismatch](signals/prix-guesser/2026-04-08-codex-reasoning-effort-mismatch.md) — planner/checker spawns silently promoted to xhigh
-- [Checker Loop Diminishing Returns](signals/prix-guesser/2026-04-08-checker-loop-diminishing-returns.md) — revision loops continued past value-add point
-- [Codex bwrap Sandbox Failure](signals/prix-guesser/2026-04-09-codex-bwrap-sandbox-failure.md) — Ubuntu 24.04 AppArmor blocks bwrap namespaces; fix: Landlock sandbox [REMEDIATED]
+## Signals (11)
+
+| ID | Project | Severity | Lifecycle | Tags | Date | Status |
+|----|---------|----------|-----------|------|------|--------|
+| sig-2026-04-15-overgeneralized-scope-rule-without-provenance | prix-guesser | notable | detected | orchestration,codex,scope-control,provenance,checkpoint-5 | 2026-04-15 | active |
+| sig-2026-04-15-cross-vendor-review-artifact-authority-failure | prix-guesser | notable | detected | cross-vendor-review,claude,artifact-authority,rerun-discipline,patience | 2026-04-15 | active |
+| sig-2026-04-15-citation-source-basis-enforcement-drift | prix-guesser | notable | detected | audit-quality,citation-discipline,source-basis,governance-audit | 2026-04-15 | active |
+| sig-2026-04-15-underdelegated-exploration-orchestrator-role-drift | prix-guesser | critical | triaged | orchestration,codex,delegation,exploration,role-drift | 2026-04-15 | active |
+| sig-2026-04-15-dirty-task-transitions-mixed-worktree | prix-guesser | critical | triaged | orchestration,codex,task-transition,worktree-hygiene,git | 2026-04-15 | active |
+| sig-2026-04-09-codex-bwrap-sandbox-failure | prix-guesser | critical | remediated | codex,sandbox,bwrap,apparmor,ubuntu-24.04,infrastructure | 2026-04-09 | active |
+| sig-2026-04-08-codex-reasoning-effort-mismatch | prix-guesser | critical | triaged | codex,runtime,reasoning-effort,delegation,harness-bug | 2026-04-09 | active |
+| sig-2026-04-08-checker-loop-diminishing-returns | prix-guesser | notable | detected | planning,checker,codex,iteration-control | 2026-04-09 | active |
+| sig-2026-04-08-recursive-gsd-orchestration | prix-guesser | critical | triaged | orchestration,codex,delegation,anti-pattern | 2026-04-08 | active |
+| sig-2026-04-08-premature-stall-diagnosis | prix-guesser | notable | triaged | orchestration,codex,patience,anti-pattern | 2026-04-08 | active |
+| sig-2026-04-08-manual-substitute-planning | prix-guesser | critical | triaged | planning,codex,anti-pattern,plan-quality | 2026-04-08 | active |
+
+## Spikes (0)
+
+| ID | Project | Outcome | Tags | Date | Status |
+|----|---------|---------|------|------|--------|
+
+## Lessons (0)
+
+| ID | Project | Category | Tags | Date | Status |
+|----|---------|----------|------|------|--------|
+
