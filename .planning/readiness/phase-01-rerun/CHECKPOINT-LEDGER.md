@@ -6,8 +6,7 @@ This ledger records meaningful readiness checkpoint boundaries and the commits t
 
 | Checkpoint | Intended boundary | Commit status |
 |---|---|---|
-| 0 | governance docs + claim types + readiness package | Pending |
-| 0 | finalized multi-layer governance audit bundle | Pending |
+| 0 | corrective patch and re-review for finalized multi-layer governance audit bundle | Pending |
 | 1 | governance-doc normalization audit artifact, if independently reviewable | Pending |
 | 2 | governance-doc normalization patch | Pending |
 | 3 | conditional harness/GSD follow-through | Conditional |
@@ -17,4 +16,6 @@ This ledger records meaningful readiness checkpoint boundaries and the commits t
 
 | Checkpoint | SHA | Commit message | Notes |
 |---|---|---|---|
-| - | - | - | No readiness-package checkpoints recorded yet |
+| 0 baseline | `9d1e22b` | `docs(governance): tighten claim typing and checkpoint rules` | Governance/process baseline committed before the corrective bundle pass |
+| 0 baseline | `2ad87fc` | `docs(readiness): scaffold phase 01 rerun package` | Readiness control surface established |
+| 0 baseline | `c38ad2a` | `docs(research): checkpoint multi-layer governance audit bundle` | Stable review baseline, but not the final corrected Checkpoint 0 closeout |

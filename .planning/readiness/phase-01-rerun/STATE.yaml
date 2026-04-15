@@ -4,6 +4,7 @@ checkpoint_state: in_progress
 readiness_state: not_ready
 current_task: repair_and_rereview_2026_04_15_governance_audit_bundle
 next_action: patch_and_rereview_bundle_01_through_06
+working_tree_clean_expected: true
 blocked_by:
   - stale_internal_file_line_citations
   - marker_support_basis_mismatch
@@ -13,7 +14,10 @@ open_findings:
 deferred_items:
   - scraped_radio_branch_archive_posture
 ready_to_commit: false
-recommended_commit_split:
-  - docs(governance): tighten claim typing and planning-process rules
-  - docs(research): finalize multi-layer harness governance audit
+checkpointed_baselines:
+  - 9d1e22b docs(governance): tighten claim typing and checkpoint rules
+  - 2ad87fc docs(readiness): scaffold phase 01 rerun package
+  - c38ad2a docs(research): checkpoint multi-layer governance audit bundle
+next_expected_commit:
+  - corrective patch/re-review for governance audit bundle
 requires_user_input: false

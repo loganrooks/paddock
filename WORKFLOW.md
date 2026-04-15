@@ -108,6 +108,14 @@ These should be implemented in the remote host when available:
   - or reasoned but not externally validated recommendation
 - Treat repo-state diagnosis and repo-internal mechanism review as legitimately internal when that is the real evidence base, but do not let that silently masquerade as broader externally grounded best practice.
 
+## Session continuity
+
+- For resumed or compaction-affected sessions doing load-bearing work, run a short continuity check rather than trusting the thread blindly.
+- Repo checklist:
+  - `.planning/SESSION-REENTRY-CHECKLIST.md`
+- Prefer fresh-thread boundaries at meaningful checkpoints over letting one thread absorb repeated compactions.
+- Treat `/status` and similar UI surfaces as advisory when they conflict with direct repo state or observed behavior.
+
 ## DevOps minimum
 
 Before the project grows much further, keep these basics in place:

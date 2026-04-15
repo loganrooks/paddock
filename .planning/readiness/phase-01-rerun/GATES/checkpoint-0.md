@@ -20,7 +20,7 @@ Last updated: 2026-04-15
 
 1. stale or mispointed internal file-line citations remain in `01`-`06`
 2. some load-bearing markers still understate support mode or basis
-3. the repaired bundle still needs explicit re-review before it should be treated as settled
+3. the currently committed audit bundle is a stable baseline, but it still needs a corrective pass and explicit re-review before it should be treated as settled
 
 ## Exit Criteria
 
@@ -37,10 +37,8 @@ Last updated: 2026-04-15
 
 ## Commit Rule
 
-- do not commit before the repair-and-review loop closes
-- expected split after closure:
-  1. governance docs + claim types + readiness package
-  2. finalized governance audit bundle
+- the governance/docs/readiness baselines are already committed
+- the next Checkpoint 0 commit should capture the corrective repair-and-review pass for the governance audit bundle
 
 ## Reopen Triggers
 

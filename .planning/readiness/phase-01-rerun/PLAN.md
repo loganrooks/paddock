@@ -18,13 +18,10 @@ If later work materially changes the sequence, update this file explicitly rathe
   - [LONG-ARC.md](/home/rookslog/workspace/projects/prix-guesser/.planning/LONG-ARC.md)
   - [ROADMAP.md](/home/rookslog/workspace/projects/prix-guesser/.planning/ROADMAP.md)
   - [REQUIREMENTS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/REQUIREMENTS.md)
-- A newer governance/process cleanup wave is still open and uncommitted:
-  - [AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/AGENTS.md)
-  - [.planning/AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/AGENTS.md)
-  - [AI-GUARDRAILS.md](/home/rookslog/workspace/projects/prix-guesser/AI-GUARDRAILS.md)
-  - [WORKFLOW.md](/home/rookslog/workspace/projects/prix-guesser/WORKFLOW.md)
-  - [.planning/CLAIM-TYPES.md](/home/rookslog/workspace/projects/prix-guesser/.planning/CLAIM-TYPES.md)
-  - the bundle under [2026-04-15-multilayer-harness-governance-audit](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit)
+- The main governance/readiness baselines are now checkpointed, but the corrective closeout for the multi-layer governance audit bundle is still open:
+  - governance baseline: `9d1e22b`
+  - readiness baseline: `2ad87fc`
+  - governance-audit baseline: `c38ad2a`
 - The multi-layer governance audit is substantively complete, but its `01`-`06` bundle still needs citation/marker correction and bundle closure before it should be treated as a stable reference set:
   - [06-converged-synthesis.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit/06-converged-synthesis.md)
   - [08-external-comparative-governance-research.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit/08-external-comparative-governance-research.md)
@@ -267,6 +264,7 @@ Run it only if the governance-doc normalization audit concludes that important s
 Likely targets if this becomes necessary:
 - [.codex/get-shit-done](/home/rookslog/workspace/projects/prix-guesser/.codex/get-shit-done)
 - repo-local overlay under `tooling/portable-gsd/overlay/`
+- repo-local compaction-prompt design and Codex config integration, once the stable project-wide control surfaces are clear
 - [WORKFLOW.md](/home/rookslog/workspace/projects/prix-guesser/WORKFLOW.md) only where a doc-level policy truly needs machinery backing
 
 Quality gate:

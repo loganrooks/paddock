@@ -16,6 +16,14 @@ Its purpose is not to restate everything. Its purpose is to say what this repo s
 - `[e:c:i+d]` Compaction can happen before the visible meter reaches zero because the meter is not showing raw empty context window, and post-compaction headroom does not need to return to `100%` because the thread is replaced with a compacted history rather than reset to blank ([01-codex-compaction-context-behavior-research.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-codex-compaction-context-audit/01-codex-compaction-context-behavior-research.md:15), [01-codex-compaction-context-behavior-research.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-codex-compaction-context-audit/01-codex-compaction-context-behavior-research.md:16)).
 - `[e:c:i+d]` Repo-local instruction loading is real prompt-budget pressure. The AGENTS chain from project root to cwd can materially consume budget, so start directory and instruction discipline matter ([01-codex-compaction-context-behavior-research.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-codex-compaction-context-audit/01-codex-compaction-context-behavior-research.md:17), [01-codex-compaction-context-behavior-research.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-codex-compaction-context-audit/01-codex-compaction-context-behavior-research.md:25)).
 
+## Missed Lever: Compaction Prompt Override
+
+- `[e:c:d]` Official Codex configuration also exposes a real compaction-steering surface: `compact_prompt` and `experimental_compact_prompt_file`. These do not provide lifecycle hooks, but they do allow the compaction prompt itself to be overridden from config.[^codex-config-ref]
+- `[e:c+r:i+d]` That means the earlier "no hook, therefore only checkpoints/artifacts/fresh threads matter" framing was too narrow. The correct framing is:
+  - there is still no official pre/post-compaction hook
+  - but there is a documented prompt-level lever that can bias what the compactor preserves
+  - and for this repo, that lever is worth using alongside durable artifacts and clean checkpoints
+
 ## What 02 Changes
 
 - `[e:c:i+d]` The live unresolved issue surface is narrower than the first pass suggested. Some problems emphasized in `01` are no longer good current unresolved signals because they were fixed, closed, or explicitly addressed ([02-recent-open-issues-scout.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-codex-compaction-context-audit/02-recent-open-issues-scout.md:60), [02-recent-open-issues-scout.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-codex-compaction-context-audit/02-recent-open-issues-scout.md:61), [02-recent-open-issues-scout.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-codex-compaction-context-audit/02-recent-open-issues-scout.md:62)).
@@ -43,7 +51,13 @@ Its purpose is not to restate everything. Its purpose is to say what this repo s
    - expected AGENTS layer is the one actually needed
    - expected skills/tools/instruction behavior are present
    - no odd compaction or auth failure symptoms are being misread as repo-local state drift
-6. `[d:c+r:i+d]` Do not wait for a compaction-hook solution. None is currently documented, and the actionable mitigations already available to this repo are stronger than wishful hook assumptions.
+6. `[d:c+r:i+d]` Use a compact-prompt override intentionally. For the current readiness work, the compaction prompt should preserve:
+   - active control surface path
+   - checkpoint / current task / next action
+   - blockers and open questions
+   - open vs decided / preserve-only distinctions
+   - latest meaningful commit boundary when it is part of current work state
+7. `[d:c+r:i+d]` Do not wait for a compaction-hook solution. None is currently documented, and the actionable mitigations already available to this repo are stronger than wishful hook assumptions.
 
 ## What We Do Not Need To Do
 
@@ -53,5 +67,10 @@ Its purpose is not to restate everything. Its purpose is to say what this repo s
 
 ## Suggested Next Follow-Through
 
-- `[p:r:i]` The next worthwhile follow-through is probably not more compaction research unless new failures appear. It is operationalizing this bundle into a short session re-entry / continuity check that can be used when resumed or post-compaction work feels suspect.
+- `[d:c:i]` Operationalize this bundle into a short session re-entry / continuity check that can be used when resumed or post-compaction work feels suspect.
+- `[d:c+r:i+d]` Use a temporary readiness-specific compact prompt now, but treat project-wide compact-prompt design as a separate later harness/governance task rather than quietly letting the readiness-specific version become the permanent repo default.
 - `[p:r:i]` If later issues or regressions accumulate, append them in this bundle instead of reopening the whole question from scratch.
+
+## External Works Cited
+
+[^codex-config-ref]: OpenAI Developers, "Configuration Reference – Codex", documented keys `compact_prompt` and `experimental_compact_prompt_file`, https://developers.openai.com/codex/config-reference

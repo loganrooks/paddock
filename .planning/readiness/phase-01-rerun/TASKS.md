@@ -10,6 +10,7 @@ This board tracks only work that materially affects Phase 01 rerun readiness.
 | R0.2 | 0 | Align claim markers in governance audit `01`-`06` with actual support mode and basis | In progress | corrected bundle files |
 | R0.3 | 0 | Re-review repaired governance audit bundle before checkpointing | Not started | review artifact or explicit acceptance note |
 | R0.4 | 0 | Checkpoint current governance/process wave with clean commit split | Not started | checkpoint commits in `CHECKPOINT-LEDGER.md` |
+| R0.5 | 0 | Add temporary readiness-specific compact prompt and session continuity mitigation | In progress | prompt file, config wiring, continuity checklist |
 
 ## Upcoming
 
@@ -27,6 +28,7 @@ This board tracks only work that materially affects Phase 01 rerun readiness.
 | ID | Checkpoint | Task | Trigger | Status |
 |---|---|---|---|---|
 | R3.1 | 3 | Patch repo-local GSD / overlay / workflow machinery | governance normalization audit proves important rule ownership belongs in machinery | Conditional |
+| R3.2 | 3 | Design project-wide compact prompt and Codex/GSD integration | stable project-wide control surfaces are clear enough that the readiness-specific compact prompt should be generalized | Conditional |
 | R4.2 | 4 | Targeted canon patch before rerun | readiness verification finds real canon gap rather than governance/process gap | Conditional |
 
 ## Done
@@ -35,3 +37,4 @@ This board tracks only work that materially affects Phase 01 rerun readiness.
 |---|---|---|
 | R-.1 | Create readiness package backbone | [AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AGENTS.md), [INDEX.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/INDEX.md), [STATUS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/STATUS.md), [STATE.yaml](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/STATE.yaml) |
 | R-.2 | Capture pre-rerun sequence and `05` carry-forward history | [PLAN.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/PLAN.md) |
+| R-.3 | Checkpoint readiness/governance baselines before corrective pass | `9d1e22b`, `2ad87fc`, `c38ad2a` |

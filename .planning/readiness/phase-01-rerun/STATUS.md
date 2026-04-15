@@ -12,19 +12,22 @@ Last updated: 2026-04-15
 ## Why this is current
 
 - The multi-layer governance audit bundle under [2026-04-15-multilayer-harness-governance-audit](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit) is substantively complete but still has identified citation/marker defects in `01`-`06`.
-- The governance/process wave that should accompany that bundle is still uncommitted.
-- Starting the fresh Phase 01 rerun now would risk consuming unstable governance/process doctrine.
+- The governance/readiness baselines are now checkpointed, but Checkpoint 0 is still open because the audit bundle has not yet received its corrective citation/marker pass and re-review.
+- Starting the fresh Phase 01 rerun now would still risk consuming unstable governance/process doctrine.
 
 ## Done
 
 - `05-gap-closure` doctrinal/canon response was carried into live canon.
 - the broader readiness plan exists and is now packaged here.
 - regression checks are explicitly captured.
+- governance docs, claim typing rules, and checkpoint rules were checkpointed.
+- the readiness package itself was checkpointed.
+- the current multi-layer governance audit bundle was checkpointed as a stable review baseline.
 
 ## In progress
 
 - repair and re-review of the active governance citation bundle
-- packaging readiness state so it survives context compaction
+- maintaining the readiness package as the live continuity surface instead of ambient session memory
 
 ## Not started
 
@@ -41,15 +44,12 @@ Last updated: 2026-04-15
 
 ## Worktree / commit posture
 
-- Current dirty bundle is intentional but not yet checkpoint-ready.
-- It currently contains:
-  - governance instruction docs
-  - claim-type reference
-  - readiness package
-  - the `2026-04-15` governance audit bundle
-- Recommended next commit split after Checkpoint 0 closes:
-  1. governance docs + claim types + readiness package
-  2. finalized governance audit bundle
+- Working tree should normally be kept clean between readiness moves.
+- Current relevant baselines already committed:
+  1. `9d1e22b` `docs(governance): tighten claim typing and checkpoint rules`
+  2. `2ad87fc` `docs(readiness): scaffold phase 01 rerun package`
+  3. `c38ad2a` `docs(research): checkpoint multi-layer governance audit bundle`
+- The next Checkpoint 0 commit should be the corrective patch/re-review wave for the governance audit bundle, not another baseline commit of the same material.
 
 ## Immediate next action
 

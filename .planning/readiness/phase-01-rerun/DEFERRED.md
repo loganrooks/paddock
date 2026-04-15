@@ -8,6 +8,7 @@ This file records real items discovered during readiness work that should not cu
 |---|---|---|
 | `scraped-radio` branch/archive posture | Important for workspace hygiene but not currently the main rerun blocker | if branch posture keeps creating workflow ambiguity during Checkpoint 4 |
 | extra external-comparative governance research beyond `08` | current external supplement is good enough for present repo-specific action | if later audit claims need stronger external justification than `08` provides |
+| project-wide compact-prompt design | current readiness-specific compact prompt is enough for the immediate rerun-prep session, but the broader project prompt should be designed alongside stable governance/harness surfaces | once governance normalization and harness follow-through clarify the durable project control surfaces worth preserving across compaction |
 
 ## Rules
 

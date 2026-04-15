@@ -25,6 +25,7 @@ def run_git(args, cwd):
 def main():
     payload = json.load(sys.stdin)
     cwd = payload.get("cwd") or "."
+    source = payload.get("source") or ""
 
     repo_root = run_git(["rev-parse", "--show-toplevel"], cwd)
     if not repo_root:
@@ -57,6 +58,10 @@ def main():
             reminders.append(
                 "Phase 01 is still at a pre-rerun boundary: run fresh discuss + planning before execution."
             )
+    if source == "resume":
+        reminders.append(
+            "This is a resumed session; for load-bearing work, re-check `.planning/SESSION-REENTRY-CHECKLIST.md`."
+        )
 
     if not reminders:
         return
