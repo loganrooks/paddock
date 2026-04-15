@@ -85,13 +85,13 @@ This lane exists because the recent failure was version-control-deep, not just o
   - the current repo can produce clean commits and still carry an oversized branch-level diff, so `clean commit history` and `reviewable integration boundary` must be treated separately
 
 ## Assumptions Surfaced
-- `[a:r:i]` The repo will remain solo-developer but agent-heavy in the near term ([WORKFLOW.md](/home/rookslog/workspace/projects/prix-guesser/WORKFLOW.md:10), [AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/AGENTS.md:98)).
+- `[a:c+r:i]` The repo will remain solo-developer but agent-heavy in the near term ([WORKFLOW.md](/home/rookslog/workspace/projects/prix-guesser/WORKFLOW.md:12), [AI-GUARDRAILS.md](/home/rookslog/workspace/projects/prix-guesser/AI-GUARDRAILS.md:102)).
   - Why it matters: near-term governance should strengthen reviewability and rollback without jumping straight to heavy multi-team bureaucracy.
   - What could weaken it: a shift to multiple frequent human contributors or public open-source contribution.
-- `[a:r:i]` Same-checkout path-based commits remain a necessary recovery and low-overhead tool for this repo ([05-git-cleanup-checkpoint-plan.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-12-game-modes-r1-exploratory-audit/05-gap-closure/05-git-cleanup-checkpoint-plan.md:148), [05-git-cleanup-execution-report.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-12-game-modes-r1-exploratory-audit/05-gap-closure/05-git-cleanup-execution-report.md:47)).
+- `[a:c+r:i]` Same-checkout path-based commits remain a necessary recovery and low-overhead tool for this repo ([05-git-cleanup-checkpoint-plan.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-12-game-modes-r1-exploratory-audit/05-gap-closure/05-git-cleanup-checkpoint-plan.md:150), [05-git-cleanup-execution-report.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-12-game-modes-r1-exploratory-audit/05-gap-closure/05-git-cleanup-execution-report.md:49)).
   - Why it matters: the right answer is not `always use worktrees`.
   - What could weaken it: if the repo moves to sustained parallel code and canon streams where same-checkout work becomes more dangerous than helpful.
-- `[a:r:i]` Long-horizon quality in this repo depends on decision traceability and reversibility as much as on source cleanliness ([AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/AGENTS.md:57), [WORKFLOW.md](/home/rookslog/workspace/projects/prix-guesser/WORKFLOW.md:43), [05-worktree-stabilization-note.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-12-game-modes-r1-exploratory-audit/05-gap-closure/05-worktree-stabilization-note.md:133)).
+- `[a:c+r:i]` Long-horizon quality in this repo depends on decision traceability and reversibility as much as on source cleanliness ([AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/AGENTS.md:57), [WORKFLOW.md](/home/rookslog/workspace/projects/prix-guesser/WORKFLOW.md:45), [WORKFLOW.md](/home/rookslog/workspace/projects/prix-guesser/WORKFLOW.md:49), [05-worktree-stabilization-note.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-12-game-modes-r1-exploratory-audit/05-gap-closure/05-worktree-stabilization-note.md:135)).
   - Why it matters: this repo carries canon, doctrine, audit history, and future-seam protection in Git, not only source code.
   - What could weaken it: if the repo later externalizes most audit/canon history away from the main code repository.
 
@@ -281,7 +281,7 @@ For subagent-returned work specifically:
   - not only `git log`
 
 ## Progressive governance by risk and blast radius
-`[e:c+r:i]` The right escalation model is not `bigger repo -> more ceremony`. It is `higher risk / larger blast radius / more parallel write activity -> stronger repo-ops controls` ([WORKFLOW.md](/home/rookslog/workspace/projects/prix-guesser/WORKFLOW.md:30), [05-git-cleanup-checkpoint-plan.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-12-game-modes-r1-exploratory-audit/05-gap-closure/05-git-cleanup-checkpoint-plan.md:185), [04-converged-synthesis.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-orchestration-framework-audit/04-converged-synthesis.md:115)).
+`[e:c+r:i]` The right escalation model is not `bigger repo -> more ceremony`. It is `higher risk / larger blast radius / more parallel write activity -> stronger repo-ops controls` ([WORKFLOW.md](/home/rookslog/workspace/projects/prix-guesser/WORKFLOW.md:30), [05-git-cleanup-checkpoint-plan.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-12-game-modes-r1-exploratory-audit/05-gap-closure/05-git-cleanup-checkpoint-plan.md:187), [04-converged-synthesis.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-orchestration-framework-audit/04-converged-synthesis.md:117)).
 
 | Risk / blast radius | Typical repo shape | Appropriate Git discipline now | Stronger discipline later |
 | --- | --- | --- | --- |
