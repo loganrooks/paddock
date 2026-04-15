@@ -33,7 +33,7 @@ and keep the source-basis of those claims explicit.
 For unofficial sources:
 
 - prefer still-open or recently active issues, discussions, or reports when current applicability matters
-- if a source is older, closed, or likely superseded, say so explicitly
+- older, closed, or likely superseded sources may still be included when they teach something real, but their current applicability must be qualified explicitly
 - do not treat stale anecdote as if it were a current harness limitation
 
 ## Launch Order
