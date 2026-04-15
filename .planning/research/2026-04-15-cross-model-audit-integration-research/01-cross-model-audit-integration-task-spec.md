@@ -8,6 +8,7 @@ Status: launch-ready
 Determine how cross-vendor / cross-model audit should be integrated into this repo's workflows, readiness gates, and harness surfaces without overbuilding or duplicating existing mechanisms.
 
 This is a design-and-ownership question, not a request to implement a new skill immediately.
+It is not part of the active Checkpoint 0 readiness-critical path unless your analysis finds a stronger dependency than currently believed.
 
 ## Output
 
@@ -83,12 +84,15 @@ Distinguish:
 
 4. What should own the behavior if we do more?
 
-Answer whether the next step should be:
+At minimum, assess the following possible ownership patterns:
 
 - no new mechanism; keep it as doctrine + orchestration
 - patch an existing workflow or skill
 - create a reusable task-spec / protocol pattern
 - create a new dedicated skill
+
+You are not restricted to choosing exactly one of those options.
+If the best answer is hybrid, staged, or "none of the above exactly," say so plainly and explain why.
 
 If you recommend a new skill, justify why existing surfaces are insufficient.
 
@@ -121,5 +125,7 @@ Use this structure:
 6. `Longer-term project / harness recommendation`
 7. `Decision on dedicated cross-model-audit skill`
 8. `Recommended next actions`
+
+In `Recommended next actions`, do not force the recommendation into a single mechanism bucket if the right answer is conditional, staged, or mixed.
 
 For load-bearing claims, follow current repo claim-type and source-basis conventions.

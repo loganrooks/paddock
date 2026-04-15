@@ -8,6 +8,7 @@ Status: launch-ready spec
 Determine whether and how cross-vendor / cross-model audit should be integrated into this repo's standing workflows and harness surfaces.
 
 This is not an instruction to create a new skill by default.
+It is also not part of the active Checkpoint 0 readiness-critical path unless the research proves a stronger dependency than currently believed.
 
 The point is to decide:
 
@@ -15,6 +16,10 @@ The point is to decide:
 - where it is merely helpful
 - what should own that behavior
 - whether existing surfaces already cover the needed cases
+- how this should relate to the readiness sequence:
+  - immediate carry-forward
+  - conditional later follow-through
+  - or explicit non-blocking deferral
 
 ## Motivating Grounds
 
@@ -45,6 +50,7 @@ The point is to decide:
    - new skill
 4. How should external audit integrate with checkpointing, commit boundaries, and later expert review?
 5. What should be readiness-specific now, and what should become project-wide later?
+6. What is the right next-step shape, including hybrid or staged recommendations if that better fits the situation?
 
 ## Expected Output
 
