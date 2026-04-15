@@ -30,6 +30,12 @@ It should combine:
 
 and keep the source-basis of those claims explicit.
 
+For unofficial sources:
+
+- prefer still-open or recently active issues, discussions, or reports when current applicability matters
+- if a source is older, closed, or likely superseded, say so explicitly
+- do not treat stale anecdote as if it were a current harness limitation
+
 ## Launch Order
 
 - Launch the Codex and GSD mapping lanes in parallel.

@@ -36,6 +36,8 @@ Keep the source-basis explicit:
 - distinguish repo-local state from official documented capability
 - distinguish official documented capability from unofficial or user-reported behavior
 - do not let unofficial reports silently masquerade as stable official guarantees
+- prefer still-open or recently active unofficial reports when current applicability matters
+- if a relevant unofficial source is closed, old, or plausibly superseded, say so explicitly and explain why it still matters or why it should be discounted
 
 ## Scope Questions
 
@@ -45,6 +47,7 @@ Keep the source-basis explicit:
 - what workflows and controls does Codex actually make possible in practice, beyond what this repo happens to be using?
 - what limitations or sharp edges matter for this repo even if they are not obvious from `.codex/` alone?
 - what navigation or mitigation patterns are externally supported, merely repo-local, or still only anecdotal?
+- which unofficial claims still look current versus historical or superseded?
 - what looks broad but is mostly descriptive, and what looks narrow but actually steers a lot of downstream behavior?
 - what later Checkpoint 4 questions should definitely include Codex-side surfaces?
 
