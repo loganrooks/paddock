@@ -2,17 +2,21 @@
 
 ## Overview
 
-Prix Guesser v1 is sequenced to prove one authored F1 anchor mode and one strong private-room social wrapper without drifting into generic geography, premature public-product obligations, or premature party-platform breadth. The roadmap starts by locking the authored content and scoring contract, then proves rules truth, then freezes sessions into authoritative private rooms with a browser-first operator and join spine, then formalizes the host-screen/controller interaction contract before implementation widens into UI work, and only after that expands into the watchable session loop, starter calibration, and reconnect hardening needed for repeat real-world play. Milestone 01 should preserve separation between room shell, active game instance, visibility surface, and later recurrence layers even when the first playable wrapper renders them simply.
+Prix Guesser v1 is sequenced to prove one authored F1 anchor mode and one strong private-room social wrapper without drifting into generic geography, premature public-product obligations, or premature party-platform breadth. The roadmap starts by locking the authored content and scoring contract, then proves rules truth, then freezes sessions into authoritative private rooms with a browser-first operator and join spine, then formalizes the host-screen/controller interaction contract before implementation widens into UI work, and only after that expands into the watchable session loop, starter calibration, and reconnect hardening needed for repeat real-world play. Milestone 01 should preserve separation between room shell, active game instance, visibility surface, and later recurrence layers even when the first playable wrapper renders them simply, and it should preserve wrapper-order, audience-right, host-identity, and layered-memory seams without choosing later winners for those families.
 
 ## Open Decisions Still Visible
 
 - The roadmap commits v1 to live private rooms as the first social wrapper, but keeps the room runtime choice open until planning clarifies how strong the reconnect and timer guarantees must be.
 - The room runtime choice is also a deployment and self-host-parity decision, not only a multiplayer-library taste choice.
 - v1 answer surfaces are intentionally anchored at `circuit` and `venue`; finer-grained `section` or `corner` answers stay out of scope unless a later inserted phase is justified by playtest evidence, but the answer-target model should preserve that hierarchy now.
-- The content model is designed to support later async, spectator, and adjacent-mode wrappers, but none of those wrappers are on the v1 spine until the geography-and-circuit loop proves repeat-play value.
+- The first low-burden post-private wrapper remains open between aftermath/recap surfaces, share-by-link challenge reuse, and other low-burden experiments; none of those wrappers are on the v1 spine until the geography-and-circuit loop proves repeat-play value.
+- The first bounded audience bundle remains open; `watch` / `read`, light `react` / `vote` / `predict`, and heavier `submit` / `speak` rights should not be collapsed into one default role.
+- Later host-identity ranking remains open; private-host parity now should not be mistaken for official hosted convenience, provider/partner hosts, or unsupported operator doctrine.
+- Later money-family ranking remains open; editorial/programming/content value and hosted convenience remain rival families, while paid guaranteed participation stays outside the ordinary ladder.
 - Visibility state stays explicit: private trusted-room play now, unlisted/share-by-link surfaces later, and broader public discovery only when stronger moderation and service obligations are chosen deliberately.
 - The first useful room-lifecycle and capability bundle remains open; planning should preserve the seam without pretending the final role model is already known.
 - The durable noun for recurring group identity remains open; planning should not silently collapse player history, room/group memory, event memory, and content history into one default ledger.
+- The first explicit outward shell and the first true event-memory shell both remain open; v1 summary/replay language should not be over-read as closure on either question.
 - Higher-tempo transport and authority specifics remain deferred unless a later mode family actually earns them.
 
 ## Phases
@@ -96,6 +100,7 @@ Plans:
 **Carry-forward constraints**:
 - Do not plan this phase as if `room`, `event container`, `active game instance`, and `recurrence unit` are the same object.
 - Do not fuse `host`, `authority`, `presenter`, and future operator/moderation rights into one permanent role model.
+- Treat private-host parity as a capability seam, not as proof that a later convenience-hosting winner or support owner has already been chosen.
 **Still open**: The first useful capability bundle and exact room-lifecycle primitive set remain open even though the seam must stay visible.
 **Assumed posture**: Host-created private rooms with a limited trust boundary, modest service obligation, and an operator-run local or privately hosted deployment.
 **Open decisions**: Choose `Colyseus` if this phase promises strong reconnect and timer correctness or self-host/private-host parity from the start; choose `PartyKit` only if planning explicitly optimizes for private-prototype speed over early durability and deployment parity.
@@ -140,7 +145,7 @@ Plans:
 **Protects**: A reusable controller contract, answer-entry surface, and lifecycle-sensitive join spine that can survive later room wrappers or teammate variants.
 **Does not decide yet**: Native apps, public onboarding, spectator participation, or account-linked identity flows.
 **Carry-forward constraints**:
-- Do not flatten `join`, `rejoin`, `seat claim`, and later audience-only entry into one identical flow.
+- Do not flatten `join`, `rejoin`, `seat claim`, and later audience-only entry into one identical flow; `seat claim` is transient room-local state, not reservation or admission policy.
 - Keep low-friction presence identity separable from later persistent identity and progression surfaces.
 **Assumed posture**: Trusted guests joining private rooms quickly from phones or browsers without a public-user platform commitment.
 **UI hint**: yes
@@ -164,6 +169,7 @@ Plans:
 **Carry-forward constraints**:
 - Preserve staged reveal and audience readability without universalizing one shared truth surface.
 - Keep the host screen compatible with private-state modes and bounded audience shells that may be earned later.
+- Treat `summary` / `replay` as room closeout adjacent to later recap/report or challenge-result shells, not as proof that the first explicit outward shell or true event-memory layer is already settled.
 **Assumed posture**: Shared-screen private sessions where host-led pacing and group readability matter more than public broadcast scale.
 **UI hint**: yes
 
@@ -180,10 +186,11 @@ Plans:
 - `.planning/PROJECT.md` — curated-quality posture, shared substrate remains reusable
 - `.planning/LONG-ARC.md` — long-arc product, visibility, hosting, support, and wrapper doctrine that current work must preserve without widening v1 scope
 **Plans**: TBD
-**Protects**: Content curation, calibration seams, and content-history separation that can later power broader pack libraries or other wrappers without assuming a marketplace now.
+**Protects**: Content curation, official-library trust anchoring, calibration seams, and content-history separation that can later power broader pack libraries or other wrappers without assuming a marketplace now.
 **Does not decide yet**: Public UGC publishing, pack marketplace logic, or large-scale telemetry/service obligations.
 **Carry-forward constraints**:
-- Do not treat content calibration, replay history, player history, room/group memory, and event memory as one flat ledger.
+- Do not treat content calibration, content history, replay history, player history, room/group memory, player mastery, and event memory as one flat ledger.
+- Keep official curated packs as the guest-facing trust anchor unless later canon deliberately widens status; reviewed intake and segregated unsupported/operator listings are later statuses, not current defaults.
 - Keep cadence layering visible: session pacing, editorial/content rhythm, and later event cadence should not be collapsed into one model by default.
 **Assumed posture**: Curated private release with enough evidence capture to improve quality, not a public content platform.
 
@@ -205,6 +212,7 @@ Plans:
 **Carry-forward constraints**:
 - Treat reconnect as room-lifecycle and authority continuity work, not only browser refresh state reload.
 - Preserve continuity for active round context, ownership, and role/state recovery without assuming the presenter surface is the only state-bearing surface.
+- Treat durability here as continuity and recovery, not as escalation to stronger service promises or a settled host-identity model.
 **Assumed posture**: Modest private-hosting expectations where common refresh and sleep interruptions should recover cleanly.
 
 ## Progress

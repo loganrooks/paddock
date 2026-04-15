@@ -48,7 +48,7 @@ The current most useful vocabulary distinction is:
 - **event container**: a higher-level social or programmed shell that may outlive one active game
 - **room**: the participant and trust shell in which a group gathers
 - **game instance**: the active playable loop or frozen session currently being run inside a room or wrapper
-- **session wrapper**: live room, solo practice, frozen challenge, or later spectator-facing shell
+- **session wrapper**: live room, solo practice, aftermath recap/report surface, share-by-link challenge, or later bounded-audience/spectator-facing shell
 - **watchability layer**: the host-screen clarity, suspense, and reveal payoff that make a session socially legible
 - **platform shell**: the broader long-arc product, if later wrappers and sibling modes genuinely reuse the same substrate
 
@@ -57,7 +57,7 @@ Research and synthesis so far suggest:
 - the strongest early shape is likely location-led rather than location-only
 - the geography core should feel circuit-aware and reveal-rich, not merely distance-scored
 - the product is likely strongest in a host-screen-friendly social format
-- one shared content substrate may later support solo, challenge, couch, and private-room wrappers
+- one shared content substrate may later support solo, aftermath/recap, share-by-link challenge, couch, and private-room wrappers
 - host-screen-friendly should be read as a watchability and shared-legibility bias, not as a claim that every participant always shares one truth surface
 
 The most important modeling distinction discovered so far is:
@@ -99,16 +99,16 @@ What this milestone must establish:
 
 Goal:
 
-- prove that the same substrate can support asynchronous, remote, recurring, and more sustainable content operations without turning the project into a public-platform obligation too early
+- prove that the same substrate can support more durable remote/private access, low-burden wrapper experiments, layered memory, and more sustainable content operations without turning the project into a public-platform obligation or choosing later winners too early
 
 What this milestone is expected to add:
 
-- async or solo wrapper surfaces
-- lightweight player identity and session history
-- room/group memory and recurrence surfaces, if earned
-- private-host durability and more persistent remote access patterns
+- remote/private convenience and more persistent access patterns
+- low-burden wrapper experiments such as solo practice, aftermath recap/report, or share-by-link challenge surfaces, with the first post-private wrapper still open
+- lightweight player identity, session history, and room/group memory or recurrence surfaces, if earned
 - authoring and preview tooling that make content production sustainable
-- richer content operations, pack sharing, calibration insight, and reusable content/history surfaces across wrappers
+- richer content operations, official-library growth, pack sharing, calibration insight, and reusable content/history surfaces across wrappers
+- preserved host-identity and discovery-choice seams so later convenience hosting or outside-pack status questions stay explicit rather than silently settled
 
 ### Milestone 3: F1 Party Platform
 
@@ -120,7 +120,7 @@ What this milestone is expected to add:
 
 - adjacent non-anchor mode families
 - team variants and richer room roles
-- spectator-facing or showcase-friendly wrappers
+- bounded-audience, spectator-facing, or showcase-friendly wrappers
 - deeper content programming, replay, and social surfaces
 
 ## How The Long Arc Constrains v1
@@ -137,11 +137,13 @@ The current product posture should stay explicit while planning evolves:
 
 - The emotional center of v1 is a watchable private game-night ritual for trusted groups, not ambient public discovery.
 - The guest-facing product surface should stay browser-first whether the operator is running locally, on a LAN, or on a privately hosted remote box.
-- The shared substrate should stay reusable across likely later wrappers such as solo practice, frozen challenge links, private remote rooms, or spectator-facing shells.
+- The shared substrate should stay reusable across likely later wrappers such as solo practice, aftermath recap/report surfaces, share-by-link challenge links, private remote rooms, or bounded-audience shells.
 - `presence identity` should remain separable from later persistent identity so low-friction room join does not harden into the wrong long-term model.
 - Memory should stay layered: player history, room/group memory, event memory, and content calibration/history should not be treated as one flat ledger by default.
 - Cadence should stay layered: session pacing, editorial/content rhythm, and later event cadence should remain distinguishable even if Milestone 1 implements only a narrow subset.
 - Visibility state should stay explicit: trusted private rooms now, unlisted/share-by-link surfaces later, and broader public discovery only when the project deliberately accepts stronger moderation and status obligations.
+- Watchability should stay tied to shared legibility and reveal payoff, not to one permanent truth surface or one fixed audience-right bundle.
+- The official curated library should remain the trust anchor even if later editorial activation, visible outside credit, or other discovery states are explored.
 - Bounded public or spectator-facing shells should be understood as wrappers around private-first play, not as evidence that the product center has become public-first.
 - Current trust and service assumptions remain modest: private use, low moderation burden, no strong public uptime promise, no paid guaranteed access promise, and no obligation yet to support stranger participation well.
 
@@ -172,7 +174,7 @@ The current product posture should stay explicit while planning evolves:
 | Question | Why It Matters | Criticality | Status |
 |----------|----------------|-------------|--------|
 | Is the best first product a tight geography game or a broader party shell with one anchor mode? | This shapes the roadmap width and how much the architecture must anticipate multi-mode expansion | Critical | Leaning: anchor-first with future wrappers protected |
-| Which later wrapper should prove substrate reuse first after live private rooms: solo practice, frozen challenge links, or spectator-facing shells? | This shapes what Phase 1 and Phase 3 must protect without widening v1 prematurely | Critical | Pending |
+| Which later wrapper should prove substrate reuse first after live private rooms: solo practice, aftermath recap/report surfaces, share-by-link challenge links, or bounded-audience shells? | This shapes what Phase 1 and Phase 3 must protect without widening v1 prematurely | Critical | Pending |
 | Which answer surfaces should become first-class in the authored round model? | This determines schema design, scoring logic, and content authoring workload | Critical | Pending |
 | How much unrestricted Street View exploration should exist, if any? | This affects clue design, difficulty, dependency on external APIs, and gameplay feel | Medium | Pending |
 | How much should the first version optimize for watchability versus pure solver challenge? | This changes reveal pacing, host tooling, and UI priorities | Medium | Leaning: watchability is load-bearing, exact balance still open |

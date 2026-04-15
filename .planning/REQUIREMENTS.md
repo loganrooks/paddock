@@ -79,6 +79,8 @@
 
 ## v2 Requirements
 
+These later capability families are illustrative and non-ranked. They preserve future wrapper, memory, access, and content-operation seams without choosing the first low-burden wrapper, the first explicit outward shell, the first true event-memory shell, or any later money/access sequence.
+
 ### Finer-Grained Answer Surfaces
 
 - **ADV-01**: Player can answer at `section` or `corner` specificity in selected packs or modes.
@@ -86,7 +88,7 @@
 
 ### Additional Wrappers
 
-- **WRAP-01**: Player can play async or solo challenge sessions from the same pack substrate.
+- **WRAP-01**: Player can use the same pack substrate in at least one low-burden non-room wrapper family such as solo practice, share-by-link challenge sessions, or aftermath recap/report surfaces.
 - **WRAP-02**: Host can run team-based variants on top of the same room and scoring contracts.
 
 ### Expanded Mode Families
@@ -96,10 +98,10 @@
 
 ### Retention And Public Features
 
-- **RET-01**: Product supports a daily or recurring challenge format.
+- **RET-01**: Product supports at least one lightweight recurring return surface without assuming that challenge cadence is the only or first durable format.
 - **RET-02**: Product supports lightweight player identity and session history without requiring a heavy public-account posture.
 - **RET-03**: Player can review their own round-by-round history and accuracy trends across sessions.
-- **RET-04**: Session results remain browsable after play as a replay or structured review surface.
+- **RET-04**: Session results remain browsable after play as a recap, replay, or structured review surface without collapsing room closeout into later challenge-result or event-memory doctrine.
 
 ### Content Operations
 
@@ -128,19 +130,19 @@ Where these seams or deferrals are justified mainly by non-foreclosure rather th
 - **SEAM-01**: The authored round model should preserve explicit `venue -> circuit -> section -> corner` relationships rather than collapsing the answer contract to coordinates only or flat labels only.
 - **SEAM-02**: Judging, reveal, and scoring contracts should remain separable from room transport and UI surfaces.
 - **SEAM-03**: Room authority, active-session ownership, and progression control should remain separable from host-screen and phone-controller presentation, and from any single presenting browser.
-- **SEAM-04**: The authored content substrate should stay reusable across private-room play and plausible later wrapper surfaces such as async challenges, solo practice, or adjacent expert-facing modes.
-- **SEAM-05**: Wrapper access policy and visibility state should remain separable from the shared content and session substrate so private rooms, unlisted challenges, and later spectator/public read surfaces do not require a second product core.
+- **SEAM-04**: The authored content substrate should stay reusable across private-room play and plausible later wrapper surfaces such as solo practice, share-by-link challenge sessions, aftermath recap/report, or adjacent expert-facing modes.
+- **SEAM-05**: Wrapper access policy and visibility state should remain separable from the shared content and session substrate so private rooms, unlisted recap or challenge links, and later bounded audience/public read surfaces do not require a second product core.
 - **SEAM-06**: `event_container`, `room`, and `active game/session instance` should remain logically separable even when Milestone 1 often renders them 1:1 in the visible UI.
 - **SEAM-07**: Visibility publication and staged reveal should remain separable from any one shared participant surface so host-screen plus private devices, same-house-separated play, and bounded audience shells do not require a second product core.
-- **SEAM-08**: Presence identity, persistent identity, room/group memory, event memory, and content calibration history should not collapse into one flat profile or one undifferentiated results ledger.
+- **SEAM-08**: Presence identity, persistent identity, player memory, room/group memory, event memory, and content calibration/history should not collapse into one flat profile or one undifferentiated results ledger.
 
 ### Explicit Deferrals
 
-- **DEF-01**: Visibility decisions stronger than private rooms or share-by-link flows remain deferred until the private social loop proves itself.
+- **DEF-01**: Visibility decisions stronger than private rooms or bounded share-by-link / recap surfaces remain deferred until the private social loop proves itself.
 - **DEF-02**: Public participant trust, moderation, and service-obligation surfaces remain deferred.
 - **DEF-03**: Paid guaranteed access, public uptime promises, or commercialization hardening remain deferred.
 - **DEF-04**: Adjacent non-anchor F1 party modes remain deferred until the anchor geography-and-circuit loop is proven.
-- **DEF-05**: Public room discovery, stranger participation, and open creator publishing remain deferred until the project intentionally accepts their moderation and trust obligations.
+- **DEF-05**: Broader public room discovery, stranger participation, guest-facing outside-pack discovery, and open creator publishing remain deferred until the project intentionally accepts their moderation, trust, and status-communication obligations.
 - **DEF-06**: Exact higher-tempo transport, prediction, rollback, or action-mode authority profiles remain deferred until a future mode family actually earns them.
 
 ## Out of Scope

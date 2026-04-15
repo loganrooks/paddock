@@ -38,10 +38,14 @@ The mature shape is best understood as one authored F1 substrate plus multiple p
 
 Possible wrappers stay explicitly alive but uncommitted:
 
-- async challenge
+- low-burden aftermath or recap/report surface
+- share-by-link or challenge surface
 - solo support shell
+- bounded live-audience shell with staged audience rights
 - spectator or streamer-adjacent shell
 - broader F1 party platform expansion
+
+These are wrapper families, not a ranked product order. The first low-burden reuse surface, the first audience bundle, and the first explicit outward shell all remain open even though the families themselves are now durable doctrine.
 
 Some later surfaces may be true wrappers on the same substrate. Others may become sibling products that share theme, audience, or portions of the authored stack more than they share one exact session shell. This doctrine keeps those futures visible without pretending they are all equally likely or equally imminent.
 
@@ -57,12 +61,16 @@ These may often map 1:1 in the first implementation, but planning should preserv
 
 The same applies to visibility. Host-screen watchability is a presentation and legibility posture, not a commitment to one permanent participant truth surface. Some later wrappers may require shared-stage plus private devices, same-house-separated local play, role-private views, or audience-readable shells that do not leak player-private state.
 
+Later wrappers may diverge by burden and rights even when they share the same substrate. Low-burden aftermath, share-by-link challenge reuse, bounded watch/read shells, light react/vote/predict shells, and heavier submit/speak or showcase shells should not be flattened into one generic `challenge` or `spectator` ladder.
+
 Memory and cadence should also stay layered:
 
 - player memory is not the same as room/group memory
 - room/group memory is not the same as event memory
 - event memory is not the same as content calibration/history
 - session pacing is not the same as editorial rhythm or later event cadence
+
+Player mastery, room/group recurrence, featured result history, and true event memory may later share references, but they should not be treated as one archive depth, one cadence taxonomy, or one navigation model by default.
 
 Milestone 1 does not need to implement all of those layers. It does need to avoid flattening them into one profile, one room history, one results ledger, or one cadence model by default.
 
@@ -92,6 +100,8 @@ This means Milestone 1 planning should actively avoid smuggling in public-live p
 
 Visibility and discovery are staged and surface-specific. They should not be flattened into a single "private now, public later" slogan.
 
+It is an obligation ladder, not a winner ladder for wrapper order.
+
 The current ladder is:
 
 1. trusted private rooms
@@ -101,15 +111,21 @@ The current ladder is:
 
 Different later surfaces may enter this ladder at different levels. A public read or showcase surface is not the same decision as public live participation. A challenge link is not the same decision as stranger-join rooms. Planning should preserve those distinctions instead of collapsing them into one "publicness" switch.
 
+Audience rights are also staged. `watch` or `read` is lighter than `react`, `vote`, or `predict`, which is lighter than `submit` or `speak`. A surface becoming watchable or selectively visible does not prove that the heavier rights bundle belongs there.
+
 ## Hosting And Scaling Ladder
 
 Self-hostable authoritative rooms are the primary branch to preserve. The preferred ladder is:
 
 1. local or LAN operator flow
 2. privately hosted remote rooms with standard browser access
-3. modest hosted operation if the project later needs easier remote coordination
+3. later convenience-hosting capability if the project eventually needs easier remote coordination than trusted operators alone can provide
 
 This doctrine treats browser-first guest access as non-negotiable across the ladder. Guests should not need developer tooling, source checkout, or operator networking software just to join a room.
+
+That third rung is a capability seam, not an owner-model winner. If it is ever earned, it could resolve through official hosted convenience, provider or partner hosts, or better trusted-operator tooling; plural-host or collective futures remain preserve-only rather than current roadmap commitments.
+
+Trusted operators, official hosted convenience, provider or partner hosts, and unsupported private operators are distinct later identities. They should not be collapsed under a bare `hosted` noun.
 
 Full peer-to-peer room authority is not the primary path. It adds trust, authority, reconnect, and operational complexity in the wrong place for this project. Cooperative scaling may matter later, but the main branch worth protecting is authoritative rooms that can be self-hosted and packaged cleanly.
 
@@ -123,8 +139,10 @@ The current doctrine is:
 
 - optional support can exist without changing room access or service promises
 - trusted private access can exist without public discovery
-- paid guaranteed access is a later-stage posture, not a Milestone 1 or default Milestone 2 assumption
-- contribution and sharing questions should be staged carefully and should not silently imply open publishing or community governance
+- later money families remain rival families: editorial/programming/content value and hosted convenience should stay distinct from one another
+- paid guaranteed participation is outside the ordinary ladder unless the project deliberately adopts a different obligation profile
+- the official curated library is the trust anchor; later editorial activation with visible outside credit may exist without implying open publishing or guest-facing outside discovery
+- reviewed intake, approved editorial activation, and segregated unsupported/operator listings are different statuses and should not collapse into one discovery layer
 
 This separation matters because it prevents premature commercialization logic and premature public-platform behavior from leaking into early architecture.
 
@@ -147,7 +165,9 @@ Milestone 1 should actively protect these bets:
 - room shell, active game instance, and later event/container layers should not collapse into one default noun
 - self-hostable authoritative rooms are the correct durability seam
 - bounded audience or public shells should stay possible without becoming the default identity model
+- later wrapper families should stay plural even while wrapper order remains open
 - memory and cadence should stay layered even if Milestone 1 directly implements only a narrow subset
+- the first audience bundle, first explicit outward shell, and first true event-memory shell should stay open until later work earns them
 - judging, reveal, room authority, and presentation should stay separable where practical
 
 These are protected bets, not promises that every future surface will be built. They define what current work should avoid foreclosing.
@@ -157,7 +177,7 @@ These are protected bets, not promises that every future surface will be built. 
 The following remain deferred and should not be imported into current planning as if they were already chosen:
 
 - public live participation
-- paid guaranteed access
+- paid guaranteed access or paid guaranteed participation
 - open creator marketplace or broad public publishing
 - broad community-host governance
 - full peer-to-peer room authority as the main branch
