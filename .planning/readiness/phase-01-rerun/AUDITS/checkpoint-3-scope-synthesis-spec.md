@@ -9,14 +9,16 @@ Synthesize the Codex and GSD mapping outputs into the actual Checkpoint 3 workfl
 Do not run this synthesis until:
 
 - the Codex surface map exists
-- the GSD surface map exists
-- or the GSD lane has explicitly said it must be split further
+- the initial GSD surface map exists
+- if the initial GSD mapping fired the split trigger, the deeper GSD sublane outputs exist
+- if the initial GSD mapping fired the split trigger, the GSD-only synthesis exists
 
 ## Inputs
 
 - [checkpoint-3-workflow-harness-scope-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-workflow-harness-scope-launch-spec.md)
 - [checkpoint-3-codex-surface-map.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-codex-surface-map.md)
 - [checkpoint-3-gsd-surface-map.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-gsd-surface-map.md)
+- [checkpoint-3-gsd-scope-synthesis.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-gsd-scope-synthesis.md)
 - [checkpoint-3.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/GATES/checkpoint-3.md)
 - [PLAN.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/PLAN.md)
 
@@ -36,14 +38,14 @@ Required sections:
 - `What looks broad but is not load-bearing`
 - `What looks narrow but is actually load-bearing`
 - `What remains machinery-owned follow-through for Checkpoint 5`
-- `If further GSD splitting is required`
+- `How Checkpoint 3 resolved the GSD split`
 - `Planning Handoff`
 
 ## Decision Discipline
 
 - do not optimize for the smallest possible audit envelope
 - do not choose a unit of analysis just because it is easiest to inspect
-- if the GSD lane says further split is required, preserve that honestly rather than smoothing it away
+- if the initial GSD mapping fired the split trigger, treat the GSD-only synthesis as a required input rather than smoothing the split away
 
 ## Lane
 

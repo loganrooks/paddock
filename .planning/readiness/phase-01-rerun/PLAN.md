@@ -311,6 +311,7 @@ Contingency:
 Objective:
 - map the relevant workflow and harness landscape before the deeper excellence audit fixes its scope
 - determine what the real unit of analysis should be for the later tandem audit
+- if the initial GSD mapping proves the GSD side too broad for one honest pass, complete the deeper GSD mapping and GSD-only synthesis inside Checkpoint 3 rather than pushing that mapping debt into Checkpoint 4
 
 Primary mapping targets:
 - top-level Codex orchestration and session continuity surfaces
@@ -341,11 +342,22 @@ Checkpoint question:
 Commit boundary:
 - if the scope artifact is independently reviewable, checkpoint it before launching the deeper audit
 
+Current Checkpoint 3 branch:
+
+- the initial Codex map is complete
+- the initial GSD map is complete
+- the initial GSD map fired the split trigger
+- so Checkpoint 3 now owes:
+  - deeper GSD mapping sublanes
+  - a GSD-only synthesis
+  - then the overall workflow / harness scope synthesis
+
 ### Checkpoint 4: Phase Workflow / Harness Excellence Audit
 
 Objective:
 - review the active phase workflow and the Codex/GSD harness layers together against the same demanding standard used in readiness prep
 - test not just whether the machinery can pass a gate, but whether it reliably drives toward the best planning, research, execution, review, and verification work the repo can currently support
+- preserve the already-earned GSD split rather than collapsing the repo-local GSD side back into one omnibus audit lane
 
 Primary targets:
 - top-level Codex orchestration doctrine in [AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/AGENTS.md)
@@ -362,6 +374,16 @@ Primary targets:
   - plan checker / verification / validation logic
   - `gsd-review`
   - Codex session continuity and delegation discipline
+
+Checkpoint 4 should therefore be expected to consume the resolved Checkpoint 3 mapping result, including:
+
+- one Codex-side lane for the load-bearing Codex surfaces and Codex↔repo seams justified by Checkpoint 3
+- multiple GSD excellence sublanes, because Checkpoint 3 has already justified and resolved a GSD split between:
+  - phase-critical workflow chain plus artifact contracts
+  - active agent-role contracts plus shared doctrine
+  - runtime/config/overlay truth
+
+Do not reopen whether the GSD side should split unless later evidence shows the resolved Checkpoint 3 map was materially wrong.
 
 Core questions:
 - does the current discuss -> research -> planning -> execution -> verification flow reward excellence, or mostly detect obvious failure?

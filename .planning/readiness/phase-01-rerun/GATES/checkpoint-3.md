@@ -1,6 +1,6 @@
 # Checkpoint 3: Workflow / Harness Scope Audit
 
-Status: not started  
+Status: in progress  
 Last updated: 2026-04-15
 
 ## Objective
@@ -33,6 +33,7 @@ Last updated: 2026-04-15
 ## Exit Criteria
 
 - the later deeper audit has an explicit, justified audit envelope
+- if the initial GSD mapping fired the split trigger, the deeper GSD mapping sublanes and GSD-only synthesis are complete before the overall scope synthesis closes
 - the result can explain why some surfaces deserve deep audit and others do not
 - the package no longer relies on ambient assumptions about what the harness "really is"
 - the mapping output is reusable as a later harness-orientation and audit-onboarding asset

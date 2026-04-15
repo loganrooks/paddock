@@ -1,17 +1,19 @@
 current_checkpoint: 3
 checkpoint_name: workflow_harness_scope_audit
-checkpoint_state: not_started
+checkpoint_state: in_progress
 readiness_state: not_ready
-current_task: run_workflow_harness_scope_audit
-next_action: write_and_launch_checkpoint_3_scope_audit
+current_task: refine_and_execute_checkpoint_3_gsd_split_mapping
+next_action: checkpoint_spec_refinement_then_launch_deeper_gsd_mapping
 review_policy_path: .planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml
 current_checkpoint_requires_independent_reviewer_for_closure: true
 working_tree_clean_expected: true
 blocked_by:
-  - workflow_harness_scope_audit_not_run
+  - deeper_gsd_mapping_not_run
+  - gsd_scope_synthesis_not_yet_written
   - workflow_harness_scope_verdict_not_yet_recorded
 open_findings:
   - workflow_and_harness_landscape_not_yet_scoped_for_deeper_excellence_audit
+  - initial_gsd_mapping_triggered_split_inside_checkpoint_3
   - hook_and_config_inventory_ownership_not_yet_scoped
   - branch_and_worktree_boundary_surface_not_yet_scoped
   - template_and_review_routing_surfaces_not_yet_scoped
@@ -32,5 +34,5 @@ checkpointed_baselines:
   - 746e53a docs(readiness): add checkpoint 1 audit surface
   - 97bd603 docs(readiness): close checkpoint 1 and advance to checkpoint 2
 next_expected_commit:
-  - governance-doc normalization patch and checkpoint 2 review closeout
+  - checkpoint-3 spec refinement and launch-state checkpoint
 requires_user_input: false

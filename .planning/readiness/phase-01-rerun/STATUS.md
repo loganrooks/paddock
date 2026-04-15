@@ -6,14 +6,15 @@ Last updated: 2026-04-15
 
 - Active checkpoint: `3`
 - Checkpoint name: `Workflow / harness scope audit`
-- Checkpoint state: `not started`
+- Checkpoint state: `in progress`
 - Readiness state: `not ready to rerun`
 
 ## Why this is current
 
 - Checkpoint 2 is now closed: the bounded governance-doc normalization patch was completed against the accepted Checkpoint 1 audit map and passed both independent internal review and cross-vendor Claude reread under [REVIEWS/](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS).
-- The next blocker is no longer governance-doc owner cleanup; it is the still-unrun workflow / harness scope audit needed to map the real unit of analysis for the deeper tandem excellence audit.
-- Starting the fresh Phase 01 rerun now would still risk treating the harness as already-understood when the readiness plan explicitly requires a scoping pass before the deeper Codex+GSD workflow / harness audit.
+- The next blocker is no longer governance-doc owner cleanup; it is the still-open Checkpoint 3 scope sequence needed to map the real unit of analysis for the deeper tandem excellence audit.
+- The initial Codex map and initial GSD map now exist, and the initial GSD map has already justified a deeper GSD split inside Checkpoint 3.
+- Starting the fresh Phase 01 rerun now would still risk treating the harness as already-understood when the readiness plan explicitly requires a completed scoping pass before the deeper Codex+GSD workflow / harness audit.
 
 ## Done
 
@@ -35,7 +36,7 @@ Last updated: 2026-04-15
 
 ## Not started
 
-- workflow / harness scoping audit
+- deeper GSD mapping sublanes and GSD-only synthesis inside Checkpoint 3
 - tandem phase-workflow / Codex+GSD harness excellence audit
 - conditional harness/GSD follow-through, if needed
 - repo-local non-phase external-reread protocol/template, if later harness follow-through still needs one
@@ -45,7 +46,8 @@ Last updated: 2026-04-15
 ## Blocking findings
 
 1. The workflow / harness landscape still has not been mapped honestly enough to justify the deeper tandem excellence audit envelope.
-2. The next scoping checkpoint still needs to examine the machinery-shaped follow-through surfaces left open by Checkpoint 2:
+2. The initial GSD mapping already proved that the GSD side needs deeper Checkpoint 3 mapping before the overall scope audit can close.
+3. The next scoping checkpoint still needs to examine the machinery-shaped follow-through surfaces left open by Checkpoint 2:
    - hook/config inventory ownership
    - branch/worktree boundary materialization
    - template/routing surfaces
@@ -65,11 +67,11 @@ Last updated: 2026-04-15
 - Checkpoint 0 closure evidence now lives in:
   - [REVIEWS/checkpoint-0-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r1.md)
   - [REVIEWS/checkpoint-0-internal-review-r2.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r2.md)
-- The next readiness-moving commit after this checkpoint closeout should come from the Checkpoint 3 scoping artifact, not another reread of Checkpoint 2 unless new evidence reopens the gate.
+- The next readiness-moving commit should capture the Checkpoint 3 spec refinement and current in-progress scoping state before launching the deeper GSD mapping lanes.
 
 ## Immediate next action
 
-- run the workflow / harness scope audit under Checkpoint 3 with an explicit reusable spec, justified audit envelope question, and later handoff into the deeper tandem excellence audit
+- checkpoint the refined Checkpoint 3 spec bundle, then launch the deeper GSD mapping sublanes and GSD-only synthesis before the overall scope synthesis
 
 ## User consultation required?
 
