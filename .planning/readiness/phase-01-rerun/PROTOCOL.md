@@ -10,6 +10,7 @@ This file defines how to operate the readiness package without relying on ambien
 4. [STATE.yaml](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/STATE.yaml)
 5. the active checkpoint file under [GATES/](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/GATES)
 6. [CHECKPOINT-REVIEW-MATRIX.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CHECKPOINT-REVIEW-MATRIX.md) when deciding checkpoint review depth
+7. [REVIEW-POLICY.yaml](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml) for machine-readable closure and independence rules
 
 ## Mandatory Updates
 
@@ -39,6 +40,12 @@ Update `TASKS.md` whenever:
 - a new blocking task is discovered
 - a task is deferred or reactivated
 
+Update `OPPORTUNITIES.md` whenever:
+
+- review or research finds a non-blocking but meaningful quality-upside opportunity
+- an opportunity changes route
+- an opportunity is promoted into an active task or deferred further
+
 Update `RESEARCH-INTAKE.md` whenever:
 
 - a research bundle materially changes readiness understanding
@@ -55,6 +62,7 @@ Update `CHECKPOINT-LEDGER.md` whenever:
 
 - a readiness checkpoint commit is created
 - a planned boundary is intentionally postponed
+- a meaningful readiness-support commit changes package doctrine, review policy, or intake behavior
 
 ## Commit Protocol
 
@@ -64,6 +72,7 @@ Update `CHECKPOINT-LEDGER.md` whenever:
 - If the state is not coherent enough to commit, split or park it rather than forcing a bad baseline.
 - Do not merge unrelated readiness concerns into one checkpoint just because they happened close together in time.
 - If a research bundle materially changes readiness doctrine or gate logic, checkpoint the package-side intake/update separately from the research bundle when that yields a cleaner audit trail.
+- For major checkpoint closure, do not let the same lane both author and solely certify closure. Use the independence rule in `REVIEW-POLICY.yaml`.
 
 ## Stop / Escalate Conditions
 
@@ -89,6 +98,12 @@ Classify the gap first using the disposition ladder in [REVIEW-TEMPLATE.md](/hom
 - `defer-nonblocking`
 
 The review artifact should make that classification explicit before further work proceeds.
+
+If the classification is `strategic-opportunity`:
+
+- do not bury it in prose
+- route it into `OPPORTUNITIES.md`
+- decide whether it belongs to a later checkpoint, deferred follow-through, or post-rerun seed work
 
 ## Quality Standard
 

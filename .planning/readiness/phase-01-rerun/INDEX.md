@@ -15,8 +15,10 @@ Then as needed:
 
 - [TASKS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/TASKS.md)
 - [DEFERRED.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/DEFERRED.md)
+- [OPPORTUNITIES.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/OPPORTUNITIES.md)
 - [RESEARCH-INTAKE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/RESEARCH-INTAKE.md)
 - [CHECKPOINT-REVIEW-MATRIX.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CHECKPOINT-REVIEW-MATRIX.md)
+- [REVIEW-POLICY.yaml](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml)
 - [REVIEW-TEMPLATE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEW-TEMPLATE.md)
 - [CHECKPOINT-LEDGER.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CHECKPOINT-LEDGER.md)
 - [DEVIATIONS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/DEVIATIONS.md)
@@ -30,8 +32,10 @@ Then as needed:
 - checkpoint evidence and verdicts: `GATES/`
 - task routing: `TASKS.md`
 - deferrals: `DEFERRED.md`
+- non-blocking quality upside: `OPPORTUNITIES.md`
 - research absorption / consequences: `RESEARCH-INTAKE.md`
 - checkpoint review expectations: `CHECKPOINT-REVIEW-MATRIX.md`
+- machine-readable checkpoint review rules: `REVIEW-POLICY.yaml`
 - explicit review spec shape: `REVIEW-TEMPLATE.md`
 - commit history of readiness boundaries: `CHECKPOINT-LEDGER.md`
 - sequence changes: `DEVIATIONS.md`

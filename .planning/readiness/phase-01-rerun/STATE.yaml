@@ -4,6 +4,8 @@ checkpoint_state: in_progress
 readiness_state: not_ready
 current_task: repair_and_rereview_2026_04_15_governance_audit_bundle
 next_action: patch_and_rereview_bundle_01_through_06
+review_policy_path: .planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml
+current_checkpoint_requires_independent_reviewer_for_closure: true
 working_tree_clean_expected: true
 blocked_by:
   - stale_internal_file_line_citations
@@ -11,6 +13,8 @@ blocked_by:
 open_findings:
   - governance_audit_bundle_needs_citation_repair
   - governance_docs_need_normalization_audit
+open_opportunities:
+  - repo_local_non_phase_external_reread_protocol_template
 deferred_items:
   - scraped_radio_branch_archive_posture
   - dedicated_cross_model_audit_skill_creation

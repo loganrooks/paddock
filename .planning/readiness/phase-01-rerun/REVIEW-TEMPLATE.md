@@ -10,9 +10,14 @@ Use this for explicit readiness checkpoint reviews.
   - `local-reread`
   - `internal-verification-agent`
   - `cross-vendor-reread`
+- authoring lane:
 - reviewer:
 - model / reasoning or vendor:
 - baseline commit / artifact snapshot:
+- independence relationship:
+  - `independent`
+  - `same-lane`
+  - `cross-vendor`
 
 ## Review Questions
 
@@ -39,6 +44,8 @@ For each material problem, classify the required response as one of:
   The problem actually belongs to an earlier checkpoint or upstream doctrine/harness layer.
 - `escalate-cross-vendor`
   Internal review is insufficient; independent external reread should occur if available.
+- `strategic-opportunity`
+  Not a blocker, but a meaningful short- or long-term quality opportunity should be tracked explicitly.
 - `user-consult`
   The result changes the sequence or exposes a real strategic choice.
 - `defer-nonblocking`
@@ -64,6 +71,7 @@ For each material problem, classify the required response as one of:
 
 ## Independence Note
 
+- Does this review satisfy the checkpoint's independent-review requirement?
 - Was a cross-vendor lane available?
 - If not used, why not?
 - If used, what did independence add?

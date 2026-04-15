@@ -19,6 +19,14 @@ The goal is to make review expectations explicit and proportionate.
 - `implementation-follow-through`
   A fix or patch pass triggered by review findings.
 
+## Independence Rule
+
+- Major checkpoint closure requires an independent reviewer.
+- The lane that authored the artifact under review may participate in revision, but it must not be the only lane certifying closure.
+- For authored-by-subagent work, orchestrator reread can count as the independent reviewer if it is explicit and recorded.
+- For authored-by-orchestrator work, use at least one separate verification lane before major-checkpoint closure.
+- Cross-vendor review does not replace the independence rule; it is an additional stronger mode when required or preferred.
+
 ## By Checkpoint
 
 ### Checkpoint 0: Governance Citation Bundle
