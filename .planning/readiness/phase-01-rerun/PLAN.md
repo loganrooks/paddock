@@ -383,7 +383,7 @@ Checkpoint 4 should therefore be expected to consume the resolved Checkpoint 3 m
   - active agent-role contracts plus shared doctrine
   - runtime/config/overlay truth
 
-Do not reopen whether the GSD side should split unless later evidence shows the resolved Checkpoint 3 map was materially wrong.
+Do not reopen the already-resolved question of whether Checkpoint 4 should collapse back into one omnibus GSD lane. The accepted Checkpoint 3 result is that the GSD side is split into three coordinated excellence sublanes, unless later evidence shows that resolved map was materially wrong.
 
 Core questions:
 - does the current discuss -> research -> planning -> execution -> verification flow reward excellence, or mostly detect obvious failure?

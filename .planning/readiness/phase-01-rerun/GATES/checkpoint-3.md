@@ -79,7 +79,7 @@ Last updated: 2026-04-15
 
 ## Handoff To Checkpoint 4
 
-- Do not reopen whether the GSD side should split unless later evidence shows the accepted Checkpoint 3 map was materially wrong.
+- Do not reopen the already-resolved question of whether Checkpoint 4 collapses back into one omnibus GSD lane. The accepted Checkpoint 3 result is the three-sublane GSD split, unless later evidence shows that map was materially wrong.
 - Launch Checkpoint 4 from the accepted envelope above, not from a fresh omnibus remap of the harness.
 
 ## Reopen Triggers

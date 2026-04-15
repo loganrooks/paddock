@@ -97,7 +97,7 @@
 
 ## Planning Handoff
 
-- [d:c+i] The overall Checkpoint 3 workflow/harness synthesis should consume this artifact as the resolved GSD-side map and should not reopen whether the GSD side splits unless later evidence shows this synthesis is materially wrong. Sources: `.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-scope-synthesis-spec.md:9-15,20-25,46-52`; `.planning/readiness/phase-01-rerun/PLAN.md:378-386`.
+- [d:c+i] The overall Checkpoint 3 workflow/harness synthesis should consume this artifact as the resolved GSD-side map and should not reopen the already-resolved question of whether Checkpoint 4 collapses back into one omnibus GSD lane instead of the accepted three-sublane GSD split, unless later evidence shows this synthesis is materially wrong. Sources: `.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-scope-synthesis-spec.md:9-15,20-25,46-52`; `.planning/readiness/phase-01-rerun/PLAN.md:378-386`.
 - [d:c+r:i] What can now be treated as decided for later checkpoints:
   - the GSD side is not a single audit lane
   - the final GSD unit of analysis for Checkpoint 4 is the three-lane stack plus explicit seam checks
