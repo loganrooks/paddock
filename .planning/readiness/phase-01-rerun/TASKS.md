@@ -6,7 +6,7 @@ This board tracks only work that materially affects Phase 01 rerun readiness.
 
 | ID | Checkpoint | Task | Status | Output / Evidence |
 |---|---|---|---|---|
-| R3.1 | 3 | Run workflow / harness scoping audit | Not started | scope artifact |
+| R3.1 | 3 | Run workflow / harness scoping audit | Not started | [AUDITS/checkpoint-3-workflow-harness-scope-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-workflow-harness-scope-audit.md) |
 
 ## Upcoming
 

@@ -1,0 +1,51 @@
+# Checkpoint 3 Scope Synthesis Spec
+
+## Purpose
+
+Synthesize the Codex and GSD mapping outputs into the actual Checkpoint 3 workflow / harness scope audit.
+
+## Preconditions
+
+Do not run this synthesis until:
+
+- the Codex surface map exists
+- the GSD surface map exists
+- or the GSD lane has explicitly said it must be split further
+
+## Inputs
+
+- [checkpoint-3-workflow-harness-scope-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-workflow-harness-scope-launch-spec.md)
+- [checkpoint-3-codex-surface-map.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-codex-surface-map.md)
+- [checkpoint-3-gsd-surface-map.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-gsd-surface-map.md)
+- [checkpoint-3.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/GATES/checkpoint-3.md)
+- [PLAN.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/PLAN.md)
+
+## Output
+
+Write:
+
+- [checkpoint-3-workflow-harness-scope-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-workflow-harness-scope-audit.md)
+
+Required sections:
+
+- `Research Frame`
+- `Path Of Inquiry`
+- `Integrated Harness Map`
+- `Recommended Unit Of Analysis For Checkpoint 4`
+- `Why this envelope is defensible`
+- `What looks broad but is not load-bearing`
+- `What looks narrow but is actually load-bearing`
+- `What remains machinery-owned follow-through for Checkpoint 5`
+- `If further GSD splitting is required`
+- `Planning Handoff`
+
+## Decision Discipline
+
+- do not optimize for the smallest possible audit envelope
+- do not choose a unit of analysis just because it is easiest to inspect
+- if the GSD lane says further split is required, preserve that honestly rather than smoothing it away
+
+## Lane
+
+- classification: `replanning/revision/gap-filling`
+- model / reasoning: `gpt-5.4 xhigh`
