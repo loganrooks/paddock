@@ -20,6 +20,16 @@ Run these lanes:
 2. `checkpoint-3-gsd-surface-map`
 3. `checkpoint-3-scope-synthesis`
 
+The Codex lane must not rely only on repo-local `.codex/` inspection.
+
+It should combine:
+
+- repo-local Codex surfaces
+- official Codex documentation for capabilities, controls, and documented limitations
+- recent unofficial or user-reported behavior when that behavior affects real operating constraints
+
+and keep the source-basis of those claims explicit.
+
 ## Launch Order
 
 - Launch the Codex and GSD mapping lanes in parallel.

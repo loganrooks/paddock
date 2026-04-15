@@ -26,11 +26,25 @@ Then inspect the current Codex-side repo surfaces:
 - `.codex/agents/`
 - any repo-local instruction / runtime surfaces that materially constrain Codex behavior in this repo
 
+Also inspect external Codex-side sources where they materially affect the harness map:
+
+- official OpenAI Codex docs for capabilities, controls, and documented limitations
+- recent unofficial or user-reported sources when they expose practical behavior not obvious from repo-local files alone
+
+Keep the source-basis explicit:
+
+- distinguish repo-local state from official documented capability
+- distinguish official documented capability from unofficial or user-reported behavior
+- do not let unofficial reports silently masquerade as stable official guarantees
+
 ## Scope Questions
 
 - what are the real load-bearing Codex-side control surfaces?
 - which ones are durable doctrine versus current harness-state?
 - where do continuity, compaction, delegation, and runtime constraints actually live?
+- what workflows and controls does Codex actually make possible in practice, beyond what this repo happens to be using?
+- what limitations or sharp edges matter for this repo even if they are not obvious from `.codex/` alone?
+- what navigation or mitigation patterns are externally supported, merely repo-local, or still only anecdotal?
 - what looks broad but is mostly descriptive, and what looks narrow but actually steers a lot of downstream behavior?
 - what later Checkpoint 4 questions should definitely include Codex-side surfaces?
 
@@ -57,6 +71,7 @@ Required sections:
 - do not patch files
 - do not assess repo-local GSD internals in depth here except where a real Codex↔GSD seam requires it
 - cite concrete files and lines
+- cite external sources explicitly when they are carrying real capability, limitation, or workaround claims
 
 ## Lane
 
