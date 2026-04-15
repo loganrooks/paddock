@@ -56,6 +56,44 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
 - Do not optimize only for Milestone 01 convenience if that creates avoidable ambiguity, doc drift, or re-litigation pressure in Milestone 02 and beyond.
 - Assume all substantive work may later be audited by expert software engineers and strong external models. Write artifacts, plans, code, and rationale so they can withstand adversarial rereading without relying on hidden context, good intentions, or hand-wavy summaries.
 - Do not take shortcuts by hiding uncertainty, compressing meaningful distinctions into umbrella terms, or calling something settled just because the current artifact can technically pass.
+- Do not confuse compliance with the latest suggestion for quality. Push back when a request, shortcut, framing, or manager instruction would likely degrade architecture, rigor, future viability, or code quality.
+- That pushback must be justified, concrete, and scrutiny-resistant:
+  - name the risk or loss clearly
+  - explain the better alternative
+  - make the case in terms that could survive review by strong engineers, not just personal preference
+- Pushback does not need to be all-or-nothing.
+  - Partial pushback is often the right move:
+    - accept the goal but reject the proposed method
+    - accept the task but narrow the scope
+    - accept the direction but insist on a better sequence or checkpoint first
+- Do not be performatively oppositional. Push back when warranted, not as posture.
+- For load-bearing planning/process artifacts, load-bearing claims should, where practical, expose terse claim status rather than only sounding generally `cited`.
+  - This includes any artifact that can steer canon, phase execution, verification, or workflow policy.
+  - Keep the inline layer minimal.
+  - For load-bearing claims, prefer the full three-part form `[type:support:basis]`.
+  - Use the two-part form `[type:basis]` only as shorthand when the support mode is obvious from nearby structure or not important to the reading.
+  - Prefer single-letter forms such as:
+    - `[e:c:i]`
+    - `[e:c:d]`
+    - `[e:c+r:i]`
+    - `[a:r:i]`
+  - Working legend:
+    - type: `e` evidenced, `d` decided, `a` assumed, `o` open, `p` projected, `s` stipulated, `g` governing
+    - support: `c` cited, `r` reasoned, `b` bare
+      `c` should point to concrete file lines or external sources; `r` means inference is doing real work; `b` is weakly supported and should be rare
+    - if more than one support mode materially applies, join them with `+`, e.g. `c+r`
+    - basis: `i` internal, `d` external-direct, `t` external-traceable
+  - If more than one basis applies, join the basis codes with `+`:
+    - `[e:c:i+d]`
+    - `[p:r:i+t]`
+  - Citation expectation:
+    - internal cited grounding must cite the direct file path and line numbers near the claim
+    - external grounding should use markdown footnotes tied to an `External Works Cited` section
+  - Put fuller semantics in durable references rather than bloating this file.
+  - Current detailed reference points are:
+    - `.planning/CLAIM-TYPES.md`
+    - `.planning/audits/2026-04-12-game-modes-r1-exploratory-audit/00-governance/review-trail-framework.md`
+    - `.codex/skills/gsd-rigorous-research/references/method.md`
 
 ## Project-Specific Guidance
 
@@ -83,6 +121,18 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
     - `replanning/revision/gap-filling`
     - `execution/verification`
   - state the mapping in commentary as `agent -> model -> reasoning`
+- Before delegating substantial bounded edits, establish an auditable baseline and clean task boundary.
+  - Prefer a checkpoint commit when the current state is coherent and reviewable.
+  - If the current state is not yet coherent enough to commit, split, park, or otherwise stabilize it first rather than forcing a bad commit.
+  - Do not delegate new substantial edits into an unresolved mixed worktree.
+- After an agent returns, review and disposition the result before committing or delegating follow-up work.
+  - Use explicit dispositions such as `accept`, `revise`, `park`, or `reject`.
+  - Do not auto-commit unreviewed agent output just because the agent finished.
+  - If a later verification or fix stage is needed, prefer meaningful checkpoint boundaries between:
+    - baseline
+    - accepted worker output
+    - verification findings
+    - fix pass
 - Verify effective launch settings after every spawn against `~/.codex/state_5.sqlite`.
 - If requested and effective settings differ, stop immediately, kill the agent, and report the mismatch plainly.
 

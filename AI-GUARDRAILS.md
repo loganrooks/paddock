@@ -91,6 +91,11 @@ Those operations require an explicit decision or a documented retention rule in 
 - If a result is mixed, say so.
 - If a doc is stale, say so or mark it.
 - If a command/test/verification step was not run, say so.
+- Never present repo-internal canon, audit, or synthesis support as if it were equivalent to fresh external grounding.
+- When a research or governance output makes load-bearing recommendations, expose whether those recommendations are:
+  - internally supported by repo artifacts
+  - directly externally grounded
+  - or still primarily reasoned judgment
 
 ## Solo-developer risk posture
 

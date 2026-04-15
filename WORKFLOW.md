@@ -46,6 +46,25 @@ This document defines the repo's human and agent operating workflow.
 - Separate planning/canon changes from implementation changes when practical.
 - Do not mix bulky generated artifacts into unrelated code commits.
 - If a change updates canon docs because of a planning conclusion, include the reasoning artifact in the same branch.
+- For load-bearing planning/process work, make checkpoint commits at meaningful reasoning or scope boundaries once the current artifact set can stand on its own.
+- Good checkpoint boundaries include:
+  - initial internally coherent synthesis
+  - later external/comparative pressure
+  - revision or integration in response to that pressure
+- Avoid checkpoint commits that are only time-based or that split one still-dependent reasoning unit awkwardly.
+
+### Delegated work checkpoints
+
+- Before delegating substantial bounded edits, establish an auditable baseline and clean task boundary.
+- Preferred order:
+  1. if the current state is coherent, checkpoint it
+  2. if it is not coherent, split or park it first
+  3. only then delegate the next substantial edit pass
+- After a worker returns:
+  - review and disposition the result before committing it
+  - do not auto-commit merely because the worker finished
+  - if a verification lane is warranted, treat that as a new stage with its own review boundary
+  - if a fix lane follows verification, prefer a checkpoint between findings and fixes when the findings artifact is worth preserving
 
 ### Merge posture
 
@@ -83,6 +102,11 @@ These should be implemented in the remote host when available:
 - Distinguish evidence from inference.
 - Record source quality where it matters.
 - If a lane is exploratory, do not present speculative structure as settled canon.
+- For load-bearing planning/process artifacts, expose source-basis on load-bearing claims when a reader could confuse:
+  - repo-internal support
+  - externally grounded support
+  - or reasoned but not externally validated recommendation
+- Treat repo-state diagnosis and repo-internal mechanism review as legitimately internal when that is the real evidence base, but do not let that silently masquerade as broader externally grounded best practice.
 
 ## DevOps minimum
 

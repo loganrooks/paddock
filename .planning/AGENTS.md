@@ -44,6 +44,16 @@ Specific rules:
 - If a newer artifact supersedes an older steering artifact, mark that relationship explicitly.
 - If an artifact is stale but still historically relevant, prefer status notes and replacement pointers over deletion.
 - Do not let large generated corpora dominate the active planning surface without an explicit retention decision.
+- For load-bearing planning/process work, prefer checkpoint commits at meaningful reasoning or scope boundaries once the artifact set is internally coherent and reviewable.
+- Use checkpoint commits to preserve shifts such as:
+  - base synthesis before outside pressure
+  - external or comparative supplement
+  - downstream revision or integration
+- Do not create checkpoint commits just because time passed; the boundary should correspond to a real reviewable unit.
+- Before delegating substantial edits on planning/process artifacts, establish an auditable baseline.
+  - Prefer a checkpoint commit when the current state is coherent and reviewable.
+  - If it is not coherent enough to commit, split or park first rather than forcing a bad checkpoint.
+  - After the agent returns, review and disposition the result before deciding whether it becomes the next checkpoint.
 
 ## Research And Audit Quality
 
@@ -54,6 +64,14 @@ For non-trivial research, audit, gap-closure, sensitivity, or synthesis work:
 - surface assumptions rather than smuggling them in
 - define loaded terms and anti-misread rules when they matter
 - do not silently broaden scope
+- do not accept a weaker frame, shortcut, or premature closure just because it was requested; push back when the request would degrade the quality of canon, planning, verification, or process doctrine
+- that pushback should be explicit and well-argued:
+  - identify the specific loss or risk
+  - explain the stronger alternative
+  - ground the case in artifacts, consequences, or reasoning that can withstand scrutiny
+- partial pushback is often preferable to flat rejection:
+  - keep the goal if it is sound
+  - reject or revise the method, sequencing, scope, or closure pressure if that is the real problem
 
 Prefer the repo-local `gsd-rigorous-research` skill for standalone research lanes.
 
@@ -64,6 +82,82 @@ When source grounding matters, distinguish clearly between:
 - internal canon or audit support only
 
 Do not treat repo-local restatement as if it were fresh external grounding.
+
+For load-bearing planning/process artifacts, load-bearing claims should expose source-basis explicitly when a reader could otherwise mistake internal support for external support.
+
+Here, `load-bearing planning/process artifacts` means artifacts that can materially steer:
+
+- canon
+- phase execution
+- verification or validation
+- workflow or process policy
+
+Do not stop at source-basis alone when terse claim typing would materially improve interpretation.
+
+For load-bearing claims, prefer a compact inline shape that makes both visible:
+
+- `claim type`
+- `source-basis`
+- optional `support mode`
+
+Preferred compact shape:
+
+- `[t:b]`
+- `[t:s:b]`
+
+For load-bearing claims, prefer `[t:s:b]`.
+
+Use `[t:b]` only as shorthand when the omitted support mode is obvious from nearby structure or not important to the reading.
+
+Examples:
+
+- `[e:c:i]`
+- `[e:c:d]`
+- `[e:c+r:i]`
+- `[a:r:i]`
+- `[p:r:i+d]`
+
+Compact alias legend:
+
+- claim type:
+  - `e` = evidenced; supported strongly enough to lean on
+  - `d` = decided; explicitly chosen in repo doctrine or process
+  - `a` = assumed; working premise not yet fully earned
+  - `o` = open; live unresolved question
+  - `p` = projected; forward-looking expectation or forecast
+  - `s` = stipulated; temporary or local rule adopted for the current job
+  - `g` = governing; higher-order instruction or doctrine that should constrain interpretation
+- support mode:
+  - `c` = cited; anchored to concrete files or sources used in the current artifact
+  - `r` = reasoned; synthesis or inference is doing real work beyond direct citation
+  - `b` = bare; weakly supported and usually a sign the claim needs strengthening
+
+If multiple support modes materially matter, join them with `+`:
+
+- `c+r`
+- source-basis:
+  - `i` = internal
+  - `d` = external-direct
+  - `t` = external-traceable
+
+If multiple basis origins materially matter, join the basis letters with `+`:
+
+- `i+d`
+- `i+t`
+- `d+t`
+- `i+d+t`
+
+Citation expectation:
+
+- internal cited grounding must cite the direct repo file and line numbers near the claim
+- external-direct grounding should use markdown footnotes and an `External Works Cited` section
+- external-traceable grounding should cite the repo-local artifact being relied on and identify the traced external source when the current artifact does not engage it directly
+
+Current detailed references:
+
+- [.planning/CLAIM-TYPES.md](/home/rookslog/workspace/projects/prix-guesser/.planning/CLAIM-TYPES.md)
+- [review-trail-framework.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-12-game-modes-r1-exploratory-audit/00-governance/review-trail-framework.md)
+- `.codex/skills/gsd-rigorous-research/references/method.md`
 
 ## Future-Flexibility Statusing
 
