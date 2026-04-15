@@ -23,6 +23,7 @@ Last updated: 2026-04-15
 - governance docs, claim typing rules, and checkpoint rules were checkpointed.
 - the readiness package itself was checkpointed.
 - the current multi-layer governance audit bundle was checkpointed as a stable review baseline.
+- model-assignment and cross-vendor audit policy has been captured as live readiness input.
 
 ## In progress
 
@@ -34,6 +35,7 @@ Last updated: 2026-04-15
 - governance-doc normalization audit
 - governance-doc normalization patch
 - conditional harness/GSD follow-through, if needed
+- focused cross-model audit integration design, if later evidence shows existing workflow surfaces are insufficient
 - rerun-readiness verification
 - fresh Phase 01 rerun
 

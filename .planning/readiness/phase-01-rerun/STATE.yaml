@@ -13,11 +13,13 @@ open_findings:
   - governance_docs_need_normalization_audit
 deferred_items:
   - scraped_radio_branch_archive_posture
+  - dedicated_cross_model_audit_skill_creation
 ready_to_commit: false
 checkpointed_baselines:
   - 9d1e22b docs(governance): tighten claim typing and checkpoint rules
   - 2ad87fc docs(readiness): scaffold phase 01 rerun package
   - c38ad2a docs(research): checkpoint multi-layer governance audit bundle
+  - dc71722 docs(research): add model assignment policy response
 next_expected_commit:
   - corrective patch/re-review for governance audit bundle
 requires_user_input: false

@@ -24,11 +24,13 @@ Last updated: 2026-04-15
 - rerun inputs preserve the key `05-gap-closure` carry-forward distinctions
 - there is explicit guidance on what the rerun must consume and what stale `01-*` artifacts it must not silently inherit
 - no unrelated dirty-worktree churn remains
+- if the readiness verdict depends on doctrine-sensitive judgment rather than only mechanical closure, a cross-vendor reread has occurred or an explicit reason for skipping it is recorded
 
 ## Quality Questions
 
 - if Phase 01 were rerun today, would we learn product truth rather than re-litigate unstable process?
 - is the rerun positioned to do genuinely better planning work than before?
+- if an external lane was available, did we use it where later stringent audit would most likely punish shallow internal agreement?
 
 ## Commit Rule
 

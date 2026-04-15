@@ -25,6 +25,14 @@ If later work materially changes the sequence, update this file explicitly rathe
 - The multi-layer governance audit is substantively complete, but its `01`-`06` bundle still needs citation/marker correction and bundle closure before it should be treated as a stable reference set:
   - [06-converged-synthesis.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit/06-converged-synthesis.md)
   - [08-external-comparative-governance-research.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit/08-external-comparative-governance-research.md)
+- Model-assignment and cross-audit policy now exists and should shape later readiness gates:
+  - [01-model-assignment-and-cross-audit-research.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-model-assignment-and-cross-audit-research/01-model-assignment-and-cross-audit-research.md)
+  - [02-model-assignment-policy-response.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-model-assignment-and-cross-audit-research/02-model-assignment-policy-response.md)
+- Current policy carry-forward is:
+  - keep `gpt-5.4` as repo default
+  - keep `xhigh` for orchestration, exploratory research, canon synthesis, and planning
+  - keep `high` for execution, debugging, validation, and verification
+  - prefer cross-vendor audit over same-model effort-only reruns for high-stakes review when an external lane is available
 
 ## How We Got Here
 
@@ -134,6 +142,37 @@ It is also:
 - will this survive later stringent audit?
 - are we preserving the right future-facing discipline rather than just getting unstuck?
 
+## Model / Audit Integration Principle
+
+Treat the current model-assignment response as live readiness input, not as side research.
+
+For this readiness sequence:
+
+- use the current model policy as already settled unless later evidence materially overturns it
+- use cross-vendor audit selectively at load-bearing review boundaries rather than as a blanket ritual
+- reserve that stronger external reread for artifacts that can materially steer:
+  - governance doctrine
+  - harness ownership
+  - rerun-readiness verdicts
+  - doctrine-sensitive Phase 01 planning
+
+Cross-vendor audit is not currently required for:
+
+- mechanical citation repair
+- routine readiness status updates
+- low-consequence wording cleanup where the governing decision is already settled
+
+Do not create a dedicated cross-model-audit skill yet.
+
+First determine whether the needed behavior can be carried cleanly by existing surfaces such as:
+
+- [gsd-review](/home/rookslog/workspace/projects/prix-guesser/.codex/skills/gsd-review/SKILL.md)
+- [gsdr-audit](/home/rookslog/.codex/skills/gsdr-audit/SKILL.md)
+- standing workflow / AGENTS doctrine
+- direct top-level orchestration for bounded high-stakes review
+
+If those surfaces prove insufficient, that is evidence for a focused integration/design pass rather than immediate new-skill creation.
+
 ## Ordered Sequence
 
 ### Checkpoint 0: Close The Active Governance Citation Bundle
@@ -214,6 +253,7 @@ Quality gate:
 - examples, if retained, are subordinate to the rule rather than replacing it
 - root `AGENTS.md` remains slim enough to be realistic prompt-time guidance rather than a mini-handbook
 - the governance docs no longer make it likely that a future rerun will flatten preserve-only seams, open questions, or long-arc doctrine through sloppy wording
+- if the audit or resulting patch materially changes standing governance/harness doctrine, queue a cross-vendor reread before closure when an external lane is available
 
 Checkpoint question:
 - if we stripped the recent audit history from memory, would these governance docs still read as coherent, general operating doctrine rather than lane-specific sediment?
@@ -307,6 +347,7 @@ Nice-to-have but not necessarily blocking:
 Quality gate:
 - the rerun can begin from a stable doctrine/process surface rather than from unresolved governance churn
 - the rerun is positioned to do genuinely better planning work, not just to repeat the same closure/sensitivity labor under a new timestamp
+- if the readiness verdict depends on doctrine-sensitive judgment rather than just mechanical closure, a cross-vendor reread should occur before declaring the repo rerun-ready when an external lane is available
 
 Checkpoint question:
 - if we reran Phase 01 today, would we be learning product truth, or would we mostly be re-litigating unstable process/governance decisions?
@@ -335,6 +376,7 @@ Final pre-execution gate:
 - open questions are explicit rather than quietly inherited
 - execution scope remains appropriately narrow for Milestone 01
 - the rerun uses the stronger canon as a steering advantage rather than regressing to older asymmetries like `challenge` over-weighting, generic `hosted` language, or flattened memory/status vocabulary
+- if the fresh Phase 01 plan still carries doctrine-sensitive ambiguity after internal review, run a cross-vendor reread before treating it as execution-approved when an external lane is available
 
 ## Cross-Cutting Regression Checks
 
