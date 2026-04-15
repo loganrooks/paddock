@@ -32,6 +32,13 @@ Update `TASKS.md` whenever:
 - a new blocking task is discovered
 - a task is deferred or reactivated
 
+Update `RESEARCH-INTAKE.md` whenever:
+
+- a research bundle materially changes readiness understanding
+- a research bundle is accepted, partially accepted, parked, or superseded
+- research creates a new task, deferral, or gate condition
+- a bundle previously treated as conditional becomes blocking or vice versa
+
 Update `DEVIATIONS.md` whenever:
 
 - the sequence changes materially
@@ -49,6 +56,7 @@ Update `CHECKPOINT-LEDGER.md` whenever:
 - Prefer a checkpoint commit when the current state is coherent and reviewable.
 - If the state is not coherent enough to commit, split or park it rather than forcing a bad baseline.
 - Do not merge unrelated readiness concerns into one checkpoint just because they happened close together in time.
+- If a research bundle materially changes readiness doctrine or gate logic, checkpoint the package-side intake/update separately from the research bundle when that yields a cleaner audit trail.
 
 ## Stop / Escalate Conditions
 

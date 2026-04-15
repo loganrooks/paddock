@@ -29,6 +29,7 @@ Last updated: 2026-04-15
 
 - repair and re-review of the active governance citation bundle
 - maintaining the readiness package as the live continuity surface instead of ambient session memory
+- research-intake tracking for supporting and conditional follow-through bundles
 
 ## Not started
 
