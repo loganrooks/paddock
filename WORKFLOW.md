@@ -137,16 +137,15 @@ Before the project grows much further, keep these basics in place:
 
 ## GSD-specific note
 
-- `.planning/config.json` currently sets `git.branching_strategy` to `none`.
-- Until that changes intentionally, branch discipline must be enforced by repo convention rather than assumed from GSD.
+- Treat repo-local GSD config as harness-state that may change faster than this workflow doctrine.
+- Verify the current automation posture in `.planning/config.json` when it matters.
+- Until branch automation changes intentionally, branch discipline must be enforced by repo convention rather than assumed from GSD.
 - If branch automation is introduced later, update this document and `AGENTS.md` together.
 
 ## Codex hooks posture
 
 - Codex hooks are available as an experimental runtime feature, but they are not the primary enforcement layer for this repo.
-- This repo now runs a narrow pilot in `.codex/hooks.json`:
-  - `SessionStart` reminder for dirty-tree, `main`-branch, and rerun-boundary context
-  - `PreToolUse` deny hook for obviously destructive Bash commands
+- Current hook inventory and exact pilot behavior live in `.codex/hooks.json`; treat those details as harness-state, not durable workflow doctrine.
 - Use `.codex/hooks.json`, not legacy `[[hooks]]` config stanzas.
 - Keep hooks short, deterministic, and easy to remove.
 - Do not use hooks as a substitute for branch protection, CI, source-of-truth docs, or explicit review boundaries.

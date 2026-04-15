@@ -1,23 +1,21 @@
-current_checkpoint: 2
-checkpoint_name: governance_doc_normalization_patch
+current_checkpoint: 3
+checkpoint_name: workflow_harness_scope_audit
 checkpoint_state: not_started
 readiness_state: not_ready
-current_task: patch_governance_docs_from_checkpoint_1_audit
-next_action: execute_bounded_checkpoint_2_patch
+current_task: run_workflow_harness_scope_audit
+next_action: write_and_launch_checkpoint_3_scope_audit
 review_policy_path: .planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml
 current_checkpoint_requires_independent_reviewer_for_closure: true
 working_tree_clean_expected: true
 blocked_by:
-  - governance_doc_normalization_patch_not_run
-  - governance_doc_normalization_patch_not_yet_reviewed
+  - workflow_harness_scope_audit_not_run
+  - workflow_harness_scope_verdict_not_yet_recorded
 open_findings:
-  - governance_docs_need_owner_and_abstraction_normalization
-  - duplicated_claim_typing_ownership
-  - duplicated_checkpoint_and_delegation_policy
-  - planning_agents_doc_restates_artifact_governance_taxonomy
-  - root_agents_doc_retains_case_shaped_residue
-  - workflow_doc_mixes_durable_doctrine_with_current_hook_config_detail
   - workflow_and_harness_landscape_not_yet_scoped_for_deeper_excellence_audit
+  - hook_and_config_inventory_ownership_not_yet_scoped
+  - branch_and_worktree_boundary_surface_not_yet_scoped
+  - template_and_review_routing_surfaces_not_yet_scoped
+  - verify_and_ci_surface_ownership_not_yet_scoped
   - active_phase_workflow_and_harness_excellence_audit_not_yet_run
 open_opportunities:
   - repo_local_non_phase_external_reread_protocol_template
@@ -32,6 +30,7 @@ checkpointed_baselines:
   - dc71722 docs(research): add model assignment policy response
   - dd3966c docs(research): repair governance audit bundle citations and markers
   - 746e53a docs(readiness): add checkpoint 1 audit surface
+  - 97bd603 docs(readiness): close checkpoint 1 and advance to checkpoint 2
 next_expected_commit:
-  - governance-doc normalization audit artifact and independent review closeout
+  - governance-doc normalization patch and checkpoint 2 review closeout
 requires_user_input: false

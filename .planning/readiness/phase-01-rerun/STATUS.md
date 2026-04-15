@@ -4,16 +4,16 @@ Last updated: 2026-04-15
 
 ## Current checkpoint
 
-- Active checkpoint: `2`
-- Checkpoint name: `Governance-doc normalization patch`
+- Active checkpoint: `3`
+- Checkpoint name: `Workflow / harness scope audit`
 - Checkpoint state: `not started`
 - Readiness state: `not ready to rerun`
 
 ## Why this is current
 
-- Checkpoint 1 is now closed: the governance-doc normalization audit was authored under [AUDITS/checkpoint-1-governance-doc-normalization-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-1-governance-doc-normalization-audit.md) and passed independent reread under [REVIEWS/checkpoint-1-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-1-internal-review-r1.md).
-- The next blocker is no longer whether the governance layer needs normalization; it is executing the bounded Checkpoint 2 patch units the audit justified.
-- Starting the fresh Phase 01 rerun now would still risk consuming governance/process doctrine whose owners and abstraction levels have not yet been normalized against the higher standard established during `05-gap-closure` carry-forward.
+- Checkpoint 2 is now closed: the bounded governance-doc normalization patch was completed against the accepted Checkpoint 1 audit map and passed both independent internal review and cross-vendor Claude reread under [REVIEWS/](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS).
+- The next blocker is no longer governance-doc owner cleanup; it is the still-unrun workflow / harness scope audit needed to map the real unit of analysis for the deeper tandem excellence audit.
+- Starting the fresh Phase 01 rerun now would still risk treating the harness as already-understood when the readiness plan explicitly requires a scoping pass before the deeper Codex+GSD workflow / harness audit.
 
 ## Done
 
@@ -26,6 +26,7 @@ Last updated: 2026-04-15
 - model-assignment and cross-vendor audit policy has been captured as live readiness input.
 - focused cross-model audit integration research was reviewed and accepted as conditional follow-through, not as an active Checkpoint 0 blocker.
 - governance-doc normalization audit was completed and independently accepted as strong enough to guide Checkpoint 2.
+- governance-doc normalization patch was completed and accepted through both internal and cross-vendor review.
 
 ## In progress
 
@@ -34,7 +35,6 @@ Last updated: 2026-04-15
 
 ## Not started
 
-- governance-doc normalization patch
 - workflow / harness scoping audit
 - tandem phase-workflow / Codex+GSD harness excellence audit
 - conditional harness/GSD follow-through, if needed
@@ -44,13 +44,13 @@ Last updated: 2026-04-15
 
 ## Blocking findings
 
-1. The governance docs still need the bounded normalization patch justified by Checkpoint 1.
-2. Known hotspots remain open until patched:
-   - duplicated claim-typing ownership
-   - triplicated checkpoint/delegation policy
-   - `.planning/AGENTS.md` restating artifact-governance taxonomy
-   - root `AGENTS.md` carrying case-shaped residue
-   - `WORKFLOW.md` mixing durable doctrine with current hook/config implementation detail
+1. The workflow / harness landscape still has not been mapped honestly enough to justify the deeper tandem excellence audit envelope.
+2. The next scoping checkpoint still needs to examine the machinery-shaped follow-through surfaces left open by Checkpoint 2:
+   - hook/config inventory ownership
+   - branch/worktree boundary materialization
+   - template/routing surfaces
+   - verify/CI ownership
+   - repo-local non-phase external-reread protocol needs
 
 ## Worktree / commit posture
 
@@ -61,14 +61,15 @@ Last updated: 2026-04-15
   3. `c38ad2a` `docs(research): checkpoint multi-layer governance audit bundle`
   4. `dd3966c` `docs(research): repair governance audit bundle citations and markers`
   5. `746e53a` `docs(readiness): add checkpoint 1 audit surface`
+  6. `97bd603` `docs(readiness): close checkpoint 1 and advance to checkpoint 2`
 - Checkpoint 0 closure evidence now lives in:
   - [REVIEWS/checkpoint-0-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r1.md)
   - [REVIEWS/checkpoint-0-internal-review-r2.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r2.md)
-- The next readiness-moving commit after this checkpoint closeout should come from Checkpoint 2 patching, not another reread of Checkpoint 1 unless new evidence reopens the gate.
+- The next readiness-moving commit after this checkpoint closeout should come from the Checkpoint 3 scoping artifact, not another reread of Checkpoint 2 unless new evidence reopens the gate.
 
 ## Immediate next action
 
-- patch the governance docs under Checkpoint 2 using the accepted Checkpoint 1 audit artifact as the patch map; then review the patch before moving into Checkpoint 3 scoping
+- run the workflow / harness scope audit under Checkpoint 3 with an explicit reusable spec, justified audit envelope question, and later handoff into the deeper tandem excellence audit
 
 ## User consultation required?
 

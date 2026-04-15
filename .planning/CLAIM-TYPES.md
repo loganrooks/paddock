@@ -13,7 +13,6 @@ Use it together with:
 
 - [AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/AGENTS.md)
 - [.planning/AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/AGENTS.md)
-- [review-trail-framework.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-12-game-modes-r1-exploratory-audit/00-governance/review-trail-framework.md)
 
 ## Compact Syntax
 
