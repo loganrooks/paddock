@@ -7,8 +7,8 @@ This ledger records meaningful readiness checkpoint boundaries and the commits t
 | Checkpoint | Intended boundary | Commit status |
 |---|---|---|
 | 1 | governance-doc normalization audit artifact, if independently reviewable | Pending |
-| 2 | governance-doc normalization patch | Pending |
-| 3 | workflow / harness scoping artifact, if independently reviewable | Pending |
+| 2 | governance-doc normalization patch | Recorded |
+| 3 | workflow / harness scoping artifact, if independently reviewable | Recorded |
 | 4 | tandem phase-workflow / Codex+GSD harness excellence audit artifact, if independently reviewable | Pending |
 | 5 | conditional harness/GSD follow-through | Conditional |
 | 6 | rerun-readiness verification artifact, if produced | Pending |
@@ -32,4 +32,13 @@ This ledger records meaningful readiness checkpoint boundaries and the commits t
 | 0 closure input | `dd3966c` | `docs(research): repair governance audit bundle citations and markers` | Separate research-bundle repair commit. Closure evidence lives in [GATES/checkpoint-0.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/GATES/checkpoint-0.md) and [REVIEWS/checkpoint-0-internal-review-r2.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r2.md) |
 | 1 support | `746e53a` | `docs(readiness): add checkpoint 1 audit surface` | Established `AUDITS/` as the package-side home for reusable checkpoint audit specs and outputs before delegating the Checkpoint 1 authoring lane |
 | 1 closure input | `97bd603` | `docs(readiness): close checkpoint 1 and advance to checkpoint 2` | Captured the Checkpoint 1 audit artifact, review artifact, and package-state transition into Checkpoint 2 |
-| 2 closure input | Pending | `docs(readiness): close checkpoint 2 and advance to checkpoint 3` | Should capture the governance-doc normalization patch, its internal review, its cross-vendor Claude review, and the package-state transition into Checkpoint 3 |
+| 2 closure input | `bcbae15` | `docs(readiness): close checkpoint 2 and advance to checkpoint 3` | Captured the governance-doc normalization patch, its internal review, its cross-vendor Claude review, and the package-state transition into Checkpoint 3 |
+| 3 support | `af9c21b` | `docs(readiness): checkpoint checkpoint-3 initial surface maps` | Committed the initial Codex and GSD mapping baseline before the split-expanded deeper GSD mapping work |
+| 3 support | `6974e54` | `docs(readiness): refine checkpoint-3 split mapping bundle` | Tightened the Checkpoint 3 mapping bundle before external reread |
+| 3 support | `270d43a` | `docs(readiness): add checkpoint-3 split-spec cross-vendor review` | Stored the first cross-vendor adequacy reread of the split-spec bundle |
+| 3 support | `f14ecf2` | `docs(readiness): tighten checkpoint-3 split specs after review` | Accepted the split-spec reread and repaired the mapping bundle before deeper GSD mapping launched |
+| 3 support | `cf174d9` | `docs(readiness): add checkpoint-3 deeper gsd maps` | Captured the three deeper GSD mapping sublanes after the split trigger fired |
+| 3 support | `b10043f` | `docs(readiness): add checkpoint-3 gsd scope synthesis` | Captured the resolved GSD-side synthesis that the overall Checkpoint 3 scope audit consumes |
+| 3 support | `302e6b1` | `docs(readiness): add checkpoint-3 scope audit review specs` | Stored reusable internal and cross-vendor review specs before the final scope audit reviews |
+| 3 support | `5d49dc6` | `docs(readiness): raise review rigor bar` | Tightened readiness review doctrine so later checkpoint reviews push against adequacy rather than merely checking pass/fail closure |
+| 3 closure input | `e215ed8` | `docs(readiness): close checkpoint 3 and advance to checkpoint 4` | Captured the final scope audit, internal and cross-vendor review outputs, and the package-state transition into Checkpoint 4 |
