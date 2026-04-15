@@ -9,6 +9,7 @@ Determine how cross-vendor / cross-model audit should be integrated into this re
 
 This is a design-and-ownership question, not a request to implement a new skill immediately.
 It is not part of the active Checkpoint 0 readiness-critical path unless your analysis finds a stronger dependency than currently believed.
+Treat it as a follow-through extension of the existing multi-layer harness governance audit.
 
 ## Output
 
@@ -28,19 +29,23 @@ Read these first and use them as the authority stack for the task:
    Significance:
    active rerun-readiness sequence and the checkpoints where stronger independent review may matter.
 
-3. [TASKS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/TASKS.md) and [DEFERRED.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/DEFERRED.md)  
+3. [06-converged-synthesis.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit/06-converged-synthesis.md)  
+   Significance:
+   the prior multi-layer harness audit that this research should extend rather than ignore.
+
+4. [TASKS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/TASKS.md) and [DEFERRED.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/DEFERRED.md)  
    Significance:
    current live placement of conditional follow-through and the explicit deferral of dedicated skill creation.
 
-4. [gsd-review](/home/rookslog/workspace/projects/prix-guesser/.codex/skills/gsd-review/SKILL.md)  
+5. [gsd-review](/home/rookslog/workspace/projects/prix-guesser/.codex/skills/gsd-review/SKILL.md)  
    Significance:
    existing repo-local external review surface, currently scoped to phase-plan peer review from external AI CLIs.
 
-5. [gsdr-audit](/home/rookslog/.codex/skills/gsdr-audit/SKILL.md)  
+6. [gsdr-audit](/home/rookslog/.codex/skills/gsdr-audit/SKILL.md)  
    Significance:
    broader audit orchestration surface that may already cover some of the needed ownership territory.
 
-6. [AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/AGENTS.md), [.planning/AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/AGENTS.md), and [WORKFLOW.md](/home/rookslog/workspace/projects/prix-guesser/WORKFLOW.md)  
+7. [AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/AGENTS.md), [.planning/AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/AGENTS.md), and [WORKFLOW.md](/home/rookslog/workspace/projects/prix-guesser/WORKFLOW.md)  
    Significance:
    standing repo doctrine on delegation, checkpointing, review quality, and where general operating rules should live.
 
@@ -125,6 +130,7 @@ Use this structure:
 6. `Longer-term project / harness recommendation`
 7. `Decision on dedicated cross-model-audit skill`
 8. `Recommended next actions`
+9. `How this plugs back into the multi-layer harness audit`
 
 In `Recommended next actions`, do not force the recommendation into a single mechanism bucket if the right answer is conditional, staged, or mixed.
 

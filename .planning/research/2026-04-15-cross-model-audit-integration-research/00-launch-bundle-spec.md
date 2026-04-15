@@ -10,6 +10,8 @@ Determine whether and how cross-vendor / cross-model audit should be integrated 
 This is not an instruction to create a new skill by default.
 It is also not part of the active Checkpoint 0 readiness-critical path unless the research proves a stronger dependency than currently believed.
 
+This research should be treated as a follow-through extension of the existing multi-layer harness governance audit, not as a detached side topic.
+
 The point is to decide:
 
 - where cross-vendor audit is actually necessary
@@ -25,6 +27,7 @@ The point is to decide:
 
 - [01-model-assignment-and-cross-audit-research.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-model-assignment-and-cross-audit-research/01-model-assignment-and-cross-audit-research.md)
 - [02-model-assignment-policy-response.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-model-assignment-and-cross-audit-research/02-model-assignment-policy-response.md)
+- [06-converged-synthesis.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit/06-converged-synthesis.md)
 - [PLAN.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/PLAN.md)
 - [TASKS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/TASKS.md)
 - [DEFERRED.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/DEFERRED.md)
@@ -66,3 +69,4 @@ The output should give:
 - near-term readiness recommendation
 - later project/harness recommendation
 - explicit answer on whether to create a dedicated cross-model-audit skill now
+- clear mapping back into the relevant layers from the multi-layer harness audit
