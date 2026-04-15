@@ -50,8 +50,6 @@ Then review this bundle:
 
 ## Output Requirements
 
-Write:
+Emit the full review as markdown to stdout using the structure from [REVIEW-TEMPLATE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEW-TEMPLATE.md).
 
-- [REVIEWS/checkpoint-4-launch-bundle-cross-vendor-review-opus-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-4-launch-bundle-cross-vendor-review-opus-r1.md)
-
-Use the structure from [REVIEW-TEMPLATE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEW-TEMPLATE.md).
+Do not modify repo files directly for this review. The caller will persist the output to the intended review artifact path.

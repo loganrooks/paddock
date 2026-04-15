@@ -67,12 +67,15 @@ The `Checkpoint 5 Decision` section must say one of:
 - Git/checkpoint regressions
 - Phase 01 rerun regressions
 
+If `Branching-Logic Alignment` implies `reopen-current`, `reactivate-earlier`, or `insufficient evidence to decide cleanly`, the `Checkpoint 5 Decision` section must say so explicitly rather than pretending the three-way Checkpoint 5 choice is independently sufficient.
+
 ## Decision Discipline
 
 - do not confuse interesting machinery with necessary machinery change
 - do not hide major quality opportunities just because they are non-blocking
 - do not call the stack strong if it is merely acceptable
 - be explicit about what later expert audit would still reject
+- if the synthesis cannot produce a defensible verdict from the available evidence, say so explicitly and route that uncertainty rather than bluffing closure
 
 ## Lane
 

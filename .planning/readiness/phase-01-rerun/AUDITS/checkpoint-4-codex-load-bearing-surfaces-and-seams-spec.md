@@ -95,6 +95,7 @@ Required sections:
 
 - keep unofficial-source applicability qualified
 - for unofficial evidence, say why it is still relevant to the current Codex version or operating posture, or qualify it as suggestive rather than settled
+- prefer still-open or recently active issues when present-state behavior matters; if using older or closed reports, explain why their lessons still apply
 - do not treat stale user reports as present truth without qualification
 - do not confuse product limitation with repo misconfiguration
 - do not patch files

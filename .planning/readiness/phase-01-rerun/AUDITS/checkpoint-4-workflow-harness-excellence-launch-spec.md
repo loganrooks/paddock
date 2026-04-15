@@ -20,6 +20,23 @@ The bundle must therefore decide, with explicit ownership:
 - what belongs to workflow protocol
 - what truly belongs to machinery-owned follow-through in Checkpoint 5
 
+## Shared Excellence Touchstones
+
+Across all Checkpoint 4 lanes, treat a surface as merely adequate when it mainly:
+
+- catches obvious failure after the fact
+- relies on operator memory or goodwill to stay rigorous
+- produces reviewable-looking artifacts without materially improving judgment
+- preserves closure while leaving high-value quality opportunities unused
+
+Treat a surface as strong when it reliably:
+
+- preserves load-bearing distinctions without flattening them
+- pressures weak reasoning before it hardens into plan or execution
+- produces artifacts that can survive later expert reread
+- reduces future re-litigation rather than merely unblocking the next step
+- exposes meaningful opportunities for better work rather than hiding behind pass/fail success
+
 ## Bundle Shape
 
 Run these lanes:

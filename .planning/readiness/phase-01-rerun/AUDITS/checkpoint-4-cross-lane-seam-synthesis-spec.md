@@ -77,6 +77,7 @@ The synthesis must also:
 - this synthesis carries the full reconciliation burden for concurrent lane outputs
 - if lane disagreement cannot be responsibly resolved, preserve it explicitly for the converged synthesis rather than smoothing it away
 - if a seam appears under-evidenced across all lanes, say so explicitly
+- if the synthesis cannot responsibly hold or reconcile all required inputs, say so explicitly and do not bluff completeness
 
 ## Lane
 
