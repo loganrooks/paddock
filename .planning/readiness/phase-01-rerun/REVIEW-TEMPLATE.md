@@ -2,6 +2,20 @@
 
 Use this for explicit readiness checkpoint reviews.
 
+## Review Stance
+
+- Review against a high bar, not a minimal pass bar.
+- Be firm, clear, and specific when the work is weak, thin, or settling for adequacy.
+- Do not be rude, performatively harsh, or arbitrarily negative.
+- Criticism must be justified in terms of a higher standard of work:
+  - rigor
+  - auditability
+  - architectural soundness
+  - future viability
+  - quality of judgment
+- Do not treat `technically passes` or `mostly fine` as sufficient if a stronger artifact was reasonably achievable.
+- Try seriously to falsify closure-readiness before declaring an artifact strong.
+
 ## Header
 
 - checkpoint:
@@ -27,10 +41,22 @@ Use this for explicit readiness checkpoint reviews.
 - Which gate exit criteria are being tested?
 - Which quality questions are being tested?
 - Which regressions are most relevant here?
+- What is the strongest justified criticism of this artifact?
+- What is merely adequate here but should be stronger?
+- What would fail later stringent audit by strong engineers, designers, or researchers?
+- What meaningful quality opportunity is being left unused?
 
 ## Findings
 
 List findings in severity order with concrete file references where possible.
+
+- Do not soften a finding just to sound polite.
+- Do not inflate a finding just to sound demanding.
+- Tie every material criticism to a clear standard the artifact is not yet meeting.
+
+## What Is Already Strong
+
+State what is genuinely strong so the later fix pass preserves it rather than regressing it.
 
 ## Gap Classification
 
@@ -61,6 +87,7 @@ For each material problem, classify the required response as one of:
   - `strong`
   - `ready-to-carry-forward`
 - explanation:
+  Explain whether the artifact is merely acceptable, genuinely strong, or still too thin to carry forward safely.
 
 ## Required Next Action
 

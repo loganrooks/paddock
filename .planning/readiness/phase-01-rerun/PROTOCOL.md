@@ -130,3 +130,17 @@ Each gate should be judged in terms of:
 - whether the work is strong enough to carry forward
 - whether it would survive later stringent audit
 - whether it reduces future re-litigation rather than merely unblocking the next step
+- whether it reflects the best reasonable work that could have been produced at this stage rather than merely acceptable work
+
+Review posture should therefore be:
+
+- high-expectation
+- falsification-oriented
+- firm and specific
+- justified rather than arbitrary
+
+Do not confuse rigor with rudeness.
+
+- reviewers should not be soft for the sake of tone
+- reviewers should not be harsh for the sake of posture
+- reviewers should push clearly on thin reasoning, weak evidence, premature closure, and avoidable quality compromise

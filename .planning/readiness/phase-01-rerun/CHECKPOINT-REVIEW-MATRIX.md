@@ -5,6 +5,13 @@ This file defines what kind of review each readiness checkpoint should receive b
 The goal is not to force identical heavyweight review at every checkpoint.
 The goal is to make review expectations explicit and proportionate.
 
+All review modes should still apply the same core stance:
+
+- review against a high bar, not a minimal pass bar
+- try to falsify closure-readiness before declaring work strong
+- be firm, specific, and justified
+- do not confuse politeness with rigor or harshness with quality
+
 ## Review Modes
 
 - `local-reread`

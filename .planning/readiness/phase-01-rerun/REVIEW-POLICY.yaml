@@ -5,6 +5,11 @@ principles:
   cross_vendor_is_selective_not_universal: true
   same_lane_author_and_closer_not_sufficient_for_major_checkpoint: true
   if_cross_vendor_unavailable_record_explicitly: true
+  reviews_should_be_high_expectation: true
+  reviews_should_try_to_falsify_closure_readiness: true
+  criticism_must_be_justified_by_higher_standard: true
+  do_not_confuse_politeness_with_rigor: true
+  do_not_confuse_harshness_with_quality: true
   current_cross_vendor_family: anthropic_claude
   routine_cross_vendor_model: claude-sonnet-4.6
   high_stakes_cross_vendor_model: claude-opus-4.6
