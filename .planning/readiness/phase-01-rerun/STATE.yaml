@@ -1,0 +1,19 @@
+current_checkpoint: 0
+checkpoint_name: close_active_governance_citation_bundle
+checkpoint_state: in_progress
+readiness_state: not_ready
+current_task: repair_and_rereview_2026_04_15_governance_audit_bundle
+next_action: patch_and_rereview_bundle_01_through_06
+blocked_by:
+  - stale_internal_file_line_citations
+  - marker_support_basis_mismatch
+open_findings:
+  - governance_audit_bundle_needs_citation_repair
+  - governance_docs_need_normalization_audit
+deferred_items:
+  - scraped_radio_branch_archive_posture
+ready_to_commit: false
+recommended_commit_split:
+  - docs(governance): tighten claim typing and planning-process rules
+  - docs(research): finalize multi-layer harness governance audit
+requires_user_input: false

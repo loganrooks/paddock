@@ -4,8 +4,8 @@ milestone: v1.0
 milestone_name: milestone
 status: planning
 stopped_at: Phase 01 pre-rerun boundary prepared
-last_updated: "2026-04-14T00:22:01-04:00"
-last_activity: 2026-04-14
+last_updated: "2026-04-15T17:45:00-04:00"
+last_activity: 2026-04-15
 progress:
   total_phases: 7
   completed_phases: 0
@@ -28,7 +28,7 @@ See: .planning/PROJECT.md (updated 2026-04-11)
 Phase: 1 of 8 (Authored Round Contract)
 Plan: 0 of TBD in current phase
 Status: Replanning required before execution
-Last activity: 2026-04-14
+Last activity: 2026-04-15
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -65,6 +65,7 @@ Recent decisions affecting current work:
 
 ### Pending Todos
 
+- Follow `.planning/readiness/phase-01-rerun/INDEX.md` and close its governance/process checkpoints before starting the fresh Phase 01 rerun.
 - Run a fresh `discuss-phase` for Phase 1 against refreshed canon before execution.
 - Generate a new live `01-CONTEXT.md` from that rerun rather than treating the current pre-rerun snapshot as execution-approved.
 - Replan Phase 1 from the refreshed steering brief rather than using the pre-rerun snapshot bundle.
