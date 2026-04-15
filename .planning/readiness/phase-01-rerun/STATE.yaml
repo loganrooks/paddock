@@ -1,29 +1,27 @@
-current_checkpoint: 4
-checkpoint_name: phase_workflow_harness_excellence_audit
+current_checkpoint: 5
+checkpoint_name: conditional_harness_gsd_follow_through
 checkpoint_state: in_progress
 readiness_state: not_ready
-current_task: authored_checkpoint_4_lanes_1_to_4_in_progress
-next_action: complete_four_authored_checkpoint_4_lanes_then_syntheses
+current_task: bounded_checkpoint_5_follow_through_planning
+next_action: activate_bounded_checkpoint_5_tasks_from_committed_checkpoint_4_bundle
 review_policy_path: .planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml
 current_checkpoint_requires_independent_reviewer_for_closure: true
 working_tree_clean_expected: true
 blocked_by:
-  - checkpoint_4_excellence_audit_not_yet_run
-  - doctrine_to_worker_reach_not_yet_verified
-  - named_agent_authority_and_reasoning_truth_not_yet_verified
-  - compaction_resume_continuity_not_yet_pressure_tested
-  - execution_verification_and_worktree_boundary_not_yet_pressure_tested
+  - phase_critical_runtime_authority_surface_still_misaligned
+  - review_and_closure_pressure_still_too_soft
+  - launch_and_model_truth_capture_still_too_implicit
 open_findings:
-  - codex_and_gsd_excellence_envelope_not_yet_audited_against_best_possible_standard
-  - agents_governance_reach_into_operative_workers_not_yet_audited
-  - branch_and_worktree_boundary_materialization_not_yet_tested_under_excellence_audit
-  - verify_and_ci_surface_ownership_not_yet_resolved
-  - active_phase_workflow_and_harness_excellence_audit_not_yet_run
+  - runtime_authoritative_toml_worker_surface_still_carries_legacy_doctrine
+  - review_and_completion_semantics_are_still_excellence_capable_not_excellence_demanding
+  - branch_and_worktree_boundary_materialization_is_accepted_bounded_risk_not_cleanly_proven
 open_opportunities:
   - repo_local_non_phase_external_reread_protocol_template
+  - downstream_claim_discipline_and_steering_traceability_hardening
 deferred_items:
   - scraped_radio_branch_archive_posture
   - dedicated_cross_model_audit_skill_creation
+  - portable_gsd_reproducibility_and_provenance_hardening_unless_checkpoint_5_touches_materialization_surfaces
 ready_to_commit: false
 checkpointed_baselines:
   - 9d1e22b docs(governance): tighten claim typing and checkpoint rules
@@ -42,6 +40,7 @@ checkpointed_baselines:
   - b10043f docs(readiness): add checkpoint-3 gsd scope synthesis
   - 302e6b1 docs(readiness): add checkpoint-3 scope audit review specs
   - 8a6f42c docs(signal): cross-vendor-review-artifact-authority-failure
+  - 7f24b1d docs(readiness): finalize checkpoint 4 audit bundle
 next_expected_commit:
-  - checkpoint-4 authored lane outputs or intermediate progress checkpoint
+  - checkpoint-4 closure state and checkpoint-5 activation
 requires_user_input: false

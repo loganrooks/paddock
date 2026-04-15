@@ -9,7 +9,7 @@ This ledger records meaningful readiness checkpoint boundaries and the commits t
 | 1 | governance-doc normalization audit artifact, if independently reviewable | Pending |
 | 2 | governance-doc normalization patch | Recorded |
 | 3 | workflow / harness scoping artifact, if independently reviewable | Recorded |
-| 4 | tandem phase-workflow / Codex+GSD harness excellence audit artifact, if independently reviewable | Pending |
+| 4 | tandem phase-workflow / Codex+GSD harness excellence audit artifact, if independently reviewable | Recorded |
 | 5 | conditional harness/GSD follow-through | Conditional |
 | 6 | rerun-readiness verification artifact, if produced | Pending |
 | 7 | fresh Phase 01 discuss/context/plan bundle before execution approval | Pending |
@@ -42,3 +42,4 @@ This ledger records meaningful readiness checkpoint boundaries and the commits t
 | 3 support | `302e6b1` | `docs(readiness): add checkpoint-3 scope audit review specs` | Stored reusable internal and cross-vendor review specs before the final scope audit reviews |
 | 3 support | `5d49dc6` | `docs(readiness): raise review rigor bar` | Tightened readiness review doctrine so later checkpoint reviews push against adequacy rather than merely checking pass/fail closure |
 | 3 closure input | `e215ed8` | `docs(readiness): close checkpoint 3 and advance to checkpoint 4` | Captured the final scope audit, internal and cross-vendor review outputs, and the package-state transition into Checkpoint 4 |
+| 4 closure input | `7f24b1d` | `docs(readiness): finalize checkpoint 4 audit bundle` | Captured the four authored lanes, seam and converged syntheses, the cross-vendor Opus reread, and internal review/rereview artifacts before any Checkpoint 5 harness changes |
