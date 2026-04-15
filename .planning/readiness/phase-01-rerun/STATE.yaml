@@ -1,17 +1,17 @@
-current_checkpoint: 0
-checkpoint_name: close_active_governance_citation_bundle
-checkpoint_state: in_progress
+current_checkpoint: 1
+checkpoint_name: governance_doc_normalization_audit
+checkpoint_state: not_started
 readiness_state: not_ready
-current_task: repair_and_rereview_2026_04_15_governance_audit_bundle
-next_action: patch_and_rereview_bundle_01_through_06
+current_task: run_governance_doc_normalization_audit
+next_action: write_and_launch_checkpoint_1_audit
 review_policy_path: .planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml
 current_checkpoint_requires_independent_reviewer_for_closure: true
 working_tree_clean_expected: true
 blocked_by:
-  - stale_internal_file_line_citations
-  - marker_support_basis_mismatch
+  - governance_doc_normalization_audit_not_run
+  - governance_doc_normalization_verdict_not_yet_recorded
 open_findings:
-  - governance_audit_bundle_needs_citation_repair
+  - governance_docs_show_rule_placement_residue_duplication_drift
   - governance_docs_need_normalization_audit
 open_opportunities:
   - repo_local_non_phase_external_reread_protocol_template
@@ -24,6 +24,7 @@ checkpointed_baselines:
   - 2ad87fc docs(readiness): scaffold phase 01 rerun package
   - c38ad2a docs(research): checkpoint multi-layer governance audit bundle
   - dc71722 docs(research): add model assignment policy response
+  - dd3966c docs(research): repair governance audit bundle citations and markers
 next_expected_commit:
-  - corrective patch/re-review for governance audit bundle
+  - governance-doc normalization audit artifact, if independently reviewable
 requires_user_input: false

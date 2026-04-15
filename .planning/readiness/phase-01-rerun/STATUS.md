@@ -4,16 +4,16 @@ Last updated: 2026-04-15
 
 ## Current checkpoint
 
-- Active checkpoint: `0`
-- Checkpoint name: `Close the active governance citation bundle`
-- Checkpoint state: `in progress`
+- Active checkpoint: `1`
+- Checkpoint name: `Governance-doc normalization audit`
+- Checkpoint state: `not started`
 - Readiness state: `not ready to rerun`
 
 ## Why this is current
 
-- The multi-layer governance audit bundle under [2026-04-15-multilayer-harness-governance-audit](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit) is substantively complete but still has identified citation/marker defects in `01`-`06`.
-- The governance/readiness baselines are now checkpointed, but Checkpoint 0 is still open because the audit bundle has not yet received its corrective citation/marker pass and re-review.
-- Starting the fresh Phase 01 rerun now would still risk consuming unstable governance/process doctrine.
+- Checkpoint 0 is now closed: the `01`-`06` governance audit bundle was repaired in `dd3966c`, blocked once on independent reread, then passed a second independent reread recorded under [REVIEWS/](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS).
+- The next blocker is no longer citation integrity in the governance audit bundle; it is the still-unrun governance-doc normalization audit prompted by misplaced rules, case-specific residue, duplication, and document-ownership drift across the governance layer.
+- Starting the fresh Phase 01 rerun now would still risk consuming governance/process doctrine that has not yet been normalized against the higher standard established during `05-gap-closure` carry-forward.
 
 ## Done
 
@@ -28,7 +28,6 @@ Last updated: 2026-04-15
 
 ## In progress
 
-- repair and re-review of the active governance citation bundle
 - maintaining the readiness package as the live continuity surface instead of ambient session memory
 - research-intake tracking for supporting and conditional follow-through bundles
 
@@ -43,8 +42,8 @@ Last updated: 2026-04-15
 
 ## Blocking findings
 
-1. The `01`-`06` governance audit bundle still contains stale or mispointed internal file-line citations.
-2. Some claim markers still understate actual support mode or source-basis.
+1. The governance docs still have not received the dedicated normalization audit that earlier findings now justify.
+2. Known concerns about misplaced rules, lane-specific residue, duplication, and wrong document ownership have not yet been converted into an audited normalization verdict.
 
 ## Worktree / commit posture
 
@@ -53,12 +52,16 @@ Last updated: 2026-04-15
   1. `9d1e22b` `docs(governance): tighten claim typing and checkpoint rules`
   2. `2ad87fc` `docs(readiness): scaffold phase 01 rerun package`
   3. `c38ad2a` `docs(research): checkpoint multi-layer governance audit bundle`
-- The next Checkpoint 0 commit should be the corrective patch/re-review wave for the governance audit bundle, not another baseline commit of the same material.
+  4. `dd3966c` `docs(research): repair governance audit bundle citations and markers`
+- Checkpoint 0 closure evidence now lives in:
+  - [REVIEWS/checkpoint-0-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r1.md)
+  - [REVIEWS/checkpoint-0-internal-review-r2.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r2.md)
+- The next readiness-moving commit after this package update should come from Checkpoint 1 work, not another reread of the same `01`-`06` repair unless new evidence reopens the gate.
 
 ## Immediate next action
 
-- patch and re-review `01`-`06` in the multi-layer governance audit bundle
+- run the governance-doc normalization audit under Checkpoint 1 with an explicit spec, auditable baseline, and independent review plan
 
 ## User consultation required?
 
-- No, unless the repair pass exposes a larger incoherence than currently known
+- No, unless the normalization audit shows that important rules currently living in repo docs actually belong deeper in harness machinery

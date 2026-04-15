@@ -1,6 +1,6 @@
 # Checkpoint 0: Close The Active Governance Citation Bundle
 
-Status: in progress  
+Status: closed (`ready-to-carry-forward`)  
 Last updated: 2026-04-15
 
 ## Objective
@@ -16,11 +16,33 @@ Last updated: 2026-04-15
 - [08-external-comparative-governance-research.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit/08-external-comparative-governance-research.md)
 - [.planning/CLAIM-TYPES.md](/home/rookslog/workspace/projects/prix-guesser/.planning/CLAIM-TYPES.md)
 
-## Current Findings
+## Evidence Reviewed
 
-1. stale or mispointed internal file-line citations remain in `01`-`06`
-2. some load-bearing markers still understate support mode or basis
-3. the currently committed audit bundle is a stable baseline, but it still needs a corrective pass and explicit re-review before it should be treated as settled
+- [01-codex-orchestration-layer-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit/01-codex-orchestration-layer-audit.md)
+- [02-gsd-lifecycle-and-long-arc-layer-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit/02-gsd-lifecycle-and-long-arc-layer-audit.md)
+- [03-git-repo-operations-layer-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit/03-git-repo-operations-layer-audit.md)
+- [04-ci-release-and-deployment-layer-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit/04-ci-release-and-deployment-layer-audit.md)
+- [05-cross-layer-integration-and-escalation-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit/05-cross-layer-integration-and-escalation-audit.md)
+- [06-converged-synthesis.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit/06-converged-synthesis.md)
+- repair commit: `dd3966c` `docs(research): repair governance audit bundle citations and markers`
+- first independent reread: [REVIEWS/checkpoint-0-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r1.md)
+- second independent reread: [REVIEWS/checkpoint-0-internal-review-r2.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r2.md)
+- reusable review spec: [REVIEWS/checkpoint-0-internal-review-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-spec.md)
+
+## Review Path
+
+1. Initial independent reread blocked closure on residual blank/header citation targets and required a narrow `revise-current` pass.
+2. The repair lane corrected the remaining citation-pointing defects without widening scope.
+3. A second independent reread found no blocking or material findings and judged the bundle `ready-to-carry-forward`.
+
+## Closure Findings
+
+1. The targeted defect classes are now closed at this checkpoint's level:
+   - internal cited claims in `01`-`06` now land on supporting lines rather than blank lines or section headers
+   - support-mode markers reflect the actual citation/inference structure
+   - direct external engagement is marked as direct where present
+2. The repair-and-reread flow satisfied the checkpoint's independent-review requirement.
+3. Cross-vendor review was available in principle but was not required because the defect class remained mainly mechanical rather than doctrine-sensitive.
 
 ## Exit Criteria
 
@@ -38,7 +60,8 @@ Last updated: 2026-04-15
 ## Commit Rule
 
 - the governance/docs/readiness baselines are already committed
-- the next Checkpoint 0 commit should capture the corrective repair-and-review pass for the governance audit bundle
+- the research-bundle repair was committed separately in `dd3966c`
+- later rereads of this checkpoint should reuse the stored review spec under `REVIEWS/` and only add a short delta note plus new output path
 
 ## Reopen Triggers
 

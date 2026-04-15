@@ -16,6 +16,7 @@ Then as needed:
 - [TASKS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/TASKS.md)
 - [DEFERRED.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/DEFERRED.md)
 - [OPPORTUNITIES.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/OPPORTUNITIES.md)
+- [REVIEWS/](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS)
 - [RESEARCH-INTAKE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/RESEARCH-INTAKE.md)
 - [CHECKPOINT-REVIEW-MATRIX.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CHECKPOINT-REVIEW-MATRIX.md)
 - [REVIEW-POLICY.yaml](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml)
@@ -34,6 +35,7 @@ Then as needed:
 - task routing: `TASKS.md`
 - deferrals: `DEFERRED.md`
 - non-blocking quality upside: `OPPORTUNITIES.md`
+- stored review outputs and reusable review specs: `REVIEWS/`
 - research absorption / consequences: `RESEARCH-INTAKE.md`
 - checkpoint review expectations: `CHECKPOINT-REVIEW-MATRIX.md`
 - machine-readable checkpoint review rules: `REVIEW-POLICY.yaml`
@@ -44,4 +46,4 @@ Then as needed:
 
 ## Current Active Checkpoint
 
-- `Checkpoint 0`: close the active governance citation bundle
+- `Checkpoint 1`: governance-doc normalization audit

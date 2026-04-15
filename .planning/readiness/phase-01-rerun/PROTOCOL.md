@@ -34,6 +34,9 @@ Write or update an explicit review artifact from [REVIEW-TEMPLATE.md](/home/rook
 - a checkpoint receives `internal-verification-agent` review
 - a checkpoint receives `cross-vendor-reread`
 - a gate is closed on the strength of a non-trivial review judgment rather than only mechanical closure
+- store review artifacts under [REVIEWS/](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS)
+- when a review shape is likely to be rerun, persist the reusable base review spec alongside the outputs in `REVIEWS/`
+- on later rereads, reuse the stored review spec and add only a short delta note rather than rewriting the full spec
 
 If the review uses the Anthropic Claude lane:
 

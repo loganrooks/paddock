@@ -6,17 +6,12 @@ This board tracks only work that materially affects Phase 01 rerun readiness.
 
 | ID | Checkpoint | Task | Status | Output / Evidence |
 |---|---|---|---|---|
-| R0.1 | 0 | Repair stale or mispointed internal file-line citations in governance audit `01`-`06` | In progress | corrected bundle files |
-| R0.2 | 0 | Align claim markers in governance audit `01`-`06` with actual support mode and basis | In progress | corrected bundle files |
-| R0.3 | 0 | Re-review repaired governance audit bundle before checkpointing | Not started | review artifact or explicit acceptance note |
-| R0.4 | 0 | Checkpoint current governance/process wave with clean commit split | Not started | checkpoint commits in `CHECKPOINT-LEDGER.md` |
-| R0.5 | 0 | Add temporary readiness-specific compact prompt and session continuity mitigation | In progress | prompt file, config wiring, continuity checklist |
+| R1.1 | 1 | Run governance-doc normalization audit | Not started | audit artifact |
 
 ## Upcoming
 
 | ID | Checkpoint | Task | Status | Output / Evidence |
 |---|---|---|---|---|
-| R1.1 | 1 | Run governance-doc normalization audit | Not started | audit artifact |
 | R2.1 | 2 | Patch governance docs based on normalization audit | Not started | normalized governance docs |
 | R4.1 | 4 | Run rerun-readiness verification gate | Not started | verification artifact or gate verdict |
 | R5.1 | 5 | Run fresh Phase 01 discuss pass | Not started | fresh discuss output |
@@ -43,3 +38,9 @@ This board tracks only work that materially affects Phase 01 rerun readiness.
 | R-.3 | Checkpoint readiness/governance baselines before corrective pass | `9d1e22b`, `2ad87fc`, `c38ad2a` |
 | R-.4 | Capture model-assignment and cross-vendor audit policy baseline | [02-model-assignment-policy-response.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-model-assignment-and-cross-audit-research/02-model-assignment-policy-response.md), [PLAN.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/PLAN.md) |
 | R-.5 | Review focused cross-model audit integration research | [01-cross-model-audit-integration-research.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-cross-model-audit-integration-research/01-cross-model-audit-integration-research.md), [RESEARCH-INTAKE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/RESEARCH-INTAKE.md) |
+| R0.1 | Repair stale or mispointed internal file-line citations in governance audit `01`-`06` | `dd3966c`, [01-codex-orchestration-layer-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit/01-codex-orchestration-layer-audit.md), [06-converged-synthesis.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit/06-converged-synthesis.md) |
+| R0.2 | Align claim markers in governance audit `01`-`06` with actual support mode and basis | `dd3966c`, [03-git-repo-operations-layer-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit/03-git-repo-operations-layer-audit.md), [05-cross-layer-integration-and-escalation-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-multilayer-harness-governance-audit/05-cross-layer-integration-and-escalation-audit.md) |
+| R0.3 | Re-review repaired governance audit bundle before checkpointing | [REVIEWS/checkpoint-0-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r1.md), [REVIEWS/checkpoint-0-internal-review-r2.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r2.md) |
+| R0.4 | Checkpoint current governance/process wave with clean commit split | `dd3966c`, [CHECKPOINT-LEDGER.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CHECKPOINT-LEDGER.md), [GATES/checkpoint-0.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/GATES/checkpoint-0.md) |
+| R0.5 | Add temporary readiness-specific compact prompt and session continuity mitigation | `f7c49c2`, `baaf732`, `c919bd8`, [SESSION-REENTRY-CHECKLIST.md](/home/rookslog/workspace/projects/prix-guesser/.planning/SESSION-REENTRY-CHECKLIST.md), [.codex/tooling/compact-prompts/readiness.md](/home/rookslog/workspace/projects/prix-guesser/.codex/tooling/compact-prompts/readiness.md) |
+| R0.6 | Store Checkpoint 0 reviews and reusable review spec under `REVIEWS/` | [REVIEWS/checkpoint-0-internal-review-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-spec.md), [REVIEWS/checkpoint-0-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r1.md), [REVIEWS/checkpoint-0-internal-review-r2.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r2.md) |
