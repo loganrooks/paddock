@@ -24,6 +24,7 @@ Last updated: 2026-04-15
 - the readiness package itself was checkpointed.
 - the current multi-layer governance audit bundle was checkpointed as a stable review baseline.
 - model-assignment and cross-vendor audit policy has been captured as live readiness input.
+- focused cross-model audit integration research was reviewed and accepted as conditional follow-through, not as an active Checkpoint 0 blocker.
 
 ## In progress
 
@@ -36,7 +37,7 @@ Last updated: 2026-04-15
 - governance-doc normalization audit
 - governance-doc normalization patch
 - conditional harness/GSD follow-through, if needed
-- focused cross-model audit integration design, if later evidence shows existing workflow surfaces are insufficient
+- repo-local non-phase external-reread protocol/template, if later harness follow-through still needs one
 - rerun-readiness verification
 - fresh Phase 01 rerun
 

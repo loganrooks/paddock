@@ -173,6 +173,14 @@ First determine whether the needed behavior can be carried cleanly by existing s
 
 If those surfaces prove insufficient, that is evidence for a focused integration/design pass rather than immediate new-skill creation.
 
+Current accepted carry-forward from the focused cross-model integration research is:
+
+- keep cross-vendor audit as a selective, layered practice rather than a universal harness surface
+- keep non-phase doctrine-sensitive rereads under direct top-level Codex orchestration plus Git checkpoint discipline
+- keep doctrine-sensitive phase-plan rereads with repo-local regular GSD via `gsd-review`
+- treat `gsdr-audit` as Reflect-side precedent only; selectively port protocol ideas later if they close real repo-local gaps
+- treat the later likely gap as a repo-local non-phase external-reread protocol/template, not a dedicated new skill by default
+
 ## Ordered Sequence
 
 ### Checkpoint 0: Close The Active Governance Citation Bundle

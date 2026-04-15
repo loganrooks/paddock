@@ -109,14 +109,20 @@ If a research bundle has no current package consequences, say that explicitly.
 - bundle:
   - [00-launch-bundle-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-cross-model-audit-integration-research/00-launch-bundle-spec.md)
   - [01-cross-model-audit-integration-task-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-cross-model-audit-integration-research/01-cross-model-audit-integration-task-spec.md)
+  - [01-cross-model-audit-integration-research.md](/home/rookslog/workspace/projects/prix-guesser/.planning/research/2026-04-15-cross-model-audit-integration-research/01-cross-model-audit-integration-research.md)
 - relation to readiness: `conditional follow-through`
-- intake status: `pending review`
+- intake status: `accepted`
 - current consequences:
-  - none beyond the existing readiness note that dedicated cross-model-audit mechanism design is conditional, not a current blocker
+  - keep this lane out of the active Checkpoint 0 blocker set
+  - do not create a dedicated cross-model-audit skill now
+  - keep `gsd-review` as the repo-local regular GSD surface for doctrine-sensitive phase-plan rereads
+  - treat `gsdr-audit` as Reflect-side precedent only; selectively port useful protocol ideas later rather than adopting it as a runtime dependency in this repo
 - later consequences:
-  - depending on the result, update readiness tasks/deferrals and possibly the later harness-follow-through sequence
+  - after Checkpoints 1-2 settle, draft a small repo-local non-phase external-reread protocol/template if the later harness follow-through still needs it
+  - revisit dedicated skill creation only if cross-vendor rereads become routine across multiple non-phase artifact families and protocol discipline proves insufficient
 - package surfaces affected:
-  - likely `PLAN.md`
+  - `PLAN.md`
   - `TASKS.md`
   - `DEFERRED.md`
+  - `STATUS.md`
   - possibly later gate files
