@@ -2,6 +2,7 @@
 
 ## Signals
 
+- [Cross-Vendor Review Artifact-Authority Failure](signals/prix-guesser/2026-04-15-cross-vendor-review-artifact-authority-failure.md) — artifact presence must outrank process ambiguity before rerunning scarce external review lanes
 - [Citation Source-Basis Enforcement Drift](signals/prix-guesser/2026-04-15-citation-source-basis-enforcement-drift.md) — newer audit bundle stopped surfacing internal vs external-direct vs external-traceable grounding
 - [Dirty Task Transitions And Mixed Worktree Hygiene](signals/prix-guesser/2026-04-15-dirty-task-transitions-mixed-worktree.md) — unresolved concern buckets should block new substantive work
 - [Underdelegated Exploration And Orchestrator Role Drift](signals/prix-guesser/2026-04-15-underdelegated-exploration-orchestrator-role-drift.md) — exploratory scope-shaping work stayed in the main thread instead of delegated lanes
