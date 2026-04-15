@@ -6,7 +6,7 @@ This board tracks only work that materially affects Phase 01 rerun readiness.
 
 | ID | Checkpoint | Task | Status | Output / Evidence |
 |---|---|---|---|---|
-| R1.1 | 1 | Run governance-doc normalization audit | Not started | audit artifact |
+| R1.1 | 1 | Run governance-doc normalization audit | Not started | [AUDITS/checkpoint-1-governance-doc-normalization-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-1-governance-doc-normalization-audit.md) |
 
 ## Upcoming
 

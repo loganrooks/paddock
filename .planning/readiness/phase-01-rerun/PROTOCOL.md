@@ -29,6 +29,12 @@ Update the active gate file whenever:
 - a gate is provisionally or strongly satisfied
 - a gate is closed
 
+Write or update an explicit audit artifact under [AUDITS/](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS) whenever:
+
+- the active checkpoint is primarily an audit or scoping pass
+- the checkpoint needs a reusable task spec or onboarding surface
+- a later patch or deeper audit will depend on the resulting audit output
+
 Write or update an explicit review artifact from [REVIEW-TEMPLATE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEW-TEMPLATE.md) whenever:
 
 - a checkpoint receives `internal-verification-agent` review
