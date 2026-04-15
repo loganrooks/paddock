@@ -1,6 +1,6 @@
 # Checkpoint 1: Governance-Doc Normalization Audit
 
-Status: not started  
+Status: closed  
 Last updated: 2026-04-15
 
 ## Objective
@@ -42,3 +42,19 @@ Last updated: 2026-04-15
 
 - discovery that important standing rules really belong in machinery rather than docs
 - later patch pass showing the audit missed major duplication or ownership drift
+
+## Closure Evidence
+
+- audit artifact:
+  - [AUDITS/checkpoint-1-governance-doc-normalization-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-1-governance-doc-normalization-audit.md)
+- reusable review spec:
+  - [REVIEWS/checkpoint-1-internal-review-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-1-internal-review-spec.md)
+- independent review:
+  - [REVIEWS/checkpoint-1-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-1-internal-review-r1.md)
+
+## Closure Verdict
+
+- status: `ready-to-carry-forward`
+- explanation:
+  - the audit is strong enough to guide a bounded Checkpoint 2 patch without reopening `05-gap-closure` doctrine or collapsing Checkpoint 3 scoping into markdown cleanup
+  - cross-vendor review was not available in the active tool surface for this checkpoint closeout and is better deferred to Checkpoint 2 patch review unless the audit is reopened

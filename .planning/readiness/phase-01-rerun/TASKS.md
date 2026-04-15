@@ -6,13 +6,12 @@ This board tracks only work that materially affects Phase 01 rerun readiness.
 
 | ID | Checkpoint | Task | Status | Output / Evidence |
 |---|---|---|---|---|
-| R1.1 | 1 | Run governance-doc normalization audit | Not started | [AUDITS/checkpoint-1-governance-doc-normalization-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-1-governance-doc-normalization-audit.md) |
+| R2.1 | 2 | Patch governance docs based on normalization audit | Not started | normalized governance docs |
 
 ## Upcoming
 
 | ID | Checkpoint | Task | Status | Output / Evidence |
 |---|---|---|---|---|
-| R2.1 | 2 | Patch governance docs based on normalization audit | Not started | normalized governance docs |
 | R3.1 | 3 | Run workflow / harness scoping audit | Not started | scope artifact |
 | R4.1 | 4 | Run tandem phase-workflow / Codex+GSD harness excellence audit | Not started | audit artifact |
 | R6.1 | 6 | Run rerun-readiness verification gate | Not started | verification artifact or gate verdict |
@@ -46,3 +45,4 @@ This board tracks only work that materially affects Phase 01 rerun readiness.
 | R0.4 | Checkpoint current governance/process wave with clean commit split | `dd3966c`, [CHECKPOINT-LEDGER.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CHECKPOINT-LEDGER.md), [GATES/checkpoint-0.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/GATES/checkpoint-0.md) |
 | R0.5 | Add temporary readiness-specific compact prompt and session continuity mitigation | `f7c49c2`, `baaf732`, `c919bd8`, [SESSION-REENTRY-CHECKLIST.md](/home/rookslog/workspace/projects/prix-guesser/.planning/SESSION-REENTRY-CHECKLIST.md), [.codex/tooling/compact-prompts/readiness.md](/home/rookslog/workspace/projects/prix-guesser/.codex/tooling/compact-prompts/readiness.md) |
 | R0.6 | Store Checkpoint 0 reviews and reusable review spec under `REVIEWS/` | [REVIEWS/checkpoint-0-internal-review-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-spec.md), [REVIEWS/checkpoint-0-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r1.md), [REVIEWS/checkpoint-0-internal-review-r2.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r2.md) |
+| R1.1 | Run governance-doc normalization audit | [AUDITS/checkpoint-1-governance-doc-normalization-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-1-governance-doc-normalization-audit.md), [REVIEWS/checkpoint-1-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-1-internal-review-r1.md) |

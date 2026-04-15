@@ -1,18 +1,22 @@
-current_checkpoint: 1
-checkpoint_name: governance_doc_normalization_audit
+current_checkpoint: 2
+checkpoint_name: governance_doc_normalization_patch
 checkpoint_state: not_started
 readiness_state: not_ready
-current_task: run_governance_doc_normalization_audit
-next_action: write_and_launch_checkpoint_1_audit
+current_task: patch_governance_docs_from_checkpoint_1_audit
+next_action: execute_bounded_checkpoint_2_patch
 review_policy_path: .planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml
 current_checkpoint_requires_independent_reviewer_for_closure: true
 working_tree_clean_expected: true
 blocked_by:
-  - governance_doc_normalization_audit_not_run
-  - governance_doc_normalization_verdict_not_yet_recorded
+  - governance_doc_normalization_patch_not_run
+  - governance_doc_normalization_patch_not_yet_reviewed
 open_findings:
-  - governance_docs_show_rule_placement_residue_duplication_drift
-  - governance_docs_need_normalization_audit
+  - governance_docs_need_owner_and_abstraction_normalization
+  - duplicated_claim_typing_ownership
+  - duplicated_checkpoint_and_delegation_policy
+  - planning_agents_doc_restates_artifact_governance_taxonomy
+  - root_agents_doc_retains_case_shaped_residue
+  - workflow_doc_mixes_durable_doctrine_with_current_hook_config_detail
   - workflow_and_harness_landscape_not_yet_scoped_for_deeper_excellence_audit
   - active_phase_workflow_and_harness_excellence_audit_not_yet_run
 open_opportunities:
@@ -27,6 +31,7 @@ checkpointed_baselines:
   - c38ad2a docs(research): checkpoint multi-layer governance audit bundle
   - dc71722 docs(research): add model assignment policy response
   - dd3966c docs(research): repair governance audit bundle citations and markers
+  - 746e53a docs(readiness): add checkpoint 1 audit surface
 next_expected_commit:
-  - governance-doc normalization audit artifact, if independently reviewable
+  - governance-doc normalization audit artifact and independent review closeout
 requires_user_input: false
