@@ -1,0 +1,51 @@
+# Checkpoint 3 Scope Audit Internal Review Spec
+
+Review the authored Checkpoint 3 workflow / harness scope audit before it is checkpointed or used to launch Checkpoint 4.
+
+This is a verification reread of the scope artifact, not a replacement synthesis.
+
+## Governing Inputs
+
+Read these first:
+
+1. [AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/AGENTS.md)
+2. [.planning/AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/AGENTS.md)
+3. [PLAN.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/PLAN.md)
+4. [STATUS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/STATUS.md)
+5. [TASKS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/TASKS.md)
+6. [GATES/checkpoint-3.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/GATES/checkpoint-3.md)
+7. [AUDITS/checkpoint-3-workflow-harness-scope-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-workflow-harness-scope-launch-spec.md)
+8. [AUDITS/checkpoint-3-codex-surface-map.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-codex-surface-map.md)
+9. [AUDITS/checkpoint-3-gsd-scope-synthesis.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-gsd-scope-synthesis.md)
+
+Then review:
+
+- [AUDITS/checkpoint-3-workflow-harness-scope-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-3-workflow-harness-scope-audit.md)
+
+## Review Questions
+
+- does the artifact correctly integrate the Codex map and the resolved GSD synthesis rather than reopening the split?
+- is the final Checkpoint 4 envelope explicit, defensible, and traceable?
+- are the seam checks strong enough and correctly scoped?
+- is anything still too broad, too thin, or smuggling later excellence judgment into the scoping pass?
+- is the Checkpoint 5 machinery-owned follow-through boundary properly conditional rather than prematurely widened?
+- are claim markers, source basis, and citations consistent enough for later audit?
+
+## Output
+
+Write:
+
+- [checkpoint-3-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-3-internal-review-r1.md)
+
+Required sections:
+
+- `Verdict`
+- `Findings`
+- `What Is Already Strong`
+- `Open Questions / Assumptions`
+- `Change Summary`
+
+Findings must be ordered by severity and cite concrete file lines.
+
+If the artifact is closure-ready, say so explicitly.
+If not, say exactly what must change before Checkpoint 3 can close.
