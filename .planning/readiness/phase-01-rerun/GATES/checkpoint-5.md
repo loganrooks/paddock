@@ -22,8 +22,9 @@ Last updated: 2026-04-15
 ## Current subphase
 
 - complete: pre-implementation audit comparison and claim qualification
-- active now: revise the governing implementation spec from convergent and supported claims, keeping contested and pressure-only claims explicit
-- not yet active: harness implementation slice
+- complete: revise the governing implementation spec from convergent and supported claims, keeping contested and pressure-only claims explicit
+- complete: fresh internal and cross-vendor reread of the revised implementation spec
+- active now: first harness implementation slice from the accepted revised spec
 
 ## Activation Criteria
 
@@ -83,6 +84,9 @@ Last updated: 2026-04-15
 - closure of the reactivated checkpoint therefore requires:
   - fresh internal and cross-vendor reread of the revised implementation spec
   - then fresh internal and cross-vendor review of the implementation patch set against that accepted spec
+- the fresh reread requirement for the revised implementation spec is now satisfied by:
+  - [REVIEWS/checkpoint-5-revised-implementation-spec-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-5-revised-implementation-spec-internal-review-r1.md)
+  - [REVIEWS/checkpoint-5-revised-implementation-spec-cross-vendor-opus-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-5-revised-implementation-spec-cross-vendor-opus-r1.md)
 
 ## Commit Rule
 

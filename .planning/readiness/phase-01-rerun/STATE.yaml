@@ -2,8 +2,8 @@ current_checkpoint: 5
 checkpoint_name: conditional_harness_gsd_follow_through
 checkpoint_state: in_progress
 readiness_state: not_ready
-current_task: checkpoint_5_spec_revision_and_adjudication
-next_action: reread_revised_checkpoint_5_implementation_spec_then_only_begin_harness_patch_slice_if_reviews_accept_it
+current_task: checkpoint_5_first_bounded_implementation_slice
+next_action: implement_first_checkpoint_5_patch_slice_from_accepted_spec_then_run_patch_set_review
 review_policy_path: .planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml
 current_checkpoint_requires_independent_reviewer_for_closure: true
 working_tree_clean_expected: true
@@ -12,14 +12,13 @@ blocked_by:
   - workflow_chain_excellence_follow_through_still_missing
   - review_and_closure_pressure_still_too_soft
   - launch_and_model_truth_capture_still_too_implicit
-  - revised_checkpoint_5_spec_not_yet_reaccepted_after_audit_comparison
 open_findings:
   - runtime_authoritative_toml_worker_surface_still_carries_legacy_doctrine
   - pre_reactivation_checkpoint_5_scope_dropped_accepted_workflow_follow_through
   - review_and_completion_semantics_are_still_excellence_capable_not_excellence_demanding
   - research_and_steering_translation_semantics_are_still_under_gated
   - existing_checkpoint_5_reviews_apply_only_to_partial_scope
-  - candidate_checkpoint_5_spec_needed_propagation_ownership_revision_before_implementation
+  - accepted_spec_requires_strict_overlay_pairing_and_named_branch_choices_during_implementation
   - branch_and_worktree_boundary_materialization_is_accepted_bounded_risk_not_cleanly_proven
 open_opportunities:
   - repo_local_non_phase_external_reread_protocol_template
@@ -52,5 +51,5 @@ checkpointed_baselines:
   - c4111cd docs(readiness): clarify checkpoint 3 split review prompts
   - d7c74d0 docs(readiness): reconcile checkpoint 5 package state
 next_expected_commit:
-  - checkpoint-5 revised spec boundary and package-state reconciliation
+  - checkpoint-5 accepted-spec reread and first implementation slice
 requires_user_input: false

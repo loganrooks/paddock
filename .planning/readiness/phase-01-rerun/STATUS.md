@@ -18,7 +18,8 @@ Last updated: 2026-04-15
   - audit comparison complete
   - convergent claims identified
   - implementation spec revised from those claims
-  - harness implementation intentionally not restarted yet
+  - fresh internal and cross-vendor rereads accepted the revised spec
+  - first harness implementation slice may now start from that accepted spec
 - The accepted Checkpoint 4 outcome is explicit:
   - open a bounded Checkpoint 5
   - keep the bounded scope centered on rerun-blocking harness follow-through
@@ -63,12 +64,11 @@ Last updated: 2026-04-15
 
 - maintaining the readiness package as the live continuity surface instead of ambient session memory
 - research-intake tracking for supporting and conditional follow-through bundles
-- bounded Checkpoint 5 spec-stack adjudication and implementation-spec revision
-- readiness-surface truthfulness around the revised Checkpoint 5 spec boundary
+- first bounded Checkpoint 5 harness implementation slice from the accepted revised spec
+- readiness-surface truthfulness around the accepted spec boundary and residual cautions
 
 ## Not started
 
-- widened Checkpoint 5 harness implementation from the revised spec
 - repo-local non-phase external-reread protocol/template, if later harness follow-through still needs one
 - rerun-readiness verification
 - fresh Phase 01 rerun
@@ -81,13 +81,13 @@ Last updated: 2026-04-15
    - research adequacy/disposition is still under-gated
    - doctrine-sensitive closure still permits too many cheap exits
    - debt-carrying completion remains too easy to misread as clean completion
-3. The current Checkpoint 5 implementation boundary must explicitly own propagation surfaces before implementation can restart:
-   - tracked overlay/materialization for touched runtime files
-   - RESEARCH producer/template/checker surfaces
-   - planner-side CONTEXT consumption
-   - downstream debt-carrying completion representation
+3. The revised spec is accepted, but the implementation slice now has to honor its hardest execution-discipline requirements:
+   - no runtime-only edits on touched surfaces
+   - explicit planner-consumer branch choice
+   - explicit debt-carrying completion boundary choice
+   - explicit handling of the `the agent's Discretion` / `Claude's Discretion` mismatch if planner consumption widens
 4. Launch/model-truth handling is materially better, but the current helper/protocol bundle still belongs to an open checkpoint rather than a closed one.
-5. The current Checkpoint 5 internal and cross-vendor reviews apply only to the pre-reactivation partial bundle, and the later spec-stack audits apply only to the candidate implementation spec rather than to any accepted implementation patch set.
+5. The current Checkpoint 5 internal and cross-vendor reviews apply only to the pre-reactivation partial bundle, while the new revised-spec rereads accept only the governing implementation brief, not yet any implementation patch set.
 6. Branch/worktree boundary materialization remains visible but under-evidenced.
    - Current disposition: accepted bounded risk
    - Reactivate it only if Checkpoint 5 changes worktree/config behavior or later verification exposes a concrete mismatch
@@ -117,11 +117,11 @@ Last updated: 2026-04-15
 - Checkpoint 0 closure evidence now lives in:
   - [REVIEWS/checkpoint-0-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r1.md)
   - [REVIEWS/checkpoint-0-internal-review-r2.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r2.md)
-- The next readiness-moving commit should capture the revised Checkpoint 5 spec boundary and package-state truth before any new harness implementation slice.
+- The next readiness-moving commit should capture revised-spec acceptance and the start of the first implementation slice.
 
 ## Immediate next action
 
-- reread the revised Checkpoint 5 implementation spec under fresh internal and cross-vendor review; if those pass, only then begin the first harness implementation slice from that accepted spec
+- implement the first bounded Checkpoint 5 harness slice from the accepted revised spec, then review that patch set internally and cross-vendor before claiming checkpoint closure
 
 ## User consultation required?
 
