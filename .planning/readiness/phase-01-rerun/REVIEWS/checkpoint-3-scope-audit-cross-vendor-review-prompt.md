@@ -33,7 +33,7 @@ Then review:
 
 ## Review Questions
 
-- does the artifact correctly integrate the Codex map and the resolved GSD synthesis rather than reopening the split?
+- does the artifact correctly integrate the Codex map and the resolved GSD synthesis rather than relitigating the already accepted Checkpoint 3 split decision?
 - is the final Checkpoint 4 envelope explicit, defensible, and traceable?
 - are the seam checks strong enough and correctly scoped?
 - is anything still too broad, too thin, or smuggling later excellence judgment into the scoping pass?
