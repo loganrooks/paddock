@@ -58,8 +58,8 @@ Last updated: 2026-04-15
 
 - maintaining the readiness package as the live continuity surface instead of ambient session memory
 - research-intake tracking for supporting and conditional follow-through bundles
-- Checkpoint 5 scope reactivation and package correction after the under-scoping failure was recognized
 - bounded Checkpoint 5 harness follow-through planning and execution
+- package-state reconciliation after the Checkpoint 5 reactivation checkpoint
 
 ## Not started
 
@@ -101,14 +101,16 @@ Last updated: 2026-04-15
   14. `302e6b1` `docs(readiness): add checkpoint-3 scope audit review specs`
   15. `8a6f42c` `docs(signal): cross-vendor-review-artifact-authority-failure`
   16. `7f24b1d` `docs(readiness): finalize checkpoint 4 audit bundle`
+  17. `0947c13` `docs(signal): overgeneralized-scope-rule-without-provenance`
+  18. `8e05b3d` `docs(readiness): reactivate checkpoint 5 scope`
 - Checkpoint 0 closure evidence now lives in:
   - [REVIEWS/checkpoint-0-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r1.md)
   - [REVIEWS/checkpoint-0-internal-review-r2.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r2.md)
-- The next readiness-moving commit should capture Checkpoint 4 closure state and Checkpoint 5 activation.
+- The next readiness-moving commit should capture post-reactivation package-state reconciliation or the first widened Checkpoint 5 workflow-follow-through implementation slice.
 
 ## Immediate next action
 
-- checkpoint the scope reactivation in package artifacts, then execute the widened Checkpoint 5 workflow follow-through from the committed Checkpoint 4 baseline
+- reconcile post-`8e05b3d` package state, then execute the widened Checkpoint 5 workflow follow-through from that corrected baseline
 
 ## User consultation required?
 

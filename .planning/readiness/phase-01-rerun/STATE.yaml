@@ -2,8 +2,8 @@ current_checkpoint: 5
 checkpoint_name: conditional_harness_gsd_follow_through
 checkpoint_state: in_progress
 readiness_state: not_ready
-current_task: checkpoint_5_scope_reactivation_and_workflow_follow_through
-next_action: checkpoint_scope_reactivation_then_implement_widened_workflow_follow_through
+current_task: checkpoint_5_package_state_reconciliation_then_workflow_follow_through
+next_action: reconcile_post_reactivation_package_state_then_implement_widened_workflow_follow_through
 review_policy_path: .planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml
 current_checkpoint_requires_independent_reviewer_for_closure: true
 working_tree_clean_expected: true
@@ -48,5 +48,5 @@ checkpointed_baselines:
   - 7f24b1d docs(readiness): finalize checkpoint 4 audit bundle
   - 0947c13 docs(signal): overgeneralized-scope-rule-without-provenance
 next_expected_commit:
-  - checkpoint-5 scope reactivation and package correction
+  - checkpoint-5 package-state reconciliation
 requires_user_input: false

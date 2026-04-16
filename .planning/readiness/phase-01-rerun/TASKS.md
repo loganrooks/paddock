@@ -6,12 +6,12 @@ This board tracks only work that materially affects Phase 01 rerun readiness.
 
 | ID | Checkpoint | Task | Status | Output / Evidence |
 |---|---|---|---|---|
-| R5.1 | 5 | Reactivate Checkpoint 5 scope and patch the readiness package so the checkpoint reflects accepted workflow follow-through obligations | Active | [AUDITS/checkpoint-5-reactivated-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-5-reactivated-launch-spec.md) plus package-state updates |
 | R5.2 | 5 | Align phase-critical runtime-authoritative `.toml` worker prompts with repo `AGENTS` / skill surfaces | Active (partial) | partial Track A bundle already exists |
 | R5.3 | 5 | Tighten review / closure-pressure harness surfaces without over-automating judgment | Active (partial) | partial Track B bundle already exists |
 | R5.4 | 5 | Define durable launch/model-truth capture rule for doctrine-sensitive worker launches | Active (partial) | partial Track C bundle already exists |
 | R5.5 | 5 | Add workflow-chain follow-through on `discuss-phase`, `research-phase`, `plan-phase`, and `execute-phase` | Active | widened Checkpoint 5 patch set |
 | R5.6 | 5 | Align rerun-critical wrapper skills after workflow changes so invocation surfaces do not lag corrected doctrine | Active | wrapper-alignment patch set |
+| R5.11 | 5 | Reconcile package state after the `8e05b3d` reactivation checkpoint so the live control surfaces stop lagging the committed boundary | Active | package-state repair commit |
 
 ## Upcoming
 
@@ -38,6 +38,7 @@ This board tracks only work that materially affects Phase 01 rerun readiness.
 
 | ID | Task | Evidence |
 |---|---|---|
+| R5.1 | Reactivate Checkpoint 5 scope and patch the readiness package so the checkpoint reflects accepted workflow follow-through obligations | `8e05b3d`, [AUDITS/checkpoint-5-reactivated-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-5-reactivated-launch-spec.md) |
 | R-.1 | Create readiness package backbone | [AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AGENTS.md), [INDEX.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/INDEX.md), [STATUS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/STATUS.md), [STATE.yaml](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/STATE.yaml) |
 | R-.2 | Capture pre-rerun sequence and `05` carry-forward history | [PLAN.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/PLAN.md) |
 | R-.3 | Checkpoint readiness/governance baselines before corrective pass | `9d1e22b`, `2ad87fc`, `c38ad2a` |
