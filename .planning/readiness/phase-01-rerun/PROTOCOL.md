@@ -12,6 +12,7 @@ This file defines how to operate the readiness package without relying on ambien
 6. [CHECKPOINT-REVIEW-MATRIX.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CHECKPOINT-REVIEW-MATRIX.md) when deciding checkpoint review depth
 7. [REVIEW-POLICY.yaml](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml) for machine-readable closure and independence rules
 8. [CLAUDE-REVIEW-COMMANDS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CLAUDE-REVIEW-COMMANDS.md) when a Claude cross-vendor lane is actually being run
+9. [AUDIT-COMPARISON-POLICY.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDIT-COMPARISON-POLICY.md) when multiple audits or reviews address the same artifact under different specs or production conditions
 
 ## Mandatory Updates
 
@@ -80,6 +81,12 @@ Update `CHECKPOINT-LEDGER.md` whenever:
 - a planned boundary is intentionally postponed
 - a meaningful readiness-support commit changes package doctrine, review policy, or intake behavior
 
+Write an explicit comparison ledger under [REVIEWS/](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS) whenever:
+
+- multiple audits or reviews materially disagree about a load-bearing artifact
+- audits were run under different specs or epistemic framings
+- the next revision depends on qualifying claims by epistemic standing rather than by simple agreement
+
 ## Commit Protocol
 
 - Prefer checkpoint commits at meaningful reasoning or scope boundaries.
@@ -120,6 +127,13 @@ If the classification is `strategic-opportunity`:
 - do not bury it in prose
 - route it into `OPPORTUNITIES.md`
 - decide whether it belongs to a later checkpoint, deferred follow-through, or post-rerun seed work
+
+If multiple audits exist for the same artifact:
+
+- do not flatten them into one blended verdict immediately
+- compare them using `AUDIT-COMPARISON-POLICY.md`
+- classify claims by convergence, support, contestation, pressure-only status, or weakness
+- revise from the strongest surviving claims first
 
 ## Quality Standard
 

@@ -14,6 +14,11 @@ Last updated: 2026-04-15
 - Checkpoint 4 is now closed. The full six-file audit bundle exists, the seam synthesis is complete, the converged synthesis is complete, the bundle passed independent internal review plus a Claude Opus cross-vendor reread, and the revised bundle passed internal rereview after the bounded decision logic was tightened.
 - The main question is no longer whether the active Codex+GSD stack has meaningful weaknesses. That is now answered: the stack is mixed-strong but still has bounded real harness ownership problems that should be addressed before rerun-readiness verification.
 - The first Checkpoint 5 implementation pass was too narrow. It improved three real seams, but it left accepted workflow-chain follow-through on the table. Checkpoint 5 is therefore still active under a reactivated scope rather than a closed or nearly-closed one.
+- The widened Checkpoint 5 implementation spec also turned out to be incomplete on propagation ownership. We now have a five-artifact spec-stack audit bundle and an explicit comparison policy. The current truthful state is:
+  - audit comparison complete
+  - convergent claims identified
+  - implementation spec revised from those claims
+  - harness implementation intentionally not restarted yet
 - The accepted Checkpoint 4 outcome is explicit:
   - open a bounded Checkpoint 5
   - keep the bounded scope centered on rerun-blocking harness follow-through
@@ -58,11 +63,12 @@ Last updated: 2026-04-15
 
 - maintaining the readiness package as the live continuity surface instead of ambient session memory
 - research-intake tracking for supporting and conditional follow-through bundles
-- bounded Checkpoint 5 harness follow-through planning and execution
-- package-state reconciliation after the Checkpoint 5 reactivation checkpoint
+- bounded Checkpoint 5 spec-stack adjudication and implementation-spec revision
+- readiness-surface truthfulness around the revised Checkpoint 5 spec boundary
 
 ## Not started
 
+- widened Checkpoint 5 harness implementation from the revised spec
 - repo-local non-phase external-reread protocol/template, if later harness follow-through still needs one
 - rerun-readiness verification
 - fresh Phase 01 rerun
@@ -75,9 +81,14 @@ Last updated: 2026-04-15
    - research adequacy/disposition is still under-gated
    - doctrine-sensitive closure still permits too many cheap exits
    - debt-carrying completion remains too easy to misread as clean completion
-3. Launch/model-truth handling is materially better, but the current helper/protocol bundle still belongs to an open checkpoint rather than a closed one.
-4. The current Checkpoint 5 internal and cross-vendor reviews apply only to the pre-reactivation partial bundle and cannot close the widened checkpoint on their own.
-5. Branch/worktree boundary materialization remains visible but under-evidenced.
+3. The current Checkpoint 5 implementation boundary must explicitly own propagation surfaces before implementation can restart:
+   - tracked overlay/materialization for touched runtime files
+   - RESEARCH producer/template/checker surfaces
+   - planner-side CONTEXT consumption
+   - downstream debt-carrying completion representation
+4. Launch/model-truth handling is materially better, but the current helper/protocol bundle still belongs to an open checkpoint rather than a closed one.
+5. The current Checkpoint 5 internal and cross-vendor reviews apply only to the pre-reactivation partial bundle, and the later spec-stack audits apply only to the candidate implementation spec rather than to any accepted implementation patch set.
+6. Branch/worktree boundary materialization remains visible but under-evidenced.
    - Current disposition: accepted bounded risk
    - Reactivate it only if Checkpoint 5 changes worktree/config behavior or later verification exposes a concrete mismatch
 
@@ -106,11 +117,11 @@ Last updated: 2026-04-15
 - Checkpoint 0 closure evidence now lives in:
   - [REVIEWS/checkpoint-0-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r1.md)
   - [REVIEWS/checkpoint-0-internal-review-r2.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r2.md)
-- The next readiness-moving commit should capture post-reactivation package-state reconciliation or the first widened Checkpoint 5 workflow-follow-through implementation slice.
+- The next readiness-moving commit should capture the revised Checkpoint 5 spec boundary and package-state truth before any new harness implementation slice.
 
 ## Immediate next action
 
-- reconcile post-`8e05b3d` package state, then execute the widened Checkpoint 5 workflow follow-through from that corrected baseline
+- reread the revised Checkpoint 5 implementation spec under fresh internal and cross-vendor review; if those pass, only then begin the first harness implementation slice from that accepted spec
 
 ## User consultation required?
 

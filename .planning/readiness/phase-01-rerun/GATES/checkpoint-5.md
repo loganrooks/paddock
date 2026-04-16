@@ -8,12 +8,22 @@ Last updated: 2026-04-15
 - execute the reactivated harness follow-through that Checkpoint 4 proved is warranted before rerun-readiness verification
 - preserve the already-completed Track A/B/C work, but do not let that partial bundle stand in for the full checkpoint
 - keep the checkpoint centered on rerun-blocking harness quality, not on omnibus hardening
+- keep spec revision and implementation ownership auditable as separate moves rather than collapsing them into one patch wave
 
 ## Governing inputs
 
 - [AUDITS/checkpoint-5-bounded-follow-through-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-5-bounded-follow-through-launch-spec.md)
 - [AUDITS/checkpoint-5-reactivated-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-5-reactivated-launch-spec.md)
+- [AUDITS/checkpoint-5-workflow-follow-through-implementation-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-5-workflow-follow-through-implementation-spec.md)
 - [AUDITS/checkpoint-4-gsd-workflow-chain-and-artifact-contracts-excellence.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-4-gsd-workflow-chain-and-artifact-contracts-excellence.md)
+- [AUDIT-COMPARISON-POLICY.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDIT-COMPARISON-POLICY.md)
+- [REVIEWS/checkpoint-5-spec-stack-audit-comparison-ledger.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-5-spec-stack-audit-comparison-ledger.md)
+
+## Current subphase
+
+- complete: pre-implementation audit comparison and claim qualification
+- active now: revise the governing implementation spec from convergent and supported claims, keeping contested and pressure-only claims explicit
+- not yet active: harness implementation slice
 
 ## Activation Criteria
 
@@ -51,6 +61,7 @@ Last updated: 2026-04-15
 
 ## Exit Criteria
 
+- the revised Checkpoint 5 implementation spec passes fresh internal and cross-vendor reread under the audit comparison policy
 - the phase-critical worker authority surface is aligned for the roles the rerun will actually exercise
 - review/closure changes preserve lone strong criticism and distinguish clean completion from debt-carrying completion where rerun quality depends on that distinction
 - launch/model-truth capture now has a clear, reviewable rule for doctrine-sensitive worker launches
@@ -68,7 +79,10 @@ Last updated: 2026-04-15
 ## Review Note
 
 - the existing Checkpoint 5 internal and cross-vendor reviews apply only to the pre-reactivation partial bundle
-- closure of the reactivated checkpoint requires fresh internal and cross-vendor review against the widened scope
+- the spec-stack audit bundle also showed that the widened implementation spec itself required revision before implementation
+- closure of the reactivated checkpoint therefore requires:
+  - fresh internal and cross-vendor reread of the revised implementation spec
+  - then fresh internal and cross-vendor review of the implementation patch set against that accepted spec
 
 ## Commit Rule
 
