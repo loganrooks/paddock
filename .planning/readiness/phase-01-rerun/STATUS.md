@@ -13,6 +13,7 @@ Last updated: 2026-04-15
 
 - Checkpoint 4 is now closed. The full six-file audit bundle exists, the seam synthesis is complete, the converged synthesis is complete, the bundle passed independent internal review plus a Claude Opus cross-vendor reread, and the revised bundle passed internal rereview after the bounded decision logic was tightened.
 - The main question is no longer whether the active Codex+GSD stack has meaningful weaknesses. That is now answered: the stack is mixed-strong but still has bounded real harness ownership problems that should be addressed before rerun-readiness verification.
+- The first Checkpoint 5 implementation pass was too narrow. It improved three real seams, but it left accepted workflow-chain follow-through on the table. Checkpoint 5 is therefore still active under a reactivated scope rather than a closed or nearly-closed one.
 - The accepted Checkpoint 4 outcome is explicit:
   - open a bounded Checkpoint 5
   - keep the bounded scope centered on rerun-blocking harness follow-through
@@ -22,6 +23,8 @@ Last updated: 2026-04-15
   - phase-critical runtime-authoritative worker alignment
   - bounded review / closure-pressure follow-through
   - explicit launch/model-truth capture policy for doctrine-sensitive worker launches
+  - workflow-chain follow-through on steering translation, research adequacy, closure pressure, and clean-versus-debt-carrying completion
+  - rerun-critical wrapper alignment where invocation surfaces would otherwise lag changed workflow doctrine
 
 ## Done
 
@@ -55,6 +58,7 @@ Last updated: 2026-04-15
 
 - maintaining the readiness package as the live continuity surface instead of ambient session memory
 - research-intake tracking for supporting and conditional follow-through bundles
+- Checkpoint 5 scope reactivation and package correction after the under-scoping failure was recognized
 - bounded Checkpoint 5 harness follow-through planning and execution
 
 ## Not started
@@ -65,15 +69,15 @@ Last updated: 2026-04-15
 
 ## Blocking findings
 
-1. The phase-critical runtime-authoritative worker surface is still misaligned with the repo’s actual instruction and skill surfaces, especially on the `.toml` path that live worker launches actually use.
-2. Review and closure pressure is still too soft for the rerun standard:
-   - lone strong criticism is not preserved sharply enough
+1. The phase-critical runtime-authoritative worker surface was improved but is not yet closed as a checkpoint surface until the reactivated Checkpoint 5 bundle passes review.
+2. Review and closure pressure is still too soft at the workflow-chain level, not only in the dedicated review surfaces:
+   - steering-to-plan translation remains too prose-dependent
+   - research adequacy/disposition is still under-gated
+   - doctrine-sensitive closure still permits too many cheap exits
    - debt-carrying completion remains too easy to misread as clean completion
-   - advisory / consensus-biased review semantics still carry too much weight
-3. Launch/model-truth handling is still too protocol-heavy:
-   - the repo has good verification doctrine
-   - but durable capture of effective launch truth is not yet bounded cleanly enough for later audit
-4. Branch/worktree boundary materialization remains visible but under-evidenced.
+3. Launch/model-truth handling is materially better, but the current helper/protocol bundle still belongs to an open checkpoint rather than a closed one.
+4. The current Checkpoint 5 internal and cross-vendor reviews apply only to the pre-reactivation partial bundle and cannot close the widened checkpoint on their own.
+5. Branch/worktree boundary materialization remains visible but under-evidenced.
    - Current disposition: accepted bounded risk
    - Reactivate it only if Checkpoint 5 changes worktree/config behavior or later verification exposes a concrete mismatch
 
@@ -104,7 +108,7 @@ Last updated: 2026-04-15
 
 ## Immediate next action
 
-- update package state to record Checkpoint 4 closure, then execute bounded Checkpoint 5 from the committed audit baseline
+- checkpoint the scope reactivation in package artifacts, then execute the widened Checkpoint 5 workflow follow-through from the committed Checkpoint 4 baseline
 
 ## User consultation required?
 

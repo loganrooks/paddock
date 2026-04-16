@@ -6,6 +6,14 @@ Translate the accepted Checkpoint 4 verdict into a bounded implementation checkp
 
 This checkpoint exists because Checkpoint 4 found real harness ownership problems, but it also made clear that not every related hardening opportunity belongs in the pre-rerun path.
 
+## Status Note
+
+This initial launch-spec scope is now partially superseded by:
+
+- [checkpoint-5-reactivated-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-5-reactivated-launch-spec.md)
+
+Keep this file as the historical record of the first narrower Checkpoint 5 envelope. Do not use it by itself as the current closure authority.
+
 ## Governing Inputs
 
 - [PLAN.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/PLAN.md)
@@ -15,7 +23,7 @@ This checkpoint exists because Checkpoint 4 found real harness ownership problem
 - [REVIEWS/checkpoint-4-bundle-cross-vendor-review-opus-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-4-bundle-cross-vendor-review-opus-r1.md)
 - [REVIEWS/checkpoint-4-bundle-internal-review-r2.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-4-bundle-internal-review-r2.md)
 
-## Accepted Checkpoint 5 Scope
+## Initial Accepted Checkpoint 5 Scope
 
 Checkpoint 5 is bounded to three tracks:
 

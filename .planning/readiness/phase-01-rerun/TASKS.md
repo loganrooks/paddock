@@ -6,9 +6,12 @@ This board tracks only work that materially affects Phase 01 rerun readiness.
 
 | ID | Checkpoint | Task | Status | Output / Evidence |
 |---|---|---|---|---|
-| R5.1 | 5 | Align phase-critical runtime-authoritative `.toml` worker prompts with repo `AGENTS` / skill surfaces | Active | bounded Checkpoint 5 patch set |
-| R5.2 | 5 | Tighten review / closure-pressure harness surfaces without over-automating judgment | Active | bounded Checkpoint 5 patch set |
-| R5.3 | 5 | Define durable launch/model-truth capture rule for doctrine-sensitive worker launches | Active | bounded Checkpoint 5 patch set |
+| R5.1 | 5 | Reactivate Checkpoint 5 scope and patch the readiness package so the checkpoint reflects accepted workflow follow-through obligations | Active | [AUDITS/checkpoint-5-reactivated-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-5-reactivated-launch-spec.md) plus package-state updates |
+| R5.2 | 5 | Align phase-critical runtime-authoritative `.toml` worker prompts with repo `AGENTS` / skill surfaces | Active (partial) | partial Track A bundle already exists |
+| R5.3 | 5 | Tighten review / closure-pressure harness surfaces without over-automating judgment | Active (partial) | partial Track B bundle already exists |
+| R5.4 | 5 | Define durable launch/model-truth capture rule for doctrine-sensitive worker launches | Active (partial) | partial Track C bundle already exists |
+| R5.5 | 5 | Add workflow-chain follow-through on `discuss-phase`, `research-phase`, `plan-phase`, and `execute-phase` | Active | widened Checkpoint 5 patch set |
+| R5.6 | 5 | Align rerun-critical wrapper skills after workflow changes so invocation surfaces do not lag corrected doctrine | Active | wrapper-alignment patch set |
 
 ## Upcoming
 
@@ -23,10 +26,10 @@ This board tracks only work that materially affects Phase 01 rerun readiness.
 
 | ID | Checkpoint | Task | Trigger | Status |
 |---|---|---|---|---|
-| R5.4 | 5 | Portable GSD reproducibility / provenance hardening | Checkpoint 5 materially touches reinstall or materialization surfaces, or later verification proves current live coherence is not enough | Conditional |
-| R5.5 | 5 | Narrow branch/worktree seam verification | Checkpoint 5 changes worktree/config behavior or later verification exposes a concrete branch/worktree mismatch | Conditional |
-| R5.6 | 5 | Design project-wide compact prompt and Codex/GSD integration | Checkpoints 3-5 clarify the durable control surfaces worth preserving across compaction | Conditional |
-| R5.7 | 5 | Draft repo-local non-phase external-reread protocol/template | Checkpoint 4/5 shows later harness/protocol follow-through still needs a repeatable non-phase external-reread surface | Conditional |
+| R5.7 | 5 | Portable GSD reproducibility / provenance hardening | Checkpoint 5 materially touches reinstall or materialization surfaces, or later verification proves current live coherence is not enough | Conditional |
+| R5.8 | 5 | Narrow branch/worktree seam verification | Checkpoint 5 changes worktree/config behavior or later verification exposes a concrete branch/worktree mismatch | Conditional |
+| R5.9 | 5 | Design project-wide compact prompt and Codex/GSD integration | Checkpoints 3-5 clarify the durable control surfaces worth preserving across compaction | Conditional |
+| R5.10 | 5 | Draft repo-local non-phase external-reread protocol/template | Checkpoint 4/5 shows later harness/protocol follow-through still needs a repeatable non-phase external-reread surface | Conditional |
 | R6.2 | 6 | Targeted canon patch before rerun | rerun-readiness verification finds real canon gap rather than governance/process or harness gap | Conditional |
 | R6.3 | 6 | Run cross-vendor reread on rerun-readiness verification artifact | rerun-readiness verdict depends on doctrine-sensitive judgment rather than only mechanical closure | Conditional |
 | R7.4 | 7 | Run cross-vendor reread on fresh Phase 01 plan before execution approval | fresh plan remains doctrine-sensitive or contested after internal review | Conditional |

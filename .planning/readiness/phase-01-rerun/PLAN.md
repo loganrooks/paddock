@@ -417,16 +417,43 @@ Run it only if the tandem workflow/harness audit concludes that important standi
 - repo-local workflow defaults materially conflict with the repo's rigor bar
 - the docs are compensating for harness behavior that should be fixed closer to execution machinery
 
+2026-04-15 reactivation note:
+
+- the first Checkpoint 5 implementation scope was too narrow
+- the accepted Checkpoint 4 workflow-chain audit had already identified follow-through on steering translation, research adequacy, permissive closure, and debt-carrying completion
+- therefore Checkpoint 5 now includes workflow-chain follow-through and secondary rerun-critical wrapper alignment in addition to the already-started Track A/B/C work
+- the controlling artifact for that correction is:
+  - [AUDITS/checkpoint-5-reactivated-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-5-reactivated-launch-spec.md)
+
 Likely targets if this becomes necessary:
 - [.codex/get-shit-done](/home/rookslog/workspace/projects/prix-guesser/.codex/get-shit-done)
 - repo-local overlay under `tooling/portable-gsd/overlay/`
 - repo-local compaction-prompt design and Codex config integration, once the stable project-wide control surfaces are clear
 - [WORKFLOW.md](/home/rookslog/workspace/projects/prix-guesser/WORKFLOW.md) only where a doc-level policy truly needs machinery backing
+- rerun-critical wrapper alignment under [.codex/skills](/home/rookslog/workspace/projects/prix-guesser/.codex/skills) after workflow changes land
+
+Required work:
+- align the phase-critical runtime-authoritative `.toml` worker prompts with the repo’s actual instruction and skill surfaces
+- tighten review / closure-pressure harness surfaces so lone strong criticism and debt-carrying completion are handled more explicitly
+- define the durable rule for launch/model-truth capture on doctrine-sensitive worker launches
+- add workflow-chain follow-through on:
+  - `discuss-phase.md`
+  - `research-phase.md`
+  - `plan-phase.md`
+  - `execute-phase.md`
+- align rerun-critical wrapper surfaces after workflow changes so invocation-layer doctrine does not lag the updated workflows
+
+Explicitly deferred unless the active work reaches those surfaces directly:
+- broad install pinning
+- archival provenance replacement
+- full path-portability hardening
+- broader branch/worktree redesign
 
 Quality gate:
 - moved rules or controls downward only where reliability genuinely improves
 - the harness now better supports excellent planning/research/review/execution work rather than merely enforcing compliance
 - automation is not being used to hide judgment calls that must remain explicit and reviewable
+- accepted Checkpoint 4 workflow findings are actually carried into active follow-through rather than being left behind by a narrower launch spec
 
 Checkpoint question:
 - is this a real harness defect with a clean ownership story, or are we trying to use machinery to avoid writing clearer doctrine and better review protocols?

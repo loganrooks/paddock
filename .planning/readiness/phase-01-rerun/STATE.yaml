@@ -2,22 +2,27 @@ current_checkpoint: 5
 checkpoint_name: conditional_harness_gsd_follow_through
 checkpoint_state: in_progress
 readiness_state: not_ready
-current_task: bounded_checkpoint_5_follow_through_planning
-next_action: activate_bounded_checkpoint_5_tasks_from_committed_checkpoint_4_bundle
+current_task: checkpoint_5_scope_reactivation_and_workflow_follow_through
+next_action: checkpoint_scope_reactivation_then_implement_widened_workflow_follow_through
 review_policy_path: .planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml
 current_checkpoint_requires_independent_reviewer_for_closure: true
 working_tree_clean_expected: true
 blocked_by:
   - phase_critical_runtime_authority_surface_still_misaligned
+  - workflow_chain_excellence_follow_through_still_missing
   - review_and_closure_pressure_still_too_soft
   - launch_and_model_truth_capture_still_too_implicit
 open_findings:
   - runtime_authoritative_toml_worker_surface_still_carries_legacy_doctrine
+  - pre_reactivation_checkpoint_5_scope_dropped_accepted_workflow_follow_through
   - review_and_completion_semantics_are_still_excellence_capable_not_excellence_demanding
+  - research_and_steering_translation_semantics_are_still_under_gated
+  - existing_checkpoint_5_reviews_apply_only_to_partial_scope
   - branch_and_worktree_boundary_materialization_is_accepted_bounded_risk_not_cleanly_proven
 open_opportunities:
   - repo_local_non_phase_external_reread_protocol_template
   - downstream_claim_discipline_and_steering_traceability_hardening
+  - stronger_wrapper_level_alignment_after_workflow_follow_through
 deferred_items:
   - scraped_radio_branch_archive_posture
   - dedicated_cross_model_audit_skill_creation
@@ -41,6 +46,7 @@ checkpointed_baselines:
   - 302e6b1 docs(readiness): add checkpoint-3 scope audit review specs
   - 8a6f42c docs(signal): cross-vendor-review-artifact-authority-failure
   - 7f24b1d docs(readiness): finalize checkpoint 4 audit bundle
+  - 0947c13 docs(signal): overgeneralized-scope-rule-without-provenance
 next_expected_commit:
-  - checkpoint-4 closure state and checkpoint-5 activation
+  - checkpoint-5 scope reactivation and package correction
 requires_user_input: false

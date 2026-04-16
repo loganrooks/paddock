@@ -47,3 +47,29 @@ For each deviation, record:
   - deferrals
   - checkpoint logging
 - whether user consultation was required: no
+
+- type: `evidence-overturn`, `upstream-reactivation`, `user-directed-change`
+- date: 2026-04-15
+- trigger: the accepted Checkpoint 4 workflow-chain findings and later user challenge showed that the first Checkpoint 5 launch spec had overgeneralized a Checkpoint 3 scoping heuristic and dropped workflow follow-through that had already been earned
+- effect on sequence: Checkpoint 5 remains active but its scope widens from Track A/B/C only into `Track A/B/C + workflow-chain follow-through + secondary rerun-critical wrapper alignment`; the existing Checkpoint 5 reviews become partial historical evidence instead of closure evidence
+- package surfaces changed:
+  - `AUDITS/checkpoint-5-reactivated-launch-spec.md`
+  - `AUDITS/checkpoint-5-bounded-follow-through-launch-spec.md`
+  - `GATES/checkpoint-5.md`
+  - `STATUS.md`
+  - `TASKS.md`
+  - `STATE.yaml`
+  - `PLAN.md`
+  - `CHECKPOINT-LEDGER.md`
+  - Checkpoint 5 implementation/review notes
+- whether user consultation was required: yes
+
+- type: `operational-restructure`, `new-blocker`, `user-directed-change`
+- date: 2026-04-15
+- trigger: the user interrupted a costly cross-vendor rerun attempt after artifact-first review discipline was violated; the failure was later recorded as `cross-vendor-review-artifact-authority-failure`
+- effect on sequence: the checkpoint now preserves the first internal and cross-vendor reviews as pre-reactivation historical evidence, requires artifact-first review handling going forward, and does not erase the failed rerun-handling episode during correction
+- package surfaces changed:
+  - `DEVIATIONS.md`
+  - `STATUS.md`
+  - Checkpoint 5 reactivation records
+- whether user consultation was required: yes
