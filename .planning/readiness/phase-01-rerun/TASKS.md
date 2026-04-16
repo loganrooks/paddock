@@ -30,6 +30,7 @@ This board tracks only work that materially affects Phase 01 rerun readiness.
 | R5.8 | 5 | Narrow branch/worktree seam verification | Checkpoint 5 changes worktree/config behavior or later verification exposes a concrete branch/worktree mismatch | Conditional |
 | R5.9 | 5 | Design project-wide compact prompt and Codex/GSD integration | Checkpoints 3-5 clarify the durable control surfaces worth preserving across compaction | Conditional |
 | R5.10 | 5 | Draft repo-local non-phase external-reread protocol/template | Checkpoint 4/5 shows later harness/protocol follow-through still needs a repeatable non-phase external-reread surface | Conditional |
+| R5.15 | 5 | Integrate the readiness package's stronger gap-exposure / anti-premature-closure review doctrine into repo-local GSD review and audit surfaces | the current planning/research slice is committed and Checkpoint 5 resumes the Track B review / closure-pressure lane | Conditional |
 | R6.2 | 6 | Targeted canon patch before rerun | rerun-readiness verification finds real canon gap rather than governance/process or harness gap | Conditional |
 | R6.3 | 6 | Run cross-vendor reread on rerun-readiness verification artifact | rerun-readiness verdict depends on doctrine-sensitive judgment rather than only mechanical closure | Conditional |
 | R7.4 | 7 | Run cross-vendor reread on fresh Phase 01 plan before execution approval | fresh plan remains doctrine-sensitive or contested after internal review | Conditional |
