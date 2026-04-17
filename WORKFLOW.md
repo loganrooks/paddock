@@ -66,6 +66,21 @@ This document defines the repo's human and agent operating workflow.
   - if a verification lane is warranted, treat that as a new stage with its own review boundary
   - if a fix lane follows verification, prefer a checkpoint between findings and fixes when the findings artifact is worth preserving
 
+### Doctrine-sensitive worker launches
+
+- When a spawned worker materially steers canon, readiness, review, or verification posture, capture launch truth as a reviewable artifact instead of relying on private sqlite inspection or memory.
+- Preferred protocol:
+  1. record a pre-spawn boundary such as `launch_truth_since=$(date +%s)`
+  2. launch the worker
+  3. capture requested-versus-effective truth with `python3 tooling/codex/capture_launch_truth.py --since "$launch_truth_since" --label "<purpose>" --requested-model ... --requested-reasoning ... --requested-approval ... --requested-sandbox ...`
+  4. preserve that output in the relevant review artifact, checkpoint notes, or branch notes when the launch is doctrine-sensitive
+- Use `--requested-agent` and `--requested-agent-path` when the named worker or config file is itself part of what later review may question.
+- If the stronger `--since` boundary was missed, `--latest N` is an allowed fallback, but label it as weaker evidence.
+- Treat the helper output as a capture aid, not a proof machine:
+  - effective settings come from sqlite
+  - requested settings are operator-declared
+  - missing runtime fields such as absent `agent_path` stay unresolved rather than inferred
+
 ### Merge posture
 
 - Prefer PR-style review boundaries even when working solo.
