@@ -11,8 +11,10 @@ This file defines how to operate the readiness package without relying on ambien
 5. the active checkpoint file under [GATES/](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/GATES)
 6. [CHECKPOINT-REVIEW-MATRIX.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CHECKPOINT-REVIEW-MATRIX.md) when deciding checkpoint review depth
 7. [REVIEW-POLICY.yaml](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml) for machine-readable closure and independence rules
-8. [CLAUDE-REVIEW-COMMANDS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CLAUDE-REVIEW-COMMANDS.md) when a Claude cross-vendor lane is actually being run
-9. [AUDIT-COMPARISON-POLICY.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDIT-COMPARISON-POLICY.md) when multiple audits or reviews address the same artifact under different specs or production conditions
+8. [POST-FALSIFICATIONIST-REVIEW-DOCTRINE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/POST-FALSIFICATIONIST-REVIEW-DOCTRINE.md) when an audit or review needs explicit epistemic definitions rather than inherited philosophical shorthand
+9. [CLAUDE-REVIEW-COMMANDS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/CLAUDE-REVIEW-COMMANDS.md) when a Claude cross-vendor lane is actually being run
+10. [AUDIT-COMPARISON-POLICY.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDIT-COMPARISON-POLICY.md) when multiple audits or reviews address the same artifact under different specs or production conditions
+11. [AUDIT-SPEC-TEMPLATE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDIT-SPEC-TEMPLATE.md) when writing or revising a reusable audit spec, adjudication spec, reread spec, or cross-vendor review prompt
 
 ## Mandatory Updates
 
@@ -36,6 +38,15 @@ Write or update an explicit audit artifact under [AUDITS/](/home/rookslog/worksp
 - the checkpoint needs a reusable task spec or onboarding surface
 - a later patch or deeper audit will depend on the resulting audit output
 
+When writing or revising a reusable audit spec or multi-lane bundle:
+
+- use `AUDIT-SPEC-TEMPLATE.md`
+- explicitly check read-set adequacy before launch
+- distinguish candidate, consumer, and representation / chain-tail surfaces where relevant
+- if the spec is an adjudication, include enough direct spot-check surfaces to verify contested lane claims
+- if the spec is a reread, include enough material to judge evidence-base adequacy, not only conclusion quality
+- if sibling lanes use parallel output structures, explicitly guard against false convergence in the adjudication lane
+
 Write or update an explicit review artifact from [REVIEW-TEMPLATE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEW-TEMPLATE.md) whenever:
 
 - a checkpoint receives `internal-verification-agent` review
@@ -49,7 +60,11 @@ If the review uses the Anthropic Claude lane:
 
 - persist the prompt file in the repo first
 - use the command patterns in `CLAUDE-REVIEW-COMMANDS.md`
-- record the exact Claude model and effort used
+- prefer alias-based selectors in live policy and commands: `sonnet` for routine external audit, `opus` for high-stakes external audit
+- record the exact Claude selector and effort actually used in the review artifact
+- on Opus 4.7, prefer `xhigh` as the default high-stakes effort tier; reserve `max` for the hardest adversarial or doctrine-reopening rereads
+- for large doctrine / adjudication / reread lanes on Max, prefer explicit `opus[1m]` or the current CLI's full-name equivalent rather than relying on implicit Opus selection
+- record when `1m` was used because this package has now observed a same-lane difference: non-`[1m]` Opus reread ended with `Prompt is too long`, while the explicit `1m` Opus rerun completed and wrote the artifact
 
 Update `TASKS.md` whenever:
 
@@ -135,6 +150,12 @@ If multiple audits exist for the same artifact:
 - classify claims by convergence, support, contestation, pressure-only status, or weakness
 - revise from the strongest surviving claims first
 
+If the artifact being reviewed is itself a spec or prompt bundle:
+
+- do not stop at whether the spec is readable or demanding
+- ask whether it is architected to make later under-scoping difficult
+- ask what a strong later reviewer would still say the spec cannot read, cannot verify, or cannot adjudicate responsibly
+
 ## Quality Standard
 
 The target is not mere pass/fail clearance.
@@ -149,7 +170,8 @@ Each gate should be judged in terms of:
 Review posture should therefore be:
 
 - high-expectation
-- falsification-oriented
+- gap-exposure and completeness-challenge oriented
+- post-verificationist and post-falsificationist rather than naively either one
 - firm and specific
 - justified rather than arbitrary
 

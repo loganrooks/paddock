@@ -17,6 +17,10 @@ The goal is not to flatten them into a blended verdict. The goal is to compare, 
 - [d:c:i] A stronger governing spec:
   - names the relevant source surfaces explicitly
   - forces reads of likely propagation surfaces
+  - distinguishes producer, consumer, and representation / chain-tail surfaces when propagation or completion semantics matter
+  - gives adjudicators enough direct surfaces to spot-check contested claims
+  - gives reread lanes enough material to test evidence-base adequacy rather than only conclusion quality
+  - asks whether the spec's own read set may be incomplete
   - distinguishes blockers from non-blockers
   - asks about missing ownership, shared contracts, and deferrals
   - reduces the chance that the reviewer only comments on the most obvious surface
@@ -51,6 +55,7 @@ The goal is not to flatten them into a blended verdict. The goal is to compare, 
   - does it explain why the cited sources support the conclusion?
   - does it identify where a claim is a stronger extrapolation rather than a direct reading?
   - does it distinguish blocking gaps from meaningful but non-blocking concerns?
+  - does it show that the evidence base was adequate for the confidence of its scope judgment?
 - [d:c:i] A well-justified audit is not merely well-cited; it shows why the citations bear the weight placed on them.
 
 ### 6. Claim Survivability
@@ -81,6 +86,14 @@ The goal is not to flatten them into a blended verdict. The goal is to compare, 
   - claims that depend on weaker framing
   - claims that overreach beyond the sources they cite
 
+## Scope-Promotion Judgment
+
+- [d:c+i] When the comparison result is being used to decide whether a wider lane should be promoted, do not treat `keep it local` as the neutral or cheaper default.
+- [d:c+i] Ask two separate questions:
+  - does the surviving evidence justify wider promotion?
+  - is non-promotion actually defensible without leaving likely quality gains, anomaly-accounting work, or under-owned consequences on the table?
+- [d:c+i] A locality judgment should therefore be treated as a claim that also needs justification, not merely as the absence of justification for widening.
+
 ## What To Record
 
 - [d:c:i] When multiple audits are being compared, write a comparison ledger that records for each artifact:
@@ -100,6 +113,7 @@ The goal is not to flatten them into a blended verdict. The goal is to compare, 
 ## What Not To Do
 
 - [d:c:i] Do not collapse disagreement into a fake consensus summary if the disagreement is actually about production conditions or scope.
+- [d:c:i] Do not confuse structural parallelism in sibling audit outputs with evidential convergence.
 - [d:c:i] Do not treat `xhigh` as dispositive.
 - [d:c:i] Do not treat `cross-vendor` as dispositive.
 - [d:c:i] Do not keep implementing while the governing comparison is still unresolved on blocking scope questions.

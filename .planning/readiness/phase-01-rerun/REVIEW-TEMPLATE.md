@@ -14,7 +14,8 @@ Use this for explicit readiness checkpoint reviews.
   - future viability
   - quality of judgment
 - Do not treat `technically passes` or `mostly fine` as sufficient if a stronger artifact was reasonably achievable.
-- Try seriously to falsify closure-readiness before declaring an artifact strong.
+- Challenge closure-readiness and completeness seriously before declaring an artifact strong.
+- Do not reduce the stance to naive verification or naive falsification; the goal is justified gap exposure and completeness challenge.
 
 ## Header
 
@@ -28,7 +29,8 @@ Use this for explicit readiness checkpoint reviews.
 - reviewer:
 - model / reasoning or vendor:
   - for `internal-verification-agent`, default is `gpt-5.4 high`
-  - for `cross-vendor-reread`, name the exact Claude model used, normally `claude-sonnet-4.6` or `claude-opus-4.6`
+  - for `cross-vendor-reread`, name the exact Claude selector used, normally `sonnet` or `opus`
+  - if a large-context Claude lane was used, record the exact selector too, for example `opus[1m]` or the current CLI's full-name equivalent
 - baseline commit / artifact snapshot:
 - independence relationship:
   - `independent`
@@ -37,7 +39,7 @@ Use this for explicit readiness checkpoint reviews.
 
 ## Review Questions
 
-- What is this review trying to falsify?
+- What closure, completeness, or strength claim is this review trying to challenge?
 - Which gate exit criteria are being tested?
 - Which quality questions are being tested?
 - Which regressions are most relevant here?
@@ -45,6 +47,14 @@ Use this for explicit readiness checkpoint reviews.
 - What is merely adequate here but should be stronger?
 - What would fail later stringent audit by strong engineers, designers, or researchers?
 - What meaningful quality opportunity is being left unused?
+
+If the artifact under review is itself a spec, prompt, or audit bundle, also ask:
+
+- Is the read set strong enough, or are there omitted producer / consumer / chain-tail / representation surfaces that would materially change the result?
+- Can an adjudicator or reread lane directly verify contested claims, or is it forced to trust prior lane outputs too much?
+- Does the spec ask whether its own read set may be incomplete?
+- Does the output structure risk false convergence, false closure, or evidence-thin confidence?
+- Does the spec give the reread lane enough material to judge evidence-base adequacy rather than only conclusion quality?
 
 ## Findings
 

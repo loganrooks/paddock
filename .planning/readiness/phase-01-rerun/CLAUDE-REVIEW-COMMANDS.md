@@ -16,20 +16,23 @@ Use these as execution patterns, not as blind ritual.
 Based on the repo's model-assignment research:
 
 - routine external audit:
-  - `claude-sonnet-4-6`
+  - `sonnet`
   - `--effort high`
 - high-stakes doctrine / harness / readiness / stubborn-debug audit:
-  - `claude-opus-4-6`
-  - `--effort high`
+  - `opus`
+  - `--effort xhigh`
+  - if the lane has a large adjudication/reread read set and the user is on Max, prefer explicit `opus[1m]` or the current CLI's full-name equivalent
 - hardest or most adversarial Opus reread:
-  - `claude-opus-4-6`
+  - `opus`
   - `--effort max`
 
 Why:
 
 - Sonnet is the routine strong external audit lane.
 - Opus is the stronger high-stakes cross-vendor lane.
-- The local CLI exposes `--effort`, not Anthropic's `adaptive` label, so use `high` by default and `max` only when the task is genuinely hard enough to justify it.
+- Live protocol uses alias-based selectors so the package tracks the current Claude family instead of pinning stale minor versions.
+- The local CLI exposes `--effort`, not Anthropic's `adaptive` label. On current Opus 4.7, use `xhigh` as the default high-stakes lane, keep `high` as the lighter strong lane, and reserve `max` for the hardest rereads only.
+- In this readiness package, an `R5.17e` cross-vendor reread with the same lane shape succeeded when explicitly launched with a `1m` Opus selector after a non-`[1m]` Opus run ended with `Prompt is too long`. Treat this as an observed operational lesson, not a universal law.
 
 ## Basic Pattern
 
@@ -44,7 +47,7 @@ Then run:
 
 ```bash
 claude -p \
-  --model claude-sonnet-4-6 \
+  --model sonnet \
   --effort high \
   "$(cat "$PROMPT")" \
   > "$OUT"
@@ -63,7 +66,7 @@ PROMPT=.planning/readiness/phase-01-rerun/review-prompts/routine-external-review
 OUT=.planning/readiness/phase-01-rerun/reviews/routine-claude-sonnet-review.md
 
 claude -p \
-  --model claude-sonnet-4-6 \
+  --model sonnet \
   --effort high \
   "$(cat "$PROMPT")" \
   > "$OUT"
@@ -82,8 +85,18 @@ PROMPT=.planning/readiness/phase-01-rerun/review-prompts/high-stakes-review.md
 OUT=.planning/readiness/phase-01-rerun/reviews/high-stakes-claude-opus-review.md
 
 claude -p \
-  --model claude-opus-4-6 \
-  --effort high \
+  --model opus \
+  --effort xhigh \
+  "$(cat "$PROMPT")" \
+  > "$OUT"
+```
+
+If the lane is a large adjudication or reread and Max access is available, prefer:
+
+```bash
+claude -p \
+  --model 'opus[1m]' \
+  --effort xhigh \
   "$(cat "$PROMPT")" \
   > "$OUT"
 ```
@@ -101,7 +114,7 @@ PROMPT=.planning/readiness/phase-01-rerun/review-prompts/adversarial-review.md
 OUT=.planning/readiness/phase-01-rerun/reviews/adversarial-claude-opus-max-review.md
 
 claude -p \
-  --model claude-opus-4-6 \
+  --model opus \
   --effort max \
   "$(cat "$PROMPT")" \
   > "$OUT"
@@ -116,7 +129,7 @@ PROMPT=.planning/readiness/phase-01-rerun/review-prompts/phase-01-plan-review.md
 OUT=.planning/readiness/phase-01-rerun/reviews/phase-01-plan-claude-sonnet-review.md
 
 claude -p \
-  --model claude-sonnet-4-6 \
+  --model sonnet \
   --effort high \
   "$(cat "$PROMPT")" \
   > "$OUT"
@@ -129,8 +142,8 @@ PROMPT=.planning/readiness/phase-01-rerun/review-prompts/phase-01-plan-review.md
 OUT=.planning/readiness/phase-01-rerun/reviews/phase-01-plan-claude-opus-review.md
 
 claude -p \
-  --model claude-opus-4-6 \
-  --effort high \
+  --model opus \
+  --effort xhigh \
   "$(cat "$PROMPT")" \
   > "$OUT"
 ```
@@ -149,7 +162,7 @@ After running the command:
 - write a review artifact using [REVIEW-TEMPLATE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEW-TEMPLATE.md)
 - record whether the Claude lane used was:
   - routine Sonnet
-  - high-stakes Opus
+  - high-stakes Opus `xhigh`
   - adversarial Opus max
 - record what independence added or why the Claude lane was unavailable
 
@@ -159,3 +172,4 @@ After running the command:
 - do not rely on chat-local prompts that are not persisted
 - do not treat Sonnet and Opus as interchangeable
 - do not use `max` by default just because it sounds stronger
+- do not keep using `high` on Opus for load-bearing rereads once `xhigh` is available unless there is a deliberate speed/cost reason
