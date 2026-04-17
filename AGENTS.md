@@ -43,6 +43,7 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
 - Current boundary: Phase 01 is still at a pre-rerun boundary. Run a fresh discuss + planning pass before treating the existing `01-*` bundle as execution-approved.
 - For non-phase-bound research or deliberation, prefer the repo-local `gsd-rigorous-research` skill over ad hoc structure.
 - Treat `CONTEXT.md` as a steering brief: decisions, assumptions, open questions, canonical refs, code context, and future awareness all matter downstream.
+- For headless external CLI runs that instruct a model to read a spec or wrapper file, prefer a repo-local path over `/tmp` and be explicit about the permissions needed to read it.
 
 ## Quality Bar
 
@@ -97,6 +98,8 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
 
 - Codex GSD orchestration must happen at the top level. Do not create recursive GSD call graphs like `orchestrator -> generic agent -> gsd-plan-phase skill -> gsd-planner`.
 - Prefer high-reasoning top-level orchestration with an explicit call graph before launching anything.
+- For this repo, when the user invokes or explicitly asks to follow any repo-defined command, skill, workflow, agent contract, reference procedure, or other instruction surface whose contract requires launching an agent (`spawn_agent`), that counts as the user explicitly asking for sub-agents, delegation, or parallel agent work and explicitly authorizes that required `spawn_agent` call.
+- If the user explicitly requests delegation to avoid parent-thread context growth, do not duplicate the delegated investigation in the parent thread unless the user explicitly asked for parallel verification.
 - Codex-native model policy for this repo:
   - top-level orchestration: prefer `gpt-5.4` with `xhigh`
   - execution and verification: prefer `gpt-5.4` with `high` unless a narrower task justifies less
