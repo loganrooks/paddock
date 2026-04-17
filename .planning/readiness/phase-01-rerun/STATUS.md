@@ -1,6 +1,6 @@
 # Readiness Status
 
-Last updated: 2026-04-15
+Last updated: 2026-04-16
 
 ## Current checkpoint
 
@@ -64,8 +64,82 @@ Last updated: 2026-04-15
 
 - maintaining the readiness package as the live continuity surface instead of ambient session memory
 - research-intake tracking for supporting and conditional follow-through bundles
-- first bounded Checkpoint 5 harness implementation slice from the accepted revised spec
-- readiness-surface truthfulness around the accepted spec boundary and residual cautions
+- executed `R5.18` patch bundle from the accepted revised spec
+- active now: internal and cross-vendor checkpoint review of the coherent `R5.18` patch bundle
+- readiness-package truthfulness around the executed `R5.18` frontier and its explicit residual cautions
+- the `R5.16` propagation bundle is complete:
+  - Track B internal + cross-vendor propagation audits
+  - Track C internal + cross-vendor propagation audits
+  - anti-regret adjudication
+  - reread of that adjudication
+- `R5.16` did not support a simple `keep it local` judgment, but it also did not settle the promoted boundary cleanly enough to govern next work without another challenge pass
+- the `R5.17` exclusion-judgment bundle is now complete:
+  - `R5.17a` wrapper-exclusion audit
+  - `R5.17b` chain-tail / downstream-consumer exclusion audit
+  - `R5.17c` governance / doctrine exclusion audit
+  - `R5.17d` adjudication of those exclusion lanes
+  - `R5.17e` reread of that adjudication
+- current launch truth:
+  - `R5.17d` split adjudications now have outputs on disk
+  - `R5.17e` internal reread is complete
+  - the first cross-vendor `R5.17e` Opus reread wrote a usable artifact but ended with `Prompt is too long`
+  - the explicit `claude-opus-4-6[1m]` rerun completed cleanly and is the clean cross-vendor reread artifact for governance
+- naming is now explicit:
+  - `R5.17` = exclusion-judgment challenge bundle
+  - `R5.18` = split promoted corrective follow-through bundle
+  - `R5.19` = broader exclusion / modification-consideration audit across repo-local GSD and adjacent governance, now complete as precursor / parallel input to final `R5.18`
+- the immediate checkpoint risk is now narrower:
+  - not whether the package can state a final `R5.18` frontier
+  - but whether the executed `R5.18` bundle is review-clean, truthfully bounded, and free of silent closure claims about the parked contradictions and broader `R8.*` remainder
+- the split `R5.18` execution bundle now exists:
+  - [REVIEWS/checkpoint-5-r5-18a1-current-wave-boundary-and-ledger-decision-internal-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-5-r5-18a1-current-wave-boundary-and-ledger-decision-internal-r1.md)
+  - [REVIEWS/checkpoint-5-r5-18a2-later-lane-and-quiet-drop-adjudication-internal-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-5-r5-18a2-later-lane-and-quiet-drop-adjudication-internal-r1.md)
+  - [REVIEWS/checkpoint-5-r5-18b-review-planning-chain-launch-internal-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-5-r5-18b-review-planning-chain-launch-internal-r1.md)
+  - [REVIEWS/checkpoint-5-r5-18c-completion-routing-chain-launch-internal-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-5-r5-18c-completion-routing-chain-launch-internal-r1.md)
+  - [REVIEWS/checkpoint-5-r5-18d-integration-and-review-prep-launch-internal-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-5-r5-18d-integration-and-review-prep-launch-internal-r1.md)
+- current frontier truth after execution:
+  - `Bucket 1` stayed unchanged
+  - `R5.18a1` wrote explicit contradiction-ledger rows for every non-first-wave live item in the active frontier
+  - `R5.18a2` named `R8.1` through `R8.4` as broader later-lane owners outside the current wave
+  - `R5.18b` landed the review/planning consumer contract plus the admitted `gsd-do` / `workflows/do.md` router pair
+  - `R5.18c` landed debt-aware completion/routing semantics plus the promoted live `.codex/agents` executor/verifier pair
+  - the new exclusion heuristics remain explicitly prohibited from standing-doctrine status
+- direct verification now exists alongside the implementation artifacts:
+  - live review/planning markers are present in the `.codex/*` surfaces
+  - `node -e "require('./.codex/get-shit-done/bin/lib/phase.cjs'); require('./.codex/get-shit-done/bin/lib/roadmap.cjs'); console.log('module-load-ok')"` returns `module-load-ok`
+  - `node ./.codex/get-shit-done/bin/gsd-tools.cjs roadmap analyze --raw` now returns the new `completion_mode`, `clean_completion`, `debt_bearing`, `completion_warnings`, and `checkbox_conflicts_with_disk` fields
+- `R5.19` is now explicitly complete rather than merely conditional:
+  - [AUDITS/checkpoint-5-r5-19-broader-exclusion-and-modification-disposition-audit-bundle-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-5-r5-19-broader-exclusion-and-modification-disposition-audit-bundle-spec.md)
+  - this broader lane exists because `R5.18` is itself the current modification frontier, so the question `what is being excluded from modification consideration at all, and why?` can no longer sit downstream of it
+  - the completed launch shape was a parallel family cluster rather than three monolithic lanes:
+    - `R5.19a1...a5` = surface-disposition inventory by family
+    - `R5.19b1...b5` = hard-exclusion / non-modification proof by family
+    - `R5.19c1...c5` = omitted / under-considered surface challenge by family
+  - this split exists because proving exclusion and mapping under-considered files is intensive enough that monolithic `a` / `b` / `c` lanes would silently lower rigor
+  - the completed adjudication layer is:
+    - `R5.19d1` = skills + workflows adjudication
+    - `R5.19d2` = references/templates + runtime/overlay adjudication
+    - `R5.19d3` = governance / authority adjudication
+    - `R5.19d4` = operational-consequences synthesis
+    - `R5.19e` = reread of that adjudication stack before `R5.18` revision
+  - the main governing consequence from `R5.19e` is now explicit:
+    - the `R5.19d1/d2/d3/d4` stack is adequate to govern a revised `R5.18`
+    - but only as a widened explicit-disposition and scope-gating frontier
+    - not as a settled final exclusion map
+    - and not as a basis for broad `Bucket 1` widening
+  - the main remaining cautions after `R5.19e` are:
+    - still-under-cashed router-pair asymmetry
+    - `R5.18` must carry a contradiction ledger
+    - `R5.18` must make explicit `Bucket 3` boundary decisions
+    - the new exclusion heuristics must not be promoted into standing doctrine
+  - the split `R5.18` launch bundle now exists:
+    - [AUDITS/checkpoint-5-r5-18-launch-bundle-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-5-r5-18-launch-bundle-spec.md)
+    - [AUDITS/checkpoint-5-r5-18a-boundary-and-ledger-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-5-r5-18a-boundary-and-ledger-launch-spec.md)
+    - [AUDITS/checkpoint-5-r5-18a1-current-wave-boundary-and-ledger-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-5-r5-18a1-current-wave-boundary-and-ledger-launch-spec.md)
+    - [AUDITS/checkpoint-5-r5-18a2-later-lane-and-quiet-drop-adjudication-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-5-r5-18a2-later-lane-and-quiet-drop-adjudication-spec.md)
+    - [AUDITS/checkpoint-5-r5-18b-review-planning-chain-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-5-r5-18b-review-planning-chain-launch-spec.md)
+    - [AUDITS/checkpoint-5-r5-18c-completion-routing-chain-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-5-r5-18c-completion-routing-chain-launch-spec.md)
+    - [AUDITS/checkpoint-5-r5-18d-integration-and-review-prep-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-5-r5-18d-integration-and-review-prep-launch-spec.md)
 
 ## Not started
 
@@ -75,20 +149,21 @@ Last updated: 2026-04-15
 
 ## Blocking findings
 
-1. The phase-critical runtime-authoritative worker surface was improved but is not yet closed as a checkpoint surface until the reactivated Checkpoint 5 bundle passes review.
-2. Review and closure pressure is still too soft at the workflow-chain level, not only in the dedicated review surfaces:
-   - steering-to-plan translation remains too prose-dependent
-   - research adequacy/disposition is still under-gated
-   - doctrine-sensitive closure still permits too many cheap exits
-   - debt-carrying completion remains too easy to misread as clean completion
-3. The revised spec is accepted, but the implementation slice now has to honor its hardest execution-discipline requirements:
-   - no runtime-only edits on touched surfaces
-   - explicit planner-consumer branch choice
-   - explicit debt-carrying completion boundary choice
-   - explicit handling of the `the agent's Discretion` / `Claude's Discretion` mismatch if planner consumption widens
-4. Launch/model-truth handling is materially better, but the current helper/protocol bundle still belongs to an open checkpoint rather than a closed one.
-5. The current Checkpoint 5 internal and cross-vendor reviews apply only to the pre-reactivation partial bundle, while the new revised-spec rereads accept only the governing implementation brief, not yet any implementation patch set.
-6. Branch/worktree boundary materialization remains visible but under-evidenced.
+1. The executed `R5.18` patch bundle still needs the fresh internal and cross-vendor checkpoint review required for closure.
+   - the earlier Checkpoint 5 reviews apply only to the pre-reactivation partial bundle
+   - the revised-spec rereads accepted the governing implementation brief, not the executed `R5.18` patch set
+2. Non-first-wave live contradictions remain open by design and now need review as explicit bounded remainder rather than implicit omission:
+   - `gsd-research-phase`
+   - `ship.md` / `autonomous.md`
+   - non-TDD `checkpoints.md`
+   - `summary.md`
+   - the parked `gsd-audit-uat` / `audit-uat.md` router pair
+   - `gates.md`, `revision-loop.md`, `gate-prompts.md`, the live researcher/planner/checker pairing, and `.codex/agents/gsd-code-reviewer.toml`
+3. Broader out-of-wave ownership is now honest but still needs review-ratified preservation under `R8.1` through `R8.4`.
+   - current-wave fixes must not be allowed to masquerade as closure of those later lanes
+4. `commands.cjs`, `init.cjs`, milestone-boundary consumers, and the summary template remain explicit non-promoted chain-tail/lifecycle remainders.
+   - the package should not claim end-to-end debt-aware propagation until those owners are handled or deliberately kept out
+5. Branch/worktree boundary materialization remains visible but under-evidenced.
    - Current disposition: accepted bounded risk
    - Reactivate it only if Checkpoint 5 changes worktree/config behavior or later verification exposes a concrete mismatch
 
@@ -117,11 +192,13 @@ Last updated: 2026-04-15
 - Checkpoint 0 closure evidence now lives in:
   - [REVIEWS/checkpoint-0-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r1.md)
   - [REVIEWS/checkpoint-0-internal-review-r2.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r2.md)
-- The next readiness-moving commit should capture revised-spec acceptance and the start of the first implementation slice.
+- The next readiness-moving commit should capture:
+  - the executed and review-prepped `R5.18` patch bundle plus package-truth updates
+  - then, separately, the Checkpoint 5 internal and cross-vendor review outcomes
 
 ## Immediate next action
 
-- implement the first bounded Checkpoint 5 harness slice from the accepted revised spec, then review that patch set internally and cross-vendor before claiming checkpoint closure
+- run the internal and cross-vendor checkpoint review on the coherent `R5.18` patch bundle, using `R5.18d` as the integration and review-entry artifact
 
 ## User consultation required?
 

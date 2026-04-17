@@ -2,24 +2,27 @@ current_checkpoint: 5
 checkpoint_name: conditional_harness_gsd_follow_through
 checkpoint_state: in_progress
 readiness_state: not_ready
-current_task: checkpoint_5_first_bounded_implementation_slice
-next_action: implement_first_checkpoint_5_patch_slice_from_accepted_spec_then_run_patch_set_review
+current_task: checkpoint_5_r5_18_patch_bundle_review_prep_complete
+next_action: run_internal_and_cross_vendor_review_on_executed_r5_18_patch_bundle
 review_policy_path: .planning/readiness/phase-01-rerun/REVIEW-POLICY.yaml
 current_checkpoint_requires_independent_reviewer_for_closure: true
 working_tree_clean_expected: true
 blocked_by:
-  - phase_critical_runtime_authority_surface_still_misaligned
-  - workflow_chain_excellence_follow_through_still_missing
-  - review_and_closure_pressure_still_too_soft
-  - launch_and_model_truth_capture_still_too_implicit
+  - executed_r5_18_patch_bundle_not_yet_internally_and_cross_vendor_reviewed
+  - non_first_wave_r5_18_contradictions_still_live_pending_checkpoint_disposition
+  - broader_r8_later_lane_ownership_not_yet_review_ratified
+  - branch_and_worktree_boundary_materialization_remains_accepted_bounded_risk
 open_findings:
-  - runtime_authoritative_toml_worker_surface_still_carries_legacy_doctrine
-  - pre_reactivation_checkpoint_5_scope_dropped_accepted_workflow_follow_through
-  - review_and_completion_semantics_are_still_excellence_capable_not_excellence_demanding
-  - research_and_steering_translation_semantics_are_still_under_gated
-  - existing_checkpoint_5_reviews_apply_only_to_partial_scope
-  - accepted_spec_requires_strict_overlay_pairing_and_named_branch_choices_during_implementation
+  - r5_18a1_now_carries_explicit_contradiction_ledger_rows_for_non_first_wave_live_items
+  - r5_18a2_names_r8_1_through_r8_4_as_explicit_broader_remainder_owners
+  - r5_18b_landed_review_consumer_contract_and_gsd_do_router_pair_symmetry
+  - r5_18c_landed_debt_aware_completion_routing_and_promoted_live_executor_verifier_pair_alignment
+  - executed_r5_18_patch_bundle_is_local_runtime_state_and_only_partially_git_tracked
+  - existing_checkpoint_5_reviews_apply_only_to_pre_reactivation_partial_scope
+  - commands_summary_init_and_other_non_promoted_chain_tail_consumers_remain_out_of_wave
+  - audit_uat_router_pair_is_explicitly_parked_not_closed
   - branch_and_worktree_boundary_materialization_is_accepted_bounded_risk_not_cleanly_proven
+  - exclusion_heuristics_remain_barred_from_standing_doctrine_until_adversarially_tested
 open_opportunities:
   - repo_local_non_phase_external_reread_protocol_template
   - stronger_wrapper_level_alignment_after_workflow_follow_through
@@ -51,5 +54,6 @@ checkpointed_baselines:
   - c4111cd docs(readiness): clarify checkpoint 3 split review prompts
   - d7c74d0 docs(readiness): reconcile checkpoint 5 package state
 next_expected_commit:
-  - checkpoint-5 accepted-spec reread and first implementation slice
+  - checkpoint-5 executed and review-prepped r5-18 patch bundle
+  - checkpoint-5 internal and cross-vendor review outcomes
 requires_user_input: false

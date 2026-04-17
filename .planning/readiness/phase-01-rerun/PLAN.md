@@ -167,8 +167,8 @@ Cross-vendor audit is not currently required for:
 
 Current preferred external model choices from the model-assignment research are:
 
-- `claude-sonnet-4.6` for routine external audit where vendor diversity matters but the highest-cost lane is not justified
-- `claude-opus-4.6` for high-stakes architecture, canon-sensitive planning, harness ownership, rerun-readiness judgment, and stubborn-debug escalation
+- `sonnet` for routine external audit where vendor diversity matters but the highest-cost lane is not justified
+- `opus` for high-stakes architecture, canon-sensitive planning, harness ownership, rerun-readiness judgment, and stubborn-debug escalation
 
 Do not create a dedicated cross-model-audit skill yet.
 
@@ -424,6 +424,23 @@ Run it only if the tandem workflow/harness audit concludes that important standi
 - therefore Checkpoint 5 now includes workflow-chain follow-through and secondary rerun-critical wrapper alignment in addition to the already-started Track A/B/C work
 - the controlling artifact for that correction is:
   - [AUDITS/checkpoint-5-reactivated-launch-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/AUDITS/checkpoint-5-reactivated-launch-spec.md)
+
+2026-04-16 scope-identity note:
+
+- `R5.16` is the completed propagation-audit bundle, not a still-pending next step
+- `R5.17` now means the exclusion-judgment audit bundle:
+  - wrapper exclusions
+  - chain-tail / downstream-consumer exclusions
+  - governance / doctrine exclusions
+  - adjudication
+  - reread
+- `R5.18` is the provisional promoted corrective follow-through boundary that will later govern the patch wave
+- `R5.19` is the broader exclusion / modification-consideration challenge lane that now runs before or alongside final `R5.18`, because `R5.18` is itself the current modification frontier
+- this distinction is intentional:
+  - `R5.17` diagnoses whether exclusion judgments were sound
+  - `R5.18` carries the actual newly promoted work
+  - `R5.19` challenges what that work is currently excluding from modification consideration
+  - keeping them separate preserves auditability and prevents the package from collapsing diagnosis into consequence
 
 Likely targets if this becomes necessary:
 - [.codex/get-shit-done](/home/rookslog/workspace/projects/prix-guesser/.codex/get-shit-done)
