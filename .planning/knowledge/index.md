@@ -1,12 +1,13 @@
 # Knowledge Store Index
 
-**Generated:** 2026-04-16T04:23:43Z
-**Total entries:** 12
+**Generated:** 2026-04-16T14:52:22Z
+**Total entries:** 13
 
-## Signals (12)
+## Signals (13)
 
 | ID | Project | Severity | Lifecycle | Tags | Date | Status |
 |----|---------|----------|-----------|------|------|--------|
+| sig-2026-04-16-explicit-opus-1m-needed-for-large-claude-reread | prix-guesser | notable | lesson | cross-vendor-review,claude,opus-1m,context,reread,checkpoint-5 | 2026-04-16 | active |
 | sig-2026-04-16-cross-vendor-duplicate-dispatch-and-overconfident-causal-attribution | prix-guesser | critical | triaged | cross-vendor-review,claude,duplicate-dispatch,idempotency,causal-attribution,checkpoint-5 | 2026-04-16 | active |
 | sig-2026-04-15-overgeneralized-scope-rule-without-provenance | prix-guesser | notable | detected | orchestration,codex,scope-control,provenance,checkpoint-5 | 2026-04-15 | active |
 | sig-2026-04-15-cross-vendor-review-artifact-authority-failure | prix-guesser | notable | detected | cross-vendor-review,claude,artifact-authority,rerun-discipline,patience | 2026-04-15 | active |
