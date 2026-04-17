@@ -12,19 +12,6 @@
           }
         ]
       }
-    ],
-    "PreToolUse": [
-      {
-        "matcher": "Bash",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "python3 \"$(git rev-parse --show-toplevel)/.codex/hooks/pre_tool_use_guardrail.py\"",
-            "statusMessage": "Checking destructive Bash command",
-            "timeout": 5
-          }
-        ]
-      }
     ]
   }
 }

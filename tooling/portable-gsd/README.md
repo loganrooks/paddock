@@ -14,6 +14,12 @@ This overlay solves that by tracking only the project-specific patched files and
    - `npx get-shit-done-cc --codex --local`
 2. The script then copies the tracked overlay files into `.codex/`
 3. While copying, it replaces `__PROJECT_ROOT__` with the current checkout path
+4. It also materializes the compact prompt selector:
+   - repo default: `tooling/compact-prompts/project.md`
+   - one-off override: `PRIX_COMPACT_PROMPT_FILE=tooling/compact-prompts/readiness.md ./scripts/setup-portable-gsd.sh`
+   - persistent worktree-local override: first line of `.codex.local/compact-prompt.txt`
+
+Compact prompt paths are config values relative to `.codex/`.
 
 ## What The Overlay Changes
 
@@ -24,6 +30,7 @@ The overlay currently patches regular local GSD so this project gets:
 - richer `CONTEXT.md` steering briefs
 - `future_awareness` support in context generation
 - research/planning prompts that consume assumptions, open questions, and future-aware constraints
+- a general project compact prompt as the repo default instead of a readiness-specific global pin
 
 ## Codex Model Policy
 
