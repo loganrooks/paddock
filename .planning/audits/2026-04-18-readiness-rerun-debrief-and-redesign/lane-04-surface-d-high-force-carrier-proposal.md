@@ -3,8 +3,8 @@
 Status: draft bounded local proposal  
 Date: 2026-04-19  
 Target surfaces:
-- [.codex/get-shit-done/templates/context.md](../../../../.codex/get-shit-done/templates/context.md)
-- [.codex/get-shit-done/workflows/discuss-phase.md](../../../../.codex/get-shit-done/workflows/discuss-phase.md)
+- [.codex/get-shit-done/templates/context.md](../../../.codex/get-shit-done/templates/context.md)
+- [.codex/get-shit-done/workflows/discuss-phase.md](../../../.codex/get-shit-done/workflows/discuss-phase.md)
 
 ## Proposal Judgment
 

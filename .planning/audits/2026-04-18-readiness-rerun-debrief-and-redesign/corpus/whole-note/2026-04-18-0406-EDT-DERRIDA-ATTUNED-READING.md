@@ -1,7 +1,7 @@
 # Derrida-Attuned Reading
 
 Timestamp: 2026-04-18 04:06 EDT
-Source Text: `CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE.md`
+Source Text: `../source/CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE.md`
 Scope: close reading of the source text only
 
 This note does not begin by offering a thesis and then defending it. It begins by preserving a problem. That matters because the first labor of the text is not to solve but to keep open without dissolving into shapelessness. Its idiom is therefore unusually tense: it wants tractability, but it fears premature capture; it wants continuity across sessions, audits, and later redesign, but it fears that continuity may arrive in the form of flattening. The text is organized as if it knows that every apparatus built to preserve inquiry also risks converting inquiry into procedure.

@@ -36,7 +36,7 @@ More concretely:
 - [g:r:i] Treat this as a test that the corpus may fail.
 - [g:r:i] Keep the comparison bounded and case-grounded.
 - [g:r:i] Do not widen into a generic repo audit, ecosystem doctrine proposal, or harness redesign program.
-- [g:r:i] Do not read the full source note `CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE.md` for this lane.
+- [g:r:i] Do not read the full source note `corpus/source/CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE.md` for this lane.
 - [g:r:i] Do not read raw Codex logs.
 - [g:r:i] Do not reread the full lane-02 resituation review unless you hit a genuine ambiguity in this spec; this spec already distills the proposed next lane.
 
@@ -97,15 +97,15 @@ Only open these after the three baseline case reviews are drafted.
 
 Estimated size: `~19.0k / 23.7k / 26.6k` tokens.
 
-- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE-DERRIDEAN-REWRITE-AND-AUDIT-TRANSLATION.md`
-- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/2026-04-19-000633-contestation-claim-ontology-chunk-04-commentary-pass-02.md`
-- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/2026-04-19-025626-contestation-claim-ontology-chunk-13-commentary-pass-01.md`
-- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/2026-04-19-040842-contestation-claim-ontology-chunk-18-commentary-pass-01.md`
-- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/2026-04-19-040842-contestation-claim-ontology-chunk-19-commentary-pass-01.md`
-- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/2026-04-19-043200-contestation-claim-ontology-chunk-22-commentary-pass-01.md`
-- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/2026-04-19-043200-contestation-claim-ontology-chunk-23-commentary-pass-01.md`
-- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/2026-04-19-043200-contestation-claim-ontology-chunk-25-commentary-pass-01.md`
-- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/2026-04-19-043200-contestation-claim-ontology-chunk-26-commentary-pass-01.md`
+- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/corpus/translation/CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE-DERRIDEAN-REWRITE-AND-AUDIT-TRANSLATION.md`
+- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/corpus/chunks/2026-04-19-000633-contestation-claim-ontology-chunk-04-commentary-pass-02.md`
+- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/corpus/chunks/2026-04-19-025626-contestation-claim-ontology-chunk-13-commentary-pass-01.md`
+- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/corpus/chunks/2026-04-19-040842-contestation-claim-ontology-chunk-18-commentary-pass-01.md`
+- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/corpus/chunks/2026-04-19-040842-contestation-claim-ontology-chunk-19-commentary-pass-01.md`
+- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/corpus/chunks/2026-04-19-043200-contestation-claim-ontology-chunk-22-commentary-pass-01.md`
+- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/corpus/chunks/2026-04-19-043200-contestation-claim-ontology-chunk-23-commentary-pass-01.md`
+- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/corpus/chunks/2026-04-19-043200-contestation-claim-ontology-chunk-25-commentary-pass-01.md`
+- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/corpus/chunks/2026-04-19-043200-contestation-claim-ontology-chunk-26-commentary-pass-01.md`
 
 ### Why This Corpus Subset
 

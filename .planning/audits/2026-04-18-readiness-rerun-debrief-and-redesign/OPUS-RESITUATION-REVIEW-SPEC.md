@@ -61,15 +61,15 @@ Estimated size: `~14.6k / 18.3k / 20.3k` tokens.
 
 Estimated size: `~68.8k / 86.0k / 95.5k` tokens.
 
-- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE-DERRIDEAN-REWRITE-AND-AUDIT-TRANSLATION.md`
-- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/COMMENTARY-CORPUS-READSET.md`
-- every file named in `COMMENTARY-CORPUS-READSET.md`
+- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/corpus/translation/CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE-DERRIDEAN-REWRITE-AND-AUDIT-TRANSLATION.md`
+- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/corpus/COMMENTARY-CORPUS-READSET.md`
+- every file named in `corpus/COMMENTARY-CORPUS-READSET.md`
 
 ### B1. Source Note Spot-Check Only
 
 Estimated size if read in full: `~54.7k / 68.4k / 76.0k` tokens.
 
-- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE.md`
+- `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/corpus/source/CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE.md`
 
 Use this only for targeted spot-checking if, and only if, you suspect that the derivative translation or active chunk corpus has materially drifted from the source note on a load-bearing point.
 Do **not** absorb the full source note wholesale as a parallel primary corpus for this review.

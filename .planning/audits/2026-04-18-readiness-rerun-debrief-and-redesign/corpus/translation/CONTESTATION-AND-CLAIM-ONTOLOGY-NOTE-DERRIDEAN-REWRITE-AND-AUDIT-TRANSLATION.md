@@ -1,7 +1,7 @@
 # Contestation And Claim Ontology Note: Derridean Rewrite And Audit Translation (2026-04-18 02:35:43 EDT)
 
 Status: derivative exploratory note / non-canon  
-Source: [CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE.md)
+Source: [CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/corpus/source/CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE.md)
 
 ## Purpose
 

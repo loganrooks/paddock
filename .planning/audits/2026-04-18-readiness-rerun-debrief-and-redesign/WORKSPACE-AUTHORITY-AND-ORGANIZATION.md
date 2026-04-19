@@ -114,9 +114,9 @@ Working rule:
 
 These artifacts are the exploratory inheritance layer produced by the contestation / claim ontology inquiry.
 
-- `CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE.md`
-- `CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE-DERRIDEAN-REWRITE-AND-AUDIT-TRANSLATION.md`
-- `COMMENTARY-CORPUS-READSET.md`
+- `corpus/source/CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE.md`
+- `corpus/translation/CONTESTATION-AND-CLAIM-ONTOLOGY-NOTE-DERRIDEAN-REWRITE-AND-AUDIT-TRANSLATION.md`
+- `corpus/COMMENTARY-CORPUS-READSET.md`
 - the 37 active chunk commentary files named in the manifest
 - commentary prompts
 
@@ -135,7 +135,7 @@ What this class cannot do on its own:
 
 Working rule:
 
-- [d:c+i] The manifest, not filename drift, defines the current inheritable chunk corpus. Earlier passes remain historical trail unless explicitly reopened. Sources: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/COMMENTARY-CORPUS-READSET.md:5-10, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/COMMENTARY-CORPUS-READSET.md:12-50, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/COMMENTARY-CORPUS-READSET.md:52-55.
+- [d:c+i] The manifest, not filename drift, defines the current inheritable chunk corpus. Earlier passes remain historical trail unless explicitly reopened. Sources: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/corpus/COMMENTARY-CORPUS-READSET.md:5-10, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/corpus/COMMENTARY-CORPUS-READSET.md:12-50, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/corpus/COMMENTARY-CORPUS-READSET.md:52-55.
 
 ### 5. Historical And Superseded Trail
 
@@ -215,7 +215,7 @@ Do not read a lane output as if it arrived without a frame.
 Read:
 
 1. the governing setup spine
-2. `COMMENTARY-CORPUS-READSET.md`
+2. `corpus/COMMENTARY-CORPUS-READSET.md`
 3. the derivative translation
 4. only the chunk subset actually relevant to the candidate surface
 5. the source note only as bounded spot-check reserve
@@ -261,6 +261,6 @@ Do not treat older lane specs as the current contract unless the spine or the au
 - `ARTIFACT-GOVERNANCE.md`
 - `.planning/AGENTS.md`
 - `INDEX.md`
-- `COMMENTARY-CORPUS-READSET.md`
+- `corpus/COMMENTARY-CORPUS-READSET.md`
 - `OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md`
 - `lane-03-opus47-max-corpus-vocabulary-stress-test.md`

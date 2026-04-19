@@ -35,7 +35,8 @@
 29. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
 30. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
 31. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
-32. [COMMENTARY-CORPUS-READSET.md](COMMENTARY-CORPUS-READSET.md)
+32. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
+33. [corpus/README.md](corpus/README.md)
 
 ## Source-Of-Truth Hierarchy
 
