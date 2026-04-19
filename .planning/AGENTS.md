@@ -45,6 +45,9 @@ For structural `.planning/` changes that can affect markdown links, prefer the r
 
 - `python3 tooling/codex/audit_refmap.py map <root>`
   - use before a move or cleanup pass to see inbound/outbound pressure and missing local links
+- `python3 tooling/codex/audit_refmap.py snapshot <root>`
+  - use when a lane, checkpoint, or cleanup pass needs a machine-readable view of the current markdown reference graph
+  - prefer this over hand-maintained link inventories
 - `python3 tooling/codex/audit_refmap.py move <root> --moves <manifest.tsv>`
   - use for bounded artifact-family moves or renames
   - this is the preferred path when you are reorganizing an audit workspace, corpus subtree, or other markdown-heavy planning surface
@@ -54,6 +57,10 @@ For structural `.planning/` changes that can affect markdown links, prefer the r
 - `python3 tooling/codex/audit_refmap.py verify <root>`
   - use after reference-heavy edits, restructures, or deletion/supersession work
   - prefer running this before checkpoint commits when `.planning/` topology changed materially
+- `python3 tooling/codex/verify_touched_audit_refs.py`
+  - use as the lightweight default check before a checkpoint when only some audit roots changed
+  - `--staged` limits the check to staged audit roots
+  - `--all` is a broader hygiene sweep and can legitimately fail on pre-existing debt outside the current work
 
 Move manifest format:
 
