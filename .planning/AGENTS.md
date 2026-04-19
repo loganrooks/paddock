@@ -39,6 +39,45 @@ Inside `.planning/`:
 - if an artifact is stale but still historically relevant, prefer status notes and replacement pointers over deletion
 - do not let large generated corpora dominate the active planning surface without an explicit retention decision
 
+### Reference-Graph Hygiene
+
+For structural `.planning/` changes that can affect markdown links, prefer the repo-local reference tool over ad hoc manual rewrites:
+
+- `python3 tooling/codex/audit_refmap.py map <root>`
+  - use before a move or cleanup pass to see inbound/outbound pressure and missing local links
+- `python3 tooling/codex/audit_refmap.py move <root> --moves <manifest.tsv>`
+  - use for bounded artifact-family moves or renames
+  - this is the preferred path when you are reorganizing an audit workspace, corpus subtree, or other markdown-heavy planning surface
+- `python3 tooling/codex/audit_refmap.py retire <root> --target <path> [--replacement <path>]`
+  - use when a markdown artifact should stop being active without silently breaking refs
+  - this writes a tombstone in place and can redirect local markdown references to a replacement
+- `python3 tooling/codex/audit_refmap.py verify <root>`
+  - use after reference-heavy edits, restructures, or deletion/supersession work
+  - prefer running this before checkpoint commits when `.planning/` topology changed materially
+
+Move manifest format:
+
+- one TSV row per move
+- `OLD_PATH<TAB>NEW_PATH`
+- both paths repo-relative
+
+Operational rules:
+
+- do not do large `.planning/` move/rename passes by hand when the refmap tool can carry them more safely
+- treat the reference graph as derived state; do not hand-maintain a separate truth file unless a specific workflow has earned that burden
+- prefer bounded subtree reorganization plus verification over wholesale reshuffles
+- if a move is large enough that readers could lose continuity, add a local README or topology note in the destination subtree
+
+Deletion / retirement rules:
+
+- do not silently delete referenced planning artifacts
+- use `retire` for markdown artifacts that need a tombstone and optional replacement routing
+- for non-markdown artifacts, or when `retire` is not the right fit:
+  - decide whether the artifact should be replaced, tombstoned, or merely marked superseded
+  - patch or redirect references deliberately
+  - then run `verify`
+- when an older artifact remains historically relevant, prefer replacement pointers, supersession notes, or tombstones over hard removal
+
 ## Research And Audit Quality
 
 For non-trivial research, audit, gap-closure, sensitivity, or synthesis work:
