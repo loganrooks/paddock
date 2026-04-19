@@ -1,0 +1,4 @@
+*.stream.jsonl
+*.stderr.log
+*.debug.log
+latest

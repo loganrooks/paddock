@@ -1,0 +1,80 @@
+# Status
+
+Status: active setup  
+Date: 2026-04-19
+
+## Current Position
+
+- governance/onboarding suite initialized
+- first external review launched and completed
+- second external review launched and completed
+- third external review launched and completed
+- fourth external review launched and completed
+- parallel local spawned reviewer completed for lane-04
+- lane-04 comparative disposition written
+- Surface A bounded proposal artifact written
+- Surface D bounded proposal artifact written
+- Surface B prelicensing / judgeability pass written
+- Surface B graded-underreach trial written
+- lane-04 local proposal / stress-test disposition written
+- Surface A local authority-note patch landed
+- Surface D narrow carrier pilot landed on repo-local GSD surfaces
+- lane-04 patched-surface reread written
+- main-wave launch readiness decision written
+- main-wave launch contract and packet drafted
+- fifth external review launched and completed
+- parallel local spawned reviewer completed for lane-05
+- lane-05 comparative disposition written
+- main-wave launch contract revised after lane-05 cross-review
+- concrete Wave-1 packet manifests drafted
+- bounded forward-looking Wave-1 artifact topology created
+- no readiness-package mutation authorized from this workspace
+- recommended main path currently: `Proposal B-extended` from [PLAN-PROPOSALS.md](PLAN-PROPOSALS.md)
+- current main-wave status: `contract cross-reviewed and revised; concrete Wave-1 manifests drafted; first external Wave-1 launch remains blocked on audit-local checkpoint commit`
+- current challenge artifacts:
+  - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
+  - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
+  - [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
+  - [lane-04-opus47-max-carriage-and-operationalization-review.md](lane-04-opus47-max-carriage-and-operationalization-review.md)
+  - [lane-04-gpt54-xhigh-carriage-and-operationalization-review.md](lane-04-gpt54-xhigh-carriage-and-operationalization-review.md)
+  - [lane-04-comparative-disposition.md](lane-04-comparative-disposition.md)
+  - [lane-04-surface-a-authority-force-proposal.md](lane-04-surface-a-authority-force-proposal.md)
+  - [lane-04-surface-d-high-force-carrier-proposal.md](lane-04-surface-d-high-force-carrier-proposal.md)
+  - [lane-04-surface-b-prelicensing-judgeability-pass.md](lane-04-surface-b-prelicensing-judgeability-pass.md)
+  - [lane-04-surface-b-graded-underreach-trial.md](lane-04-surface-b-graded-underreach-trial.md)
+  - [lane-04-local-proposal-and-stress-test-disposition.md](lane-04-local-proposal-and-stress-test-disposition.md)
+  - [lane-04-patched-surface-reread.md](lane-04-patched-surface-reread.md)
+  - [MAIN-WAVE-LAUNCH-READINESS-DECISION.md](MAIN-WAVE-LAUNCH-READINESS-DECISION.md)
+  - [MAIN-WAVE-LAUNCH-CONTRACT-AND-PACKET.md](MAIN-WAVE-LAUNCH-CONTRACT-AND-PACKET.md)
+  - [lane-05-opus47-max-main-wave-contract-cross-review.md](lane-05-opus47-max-main-wave-contract-cross-review.md)
+  - [lane-05-gpt54-xhigh-main-wave-contract-cross-review.md](lane-05-gpt54-xhigh-main-wave-contract-cross-review.md)
+  - [lane-05-comparative-disposition.md](lane-05-comparative-disposition.md)
+
+## Accepted Starting Decisions
+
+- [d:c+i] Start from the `04-17` bridge result rather than pretending the comparison is still undone. Sources: .planning/audits/2026-04-17-gsd-upstream-docs-readiness-comparative-audit/SYNTHESIS.md:5, .planning/audits/2026-04-17-gsd-upstream-docs-readiness-comparative-audit/SYNTHESIS.md:17.
+- [d:r:i] Treat the later docs-refresh work as stronger terrain material than the original upstream docs corpus, but not as final intervention-ready truth.
+- [d:r:i] Demand burden of proof for tame `leave it alone` or `no new modification` recommendations.
+- [d:r:i] Keep this workspace preparatory until the framing and packeting are strong enough for cross-review.
+- [d:r:i] Treat the first external cross-review as `challenge input, not sovereign doctrine`.
+- [d:r:i] Treat the commentary corpus as `real interpretive gain, not yet operational doctrine`; its distinctions must earn inheritance on concrete readiness-era cases before canon uplift or workflow mutation.
+- [d:r:i] Treat the lane-03 stress-test result narrowly: it blocked immediate corpus-to-doctrine promotion on those three cases, but it did not settle the broader question of carriage quality or bounded operationalization.
+- [d:r:i] Use `WORKSPACE-AUTHORITY-AND-ORGANIZATION.md` as the current artifact-class and authority map for this directory.
+- [d:c+i] Treat lane-05 as the completed contract-level cross-review: it settled that no further pre-contract meta lane is warranted, no broad pre-Wave-1 topology rewrite is earned, and the remaining work is local contract carry, concrete packet manifests, and bounded launch discipline. Sources: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/lane-05-comparative-disposition.md:12-14, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/lane-05-comparative-disposition.md:24-27, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/lane-05-comparative-disposition.md:31-39.
+- [d:r:i] Workspace cleanup is now being handled as a bounded migration rather than a vetoed idea: generated spill is ignored at `.planning/audits/.gitignore`, and all new Wave-1 artifacts have a forward-looking home under `wave-1/` even though the historical corpus remains in place for now.
+
+## Next Pending Actions
+
+1. checkpoint-commit the accepted audit-workspace revision set before the first external Wave-1 launch
+2. write the first Wave-1 specs against [MAIN-WAVE-LAUNCH-CONTRACT-AND-PACKET.md](MAIN-WAVE-LAUNCH-CONTRACT-AND-PACKET.md) and [WAVE-1-PACKET-MANIFESTS.md](WAVE-1-PACKET-MANIFESTS.md)
+3. then write the corresponding Wave-1 prompts and preserve frozen-packet SHA plus launch-truth capture per lane
+4. use the new `wave-1/` topology for all new Wave-1 specs/prompts/packets/outputs/dispositions/launch-truth artifacts
+5. do not treat the still-untracked audit directory as acceptable baseline state once external Wave-1 launches begin
+
+## Open Questions
+
+- does `mapping-adequacy-and-comparative-mapping` stay one Wave-1 lane in practice, or should the actual spec escalate into a split because packet bounds or defect-type separation demand it?
+- what is the cleanest checkpoint boundary for the first audit-local commit, given that the full audit directory is still untracked today?
+- do any first Wave-1 lane specs need narrower packet trims than the default manifests in order to stay within band without losing contrary pressure?
+- does the audit directory later need a bounded organization / topology cleanup beyond the current authority note, read-order scaffolding, and manifest discipline once Wave-1 artifacts accumulate?
+- is a bounded reviewer-register vocabulary curation note worth doing later, or does stronger spec-writing and packet discipline make that unnecessary?

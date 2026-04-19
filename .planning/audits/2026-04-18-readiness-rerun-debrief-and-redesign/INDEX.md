@@ -1,0 +1,77 @@
+# Readiness Rerun Debrief And Redesign
+
+- [g:c+i] This workspace exists to prepare a serious debrief and rerun-design audit for the readiness package, not to silently reopen Checkpoint 5, not to declare the old package a failure by reflex, and not to treat the upstream docs work as sovereign replacement truth. Sources: .planning/readiness/phase-01-rerun/PLAN.md:61, .planning/readiness/phase-01-rerun/PLAN.md:65, .planning/audits/2026-04-17-gsd-upstream-docs-readiness-comparative-audit/SYNTHESIS.md:5, .planning/audits/2026-04-17-gsd-upstream-docs-readiness-comparative-audit/SYNTHESIS.md:17, .planning/audits/2026-04-17-gsd-upstream-docs-readiness-comparative-audit/SYNTHESIS.md:50.
+
+## Read Order
+
+1. [AUDIT-CHARTER.md](AUDIT-CHARTER.md)
+2. [WORKSPACE-AUTHORITY-AND-ORGANIZATION.md](WORKSPACE-AUTHORITY-AND-ORGANIZATION.md)
+3. [CURRENT-STATE.md](CURRENT-STATE.md)
+4. [ONBOARDING.md](ONBOARDING.md)
+5. [SESSION-FRAMING-BRIEF.md](SESSION-FRAMING-BRIEF.md)
+6. [QUESTION-SET.md](QUESTION-SET.md)
+7. [EVIDENCE-ARCHITECTURE.md](EVIDENCE-ARCHITECTURE.md)
+8. [PLAN-PROPOSALS.md](PLAN-PROPOSALS.md)
+9. [STATUS.md](STATUS.md)
+10. [OPUS-CARRIAGE-AND-OPERATIONALIZATION-SPEC.md](OPUS-CARRIAGE-AND-OPERATIONALIZATION-SPEC.md)
+11. [lane-04-opus47-max-carriage-and-operationalization-review.md](lane-04-opus47-max-carriage-and-operationalization-review.md)
+12. [lane-04-gpt54-xhigh-carriage-and-operationalization-review.md](lane-04-gpt54-xhigh-carriage-and-operationalization-review.md)
+13. [lane-04-comparative-disposition.md](lane-04-comparative-disposition.md)
+14. [lane-04-surface-a-authority-force-proposal.md](lane-04-surface-a-authority-force-proposal.md)
+15. [lane-04-surface-d-high-force-carrier-proposal.md](lane-04-surface-d-high-force-carrier-proposal.md)
+16. [lane-04-surface-b-prelicensing-judgeability-pass.md](lane-04-surface-b-prelicensing-judgeability-pass.md)
+17. [lane-04-surface-b-graded-underreach-trial.md](lane-04-surface-b-graded-underreach-trial.md)
+18. [lane-04-local-proposal-and-stress-test-disposition.md](lane-04-local-proposal-and-stress-test-disposition.md)
+19. [lane-04-patched-surface-reread.md](lane-04-patched-surface-reread.md)
+20. [MAIN-WAVE-LAUNCH-READINESS-DECISION.md](MAIN-WAVE-LAUNCH-READINESS-DECISION.md)
+21. [MAIN-WAVE-LAUNCH-CONTRACT-AND-PACKET.md](MAIN-WAVE-LAUNCH-CONTRACT-AND-PACKET.md)
+22. [lane-05-opus47-max-main-wave-contract-cross-review.md](lane-05-opus47-max-main-wave-contract-cross-review.md)
+23. [lane-05-gpt54-xhigh-main-wave-contract-cross-review.md](lane-05-gpt54-xhigh-main-wave-contract-cross-review.md)
+24. [lane-05-comparative-disposition.md](lane-05-comparative-disposition.md)
+25. [WAVE-1-PACKET-MANIFESTS.md](WAVE-1-PACKET-MANIFESTS.md)
+26. [wave-1/README.md](wave-1/README.md)
+27. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
+28. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
+29. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
+30. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
+31. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
+32. [COMMENTARY-CORPUS-READSET.md](COMMENTARY-CORPUS-READSET.md)
+
+## Source-Of-Truth Hierarchy
+
+- charter and governing posture: `AUDIT-CHARTER.md`
+- authority / artifact-class map for this directory: `WORKSPACE-AUTHORITY-AND-ORGANIZATION.md`
+- current framing and bridge-state summary: `CURRENT-STATE.md`
+- onboarding read path for later reviewers: `ONBOARDING.md`
+- primary distilled record of this session's added framing: `SESSION-FRAMING-BRIEF.md`
+- substantive questions and required output shapes: `QUESTION-SET.md`
+- corpus split, packeting, and sizing discipline: `EVIDENCE-ARCHITECTURE.md`
+- competing audit-program shapes and recommended main path: `PLAN-PROPOSALS.md`
+- live mutable state for this audit setup: `STATUS.md`
+- current main-wave contract-level design artifact: `MAIN-WAVE-LAUNCH-CONTRACT-AND-PACKET.md`
+- current contract-level cross-review outputs: `lane-05-opus47-max-main-wave-contract-cross-review.md`, `lane-05-gpt54-xhigh-main-wave-contract-cross-review.md`
+- current inheritance decision for lane-05: `lane-05-comparative-disposition.md`
+- current concrete Wave-1 packet companion: `WAVE-1-PACKET-MANIFESTS.md`
+- current forward-looking topology for new main-wave artifacts: `wave-1/README.md`
+- current inheritance record for lane-04: `lane-04-comparative-disposition.md`
+- current draft local proposals from lane-04: `lane-04-surface-a-authority-force-proposal.md`, `lane-04-surface-d-high-force-carrier-proposal.md`
+- current bounded Surface B stress tests: `lane-04-surface-b-prelicensing-judgeability-pass.md`, `lane-04-surface-b-graded-underreach-trial.md`
+- current local inheritance decision after those proposals/tests: `lane-04-local-proposal-and-stress-test-disposition.md`
+- current reread of the landed lane-04 local patches: `lane-04-patched-surface-reread.md`
+- current decision on whether pre-main-wave external review is still needed: `MAIN-WAVE-LAUNCH-READINESS-DECISION.md`
+- current main-wave design artifact: `MAIN-WAVE-LAUNCH-CONTRACT-AND-PACKET.md`
+- older lane-specific specs and outputs: scoped challenge material, not current authority
+- requested-versus-actual external launch history: `LAUNCH-LEDGER.md`
+
+## Planned Outputs
+
+- governance/onboarding suite in this directory
+- authority and organization note for this workspace
+- next-lane specs as the program architecture sharpens
+- concrete Wave-1 packet manifests for the first main-wave lanes
+- later lane outputs for the debrief/audit wave
+- later synthesis artifact that recommends a rerun shape or a justified alternative
+
+## Current Session Rule
+
+- [g:c+i] Treat this directory as `audit trail + program design`, not canon. If later conclusions should alter the readiness package, they must be promoted explicitly rather than silently treated as live doctrine. Sources: .planning/AGENTS.md:35, .planning/AGENTS.md:40, .planning/AGENTS.md:98, .planning/AGENTS.md:106.
