@@ -75,7 +75,14 @@
 - [d:c+i] The revised [MAIN-WAVE-LAUNCH-CONTRACT-AND-PACKET.md](MAIN-WAVE-LAUNCH-CONTRACT-AND-PACKET.md) now carries the key under-carried obligations directly at contract level: `INDEX.md` in the core packet, explicit source hierarchy, token discipline, switch-trigger and anti-tame carry, challenge-packet rules, explicit Wave-1 parallelism, and weak-return / packet-drift handling. Sources: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/MAIN-WAVE-LAUNCH-CONTRACT-AND-PACKET.md:28-31, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/MAIN-WAVE-LAUNCH-CONTRACT-AND-PACKET.md:72-92, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/MAIN-WAVE-LAUNCH-CONTRACT-AND-PACKET.md:127-162.
 - [e:c+i] A concrete companion manifest now exists in [WAVE-1-PACKET-MANIFESTS.md](WAVE-1-PACKET-MANIFESTS.md), resolving the contract's family shorthand into default file-path read sets and named challenge packets for all four Wave-1 lanes. Sources: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/WAVE-1-PACKET-MANIFESTS.md:6-27, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/WAVE-1-PACKET-MANIFESTS.md:29-134.
 - [d:r:i] A bounded forward-looking topology now exists for new Wave-1 artifacts under [wave-1/README.md](wave-1/README.md). This is a real organization change without a retrospective mass move of the historical corpus. It gives Wave-1 specs, prompts, packets, outputs, dispositions, and launch-truth captures grouped homes instead of adding more flat-root clutter.
-- [d:r:i] Current consequence: the main unresolved pre-launch issue is no longer what Wave 1 should read in principle. It is whether the workspace will now create the required audit-local checkpoint baseline before the first external Wave-1 launch.
+- [d:r:i] Current consequence at that stage: the main unresolved pre-launch issue was no longer what Wave 1 should read in principle. It was whether the workspace would create the required audit-local checkpoint baseline before the first external Wave-1 launch.
+
+## What The Checkpoint And First Wave-1 Drafting Pass Now Add
+
+- [e:c+i] An audit-local checkpoint baseline now exists at git commit `60cc36d`, clearing the earlier launch blocker around unauditable local state. Source: git commit `60cc36d`.
+- [e:c+i] Concrete per-lane frozen packet files now exist under [wave-1/packets/](wave-1/packets/) for the first four Wave-1 lanes: mission reconstruction, outcome and underreach, mapping adequacy and comparative mapping, and operator orchestration pressure.
+- [e:c+i] Matching first-draft lane specs now exist under [wave-1/specs/](wave-1/specs/), each carrying a concrete packet path, required posture, required method, output sections, and failure conditions.
+- [d:r:i] Current consequence: the main unresolved pre-launch issue is no longer checkpoint discipline or whether Wave 1 should be specced at all. It is prompt-writing, per-lane freeze discipline, and then actual launch sequencing.
 
 ## What Is Still Unsettled
 

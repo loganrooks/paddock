@@ -171,4 +171,4 @@ Every serious lane should produce, where applicable:
 - [d:r:i] The workspace now has a concrete main-wave contract and packet plan.
 - [d:r:i] The next decision is not `what kind of lane family might exist in theory?`
 - [d:r:i] The next decision is not whether to cross-review the contract again; lane-05 already supplied that critique.
-- [d:r:i] The next work is to keep this revised contract, use the concrete packet manifests, checkpoint the accepted audit-workspace revision set, and then write the first Wave-1 specs/prompts against that frozen basis.
+- [d:r:i] The next work after this contract is to keep the revised packet discipline, freeze concrete per-lane packet files and specs, then write the corresponding Wave-1 prompts and preserve launch-truth / frozen-SHA records per lane before external launch.

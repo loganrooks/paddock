@@ -28,9 +28,12 @@ Date: 2026-04-19
 - main-wave launch contract revised after lane-05 cross-review
 - concrete Wave-1 packet manifests drafted
 - bounded forward-looking Wave-1 artifact topology created
+- audit-local checkpoint baseline committed at `60cc36d`
+- per-lane Wave-1 packet files drafted under `wave-1/packets/`
+- first four Wave-1 lane specs drafted under `wave-1/specs/`
 - no readiness-package mutation authorized from this workspace
 - recommended main path currently: `Proposal B-extended` from [PLAN-PROPOSALS.md](PLAN-PROPOSALS.md)
-- current main-wave status: `contract cross-reviewed and revised; concrete Wave-1 manifests drafted; first external Wave-1 launch remains blocked on audit-local checkpoint commit`
+- current main-wave status: `checkpoint cleared; first-lane packet/spec layer drafted; prompt-writing and per-lane freeze discipline are next`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -65,16 +68,15 @@ Date: 2026-04-19
 
 ## Next Pending Actions
 
-1. checkpoint-commit the accepted audit-workspace revision set before the first external Wave-1 launch
-2. write the first Wave-1 specs against [MAIN-WAVE-LAUNCH-CONTRACT-AND-PACKET.md](MAIN-WAVE-LAUNCH-CONTRACT-AND-PACKET.md) and [WAVE-1-PACKET-MANIFESTS.md](WAVE-1-PACKET-MANIFESTS.md)
-3. then write the corresponding Wave-1 prompts and preserve frozen-packet SHA plus launch-truth capture per lane
+1. review and tighten the first-lane Wave-1 specs only where they still undercarry burden, challenge-packet logic, or output shape
+2. write the corresponding Wave-1 prompts under `wave-1/prompts/`
+3. preserve frozen-packet SHA plus launch-truth capture per lane before each external Wave-1 launch
 4. use the new `wave-1/` topology for all new Wave-1 specs/prompts/packets/outputs/dispositions/launch-truth artifacts
-5. do not treat the still-untracked audit directory as acceptable baseline state once external Wave-1 launches begin
+5. keep the audit workspace checkpointed and reviewable rather than letting prompt/launch work accumulate as an uncommitted spill
 
 ## Open Questions
 
 - does `mapping-adequacy-and-comparative-mapping` stay one Wave-1 lane in practice, or should the actual spec escalate into a split because packet bounds or defect-type separation demand it?
-- what is the cleanest checkpoint boundary for the first audit-local commit, given that the full audit directory is still untracked today?
 - do any first Wave-1 lane specs need narrower packet trims than the default manifests in order to stay within band without losing contrary pressure?
 - does the audit directory later need a bounded organization / topology cleanup beyond the current authority note, read-order scaffolding, and manifest discipline once Wave-1 artifacts accumulate?
 - is a bounded reviewer-register vocabulary curation note worth doing later, or does stronger spec-writing and packet discipline make that unnecessary?

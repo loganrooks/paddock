@@ -54,6 +54,8 @@
 - current inheritance decision for lane-05: `lane-05-comparative-disposition.md`
 - current concrete Wave-1 packet companion: `WAVE-1-PACKET-MANIFESTS.md`
 - current forward-looking topology for new main-wave artifacts: `wave-1/README.md`
+- current frozen first-lane packet files: `wave-1/packets/`
+- current frozen first-lane specs: `wave-1/specs/`
 - current inheritance record for lane-04: `lane-04-comparative-disposition.md`
 - current draft local proposals from lane-04: `lane-04-surface-a-authority-force-proposal.md`, `lane-04-surface-d-high-force-carrier-proposal.md`
 - current bounded Surface B stress tests: `lane-04-surface-b-prelicensing-judgeability-pass.md`, `lane-04-surface-b-graded-underreach-trial.md`
@@ -68,8 +70,9 @@
 
 - governance/onboarding suite in this directory
 - authority and organization note for this workspace
-- next-lane specs as the program architecture sharpens
 - concrete Wave-1 packet manifests for the first main-wave lanes
+- first Wave-1 lane specs under `wave-1/specs/`
+- next step: corresponding Wave-1 prompts under `wave-1/prompts/`
 - later lane outputs for the debrief/audit wave
 - later synthesis artifact that recommends a rerun shape or a justified alternative
 
