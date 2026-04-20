@@ -53,6 +53,9 @@ Date: 2026-04-20
 - PR docs intervention-audit next-steps note written
 - docs-audit topology created
 - docs-audit lane-01 packet/spec/prompt set drafted
+- docs-audit lane-01 launched and completed against frozen basis `1a8bcc0`
+- parallel local spawned reviewer completed for docs-audit lane-01
+- docs-audit lane-01 comparative disposition written
 - isolated latest-install probe completed against detached worktree
 - active repo-local `.codex/` confirmed already at `v1.38.1`
 - fresh latest reinstall + overlay confirmed semantically aligned with active runtime except for repo-local config defaults and stale manifest hashes
@@ -68,7 +71,7 @@ Date: 2026-04-20
 - current main-wave status: `Wave-2 lane-06 accepted; the bounded R5.18 materialization fix slice is now partially executed and reinstall-backed, not just proposed`
 - current harness-update status: `active runtime already sits at published v1.38.1; the missing object is intervention onboarding, not a blind reinstall`
 - current docs-onboarding status: `the submitted docs PR now has a carry-focused audit; it contributes real governance and visibility gains, but it still needs an intervention-oriented companion or transformation layer`
-- current docs-audit-sequencing status: `the next-step sequence is now explicit: challenged lane pair -> comparative disposition -> transformation plan -> bounded intervention proposals`
+- current docs-audit-sequencing status: `the challenged lane pair is complete and inherited; the next move is transformation planning, then bounded intervention proposals`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -87,6 +90,9 @@ Date: 2026-04-20
   - [lane-05-opus47-max-main-wave-contract-cross-review.md](lane-05-opus47-max-main-wave-contract-cross-review.md)
   - [lane-05-gpt54-xhigh-main-wave-contract-cross-review.md](lane-05-gpt54-xhigh-main-wave-contract-cross-review.md)
   - [lane-05-comparative-disposition.md](lane-05-comparative-disposition.md)
+  - [docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md](docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md)
+  - [docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md](docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md)
+  - [docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md](docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md)
 
 ## Accepted Starting Decisions
 
@@ -106,12 +112,11 @@ Date: 2026-04-20
 ## Next Pending Actions
 
 1. use the new harness intervention onboarding pair as the starting read set for future harness-intervention work
-2. freeze and launch the parallel docs-audit lane pair: `Opus 4.7 Max` + `gpt-5.4 xhigh`
-3. after the returns, write the comparative disposition before any transformation-plan work
-4. only then turn the highest-rank surfaces into bounded proposal artifacts: agent `.toml` authority alignment, launch-truth capture, manifest/install coherence, and live-vs-overlay drift visibility
-5. record and later repair the install/overlay manifest-coherence issue instead of silently trusting manifest hashes
-6. decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
-7. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
+2. write the PR-docs intervention transformation plan using the completed docs-audit disposition
+3. from that plan, turn the highest-rank surfaces into bounded proposal artifacts: agent `.toml` authority alignment, launch-truth capture, manifest/install coherence, and live-vs-overlay drift visibility
+4. record and later repair the install/overlay manifest-coherence issue instead of silently trusting manifest hashes
+5. decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
+6. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
 
 ## Open Questions
 
@@ -121,3 +126,4 @@ Date: 2026-04-20
 - is a bounded reviewer-register vocabulary curation note worth doing later, or does stronger spec-writing and packet discipline make that unnecessary?
 - what is the best durable shape for a repo-local harness intervention onboarding doc that can carry both current runtime truth and longer-horizon modification planning?
 - how should the submitted docs PR be transformed, extended, or paired so it carries intervention planning rather than only contributor orientation and docs governance?
+- what is the sharpest first transformation artifact: architecture intervention overlay, goal-to-surface index, compact surface-status matrix, or one higher-order plan that sequences all three?

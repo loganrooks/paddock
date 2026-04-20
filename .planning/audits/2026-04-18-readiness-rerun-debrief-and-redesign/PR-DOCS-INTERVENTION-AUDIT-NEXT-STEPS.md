@@ -1,7 +1,7 @@
 # PR Docs Intervention Audit Next Steps
 
 Date: 2026-04-20
-Status: active next-step note
+Status: partially completed next-step note
 
 ## Purpose
 
@@ -19,6 +19,9 @@ Status: active next-step note
      - [HARNESS-INTERVENTION-UPDATE-LANE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/HARNESS-INTERVENTION-UPDATE-LANE.md:1)
      - [upstream-docs-pr-r2/README.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/upstream-docs-pr-r2/README.md:1)
      - [get-shit-done-upstream/docs/INVENTORY.md](/home/rookslog/workspace/projects/get-shit-done-upstream/docs/INVENTORY.md:1)
+   - [d:c+i] Completed:
+     - [docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md:1)
+     - [docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md:1)
 
 2. **Keep the frame narrow and anti-threshold**
    - [g:r:i] The launch spec and prompt should explicitly forbid `adequate`, `good enough`, `passes`, `ready`, or equivalent threshold framing as the governing question.
@@ -32,6 +35,8 @@ Status: active next-step note
 3. **Write a comparative inheritance note after the returns**
    - [d:r:i] Record what the two audit lanes converge on, where they differ, and what this workspace accepts from each.
    - [d:r:i] Separate `what the external lanes said` from `what this workspace now inherits`.
+   - [d:c+i] Completed:
+     - [docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md:1)
 
 4. **Only after that, write the transformation plan**
    - [d:r:i] Decide how the submitted docs should be transformed, extended, or paired so they carry stronger intervention planning.
@@ -53,4 +58,4 @@ Status: active next-step note
 
 ## Bottom Line
 
-- [g:r:i] Immediate next move: write the narrow audit spec and launch prompt, then launch `Opus 4.7 Max` and `gpt-5.4 xhigh` in parallel against the frozen packet above.
+- [g:r:i] Immediate next move: write the transformation-plan artifact that decides how the stable PR docs, the intervention companion layer, and the bounded architecture/delta/index companions should fit together before routing into bounded intervention proposals.

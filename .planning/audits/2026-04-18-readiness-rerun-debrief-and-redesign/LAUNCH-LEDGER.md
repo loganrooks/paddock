@@ -311,3 +311,38 @@
   - the lane explicitly rejected letting operator pressure absorb every other explanation
 - disposition:
   - `pending local reread / comparative disposition`
+
+## 2026-04-20 `docs-audit-lane-01`
+
+- date: `2026-04-20`
+- purpose: bounded challenge lane on how the submitted upstream docs PR carries intervention planning, what it still flattens, and how it should be inherited without slipping back into threshold framing
+- frozen launch basis commit: `1a8bcc0`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- launch-truth artifact: [docs-audit/launch-truth/01-pr-docs-intervention-carry-launch-truth.md](docs-audit/launch-truth/01-pr-docs-intervention-carry-launch-truth.md)
+- prompt artifact: [docs-audit/prompts/01-pr-docs-intervention-carry-opus47-max-r1-launch-prompt.md](docs-audit/prompts/01-pr-docs-intervention-carry-opus47-max-r1-launch-prompt.md)
+- governing spec: [docs-audit/specs/01-pr-docs-intervention-carry-spec.md](docs-audit/specs/01-pr-docs-intervention-carry-spec.md)
+- governing packet: [docs-audit/packets/01-pr-docs-intervention-carry-packet.md](docs-audit/packets/01-pr-docs-intervention-carry-packet.md)
+- output artifacts:
+  - [docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md](docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md)
+  - [docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md](docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `273.441`
+  - session id: `9ddb5e0d-fb60-4550-a011-a40a60596c00`
+  - total cost usd: `2.147333`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/docs-audit-pr-docs-intervention-carry-opus47-max-r1-20260420-060836.2k4lpx8s.stream.jsonl`
+    - `/tmp/docs-audit-pr-docs-intervention-carry-opus47-max-r1-20260420-060836._g50f9ad.stderr.log`
+    - `/tmp/docs-audit-pr-docs-intervention-carry-opus47-max-r1-20260420-060836.57qjdrmi.debug.log`
+- parallel local reviewer:
+  - launch mode: `spawn_agent`
+  - effective settings verified against `~/.codex/state_5.sqlite`: `worker / gpt-5.4 / xhigh`
+  - agent nickname: `Ramanujan`
+  - brief artifact: [docs-audit/prompts/01-pr-docs-intervention-carry-gpt54-xhigh-r1-brief.md](docs-audit/prompts/01-pr-docs-intervention-carry-gpt54-xhigh-r1-brief.md)
+  - output artifact: [docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md](docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md)
+- disposition:
+  - [docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md](docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md)
+  - `synthesis accept`
+  - accepted now: preserve the PR docs as governance/reference foundation, keep intervention-planning carry in a paired companion layer, port parity-guard discipline locally, and include a compact current-upstream delta / surface-status note
+  - rejected or held: broad inline rewrite of stable docs, treating the frozen snapshot as current truth, and immediate per-family runbooks before the transformation-plan layer exists
