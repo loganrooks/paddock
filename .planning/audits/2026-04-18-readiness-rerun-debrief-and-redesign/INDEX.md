@@ -174,7 +174,8 @@
 - current manifest semantic correction for update-boundary truth versus final-runtime truth
 - current bounded follow-through proposal for separate final-runtime visibility
 - current accepted first-pass implementation of that follow-through
-- next step: decide whether to widen family coverage, persist selected ignored snapshots, or use the current output to sharpen later overlay-expansion / cleanup work
+- current accepted second-tranche sequencing note for cohort typing -> bounded cleanup -> selected-lane snapshots -> cleaner manifest/install coherence
+- next step: write the live-only agent cohort matrix so the remaining `16` live-only agent surfaces stop acting as one undifferentiated cleanup/snapshot/coherence question
 - later lane outputs for the debrief/audit wave
 - later synthesis artifact that recommends a rerun shape or a justified alternative
 

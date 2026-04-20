@@ -18,6 +18,8 @@ Status: active proposal batch
 8. `08-manifest-semantic-contract-disposition.md`
 9. `09-final-runtime-visibility-proposal.md`
 10. `10-final-runtime-visibility-first-pass-disposition.md`
+11. `11-second-tranche-sequencing-disposition.md`
+12. `12-live-only-agent-cohort-matrix.md`
 
 ## Proposal Rule
 
