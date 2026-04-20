@@ -101,7 +101,7 @@ Date: 2026-04-20
 - current live-only-agent-cohort status: `the remaining 16 untracked live-only boundary surfaces are now typed into mostly active routed carry plus one weakly routed authority-gap case; the targeted reread is complete and no broad stale-agent cleanup is currently earned`
 - current targeted-reread status: `the targeted reread revised the cleanup story: gsd-debug-session-manager is active skill-routed carry, gsd-pattern-mapper is planner-adjacent authority-gap carry, and no broad stale-agent cleanup is currently earned`
 - current snapshot-discipline status: `selected-lane runtime snapshot discipline is now accepted and the first clean-boundary snapshot is frozen at intervention-proposals/artifacts/01-second-tranche-clean-boundary-runtime-visibility-snapshot.json on basis commit 2edb269`
-- current manifest-install-follow-through status: `manifest/install coherence is now framed as a three-surface problem across manifest truth, backup-meta subset-carry, and selected-lane runtime snapshots rather than any one-file collapse; the next coherence pass should start from the clean-boundary snapshot artifact rather than a fresh ad hoc capture`
+- current manifest-install-follow-through status: `manifest/install coherence is now framed as a three-surface problem across manifest truth, backup-meta subset-carry, and selected-lane runtime snapshots rather than any one-file collapse; the first strict coherence pass now exists at intervention-proposals/artifacts/02-manifest-install-coherence-report.json and it found no selected-scope coherence blocker`
 - current tranche-audit status: `the narrow post-tranche cross-vendor pair is complete and inherited; accepted now: classifier tightening plus thin CLAUDE wrappers, held: broad family expansion and broad stale-agent cleanup`
 - current docs-audit-sequencing status: `the challenged lane pair, transformation plan, bounded companion layer, and first intervention proposal batch are complete; the current move is proposal disposition and first bounded follow-through`
 - current challenge artifacts:
@@ -156,7 +156,7 @@ Date: 2026-04-20
 1. use the bounded companion onboarding set as the starting read set for future harness-intervention work: `HARNESS-INTERVENTION-UPDATE-LANE.md`, `HARNESS-INTERVENTION-ONBOARDING.md`, `RUNTIME-MATERIALIZATION-AND-AUTHORITY.md`, `GOAL-TO-SURFACE-INTERVENTION-INDEX.md`, and `SURFACE-STATUS-AND-DELTA.md`
 2. verify and checkpoint the first accepted intervention pair plus the bounded drift-register pilot as the new runtime/planning baseline
 3. inherit the manifest semantic contract note before touching install/manifest logic: preserve update-boundary manifest meaning and do not rewrite `gsd-file-manifest.json` into a final-runtime snapshot
-4. use the clean-boundary selected-lane runtime snapshot at `intervention-proposals/artifacts/01-second-tranche-clean-boundary-runtime-visibility-snapshot.json` as the baseline input for the next manifest/install coherence pass
+4. route the next bounded intervention move toward the remaining `16` live-only agent contracts as an authority/carry decision surface rather than reopening manifest semantics
 5. decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
 6. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
 
