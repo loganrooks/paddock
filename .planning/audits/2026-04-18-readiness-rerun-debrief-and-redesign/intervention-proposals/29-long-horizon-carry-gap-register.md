@@ -9,6 +9,7 @@ Status: active gap register
 - [d:r:i] This is meant to be good audit input, not private chat memory.
 - [d:r:i] A later cross-vendor lane should be able to read this artifact, challenge the claimed gaps, add missing ones, or narrow overclaimed ones.
 - [g:r:i] The aim is not only to identify what is missing or under-carried. It is also to identify how the harness could become a materially stronger version of itself even where no simple deficiency claim is available.
+- [g:r:i] The method here is not “find only the top few gaps.” It is to map the full pressure field: narrow gaps, medium-scope carry failures, system-wide tensions, positive strength opportunities, and the relations among them.
 
 ## Governing Observation
 
@@ -92,7 +93,7 @@ Status: active gap register
 
 1. [d:r:i] **Explicit strength-amplification register**
    - not just a list of gaps or weaknesses
-   - a compact surface for recording the highest-leverage next moves that would make the harness materially stronger across multiple dimensions
+   - a compact surface for recording the full field of next strengthening moves and their likely cross-effects across multiple dimensions
 
 2. [d:r:i] **Cross-horizon strategy surface**
    - not only a place to preserve seams
@@ -125,9 +126,10 @@ Status: active gap register
 ### 1. No Explicit Harness Self-Improvement Loop
 
 - [d:r:i] The harness has many bounded audit and intervention lanes, but it still lacks one compact evergreen surface that says:
-  - what the highest-leverage known harness weaknesses are
+  - what the known harness weaknesses, tensions, and strength-opportunities are
   - what evidence supports each
-  - what intervention slice would raise overall harness quality the most next
+  - how they relate, propagate, or conflict
+  - what intervention slices are available across the whole field, not only the most obvious few
 - [d:r:i] In practice, this is being carried by audit workspaces like this one rather than by a durable harness-self-improvement register.
 
 ### 2. Limited Cross-Dimensional Evaluation Of Harness Quality
@@ -148,8 +150,20 @@ Status: active gap register
 - [d:r:i] There is no dedicated recurring artifact that asks:
   - what would make this harness a materially stronger version of itself now
   - what still feels local, accidental, ceremonial, or too operator-memory-dependent
-  - what bounded move would most increase long-run harness quality next
+  - what bounded moves, taken together or in sequence, would increase long-run harness quality and expand future strategic freedom
 - [d:r:i] That question keeps being asked by ad hoc audits rather than by a standing improvement surface.
+
+## Whole-Field Mapping Rule
+
+- [g:r:i] For this line of work, early narrowing is itself a risk.
+- [g:r:i] The first obligation is to map the full surface set:
+  - local lifecycle gaps
+  - cross-horizon tensions
+  - positive strength-building opportunities
+  - system-memory weaknesses
+  - self-improvement surfaces
+  - and the interactions among them
+- [d:r:i] Prioritization can come later, but only after the wider topology of pressures and opportunities is visible enough not to silently discard important paths.
 
 ### 4. Weak Positive Relation To Constraint
 
@@ -173,10 +187,11 @@ Status: active gap register
 ### Cross-Vendor Audit Candidate
 
 - [d:r:i] A later `Opus 4.7 Max` lane could use this artifact as its primary packet seed and answer:
-  - which claimed gaps are genuinely load-bearing
+  - how the full field of lifecycle, horizon-tension, and self-overcoming pressures should be mapped
   - which are overstated
   - which additional surfaces are missing
-  - which proposed interventions should come first
+  - how the mapped pressures relate, cluster, propagate, or conflict
+  - which intervention families become visible only once the whole field is mapped
   - whether the broader “best possible harness” and self-overcoming pressure is framed strongly enough or still too weakly / negatively
 
 ## Anti-Misread Rules

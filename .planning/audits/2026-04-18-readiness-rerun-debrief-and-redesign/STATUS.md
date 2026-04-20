@@ -95,6 +95,7 @@ Date: 2026-04-20
 - plain-language re-entry pair written for this workspace: `PLAIN-LANGUAGE-STATE.md` and `PLAIN-LANGUAGE-GLOSSARY.md`
 - long-horizon carry gap register written under `intervention-proposals/29-long-horizon-carry-gap-register.md`
 - long-horizon gap register strengthened to reject deficiency-only framing and explicitly track positive self-overcoming / ideal-form pressure
+- long-horizon gap register strengthened again to reject premature narrowing and require full-field mapping before later intervention routing
 - current intervention-proposal status: `the first four bounded harness follow-through proposals now exist, the first-tranche disposition is written, and the first accepted pair is now landed in the instruction/runtime layer`
 - current drift-register status: `the second tranche now has a bounded pilot register; sampled load-bearing differences are mostly intelligible materialized carry or selective overlay boundary, not mystery drift`
 - current manifest-contract status: `the second tranche now rejects manifest semantic collapse; gsd-file-manifest.json remains an upstream/update-boundary artifact, backup-meta stays tracked subset-carry metadata, and the missing object is a separate final-runtime visibility surface`
@@ -174,6 +175,7 @@ Date: 2026-04-20
 6. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
 7. if this workspace wants a sharper cross-vendor challenge on horizon carry and harness ideal-form pressure, use `intervention-proposals/29-long-horizon-carry-gap-register.md` as the packet seed rather than reconstructing the gap from chat
 8. preserve the strengthened reading of `29`: the task is not only to diagnose under-carried surfaces, but to identify where the harness could positively intensify long-horizon carry, optionality, and multi-dimensional excellence
+9. preserve the strengthened method of `29`: map the full field of pressures, tensions, and strengthening opportunities before filtering down to narrower intervention sequences
 
 ## Open Questions
 
@@ -182,5 +184,5 @@ Date: 2026-04-20
 - does the audit directory later need a bounded organization / topology cleanup beyond the current authority note, read-order scaffolding, and manifest discipline once Wave-1 artifacts accumulate?
 - is a bounded reviewer-register vocabulary curation note worth doing later, or does stronger spec-writing and packet discipline make that unnecessary?
 - what is the best durable shape for a repo-local harness intervention onboarding doc that can carry both current runtime truth and longer-horizon modification planning?
-- which of the newly named long-horizon lifecycle gaps are the highest-leverage next intervention surfaces, and which ones are still too weakly earned or too broadly framed?
+- how should the newly named long-horizon lifecycle gaps, horizon tensions, and positive strengthening opportunities be mapped as one field, and which parts of that field are still too weakly articulated or too diffusely framed?
 - how should the submitted docs PR be transformed, extended, or paired so it carries intervention planning rather than only contributor orientation and docs governance?
