@@ -35,13 +35,19 @@
 29. [wave-2/outputs/05-suppressed-opportunity-and-non-intervention-opus47-max-r1.md](wave-2/outputs/05-suppressed-opportunity-and-non-intervention-opus47-max-r1.md)
 30. [wave-2/outputs/05-suppressed-opportunity-and-non-intervention-gpt54-xhigh-r1.md](wave-2/outputs/05-suppressed-opportunity-and-non-intervention-gpt54-xhigh-r1.md)
 31. [wave-2/dispositions/05-wave-2-lane05-comparative-disposition.md](wave-2/dispositions/05-wave-2-lane05-comparative-disposition.md)
-32. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
-33. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
-34. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
-35. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
-36. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
-37. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
-38. [corpus/README.md](corpus/README.md)
+32. [wave-2/prompts/05a-runtime-authority-materialization-drift-probe-gpt54-xhigh-brief.md](wave-2/prompts/05a-runtime-authority-materialization-drift-probe-gpt54-xhigh-brief.md)
+33. [wave-2/outputs/05a-runtime-authority-materialization-drift-probe-gpt54-xhigh-r1.md](wave-2/outputs/05a-runtime-authority-materialization-drift-probe-gpt54-xhigh-r1.md)
+34. [wave-2/launch-truth/06-rerun-design-launch-truth.md](wave-2/launch-truth/06-rerun-design-launch-truth.md)
+35. [wave-2/outputs/06-rerun-design-opus47-max-r1.md](wave-2/outputs/06-rerun-design-opus47-max-r1.md)
+36. [wave-2/outputs/06-rerun-design-gpt54-xhigh-r1.md](wave-2/outputs/06-rerun-design-gpt54-xhigh-r1.md)
+37. [wave-2/dispositions/06-wave-2-lane06-comparative-disposition.md](wave-2/dispositions/06-wave-2-lane06-comparative-disposition.md)
+38. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
+39. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
+40. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
+41. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
+42. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
+43. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
+44. [corpus/README.md](corpus/README.md)
 
 ## Source-Of-Truth Hierarchy
 
@@ -63,6 +69,11 @@
 - current Wave-2 lane-05 launch record: `wave-2/launch-truth/05-suppressed-opportunity-and-non-intervention-launch-truth.md`
 - current raw Wave-2 lane-05 outputs: `wave-2/outputs/05-suppressed-opportunity-and-non-intervention-opus47-max-r1.md`, `wave-2/outputs/05-suppressed-opportunity-and-non-intervention-gpt54-xhigh-r1.md`
 - current inheritance decision for Wave-2 lane-05: `wave-2/dispositions/05-wave-2-lane05-comparative-disposition.md`
+- current bounded runtime-authority follow-up brief: `wave-2/prompts/05a-runtime-authority-materialization-drift-probe-gpt54-xhigh-brief.md`
+- current bounded runtime-authority follow-up output: `wave-2/outputs/05a-runtime-authority-materialization-drift-probe-gpt54-xhigh-r1.md`
+- current Wave-2 lane-06 launch record: `wave-2/launch-truth/06-rerun-design-launch-truth.md`
+- current raw Wave-2 lane-06 outputs: `wave-2/outputs/06-rerun-design-opus47-max-r1.md`, `wave-2/outputs/06-rerun-design-gpt54-xhigh-r1.md`
+- current inheritance decision for Wave-2 lane-06: `wave-2/dispositions/06-wave-2-lane06-comparative-disposition.md`
 - current frozen first-lane packet files: `wave-1/packets/`
 - current frozen first-lane specs: `wave-1/specs/`
 - current drafted second-wave packet files: `wave-2/packets/`
@@ -89,7 +100,7 @@
 - current accepted Wave-2 lane-05 outputs under `wave-2/outputs/`
 - current Wave-2 lane dispositions under `wave-2/dispositions/`
 - current Wave-2 launch-truth records under `wave-2/launch-truth/`
-- next step: freeze and launch lane-06 against the current clean basis
+- next step: translate the accepted lane-06 program into a bounded first-slice artifact
 - later lane outputs for the debrief/audit wave
 - later synthesis artifact that recommends a rerun shape or a justified alternative
 

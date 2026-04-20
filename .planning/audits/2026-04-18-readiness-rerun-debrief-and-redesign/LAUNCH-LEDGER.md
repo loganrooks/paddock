@@ -190,6 +190,47 @@
   - held or narrowed: full `Proposal E`, full `Proposal F`, blanket `.codex` tracking change, broad governance rewrite, immediate launch-truth hook automation, broad audit-space reorganization
   - current consequence: lane-06 packet resolved; next move is lane-06 launch-basis freeze and prompt use, with any bounded lane-05 follow-up treated as parallel candidate rather than gate
 
+## 2026-04-19 `wave-2-lane-06`
+
+- date: `2026-04-19`
+- purpose: Wave-2 `rerun-design` lane to choose the next program shape after accepted Wave-1 returns and accepted Wave-2 lane-05 inheritance
+- frozen launch basis commit: `24b54d3`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- launch-truth artifact: [wave-2/launch-truth/06-rerun-design-launch-truth.md](wave-2/launch-truth/06-rerun-design-launch-truth.md)
+- prompt artifact: [wave-2/prompts/06-rerun-design-opus47-max-r1-launch-prompt.md](wave-2/prompts/06-rerun-design-opus47-max-r1-launch-prompt.md)
+- governing spec: [wave-2/specs/06-rerun-design-spec.md](wave-2/specs/06-rerun-design-spec.md)
+- governing packet: [wave-2/packets/06-rerun-design-packet.md](wave-2/packets/06-rerun-design-packet.md)
+- output artifacts:
+  - [wave-2/outputs/06-rerun-design-opus47-max-r1.md](wave-2/outputs/06-rerun-design-opus47-max-r1.md)
+  - [wave-2/outputs/06-rerun-design-gpt54-xhigh-r1.md](wave-2/outputs/06-rerun-design-gpt54-xhigh-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `1073.232`
+  - session id: `077a1333-dd5c-41fb-98d0-86b70a3e163b`
+  - total cost usd: `8.137341`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/wave2-lane06-rerun-design-opus47-max-r1-20260419-214409.fenirdup.stream.jsonl`
+    - `/tmp/wave2-lane06-rerun-design-opus47-max-r1-20260419-214409.q0m21om2.stderr.log`
+    - `/tmp/wave2-lane06-rerun-design-opus47-max-r1-20260419-214409.q3lifo6o.debug.log`
+- parallel local reviewer:
+  - launch mode: `spawn_agent`
+  - effective settings verified against `~/.codex/state_5.sqlite`: `worker / gpt-5.4 / xhigh`
+  - agent nickname: `Lovelace`
+  - output artifact: [wave-2/outputs/06-rerun-design-gpt54-xhigh-r1.md](wave-2/outputs/06-rerun-design-gpt54-xhigh-r1.md)
+- bounded parallel follow-up:
+  - launch mode: `spawn_agent`
+  - effective settings verified against `~/.codex/state_5.sqlite`: `worker / gpt-5.4 / xhigh`
+  - agent nickname: `Meitner`
+  - brief artifact: [wave-2/prompts/05a-runtime-authority-materialization-drift-probe-gpt54-xhigh-brief.md](wave-2/prompts/05a-runtime-authority-materialization-drift-probe-gpt54-xhigh-brief.md)
+  - output artifact: [wave-2/outputs/05a-runtime-authority-materialization-drift-probe-gpt54-xhigh-r1.md](wave-2/outputs/05a-runtime-authority-materialization-drift-probe-gpt54-xhigh-r1.md)
+- disposition:
+  - [wave-2/dispositions/06-wave-2-lane06-comparative-disposition.md](wave-2/dispositions/06-wave-2-lane06-comparative-disposition.md)
+  - `synthesis accept`
+  - accepted now: redefined `Proposal B-extended` with bounded harness-first prerequisite tranche, rerun-floor recomputation, brake-exit rule, activation-trigger doctrine, learning-rerun posture
+  - live but not chosen: `Proposal C` nearest fallback, bounded `Proposal F` strongest switch path, `Proposal E` still prospective
+  - not earned: full `Proposal F`, full `Proposal C-first`, `Proposal E-first`, blanket `.codex` de-ignore, broad audit-space reorganization, immediate launch-truth hook automation
+
 ## 2026-04-19 `wave-1-lane-02`
 
 - date: `2026-04-19`
