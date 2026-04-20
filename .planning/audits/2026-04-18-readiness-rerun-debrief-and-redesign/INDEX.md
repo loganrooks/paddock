@@ -176,8 +176,9 @@
 - current accepted first-pass implementation of that follow-through
 - current accepted second-tranche sequencing note for cohort typing -> bounded cleanup -> selected-lane snapshots -> cleaner manifest/install coherence
 - current live-only agent cohort matrix and targeted reread disposition
-- current selected-lane runtime snapshot discipline and cleaner manifest/install coherence follow-through notes
-- next step: capture the first clean-boundary runtime snapshot and then use it as the baseline input for the next coherence pass
+- current selected-lane runtime snapshot discipline, first clean-boundary snapshot note, and cleaner manifest/install coherence follow-through notes
+- current clean-boundary snapshot artifact: `intervention-proposals/artifacts/01-second-tranche-clean-boundary-runtime-visibility-snapshot.json`
+- next step: use that clean-boundary artifact as the baseline input for the next coherence pass
 - later lane outputs for the debrief/audit wave
 - later synthesis artifact that recommends a rerun shape or a justified alternative
 

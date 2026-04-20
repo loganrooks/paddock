@@ -23,6 +23,7 @@ Status: active proposal batch
 13. `13-live-only-agent-targeted-reread-disposition.md`
 14. `14-selected-lane-runtime-snapshot-discipline.md`
 15. `15-cleaner-manifest-install-coherence-follow-through.md`
+16. `16-first-clean-boundary-runtime-snapshot.md`
 
 ## Proposal Rule
 
