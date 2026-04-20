@@ -47,13 +47,14 @@
 41. [wave-2/dispositions/10-r5-18-materialization-proof.md](wave-2/dispositions/10-r5-18-materialization-proof.md)
 42. [HARNESS-INTERVENTION-UPDATE-LANE.md](HARNESS-INTERVENTION-UPDATE-LANE.md)
 43. [HARNESS-INTERVENTION-ONBOARDING.md](HARNESS-INTERVENTION-ONBOARDING.md)
-44. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
-45. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
-46. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
-47. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
-48. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
-49. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
-50. [corpus/README.md](corpus/README.md)
+44. [PR-DOCS-INTERVENTION-CARRY-AUDIT.md](PR-DOCS-INTERVENTION-CARRY-AUDIT.md)
+45. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
+46. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
+47. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
+48. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
+49. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
+50. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
+51. [corpus/README.md](corpus/README.md)
 
 ## Source-Of-Truth Hierarchy
 
@@ -86,6 +87,7 @@
 - current bounded `R5.18` materialization proof note: `wave-2/dispositions/10-r5-18-materialization-proof.md`
 - current harness-update correction lane and active upstream/docs probe record: `HARNESS-INTERVENTION-UPDATE-LANE.md`
 - current purpose-built harness intervention onboarding/map artifact: `HARNESS-INTERVENTION-ONBOARDING.md`
+- current carry-focused audit of the submitted docs PR against intervention-planning goals: `PR-DOCS-INTERVENTION-CARRY-AUDIT.md`
 - current frozen first-lane packet files: `wave-1/packets/`
 - current frozen first-lane specs: `wave-1/specs/`
 - current drafted second-wave packet files: `wave-2/packets/`
@@ -112,7 +114,8 @@
 - current accepted Wave-2 lane-05 outputs under `wave-2/outputs/`
 - current Wave-2 lane dispositions under `wave-2/dispositions/`
 - current Wave-2 launch-truth records under `wave-2/launch-truth/`
-- next step: turn the highest-rank harness intervention surfaces into bounded proposal artifacts, then decide whether one more narrow residue pass is needed before rerun-floor recomputation
+- current carry-focused audit of the submitted docs PR against intervention-planning goals
+- next step: use that audit plus the intervention onboarding map to decide how the submitted docs should be transformed or paired, then turn the highest-rank harness intervention surfaces into bounded proposal artifacts
 - later lane outputs for the debrief/audit wave
 - later synthesis artifact that recommends a rerun shape or a justified alternative
 

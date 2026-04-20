@@ -94,6 +94,12 @@ For non-trivial research, audit, gap-closure, sensitivity, or synthesis work:
 - surface assumptions rather than smuggling them in
 - define loaded terms and anti-misread rules when they matter
 - do not silently broaden scope
+- do not let threshold framing (`adequate`, `sufficient`, `good enough`, `well enough`, `pass/fail`, `ready/not ready`) become the governing question when the real task is to increase leverage, carry, visibility, or intervention power
+- keep the stronger distinction visible:
+  - whether a document, map, lane, or doctrine surface can carry work
+  - how strongly, clearly, and future-resiliently it carries that work compared with stronger available forms
+- when naming gains, prefer `load-bearing gain`, `higher-yield distinction`, `stronger carry surface`, `better intervention visibility`, or `transformation pressure` over threshold praise like `works well`
+- use gate language only for actual gates; do not let gate language flatten optimization, redesign, or long-horizon planning questions into a mere threshold check
 - do not accept a weaker frame, shortcut, or premature closure just because it was requested; push back when the request would degrade the quality of canon, planning, verification, or process doctrine
 - that pushback should be explicit and well-argued:
   - identify the specific loss or risk
@@ -144,6 +150,8 @@ If terms like `challenge`, `showcase`, `hosted`, `premium`, `event`, `reviewed`,
 ## Canon And Roadmap Response Rules
 
 - Do not treat `no blockers found` or `safe enough to proceed` as the satisfying endpoint of exploratory work when the better next step is canon uplift, roadmap clarification, or future-aware steering.
+- Do not treat `adequate`, `sufficient`, `good enough`, or `works well` as satisfying conclusions for canon, roadmap, or intervention-planning work unless the artifact is genuinely a narrow gate check and nothing more.
+- In canon-facing or audit-facing synthesis, ask not only `can this carry?` but `what does it newly expose, what does it still flatten, and what stronger next form would carry more of the work?`
 - If a pass earns substantive doctrine, explicitly ask whether:
   - canon should be uplifted
   - roadmap language should be clarified

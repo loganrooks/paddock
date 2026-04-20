@@ -49,6 +49,7 @@ Date: 2026-04-20
 - bounded runtime-authority drift probe completed in parallel with Wave-2 lane-06
 - harness intervention update lane written
 - harness intervention onboarding map written
+- PR docs intervention-carry audit written against frozen docs PR snapshot
 - isolated latest-install probe completed against detached worktree
 - active repo-local `.codex/` confirmed already at `v1.38.1`
 - fresh latest reinstall + overlay confirmed semantically aligned with active runtime except for repo-local config defaults and stale manifest hashes
@@ -63,6 +64,7 @@ Date: 2026-04-20
 - recommended main path currently: `redefined Proposal B-extended + bounded harness-first prerequisite tranche + learning-rerun posture`
 - current main-wave status: `Wave-2 lane-06 accepted; the bounded R5.18 materialization fix slice is now partially executed and reinstall-backed, not just proposed`
 - current harness-update status: `active runtime already sits at published v1.38.1; the missing object is intervention onboarding, not a blind reinstall`
+- current docs-onboarding status: `the submitted docs PR now has a carry-focused audit; it contributes real governance and visibility gains, but it still needs an intervention-oriented companion or transformation layer`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -100,10 +102,11 @@ Date: 2026-04-20
 ## Next Pending Actions
 
 1. use the new harness intervention onboarding pair as the starting read set for future harness-intervention work
-2. turn the highest-rank surfaces into bounded proposal artifacts: agent `.toml` authority alignment, launch-truth capture, manifest/install coherence, and live-vs-overlay drift visibility
-3. record and later repair the install/overlay manifest-coherence issue instead of silently trusting manifest hashes
-4. decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
-5. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
+2. use `PR-DOCS-INTERVENTION-CARRY-AUDIT.md` to decide how the submitted docs PR should be transformed, extended, or paired for intervention planning rather than treated as an endpoint
+3. turn the highest-rank surfaces into bounded proposal artifacts: agent `.toml` authority alignment, launch-truth capture, manifest/install coherence, and live-vs-overlay drift visibility
+4. record and later repair the install/overlay manifest-coherence issue instead of silently trusting manifest hashes
+5. decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
+6. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
 
 ## Open Questions
 
@@ -112,3 +115,4 @@ Date: 2026-04-20
 - does the audit directory later need a bounded organization / topology cleanup beyond the current authority note, read-order scaffolding, and manifest discipline once Wave-1 artifacts accumulate?
 - is a bounded reviewer-register vocabulary curation note worth doing later, or does stronger spec-writing and packet discipline make that unnecessary?
 - what is the best durable shape for a repo-local harness intervention onboarding doc that can carry both current runtime truth and longer-horizon modification planning?
+- how should the submitted docs PR be transformed, extended, or paired so it carries intervention planning rather than only contributor orientation and docs governance?

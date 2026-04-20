@@ -50,6 +50,12 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
 
 - Do not optimize for `good enough`, `passes review`, or the smallest plausible response when the repo has already earned stronger doctrine, cleaner architecture, or better future guidance.
 - When a pass produces substantive doctrine, architectural guidance, or future-seam clarification, do not collapse that work into a thin pass/fail summary if the canon, roadmap, or phase steering should be uplifted to reflect it.
+- Do not let threshold language (`adequate`, `sufficient`, `good enough`, `well enough`, `passes`, `ready`) become the master frame for planning, audit, research, or doctrine work when the real task is to maximize carry, leverage, clarity, and long-horizon intervention yield.
+- Distinguish sharply between:
+  - whether an artifact or system can carry work at all
+  - how strongly, clearly, and portably it carries that work compared with better available alternatives
+- When describing positive results, prefer language like `load-bearing gain`, `higher-leverage surface`, `stronger carry`, `clearer authority map`, or `better intervention yield` over threshold praise like `explains well` or `is adequate`.
+- Threshold/gate language is allowed only when there is a real gating decision to make. Even then, do not let the gate consume the larger question of how to achieve the strongest available outcome.
 - Always think across the repo's actual horizon stack:
   - the current phase or milestone execution surface
   - the next milestone carry-forward surface
