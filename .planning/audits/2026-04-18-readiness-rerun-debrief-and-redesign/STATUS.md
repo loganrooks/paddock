@@ -51,6 +51,8 @@ Date: 2026-04-20
 - harness intervention onboarding map written
 - PR docs intervention-carry audit written against frozen docs PR snapshot
 - PR docs intervention-audit next-steps note written
+- docs-audit topology created
+- docs-audit lane-01 packet/spec/prompt set drafted
 - isolated latest-install probe completed against detached worktree
 - active repo-local `.codex/` confirmed already at `v1.38.1`
 - fresh latest reinstall + overlay confirmed semantically aligned with active runtime except for repo-local config defaults and stale manifest hashes
@@ -104,13 +106,12 @@ Date: 2026-04-20
 ## Next Pending Actions
 
 1. use the new harness intervention onboarding pair as the starting read set for future harness-intervention work
-2. write the narrow challenged-lane audit spec and launch prompts for the submitted docs PR intervention-carry question
-3. launch the parallel audit pair: `Opus 4.7 Max` + `gpt-5.4 xhigh`
-4. after the returns, write the comparative disposition before any transformation-plan work
-5. only then turn the highest-rank surfaces into bounded proposal artifacts: agent `.toml` authority alignment, launch-truth capture, manifest/install coherence, and live-vs-overlay drift visibility
-6. record and later repair the install/overlay manifest-coherence issue instead of silently trusting manifest hashes
-7. decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
-8. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
+2. freeze and launch the parallel docs-audit lane pair: `Opus 4.7 Max` + `gpt-5.4 xhigh`
+3. after the returns, write the comparative disposition before any transformation-plan work
+4. only then turn the highest-rank surfaces into bounded proposal artifacts: agent `.toml` authority alignment, launch-truth capture, manifest/install coherence, and live-vs-overlay drift visibility
+5. record and later repair the install/overlay manifest-coherence issue instead of silently trusting manifest hashes
+6. decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
+7. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
 
 ## Open Questions
 

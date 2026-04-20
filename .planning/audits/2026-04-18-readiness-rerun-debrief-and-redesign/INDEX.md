@@ -49,13 +49,18 @@
 43. [HARNESS-INTERVENTION-ONBOARDING.md](HARNESS-INTERVENTION-ONBOARDING.md)
 44. [PR-DOCS-INTERVENTION-CARRY-AUDIT.md](PR-DOCS-INTERVENTION-CARRY-AUDIT.md)
 45. [PR-DOCS-INTERVENTION-AUDIT-NEXT-STEPS.md](PR-DOCS-INTERVENTION-AUDIT-NEXT-STEPS.md)
-46. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
-47. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
-48. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
-49. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
-50. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
-51. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
-52. [corpus/README.md](corpus/README.md)
+46. [docs-audit/README.md](docs-audit/README.md)
+47. [docs-audit/packets/01-pr-docs-intervention-carry-packet.md](docs-audit/packets/01-pr-docs-intervention-carry-packet.md)
+48. [docs-audit/specs/01-pr-docs-intervention-carry-spec.md](docs-audit/specs/01-pr-docs-intervention-carry-spec.md)
+49. [docs-audit/prompts/01-pr-docs-intervention-carry-opus47-max-r1-launch-prompt.md](docs-audit/prompts/01-pr-docs-intervention-carry-opus47-max-r1-launch-prompt.md)
+50. [docs-audit/prompts/01-pr-docs-intervention-carry-gpt54-xhigh-r1-brief.md](docs-audit/prompts/01-pr-docs-intervention-carry-gpt54-xhigh-r1-brief.md)
+51. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
+52. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
+53. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
+54. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
+55. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
+56. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
+57. [corpus/README.md](corpus/README.md)
 
 ## Source-Of-Truth Hierarchy
 
@@ -90,6 +95,7 @@
 - current purpose-built harness intervention onboarding/map artifact: `HARNESS-INTERVENTION-ONBOARDING.md`
 - current carry-focused audit of the submitted docs PR against intervention-planning goals: `PR-DOCS-INTERVENTION-CARRY-AUDIT.md`
 - current explicit next-step sequence for challenging and inheriting that audit: `PR-DOCS-INTERVENTION-AUDIT-NEXT-STEPS.md`
+- current bounded docs-audit lane subtree for that challenge work: `docs-audit/`
 - current frozen first-lane packet files: `wave-1/packets/`
 - current frozen first-lane specs: `wave-1/specs/`
 - current drafted second-wave packet files: `wave-2/packets/`
