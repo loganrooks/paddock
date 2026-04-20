@@ -58,6 +58,8 @@ Date: 2026-04-20
 - docs-audit lane-01 comparative disposition written
 - PR-docs intervention transformation plan written
 - runtime/materialization/authority companion artifact written
+- goal-to-surface intervention index written
+- surface-status-and-delta companion artifact written
 - isolated latest-install probe completed against detached worktree
 - active repo-local `.codex/` confirmed already at `v1.38.1`
 - fresh latest reinstall + overlay confirmed semantically aligned with active runtime except for repo-local config defaults and stale manifest hashes
@@ -72,8 +74,8 @@ Date: 2026-04-20
 - recommended main path currently: `redefined Proposal B-extended + bounded harness-first prerequisite tranche + learning-rerun posture`
 - current main-wave status: `Wave-2 lane-06 accepted; the bounded R5.18 materialization fix slice is now partially executed and reinstall-backed, not just proposed`
 - current harness-update status: `active runtime already sits at published v1.38.1; the missing object is intervention onboarding, not a blind reinstall`
-- current docs-onboarding status: `the submitted docs PR now has a carry-focused audit, a transformation plan, and a first intervention-oriented companion artifact; the remaining companion layer still needs completion`
-- current docs-audit-sequencing status: `the challenged lane pair, transformation plan, and first companion artifact are complete; the next move is the remaining bounded companion artifacts and bounded intervention proposals`
+- current docs-onboarding status: `the submitted docs PR now has a carry-focused audit, a transformation plan, and a completed bounded companion layer for runtime authority, goal routing, and surface-state distinctions`
+- current docs-audit-sequencing status: `the challenged lane pair, transformation plan, and bounded companion layer are complete; the next move is the bounded intervention proposal set`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -113,9 +115,8 @@ Date: 2026-04-20
 
 ## Next Pending Actions
 
-1. use the new harness intervention onboarding set as the starting read set for future harness-intervention work: `HARNESS-INTERVENTION-UPDATE-LANE.md`, `HARNESS-INTERVENTION-ONBOARDING.md`, and `RUNTIME-MATERIALIZATION-AND-AUTHORITY.md`
-2. write `GOAL-TO-SURFACE-INTERVENTION-INDEX.md` and `SURFACE-STATUS-AND-DELTA.md`
-3. from that bounded companion layer, turn the highest-rank surfaces into proposal artifacts: agent `.toml` authority alignment, launch-truth capture, manifest/install coherence, and live-vs-overlay drift visibility
+1. use the bounded companion onboarding set as the starting read set for future harness-intervention work: `HARNESS-INTERVENTION-UPDATE-LANE.md`, `HARNESS-INTERVENTION-ONBOARDING.md`, `RUNTIME-MATERIALIZATION-AND-AUTHORITY.md`, `GOAL-TO-SURFACE-INTERVENTION-INDEX.md`, and `SURFACE-STATUS-AND-DELTA.md`
+2. turn the highest-rank surfaces into proposal artifacts: agent `.toml` authority alignment, launch-truth capture, manifest/install coherence, and live-vs-overlay drift visibility
 4. record and later repair the install/overlay manifest-coherence issue instead of silently trusting manifest hashes
 5. decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
 6. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings

@@ -62,4 +62,7 @@ Status: partially completed next-step note
 
 - [g:r:i] The first bounded companion artifact is now landed:
   - [RUNTIME-MATERIALIZATION-AND-AUTHORITY.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/RUNTIME-MATERIALIZATION-AND-AUTHORITY.md:1)
-- [g:r:i] Immediate next move: complete the remaining bounded companion layer with `GOAL-TO-SURFACE-INTERVENTION-INDEX.md` and `SURFACE-STATUS-AND-DELTA.md`, then route into the bounded intervention proposal artifacts.
+- [g:r:i] The bounded companion layer is now complete:
+  - [GOAL-TO-SURFACE-INTERVENTION-INDEX.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/GOAL-TO-SURFACE-INTERVENTION-INDEX.md:1)
+  - [SURFACE-STATUS-AND-DELTA.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/SURFACE-STATUS-AND-DELTA.md:1)
+- [g:r:i] Immediate next move: route from the completed companion layer into the bounded intervention proposal artifacts.
