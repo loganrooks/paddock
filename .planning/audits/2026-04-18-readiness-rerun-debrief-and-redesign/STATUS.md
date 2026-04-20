@@ -35,9 +35,11 @@ Date: 2026-04-19
 - first four Wave-1 Opus lanes launched and completed against frozen basis `f548a48`
 - first four Wave-1 output artifacts written under `wave-1/outputs/`
 - first Wave-1 comparative disposition written under `wave-1/dispositions/`
+- forward-looking Wave-2 artifact topology created under `wave-2/`
+- Wave-2 lane specs drafted under `wave-2/specs/`
 - no readiness-package mutation authorized from this workspace
 - recommended main path currently: `Proposal B-extended` from [PLAN-PROPOSALS.md](PLAN-PROPOSALS.md)
-- current main-wave status: `Wave-1 Opus r1 first-lane returns accepted as substantive evidence; Wave-2 spec-writing is next`
+- current main-wave status: `Wave-2 lane-05 and lane-06 specs now exist; lane-05 prompt-writing and launch preparation are next`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -72,11 +74,11 @@ Date: 2026-04-19
 
 ## Next Pending Actions
 
-1. write the Wave-2 specs for `suppressed-opportunity-and-non-intervention` and `rerun-design`
-2. decide whether either Wave-2 lane should get an immediate counterpart review in parallel rather than an Opus-only first pass
-3. preserve the current frozen-basis / output relationship in later lane bookkeeping rather than relabeling these returns as if they came from the newest commit
-4. use the `wave-1/` topology for all further prompts/outputs/dispositions/launch-truth artifacts
-5. keep the audit workspace checkpointed and reviewable rather than letting Wave-2 planning accumulate as an uncommitted spill
+1. write the lane-05 Wave-2 launch prompt from the drafted packet/spec pair
+2. decide whether lane-05 should get an immediate counterpart review in parallel rather than an Opus-only first pass
+3. freeze the lane-05 spec/prompt/packet boundary and record the launch basis before external launch
+4. after lane-05 returns, resolve the lane-06 packet's lane-05 placeholder to the accepted concrete output before writing or launching lane-06
+5. keep the audit workspace checkpointed and reviewable rather than letting Wave-2 work accumulate as an uncommitted spill
 
 ## Open Questions
 

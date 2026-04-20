@@ -102,6 +102,13 @@
   - `.codex/` still has no occurrences of `post-verificationist`, `post-falsificationist`, `gap-exposure`, `completeness-challenge`, or `anti-regret`
 - [d:r:i] Current consequence: the workspace is ready to move into Wave-2 spec-writing rather than staying in Wave-1 post-launch limbo.
 
+## What The Wave-2 Scaffold Now Adds
+
+- [e:c+i] A forward-looking Wave-2 topology now exists under [wave-2/README.md](wave-2/README.md), mirroring the grouped function-based structure already adopted for Wave 1.
+- [e:c+i] A concrete lane-05 packet/spec pair now exists for `suppressed-opportunity-and-non-intervention`, aimed at re-testing prior non-intervention defenses and visible stronger moves against the accepted Wave-1 returns. Sources: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/wave-2/packets/05-suppressed-opportunity-and-non-intervention-packet.md:1-48, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/wave-2/specs/05-suppressed-opportunity-and-non-intervention-spec.md:1-54.
+- [e:c+i] A concrete lane-06 packet/spec pair now exists for `rerun-design`, but it is explicitly blocked on the accepted lane-05 output being inserted into its packet before launch. Sources: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/wave-2/packets/06-rerun-design-packet.md:1-53, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/wave-2/specs/06-rerun-design-spec.md:1-51.
+- [d:r:i] Current consequence: the next concrete object is no longer abstract `Wave 2`. It is a lane-05 launch prompt and launch-basis freeze. Lane 06 is designed, but not yet launchable.
+
 ## What Is Still Unsettled
 
 - [o:r:i] How much of the original readiness underreach came from weak terrain mapping versus closure-biased judgment, and how much came from interaction effects between the two.

@@ -30,13 +30,14 @@
 24. [lane-05-comparative-disposition.md](lane-05-comparative-disposition.md)
 25. [WAVE-1-PACKET-MANIFESTS.md](WAVE-1-PACKET-MANIFESTS.md)
 26. [wave-1/README.md](wave-1/README.md)
-27. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
-28. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
-29. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
-30. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
-31. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
-32. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
-33. [corpus/README.md](corpus/README.md)
+27. [wave-2/README.md](wave-2/README.md)
+28. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
+29. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
+30. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
+31. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
+32. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
+33. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
+34. [corpus/README.md](corpus/README.md)
 
 ## Source-Of-Truth Hierarchy
 
@@ -54,8 +55,11 @@
 - current inheritance decision for lane-05: `lane-05-comparative-disposition.md`
 - current concrete Wave-1 packet companion: `WAVE-1-PACKET-MANIFESTS.md`
 - current forward-looking topology for new main-wave artifacts: `wave-1/README.md`
+- current forward-looking topology for Wave-2 artifacts: `wave-2/README.md`
 - current frozen first-lane packet files: `wave-1/packets/`
 - current frozen first-lane specs: `wave-1/specs/`
+- current drafted second-wave packet files: `wave-2/packets/`
+- current drafted second-wave specs: `wave-2/specs/`
 - current inheritance record for lane-04: `lane-04-comparative-disposition.md`
 - current draft local proposals from lane-04: `lane-04-surface-a-authority-force-proposal.md`, `lane-04-surface-d-high-force-carrier-proposal.md`
 - current bounded Surface B stress tests: `lane-04-surface-b-prelicensing-judgeability-pass.md`, `lane-04-surface-b-graded-underreach-trial.md`
@@ -72,7 +76,8 @@
 - authority and organization note for this workspace
 - concrete Wave-1 packet manifests for the first main-wave lanes
 - first Wave-1 lane specs under `wave-1/specs/`
-- next step: corresponding Wave-1 prompts under `wave-1/prompts/`
+- Wave-2 lane specs under `wave-2/specs/`
+- next step: corresponding lane-05 Wave-2 prompt under `wave-2/prompts/`
 - later lane outputs for the debrief/audit wave
 - later synthesis artifact that recommends a rerun shape or a justified alternative
 
