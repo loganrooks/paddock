@@ -132,6 +132,9 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
     - fix pass
 - Verify effective launch settings after every spawn against `~/.codex/state_5.sqlite`.
 - If requested and effective settings differ, stop immediately, kill the agent, and report the mismatch plainly.
+- For doctrine-sensitive or otherwise high-stakes spawned work, preserve durable requested-vs-effective launch truth instead of relying on sqlite checks plus memory alone.
+  - Prefer `python3 tooling/codex/capture_launch_truth.py --since ...` over weaker `--latest` capture.
+  - Preserve the capture in the relevant review, audit, launch-truth, or disposition artifact before accepting the return.
 
 ## Maintenance
 

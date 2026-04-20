@@ -60,6 +60,11 @@ Date: 2026-04-20
 - runtime/materialization/authority companion artifact written
 - goal-to-surface intervention index written
 - surface-status-and-delta companion artifact written
+- bounded intervention proposal batch drafted under `intervention-proposals/`
+- intervention proposal batch routing note written
+- first-tranche intervention disposition written
+- launch-truth capture landed in root/planning AGENTS surfaces
+- high-stakes agent `.toml` cohort aligned to repo anti-threshold doctrine
 - isolated latest-install probe completed against detached worktree
 - active repo-local `.codex/` confirmed already at `v1.38.1`
 - fresh latest reinstall + overlay confirmed semantically aligned with active runtime except for repo-local config defaults and stale manifest hashes
@@ -75,7 +80,8 @@ Date: 2026-04-20
 - current main-wave status: `Wave-2 lane-06 accepted; the bounded R5.18 materialization fix slice is now partially executed and reinstall-backed, not just proposed`
 - current harness-update status: `active runtime already sits at published v1.38.1; the missing object is intervention onboarding, not a blind reinstall`
 - current docs-onboarding status: `the submitted docs PR now has a carry-focused audit, a transformation plan, and a completed bounded companion layer for runtime authority, goal routing, and surface-state distinctions`
-- current docs-audit-sequencing status: `the challenged lane pair, transformation plan, and bounded companion layer are complete; the next move is the bounded intervention proposal set`
+- current intervention-proposal status: `the first four bounded harness follow-through proposals now exist, the first-tranche disposition is written, and the first accepted pair is now landed in the instruction/runtime layer`
+- current docs-audit-sequencing status: `the challenged lane pair, transformation plan, bounded companion layer, and first intervention proposal batch are complete; the current move is proposal disposition and first bounded follow-through`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -116,7 +122,8 @@ Date: 2026-04-20
 ## Next Pending Actions
 
 1. use the bounded companion onboarding set as the starting read set for future harness-intervention work: `HARNESS-INTERVENTION-UPDATE-LANE.md`, `HARNESS-INTERVENTION-ONBOARDING.md`, `RUNTIME-MATERIALIZATION-AND-AUTHORITY.md`, `GOAL-TO-SURFACE-INTERVENTION-INDEX.md`, and `SURFACE-STATUS-AND-DELTA.md`
-2. turn the highest-rank surfaces into proposal artifacts: agent `.toml` authority alignment, launch-truth capture, manifest/install coherence, and live-vs-overlay drift visibility
+2. verify and checkpoint the first accepted intervention pair as the new runtime/planning baseline
+3. decide whether to start the second tranche with a bounded live-vs-overlay drift register pilot
 4. record and later repair the install/overlay manifest-coherence issue instead of silently trusting manifest hashes
 5. decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
 6. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings

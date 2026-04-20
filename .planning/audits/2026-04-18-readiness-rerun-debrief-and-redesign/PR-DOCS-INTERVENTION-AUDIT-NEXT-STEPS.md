@@ -45,11 +45,18 @@ Status: partially completed next-step note
      - [PR-DOCS-INTERVENTION-TRANSFORMATION-PLAN.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/PR-DOCS-INTERVENTION-TRANSFORMATION-PLAN.md:1)
 
 5. **Then route into bounded intervention proposals**
-   - [d:r:i] Turn the four highest-rank harness surfaces into bounded proposal artifacts:
-     - agent `.toml` authority alignment
-     - launch-truth capture
-     - manifest/install coherence
-     - live-vs-overlay drift visibility
+  - [d:r:i] Turn the four highest-rank harness surfaces into bounded proposal artifacts:
+    - agent `.toml` authority alignment
+    - launch-truth capture
+    - manifest/install coherence
+    - live-vs-overlay drift visibility
+  - [d:c+i] Completed:
+    - [intervention-proposals/01-agent-toml-authority-alignment-proposal.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/01-agent-toml-authority-alignment-proposal.md:1)
+    - [intervention-proposals/02-launch-truth-capture-proposal.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/02-launch-truth-capture-proposal.md:1)
+    - [intervention-proposals/03-manifest-install-coherence-proposal.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/03-manifest-install-coherence-proposal.md:1)
+    - [intervention-proposals/04-live-vs-overlay-drift-visibility-proposal.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/04-live-vs-overlay-drift-visibility-proposal.md:1)
+    - [intervention-proposals/05-batch-routing-note.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/05-batch-routing-note.md:1)
+    - [intervention-proposals/06-first-tranche-disposition.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/06-first-tranche-disposition.md:1)
 
 ## Things To Keep Explicitly In View
 
@@ -65,4 +72,8 @@ Status: partially completed next-step note
 - [g:r:i] The bounded companion layer is now complete:
   - [GOAL-TO-SURFACE-INTERVENTION-INDEX.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/GOAL-TO-SURFACE-INTERVENTION-INDEX.md:1)
   - [SURFACE-STATUS-AND-DELTA.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/SURFACE-STATUS-AND-DELTA.md:1)
-- [g:r:i] Immediate next move: route from the completed companion layer into the bounded intervention proposal artifacts.
+- [g:r:i] The bounded intervention proposal batch now exists under:
+  - [intervention-proposals/README.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/README.md:1)
+- [g:r:i] The first-tranche disposition now exists and the first accepted pair is partially landed:
+  - [intervention-proposals/06-first-tranche-disposition.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/06-first-tranche-disposition.md:1)
+- [g:r:i] Immediate next move: checkpoint the landed first pair and then decide whether to start the second tranche with bounded drift visibility.

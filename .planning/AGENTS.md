@@ -85,6 +85,16 @@ Deletion / retirement rules:
   - then run `verify`
 - when an older artifact remains historically relevant, prefer replacement pointers, supersession notes, or tombstones over hard removal
 
+## Launch-Truth Discipline
+
+For spawned planning, audit, review, or doctrine-sensitive work inside `.planning/`:
+
+- do not rely on private sqlite inspection plus chat memory as the only launch-truth surface
+- prefer durable requested-vs-effective capture with `python3 tooling/codex/capture_launch_truth.py`
+- use a strong pre-spawn `--since` boundary when available
+- preserve the capture in the relevant launch-truth, review, audit, or disposition artifact before inheriting the return
+- treat missing runtime fields as unresolved rather than silently inferred matches
+
 ## Research And Audit Quality
 
 For non-trivial research, audit, gap-closure, sensitivity, or synthesis work:

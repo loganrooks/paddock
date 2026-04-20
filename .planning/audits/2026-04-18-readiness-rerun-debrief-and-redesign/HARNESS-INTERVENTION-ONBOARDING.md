@@ -87,14 +87,15 @@ Status: draft working map
 ## Recommended Sequence
 
 1. Use this artifact, [HARNESS-INTERVENTION-UPDATE-LANE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/HARNESS-INTERVENTION-UPDATE-LANE.md), [RUNTIME-MATERIALIZATION-AND-AUTHORITY.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/RUNTIME-MATERIALIZATION-AND-AUTHORITY.md), [GOAL-TO-SURFACE-INTERVENTION-INDEX.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/GOAL-TO-SURFACE-INTERVENTION-INDEX.md), and [SURFACE-STATUS-AND-DELTA.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/SURFACE-STATUS-AND-DELTA.md) as the bounded onboarding set for future harness-intervention work.
-2. Turn the highest-rank intervention surfaces into bounded proposals:
+2. Use the completed proposal batch under [intervention-proposals/README.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/README.md:1) as the bounded follow-through layer for:
    - agent `.toml` authority alignment
    - launch-truth capture
    - manifest/install coherence
    - live-vs-overlay drift visibility
-3. Use `spec-phase` and `ingest-docs` explicitly when a future intervention lane needs better inheritance or clearer WHAT-before-HOW framing.
-4. Preserve the docs-refresh branch mainly as governance pressure, not as a replacement truth set.
-5. Re-run isolated upgrade probes before any future post-`1.38.1` runtime jump.
+3. Start disposition with [intervention-proposals/05-batch-routing-note.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/05-batch-routing-note.md:1), which sequences the first strongest pair as launch-truth capture plus agent `.toml` authority alignment.
+4. Use `spec-phase` and `ingest-docs` explicitly when a future intervention lane needs better inheritance or clearer WHAT-before-HOW framing.
+5. Preserve the docs-refresh branch mainly as governance pressure, not as a replacement truth set.
+6. Re-run isolated upgrade probes before any future post-`1.38.1` runtime jump.
 
 ## Bottom Line
 
