@@ -183,7 +183,9 @@
 - current ordered high-leverage authority review: `intervention-proposals/19-high-leverage-live-only-authority-review.md`
 - current accepted reviewer carry note: `intervention-proposals/20-gsd-code-reviewer-authority-carry-review.md`
 - current reviewer post-carry runtime artifact: `intervention-proposals/artifacts/03-gsd-code-reviewer-post-carry-runtime-visibility.json`
-- next step: run the bounded authority/carry review on `gsd-code-fixer.toml`
+- current accepted fixer carry note: `intervention-proposals/21-gsd-code-fixer-authority-carry-review.md`
+- current fixer post-carry runtime artifact: `intervention-proposals/artifacts/04-gsd-code-fixer-post-carry-runtime-visibility.json`
+- next step: run the bounded authority/carry review on `gsd-intel-updater.toml`
 - later lane outputs for the debrief/audit wave
 - later synthesis artifact that recommends a rerun shape or a justified alternative
 

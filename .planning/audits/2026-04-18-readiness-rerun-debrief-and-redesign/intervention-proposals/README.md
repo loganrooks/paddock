@@ -28,6 +28,7 @@ Status: active proposal/disposition batch
 18. `18-live-only-agent-authority-carry-proposal.md`
 19. `19-high-leverage-live-only-authority-review.md`
 20. `20-gsd-code-reviewer-authority-carry-review.md`
+21. `21-gsd-code-fixer-authority-carry-review.md`
 
 ## Proposal Rule
 
