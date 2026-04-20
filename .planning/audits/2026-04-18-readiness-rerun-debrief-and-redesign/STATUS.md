@@ -109,6 +109,8 @@ Date: 2026-04-20
 - current intel-updater-carry status: `gsd-intel-updater now carries as a paired overlay/live surface with AGENTS-governed intel-authority discovery and explicit `.codex` runtime-topology mapping; the post-carry runtime report records agents/gsd-intel-updater.toml as intentional materialized carry with raw-equal live/overlay hashes`
 - current pattern-mapper-carry status: `gsd-pattern-mapper now carries as a paired overlay/live surface with AGENTS-governed planning-context discovery, repo-local .codex skill/runtime discovery, and stronger anti-threshold analog-selection guidance; the post-carry runtime report records agents/gsd-pattern-mapper.toml as intentional materialized carry with raw-equal live/overlay hashes`
 - current package-truth-residue status: `no further narrow parity/materialization pass is currently earned; the only real residue was stale readiness-package truth, and that bounded refresh is now landed while R5.8 is completed on the proof-backed materialization slice`
+- current rerun-floor status: `the floor is now recomputed against the cleaner intervention/runtime baseline rather than inherited from stale Checkpoint-5 assumptions; remaining pre-rerun floor items are BE-6 executed-bundle review closure, chain-tail spec preflight landing, brake-exit rule, preserve-only activation-trigger doctrine, execution-capacity reopen rule, and explicit remainder carry`
+- current program-honesty-rule status: `the three linked rule artifacts now exist as bounded proposals under intervention-proposals/26-28 rather than ambient lane-06 memory`
 - current installer-reasoning-default status: `the reviewer tranche also corrected scripts/setup-portable-gsd.sh so live .codex/config.toml now materializes with top-level model_reasoning_effort=xhigh instead of silently regressing to high`
 - current tranche-audit status: `the narrow post-tranche cross-vendor pair is complete and inherited; accepted now: classifier tightening plus thin CLAUDE wrappers, held: broad family expansion and broad stale-agent cleanup`
 - current docs-audit-sequencing status: `the challenged lane pair, transformation plan, bounded companion layer, and first intervention proposal batch are complete; the current move is proposal disposition and first bounded follow-through`
@@ -164,7 +166,7 @@ Date: 2026-04-20
 1. use the bounded companion onboarding set as the starting read set for future harness-intervention work: `HARNESS-INTERVENTION-UPDATE-LANE.md`, `HARNESS-INTERVENTION-ONBOARDING.md`, `RUNTIME-MATERIALIZATION-AND-AUTHORITY.md`, `GOAL-TO-SURFACE-INTERVENTION-INDEX.md`, and `SURFACE-STATUS-AND-DELTA.md`
 2. verify and checkpoint the first accepted intervention pair plus the bounded drift-register pilot as the new runtime/planning baseline
 3. inherit the manifest semantic contract note before touching install/manifest logic: preserve update-boundary manifest meaning and do not rewrite `gsd-file-manifest.json` into a final-runtime snapshot
-4. start rerun-floor recomputation on the now-cleaner program baseline
+4. translate the recomputed rerun floor into the next actual closure moves: BE-6 executed-bundle review, chain-tail rule landing, and doctrine-surface disposition for the three program-honesty rules
 5. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
 
 ## Open Questions

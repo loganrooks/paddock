@@ -190,7 +190,11 @@
 - current accepted pattern-mapper carry note: `intervention-proposals/23-gsd-pattern-mapper-authority-carry-review.md`
 - current pattern-mapper post-carry runtime artifact: `intervention-proposals/artifacts/06-gsd-pattern-mapper-post-carry-runtime-visibility.json`
 - current package-truth / parity residue judgment: `intervention-proposals/24-package-truth-and-parity-residue-judgment.md`
-- next step: start rerun-floor recomputation on the cleaner intervention/program baseline
+- current rerun-floor recomputation: `intervention-proposals/25-rerun-floor-recomputation.md`
+- current brake-exit rule proposal: `intervention-proposals/26-brake-exit-rule.md`
+- current preserve-only activation-trigger doctrine proposal: `intervention-proposals/27-preserve-only-activation-trigger-doctrine.md`
+- current execution-capacity reopen rule proposal: `intervention-proposals/28-execution-capacity-reopen-rule.md`
+- next step: turn the recomputed floor into the next actual closure batch rather than reopening parity/materialization work
 - later lane outputs for the debrief/audit wave
 - later synthesis artifact that recommends a rerun shape or a justified alternative
 

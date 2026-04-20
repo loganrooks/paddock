@@ -31,7 +31,13 @@ Status: active proposal/disposition batch
 21. `21-gsd-code-fixer-authority-carry-review.md`
 22. `22-gsd-intel-updater-authority-carry-review.md`
 23. `23-gsd-pattern-mapper-authority-carry-review.md`
+24. `24-package-truth-and-parity-residue-judgment.md`
+25. `25-rerun-floor-recomputation.md`
+26. `26-brake-exit-rule.md`
+27. `27-preserve-only-activation-trigger-doctrine.md`
+28. `28-execution-capacity-reopen-rule.md`
 
 ## Proposal Rule
 
 - [d:r:i] Each proposal should stay bounded enough that a later acceptance/revision/rejection decision can be made on its own merits rather than by invoking another broad “improve the harness” abstraction.
+- [d:r:i] Current next move after this batch: use `25` through `28` to drive the next concrete floor-closing action set rather than reopening already-settled parity/materialization seams.
