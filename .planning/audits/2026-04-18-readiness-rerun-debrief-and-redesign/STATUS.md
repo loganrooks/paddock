@@ -1,7 +1,7 @@
 # Status
 
 Status: active setup  
-Date: 2026-04-19
+Date: 2026-04-20
 
 ## Current Position
 
@@ -47,6 +47,12 @@ Date: 2026-04-19
 - Wave-2 lane-06 launched and completed against frozen basis `24b54d3`
 - parallel local spawned reviewer completed for Wave-2 lane-06
 - bounded runtime-authority drift probe completed in parallel with Wave-2 lane-06
+- harness intervention update lane written
+- harness intervention onboarding map written
+- isolated latest-install probe completed against detached worktree
+- active repo-local `.codex/` confirmed already at `v1.38.1`
+- fresh latest reinstall + overlay confirmed semantically aligned with active runtime except for repo-local config defaults and stale manifest hashes
+- docs-refresh branch confirmed useful as inventory/parity governance pressure, not as equivalent current upstream truth
 - Wave-2 lane-06 launch-truth note written under `wave-2/launch-truth/`
 - Wave-2 lane-06 comparative disposition written under `wave-2/dispositions/`
 - accepted first-slice tranche artifact written under `wave-2/dispositions/`
@@ -56,6 +62,7 @@ Date: 2026-04-19
 - no readiness-package mutation authorized from this workspace
 - recommended main path currently: `redefined Proposal B-extended + bounded harness-first prerequisite tranche + learning-rerun posture`
 - current main-wave status: `Wave-2 lane-06 accepted; the bounded R5.18 materialization fix slice is now partially executed and reinstall-backed, not just proposed`
+- current harness-update status: `active runtime already sits at published v1.38.1; the missing object is intervention onboarding, not a blind reinstall`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -92,11 +99,11 @@ Date: 2026-04-19
 
 ## Next Pending Actions
 
-1. checkpoint the current bounded `R5.18` materialization / package-truth fix batch cleanly
-2. decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
-3. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
-4. preserve launch-truth, packet-freeze, and checkpoint discipline while the next slice is chosen
-5. keep the audit workspace checkpointed and reviewable rather than letting next-slice work accumulate as an uncommitted spill
+1. use the new harness intervention onboarding pair as the starting read set for future harness-intervention work
+2. turn the highest-rank surfaces into bounded proposal artifacts: agent `.toml` authority alignment, launch-truth capture, manifest/install coherence, and live-vs-overlay drift visibility
+3. record and later repair the install/overlay manifest-coherence issue instead of silently trusting manifest hashes
+4. decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
+5. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
 
 ## Open Questions
 
@@ -104,3 +111,4 @@ Date: 2026-04-19
 - do any first Wave-1 lane specs need narrower packet trims than the default manifests in order to stay within band without losing contrary pressure?
 - does the audit directory later need a bounded organization / topology cleanup beyond the current authority note, read-order scaffolding, and manifest discipline once Wave-1 artifacts accumulate?
 - is a bounded reviewer-register vocabulary curation note worth doing later, or does stronger spec-writing and packet discipline make that unnecessary?
+- what is the best durable shape for a repo-local harness intervention onboarding doc that can carry both current runtime truth and longer-horizon modification planning?
