@@ -60,4 +60,6 @@ Status: partially completed next-step note
 
 ## Bottom Line
 
-- [g:r:i] Immediate next move: route the transformation plan into the first bounded companion artifact and the first bounded proposal artifacts, starting with `RUNTIME-MATERIALIZATION-AND-AUTHORITY.md`.
+- [g:r:i] The first bounded companion artifact is now landed:
+  - [RUNTIME-MATERIALIZATION-AND-AUTHORITY.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/RUNTIME-MATERIALIZATION-AND-AUTHORITY.md:1)
+- [g:r:i] Immediate next move: complete the remaining bounded companion layer with `GOAL-TO-SURFACE-INTERVENTION-INDEX.md` and `SURFACE-STATUS-AND-DELTA.md`, then route into the bounded intervention proposal artifacts.
