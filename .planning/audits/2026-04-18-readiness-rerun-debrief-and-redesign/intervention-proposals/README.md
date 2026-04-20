@@ -20,6 +20,9 @@ Status: active proposal batch
 10. `10-final-runtime-visibility-first-pass-disposition.md`
 11. `11-second-tranche-sequencing-disposition.md`
 12. `12-live-only-agent-cohort-matrix.md`
+13. `13-live-only-agent-targeted-reread-disposition.md`
+14. `14-selected-lane-runtime-snapshot-discipline.md`
+15. `15-cleaner-manifest-install-coherence-follow-through.md`
 
 ## Proposal Rule
 

@@ -64,6 +64,9 @@ For structural `.planning/` changes that can affect markdown links, prefer the r
 - `python3 tooling/codex/runtime_visibility.py`
   - use for harness-intervention or portable-GSD runtime work when the real question is how final `.codex/` runtime surfaces differ from tracked overlay canon after materialization
   - prefer it over vague `overlay/live drift` language when you need a bounded, classified view of high-leverage runtime families
+- `python3 tooling/codex/capture_runtime_visibility_snapshot.py --label ... --output ...`
+  - use for selected audit/intervention lane boundaries when ephemeral terminal output is too weak and the lane needs a frozen runtime-truth record with commit metadata
+  - prefer this over hand-written runtime summaries when classified final-runtime carry is part of the later inheritance surface
 
 Move manifest format:
 
