@@ -67,6 +67,10 @@ For structural `.planning/` changes that can affect markdown links, prefer the r
 - `python3 tooling/codex/capture_runtime_visibility_snapshot.py --label ... --output ...`
   - use for selected audit/intervention lane boundaries when ephemeral terminal output is too weak and the lane needs a frozen runtime-truth record with commit metadata
   - prefer this over hand-written runtime summaries when classified final-runtime carry is part of the later inheritance surface
+- `python3 tooling/codex/manifest_install_coherence.py . --snapshot <snapshot.json> --output <report.json> --strict`
+  - use for manifest/install coherence work after a selected-lane runtime snapshot exists
+  - prefer this over prose-only coherence judgments when the lane needs auditable comparison across updater-boundary truth, tracked carried-subset truth, and frozen final-runtime truth
+  - `--strict` is the default quality gate when you want the report to refuse dirty current state or unresolved runtime ambiguity
 
 Move manifest format:
 
