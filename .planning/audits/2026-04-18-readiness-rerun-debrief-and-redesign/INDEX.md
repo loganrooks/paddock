@@ -41,13 +41,16 @@
 35. [wave-2/outputs/06-rerun-design-opus47-max-r1.md](wave-2/outputs/06-rerun-design-opus47-max-r1.md)
 36. [wave-2/outputs/06-rerun-design-gpt54-xhigh-r1.md](wave-2/outputs/06-rerun-design-gpt54-xhigh-r1.md)
 37. [wave-2/dispositions/06-wave-2-lane06-comparative-disposition.md](wave-2/dispositions/06-wave-2-lane06-comparative-disposition.md)
-38. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
-39. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
-40. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
-41. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
-42. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
-43. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
-44. [corpus/README.md](corpus/README.md)
+38. [wave-2/dispositions/07-accepted-program-first-slice-tranche.md](wave-2/dispositions/07-accepted-program-first-slice-tranche.md)
+39. [wave-2/dispositions/08-r5-18-executed-bundle-review-pair-inheritance.md](wave-2/dispositions/08-r5-18-executed-bundle-review-pair-inheritance.md)
+40. [wave-2/dispositions/09-r5-18-materialization-and-package-truth-fix-slice.md](wave-2/dispositions/09-r5-18-materialization-and-package-truth-fix-slice.md)
+41. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
+42. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
+43. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
+44. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
+45. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
+46. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
+47. [corpus/README.md](corpus/README.md)
 
 ## Source-Of-Truth Hierarchy
 
@@ -74,6 +77,9 @@
 - current Wave-2 lane-06 launch record: `wave-2/launch-truth/06-rerun-design-launch-truth.md`
 - current raw Wave-2 lane-06 outputs: `wave-2/outputs/06-rerun-design-opus47-max-r1.md`, `wave-2/outputs/06-rerun-design-gpt54-xhigh-r1.md`
 - current inheritance decision for Wave-2 lane-06: `wave-2/dispositions/06-wave-2-lane06-comparative-disposition.md`
+- current bounded first-slice tranche: `wave-2/dispositions/07-accepted-program-first-slice-tranche.md`
+- current `R5.18` review-pair inheritance note: `wave-2/dispositions/08-r5-18-executed-bundle-review-pair-inheritance.md`
+- current bounded `R5.18` materialization / package-truth fix slice: `wave-2/dispositions/09-r5-18-materialization-and-package-truth-fix-slice.md`
 - current frozen first-lane packet files: `wave-1/packets/`
 - current frozen first-lane specs: `wave-1/specs/`
 - current drafted second-wave packet files: `wave-2/packets/`
@@ -100,7 +106,7 @@
 - current accepted Wave-2 lane-05 outputs under `wave-2/outputs/`
 - current Wave-2 lane dispositions under `wave-2/dispositions/`
 - current Wave-2 launch-truth records under `wave-2/launch-truth/`
-- next step: translate the accepted lane-06 program into a bounded first-slice artifact
+- next step: execute the bounded `R5.18` materialization / package-truth fix slice
 - later lane outputs for the debrief/audit wave
 - later synthesis artifact that recommends a rerun shape or a justified alternative
 
