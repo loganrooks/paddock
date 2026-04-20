@@ -96,7 +96,7 @@ Date: 2026-04-20
 - current drift-register status: `the second tranche now has a bounded pilot register; sampled load-bearing differences are mostly intelligible materialized carry or selective overlay boundary, not mystery drift`
 - current manifest-contract status: `the second tranche now rejects manifest semantic collapse; gsd-file-manifest.json remains an upstream/update-boundary artifact, backup-meta stays tracked subset-carry metadata, and the missing object is a separate final-runtime visibility surface`
 - current final-runtime-visibility status: `a bounded follow-through proposal now exists for a separate repo-local runtime-truth surface that can coexist with the updater/custom-file manifest instead of replacing it`
-- current runtime-visibility-tool status: `the paired verifier/snapshot tool now records checkout-local normalized hash scope, supports bounded obsolete-live-residue detection where repo evidence exists, and has a small unit test harness; the current live sample still concentrates most pressure in selective overlay boundary rather than unknown drift`
+- current runtime-visibility-tool status: `the paired verifier/snapshot tool now records checkout-local normalized hash scope, supports bounded obsolete-live-residue detection where repo evidence exists, has a small unit test harness, and now emits stable per-entry subclassification plus a subclassification summary; the current live sample resolves the big boundary bucket mainly into 133 upstream-shipped boundary surfaces, 12 install-mutation boundary surfaces, and 16 untracked live-only boundary surfaces rather than mystery drift`
 - current tranche-audit status: `the narrow post-tranche cross-vendor pair is complete and inherited; accepted now: classifier tightening plus thin CLAUDE wrappers, held: broad family expansion and broad stale-agent cleanup`
 - current docs-audit-sequencing status: `the challenged lane pair, transformation plan, bounded companion layer, and first intervention proposal batch are complete; the current move is proposal disposition and first bounded follow-through`
 - current challenge artifacts:
@@ -129,6 +129,7 @@ Date: 2026-04-20
   - [tranche-audit/outputs/01-runtime-visibility-tranche-opus47-max-r1.md](tranche-audit/outputs/01-runtime-visibility-tranche-opus47-max-r1.md)
   - [tranche-audit/outputs/01-runtime-visibility-tranche-gpt54-xhigh-r1.md](tranche-audit/outputs/01-runtime-visibility-tranche-gpt54-xhigh-r1.md)
   - [tranche-audit/dispositions/01-runtime-visibility-tranche-comparative-disposition.md](tranche-audit/dispositions/01-runtime-visibility-tranche-comparative-disposition.md)
+  - [tranche-audit/artifacts/01-runtime-visibility-report.json](tranche-audit/artifacts/01-runtime-visibility-report.json)
 
 ## Accepted Starting Decisions
 
@@ -150,7 +151,7 @@ Date: 2026-04-20
 1. use the bounded companion onboarding set as the starting read set for future harness-intervention work: `HARNESS-INTERVENTION-UPDATE-LANE.md`, `HARNESS-INTERVENTION-ONBOARDING.md`, `RUNTIME-MATERIALIZATION-AND-AUTHORITY.md`, `GOAL-TO-SURFACE-INTERVENTION-INDEX.md`, and `SURFACE-STATUS-AND-DELTA.md`
 2. verify and checkpoint the first accepted intervention pair plus the bounded drift-register pilot as the new runtime/planning baseline
 3. inherit the manifest semantic contract note before touching install/manifest logic: preserve update-boundary manifest meaning and do not rewrite `gsd-file-manifest.json` into a final-runtime snapshot
-4. use the landed runtime-visibility tool plus tranche-audit follow-through to decide the next tightening: sharper sub-classification inside `selective overlay boundary`, durable ignored snapshots for selected lanes, or bounded stale-agent cleanup
+4. use the landed runtime-visibility tool plus tranche-audit follow-through to decide the next tightening after the new boundary split: durable ignored snapshots for selected lanes, narrower subdivision inside the remaining untracked live-only boundary surfaces, or bounded stale-agent cleanup
 5. decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
 6. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
 
