@@ -189,7 +189,8 @@
 - current intel-updater post-carry runtime artifact: `intervention-proposals/artifacts/05-gsd-intel-updater-post-carry-runtime-visibility.json`
 - current accepted pattern-mapper carry note: `intervention-proposals/23-gsd-pattern-mapper-authority-carry-review.md`
 - current pattern-mapper post-carry runtime artifact: `intervention-proposals/artifacts/06-gsd-pattern-mapper-post-carry-runtime-visibility.json`
-- next step: decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
+- current package-truth / parity residue judgment: `intervention-proposals/24-package-truth-and-parity-residue-judgment.md`
+- next step: start rerun-floor recomputation on the cleaner intervention/program baseline
 - later lane outputs for the debrief/audit wave
 - later synthesis artifact that recommends a rerun shape or a justified alternative
 

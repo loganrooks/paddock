@@ -1,6 +1,6 @@
 # Readiness Status
 
-Last updated: 2026-04-16
+Last updated: 2026-04-20
 
 ## Current checkpoint
 
@@ -24,7 +24,7 @@ Last updated: 2026-04-16
   - open a bounded Checkpoint 5
   - keep the bounded scope centered on rerun-blocking harness follow-through
   - do not silently pull every later hardening opportunity into the pre-rerun checkpoint
-  - the branch/worktree boundary materialization trigger has now fired; treat it as an active bounded fix surface rather than accepted bounded risk
+  - the branch/worktree boundary materialization trigger fired and has now been answered by a bounded executed-and-proved `R5.18` materialization slice on the targeted frontier; broader provenance hardening remains later-lane work rather than current-wave closure shelter
 - Starting the fresh Phase 01 rerun now would still skip the main work Checkpoint 5 now owns:
   - phase-critical runtime-authoritative worker alignment
   - bounded review / closure-pressure follow-through
@@ -65,6 +65,7 @@ Last updated: 2026-04-16
 - maintaining the readiness package as the live continuity surface instead of ambient session memory
 - research-intake tracking for supporting and conditional follow-through bundles
 - executed `R5.18` patch bundle from the accepted revised spec
+- bounded `R5.18` materialization / package-truth follow-through now has reinstall-backed proof on the targeted frontier
 - active now: internal and cross-vendor checkpoint review of the coherent `R5.18` patch bundle
 - readiness-package truthfulness around the executed `R5.18` frontier and its explicit residual cautions
 - the `R5.16` propagation bundle is complete:
@@ -163,10 +164,6 @@ Last updated: 2026-04-16
    - current-wave fixes must not be allowed to masquerade as closure of those later lanes
 4. `commands.cjs`, `init.cjs`, milestone-boundary consumers, and the summary template remain explicit non-promoted chain-tail/lifecycle remainders.
    - the package should not claim end-to-end debt-aware propagation until those owners are handled or deliberately kept out
-5. Branch/worktree boundary materialization remains visible but under-evidenced.
-   - Current disposition: active bounded fix surface
-   - Concrete mismatch evidence now exists between the tracked overlay canon and the live `R5.18` frontier; closure should wait on the bounded materialization / package-truth fix slice
-
 ## Worktree / commit posture
 
 - Working tree should normally be kept clean between readiness moves.
@@ -193,7 +190,7 @@ Last updated: 2026-04-16
   - [REVIEWS/checkpoint-0-internal-review-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r1.md)
   - [REVIEWS/checkpoint-0-internal-review-r2.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-0-internal-review-r2.md)
 - The next readiness-moving commit should capture:
-  - the executed and review-prepped `R5.18` patch bundle plus package-truth updates
+  - the executed, proof-backed, and review-prepped `R5.18` patch bundle plus package-truth updates
   - then, separately, the Checkpoint 5 internal and cross-vendor review outcomes
 
 ## Immediate next action
