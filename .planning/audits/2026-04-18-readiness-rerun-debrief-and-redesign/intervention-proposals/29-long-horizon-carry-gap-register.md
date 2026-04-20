@@ -8,6 +8,7 @@ Status: active gap register
 - [g:r:i] Record the concrete places where long-horizon carry is already strong, where it still weakens or disappears, and where the harness still lacks better structures for managing multiple horizons without foreclosing stronger future options.
 - [d:r:i] This is meant to be good audit input, not private chat memory.
 - [d:r:i] A later cross-vendor lane should be able to read this artifact, challenge the claimed gaps, add missing ones, or narrow overclaimed ones.
+- [g:r:i] The aim is not only to identify what is missing or under-carried. It is also to identify how the harness could become a materially stronger version of itself even where no simple deficiency claim is available.
 
 ## Governing Observation
 
@@ -16,6 +17,7 @@ Status: active gap register
   - preserve it through later lifecycle surfaces
   - make cross-horizon tensions more explicit
   - and keep the harness iterating toward a stronger overall form instead of only patching local omissions
+- [d:r:i] So the controlling question is not merely “where is the harness deficient?” It is also “where could the harness positively intensify its power to carry more horizons, preserve more optionality, and support stronger long-run intervention design?”
 
 ## Concrete Lifecycle Gaps
 
@@ -81,6 +83,41 @@ Status: active gap register
 4. [d:r:i] **Long-horizon project-memory digest**
    - a way for `STATE.md` / `progress` to remind the operator what future structure is under active pressure without forcing a reread of the whole long arc
 
+## Positive Self-Overcoming Pressure
+
+- [g:r:i] The harness should not relate to its limits only negatively, as if its task were merely to heal deficiency back to some acceptable baseline.
+- [g:r:i] A stronger framing is: which bounded interventions would let the harness carry more reality, more horizons, more optionality, and more deliberate self-transformation than it currently can?
+
+### Likely Missing Positive Surfaces
+
+1. [d:r:i] **Explicit strength-amplification register**
+   - not just a list of gaps or weaknesses
+   - a compact surface for recording the highest-leverage next moves that would make the harness materially stronger across multiple dimensions
+
+2. [d:r:i] **Cross-horizon strategy surface**
+   - not only a place to preserve seams
+   - a place to reason about how near-term moves can actively increase later strategic freedom rather than merely avoid collapse
+
+3. [d:r:i] **Optionality-growth lens**
+   - a way to ask, for any proposed intervention, whether it:
+     - keeps options open
+     - expands the space of viable future moves
+     - or silently narrows later design possibilities
+
+4. [d:r:i] **Harness self-transformation queue**
+   - a standing, durable surface that records the next bounded moves that would raise the harness’s own quality, not just the quality of the project it is helping with
+
+5. [d:r:i] **Multi-dimensional excellence basket**
+   - a stable way to judge candidate interventions across dimensions such as:
+     - maintainability
+     - runtime authority clarity
+     - long-horizon carry
+     - operator legibility
+     - auditability
+     - update resilience
+     - intervention yield
+   - not to create a rigid scorecard, but to prevent one dimension from quietly dominating all others
+
 ## Best-Possible-Harness Pressure Gaps
 
 - [d:r:i] If the target is not only “carry long-horizon distinctions better,” but “keep straining toward the best harness we can build,” then there are a few broader likely gaps too.
@@ -114,6 +151,15 @@ Status: active gap register
   - what bounded move would most increase long-run harness quality next
 - [d:r:i] That question keeps being asked by ad hoc audits rather than by a standing improvement surface.
 
+### 4. Weak Positive Relation To Constraint
+
+- [d:r:i] Constraint is still too easy to treat only as a brake, blocker, or deficiency marker.
+- [d:r:i] A stronger harness would also ask:
+  - which constraints are design-shaping and should be used productively
+  - which constraints can be turned into better routing, better explicitness, or better memory structures
+  - which current limitations are actually invitations to invent a stronger operating form
+- [d:r:i] Without that positive relation, the harness risks becoming only good at diagnosing what it lacks rather than at inventing stronger forms of practice.
+
 ## Candidate Next Lanes
 
 ### Bounded Local Follow-Through
@@ -131,12 +177,13 @@ Status: active gap register
   - which are overstated
   - which additional surfaces are missing
   - which proposed interventions should come first
-  - whether the broader “best possible harness” pressure is framed strongly enough or still too vaguely
+  - whether the broader “best possible harness” and self-overcoming pressure is framed strongly enough or still too weakly / negatively
 
 ## Anti-Misread Rules
 
 - [g:r:i] This register does not mean “the current harness has no long-horizon carry.”
 - [g:r:i] It does not mean “future awareness must be embedded everywhere equally.”
+- [g:r:i] It does not reduce harness improvement to deficiency-removal, healing, or movement toward mere adequacy.
 - [g:r:i] It means the harness currently carries long-horizon thinking most strongly at discuss/plan entry and less strongly at later lifecycle and self-improvement surfaces.
 
 ## Current Consequence

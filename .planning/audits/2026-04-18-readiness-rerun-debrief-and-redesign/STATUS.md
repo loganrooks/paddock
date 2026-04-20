@@ -94,6 +94,7 @@ Date: 2026-04-20
 - current docs-onboarding status: `the submitted docs PR now has a carry-focused audit, a transformation plan, and a completed bounded companion layer for runtime authority, goal routing, and surface-state distinctions`
 - plain-language re-entry pair written for this workspace: `PLAIN-LANGUAGE-STATE.md` and `PLAIN-LANGUAGE-GLOSSARY.md`
 - long-horizon carry gap register written under `intervention-proposals/29-long-horizon-carry-gap-register.md`
+- long-horizon gap register strengthened to reject deficiency-only framing and explicitly track positive self-overcoming / ideal-form pressure
 - current intervention-proposal status: `the first four bounded harness follow-through proposals now exist, the first-tranche disposition is written, and the first accepted pair is now landed in the instruction/runtime layer`
 - current drift-register status: `the second tranche now has a bounded pilot register; sampled load-bearing differences are mostly intelligible materialized carry or selective overlay boundary, not mystery drift`
 - current manifest-contract status: `the second tranche now rejects manifest semantic collapse; gsd-file-manifest.json remains an upstream/update-boundary artifact, backup-meta stays tracked subset-carry metadata, and the missing object is a separate final-runtime visibility surface`
@@ -172,6 +173,7 @@ Date: 2026-04-20
 5. translate the recomputed rerun floor into the next actual closure moves: BE-6 executed-bundle review, chain-tail rule landing, and doctrine-surface disposition for the three program-honesty rules
 6. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
 7. if this workspace wants a sharper cross-vendor challenge on horizon carry and harness ideal-form pressure, use `intervention-proposals/29-long-horizon-carry-gap-register.md` as the packet seed rather than reconstructing the gap from chat
+8. preserve the strengthened reading of `29`: the task is not only to diagnose under-carried surfaces, but to identify where the harness could positively intensify long-horizon carry, optionality, and multi-dimensional excellence
 
 ## Open Questions
 
