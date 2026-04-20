@@ -91,7 +91,16 @@
 - [e:c+i] The `outcome-and-underreach-audit` lane rejects both `mostly fine` and `mostly churn`, records real governance/doctrine gains plus `16` underreaches, and returns a mixed mapping/judgment/interactions split rather than a one-axis diagnosis. Source: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/wave-1/outputs/02-outcome-and-underreach-audit-opus47-max-r1.md:1-17.
 - [e:c+i] The `mapping-adequacy-and-comparative-mapping` lane returns the strongest concise mapping verdict so far: the readiness-era map was `directionally adequate and structurally under-mapped`, while the bridge verdict and later docs work both remain only partial carriers of what runtime-local adequacy would require. Source: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/wave-1/outputs/03-mapping-adequacy-and-comparative-mapping-opus47-max-r1.md:1-16.
 - [e:c+i] The `operator-orchestration-pressure` lane sharply narrows a tempting fallback explanation: operator pressure is mostly `amplifying`, not `primary`, except for launch-truth vigilance and a few carrier-level wake failures. Source: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/wave-1/outputs/04-operator-orchestration-pressure-opus47-max-r1.md:1-16.
-- [d:r:i] Current consequence: the workspace is no longer waiting on first-lane execution. The immediate next work is a local reread and comparative disposition of the four returned outputs before any Wave-2 shaping, reroll, or synthesis move.
+- [d:r:i] Current consequence at that stage: the workspace was no longer waiting on first-lane execution. The immediate next work was a local reread and comparative disposition of the four returned outputs before any Wave-2 shaping, reroll, or synthesis move.
+
+## What The First Comparative Disposition Now Settles
+
+- [d:c+i] The first comparative disposition accepts all four Wave-1 Opus returns as substantive evidence and does not recommend immediate reroll of any of them. Source: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/wave-1/dispositions/01-wave-1-opus-r1-comparative-disposition.md:18-53.
+- [d:c+i] The strongest converged stack is now explicit: the package was larger than rerun-prep, it achieved real gains and real underreach, the map was directionally adequate but structurally under-mapped, and operator pressure was mostly amplifying rather than primary. Source: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/wave-1/dispositions/01-wave-1-opus-r1-comparative-disposition.md:7-53.
+- [d:c+i] Two live factual claims from the Wave-1 returns have already been locally checked and held:
+  - `.codex/agents/*.toml` stale `CLAUDE.md` references currently stand at `13/31`
+  - `.codex/` still has no occurrences of `post-verificationist`, `post-falsificationist`, `gap-exposure`, `completeness-challenge`, or `anti-regret`
+- [d:r:i] Current consequence: the workspace is ready to move into Wave-2 spec-writing rather than staying in Wave-1 post-launch limbo.
 
 ## What Is Still Unsettled
 

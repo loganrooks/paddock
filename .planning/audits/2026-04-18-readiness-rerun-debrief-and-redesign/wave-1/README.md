@@ -26,3 +26,4 @@ Date: 2026-04-19
 
 - [g:r:i] New Wave-1 artifacts should land in this directory tree by function, not back in the flat audit root, unless a later explicit decision supersedes this topology.
 - [g:r:i] Historical pre-Wave-1 artifacts remain where they are for now. If they are migrated later, do that as a separate auditable move with link updates and explicit supersession notes.
+- [g:r:i] Treat `outputs/` as provisional until touched-root reference verification passes. After any external lane return lands, run `python3 tooling/codex/verify_touched_audit_refs.py` before accepting the output, writing a disposition, or checkpointing the workspace.
