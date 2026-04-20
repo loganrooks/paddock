@@ -185,7 +185,9 @@
 - current reviewer post-carry runtime artifact: `intervention-proposals/artifacts/03-gsd-code-reviewer-post-carry-runtime-visibility.json`
 - current accepted fixer carry note: `intervention-proposals/21-gsd-code-fixer-authority-carry-review.md`
 - current fixer post-carry runtime artifact: `intervention-proposals/artifacts/04-gsd-code-fixer-post-carry-runtime-visibility.json`
-- next step: run the bounded authority/carry review on `gsd-intel-updater.toml`
+- current accepted intel-updater carry note: `intervention-proposals/22-gsd-intel-updater-authority-carry-review.md`
+- current intel-updater post-carry runtime artifact: `intervention-proposals/artifacts/05-gsd-intel-updater-post-carry-runtime-visibility.json`
+- next step: revisit `gsd-pattern-mapper.toml` as the remaining authority-gap case
 - later lane outputs for the debrief/audit wave
 - later synthesis artifact that recommends a rerun shape or a justified alternative
 
