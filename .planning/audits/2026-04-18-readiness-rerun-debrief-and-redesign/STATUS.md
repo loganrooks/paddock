@@ -52,9 +52,10 @@ Date: 2026-04-19
 - accepted first-slice tranche artifact written under `wave-2/dispositions/`
 - `R5.18` executed-bundle review-pair inheritance note written under `wave-2/dispositions/`
 - bounded `R5.18` materialization / package-truth fix-slice proposal written under `wave-2/dispositions/`
+- bounded `R5.18` materialization proof note written under `wave-2/dispositions/`
 - no readiness-package mutation authorized from this workspace
 - recommended main path currently: `redefined Proposal B-extended + bounded harness-first prerequisite tranche + learning-rerun posture`
-- current main-wave status: `Wave-2 lane-06 accepted; first-slice translation now exists and points to a bounded R5.18 materialization / package-truth fix slice, not another program-selection loop`
+- current main-wave status: `Wave-2 lane-06 accepted; the bounded R5.18 materialization fix slice is now partially executed and reinstall-backed, not just proposed`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -91,10 +92,10 @@ Date: 2026-04-19
 
 ## Next Pending Actions
 
-1. execute the bounded `R5.18 materialization / package-truth fix slice`
-2. preserve launch-truth, packet-freeze, and checkpoint discipline while that slice is implemented
+1. checkpoint the current bounded `R5.18` materialization / package-truth fix batch cleanly
+2. decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
 3. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
-4. convert the repaired `R5.18` frontier into a reinstall-backed verification artifact
+4. preserve launch-truth, packet-freeze, and checkpoint discipline while the next slice is chosen
 5. keep the audit workspace checkpointed and reviewable rather than letting next-slice work accumulate as an uncommitted spill
 
 ## Open Questions

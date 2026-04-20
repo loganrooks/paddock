@@ -11,6 +11,7 @@ This board tracks only work that materially affects Phase 01 rerun readiness.
 | R5.4 | 5 | Define durable launch/model-truth capture rule for doctrine-sensitive worker launches | Active (partial) | partial Track C bundle already exists |
 | R5.5 | 5 | Add workflow-chain follow-through on `discuss-phase`, `research-phase`, `plan-phase`, and `execute-phase` from the accepted revised spec | Active | accepted implementation spec plus widened Checkpoint 5 patch set |
 | R5.6 | 5 | Align rerun-critical wrapper skills after workflow changes so invocation surfaces do not lag corrected doctrine | Active (not started) | wrapper-alignment verification and patch set if needed |
+| R5.8 | 5 | Narrow branch/worktree seam verification and package-truth re-disposition for `R5.18` materialization drift | Active | bounded `R5.18` materialization / package-truth fix slice |
 | R5.14 | 5 | Implement the first bounded Checkpoint 5 slice with explicit overlay pairing and named branch choices for planner consumption and debt-carrying completion | Active | first bounded implementation commit |
 | R5.15 | 5 | Promote the readiness package's stronger post-verificationist / post-falsificationist gap-exposure and anti-premature-closure review doctrine into repo-local GSD review and audit surfaces as part of Track B | Active | dirty `review.md` / `planner-reviews.md` bundle is the active propagation surface |
 | R5.17a | 5 | Run the wrapper-exclusion audit, directly challenging prior `thin wrapper` / `only a mapper` / `secondary surface` scope exclusions against the files themselves | Completed (outputs received) | [checkpoint-5-r5-17a-wrapper-exclusion-audit-spec.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-5-r5-17a-wrapper-exclusion-audit-spec.md), [checkpoint-5-r5-17a-wrapper-exclusion-cross-vendor-prompt.md](/home/rookslog/workspace/projects/prix-guesser/.planning/readiness/phase-01-rerun/REVIEWS/checkpoint-5-r5-17a-wrapper-exclusion-cross-vendor-prompt.md) |
@@ -36,7 +37,6 @@ This board tracks only work that materially affects Phase 01 rerun readiness.
 | ID | Checkpoint | Task | Trigger | Status |
 |---|---|---|---|---|
 | R5.7 | 5 | Portable GSD reproducibility / provenance hardening | Checkpoint 5 materially touches reinstall or materialization surfaces, or later verification proves current live coherence is not enough | Conditional |
-| R5.8 | 5 | Narrow branch/worktree seam verification | Checkpoint 5 changes worktree/config behavior or later verification exposes a concrete branch/worktree mismatch | Conditional |
 | R5.9 | 5 | Design project-wide compact prompt and Codex/GSD integration | Checkpoints 3-5 clarify the durable control surfaces worth preserving across compaction | Conditional |
 | R5.10 | 5 | Draft repo-local non-phase external-reread protocol/template | Checkpoint 4/5 shows later harness/protocol follow-through still needs a repeatable non-phase external-reread surface | Conditional |
 | R6.2 | 6 | Targeted canon patch before rerun | rerun-readiness verification finds real canon gap rather than governance/process or harness gap | Conditional |

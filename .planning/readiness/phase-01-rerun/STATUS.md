@@ -24,7 +24,7 @@ Last updated: 2026-04-16
   - open a bounded Checkpoint 5
   - keep the bounded scope centered on rerun-blocking harness follow-through
   - do not silently pull every later hardening opportunity into the pre-rerun checkpoint
-  - treat branch/worktree boundary materialization as accepted bounded risk unless later changes reactivate it
+  - the branch/worktree boundary materialization trigger has now fired; treat it as an active bounded fix surface rather than accepted bounded risk
 - Starting the fresh Phase 01 rerun now would still skip the main work Checkpoint 5 now owns:
   - phase-critical runtime-authoritative worker alignment
   - bounded review / closure-pressure follow-through
@@ -164,8 +164,8 @@ Last updated: 2026-04-16
 4. `commands.cjs`, `init.cjs`, milestone-boundary consumers, and the summary template remain explicit non-promoted chain-tail/lifecycle remainders.
    - the package should not claim end-to-end debt-aware propagation until those owners are handled or deliberately kept out
 5. Branch/worktree boundary materialization remains visible but under-evidenced.
-   - Current disposition: accepted bounded risk
-   - Reactivate it only if Checkpoint 5 changes worktree/config behavior or later verification exposes a concrete mismatch
+   - Current disposition: active bounded fix surface
+   - Concrete mismatch evidence now exists between the tracked overlay canon and the live `R5.18` frontier; closure should wait on the bounded materialization / package-truth fix slice
 
 ## Worktree / commit posture
 
