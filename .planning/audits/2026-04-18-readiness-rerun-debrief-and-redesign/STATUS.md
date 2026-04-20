@@ -102,8 +102,10 @@ Date: 2026-04-20
 - current targeted-reread status: `the targeted reread revised the cleanup story: gsd-debug-session-manager is active skill-routed carry, gsd-pattern-mapper is planner-adjacent authority-gap carry, and no broad stale-agent cleanup is currently earned`
 - current snapshot-discipline status: `selected-lane runtime snapshot discipline is now accepted and the first clean-boundary snapshot is frozen at intervention-proposals/artifacts/01-second-tranche-clean-boundary-runtime-visibility-snapshot.json on basis commit 2edb269`
 - current manifest-install-follow-through status: `manifest/install coherence is now framed as a three-surface problem across manifest truth, backup-meta subset-carry, and selected-lane runtime snapshots rather than any one-file collapse; the first strict coherence pass now exists at intervention-proposals/artifacts/02-manifest-install-coherence-report.json and it found no selected-scope coherence blocker`
-- current live-only-agent-next-tranche status: `the remaining 16 live-only agent contracts are no longer one ambient backlog item; the next bounded authority/carry review tranche is now narrowed to gsd-code-reviewer, gsd-code-fixer, gsd-intel-updater, and gsd-pattern-mapper`
-- current high-leverage-authority-review status: `the narrowed four-agent tranche is now ordered by leverage: gsd-code-reviewer first, gsd-code-fixer second, gsd-intel-updater third, gsd-pattern-mapper fourth`
+- current live-only-agent-next-tranche status: `the remaining live-only agent contracts are still a real intervention surface, but gsd-code-reviewer is no longer part of the unresolved cohort; it now carries through tracked overlay/runtime materialization and the next bounded authority/carry review moves to gsd-code-fixer`
+- current high-leverage-authority-review status: `the first bounded authority/carry review is accepted at intervention-proposals/20-gsd-code-reviewer-authority-carry-review.md; current sequence is gsd-code-fixer second, gsd-intel-updater third, gsd-pattern-mapper fourth`
+- current reviewer-carry status: `gsd-code-reviewer now carries as a paired overlay/live surface, and the post-carry runtime report records agents/gsd-code-reviewer.toml as intentional materialized carry with raw-equal live/overlay hashes`
+- current installer-reasoning-default status: `the reviewer tranche also corrected scripts/setup-portable-gsd.sh so live .codex/config.toml now materializes with top-level model_reasoning_effort=xhigh instead of silently regressing to high`
 - current tranche-audit status: `the narrow post-tranche cross-vendor pair is complete and inherited; accepted now: classifier tightening plus thin CLAUDE wrappers, held: broad family expansion and broad stale-agent cleanup`
 - current docs-audit-sequencing status: `the challenged lane pair, transformation plan, bounded companion layer, and first intervention proposal batch are complete; the current move is proposal disposition and first bounded follow-through`
 - current challenge artifacts:
@@ -158,7 +160,7 @@ Date: 2026-04-20
 1. use the bounded companion onboarding set as the starting read set for future harness-intervention work: `HARNESS-INTERVENTION-UPDATE-LANE.md`, `HARNESS-INTERVENTION-ONBOARDING.md`, `RUNTIME-MATERIALIZATION-AND-AUTHORITY.md`, `GOAL-TO-SURFACE-INTERVENTION-INDEX.md`, and `SURFACE-STATUS-AND-DELTA.md`
 2. verify and checkpoint the first accepted intervention pair plus the bounded drift-register pilot as the new runtime/planning baseline
 3. inherit the manifest semantic contract note before touching install/manifest logic: preserve update-boundary manifest meaning and do not rewrite `gsd-file-manifest.json` into a final-runtime snapshot
-4. run the next bounded authority/carry review on `gsd-code-reviewer.toml` first, then decide whether `gsd-code-fixer.toml` should join the same patch lane or stay second
+4. run the next bounded authority/carry review on `gsd-code-fixer.toml`, now that the reviewer surface is carried and the installer regression is corrected
 5. decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
 6. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
 

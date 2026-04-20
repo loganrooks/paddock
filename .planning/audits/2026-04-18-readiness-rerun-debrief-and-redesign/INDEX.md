@@ -181,7 +181,9 @@
 - current strict coherence artifact: `intervention-proposals/artifacts/02-manifest-install-coherence-report.json`
 - current live-only next-tranche proposal: `intervention-proposals/18-live-only-agent-authority-carry-proposal.md`
 - current ordered high-leverage authority review: `intervention-proposals/19-high-leverage-live-only-authority-review.md`
-- next step: run the bounded authority/carry review on `gsd-code-reviewer.toml` first
+- current accepted reviewer carry note: `intervention-proposals/20-gsd-code-reviewer-authority-carry-review.md`
+- current reviewer post-carry runtime artifact: `intervention-proposals/artifacts/03-gsd-code-reviewer-post-carry-runtime-visibility.json`
+- next step: run the bounded authority/carry review on `gsd-code-fixer.toml`
 - later lane outputs for the debrief/audit wave
 - later synthesis artifact that recommends a rerun shape or a justified alternative
 

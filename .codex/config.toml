@@ -6,9 +6,9 @@ experimental_compact_prompt_file = "tooling/compact-prompts/project.md"
 # GSD Agent Configuration — managed by get-shit-done installer
 # GSD codex_hooks ownership: section
 
-# Repo-default compaction prompt: general project continuity, not a single package.
-# For a readiness-focused worktree/bootstrap, rerun setup with:
-#   PRIX_COMPACT_PROMPT_FILE=tooling/compact-prompts/readiness.md ./scripts/setup-portable-gsd.sh
+# Repo-default compaction prompt should be the general project prompt.
+# `scripts/setup-portable-gsd.sh` may substitute a worktree-local override such as
+# `tooling/compact-prompts/readiness.md` when bootstrapping a focused branch.
 
 [features]
 codex_hooks = true

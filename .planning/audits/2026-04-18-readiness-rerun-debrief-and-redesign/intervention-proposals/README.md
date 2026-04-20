@@ -1,10 +1,10 @@
 Date: 2026-04-20
-Status: active proposal batch
+Status: active proposal/disposition batch
 
 # Intervention Proposals
 
 - [g:r:i] This subtree holds bounded proposal artifacts that route directly from the completed companion layer into concrete harness follow-through candidates.
-- [d:r:i] These are not yet accepted mutations. They are proposal surfaces meant to make scope, leverage, risks, and verification criteria explicit before any code/doc/runtime change is landed.
+- [d:r:i] This subtree now contains both bounded proposals and accepted bounded dispositions. The proposal entries make scope, leverage, risks, and verification criteria explicit before change lands; the disposition entries record what the workspace actually inherited and carried.
 
 ## Current Sequence
 
@@ -27,6 +27,7 @@ Status: active proposal batch
 17. `17-manifest-install-coherence-pass.md`
 18. `18-live-only-agent-authority-carry-proposal.md`
 19. `19-high-leverage-live-only-authority-review.md`
+20. `20-gsd-code-reviewer-authority-carry-review.md`
 
 ## Proposal Rule
 
