@@ -231,6 +231,41 @@
   - live but not chosen: `Proposal C` nearest fallback, bounded `Proposal F` strongest switch path, `Proposal E` still prospective
   - not earned: full `Proposal F`, full `Proposal C-first`, `Proposal E-first`, blanket `.codex` de-ignore, broad audit-space reorganization, immediate launch-truth hook automation
 
+## 2026-04-20 `tranche-audit-lane-01`
+
+- date: `2026-04-20`
+- purpose: bounded cross-vendor reread of the runtime-visibility tranche plus the `AGENTS.md -> CLAUDE.md` translation question
+- launch scaffold basis commit: `0f194b7`
+- frozen packet content basis: `cf402e3`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- launch-truth artifact: [tranche-audit/launch-truth/01-runtime-visibility-tranche-launch-truth.md](tranche-audit/launch-truth/01-runtime-visibility-tranche-launch-truth.md)
+- prompt artifact: [tranche-audit/prompts/01-runtime-visibility-tranche-opus47-max-r1-launch-prompt.md](tranche-audit/prompts/01-runtime-visibility-tranche-opus47-max-r1-launch-prompt.md)
+- governing spec: [tranche-audit/specs/01-runtime-visibility-tranche-cross-vendor-spec.md](tranche-audit/specs/01-runtime-visibility-tranche-cross-vendor-spec.md)
+- governing packet: [tranche-audit/packets/01-runtime-visibility-tranche-packet.md](tranche-audit/packets/01-runtime-visibility-tranche-packet.md)
+- output artifacts:
+  - [tranche-audit/outputs/01-runtime-visibility-tranche-opus47-max-r1.md](tranche-audit/outputs/01-runtime-visibility-tranche-opus47-max-r1.md)
+  - [tranche-audit/outputs/01-runtime-visibility-tranche-gpt54-xhigh-r1.md](tranche-audit/outputs/01-runtime-visibility-tranche-gpt54-xhigh-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `483.046`
+  - Claude session id: `9d1ed209-5257-428e-ad5c-5495d60bce3d`
+  - total cost usd: `2.01379975`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/runtime-visibility-tranche-opus47-max-r1-20260420-084908.xsuist8g.stream.jsonl`
+    - `/tmp/runtime-visibility-tranche-opus47-max-r1-20260420-084908.5ihoekup.stderr.log`
+    - `/tmp/runtime-visibility-tranche-opus47-max-r1-20260420-084908.wl2yzxzs.debug.log`
+- parallel local reviewer:
+  - launch mode: `spawn_agent`
+  - effective settings verified against `~/.codex/state_5.sqlite`: `worker / gpt-5.4 / xhigh`
+  - agent nickname: `Descartes`
+  - output artifact: [tranche-audit/outputs/01-runtime-visibility-tranche-gpt54-xhigh-r1.md](tranche-audit/outputs/01-runtime-visibility-tranche-gpt54-xhigh-r1.md)
+- disposition:
+  - [tranche-audit/dispositions/01-runtime-visibility-tranche-comparative-disposition.md](tranche-audit/dispositions/01-runtime-visibility-tranche-comparative-disposition.md)
+  - `synthesis accept`
+  - accepted now: tighter classifier follow-through, unit tests for `runtime_visibility.py`, explicit checkout-local hash scope, thin root/planning `CLAUDE.md` wrappers
+  - held: broad family expansion, broad stale-agent cleanup, direct `AGENTS.md` mirroring into `CLAUDE.md`
+
 ## 2026-04-19 `wave-1-lane-02`
 
 - date: `2026-04-19`

@@ -1,0 +1,23 @@
+# .planning/CLAUDE.md
+
+This is the planning-local Claude wrapper. It does not replace [.planning/AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/AGENTS.md); it routes Claude work back to that subtree-local doctrine.
+
+## Read Order
+
+1. [AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/AGENTS.md)
+2. [.planning/AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/AGENTS.md)
+
+## Planning Translation
+
+- Treat `.planning/` canon, audit trail, exploration, generated corpus, and phase work as distinct artifact classes.
+- Use `python3 tooling/codex/audit_refmap.py` for structural `.planning/` moves, retirements, and verification rather than ad hoc link rewrites.
+- For harness-intervention or portable-GSD runtime questions, prefer `python3 tooling/codex/runtime_visibility.py` when the real need is a bounded, classified view of final `.codex/` runtime carry.
+- Keep the anti-threshold planning posture: the question is not merely whether a map or artifact can carry, but how strongly and how much more of the work a stronger form could expose or route.
+
+## What Stays Outside This Wrapper
+
+- Codex-specific launch-truth capture rules
+- Codex-specific agent-spawn policy
+- any attempt to mirror the whole of `.planning/AGENTS.md` here
+
+If a Claude planning lane needs more than this wrapper, put the extra discipline in the lane packet or prompt instead of duplicating subtree doctrine.
