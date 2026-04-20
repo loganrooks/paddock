@@ -179,7 +179,9 @@
 - current selected-lane runtime snapshot discipline, first clean-boundary snapshot note, strict manifest/install coherence pass, and cleaner manifest/install coherence follow-through notes
 - current clean-boundary snapshot artifact: `intervention-proposals/artifacts/01-second-tranche-clean-boundary-runtime-visibility-snapshot.json`
 - current strict coherence artifact: `intervention-proposals/artifacts/02-manifest-install-coherence-report.json`
-- next step: route the next bounded intervention move toward the remaining live-only agent cohort as an authority/carry decision surface
+- current live-only next-tranche proposal: `intervention-proposals/18-live-only-agent-authority-carry-proposal.md`
+- current ordered high-leverage authority review: `intervention-proposals/19-high-leverage-live-only-authority-review.md`
+- next step: run the bounded authority/carry review on `gsd-code-reviewer.toml` first
 - later lane outputs for the debrief/audit wave
 - later synthesis artifact that recommends a rerun shape or a justified alternative
 

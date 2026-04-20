@@ -25,6 +25,8 @@ Status: active proposal batch
 15. `15-cleaner-manifest-install-coherence-follow-through.md`
 16. `16-first-clean-boundary-runtime-snapshot.md`
 17. `17-manifest-install-coherence-pass.md`
+18. `18-live-only-agent-authority-carry-proposal.md`
+19. `19-high-leverage-live-only-authority-review.md`
 
 ## Proposal Rule
 
