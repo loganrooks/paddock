@@ -31,9 +31,12 @@ Date: 2026-04-19
 - audit-local checkpoint baseline committed at `60cc36d`
 - per-lane Wave-1 packet files drafted under `wave-1/packets/`
 - first four Wave-1 lane specs drafted under `wave-1/specs/`
+- first four Wave-1 Opus launch prompts drafted under `wave-1/prompts/`
+- first four Wave-1 Opus lanes launched and completed against frozen basis `f548a48`
+- first four Wave-1 output artifacts written under `wave-1/outputs/`
 - no readiness-package mutation authorized from this workspace
 - recommended main path currently: `Proposal B-extended` from [PLAN-PROPOSALS.md](PLAN-PROPOSALS.md)
-- current main-wave status: `checkpoint cleared; first-lane packet/spec layer drafted; prompt-writing and per-lane freeze discipline are next`
+- current main-wave status: `Wave-1 Opus r1 outputs returned for the first four lanes; local reread and comparative disposition are next`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -68,11 +71,11 @@ Date: 2026-04-19
 
 ## Next Pending Actions
 
-1. review and tighten the first-lane Wave-1 specs only where they still undercarry burden, challenge-packet logic, or output shape
-2. write the corresponding Wave-1 prompts under `wave-1/prompts/`
-3. preserve frozen-packet SHA plus launch-truth capture per lane before each external Wave-1 launch
-4. use the new `wave-1/` topology for all new Wave-1 specs/prompts/packets/outputs/dispositions/launch-truth artifacts
-5. keep the audit workspace checkpointed and reviewable rather than letting prompt/launch work accumulate as an uncommitted spill
+1. reread the four returned Wave-1 Opus outputs and write a first comparative disposition under `wave-1/dispositions/`
+2. decide whether any lane needs immediate reroll, packet correction, or counterpart review before moving toward Wave 2 or synthesis
+3. preserve the current frozen-basis / output relationship in later lane bookkeeping rather than relabeling these returns as if they came from the newest commit
+4. use the `wave-1/` topology for all further prompts/outputs/dispositions/launch-truth artifacts
+5. keep the audit workspace checkpointed and reviewable rather than letting disposition work accumulate as an uncommitted spill
 
 ## Open Questions
 

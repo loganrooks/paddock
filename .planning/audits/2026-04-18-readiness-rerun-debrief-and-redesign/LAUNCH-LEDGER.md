@@ -131,3 +131,111 @@
   - accepted now: concrete Wave-1 packet manifests, stronger contract carry for switch triggers and anti-tame obligations, bounded launch-discipline carry
   - blocked later: first external Wave-1 launch remains blocked until the audit workspace has an auditable checkpoint commit and frozen-packet SHA recording
   - not earned: broad pre-Wave-1 directory reorganization, repo-wide workflow redesign, or readiness-package mutation
+
+## 2026-04-19 `wave-1-lane-01`
+
+- date: `2026-04-19`
+- purpose: first Wave-1 `mission-reconstruction` lane under the frozen Wave-1 packet/spec/prompt layer
+- frozen launch basis commit: `f548a48`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- prompt artifact: [wave-1/prompts/01-mission-reconstruction-opus47-max-r1-launch-prompt.md](wave-1/prompts/01-mission-reconstruction-opus47-max-r1-launch-prompt.md)
+- governing spec: [wave-1/specs/01-mission-reconstruction-spec.md](wave-1/specs/01-mission-reconstruction-spec.md)
+- governing packet: [wave-1/packets/01-mission-reconstruction-packet.md](wave-1/packets/01-mission-reconstruction-packet.md)
+- output artifact: [wave-1/outputs/01-mission-reconstruction-opus47-max-r1.md](wave-1/outputs/01-mission-reconstruction-opus47-max-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `570.479`
+  - session id: `eb2570ca-b7cf-465b-af6d-7b1baa605e26`
+  - total cost usd: `4.1316862500000004`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/wave1-lane01-mission-opus47-max-r1-20260419-194704.uvey44bg.stream.jsonl`
+    - `/tmp/wave1-lane01-mission-opus47-max-r1-20260419-194704.192z8ghe.stderr.log`
+    - `/tmp/wave1-lane01-mission-opus47-max-r1-20260419-194704.zeox6hos.debug.log`
+- provisional take:
+  - explicit mission and implicit load-bearing mission diverged
+  - anti-closure doctrine could not discharge outward inside the package's own sequencing rules
+  - stage-2 challenge packet was opened and a `Mission Correction Note` was recorded
+- disposition:
+  - `pending local reread / comparative disposition`
+
+## 2026-04-19 `wave-1-lane-02`
+
+- date: `2026-04-19`
+- purpose: first Wave-1 `outcome-and-underreach-audit` lane under the frozen Wave-1 packet/spec/prompt layer
+- frozen launch basis commit: `f548a48`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- prompt artifact: [wave-1/prompts/02-outcome-and-underreach-audit-opus47-max-r1-launch-prompt.md](wave-1/prompts/02-outcome-and-underreach-audit-opus47-max-r1-launch-prompt.md)
+- governing spec: [wave-1/specs/02-outcome-and-underreach-audit-spec.md](wave-1/specs/02-outcome-and-underreach-audit-spec.md)
+- governing packet: [wave-1/packets/02-outcome-and-underreach-audit-packet.md](wave-1/packets/02-outcome-and-underreach-audit-packet.md)
+- output artifact: [wave-1/outputs/02-outcome-and-underreach-audit-opus47-max-r1.md](wave-1/outputs/02-outcome-and-underreach-audit-opus47-max-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `671.284`
+  - session id: `8f83a6e9-3edd-4290-aedc-39b4234ab4b0`
+  - total cost usd: `6.805925500000001`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/wave1-lane02-outcome-underreach-opus47-max-r1-20260419-194707.ria5r3sh.stream.jsonl`
+    - `/tmp/wave1-lane02-outcome-underreach-opus47-max-r1-20260419-194707.s08z8o04.stderr.log`
+    - `/tmp/wave1-lane02-outcome-underreach-opus47-max-r1-20260419-194707.b3gtavco.debug.log`
+- provisional take:
+  - package was neither `mostly fine` nor `mostly churn`
+  - real doctrine/mapping gains coexist with `16` named underreaches
+  - mapping/judgment split came back as roughly `4` judgment-heavy, `5` mapping-heavy, `7` interaction effects
+- disposition:
+  - `pending local reread / comparative disposition`
+
+## 2026-04-19 `wave-1-lane-03`
+
+- date: `2026-04-19`
+- purpose: first Wave-1 `mapping-adequacy-and-comparative-mapping` lane under the frozen Wave-1 packet/spec/prompt layer
+- frozen launch basis commit: `f548a48`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- prompt artifact: [wave-1/prompts/03-mapping-adequacy-and-comparative-mapping-opus47-max-r1-launch-prompt.md](wave-1/prompts/03-mapping-adequacy-and-comparative-mapping-opus47-max-r1-launch-prompt.md)
+- governing spec: [wave-1/specs/03-mapping-adequacy-and-comparative-mapping-spec.md](wave-1/specs/03-mapping-adequacy-and-comparative-mapping-spec.md)
+- governing packet: [wave-1/packets/03-mapping-adequacy-and-comparative-mapping-packet.md](wave-1/packets/03-mapping-adequacy-and-comparative-mapping-packet.md)
+- output artifact: [wave-1/outputs/03-mapping-adequacy-and-comparative-mapping-opus47-max-r1.md](wave-1/outputs/03-mapping-adequacy-and-comparative-mapping-opus47-max-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `635.644`
+  - session id: `653e5c97-916a-4c2f-9628-a43b0ef0a9db`
+  - total cost usd: `7.990728750000001`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/wave1-lane03-mapping-opus47-max-r1-20260419-194706.fwzqx9cx.stream.jsonl`
+    - `/tmp/wave1-lane03-mapping-opus47-max-r1-20260419-194706.fuvk9bst.stderr.log`
+    - `/tmp/wave1-lane03-mapping-opus47-max-r1-20260419-194706.znzfsq5g.debug.log`
+- provisional take:
+  - readiness-era map came back `directionally adequate, structurally under-mapped`
+  - bridge `revise + guarded hybrid reseed` looks partially under-carried
+  - docs-refresh sits in upstream GSD and does not close repo-local runtime adequacy by itself
+- disposition:
+  - `pending local reread / comparative disposition`
+
+## 2026-04-19 `wave-1-lane-04`
+
+- date: `2026-04-19`
+- purpose: first Wave-1 `operator-orchestration-pressure` lane under the frozen Wave-1 packet/spec/prompt layer
+- frozen launch basis commit: `f548a48`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- prompt artifact: [wave-1/prompts/04-operator-orchestration-pressure-opus47-max-r1-launch-prompt.md](wave-1/prompts/04-operator-orchestration-pressure-opus47-max-r1-launch-prompt.md)
+- governing spec: [wave-1/specs/04-operator-orchestration-pressure-spec.md](wave-1/specs/04-operator-orchestration-pressure-spec.md)
+- governing packet: [wave-1/packets/04-operator-orchestration-pressure-packet.md](wave-1/packets/04-operator-orchestration-pressure-packet.md)
+- output artifact: [wave-1/outputs/04-operator-orchestration-pressure-opus47-max-r1.md](wave-1/outputs/04-operator-orchestration-pressure-opus47-max-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `510.078`
+  - session id: `62087ba7-cba1-4b4d-85c9-fe725a071bb3`
+  - total cost usd: `5.38870125`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/wave1-lane04-operator-pressure-opus47-max-r1-20260419-194705.3k8q6doi.stream.jsonl`
+    - `/tmp/wave1-lane04-operator-pressure-opus47-max-r1-20260419-194705.ccfezh5g.stderr.log`
+    - `/tmp/wave1-lane04-operator-pressure-opus47-max-r1-20260419-194705.n8j6kozx.debug.log`
+- provisional take:
+  - operator pressure came back mostly `amplifying`, not `primary`
+  - only launch-truth vigilance stayed `primary` after challenge-stage pressure
+  - the lane explicitly rejected letting operator pressure absorb every other explanation
+- disposition:
+  - `pending local reread / comparative disposition`

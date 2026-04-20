@@ -82,7 +82,16 @@
 - [e:c+i] An audit-local checkpoint baseline now exists at git commit `60cc36d`, clearing the earlier launch blocker around unauditable local state. Source: git commit `60cc36d`.
 - [e:c+i] Concrete per-lane frozen packet files now exist under [wave-1/packets/](wave-1/packets/) for the first four Wave-1 lanes: mission reconstruction, outcome and underreach, mapping adequacy and comparative mapping, and operator orchestration pressure.
 - [e:c+i] Matching first-draft lane specs now exist under [wave-1/specs/](wave-1/specs/), each carrying a concrete packet path, required posture, required method, output sections, and failure conditions.
-- [d:r:i] Current consequence: the main unresolved pre-launch issue is no longer checkpoint discipline or whether Wave 1 should be specced at all. It is prompt-writing, per-lane freeze discipline, and then actual launch sequencing.
+- [d:r:i] Current consequence at that stage: the main unresolved pre-launch issue was no longer checkpoint discipline or whether Wave 1 should be specced at all. It was prompt-writing, per-lane freeze discipline, and then actual launch sequencing.
+
+## What The First Wave-1 Opus Returns Now Add
+
+- [e:c+i] The first four Wave-1 Opus lanes have now been launched and have each returned a concrete output artifact under [wave-1/outputs/](wave-1/outputs/), all against frozen basis commit `f548a48`. Sources: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/LAUNCH-LEDGER.md:139-241.
+- [e:c+i] The `mission-reconstruction` lane says the explicit rerun-facing mission and the implicit load-bearing mission diverged, with the latter repeatedly winning inside bounded checkpoint recursion. Source: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/wave-1/outputs/01-mission-reconstruction-opus47-max-r1.md:1-24.
+- [e:c+i] The `outcome-and-underreach-audit` lane rejects both `mostly fine` and `mostly churn`, records real governance/doctrine gains plus `16` underreaches, and returns a mixed mapping/judgment/interactions split rather than a one-axis diagnosis. Source: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/wave-1/outputs/02-outcome-and-underreach-audit-opus47-max-r1.md:1-17.
+- [e:c+i] The `mapping-adequacy-and-comparative-mapping` lane returns the strongest concise mapping verdict so far: the readiness-era map was `directionally adequate and structurally under-mapped`, while the bridge verdict and later docs work both remain only partial carriers of what runtime-local adequacy would require. Source: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/wave-1/outputs/03-mapping-adequacy-and-comparative-mapping-opus47-max-r1.md:1-16.
+- [e:c+i] The `operator-orchestration-pressure` lane sharply narrows a tempting fallback explanation: operator pressure is mostly `amplifying`, not `primary`, except for launch-truth vigilance and a few carrier-level wake failures. Source: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/wave-1/outputs/04-operator-orchestration-pressure-opus47-max-r1.md:1-16.
+- [d:r:i] Current consequence: the workspace is no longer waiting on first-lane execution. The immediate next work is a local reread and comparative disposition of the four returned outputs before any Wave-2 shaping, reroll, or synthesis move.
 
 ## What Is Still Unsettled
 
