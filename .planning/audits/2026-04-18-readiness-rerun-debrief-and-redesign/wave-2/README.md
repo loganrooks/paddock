@@ -27,4 +27,5 @@ Date: 2026-04-20
 
 - [g:r:i] New Wave-2 artifacts should land in this directory tree by function, not back in the flat audit root.
 - [g:r:i] Treat `outputs/` as provisional until touched-root reference verification passes. After any external lane return lands, run `python3 tooling/codex/verify_touched_audit_refs.py` before accepting the output, writing a disposition, or checkpointing the workspace.
+- [g:r:i] When a Wave-2 lane has multiple parallel returns, write a comparative disposition under `dispositions/` and treat that synthesis as the accepted feed for later lanes. Keep the raw outputs in `outputs/` as challenge material unless explicitly promoted further.
 - [g:r:i] `rerun-design` is not launchable until the accepted `suppressed-opportunity-and-non-intervention` return has been inserted into its packet. Do not silently substitute memory of lane 05 for the actual returned artifact.

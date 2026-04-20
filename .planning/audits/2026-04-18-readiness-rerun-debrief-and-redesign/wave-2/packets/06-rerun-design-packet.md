@@ -14,7 +14,7 @@ Date: 2026-04-20
 
 ## Pre-Launch Requirement
 
-- [g:r:i] Do not launch this lane until the accepted Wave-2 lane-05 output has been inserted into Stage 1 as a concrete path. The contract already says this lane consumes Wave-1 outputs plus lane 5; this packet should not be frozen without that artifact.
+- [g:r:i] Do not launch this lane until the accepted Wave-2 lane-05 comparative disposition has been inserted into Stage 1 as a concrete path. The contract already says this lane consumes Wave-1 outputs plus lane 5; this packet should not be frozen while lane-05 remains only a placeholder.
 
 ## Read Order
 
@@ -50,7 +50,7 @@ Date: 2026-04-20
 - `WORKFLOW.md`
 - `.planning/AGENTS.md`
 - `wave-2/README.md`
-- `wave-2/outputs/05-suppressed-opportunity-and-non-intervention-<resolved-before-launch>.md`
+- `wave-2/dispositions/05-wave-2-lane05-comparative-disposition.md`
 
 ### Stage 2: Challenge Packet
 
@@ -68,11 +68,14 @@ Read:
 - `WORKSPACE-AUTHORITY-AND-ORGANIZATION.md`
 - `lane-05-opus47-max-main-wave-contract-cross-review.md`
 - `lane-05-gpt54-xhigh-main-wave-contract-cross-review.md`
+- `wave-2/outputs/05-suppressed-opportunity-and-non-intervention-opus47-max-r1.md`
+- `wave-2/outputs/05-suppressed-opportunity-and-non-intervention-gpt54-xhigh-r1.md`
 
 ## Use Notes
 
 - [g:r:i] Treat workspace organization, packet discipline, checkpoint boundaries, and launch-truth hygiene as program-carrying prerequisites where they materially affect whether a rerun can be executed honestly. Do not relegate them to background hygiene if they shape the reachable program.
 - [g:r:i] The lane should compare real option bundles, not single labels. `Proposal B-extended`, `C`, `E`, `F`, and any hybrid should be articulated as concrete first slices with prerequisites and switch triggers.
+- [g:r:i] Treat `wave-2/dispositions/05-wave-2-lane05-comparative-disposition.md` as the accepted lane-05 carry and the two raw lane-05 outputs as reopenable challenge material if the rerun-design judgment starts flattening suppressed-opportunity pressure or over-promoting one program switch.
 - [g:r:i] The recommended next program must include:
   - first slice
   - prerequisites

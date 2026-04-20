@@ -159,6 +159,37 @@
 - disposition:
   - `pending local reread / comparative disposition`
 
+## 2026-04-19 `wave-2-lane-05`
+
+- date: `2026-04-19`
+- purpose: first Wave-2 `suppressed-opportunity-and-non-intervention` lane under the frozen Wave-2 packet/spec/prompt layer
+- frozen launch basis commit: `f7cea83`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- launch-truth artifact: [wave-2/launch-truth/05-suppressed-opportunity-and-non-intervention-launch-truth.md](wave-2/launch-truth/05-suppressed-opportunity-and-non-intervention-launch-truth.md)
+- prompt artifact: [wave-2/prompts/05-suppressed-opportunity-and-non-intervention-opus47-max-r1-launch-prompt.md](wave-2/prompts/05-suppressed-opportunity-and-non-intervention-opus47-max-r1-launch-prompt.md)
+- governing spec: [wave-2/specs/05-suppressed-opportunity-and-non-intervention-spec.md](wave-2/specs/05-suppressed-opportunity-and-non-intervention-spec.md)
+- governing packet: [wave-2/packets/05-suppressed-opportunity-and-non-intervention-packet.md](wave-2/packets/05-suppressed-opportunity-and-non-intervention-packet.md)
+- output artifacts:
+  - [wave-2/outputs/05-suppressed-opportunity-and-non-intervention-opus47-max-r1.md](wave-2/outputs/05-suppressed-opportunity-and-non-intervention-opus47-max-r1.md)
+  - [wave-2/outputs/05-suppressed-opportunity-and-non-intervention-gpt54-xhigh-r1.md](wave-2/outputs/05-suppressed-opportunity-and-non-intervention-gpt54-xhigh-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `723.535`
+  - session id: `6878dc51-d924-4a93-b6f6-f93080b09716`
+  - total cost usd: `7.09883875`
+- parallel local reviewer:
+  - launch mode: `spawn_agent`
+  - effective settings verified against `~/.codex/state_5.sqlite`: `worker / gpt-5.4 / xhigh`
+  - agent nickname: `Turing`
+  - output artifact: [wave-2/outputs/05-suppressed-opportunity-and-non-intervention-gpt54-xhigh-r1.md](wave-2/outputs/05-suppressed-opportunity-and-non-intervention-gpt54-xhigh-r1.md)
+- disposition:
+  - [wave-2/dispositions/05-wave-2-lane05-comparative-disposition.md](wave-2/dispositions/05-wave-2-lane05-comparative-disposition.md)
+  - `synthesis accept`
+  - accepted now: chain-tail preflight carry, consumer-surface propagation pressure, runtime-authority drift as prerequisite pressure, compact review-space check for rerun-design
+  - held or narrowed: full `Proposal E`, full `Proposal F`, blanket `.codex` tracking change, broad governance rewrite, immediate launch-truth hook automation, broad audit-space reorganization
+  - current consequence: lane-06 packet resolved; next move is lane-06 launch-basis freeze and prompt use, with any bounded lane-05 follow-up treated as parallel candidate rather than gate
+
 ## 2026-04-19 `wave-1-lane-02`
 
 - date: `2026-04-19`

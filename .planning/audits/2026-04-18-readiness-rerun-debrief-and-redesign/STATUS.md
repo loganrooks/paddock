@@ -38,9 +38,15 @@ Date: 2026-04-19
 - forward-looking Wave-2 artifact topology created under `wave-2/`
 - Wave-2 lane specs drafted under `wave-2/specs/`
 - lane-05 Wave-2 Opus launch prompt drafted under `wave-2/prompts/`
+- Wave-2 lane-05 launched and completed against frozen basis `f7cea83`
+- parallel local spawned reviewer completed for Wave-2 lane-05
+- Wave-2 lane-05 launch-truth note written under `wave-2/launch-truth/`
+- Wave-2 lane-05 comparative disposition written under `wave-2/dispositions/`
+- lane-06 packet resolved to accepted Wave-2 lane-05 inheritance
+- lane-06 Wave-2 Opus launch prompt drafted under `wave-2/prompts/`
 - no readiness-package mutation authorized from this workspace
 - recommended main path currently: `Proposal B-extended` from [PLAN-PROPOSALS.md](PLAN-PROPOSALS.md)
-- current main-wave status: `Wave-2 lane-05 prompt now exists; freeze-and-launch preparation is next`
+- current main-wave status: `Wave-2 lane-05 accepted; lane-06 prompt now exists; freeze-and-launch preparation is next`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -72,13 +78,14 @@ Date: 2026-04-19
 - [d:r:i] Use `WORKSPACE-AUTHORITY-AND-ORGANIZATION.md` as the current artifact-class and authority map for this directory.
 - [d:c+i] Treat lane-05 as the completed contract-level cross-review: it settled that no further pre-contract meta lane is warranted, no broad pre-Wave-1 topology rewrite is earned, and the remaining work is local contract carry, concrete packet manifests, and bounded launch discipline. Sources: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/lane-05-comparative-disposition.md:12-14, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/lane-05-comparative-disposition.md:24-27, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/lane-05-comparative-disposition.md:31-39.
 - [d:r:i] Workspace cleanup is now being handled as a bounded migration rather than a vetoed idea: generated spill is ignored at `.planning/audits/.gitignore`, and all new Wave-1 artifacts have a forward-looking home under `wave-1/` even though the historical corpus remains in place for now.
+- [d:r:i] Treat Wave-2 lane-05 as accepted completed work: it raises bounded stronger moves on carrier/runtime/judgeability surfaces, keeps broad rewrite unearned, and routes rerun-shape pressure forward rather than settling it by itself.
 
 ## Next Pending Actions
 
-1. decide whether lane-05 should get an immediate counterpart review in parallel rather than an Opus-only first pass
-2. freeze the lane-05 spec/prompt/packet boundary and record the launch basis before external launch
-3. launch lane-05 against the frozen basis and preserve launch-truth artifacts
-4. after lane-05 returns, resolve the lane-06 packet's lane-05 placeholder to the accepted concrete output before writing or launching lane-06
+1. freeze the lane-06 spec/prompt/packet boundary and record the launch basis before external launch
+2. decide whether one bounded Wave-2 lane-05 follow-up should run in parallel with lane-06
+3. launch lane-06 against the frozen basis and preserve launch-truth artifacts
+4. after lane-06 returns, disposition the recommended next program against the currently accepted bounded proposal/stress-test set
 5. keep the audit workspace checkpointed and reviewable rather than letting Wave-2 work accumulate as an uncommitted spill
 
 ## Open Questions

@@ -31,13 +31,17 @@
 25. [WAVE-1-PACKET-MANIFESTS.md](WAVE-1-PACKET-MANIFESTS.md)
 26. [wave-1/README.md](wave-1/README.md)
 27. [wave-2/README.md](wave-2/README.md)
-28. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
-29. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
-30. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
-31. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
-32. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
-33. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
-34. [corpus/README.md](corpus/README.md)
+28. [wave-2/launch-truth/05-suppressed-opportunity-and-non-intervention-launch-truth.md](wave-2/launch-truth/05-suppressed-opportunity-and-non-intervention-launch-truth.md)
+29. [wave-2/outputs/05-suppressed-opportunity-and-non-intervention-opus47-max-r1.md](wave-2/outputs/05-suppressed-opportunity-and-non-intervention-opus47-max-r1.md)
+30. [wave-2/outputs/05-suppressed-opportunity-and-non-intervention-gpt54-xhigh-r1.md](wave-2/outputs/05-suppressed-opportunity-and-non-intervention-gpt54-xhigh-r1.md)
+31. [wave-2/dispositions/05-wave-2-lane05-comparative-disposition.md](wave-2/dispositions/05-wave-2-lane05-comparative-disposition.md)
+32. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
+33. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
+34. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
+35. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
+36. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
+37. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
+38. [corpus/README.md](corpus/README.md)
 
 ## Source-Of-Truth Hierarchy
 
@@ -56,6 +60,9 @@
 - current concrete Wave-1 packet companion: `WAVE-1-PACKET-MANIFESTS.md`
 - current forward-looking topology for new main-wave artifacts: `wave-1/README.md`
 - current forward-looking topology for Wave-2 artifacts: `wave-2/README.md`
+- current Wave-2 lane-05 launch record: `wave-2/launch-truth/05-suppressed-opportunity-and-non-intervention-launch-truth.md`
+- current raw Wave-2 lane-05 outputs: `wave-2/outputs/05-suppressed-opportunity-and-non-intervention-opus47-max-r1.md`, `wave-2/outputs/05-suppressed-opportunity-and-non-intervention-gpt54-xhigh-r1.md`
+- current inheritance decision for Wave-2 lane-05: `wave-2/dispositions/05-wave-2-lane05-comparative-disposition.md`
 - current frozen first-lane packet files: `wave-1/packets/`
 - current frozen first-lane specs: `wave-1/specs/`
 - current drafted second-wave packet files: `wave-2/packets/`
@@ -78,8 +85,11 @@
 - concrete Wave-1 packet manifests for the first main-wave lanes
 - first Wave-1 lane specs under `wave-1/specs/`
 - Wave-2 lane specs under `wave-2/specs/`
-- corresponding lane-05 Wave-2 prompt under `wave-2/prompts/`
-- next step: freeze and launch lane-05 against the current clean basis
+- corresponding Wave-2 prompts under `wave-2/prompts/`
+- current accepted Wave-2 lane-05 outputs under `wave-2/outputs/`
+- current Wave-2 lane dispositions under `wave-2/dispositions/`
+- current Wave-2 launch-truth records under `wave-2/launch-truth/`
+- next step: freeze and launch lane-06 against the current clean basis
 - later lane outputs for the debrief/audit wave
 - later synthesis artifact that recommends a rerun shape or a justified alternative
 
