@@ -69,6 +69,8 @@ Date: 2026-04-20
 - manifest semantic contract disposition written
 - final-runtime visibility proposal written
 - first-pass runtime-visibility verifier/snapshot tool landed
+- tranche-audit topology created under `tranche-audit/`
+- tranche-audit lane-01 packet/spec/prompt set drafted
 - isolated latest-install probe completed against detached worktree
 - active repo-local `.codex/` confirmed already at `v1.38.1`
 - fresh latest reinstall + overlay confirmed semantically aligned with active runtime except for repo-local config defaults and stale manifest hashes
@@ -89,6 +91,7 @@ Date: 2026-04-20
 - current manifest-contract status: `the second tranche now rejects manifest semantic collapse; gsd-file-manifest.json remains an upstream/update-boundary artifact, backup-meta stays tracked subset-carry metadata, and the missing object is a separate final-runtime visibility surface`
 - current final-runtime-visibility status: `a bounded follow-through proposal now exists for a separate repo-local runtime-truth surface that can coexist with the updater/custom-file manifest instead of replacing it`
 - current runtime-visibility-tool status: `a first-pass paired verifier/snapshot tool is now landed for high-leverage runtime families, and the current sample shows selective overlay boundary plus intelligible carry rather than unknown drift`
+- current tranche-audit status: `a narrow post-tranche cross-vendor review lane is now packetized for the runtime-visibility tranche, including the AGENTS.md -> CLAUDE.md translation question`
 - current docs-audit-sequencing status: `the challenged lane pair, transformation plan, bounded companion layer, and first intervention proposal batch are complete; the current move is proposal disposition and first bounded follow-through`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
@@ -111,6 +114,11 @@ Date: 2026-04-20
   - [docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md](docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md)
   - [docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md](docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md)
   - [docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md](docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md)
+  - [tranche-audit/README.md](tranche-audit/README.md)
+  - [tranche-audit/packets/01-runtime-visibility-tranche-packet.md](tranche-audit/packets/01-runtime-visibility-tranche-packet.md)
+  - [tranche-audit/specs/01-runtime-visibility-tranche-cross-vendor-spec.md](tranche-audit/specs/01-runtime-visibility-tranche-cross-vendor-spec.md)
+  - [tranche-audit/prompts/01-runtime-visibility-tranche-opus47-max-r1-launch-prompt.md](tranche-audit/prompts/01-runtime-visibility-tranche-opus47-max-r1-launch-prompt.md)
+  - [tranche-audit/prompts/01-runtime-visibility-tranche-gpt54-xhigh-r1-brief.md](tranche-audit/prompts/01-runtime-visibility-tranche-gpt54-xhigh-r1-brief.md)
 
 ## Accepted Starting Decisions
 
@@ -132,9 +140,10 @@ Date: 2026-04-20
 1. use the bounded companion onboarding set as the starting read set for future harness-intervention work: `HARNESS-INTERVENTION-UPDATE-LANE.md`, `HARNESS-INTERVENTION-ONBOARDING.md`, `RUNTIME-MATERIALIZATION-AND-AUTHORITY.md`, `GOAL-TO-SURFACE-INTERVENTION-INDEX.md`, and `SURFACE-STATUS-AND-DELTA.md`
 2. verify and checkpoint the first accepted intervention pair plus the bounded drift-register pilot as the new runtime/planning baseline
 3. inherit the manifest semantic contract note before touching install/manifest logic: preserve update-boundary manifest meaning and do not rewrite `gsd-file-manifest.json` into a final-runtime snapshot
-4. use the landed runtime-visibility tool to decide the next tightening: widen family coverage, write durable ignored snapshots for selected lanes, or sharpen a later overlay-expansion / cleanup decision
-5. decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
-6. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
+4. run the narrow tranche-audit lane on the runtime-visibility tranche and the `AGENTS.md` -> `CLAUDE.md` translation question before widening the implementation surface
+5. use the landed runtime-visibility tool plus tranche-audit pressure to decide the next tightening: widen family coverage, write durable ignored snapshots for selected lanes, or sharpen a later overlay-expansion / cleanup decision
+6. decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
+7. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
 
 ## Open Questions
 

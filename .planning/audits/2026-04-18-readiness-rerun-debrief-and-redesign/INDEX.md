@@ -69,14 +69,18 @@
 63. [docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md](docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md)
 64. [docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md](docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md)
 65. [docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md](docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md)
-66. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
-67. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
-68. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
-69. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
-70. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
-71. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
-72. [corpus/README.md](corpus/README.md)
-71. [corpus/README.md](corpus/README.md)
+66. [tranche-audit/README.md](tranche-audit/README.md)
+67. [tranche-audit/packets/01-runtime-visibility-tranche-packet.md](tranche-audit/packets/01-runtime-visibility-tranche-packet.md)
+68. [tranche-audit/specs/01-runtime-visibility-tranche-cross-vendor-spec.md](tranche-audit/specs/01-runtime-visibility-tranche-cross-vendor-spec.md)
+69. [tranche-audit/prompts/01-runtime-visibility-tranche-opus47-max-r1-launch-prompt.md](tranche-audit/prompts/01-runtime-visibility-tranche-opus47-max-r1-launch-prompt.md)
+70. [tranche-audit/prompts/01-runtime-visibility-tranche-gpt54-xhigh-r1-brief.md](tranche-audit/prompts/01-runtime-visibility-tranche-gpt54-xhigh-r1-brief.md)
+71. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
+72. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
+73. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
+74. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
+75. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
+76. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
+77. [corpus/README.md](corpus/README.md)
 
 ## Source-Of-Truth Hierarchy
 
@@ -124,6 +128,8 @@
 - current docs-audit launch record: `docs-audit/launch-truth/01-pr-docs-intervention-carry-launch-truth.md`
 - current raw docs-audit outputs: `docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md`, `docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md`
 - current inheritance decision for docs-audit lane-01: `docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md`
+- current bounded post-tranche challenge subtree for recently landed intervention work: `tranche-audit/`
+- current frozen runtime-visibility tranche packet/spec/prompt set: `tranche-audit/packets/01-runtime-visibility-tranche-packet.md`, `tranche-audit/specs/01-runtime-visibility-tranche-cross-vendor-spec.md`, `tranche-audit/prompts/01-runtime-visibility-tranche-opus47-max-r1-launch-prompt.md`, `tranche-audit/prompts/01-runtime-visibility-tranche-gpt54-xhigh-r1-brief.md`
 - current frozen first-lane packet files: `wave-1/packets/`
 - current frozen first-lane specs: `wave-1/specs/`
 - current drafted second-wave packet files: `wave-2/packets/`
