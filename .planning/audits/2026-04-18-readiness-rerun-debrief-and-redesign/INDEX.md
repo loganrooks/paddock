@@ -60,6 +60,7 @@
 - current frozen first-lane specs: `wave-1/specs/`
 - current drafted second-wave packet files: `wave-2/packets/`
 - current drafted second-wave specs: `wave-2/specs/`
+- current drafted second-wave prompts: `wave-2/prompts/`
 - current inheritance record for lane-04: `lane-04-comparative-disposition.md`
 - current draft local proposals from lane-04: `lane-04-surface-a-authority-force-proposal.md`, `lane-04-surface-d-high-force-carrier-proposal.md`
 - current bounded Surface B stress tests: `lane-04-surface-b-prelicensing-judgeability-pass.md`, `lane-04-surface-b-graded-underreach-trial.md`
@@ -77,7 +78,8 @@
 - concrete Wave-1 packet manifests for the first main-wave lanes
 - first Wave-1 lane specs under `wave-1/specs/`
 - Wave-2 lane specs under `wave-2/specs/`
-- next step: corresponding lane-05 Wave-2 prompt under `wave-2/prompts/`
+- corresponding lane-05 Wave-2 prompt under `wave-2/prompts/`
+- next step: freeze and launch lane-05 against the current clean basis
 - later lane outputs for the debrief/audit wave
 - later synthesis artifact that recommends a rerun shape or a justified alternative
 

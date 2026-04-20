@@ -37,9 +37,10 @@ Date: 2026-04-19
 - first Wave-1 comparative disposition written under `wave-1/dispositions/`
 - forward-looking Wave-2 artifact topology created under `wave-2/`
 - Wave-2 lane specs drafted under `wave-2/specs/`
+- lane-05 Wave-2 Opus launch prompt drafted under `wave-2/prompts/`
 - no readiness-package mutation authorized from this workspace
 - recommended main path currently: `Proposal B-extended` from [PLAN-PROPOSALS.md](PLAN-PROPOSALS.md)
-- current main-wave status: `Wave-2 lane-05 and lane-06 specs now exist; lane-05 prompt-writing and launch preparation are next`
+- current main-wave status: `Wave-2 lane-05 prompt now exists; freeze-and-launch preparation is next`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -74,9 +75,9 @@ Date: 2026-04-19
 
 ## Next Pending Actions
 
-1. write the lane-05 Wave-2 launch prompt from the drafted packet/spec pair
-2. decide whether lane-05 should get an immediate counterpart review in parallel rather than an Opus-only first pass
-3. freeze the lane-05 spec/prompt/packet boundary and record the launch basis before external launch
+1. decide whether lane-05 should get an immediate counterpart review in parallel rather than an Opus-only first pass
+2. freeze the lane-05 spec/prompt/packet boundary and record the launch basis before external launch
+3. launch lane-05 against the frozen basis and preserve launch-truth artifacts
 4. after lane-05 returns, resolve the lane-06 packet's lane-05 placeholder to the accepted concrete output before writing or launching lane-06
 5. keep the audit workspace checkpointed and reviewable rather than letting Wave-2 work accumulate as an uncommitted spill
 
