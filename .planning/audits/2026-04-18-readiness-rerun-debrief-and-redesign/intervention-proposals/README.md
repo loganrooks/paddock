@@ -14,6 +14,10 @@ Status: active proposal batch
 4. `04-live-vs-overlay-drift-visibility-proposal.md`
 5. `05-batch-routing-note.md`
 6. `06-first-tranche-disposition.md`
+7. `07-live-vs-overlay-drift-register-pilot.md`
+8. `08-manifest-semantic-contract-disposition.md`
+9. `09-final-runtime-visibility-proposal.md`
+10. `10-final-runtime-visibility-first-pass-disposition.md`
 
 ## Proposal Rule
 

@@ -61,6 +61,9 @@ For structural `.planning/` changes that can affect markdown links, prefer the r
   - use as the lightweight default check before a checkpoint when only some audit roots changed
   - `--staged` limits the check to staged audit roots
   - `--all` is a broader hygiene sweep and can legitimately fail on pre-existing debt outside the current work
+- `python3 tooling/codex/runtime_visibility.py`
+  - use for harness-intervention or portable-GSD runtime work when the real question is how final `.codex/` runtime surfaces differ from tracked overlay canon after materialization
+  - prefer it over vague `overlay/live drift` language when you need a bounded, classified view of high-leverage runtime families
 
 Move manifest format:
 

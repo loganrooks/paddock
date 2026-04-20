@@ -56,22 +56,27 @@
 50. [intervention-proposals/README.md](intervention-proposals/README.md)
 51. [intervention-proposals/05-batch-routing-note.md](intervention-proposals/05-batch-routing-note.md)
 52. [intervention-proposals/06-first-tranche-disposition.md](intervention-proposals/06-first-tranche-disposition.md)
-53. [docs-audit/README.md](docs-audit/README.md)
-54. [docs-audit/packets/01-pr-docs-intervention-carry-packet.md](docs-audit/packets/01-pr-docs-intervention-carry-packet.md)
-55. [docs-audit/specs/01-pr-docs-intervention-carry-spec.md](docs-audit/specs/01-pr-docs-intervention-carry-spec.md)
-56. [docs-audit/prompts/01-pr-docs-intervention-carry-opus47-max-r1-launch-prompt.md](docs-audit/prompts/01-pr-docs-intervention-carry-opus47-max-r1-launch-prompt.md)
-57. [docs-audit/prompts/01-pr-docs-intervention-carry-gpt54-xhigh-r1-brief.md](docs-audit/prompts/01-pr-docs-intervention-carry-gpt54-xhigh-r1-brief.md)
-58. [docs-audit/launch-truth/01-pr-docs-intervention-carry-launch-truth.md](docs-audit/launch-truth/01-pr-docs-intervention-carry-launch-truth.md)
-59. [docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md](docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md)
-60. [docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md](docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md)
-61. [docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md](docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md)
-62. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
-63. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
-64. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
-65. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
-66. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
-67. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
-68. [corpus/README.md](corpus/README.md)
+53. [intervention-proposals/07-live-vs-overlay-drift-register-pilot.md](intervention-proposals/07-live-vs-overlay-drift-register-pilot.md)
+54. [intervention-proposals/08-manifest-semantic-contract-disposition.md](intervention-proposals/08-manifest-semantic-contract-disposition.md)
+55. [intervention-proposals/09-final-runtime-visibility-proposal.md](intervention-proposals/09-final-runtime-visibility-proposal.md)
+56. [intervention-proposals/10-final-runtime-visibility-first-pass-disposition.md](intervention-proposals/10-final-runtime-visibility-first-pass-disposition.md)
+57. [docs-audit/README.md](docs-audit/README.md)
+58. [docs-audit/packets/01-pr-docs-intervention-carry-packet.md](docs-audit/packets/01-pr-docs-intervention-carry-packet.md)
+59. [docs-audit/specs/01-pr-docs-intervention-carry-spec.md](docs-audit/specs/01-pr-docs-intervention-carry-spec.md)
+60. [docs-audit/prompts/01-pr-docs-intervention-carry-opus47-max-r1-launch-prompt.md](docs-audit/prompts/01-pr-docs-intervention-carry-opus47-max-r1-launch-prompt.md)
+61. [docs-audit/prompts/01-pr-docs-intervention-carry-gpt54-xhigh-r1-brief.md](docs-audit/prompts/01-pr-docs-intervention-carry-gpt54-xhigh-r1-brief.md)
+62. [docs-audit/launch-truth/01-pr-docs-intervention-carry-launch-truth.md](docs-audit/launch-truth/01-pr-docs-intervention-carry-launch-truth.md)
+63. [docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md](docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md)
+64. [docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md](docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md)
+65. [docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md](docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md)
+66. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
+67. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
+68. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
+69. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
+70. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
+71. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
+72. [corpus/README.md](corpus/README.md)
+71. [corpus/README.md](corpus/README.md)
 
 ## Source-Of-Truth Hierarchy
 
@@ -111,6 +116,10 @@
 - current goal-to-surface routing companion artifact for the intervention layer: `GOAL-TO-SURFACE-INTERVENTION-INDEX.md`
 - current surface-status and delta companion artifact for the intervention layer: `SURFACE-STATUS-AND-DELTA.md`
 - current bounded intervention proposal subtree, routing note, and first-tranche disposition: `intervention-proposals/`
+- current bounded drift-register pilot for the second tranche: `intervention-proposals/07-live-vs-overlay-drift-register-pilot.md`
+- current manifest semantic correction for the second tranche: `intervention-proposals/08-manifest-semantic-contract-disposition.md`
+- current bounded final-runtime visibility proposal for the second tranche: `intervention-proposals/09-final-runtime-visibility-proposal.md`
+- current accepted first-pass runtime-visibility implementation for the second tranche: `intervention-proposals/10-final-runtime-visibility-first-pass-disposition.md`
 - current bounded docs-audit lane subtree for that challenge work: `docs-audit/`
 - current docs-audit launch record: `docs-audit/launch-truth/01-pr-docs-intervention-carry-launch-truth.md`
 - current raw docs-audit outputs: `docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md`, `docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md`
@@ -147,7 +156,11 @@
 - current goal-to-surface routing companion artifact
 - current surface-status and delta companion artifact
 - current first bounded intervention proposal batch, routing note, and first-tranche disposition
-- next step: verify and checkpoint the landed first pair, then decide whether to start the second tranche with drift visibility
+- current second-tranche drift-register pilot
+- current manifest semantic correction for update-boundary truth versus final-runtime truth
+- current bounded follow-through proposal for separate final-runtime visibility
+- current accepted first-pass implementation of that follow-through
+- next step: decide whether to widen family coverage, persist selected ignored snapshots, or use the current output to sharpen later overlay-expansion / cleanup work
 - later lane outputs for the debrief/audit wave
 - later synthesis artifact that recommends a rerun shape or a justified alternative
 

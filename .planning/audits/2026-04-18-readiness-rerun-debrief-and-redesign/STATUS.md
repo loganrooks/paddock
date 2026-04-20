@@ -65,6 +65,10 @@ Date: 2026-04-20
 - first-tranche intervention disposition written
 - launch-truth capture landed in root/planning AGENTS surfaces
 - high-stakes agent `.toml` cohort aligned to repo anti-threshold doctrine
+- live-vs-overlay drift register pilot written
+- manifest semantic contract disposition written
+- final-runtime visibility proposal written
+- first-pass runtime-visibility verifier/snapshot tool landed
 - isolated latest-install probe completed against detached worktree
 - active repo-local `.codex/` confirmed already at `v1.38.1`
 - fresh latest reinstall + overlay confirmed semantically aligned with active runtime except for repo-local config defaults and stale manifest hashes
@@ -81,6 +85,10 @@ Date: 2026-04-20
 - current harness-update status: `active runtime already sits at published v1.38.1; the missing object is intervention onboarding, not a blind reinstall`
 - current docs-onboarding status: `the submitted docs PR now has a carry-focused audit, a transformation plan, and a completed bounded companion layer for runtime authority, goal routing, and surface-state distinctions`
 - current intervention-proposal status: `the first four bounded harness follow-through proposals now exist, the first-tranche disposition is written, and the first accepted pair is now landed in the instruction/runtime layer`
+- current drift-register status: `the second tranche now has a bounded pilot register; sampled load-bearing differences are mostly intelligible materialized carry or selective overlay boundary, not mystery drift`
+- current manifest-contract status: `the second tranche now rejects manifest semantic collapse; gsd-file-manifest.json remains an upstream/update-boundary artifact, backup-meta stays tracked subset-carry metadata, and the missing object is a separate final-runtime visibility surface`
+- current final-runtime-visibility status: `a bounded follow-through proposal now exists for a separate repo-local runtime-truth surface that can coexist with the updater/custom-file manifest instead of replacing it`
+- current runtime-visibility-tool status: `a first-pass paired verifier/snapshot tool is now landed for high-leverage runtime families, and the current sample shows selective overlay boundary plus intelligible carry rather than unknown drift`
 - current docs-audit-sequencing status: `the challenged lane pair, transformation plan, bounded companion layer, and first intervention proposal batch are complete; the current move is proposal disposition and first bounded follow-through`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
@@ -122,9 +130,9 @@ Date: 2026-04-20
 ## Next Pending Actions
 
 1. use the bounded companion onboarding set as the starting read set for future harness-intervention work: `HARNESS-INTERVENTION-UPDATE-LANE.md`, `HARNESS-INTERVENTION-ONBOARDING.md`, `RUNTIME-MATERIALIZATION-AND-AUTHORITY.md`, `GOAL-TO-SURFACE-INTERVENTION-INDEX.md`, and `SURFACE-STATUS-AND-DELTA.md`
-2. verify and checkpoint the first accepted intervention pair as the new runtime/planning baseline
-3. decide whether to start the second tranche with a bounded live-vs-overlay drift register pilot
-4. record and later repair the install/overlay manifest-coherence issue instead of silently trusting manifest hashes
+2. verify and checkpoint the first accepted intervention pair plus the bounded drift-register pilot as the new runtime/planning baseline
+3. inherit the manifest semantic contract note before touching install/manifest logic: preserve update-boundary manifest meaning and do not rewrite `gsd-file-manifest.json` into a final-runtime snapshot
+4. use the landed runtime-visibility tool to decide the next tightening: widen family coverage, write durable ignored snapshots for selected lanes, or sharpen a later overlay-expansion / cleanup decision
 5. decide whether any remaining package-truth or non-targeted parity residue needs one more narrow pass before rerun-floor recomputation
 6. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
 
