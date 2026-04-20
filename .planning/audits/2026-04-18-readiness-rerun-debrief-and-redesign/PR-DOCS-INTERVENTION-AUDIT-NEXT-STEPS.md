@@ -41,6 +41,8 @@ Status: partially completed next-step note
 4. **Only after that, write the transformation plan**
    - [d:r:i] Decide how the submitted docs should be transformed, extended, or paired so they carry stronger intervention planning.
    - [d:r:i] Keep stable contributor/reference docs distinct from any heavier intervention-oriented layer.
+   - [d:c+i] Completed:
+     - [PR-DOCS-INTERVENTION-TRANSFORMATION-PLAN.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/PR-DOCS-INTERVENTION-TRANSFORMATION-PLAN.md:1)
 
 5. **Then route into bounded intervention proposals**
    - [d:r:i] Turn the four highest-rank harness surfaces into bounded proposal artifacts:
@@ -58,4 +60,4 @@ Status: partially completed next-step note
 
 ## Bottom Line
 
-- [g:r:i] Immediate next move: write the transformation-plan artifact that decides how the stable PR docs, the intervention companion layer, and the bounded architecture/delta/index companions should fit together before routing into bounded intervention proposals.
+- [g:r:i] Immediate next move: route the transformation plan into the first bounded companion artifact and the first bounded proposal artifacts, starting with `RUNTIME-MATERIALIZATION-AND-AUTHORITY.md`.

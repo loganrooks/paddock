@@ -49,22 +49,23 @@
 43. [HARNESS-INTERVENTION-ONBOARDING.md](HARNESS-INTERVENTION-ONBOARDING.md)
 44. [PR-DOCS-INTERVENTION-CARRY-AUDIT.md](PR-DOCS-INTERVENTION-CARRY-AUDIT.md)
 45. [PR-DOCS-INTERVENTION-AUDIT-NEXT-STEPS.md](PR-DOCS-INTERVENTION-AUDIT-NEXT-STEPS.md)
-46. [docs-audit/README.md](docs-audit/README.md)
-47. [docs-audit/packets/01-pr-docs-intervention-carry-packet.md](docs-audit/packets/01-pr-docs-intervention-carry-packet.md)
-48. [docs-audit/specs/01-pr-docs-intervention-carry-spec.md](docs-audit/specs/01-pr-docs-intervention-carry-spec.md)
-49. [docs-audit/prompts/01-pr-docs-intervention-carry-opus47-max-r1-launch-prompt.md](docs-audit/prompts/01-pr-docs-intervention-carry-opus47-max-r1-launch-prompt.md)
-50. [docs-audit/prompts/01-pr-docs-intervention-carry-gpt54-xhigh-r1-brief.md](docs-audit/prompts/01-pr-docs-intervention-carry-gpt54-xhigh-r1-brief.md)
-51. [docs-audit/launch-truth/01-pr-docs-intervention-carry-launch-truth.md](docs-audit/launch-truth/01-pr-docs-intervention-carry-launch-truth.md)
-52. [docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md](docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md)
-53. [docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md](docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md)
-54. [docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md](docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md)
-55. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
-56. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
-57. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
-58. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
-59. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
-60. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
-61. [corpus/README.md](corpus/README.md)
+46. [PR-DOCS-INTERVENTION-TRANSFORMATION-PLAN.md](PR-DOCS-INTERVENTION-TRANSFORMATION-PLAN.md)
+47. [docs-audit/README.md](docs-audit/README.md)
+48. [docs-audit/packets/01-pr-docs-intervention-carry-packet.md](docs-audit/packets/01-pr-docs-intervention-carry-packet.md)
+49. [docs-audit/specs/01-pr-docs-intervention-carry-spec.md](docs-audit/specs/01-pr-docs-intervention-carry-spec.md)
+50. [docs-audit/prompts/01-pr-docs-intervention-carry-opus47-max-r1-launch-prompt.md](docs-audit/prompts/01-pr-docs-intervention-carry-opus47-max-r1-launch-prompt.md)
+51. [docs-audit/prompts/01-pr-docs-intervention-carry-gpt54-xhigh-r1-brief.md](docs-audit/prompts/01-pr-docs-intervention-carry-gpt54-xhigh-r1-brief.md)
+52. [docs-audit/launch-truth/01-pr-docs-intervention-carry-launch-truth.md](docs-audit/launch-truth/01-pr-docs-intervention-carry-launch-truth.md)
+53. [docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md](docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md)
+54. [docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md](docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md)
+55. [docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md](docs-audit/dispositions/01-pr-docs-intervention-carry-comparative-disposition.md)
+56. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
+57. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
+58. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
+59. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
+60. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
+61. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
+62. [corpus/README.md](corpus/README.md)
 
 ## Source-Of-Truth Hierarchy
 
@@ -99,6 +100,7 @@
 - current purpose-built harness intervention onboarding/map artifact: `HARNESS-INTERVENTION-ONBOARDING.md`
 - current carry-focused audit of the submitted docs PR against intervention-planning goals: `PR-DOCS-INTERVENTION-CARRY-AUDIT.md`
 - current explicit next-step sequence for challenging and inheriting that audit: `PR-DOCS-INTERVENTION-AUDIT-NEXT-STEPS.md`
+- current transformation plan for how the stable PR docs and companion intervention layer should fit together: `PR-DOCS-INTERVENTION-TRANSFORMATION-PLAN.md`
 - current bounded docs-audit lane subtree for that challenge work: `docs-audit/`
 - current docs-audit launch record: `docs-audit/launch-truth/01-pr-docs-intervention-carry-launch-truth.md`
 - current raw docs-audit outputs: `docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md`, `docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md`
@@ -131,7 +133,7 @@
 - current Wave-2 launch-truth records under `wave-2/launch-truth/`
 - current carry-focused audit of the submitted docs PR against intervention-planning goals
 - current explicit next-step sequence for challenging and inheriting that audit
-- next step: write the transformation-plan artifact that inherits the completed docs-audit lane pair before routing into bounded intervention proposals
+- next step: write `RUNTIME-MATERIALIZATION-AND-AUTHORITY.md` as the first bounded companion artifact from the transformation plan
 - later lane outputs for the debrief/audit wave
 - later synthesis artifact that recommends a rerun shape or a justified alternative
 
