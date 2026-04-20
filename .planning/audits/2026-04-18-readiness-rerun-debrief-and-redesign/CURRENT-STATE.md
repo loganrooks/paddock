@@ -173,6 +173,12 @@
 - [d:r:i] They also make one current strategic point explicit in plain language:
   - long-horizon thinking is being integrated into the harness through live inheritance-capable surfaces such as `spec-phase`, `ingest-docs`, and `mandatory-initial-read`, while `LONG-ARC.md` continues to preserve the future wrapper, visibility, hosting, and memory seams the harness should avoid foreclosing.
 
+## Long-Horizon Carry Gap Register
+
+- [e:c+i] The workspace now also has a dedicated gap register for the next question that emerged after the re-entry pass: where long-horizon carry is already strong, where it still weakens across lifecycle surfaces, and what broader “best possible harness” pressure still lacks a stable improvement surface. Source: [intervention-proposals/29-long-horizon-carry-gap-register.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/29-long-horizon-carry-gap-register.md:1).
+- [d:r:i] The register’s current central claim is not that future-awareness is absent. It is that the harness currently carries it much more strongly at discuss/plan entry than at verification, transition, milestone boundary, state/progress, and broader harness-self-improvement surfaces.
+- [d:r:i] That artifact is now the right packet seed if a later local or cross-vendor lane should critique, narrow, or extend the gap reading instead of reconstructing it from chat.
+
 ## What Is Still Unsettled
 
 - [o:r:i] How much of the original readiness underreach came from weak terrain mapping versus closure-biased judgment, and how much came from interaction effects between the two.
