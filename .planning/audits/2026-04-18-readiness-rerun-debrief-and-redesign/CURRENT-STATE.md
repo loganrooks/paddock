@@ -166,6 +166,13 @@
 - [e:c+i] The three linked program-honesty rule artifacts now exist as explicit bounded doctrine proposals rather than only as lane-06 memory: [26-brake-exit-rule.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/26-brake-exit-rule.md:1), [27-preserve-only-activation-trigger-doctrine.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/27-preserve-only-activation-trigger-doctrine.md:1), and [28-execution-capacity-reopen-rule.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/28-execution-capacity-reopen-rule.md:1).
 - [d:r:i] Current consequence: the next move is no longer to ask what the rerun floor should be. It is to convert the recomputed floor into the next actual closure batch: BE-6 review closure, chain-tail rule landing, and doctrine-surface disposition for the three program-honesty rules.
 
+## Plain-Language Re-Entry Layer
+
+- [e:c+i] This workspace now has a dedicated plain-language re-entry pair: [PLAIN-LANGUAGE-STATE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/PLAIN-LANGUAGE-STATE.md:1) and [PLAIN-LANGUAGE-GLOSSARY.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/PLAIN-LANGUAGE-GLOSSARY.md:1).
+- [d:r:i] Their job is not to replace the denser audit/program artifacts. Their job is to make re-entry survivable when the audit vocabulary or shorthand starts outrunning reader stability.
+- [d:r:i] They also make one current strategic point explicit in plain language:
+  - long-horizon thinking is being integrated into the harness through live inheritance-capable surfaces such as `spec-phase`, `ingest-docs`, and `mandatory-initial-read`, while `LONG-ARC.md` continues to preserve the future wrapper, visibility, hosting, and memory seams the harness should avoid foreclosing.
+
 ## What Is Still Unsettled
 
 - [o:r:i] How much of the original readiness underreach came from weak terrain mapping versus closure-biased judgment, and how much came from interaction effects between the two.

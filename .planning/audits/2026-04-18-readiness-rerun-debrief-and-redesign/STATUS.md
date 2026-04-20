@@ -92,6 +92,7 @@ Date: 2026-04-20
 - current main-wave status: `Wave-2 lane-06 accepted; the bounded R5.18 materialization fix slice is now partially executed and reinstall-backed, not just proposed`
 - current harness-update status: `active runtime already sits at published v1.38.1; the missing object is intervention onboarding, not a blind reinstall`
 - current docs-onboarding status: `the submitted docs PR now has a carry-focused audit, a transformation plan, and a completed bounded companion layer for runtime authority, goal routing, and surface-state distinctions`
+- plain-language re-entry pair written for this workspace: `PLAIN-LANGUAGE-STATE.md` and `PLAIN-LANGUAGE-GLOSSARY.md`
 - current intervention-proposal status: `the first four bounded harness follow-through proposals now exist, the first-tranche disposition is written, and the first accepted pair is now landed in the instruction/runtime layer`
 - current drift-register status: `the second tranche now has a bounded pilot register; sampled load-bearing differences are mostly intelligible materialized carry or selective overlay boundary, not mystery drift`
 - current manifest-contract status: `the second tranche now rejects manifest semantic collapse; gsd-file-manifest.json remains an upstream/update-boundary artifact, backup-meta stays tracked subset-carry metadata, and the missing object is a separate final-runtime visibility surface`
@@ -164,10 +165,11 @@ Date: 2026-04-20
 ## Next Pending Actions
 
 1. use the bounded companion onboarding set as the starting read set for future harness-intervention work: `HARNESS-INTERVENTION-UPDATE-LANE.md`, `HARNESS-INTERVENTION-ONBOARDING.md`, `RUNTIME-MATERIALIZATION-AND-AUTHORITY.md`, `GOAL-TO-SURFACE-INTERVENTION-INDEX.md`, and `SURFACE-STATUS-AND-DELTA.md`
-2. verify and checkpoint the first accepted intervention pair plus the bounded drift-register pilot as the new runtime/planning baseline
-3. inherit the manifest semantic contract note before touching install/manifest logic: preserve update-boundary manifest meaning and do not rewrite `gsd-file-manifest.json` into a final-runtime snapshot
-4. translate the recomputed rerun floor into the next actual closure moves: BE-6 executed-bundle review, chain-tail rule landing, and doctrine-surface disposition for the three program-honesty rules
-5. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
+2. use the plain-language re-entry pair first when the workspace needs a lower-shorthand reread: `PLAIN-LANGUAGE-STATE.md` then `PLAIN-LANGUAGE-GLOSSARY.md`
+3. verify and checkpoint the first accepted intervention pair plus the bounded drift-register pilot as the new runtime/planning baseline
+4. inherit the manifest semantic contract note before touching install/manifest logic: preserve update-boundary manifest meaning and do not rewrite `gsd-file-manifest.json` into a final-runtime snapshot
+5. translate the recomputed rerun floor into the next actual closure moves: BE-6 executed-bundle review, chain-tail rule landing, and doctrine-surface disposition for the three program-honesty rules
+6. keep `C`, bounded `F`, and `E` live only through explicit triggers rather than rhetorical reopenings
 
 ## Open Questions
 
