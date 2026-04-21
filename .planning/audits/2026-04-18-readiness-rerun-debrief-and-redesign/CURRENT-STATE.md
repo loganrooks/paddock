@@ -230,6 +230,7 @@
 - [o:r:i] Whether the next serious move should remain a readiness-rerun-centered debrief, or switch toward execute-and-learn, harness-code-first, or some stricter hybrid shape.
 - [o:r:i] What burden of proof should govern `no change`, `no new subphase`, or `mapping already carries the work strongly enough` recommendations in the rerun-design stage.
 - [o:r:i] Whether the improved docs corpus is already strong enough to seed intervention-ready mapping, or whether a further docs-vs-runtime or topology-reconciliation pass is still prerequisite.
+- [o:r:i] Whether the repo later needs an explicit GSD compatibility surface or manifest that states which upstream/runtime versions the current harness posture is meant to work with, rather than relying only on version probes, installer/materialization checks, and drift/coherence tools.
 - [o:r:i] Which parts of the submitted docs PR should be adapted directly for intervention planning, and which should remain stable contributor/reference docs while a separate intervention layer does the heavier strategic work.
 - [o:r:i] What operator/orchestration pressures are contributing to underreach independently of mapping weakness.
 - [o:r:i] Whether the newly patched Surface A and Surface D surfaces will change later treatment once used in a real phase or launch-readiness decision, rather than only reading better in isolation.

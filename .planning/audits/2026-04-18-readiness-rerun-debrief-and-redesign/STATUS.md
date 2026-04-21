@@ -224,6 +224,7 @@ Date: 2026-04-21
 - does `mapping-adequacy-and-comparative-mapping` stay one Wave-1 lane in practice, or should the actual spec escalate into a split because packet bounds or defect-type separation demand it?
 - do any first Wave-1 lane specs need narrower packet trims than the default manifests in order to stay within band without losing contrary pressure?
 - does the audit directory later need a bounded organization / topology cleanup beyond the current authority note, read-order scaffolding, and manifest discipline once Wave-1 artifacts accumulate?
+- should the repo later carry an explicit GSD compatibility surface or manifest that says which upstream/runtime versions this harness posture is meant to work with, and if so should that truth live as a dedicated compatibility file, a tooling-generated manifest, or a smaller section inside the runtime/install authority chain?
 - is a bounded reviewer-register vocabulary curation note worth doing later, or does stronger spec-writing and packet discipline make that unnecessary?
 - what is the best durable shape for a repo-local harness intervention onboarding doc that can carry both current runtime truth and longer-horizon modification planning?
 - how should the newly named long-horizon lifecycle gaps, horizon tensions, and positive strengthening opportunities be mapped as one field, and which parts of that field are still too weakly articulated or too diffusely framed?
