@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "0d1c9ad",
+  "basis_commit": "d3c09e5",
   "inherited_dispositions": [
     "propagation-audit/dispositions/01-propagation-chain-reread-inheritance.md",
     "propagation-audit/dispositions/02-broader-network-propagation-field-mapping-inheritance.md",
@@ -15,7 +15,8 @@
     "propagation-audit/23-state-progress-and-resume-future-carry-change-triggered-refresh.md",
     "propagation-audit/24-spec-lifecycle-carry-change-triggered-refresh.md",
     "propagation-audit/25-read-packet-and-relevance-control-change-triggered-refresh.md",
-    "propagation-audit/26-initialization-and-ingest-read-packet-change-triggered-refresh.md"
+    "propagation-audit/26-initialization-and-ingest-read-packet-change-triggered-refresh.md",
+    "propagation-audit/27-health-and-migration-follow-through-change-triggered-refresh.md"
   ],
   "coverage_gate": [
     {
@@ -58,7 +59,13 @@
       "family": "workflow_output",
       "coverage_status": "mapped",
       "roster_source": "upstream_inventory",
-      "notes": "current slice now keeps uplift, progress, resume, new-project, new-milestone, ingest-docs, verifier, transition, complete-milestone, spec-phase, and discuss-phase workflows explicit as routed carriers, with upstream spec future-carry movement plus both re-entry and initialization/doc-ingest read-packet control visible too"
+      "notes": "current slice now keeps uplift, progress, resume, new-project, new-milestone, ingest-docs, health, verifier, transition, complete-milestone, spec-phase, and discuss-phase workflows explicit as routed carriers, with upstream spec future-carry movement plus re-entry, initialization/doc-ingest, and repair-side read-packet control visible too"
+    },
+    {
+      "family": "wrapper",
+      "coverage_status": "mapped_but_curated",
+      "roster_source": "upstream_inventory",
+      "notes": "current slice now keeps gsd-health and gsd-from-gsd2 explicit as entry-binding wrapper carriers, but broader wrapper coverage remains later work"
     },
     {
       "family": "lib_runtime",
@@ -76,7 +83,7 @@
       "family": "reference_behavior",
       "coverage_status": "mapped_but_curated",
       "roster_source": "upstream_inventory",
-      "notes": "current slice now keeps verifier-side agent-contract reference carry plus the shared mandatory-read tier contract explicit across re-entry, initialization, milestone-open, and doc-ingest consumers, but broader reference-behavior coverage remains later work"
+      "notes": "current slice now keeps verifier-side agent-contract reference carry plus the shared mandatory-read tier contract explicit across re-entry, initialization, milestone-open, doc-ingest, and health consumers, but broader reference-behavior coverage remains later work"
     },
     {
       "family": "governance_lane",
@@ -99,8 +106,8 @@
     },
     {
       "kind": "change_triggered_slice_refresh",
-      "status": "anchor_consumer_threshold_scanner_verifier_lifecycle_setup_robustness_transition_lifecycle_milestone_boundary_first_read_consumer_spec_lifecycle_read_packet_and_initialization_ingest_follow_through_landed",
-      "notes": "the compatibility anchor slice refreshed uplift/runtime carriers, the consumer-chain follow-through refreshed live read-only routing surfaces, the threshold-scanner slice refreshed helper plus lane-governance carry, the verifier-lifecycle slice refreshed workflow/template/reference/registry carry, the setup/materialization slice refreshed installer-entry/helper/contract carry, the transition-lifecycle slice refreshed phase-close workflow/template/state-continuity carry, the milestone-boundary slice refreshed milestone-open plus milestone-close workflow/state-continuity carry, the first-read consumer slice refreshed the state helper plus progress/resume future-carry routing, the spec lifecycle slice refreshed the spec producer pair plus discuss-phase upstream spec carry, the read-packet slice refreshed the shared mandatory-read contract plus current operator-facing reading-control consumers, and the initialization/ingest slice refreshed the shared mandatory-read contract plus new-project/new-milestone/ingest-docs consumers with explicit progress-then-uplift and merge-versus-later-uplift route separation"
+      "status": "anchor_consumer_threshold_scanner_verifier_lifecycle_setup_robustness_transition_lifecycle_milestone_boundary_first_read_consumer_spec_lifecycle_read_packet_initialization_ingest_and_health_migration_follow_through_landed",
+      "notes": "the compatibility anchor slice refreshed uplift/runtime carriers, the consumer-chain follow-through refreshed live read-only routing surfaces, the threshold-scanner slice refreshed helper plus lane-governance carry, the verifier-lifecycle slice refreshed workflow/template/reference/registry carry, the setup/materialization slice refreshed installer-entry/helper/contract carry, the transition-lifecycle slice refreshed phase-close workflow/template/state-continuity carry, the milestone-boundary slice refreshed milestone-open plus milestone-close workflow/state-continuity carry, the first-read consumer slice refreshed the state helper plus progress/resume future-carry routing, the spec lifecycle slice refreshed the spec producer pair plus discuss-phase upstream spec carry, the read-packet slice refreshed the shared mandatory-read contract plus current operator-facing reading-control consumers, the initialization/ingest slice refreshed the shared mandatory-read contract plus new-project/new-milestone/ingest-docs consumers with explicit progress-then-uplift and merge-versus-later-uplift route separation, and the health/migration slice refreshed health plus the two wrappers with structural-repair, validation, and later-uplift route separation"
     },
     {
       "kind": "scheduled_whole_registry_refresh",
@@ -122,7 +129,7 @@
     "broader compatibility window or standalone compatibility carrier",
     "broader registry authorship policy across vendors",
     "richer role-aware heuristic classification that still cannot drift into prose control",
-    "later lifecycle carry beyond the verifier, transition, milestone-boundary, first-read consumer, spec, and re-entry plus initialization/doc-ingest read-packet bridges",
+    "later lifecycle carry beyond the verifier, transition, milestone-boundary, first-read consumer, spec, and re-entry plus initialization/doc-ingest plus repair/migration read-packet and route-separation bridges",
     "broader repeated-reinstall durability beyond the first local setup/materialization harden slice"
   ]
 }

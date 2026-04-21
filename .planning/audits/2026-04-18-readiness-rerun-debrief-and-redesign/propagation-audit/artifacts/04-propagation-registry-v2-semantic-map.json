@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "0d1c9ad",
+  "basis_commit": "d3c09e5",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -417,14 +417,16 @@
       "id": "mandatory_initial_read_reference",
       "family": "reference_behavior",
       "path": "tooling/portable-gsd/overlay/get-shit-done/references/mandatory-initial-read.md",
-      "role": "shared read-packet doctrine defining required, supporting, and deeper reading tiers for current operator-facing entry, re-entry, initialization, milestone-open, and doc-ingest workflows",
+      "role": "shared read-packet doctrine defining required, supporting, and deeper reading tiers for current operator-facing entry, re-entry, initialization, milestone-open, doc-ingest, and health workflows",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "read_packet_relevance_control_impl_66",
         "read_packet_tier_contract_tests",
         "initialization_ingest_read_packet_impl_68",
-        "initialization_read_packet_contract_tests"
+        "initialization_read_packet_contract_tests",
+        "health_migration_follow_through_impl_70",
+        "health_migration_follow_through_tests"
       ]
     },
     {
@@ -542,6 +544,18 @@
       ]
     },
     {
+      "id": "health_workflow",
+      "family": "workflow_output",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/health.md",
+      "role": "structural-health workflow with layered read-packet control, explicit missing-planning routing, and later repo-local uplift kept separate from repair",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "health_migration_follow_through_impl_70",
+        "health_migration_follow_through_tests"
+      ]
+    },
+    {
       "id": "milestone_close_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/complete-milestone.md",
@@ -586,6 +600,30 @@
         "overlay_contract_validation",
         "spec_lifecycle_carry_impl_64",
         "spec_future_carry_contract_tests"
+      ]
+    },
+    {
+      "id": "health_skill_wrapper",
+      "family": "wrapper",
+      "path": "tooling/portable-gsd/overlay/skills/gsd-health/SKILL.md",
+      "role": "invocation-binding wrapper that routes structural planning health through the health workflow while keeping later uplift separate",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "health_migration_follow_through_impl_70",
+        "health_migration_follow_through_tests"
+      ]
+    },
+    {
+      "id": "from_gsd2_skill_wrapper",
+      "family": "wrapper",
+      "path": "tooling/portable-gsd/overlay/skills/gsd-from-gsd2/SKILL.md",
+      "role": "invocation-binding wrapper that routes format migration through structural validation and later uplift handoff instead of ending at conversion alone",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "health_migration_follow_through_impl_70",
+        "health_migration_follow_through_tests"
       ]
     }
   ],
@@ -1050,6 +1088,42 @@
       "status": "mapped"
     },
     {
+      "id": "overlay_to_health_workflow",
+      "from": "overlay_manifest",
+      "to": "health_workflow",
+      "kind": "overlay_owns_workflow_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "health_migration_follow_through_impl_70"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_health_skill_wrapper",
+      "from": "overlay_manifest",
+      "to": "health_skill_wrapper",
+      "kind": "overlay_owns_wrapper_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "health_migration_follow_through_impl_70"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_from_gsd2_skill_wrapper",
+      "from": "overlay_manifest",
+      "to": "from_gsd2_skill_wrapper",
+      "kind": "overlay_owns_wrapper_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "health_migration_follow_through_impl_70"
+      ],
+      "status": "mapped"
+    },
+    {
       "id": "overlay_to_milestone_close_workflow",
       "from": "overlay_manifest",
       "to": "milestone_close_workflow",
@@ -1204,6 +1278,18 @@
       "status": "mapped"
     },
     {
+      "id": "mandatory_initial_read_to_health_workflow",
+      "from": "mandatory_initial_read_reference",
+      "to": "health_workflow",
+      "kind": "shared_reference_guides_workflow_reading_control",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "health_migration_follow_through_impl_70",
+        "health_migration_follow_through_tests"
+      ],
+      "status": "mapped"
+    },
+    {
       "id": "mandatory_initial_read_to_resume_workflow",
       "from": "mandatory_initial_read_reference",
       "to": "resume_workflow",
@@ -1228,6 +1314,30 @@
       "status": "mapped"
     },
     {
+      "id": "health_skill_wrapper_to_health_workflow",
+      "from": "health_skill_wrapper",
+      "to": "health_workflow",
+      "kind": "wrapper_binds_skill_to_workflow",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "health_migration_follow_through_impl_70",
+        "health_migration_follow_through_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "health_workflow_to_uplift_workflow",
+      "from": "health_workflow",
+      "to": "uplift_workflow",
+      "kind": "structural_health_kept_distinct_from_later_repo_local_uplift",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "health_migration_follow_through_impl_70",
+        "health_migration_follow_through_tests"
+      ],
+      "status": "mapped"
+    },
+    {
       "id": "new_project_workflow_to_progress_workflow",
       "from": "new_project_workflow",
       "to": "progress_workflow",
@@ -1236,6 +1346,30 @@
       "evidence_refs": [
         "initialization_ingest_read_packet_impl_68",
         "initialization_read_packet_contract_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "from_gsd2_skill_wrapper_to_health_workflow",
+      "from": "from_gsd2_skill_wrapper",
+      "to": "health_workflow",
+      "kind": "migration_routes_into_structural_validation",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "health_migration_follow_through_impl_70",
+        "health_migration_follow_through_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "from_gsd2_skill_wrapper_to_uplift_workflow",
+      "from": "from_gsd2_skill_wrapper",
+      "to": "uplift_workflow",
+      "kind": "migration_kept_distinct_from_later_repo_local_uplift",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "health_migration_follow_through_impl_70",
+        "health_migration_follow_through_tests"
       ],
       "status": "mapped"
     },

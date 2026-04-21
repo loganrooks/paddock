@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "0d1c9ad",
+  "basis_commit": "d3c09e5",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -127,6 +127,19 @@
         "reference_behavior"
       ],
       "claim_boundary": "declares how new-project, new-milestone, and ingest-docs inherit required/supporting/deeper reading tiers, and how existing-project refresh or later repo-local uplift remain explicit route splits instead of being flattened into one blended startup space"
+    },
+    {
+      "id": "health_migration_follow_through_contract",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/health.md",
+      "validator": "tooling/codex/tests/test_health_and_migration_follow_through_contract.py",
+      "contract_kind": "repair and migration follow-through semantics for structural health, format conversion, and later uplift separation",
+      "families_touched": [
+        "install_overlay",
+        "workflow_output",
+        "wrapper",
+        "reference_behavior"
+      ],
+      "claim_boundary": "declares how health inherits layered read-packet control, keeps structural repair separate from missing-planning routing and later uplift, and how from-gsd2 adds structural validation plus later uplift handoff instead of ending at format conversion alone"
     }
   ]
 }
