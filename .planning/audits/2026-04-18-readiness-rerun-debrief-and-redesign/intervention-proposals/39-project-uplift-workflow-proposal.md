@@ -71,8 +71,8 @@ Status: active workflow proposal
 
 - [d:r:i] A first-slice uplift pass should open when the project’s current carrier fingerprint differs from current repo-local doctrine in one or more bounded ways:
   - governing-doc carrier fingerprint differs across root/planning `AGENTS.md` or `CLAUDE.md` wrappers
-  - `.planning/CLAIM-TYPES.md` carrier is absent or fingerprints to an older local doctrine version
-  - `.planning/LONG-ARC.md` carrier is absent or fingerprints to an older local doctrine version
+  - `.planning/CLAIM-TYPES.md` carrier is absent or its fingerprint differs from the current repo-local doctrine fingerprint
+  - `.planning/LONG-ARC.md` carrier is absent or its fingerprint differs from the current repo-local doctrine fingerprint
   - required-reading installation practice is not yet present on the project’s live packet/spec/prompt surfaces
   - strengthening-route carry is not yet present in the local discuss/context/plan/research chain where the repo now expects it
   - repo-local tooling inventory expected by doctrine is not yet present
@@ -95,6 +95,7 @@ Status: active workflow proposal
   - workstream reconciliation
   - aged-bespoke deep merge
   - full audit-tree restructuring
+  - doctrine-carrying audit-subtree vintage stamping
   - full upstream-template expression pass
   - broad doctrine-sensitive wrapper rewrites by default
 
@@ -112,6 +113,7 @@ Status: active workflow proposal
 - [d:r:i] Classify the uplift family:
   - vanilla uplift
   - lightly aged uplift
+  - mid-phase uplift
   - aged-bespoke uplift
   - cross-runtime uplift
   - upstream-template-drift uplift
@@ -121,6 +123,7 @@ Status: active workflow proposal
 
 - [d:r:i] Pull runtime/install truth from:
   - `update` posture
+  - installer/materialization posture from `scripts/setup-portable-gsd.sh`
   - `runtime_visibility.py`
   - `manifest_install_coherence.py` where helpful
 - [d:r:i] Pull structural health from:
@@ -132,6 +135,7 @@ Status: active workflow proposal
 - [d:r:i] Pull docs/bootstrap context from:
   - `ingest-docs` outputs where relevant
 - [d:r:i] The workflow consumes these outputs. It does not reimplement them.
+- [d:r:i] In the first slice, installer/materialization posture plus `runtime_visibility.py` and `manifest_install_coherence.py` feed detect-only reporting and routing; they do not by themselves open new install flags.
 
 ### 3. Produce A Doctrine-And-Posture Delta
 
@@ -143,6 +147,11 @@ Status: active workflow proposal
   - current doctrine/install carriers absent
   - later-family pressure that should stay deferred
 - [d:r:i] That delta should become operator-facing material inside `UPLIFT-REPORT.md` and machine-routable material inside the thin doctrine manifest.
+- [d:r:i] The thin doctrine manifest should use a named fingerprint shape per carrier:
+  - doctrine-version stamp where a carrier exposes an explicit doctrine vintage
+  - content hash for thin wrapper or config carriers
+  - section-list or inventory hash for tooling inventory and other enumerated carrier sets
+  - runtime-registry hash for `.codex/config.toml` and `.codex/agents/*.toml`
 
 ### 4. Apply Explicit First-Slice Refresh Flags
 
@@ -180,7 +189,7 @@ Status: active workflow proposal
   - last uplift class
   - whether doctrine has materially moved since the last uplift
 - [d:r:i] The thin doctrine manifest should record:
-  - carrier fingerprints or version stamps
+  - named carrier fingerprint shape and current fingerprint per carrier
   - last detect-only pass
   - last explicit install pass
   - whether runtime-side registry and wrapper posture align
@@ -196,7 +205,7 @@ Status: active workflow proposal
   - to `discuss-phase` when a phase boundary should be reopened under current doctrine
   - to `plant-seed` when a stronger future move is out of scope for the current uplift slice
 - [d:r:i] First live routed consumer:
-  - one read-only `progress` hook that notices the uplift section plus thin doctrine manifest and can recommend `gsd-uplift-project --detect-only` when posture has drifted or when pending doctrine-sensitive proposals are still unresolved
+  - one read-only `progress` hook that treats `UPLIFT-MANIFEST.json` as the authoritative fingerprint source, uses the `STATE.md` uplift section as narrative companion, and can recommend `gsd-uplift-project --detect-only` when posture has drifted or when pending doctrine-sensitive proposals are still unresolved
 
 ## Carrier Decisions
 
@@ -242,9 +251,8 @@ Status: active workflow proposal
   - revised `37` terrain map
   - `38` concern/carrier placement map
   - this bounded workflow proposal
-- [d:r:i] This revision pass changes first-slice mechanics materially:
-  - detect-only is now the default opening
-  - fingerprint/delta language now shapes detection
-  - the thin doctrine manifest now lands in first slice
-  - `progress` now has one explicit read-only consumer hook
-- [d:r:i] The next move should therefore be one bounded reread on the revised `37 + 38 + 39` bundle before implementation, so the revised first-slice mechanics are challenged as a set rather than assumed from the earlier lane-02 packet.
+- [d:r:i] The revised bundle has now also completed that bounded reread and the resulting harmonization pass.
+- [d:r:i] The next move should therefore be first-slice implementation plus the bounded verification set already named here:
+  - one vanilla project case
+  - one lightly aged project case
+  - one repo-local negative test on prix-guesser itself

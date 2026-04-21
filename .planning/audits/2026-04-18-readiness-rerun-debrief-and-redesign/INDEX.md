@@ -182,8 +182,8 @@
 - current workflow proposal for that family: `intervention-proposals/39-project-uplift-workflow-proposal.md`
 - current widening challenge subtree for that family: `entry-uplift-audit/`
 - locked next sequence for that family:
-  - use the revised `37`, `38`, and `39` bundle as the active local basis for this family
-  - run one bounded reread on that revised bundle before any implementation slice opens
+  - use the harmonized `37`, `38`, and `39` bundle as the active local basis for first-slice implementation
+  - then run the bounded verification set: one vanilla case, one lightly aged case, and one repo-local negative test on prix-guesser itself
 - current long-horizon cross-vendor challenge subtree and lane-01 inheritance: `long-horizon-audit/`
 - current threshold-language residue audit subtree and first-pass warning surface: `threshold-audit/`
 - current self-overcoming proposal challenge subtree and lane-01 inheritance: `self-overcoming-audit/`

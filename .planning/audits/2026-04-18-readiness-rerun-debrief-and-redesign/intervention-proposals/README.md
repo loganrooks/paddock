@@ -60,7 +60,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `36` now opens the next intervention family directly: initialization, onboarding, and project uplift should be strengthened as one entry-surface sequence rather than left scattered across init, repair, update, and audit-side onboarding objects.
 - [d:r:i] `37` now carries the widened field in its stronger local form: creation, milestone opening, docs bootstrap/merge, re-entry, repair, update, migration, the four-way uplift split, mid-phase uplift, workspace/worktree entry, phase-injection entry, installer rerun, governing-posture install, forensics entry, archived-milestone re-entry, and audit-subtree aging now all have an explicit seat in the family map.
 - [d:r:i] `38` now records stronger carrier placement for that family: it maps each concern to its primary surfaces, supporting carriers, and non-owners, with stronger treatment for phase-boundary posture, runtime-side registry truth, tooling inventory, and doctrine-carrying audit subtrees.
-- [d:r:i] `39` now defines the bounded composition-layer workflow in revised first-slice form: detect-only default, fingerprint/delta detection, explicit per-carrier install flags, thin doctrine manifest, one read-only `progress` hook, outputs, and review gates.
+- [d:r:i] `39` now defines the bounded composition-layer workflow in harmonized first-slice form: detect-only default, explicit mid-phase classification, named fingerprint shapes, explicit per-carrier install flags, thin doctrine manifest, one read-only `progress` hook, outputs, and review gates.
 - [d:r:i] The locked next sequence for that family is now:
-  1. use the revised `37`, `38`, and `39` bundle as the active local basis for this family
-  2. run one bounded reread on that revised bundle before any implementation slice opens
+  1. use the harmonized `37`, `38`, and `39` bundle as the active local basis for first-slice implementation
+  2. then run the bounded verification set: one vanilla case, one lightly aged case, and one repo-local negative test on prix-guesser itself

@@ -1,5 +1,5 @@
 Date: 2026-04-21
-Status: lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint
+Status: lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread
 
 # Entry Uplift Audit
 
@@ -54,3 +54,18 @@ For each lane, keep this tuple explicit:
   - [outputs/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1.md](outputs/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1.md)
 - local comparative disposition:
   - [dispositions/02-entry-surface-project-uplift-bundle-comparative-disposition.md](dispositions/02-entry-surface-project-uplift-bundle-comparative-disposition.md)
+
+## Lane 03
+
+- packet:
+  - [packets/03-revised-entry-surface-project-uplift-bundle-reread-packet.md](packets/03-revised-entry-surface-project-uplift-bundle-reread-packet.md)
+- spec:
+  - [specs/03-revised-entry-surface-project-uplift-bundle-reread-spec.md](specs/03-revised-entry-surface-project-uplift-bundle-reread-spec.md)
+- prompt:
+  - [prompts/03-revised-entry-surface-project-uplift-bundle-reread-opus47-max-r1-launch-prompt.md](prompts/03-revised-entry-surface-project-uplift-bundle-reread-opus47-max-r1-launch-prompt.md)
+- launch-truth:
+  - [launch-truth/03-revised-entry-surface-project-uplift-bundle-reread-launch-truth.md](launch-truth/03-revised-entry-surface-project-uplift-bundle-reread-launch-truth.md)
+- outputs:
+  - [outputs/03-revised-entry-surface-project-uplift-bundle-reread-opus47-max-r1.md](outputs/03-revised-entry-surface-project-uplift-bundle-reread-opus47-max-r1.md)
+- local inheritance:
+  - [dispositions/03-revised-entry-surface-project-uplift-bundle-reread-inheritance.md](dispositions/03-revised-entry-surface-project-uplift-bundle-reread-inheritance.md)

@@ -146,10 +146,10 @@ Date: 2026-04-21
 - current strengthening-reference status: `intervention-proposals/35-strengthening-opportunity-reference-surface.md now carries the compact working reference for this family, grounded in 34 rather than in theory alone`
 - current entry-surface-uplift-plan status: `intervention-proposals/36-initialization-onboarding-and-project-uplift-strengthening-plan.md now records the next intervention family: initialization, onboarding, and vanilla-project uplift should be strengthened as one entry-surface sequence`
 - current entry-surface-uplift-map status: `intervention-proposals/37-entry-surface-and-project-uplift-map.md now carries the widened field in its stronger local form: the four-way uplift split, mid-phase uplift, installer-rerun/materialization distinction, workspace/worktree entry, phase-injection entry, governing-posture install, forensics entry, archived-milestone re-entry, and audit-subtree aging now all sit inside the same family map`
-- current entry-uplift-audit status: `entry-uplift-audit lane-01 is now completed and inherited: the widening pass preserved 37's full-field posture, added missing entry scenario families and carrier layers, and now routes the next move through a revision of 37 before 38 is drafted`
+- current entry-uplift-audit status: `entry-uplift-audit lanes 01 through 03 are now completed and inherited: widening, bundle challenge, revised-bundle reread, and the local harmonization pass are all landed; the next move is first-slice implementation plus bounded verification rather than another family-level reread`
 - current entry-surface-placement status: `intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md now records stronger placement for runtime/install, governing-doc, required-reading, claim-type, long-horizon, phase-boundary/state-boundary, discovery, cross-runtime, tooling inventory, audit-aging, and uplift-output concerns`
 - current project-uplift-workflow status: `intervention-proposals/39-project-uplift-workflow-proposal.md now defines the bounded composition-layer workflow in its revised first-slice form: detect-only default, fingerprint/delta detection, explicit per-carrier install flags, thin doctrine manifest, one read-only progress hook, outputs, and review gates`
-- current entry-uplift bundle-review status: `entry-uplift-audit lane-02 is now completed and comparatively inherited with Opus as the primary widening/structural-revision guide and GPT as the compactness brake; that revision pass is now landed locally, and the next move is one bounded reread of the revised `37 + 38 + 39` bundle before implementation`
+- current entry-uplift bundle-review status: `entry-uplift-audit lane-03 is now completed and locally inherited: the bounded reread says the bundle has crossed from broad revision into narrow harmonization, the eight harmonization edits are now landed locally, and the next move is first-slice implementation plus two-case pilot and repo-local negative test`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -216,8 +216,8 @@ Date: 2026-04-21
 15. use the revised `37` as the active terrain map for this family rather than falling back to the narrower pre-widening version
 16. use `38` as the placement basis for this family rather than letting `39` improvise carrier ownership from memory
 17. use `39` as the current bounded workflow object for this family rather than reopening generic onboarding brainstorming
-18. use the revised `37`, `38`, and `39` bundle as the active local basis for this family rather than the earlier narrower bundle
-19. run one bounded reread on the revised `37 + 38 + 39` bundle before any implementation slice opens, because the first-slice mechanics changed materially in the local revision pass
+18. use the harmonized `37`, `38`, and `39` bundle as the active local basis for first-slice implementation
+19. implement the first slice against that harmonized bundle, then run the bounded verification set: one vanilla case, one lightly aged case, and one repo-local negative test on prix-guesser
 
 ## Open Questions
 

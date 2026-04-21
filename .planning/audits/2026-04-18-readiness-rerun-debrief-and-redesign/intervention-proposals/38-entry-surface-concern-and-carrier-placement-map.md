@@ -25,8 +25,9 @@ Status: active placement map
 
 - [d:r:i] Primary carriers:
   - `update`
+  - installer/materialization carrier: `scripts/setup-portable-gsd.sh`
   - runtime/install tooling: `runtime_visibility.py`, `manifest_install_coherence.py`
-  - uplift outputs: `UPLIFT-REPORT.md`, `UPLIFT-STATE.md`
+  - uplift outputs: `UPLIFT-REPORT.md`, `STATE.md` uplift section, `UPLIFT-MANIFEST.json`
 - [d:r:i] Supporting carriers:
   - `RUNTIME-MATERIALIZATION-AND-AUTHORITY.md`
   - generated instruction/runtime notes when a project is freshly initialized
@@ -112,7 +113,7 @@ Status: active placement map
 - [d:r:i] Primary carriers:
   - per-phase `CONTEXT.md` boundary stamp
   - `STATE.md`
-  - `UPLIFT-STATE.md` or equivalent uplift history
+  - `STATE.md` uplift section or equivalent in-file uplift history
   - `progress` / `resume-project` routing branches
 - [d:r:i] Supporting carriers:
   - root/planning `AGENTS.md`
@@ -196,8 +197,8 @@ Status: active placement map
 
 - [d:r:i] Primary carriers:
   - `UPLIFT-REPORT.md`
-  - `UPLIFT-STATE.md`
-  - project doctrine manifest
+  - `STATE.md` uplift section
+  - `UPLIFT-MANIFEST.json`
 - [d:r:i] Supporting carriers:
   - uplift-origin seeds
   - `STATE.md`

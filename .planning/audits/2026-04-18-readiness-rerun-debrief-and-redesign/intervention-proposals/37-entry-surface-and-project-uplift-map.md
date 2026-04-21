@@ -204,8 +204,8 @@ Status: active map artifact
 - [d:r:i] The current entry surfaces each produce their own local outputs (`PROJECT.md`, `STATE.md`, roadmap, conflicts, repair results, resume status), but there is no single uplift report surface that records the before/after of a project-wide repo-local refresh.
 - [d:r:i] The stronger candidate carrier set is now visible:
   - `UPLIFT-REPORT.md`
-  - `UPLIFT-STATE.md` or equivalent persistent state carry
-  - a project doctrine manifest
+  - uplift section inside `STATE.md`
+  - a thin project doctrine manifest such as `UPLIFT-MANIFEST.json`
   - uplift-origin seed routing for what should be deferred rather than silently dropped
 
 ## Candidate Ownership Split For A Later Uplift Workflow
@@ -220,7 +220,7 @@ Status: active map artifact
   - refresh repo-local carriers that belong together
   - install or refresh required-reading, claim-type, long-horizon, and anti-threshold posture where it thins
   - install or refresh the repo-local tooling carriers that current doctrine now assumes
-  - write a durable uplift report / disposition and state carry
+  - write a durable uplift report, `STATE.md` uplift section, and thin doctrine manifest
   - route any remainder into later work instead of mutating silently
 - [d:r:i] The first slice of that workflow should stay compact:
   - no full reinstall

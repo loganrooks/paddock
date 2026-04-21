@@ -534,3 +534,26 @@
   - carried forward: bundle shape, `38` placement grammar, composition-layer ownership split, compact first-slice brake
   - inheritance weighting: Opus leads the widening and structural revision of `37`, `38`, and `39`; GPT remains the compactness and carrier-discipline brake on first-slice scope
   - revise before implementation: one more revision pass over `37`, `38`, and `39`
+
+## 2026-04-21 `entry-uplift-audit-lane-03`
+
+- date: `2026-04-21`
+- purpose: bounded Opus reread of the revised `37 + 38 + 39` bundle after the Opus-led local revision pass, so the changed first-slice mechanics are judged directly
+- frozen launch basis commit: `ad26b7c`
+- request-surface language check:
+  - `scan_threshold_language.py` returned `No threshold-language residue found` across the lane-03 packet, spec, and prompt surfaces
+- launch-truth artifact:
+  - [entry-uplift-audit/launch-truth/03-revised-entry-surface-project-uplift-bundle-reread-launch-truth.md](entry-uplift-audit/launch-truth/03-revised-entry-surface-project-uplift-bundle-reread-launch-truth.md)
+- packet artifact:
+  - [entry-uplift-audit/packets/03-revised-entry-surface-project-uplift-bundle-reread-packet.md](entry-uplift-audit/packets/03-revised-entry-surface-project-uplift-bundle-reread-packet.md)
+- governing spec:
+  - [entry-uplift-audit/specs/03-revised-entry-surface-project-uplift-bundle-reread-spec.md](entry-uplift-audit/specs/03-revised-entry-surface-project-uplift-bundle-reread-spec.md)
+- prompt artifact:
+  - [entry-uplift-audit/prompts/03-revised-entry-surface-project-uplift-bundle-reread-opus47-max-r1-launch-prompt.md](entry-uplift-audit/prompts/03-revised-entry-surface-project-uplift-bundle-reread-opus47-max-r1-launch-prompt.md)
+- output:
+  - [entry-uplift-audit/outputs/03-revised-entry-surface-project-uplift-bundle-reread-opus47-max-r1.md](entry-uplift-audit/outputs/03-revised-entry-surface-project-uplift-bundle-reread-opus47-max-r1.md)
+- inheritance:
+  - [entry-uplift-audit/dispositions/03-revised-entry-surface-project-uplift-bundle-reread-inheritance.md](entry-uplift-audit/dispositions/03-revised-entry-surface-project-uplift-bundle-reread-inheritance.md)
+  - carried forward: revised bundle as active local basis, reread judgment that the bundle has crossed into narrow harmonization rather than broad revision
+  - landed now: the eight harmonization edits inside `37`, `38`, and `39`
+  - next move: first-slice implementation plus bounded verification set
