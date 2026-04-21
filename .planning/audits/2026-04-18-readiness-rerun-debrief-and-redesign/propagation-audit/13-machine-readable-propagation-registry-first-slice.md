@@ -31,6 +31,7 @@ Status: active registry first slice
 - [d:r:i] This is a curated snapshot, not automatic whole-harness extraction.
 - [d:r:i] It currently focuses on the high-consequence carriers already named by `08`, `09`, `10`, `11`, and `12`.
 - [d:r:i] It does not yet emit impact suggestions or derive changes from git diffs.
+- [d:r:i] The next refresh should be seeded from the maintained inventory/docs frontier plus live runtime evidence, not from this file alone. See [14-propagation-registry-generation-and-seeding-policy.md](14-propagation-registry-generation-and-seeding-policy.md).
 
 ## Current Consequence
 

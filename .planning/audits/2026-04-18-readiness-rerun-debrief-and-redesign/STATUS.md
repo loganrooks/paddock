@@ -166,6 +166,7 @@ Date: 2026-04-21
 - current broader-propagation-reread status: `lane-02 is now completed and inherited under propagation-audit/launch-truth|outputs|dispositions/02-broader-network-propagation-field-mapping-*; the active next move is not generic widening but the sharpened disclosure batch H/I/J/K/R plus L/N/Q, followed by the named invariant / edge companions O/P/S`
 - current sharpened-propagation-disclosure status: `the first sharpened layer is now landing under propagation-audit/09-12: refined sub-family rows, model-policy three-surface invariant, upstream-pristine frontier obligation, and cross-family edge supplement`
 - current propagation-registry status: `the family now also has a first compact machine-readable slice under propagation-audit/13-machine-readable-propagation-registry-first-slice.md and artifacts/01-propagation-field-registry-v1.json`
+- current propagation-registry-policy status: `future refreshes are now explicitly routed through an AI-authored hybrid policy: seed from maintained inventory/docs surfaces, enrich with live runtime/tooling evidence, then disposition through the prose propagation family`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
