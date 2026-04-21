@@ -60,6 +60,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `36` now opens the next intervention family directly: initialization, onboarding, and project uplift should be strengthened as one entry-surface sequence rather than left scattered across init, repair, update, and audit-side onboarding objects.
 - [d:r:i] `37` now carries the widened field directly: creation, milestone opening, docs bootstrap/merge, re-entry, repair, update, migration, workspace/worktree entry, phase-injection entry, installer re-run, governing-posture install, split uplift families, forensics entry, archived-milestone re-entry, and audit-subtree aging now all have an explicit seat in the family map.
 - [d:r:i] `38` now records strongest carrier placement for that family: it maps each concern to its primary surfaces, supporting carriers, and non-owners so workflow design does not collapse back into a generic onboarding bucket.
+- [d:r:i] `39` now defines the bounded composition-layer workflow itself: one explicit owner for project uplift, one compact first slice, explicit specialist-owner boundaries, detection signals, outputs, and review gates.
 - [d:r:i] The locked next sequence for that family is now:
-  1. draft `39-project-uplift-workflow-proposal.md`
-  2. only then challenge the revised map plus placement pass plus workflow proposal together
+  1. challenge the revised map plus placement pass plus workflow proposal together
+  2. or move directly into first-slice implementation only if the workspace decides the proposal is already sharp enough without that challenge
