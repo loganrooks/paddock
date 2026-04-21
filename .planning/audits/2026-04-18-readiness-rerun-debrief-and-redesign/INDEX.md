@@ -106,6 +106,11 @@
 91. [threshold-audit/artifacts/02-threshold-language-top-files.txt](threshold-audit/artifacts/02-threshold-language-top-files.txt)
 92. [threshold-audit/dispositions/01-threshold-language-residue-audit.md](threshold-audit/dispositions/01-threshold-language-residue-audit.md)
 93. [threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md](threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md)
+94. [self-overcoming-audit/README.md](self-overcoming-audit/README.md)
+95. [self-overcoming-audit/launch-truth/01-companion-layer-proposal-launch-truth.md](self-overcoming-audit/launch-truth/01-companion-layer-proposal-launch-truth.md)
+96. [self-overcoming-audit/outputs/01-companion-layer-proposal-opus47-max-r1.md](self-overcoming-audit/outputs/01-companion-layer-proposal-opus47-max-r1.md)
+97. [self-overcoming-audit/outputs/01-companion-layer-proposal-gpt54-xhigh-r1.md](self-overcoming-audit/outputs/01-companion-layer-proposal-gpt54-xhigh-r1.md)
+98. [self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md](self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md)
 
 ## Source-Of-Truth Hierarchy
 
@@ -152,6 +157,7 @@
 - current full-field long-horizon carry seed register: `intervention-proposals/29-long-horizon-carry-gap-register.md`
 - current long-horizon cross-vendor challenge subtree and lane-01 inheritance: `long-horizon-audit/`
 - current threshold-language residue audit subtree and first-pass warning surface: `threshold-audit/`
+- current self-overcoming proposal challenge subtree and lane-01 inheritance: `self-overcoming-audit/`
 - current bounded docs-audit lane subtree for that challenge work: `docs-audit/`
 - current docs-audit launch record: `docs-audit/launch-truth/01-pr-docs-intervention-carry-launch-truth.md`
 - current raw docs-audit outputs: `docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md`, `docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md`

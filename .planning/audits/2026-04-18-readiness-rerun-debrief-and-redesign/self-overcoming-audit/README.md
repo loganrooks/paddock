@@ -1,5 +1,5 @@
 Date: 2026-04-21
-Status: lane-01 scaffolded
+Status: lane-01 completed and inherited
 
 # Self-Overcoming Audit
 
@@ -38,4 +38,4 @@ For each lane, keep this tuple explicit:
   - [outputs/01-companion-layer-proposal-opus47-max-r1.md](outputs/01-companion-layer-proposal-opus47-max-r1.md)
   - [outputs/01-companion-layer-proposal-gpt54-xhigh-r1.md](outputs/01-companion-layer-proposal-gpt54-xhigh-r1.md)
 - local comparative disposition:
-  - pending
+  - [dispositions/01-companion-layer-proposal-comparative-disposition.md](dispositions/01-companion-layer-proposal-comparative-disposition.md)

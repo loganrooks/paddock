@@ -1,7 +1,7 @@
 # Status
 
 Status: active setup  
-Date: 2026-04-20
+Date: 2026-04-21
 
 ## Current Position
 
@@ -106,6 +106,11 @@ Date: 2026-04-20
 - threshold-language first-pass residue audit written under `threshold-audit/dispositions/`
 - bounded spec/prompt and self-overcoming-surface threshold audit written under `threshold-audit/dispositions/`
 - bounded opportunity-seeking / self-overcoming companion-layer proposal written under `intervention-proposals/`
+- self-overcoming audit subtree created under `self-overcoming-audit/`
+- self-overcoming audit lane-01 launched and completed against frozen basis `e466bea`
+- parallel local spawned reviewer completed for self-overcoming-audit lane-01
+- self-overcoming audit lane-01 launch-truth note written under `self-overcoming-audit/launch-truth/`
+- self-overcoming audit lane-01 comparative disposition written under `self-overcoming-audit/dispositions/`
 - current intervention-proposal status: `the first four bounded harness follow-through proposals now exist, the first-tranche disposition is written, and the first accepted pair is now landed in the instruction/runtime layer`
 - current drift-register status: `the second tranche now has a bounded pilot register; sampled load-bearing differences are mostly intelligible materialized carry or selective overlay boundary, not mystery drift`
 - current manifest-contract status: `the second tranche now rejects manifest semantic collapse; gsd-file-manifest.json remains an upstream/update-boundary artifact, backup-meta stays tracked subset-carry metadata, and the missing object is a separate final-runtime visibility surface`
@@ -131,7 +136,7 @@ Date: 2026-04-20
 - current long-horizon status: `the challenge-backed field map now centers the work on intensifying boundary carry architecture, building from already-strong long-horizon entry carry; Opus adds a stronger two-systems / preservation-debt model, GPT adds tighter bounded landing shapes`
 - current threshold-language status: `anti-threshold doctrine already exists in root/planning AGENTS and both CLAUDE wrappers; the live follow-on question is residue in older specs, prompts, reviews, and inherited lane artifacts`
 - current threshold-audit status: `the first-pass residue audit is now followed by a bounded spec/prompt and self-overcoming-surface audit: gate logic is structurally appropriate in verification/spec admission surfaces, threshold framing still narrows discuss/research/older audit specs, and the harness already has promising strength-seeking logic in review/future-preservation surfaces but no single explicit self-overcoming companion layer yet`
-- current self-overcoming-companion status: `proposal 30 now defines the next bounded intervention family: one new planning/research reference surface, one positive research mode, and one narrow planning consumer hook rather than a whole-harness rewrite`
+- current self-overcoming-companion status: `proposal 30 now has a challenged cross-vendor reread; the shared pressure carries the family forward but narrows the first live slice toward existing future-awareness / future-preservation consumers before any standalone reference surface or new research mode is carried`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -191,7 +196,8 @@ Date: 2026-04-20
 8. preserve the strengthened reading of `29`: the task is not only to diagnose under-carried surfaces, but to identify where the harness could positively intensify long-horizon carry, optionality, and multi-dimensional excellence
 9. preserve the strengthened method of `29`: map the full field of pressures, tensions, and strengthening opportunities before filtering down to narrower intervention sequences
 10. inherit the long-horizon pair through the comparative disposition rather than re-opening a generic horizon lane: boundary carry, preservation-debt, canonical-ref carry, compact horizon-watch, and activation-consumer surfaces are now the main follow-through families
-11. treat a legacy threshold-language audit as an explicit next audit candidate: root/planning `AGENTS.md` and both `CLAUDE.md` wrappers already carry anti-threshold doctrine, so the question is residue and contamination in older specs, prompts, reviews, and inherited lane artifacts
+11. preserve the completed threshold-audit result as live reread pressure: older specs, prompts, reviews, and inherited lane artifacts still carry residue even though root/planning `AGENTS.md` and both `CLAUDE.md` wrappers now reject threshold framing directly
+12. revise proposal `30` through the completed self-overcoming audit pair: carry the family, narrow the first live slice toward `future_awareness` plus `future_preservation`, and keep the research-mode shape as the next adjacent object rather than the first insertion
 
 ## Open Questions
 
@@ -203,4 +209,5 @@ Date: 2026-04-20
 - how should the newly named long-horizon lifecycle gaps, horizon tensions, and positive strengthening opportunities be mapped as one field, and which parts of that field are still too weakly articulated or too diffusely framed?
 - how should the current `29` register be revised now that the long-horizon cross-vendor pair has added `preservation-debt`, roadmap-time preservation criteria, later-lifecycle canonical-ref rereads, and bounded horizon-watch surfaces?
 - how much threshold / pass-fail residue still lives in older specs, prompts, reviews, and inherited lane artifacts despite the newer anti-threshold doctrine already present in root/planning `AGENTS.md` and both `CLAUDE.md` wrappers?
+- what concrete name and schema should replace the current broad `companion layer` handle once proposal `30` is revised into a consumer-first first slice?
 - how should the submitted docs PR be transformed, extended, or paired so it carries intervention planning rather than only contributor orientation and docs governance?

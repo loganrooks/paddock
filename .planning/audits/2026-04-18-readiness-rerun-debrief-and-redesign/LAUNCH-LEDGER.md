@@ -346,9 +346,9 @@
     - `/tmp/wave1-lane03-mapping-opus47-max-r1-20260419-194706.fuvk9bst.stderr.log`
     - `/tmp/wave1-lane03-mapping-opus47-max-r1-20260419-194706.znzfsq5g.debug.log`
 - provisional take:
-  - readiness-era map came back `directionally adequate, structurally under-mapped`
+  - readiness-era map came back directionally aligned but structurally thinner than the later reread now wants
   - bridge `revise + guarded hybrid reseed` looks partially under-carried
-  - docs-refresh sits in upstream GSD and does not close repo-local runtime adequacy by itself
+  - docs-refresh sits in upstream GSD and does not by itself deliver the stronger repo-local runtime mapping this workspace is after
 - disposition:
   - `pending local reread / comparative disposition`
 
@@ -413,3 +413,41 @@
   - `synthesis accept`
   - accepted now: preserve the PR docs as governance/reference foundation, keep intervention-planning carry in a paired companion layer, port parity-guard discipline locally, and include a compact current-upstream delta / surface-status note
   - rejected or held: broad inline rewrite of stable docs, treating the frozen snapshot as current truth, and immediate per-family runbooks before the transformation-plan layer exists
+
+## 2026-04-21 `self-overcoming-audit-lane-01`
+
+- date: `2026-04-21`
+- purpose: bounded cross-vendor review of proposal `30`, with threshold-clean request/spec surfaces, to decide how the proposal family should be inherited and narrowed
+- frozen launch basis commit: `e466bea`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- launch-truth artifact: [self-overcoming-audit/launch-truth/01-companion-layer-proposal-launch-truth.md](self-overcoming-audit/launch-truth/01-companion-layer-proposal-launch-truth.md)
+- packet artifact: [self-overcoming-audit/packets/01-companion-layer-proposal-packet.md](self-overcoming-audit/packets/01-companion-layer-proposal-packet.md)
+- governing spec: [self-overcoming-audit/specs/01-companion-layer-proposal-cross-vendor-spec.md](self-overcoming-audit/specs/01-companion-layer-proposal-cross-vendor-spec.md)
+- prompt artifacts:
+  - [self-overcoming-audit/prompts/01-companion-layer-proposal-opus47-max-r1-launch-prompt.md](self-overcoming-audit/prompts/01-companion-layer-proposal-opus47-max-r1-launch-prompt.md)
+  - [self-overcoming-audit/prompts/01-companion-layer-proposal-gpt54-xhigh-r1-brief.md](self-overcoming-audit/prompts/01-companion-layer-proposal-gpt54-xhigh-r1-brief.md)
+- request-surface language check:
+  - `scan_threshold_language.py` returned `No threshold-language residue found` across the README, packet, spec, and both prompt surfaces
+- output artifacts:
+  - [self-overcoming-audit/outputs/01-companion-layer-proposal-opus47-max-r1.md](self-overcoming-audit/outputs/01-companion-layer-proposal-opus47-max-r1.md)
+  - [self-overcoming-audit/outputs/01-companion-layer-proposal-gpt54-xhigh-r1.md](self-overcoming-audit/outputs/01-companion-layer-proposal-gpt54-xhigh-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `483.379`
+  - session id: `1de565fd-35ec-4cf0-866f-3a722b1dd3d5`
+  - total cost usd: `3.34107775`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/companion-layer-proposal-opus47-max-r1-20260421-001602.riyq_k8y.stream.jsonl`
+    - `/tmp/companion-layer-proposal-opus47-max-r1-20260421-001602.1fnatjs_.stderr.log`
+    - `/tmp/companion-layer-proposal-opus47-max-r1-20260421-001602.ol59m29m.debug.log`
+- parallel local reviewer:
+  - launch mode: `spawn_agent`
+  - effective settings preserved at `/tmp/self_overcoming_local_launch_truth.md`
+  - effective row carry: `worker / gpt-5.4 / xhigh`
+  - output artifact: [self-overcoming-audit/outputs/01-companion-layer-proposal-gpt54-xhigh-r1.md](self-overcoming-audit/outputs/01-companion-layer-proposal-gpt54-xhigh-r1.md)
+- disposition:
+  - [self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md](self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md)
+  - family carried forward
+  - first live slice narrowed toward existing `future_awareness` / `future_preservation` consumers
+  - research-mode shaping preserved as the next adjacent object rather than the first insertion
