@@ -149,7 +149,8 @@ Date: 2026-04-21
 - current entry-uplift-audit status: `entry-uplift-audit lanes 01 through 03 are now completed and inherited: widening, bundle challenge, revised-bundle reread, and the local harmonization pass are all landed; the next move is first-slice implementation plus bounded verification rather than another family-level reread`
 - current entry-surface-placement status: `intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md now records stronger placement for runtime/install, governing-doc, required-reading, claim-type, long-horizon, phase-boundary/state-boundary, discovery, cross-runtime, tooling inventory, audit-aging, and uplift-output concerns`
 - current project-uplift-workflow status: `intervention-proposals/39-project-uplift-workflow-proposal.md now defines the bounded composition-layer workflow in its revised first-slice form: detect-only default, fingerprint/delta detection, explicit per-carrier install flags, thin doctrine manifest, one read-only progress hook, outputs, and review gates`
-- current entry-uplift bundle-review status: `entry-uplift-audit lane-03 is now completed and locally inherited: the bounded reread says the bundle has crossed from broad revision into narrow harmonization, the eight harmonization edits are now landed locally, and the next move is first-slice implementation plus two-case pilot and repo-local negative test`
+- current project-uplift first-slice status: `intervention-proposals/40-project-uplift-first-slice-implementation.md now records the landed detect-only-first slice: helper, uplift-project workflow/skill, read-only progress note, first durable uplift outputs, synthetic vanilla/lightly-aged coverage, repo-local read-only safety verification, and the post-write recommendation fix`
+- current entry-uplift bundle-review status: `entry-uplift-audit lane-03 is now completed and locally inherited: the bounded reread moved the bundle into narrow harmonization, the eight harmonization edits are landed, and first-slice implementation now exists as the active baseline rather than the next hypothetical move`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -216,8 +217,8 @@ Date: 2026-04-21
 15. use the revised `37` as the active terrain map for this family rather than falling back to the narrower pre-widening version
 16. use `38` as the placement basis for this family rather than letting `39` improvise carrier ownership from memory
 17. use `39` as the current bounded workflow object for this family rather than reopening generic onboarding brainstorming
-18. use the harmonized `37`, `38`, and `39` bundle as the active local basis for first-slice implementation
-19. implement the first slice against that harmonized bundle, then run the bounded verification set: one vanilla case, one lightly aged case, and one repo-local negative test on prix-guesser
+18. use the harmonized `37`, `38`, `39`, plus landed `40` slice as the active local basis for any later project-uplift widening, challenge, or verification work
+19. treat the first slice as landed but not final: preserve its current synthetic verification, repo-local negative check, and live output proof, then decide the next adjacent move explicitly instead of assuming additive install or cross-runtime widening by default
 
 ## Open Questions
 

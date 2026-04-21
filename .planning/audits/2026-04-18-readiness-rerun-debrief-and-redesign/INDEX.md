@@ -120,10 +120,11 @@
 106. [intervention-proposals/37-entry-surface-and-project-uplift-map.md](intervention-proposals/37-entry-surface-and-project-uplift-map.md)
 107. [intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md](intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md)
 108. [intervention-proposals/39-project-uplift-workflow-proposal.md](intervention-proposals/39-project-uplift-workflow-proposal.md)
-109. [entry-uplift-audit/README.md](entry-uplift-audit/README.md)
-110. [entry-uplift-audit/launch-truth/01-entry-surface-and-project-uplift-field-mapping-launch-truth.md](entry-uplift-audit/launch-truth/01-entry-surface-and-project-uplift-field-mapping-launch-truth.md)
-111. [entry-uplift-audit/outputs/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1.md](entry-uplift-audit/outputs/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1.md)
-112. [entry-uplift-audit/dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md](entry-uplift-audit/dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md)
+109. [intervention-proposals/40-project-uplift-first-slice-implementation.md](intervention-proposals/40-project-uplift-first-slice-implementation.md)
+110. [entry-uplift-audit/README.md](entry-uplift-audit/README.md)
+111. [entry-uplift-audit/launch-truth/01-entry-surface-and-project-uplift-field-mapping-launch-truth.md](entry-uplift-audit/launch-truth/01-entry-surface-and-project-uplift-field-mapping-launch-truth.md)
+112. [entry-uplift-audit/outputs/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1.md](entry-uplift-audit/outputs/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1.md)
+113. [entry-uplift-audit/dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md](entry-uplift-audit/dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md)
 113. [entry-uplift-audit/launch-truth/02-entry-surface-project-uplift-bundle-launch-truth.md](entry-uplift-audit/launch-truth/02-entry-surface-project-uplift-bundle-launch-truth.md)
 114. [entry-uplift-audit/outputs/02-entry-surface-project-uplift-bundle-opus47-max-r1.md](entry-uplift-audit/outputs/02-entry-surface-project-uplift-bundle-opus47-max-r1.md)
 115. [entry-uplift-audit/outputs/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1.md](entry-uplift-audit/outputs/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1.md)
@@ -180,10 +181,12 @@
 - current terrain map for the next entry-surface intervention family: `intervention-proposals/37-entry-surface-and-project-uplift-map.md`
 - current concern/carrier placement map for that family: `intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md`
 - current workflow proposal for that family: `intervention-proposals/39-project-uplift-workflow-proposal.md`
+- current landed first slice for that family: `intervention-proposals/40-project-uplift-first-slice-implementation.md`
+- current repo-local uplift outputs for this repo: `.planning/UPLIFT-REPORT.md`, `.planning/UPLIFT-MANIFEST.json`, and the `Project Uplift` section in `.planning/STATE.md`
 - current widening challenge subtree for that family: `entry-uplift-audit/`
 - locked next sequence for that family:
-  - use the harmonized `37`, `38`, and `39` bundle as the active local basis for first-slice implementation
-  - then run the bounded verification set: one vanilla case, one lightly aged case, and one repo-local negative test on prix-guesser itself
+  - use the harmonized `37`, `38`, `39`, and landed `40` slice as the active local basis for later challenge, widening, and verification work
+  - before additive install-route or cross-runtime widening, decide whether to challenge the landed slice directly or extend it through more real-case exercise
 - current long-horizon cross-vendor challenge subtree and lane-01 inheritance: `long-horizon-audit/`
 - current threshold-language residue audit subtree and first-pass warning surface: `threshold-audit/`
 - current self-overcoming proposal challenge subtree and lane-01 inheritance: `self-overcoming-audit/`

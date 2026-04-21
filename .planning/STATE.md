@@ -78,6 +78,16 @@ Recent decisions affecting current work:
 - Later planning should not widen v1 into async challenges, public discovery, or adjacent party modes before the anchor room loop is proven.
 - The current `01-*` bundle remains useful input, but it is not the live execution-approved Phase 01 steering set until rerun completes.
 
+## Project Uplift
+
+Last uplift pass: 2026-04-21T08:40:17+00:00
+Last uplift class: cross-runtime uplift
+Doctrine reference changed since prior uplift: no
+Pending doctrine-sensitive proposals: 0
+Current recommendation: Continue with ordinary routing; uplift memory is already carrying this posture.
+Current uplift report: .planning/UPLIFT-REPORT.md
+Current uplift manifest: .planning/UPLIFT-MANIFEST.json
+
 ## Session Continuity
 
 Last session: 2026-04-14T00:22:01-04:00

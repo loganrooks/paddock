@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-21T08:40:17+00:00",
+  "mode": "detect-only",
+  "last_uplift_class": "cross-runtime uplift",
+  "doctrine_reference_hash": "01e4605631cf14d11a3f3e3a7338d16495bdcff057ff05a75b67040718854488",
+  "project_fingerprint_hash": "00d13e1b925c4bcda80d3aced674b06fde9a5bd27c1e07af0951169870d4a75d",
+  "current_status": "planning",
+  "runtime_dirs": [
+    ".codex",
+    ".claude"
+  ],
+  "recommend_detect_only": false,
+  "recommendation_reasons": [],
+  "absent_additive_carriers": [],
+  "pending_doctrine_sensitive_proposals": [],
+  "held_later_families": [
+    "required-reading installation practice",
+    "cross-runtime uplift composition",
+    "upstream-template drift machinery",
+    "aged-bespoke deep merge",
+    "audit-subtree aging carry"
+  ],
+  "carriers": [
+    {
+      "key": "root_agents",
+      "label": "Root AGENTS",
+      "group": "doctrine_sensitive",
+      "rel_path": "AGENTS.md",
+      "present": true,
+      "status": "present",
+      "fingerprint": "da880a81d7a5b3831713b3381fb695c352ee01afaaef4a42e31563f16ce017d0",
+      "note": "file carrier present"
+    },
+    {
+      "key": "planning_agents",
+      "label": "Planning AGENTS",
+      "group": "doctrine_sensitive",
+      "rel_path": ".planning/AGENTS.md",
+      "present": true,
+      "status": "present",
+      "fingerprint": "eb595ce9edfa631876a8cb35ab139df457f962738672e241aa37c8eea042f920",
+      "note": "file carrier present"
+    },
+    {
+      "key": "root_claude",
+      "label": "Root CLAUDE",
+      "group": "doctrine_sensitive",
+      "rel_path": "CLAUDE.md",
+      "present": true,
+      "status": "present",
+      "fingerprint": "d5fc138ff9e993afb889cb2248f3e0290502f6fcc392d9f29ab2554fc49f7a14",
+      "note": "file carrier present"
+    },
+    {
+      "key": "planning_claude",
+      "label": "Planning CLAUDE",
+      "group": "doctrine_sensitive",
+      "rel_path": ".planning/CLAUDE.md",
+      "present": true,
+      "status": "present",
+      "fingerprint": "602be8912c6609508c525477ea3b60a14ab61301e355cc68a917cb0b301b1e1b",
+      "note": "file carrier present"
+    },
+    {
+      "key": "claim_types",
+      "label": "Claim Types",
+      "group": "additive_install",
+      "rel_path": ".planning/CLAIM-TYPES.md",
+      "present": true,
+      "status": "present",
+      "fingerprint": "73a4261f9fb17860f95349aaf7e7bcf69d34d4a2644cf8cbc1c02a850fc5c64a",
+      "note": "file carrier present"
+    },
+    {
+      "key": "long_arc",
+      "label": "Long Arc",
+      "group": "additive_install",
+      "rel_path": ".planning/LONG-ARC.md",
+      "present": true,
+      "status": "present",
+      "fingerprint": "070243a689ceb07014534e0ef4164abeb483e5451a291ce7cd28ea4caec1ca22",
+      "note": "file carrier present"
+    },
+    {
+      "key": "tooling_inventory",
+      "label": "Tooling Inventory",
+      "group": "additive_install",
+      "rel_path": "tooling/codex/README.md",
+      "present": true,
+      "status": "present",
+      "fingerprint": "a3c5270b2d396846e262546846ef0d8e75505d8513b112eacd0b268c3c52ab57",
+      "note": "file carrier present"
+    },
+    {
+      "key": "runtime_config",
+      "label": "Runtime Config",
+      "group": "runtime_registry",
+      "rel_path": ".codex/config.toml",
+      "present": true,
+      "status": "present",
+      "fingerprint": "81e82f76a56965f8faaff732a5644d988fac0f2028e0534b11486b52c5bebef6",
+      "note": "file carrier present"
+    },
+    {
+      "key": "planner_agent",
+      "label": "Planner Agent Contract",
+      "group": "runtime_registry",
+      "rel_path": ".codex/agents/gsd-planner.toml",
+      "present": true,
+      "status": "present",
+      "fingerprint": "42598faf0f453dc84d189f8c31ef6f9ca275d1d710b24385a45fb0166f37fec6",
+      "note": "file carrier present"
+    },
+    {
+      "key": "plan_checker_agent",
+      "label": "Plan Checker Agent Contract",
+      "group": "runtime_registry",
+      "rel_path": ".codex/agents/gsd-plan-checker.toml",
+      "present": true,
+      "status": "present",
+      "fingerprint": "59fef3b3eb8fc58f6ee07d9f22568907b6d8468c5b2c0270fbadcfa46deb63f3",
+      "note": "file carrier present"
+    },
+    {
+      "key": "strengthening_discuss",
+      "label": "Discuss Strengthening Route",
+      "group": "doctrine_sensitive",
+      "rel_path": ".codex/get-shit-done/workflows/discuss-phase.md",
+      "present": true,
+      "status": "marker_present",
+      "fingerprint": "22a9e3cf7bde9d224ef83de4451de4d6dc04335497c3b1410948ba922a737391",
+      "note": "marker present on carrier"
+    },
+    {
+      "key": "strengthening_context",
+      "label": "Context Strengthening Route",
+      "group": "doctrine_sensitive",
+      "rel_path": ".codex/get-shit-done/templates/context.md",
+      "present": true,
+      "status": "marker_present",
+      "fingerprint": "0a24f4ed6b081ec88421bbb6812bda51e93efbb2f4f64aa15c3841046d61a10d",
+      "note": "marker present on carrier"
+    },
+    {
+      "key": "strengthening_plan",
+      "label": "Plan Strengthening Route",
+      "group": "doctrine_sensitive",
+      "rel_path": ".codex/get-shit-done/workflows/plan-phase.md",
+      "present": true,
+      "status": "marker_present",
+      "fingerprint": "28170793a95e83be27c355b2424eaddd5ac1fbeeb25a12b881ee024c541fd23f",
+      "note": "marker present on carrier"
+    },
+    {
+      "key": "strengthening_research",
+      "label": "Research Strengthening Route",
+      "group": "doctrine_sensitive",
+      "rel_path": ".codex/skills/gsd-rigorous-research/references/output-template.md",
+      "present": true,
+      "status": "marker_present",
+      "fingerprint": "dfdc9626dd4183548a9241b507dbe7c2df852e013a3dc03e18565bc0226fd751",
+      "note": "marker present on carrier"
+    }
+  ]
+}

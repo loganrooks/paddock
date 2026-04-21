@@ -45,6 +45,9 @@ Status: active proposal/disposition batch
 35. `35-strengthening-opportunity-reference-surface.md`
 36. `36-initialization-onboarding-and-project-uplift-strengthening-plan.md`
 37. `37-entry-surface-and-project-uplift-map.md`
+38. `38-entry-surface-concern-and-carrier-placement-map.md`
+39. `39-project-uplift-workflow-proposal.md`
+40. `40-project-uplift-first-slice-implementation.md`
 
 ## Proposal Rule
 
@@ -61,6 +64,5 @@ Status: active proposal/disposition batch
 - [d:r:i] `37` now carries the widened field in its stronger local form: creation, milestone opening, docs bootstrap/merge, re-entry, repair, update, migration, the four-way uplift split, mid-phase uplift, workspace/worktree entry, phase-injection entry, installer rerun, governing-posture install, forensics entry, archived-milestone re-entry, and audit-subtree aging now all have an explicit seat in the family map.
 - [d:r:i] `38` now records stronger carrier placement for that family: it maps each concern to its primary surfaces, supporting carriers, and non-owners, with stronger treatment for phase-boundary posture, runtime-side registry truth, tooling inventory, and doctrine-carrying audit subtrees.
 - [d:r:i] `39` now defines the bounded composition-layer workflow in harmonized first-slice form: detect-only default, explicit mid-phase classification, named fingerprint shapes, explicit per-carrier install flags, thin doctrine manifest, one read-only `progress` hook, outputs, and review gates.
-- [d:r:i] The locked next sequence for that family is now:
-  1. use the harmonized `37`, `38`, and `39` bundle as the active local basis for first-slice implementation
-  2. then run the bounded verification set: one vanilla case, one lightly aged case, and one repo-local negative test on prix-guesser itself
+- [d:r:i] `40` now records the landed first slice itself: helper, workflow, skill, `progress` note, first durable uplift outputs, synthetic verification, and repo-local read-only safety check.
+- [d:r:i] Current next move for that family after `40`: decide whether the stronger adjacent step is a challenged reread of the landed slice, additive install-route implementation, or later cross-runtime uplift follow-through.
