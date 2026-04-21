@@ -104,6 +104,7 @@
 89. [threshold-audit/artifacts/01-threshold-language-raw-scan.txt](threshold-audit/artifacts/01-threshold-language-raw-scan.txt)
 90. [threshold-audit/artifacts/02-threshold-language-top-files.txt](threshold-audit/artifacts/02-threshold-language-top-files.txt)
 91. [threshold-audit/dispositions/01-threshold-language-residue-audit.md](threshold-audit/dispositions/01-threshold-language-residue-audit.md)
+92. [threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md](threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md)
 
 ## Source-Of-Truth Hierarchy
 

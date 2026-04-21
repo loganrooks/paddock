@@ -54,6 +54,10 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
 - Do not smuggle threshold thinking back in through deficit-oriented pseudo-positive phrasing.
   - Avoid formulations like `not lacking`, `no longer missing`, `not merely deficient`, `not the real problem`, or `better than before` when a direct positive formulation is available.
   - Prefer statements like `already strong here`, `thins here`, `intensifies here`, `opens more optionality here`, or `strengthens carry here`.
+- In planning, discuss, audit, and research work, do not frame the leading question as `is this adequate`, `is this ready`, `is this clear enough`, or any similar threshold test when the stronger question is what the surface exposes, flattens, preserves, intensifies, or leaves open.
+- Binary or threshold questions belong only to real gate surfaces such as behavioral verification, execution admission, or pass/fail requirement checks.
+  - When a real gate is present, do not let that gate exhaust the thinking.
+  - Pair it with the stronger question of what higher-yield form, broader optionality, or clearer future carry is still available.
 - Distinguish sharply between:
   - whether an artifact or system can carry work at all
   - how strongly, clearly, and portably it carries that work compared with better available alternatives

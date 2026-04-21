@@ -200,6 +200,8 @@
   - patch active steering surfaces still carrying inherited threshold wording
   - run a bounded spec/prompt residue audit on the most contaminating historical framing surfaces
   - then revisit selected historical review/adjudication families through that sharper caution layer
+- [e:c+i] That bounded follow-through now exists too. It distinguishes gate-shaped threshold logic from planning-language contamination, marks older audit specs and `gsd-rigorous-research` / `discuss-phase` phrasing as the main present narrowing surfaces, and maps the strongest existing positive carry in the review stack, future-preservation chain, and `plant-seed`. Sources: [threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md:1), [.codex/get-shit-done/workflows/review.md](/home/rookslog/workspace/projects/prix-guesser/.codex/get-shit-done/workflows/review.md:1), [.codex/get-shit-done/workflows/plan-phase.md](/home/rookslog/workspace/projects/prix-guesser/.codex/get-shit-done/workflows/plan-phase.md:700), [.codex/get-shit-done/workflows/plant-seed.md](/home/rookslog/workspace/projects/prix-guesser/.codex/get-shit-done/workflows/plant-seed.md:49).
+- [d:r:i] Current consequence now sharpens further: the next honest move is not only residue cleanup in older specs/prompts, but a design pass on an explicit opportunity-seeking / self-overcoming companion layer for planning and research so the harness is not relying on review alone to carry that pressure.
 
 ## What Is Still Unsettled
 

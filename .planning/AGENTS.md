@@ -118,6 +118,12 @@ For non-trivial research, audit, gap-closure, sensitivity, or synthesis work:
 - do not let deficit-oriented pseudo-positive phrasing quietly reintroduce threshold logic
   - avoid constructions like `not lacking`, `no longer missing`, `not merely deficient`, `not the real problem`, or similar before/after framing when a direct positive formulation is available
   - prefer formulations like `already strong here`, `thins here`, `intensifies here`, `opens more optionality here`, or `strengthens carry here`
+- in planning, discuss, audit, research, and spec/prompt design work, do not ask the leading question in threshold form when the stronger task is field disclosure
+  - avoid question forms like `is this adequate?`, `is this ready?`, `is this clear enough?`, or `is this sufficient?`
+  - prefer question forms like `what does this expose?`, `what does it still flatten?`, `what stronger form could carry more of the work?`, `what optionality does it preserve or foreclose?`
+- when a workflow legitimately contains a gate, keep that gate as one layer rather than the whole frame
+  - verification, execution admission, and falsifiable requirement checks can use thresholds
+  - planning and research should still carry a second layer for opportunity, stronger form, and future-aware self-transformation
 - when auditing older specs, prompts, reviews, or dispositions for framing residue, use `python3 tooling/codex/scan_threshold_language.py <paths>` as a first-pass detector rather than relying on memory alone
 - keep the stronger distinction visible:
   - whether a document, map, lane, or doctrine surface can carry work

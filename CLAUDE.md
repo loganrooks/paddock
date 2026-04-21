@@ -22,6 +22,8 @@ For vendor-neutral repo doctrine, treat [AGENTS.md](/home/rookslog/workspace/pro
 - Use repo-local prompt/spec paths for headless Claude lanes. Do not rely on `/tmp` copies when the repo can carry the same artifact directly.
 - The quality bar is anti-threshold. Do not let `adequate`, `sufficient`, `good enough`, `passes`, or similar language become the master frame when the real task is stronger carry, leverage, clarity, and long-horizon intervention yield.
 - Do not smuggle threshold logic back in through deficit-oriented pseudo-positive phrasing like `not lacking`, `no longer missing`, or `not the real problem`; prefer direct positive formulations about where carry is already strong, where it thins, and where it can be intensified.
+- In planning, discuss, research, and audit lanes, do not ask the leading question in yes/no threshold form when the stronger task is to map what the surface exposes, preserves, thins, intensifies, or leaves open.
+- If a lane includes a real gate, keep that gate as one layer only; do not let it replace the stronger question of what more could be carried or opened.
 
 ## What Not To Mirror
 

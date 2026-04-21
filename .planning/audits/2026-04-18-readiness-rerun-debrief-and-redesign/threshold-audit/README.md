@@ -17,3 +17,5 @@ Status: first-pass residue audit completed
    - [artifacts/02-threshold-language-top-files.txt](artifacts/02-threshold-language-top-files.txt)
 3. first-pass residue audit:
    - [dispositions/01-threshold-language-residue-audit.md](dispositions/01-threshold-language-residue-audit.md)
+4. bounded spec/prompt plus self-overcoming-surface audit:
+   - [dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md](dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md)
