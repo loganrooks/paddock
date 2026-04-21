@@ -186,6 +186,7 @@ For non-trivial research, audit, gap-closure, sensitivity, or synthesis work:
   - planning and research should still carry a second layer for opportunity, stronger form, and future-aware self-transformation
 - when auditing older specs, prompts, reviews, or dispositions for framing residue, use `python3 tooling/codex/scan_threshold_language.py <paths>` as a first-pass detector rather than relying on memory alone
   - when scanning instruction files or anti-threshold doctrine surfaces themselves, prefer `--ignore-meta-instruction-lines` so quoted forbidden examples do not drown out actual residue
+  - do not treat scanner output as authoritative adjudication; it is a heuristic intake surface that must be followed by contextual reread, classification, and human disposition
 - keep the stronger distinction visible:
   - whether a document, map, lane, or doctrine surface can carry work
   - how strongly, clearly, and future-resiliently it carries that work compared with stronger available forms

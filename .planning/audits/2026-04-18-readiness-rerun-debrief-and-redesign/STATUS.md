@@ -105,7 +105,7 @@ Date: 2026-04-21
 - threshold-language raw scan artifact frozen for current audit workspace plus historical readiness package
 - threshold-language first-pass residue audit written under `threshold-audit/dispositions/`
 - bounded spec/prompt and self-overcoming-surface threshold audit written under `threshold-audit/dispositions/`
-- instruction/scanner doctrine now also rejects static-positive `enough` phrasing and supports meta-instruction skip mode during doctrine-surface scans
+- instruction/scanner doctrine now also rejects static-positive `enough` phrasing, supports meta-instruction skip mode during doctrine-surface scans, and treats scanner output as heuristic intake rather than adjudication
 - bounded opportunity-seeking / self-overcoming companion-layer proposal written under `intervention-proposals/`
 - self-overcoming audit subtree created under `self-overcoming-audit/`
 - self-overcoming audit lane-01 launched and completed against frozen basis `e466bea`
