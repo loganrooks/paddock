@@ -1,101 +1,100 @@
-Date: 2026-04-20
-Status: draft bounded proposal
+Date: 2026-04-21
+Status: revised consumer-first proposal
 
-# Opportunity-Seeking And Self-Overcoming Companion Layer Proposal
+# Strengthening-Opportunity Consumer-First Proposal
 
 ## Purpose
 
-- [g:r:i] This proposal defines a bounded follow-through candidate for the planning/research side of the harness: a positive companion layer that explicitly asks what stronger forms, preserved options, and self-transforming moves are available beyond satisfying the current gate.
-- [d:r:i] The goal is not to erase real gates. The goal is to stop planning and research from borrowing their strongest opportunity-seeking pressure only from downstream review, scattered future-preservation rules, or operator memory.
+- [g:r:i] This proposal defines the first live follow-through for the planning/research-side strengthening family opened by the threshold audit and then narrowed by the self-overcoming cross-vendor pair.
+- [d:r:i] The first live insertion is no longer a bundled `reference + research mode + planning hook` wave.
+- [d:r:i] The first live insertion is a consumer-first carry move inside the existing planning chain:
+  - one new positive bucket in `future_awareness`
+  - one matching path in `future_preservation`
+  - one explicit out-of-phase route into `plant-seed`
 
-## Why This Proposal Exists
+## Why This Revision Exists
 
-- [e:c+i] The bounded threshold/surface audit now shows that threshold framing is structurally appropriate in verification and parts of spec admission, but still narrows discuss/research and older audit-spec framing. Sources: [threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md:12), [threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md:21).
-- [e:c+i] The same audit also shows that the harness already carries promising positive logic in the review stack, the `future_preservation` chain, and `plant-seed`, but that this logic is unevenly distributed and lacks a single explicit planning/research companion surface. Sources: [threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md:29), [threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md:35).
-- [e:c+i] The long-horizon field map strengthens the same pressure from another angle: the harness already has strong long-horizon entry carry, but lifecycle carry, preservation-debt handling, and positive strengthening surfaces still need better architecture. Sources: [intervention-proposals/29-long-horizon-carry-gap-register.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/29-long-horizon-carry-gap-register.md:9), [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md:8), [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md:25).
-- [d:r:i] Taken together, these surfaces point to the same live opportunity: a positive layer for planning/research that complements gate logic instead of fighting it indirectly.
+- [e:c+i] Proposal `30` originally pointed at a real family, but the challenged review pair said the first slice was overpacked and should be narrowed toward already-strong carriers rather than carried as a three-object bundle. Sources: [self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md:7), [self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md:19).
+- [e:c+i] The same pair also said the strongest current insertion point is the existing planning consumer chain, especially `future_awareness`, `future_preservation`, and `plant-seed`, while the research-mode question remains live as the next adjacent object rather than the first insertion. Sources: [self-overcoming-audit/outputs/01-companion-layer-proposal-opus47-max-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/self-overcoming-audit/outputs/01-companion-layer-proposal-opus47-max-r1.md:106), [self-overcoming-audit/outputs/01-companion-layer-proposal-gpt54-xhigh-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/self-overcoming-audit/outputs/01-companion-layer-proposal-gpt54-xhigh-r1.md:91).
+- [e:c+i] The threshold audit still matters here: review, `future_preservation`, and `plant-seed` already carry stronger positive logic than most planning/research surfaces, so the next move should intensify those carriers before inventing a new top-level doctrine object. Sources: [threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md:29), [threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md:49).
 
-## Bounded Scope
+## First Live Slice
 
-- [d:r:i] Limit the first slice to planning/research companion surfaces, not execution- or verification-surface rewrites.
-- [d:r:i] The bounded first slice should cover only:
-  - one new reference surface under `.codex/get-shit-done/references/`
-  - one new explicit positive mode in `gsd-rigorous-research`
-  - one narrow consumer hook in planning-facing instructions so the new layer is actually used
-- [d:r:i] Hold broader workflow additions, milestone-boundary changes, and verification companions for a later disposition unless the first slice proves too weak.
+### 1. Add A New `future_awareness` Bucket
 
-## Proposed Move
+- [d:r:i] Add one new positive bucket to the existing `future_awareness` accumulator in `discuss-phase` and to the corresponding `CONTEXT.md` section shape.
+- [d:r:i] Working handle:
+  - `Strengthening Opportunities`
+- [d:r:i] Each entry should stay compact and direct-positive. A minimal entry should answer:
+  - where is the terrain already carrying strength worth intensifying?
+  - what bounded move could intensify that strength?
+  - what optionality would that move open, preserve more clearly, or keep more responsive?
+  - does the move belong inside the current phase boundary or outside it?
+- [d:r:i] This bucket should not become a second generic open-questions pile. Its job is specifically to expose bounded strengthening moves that would otherwise stay implicit or arrive only downstream through review.
 
-### 1. Add A Planning/Research Reference Surface
+### 2. Add A Matching `future_preservation` Path
 
-- [d:r:i] Add one bounded repo-local reference surface, tentatively:
-  - `.codex/get-shit-done/references/opportunity-seeking-and-self-overcoming.md`
-- [d:r:i] Its job should be to carry a reusable set of questions such as:
-  - what stronger form is visible from this terrain?
-  - what optionality is being preserved, expanded, or quietly narrowed?
-  - what future seams deserve explicit cultivation rather than mere non-closure?
-  - what bounded move would intensify carry across more than one dimension?
-  - what is already strong and can be amplified further?
-- [d:r:i] This should be a companion reference, not a replacement for verification rules or falsifiable spec rules.
+- [d:r:i] Extend the `future_preservation` carry path so each `Strengthening Opportunities` entry must be routed explicitly rather than left atmospheric.
+- [d:r:i] The new routing family should distinguish at least:
+  - `intensification task`
+  - `explicit hold-and-seed`
+- [d:r:i] `intensification task` is for bounded work that belongs inside the current phase/program boundary.
+- [d:r:i] `explicit hold-and-seed` is for bounded strengthening moves that reach beyond the current boundary but deserve durable resurfacing rather than passive mention.
 
-### 2. Add A Positive Research Mode
+### 3. Route Out-Of-Phase Items Into `plant-seed`
 
-- [d:r:i] Extend `gsd-rigorous-research` with one explicit positive mode, tentatively named one of:
-  - `opportunity amplification`
-  - `strength mapping`
-  - `self-overcoming design`
-- [d:r:i] The first version should ask the model to:
-  - map the field of strengthening opportunities rather than merely rank options against a threshold
-  - expose stronger forms, optionality gains, and transformation routes
-  - keep evidence, inference, and unknowns visible
-  - avoid collapsing back into `is the terrain mapped enough?`
-- [d:r:i] Keep this as a sibling to `terrain mapping`, `hypothesis testing`, `solution evaluation`, and `synthesis`, not a rewrite of the whole skill.
+- [d:r:i] When an item is routed as `explicit hold-and-seed`, the lane should create or update a seed rather than leaving the strengthening move stranded inside context or plan prose.
+- [d:r:i] That keeps future-facing strengthening pressure inside the harness’s existing trigger-and-resurfacing machinery instead of adding a second loose future-opportunity register.
 
-### 3. Add One Narrow Planning Consumer Hook
+## Why This Slice Is Stronger
 
-- [d:r:i] Give the new layer one live planning consumer so it does not remain library-only.
-- [d:r:i] The narrowest likely hook is in planning-facing doctrine rather than in every workflow:
-  - add a bounded planning/research prompt rule that, when the lane is exploratory, architecture-setting, or intervention-oriented, the operator should ask not only what can close, but what stronger form or broader optionality the terrain now exposes
-- [d:r:i] This hook should be narrow enough not to bloat gate surfaces or force every trivial task through a grand self-transformation ritual.
+- [d:r:i] It lands on the most load-bearing current consumer chain instead of creating a new surface that still needs a consumer.
+- [d:r:i] It intensifies already-strong planning carry rather than introducing a second parallel vocabulary stack.
+- [d:r:i] It produces direct artifact-level traces in `CONTEXT.md`, plan carry, and seeds that later review and research passes can inspect.
+- [d:r:i] It keeps gate surfaces separate from terrain-disclosure work.
+- [d:r:i] It preserves the broader family while refusing the overpacked first move the review pair criticized.
 
-## Explicit Non-Goals
+## Candidate Shape
 
-- [d:r:i] Do not remove legitimate threshold/gate logic from verification, behavioral checks, or falsifiable requirement admission.
-- [d:r:i] Do not rewrite the whole GSD workflow stack in one pass.
-- [d:r:i] Do not turn every planning or research step into open-ended philosophical elaboration.
-- [d:r:i] Do not collapse long-horizon carry, opportunity-seeking, and self-improvement into one vague buzzword surface.
-- [d:r:i] Do not force milestone-boundary, transition, or verify-phase changes into this first slice unless the bounded planning/research companion clearly proves too weak.
+- [d:r:i] The first version can stay compact.
+- [d:r:i] A `Strengthening Opportunities` item should resemble:
+  - `current strength`
+  - `bounded intensification move`
+  - `optionality effect`
+  - `carry route`
+- [d:r:i] The carry route must resolve to either:
+  - a bounded current-phase task
+  - or a seeded later resurfacing path
 
-## Why This Bounded Shape Is Stronger
+## What This First Slice Explicitly Holds
 
-- [d:r:i] It creates one explicit positive layer without pretending the whole harness needs replacement.
-- [d:r:i] It builds from the strongest existing seeds already present in review, future-preservation, and seed capture rather than inventing a disconnected theory surface.
-- [d:r:i] It gives planning and research a reusable positive posture before review has to rescue them.
-- [d:r:i] It stays small enough to verify by observing whether later planning/research artifacts actually ask stronger questions and expose richer intervention space.
+- [d:c+i] Hold the standalone reference surface until the new bucket has accumulated enough real entries to codify observed patterns rather than speculative question piles. Sources: [self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md:31).
+- [d:c+i] Hold the new `gsd-rigorous-research` mode until the same evidence window exists, then shape it against real bucket entries and a saved benchmark packet rather than theory alone. Sources: [self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md:29).
+- [d:c+i] Hold wider lifecycle changes here. Verification, transition, milestone, state/progress, and broader harness-self-improvement follow-through remain live families through `29` and the long-horizon audit, but they should not be absorbed into this first insertion. Sources: [intervention-proposals/29-long-horizon-carry-gap-register.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/29-long-horizon-carry-gap-register.md:23), [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md:44).
 
-## Candidate Verification Signals
+## Verification Surface
 
-- [d:r:i] Later planning/research artifacts stop defaulting to `is it clear enough / sufficient / ready?` as the main question and instead explicitly map stronger forms, optionality, and self-transformation routes.
-- [d:r:i] Review surfaces need to rescue fewer opportunities that were invisible upstream.
-- [d:r:i] Future-preservation and long-horizon carry become easier to route during planning because the positive layer names them earlier and more directly.
-- [d:r:i] The new layer is cited and used in real planning/research lanes rather than remaining decorative.
+- [d:r:i] The first proof should come from planning artifacts, not from abstract satisfaction claims.
+- [d:r:i] The main checks are:
+  - later `CONTEXT.md` files include `Strengthening Opportunities` entries when the terrain earns them
+  - those entries are not orphaned; each has a matching carry route
+  - out-of-phase entries become seeds instead of dissolving into prose
+  - later review lanes can point to artifact-level strengthening moves that were surfaced upstream rather than rescued only downstream
+- [d:r:i] The next proof after that should be a saved benchmark packet for the research-mode question, not a vibes-based decision.
 
-## Ceremony Risk Check
+## Risks And Drift Pressures
 
-- [d:r:i] This proposal fails if it produces a new inspirational reference doc that no workflow or planner ever really consumes.
-- [d:r:i] It also fails if it becomes a vague exhortation toward “greatness” without bounded question forms, artifact shapes, or later auditability.
-- [d:r:i] It fails too if it widens immediately into a total rewrite of spec, verify, transition, milestone, and progress surfaces before the bounded planning/research slice shows concrete leverage.
+- [d:r:i] This slice drifts if the new bucket becomes a vague inspiration bucket rather than a bounded routing surface.
+- [d:r:i] It also drifts if `Strengthening Opportunities` starts duplicating generic open questions instead of carrying a distinct positive-function role.
+- [d:r:i] It weakens if the route into `future_preservation` stays implicit.
+- [d:r:i] It weakens too if out-of-phase entries stay in context prose and never become seeds.
+- [d:r:i] It should not widen into verification or milestone-boundary changes on the strength of one insertion.
 
-## Intended Follow-Through Sequence
+## Current Consequence
 
-1. [d:r:i] Decide whether to accept this bounded first slice as the next intervention family.
-2. [d:r:i] If accepted, implement in this order:
-   - new companion reference surface
-   - new `gsd-rigorous-research` mode
-   - one narrow planning-facing consumer hook
-3. [d:r:i] Then reread a small number of real planning/research surfaces to see whether the new layer actually increases carry.
-4. [d:r:i] Only after that, decide whether wider follow-through is earned in verification, transition, milestone, or state/progress surfaces.
-
-## Next Disposition Question
-
-- [g:r:i] The next decision on this proposal should be whether this bounded first slice is the right intervention family to accept now, revise into a narrower first slice, or hold behind some other planning/research doctrine correction.
+- [g:r:i] This revised proposal replaces the earlier bundled first slice as the current carried object for this family.
+- [d:r:i] The next concrete move after accepting this revision is to decide whether to implement:
+  - the new `future_awareness` bucket
+  - the matching `future_preservation` route
+  - the explicit `plant-seed` handoff
+- [d:r:i] The research-mode object remains live, but as the next adjacent artifact after the consumer-first slice has produced real material to learn from.

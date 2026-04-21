@@ -111,6 +111,8 @@ Date: 2026-04-21
 - parallel local spawned reviewer completed for self-overcoming-audit lane-01
 - self-overcoming audit lane-01 launch-truth note written under `self-overcoming-audit/launch-truth/`
 - self-overcoming audit lane-01 comparative disposition written under `self-overcoming-audit/dispositions/`
+- proposal `30` revised into a consumer-first follow-through artifact under `intervention-proposals/`
+- instruction-surface hardening note written under `intervention-proposals/`
 - current intervention-proposal status: `the first four bounded harness follow-through proposals now exist, the first-tranche disposition is written, and the first accepted pair is now landed in the instruction/runtime layer`
 - current drift-register status: `the second tranche now has a bounded pilot register; sampled load-bearing differences are mostly intelligible materialized carry or selective overlay boundary, not mystery drift`
 - current manifest-contract status: `the second tranche now rejects manifest semantic collapse; gsd-file-manifest.json remains an upstream/update-boundary artifact, backup-meta stays tracked subset-carry metadata, and the missing object is a separate final-runtime visibility surface`
@@ -136,7 +138,8 @@ Date: 2026-04-21
 - current long-horizon status: `the challenge-backed field map now centers the work on intensifying boundary carry architecture, building from already-strong long-horizon entry carry; Opus adds a stronger two-systems / preservation-debt model, GPT adds tighter bounded landing shapes`
 - current threshold-language status: `anti-threshold doctrine already exists in root/planning AGENTS and both CLAUDE wrappers; the live follow-on question is residue in older specs, prompts, reviews, and inherited lane artifacts`
 - current threshold-audit status: `the first-pass residue audit is now followed by a bounded spec/prompt and self-overcoming-surface audit: gate logic is structurally appropriate in verification/spec admission surfaces, threshold framing still narrows discuss/research/older audit specs, and the harness already has promising strength-seeking logic in review/future-preservation surfaces but no single explicit self-overcoming companion layer yet`
-- current self-overcoming-companion status: `proposal 30 now has a challenged cross-vendor reread; the shared pressure carries the family forward but narrows the first live slice toward existing future-awareness / future-preservation consumers before any standalone reference surface or new research mode is carried`
+- current self-overcoming-companion status: `proposal 30 is now revised to match that challenged reread: the first live slice is a consumer-first strengthening path in future-awareness / future-preservation with plant-seed routing, while the research-mode question stays live as the next adjacent object`
+- current instruction-surface status: `root/planning AGENTS and both CLAUDE wrappers now explicitly harden against binary proposal inheritance, risk-used-as-veto, premature top-few narrowing, and using work volume alone as a blocker once stronger cleanup or intervention has been explicitly prioritized`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)

@@ -81,6 +81,14 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
     - accept the goal but reject the proposed method
     - accept the task but narrow the scope
     - accept the direction but insist on a better sequence or checkpoint first
+- When a proposal family is directionally strong but the current packaging is overpacked, do not default to binary `accept/reject`.
+  - Prefer narrowing, splitting, staged carry, or consumer-first routing when those preserve the stronger direction with less ceremony and clearer verification.
+- When a concern is mainly risk rather than impossibility, do not use risk as a flat veto if sequencing, tooling, checkpointing, bounded rollout, or verification can reduce it.
+  - Prefer a mitigation path with explicit quality gates over `too risky` as a stopping point.
+- Do not treat extra work by itself as the decisive blocker when the user has explicitly prioritized a stronger organizational, cleanup, or intervention move.
+  - Name the real tradeoff instead: blast radius, verification burden, continuity risk, or sequencing cost.
+- Before narrowing to the top few options, ask whether the stronger first move is to map the full field.
+  - Do not compress full-field mapping into early ranking when the task is terrain disclosure, horizon management, or harness self-transformation.
 - Do not be performatively oppositional. Push back when warranted, not as posture.
 - For load-bearing planning/process artifacts, load-bearing claims should, where practical, expose terse claim status rather than only sounding generally `cited`.
   - This includes artifacts that can steer canon, phase execution, verification, or workflow policy.

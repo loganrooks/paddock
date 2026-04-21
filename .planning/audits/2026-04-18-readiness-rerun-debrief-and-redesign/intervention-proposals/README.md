@@ -38,10 +38,12 @@ Status: active proposal/disposition batch
 28. `28-execution-capacity-reopen-rule.md`
 29. `29-long-horizon-carry-gap-register.md`
 30. `30-opportunity-seeking-and-self-overcoming-companion-layer-proposal.md`
+31. `31-instruction-surface-hardening-note.md`
 
 ## Proposal Rule
 
 - [d:r:i] Each proposal should stay bounded enough that a later acceptance/revision/rejection decision can be made on its own merits rather than by invoking another broad “improve the harness” abstraction.
 - [d:r:i] Current next move after this batch: use `25` through `28` to drive the next concrete floor-closing action set rather than reopening already-settled parity/materialization seams.
 - [d:r:i] `29` records the next broader pressure that emerged after the re-entry/plain-language pass: long-horizon carry is strong at discuss/plan entry but still weaker in lifecycle, verification, milestone, and harness-self-improvement surfaces.
-- [d:r:i] `30` records the bounded planning/research-side follow-through: a positive companion layer for opportunity-seeking and self-overcoming, built from the strongest existing review/future-preservation/seed surfaces rather than from a whole-harness rewrite.
+- [d:r:i] `30` now records the revised consumer-first follow-through: a `future_awareness` plus `future_preservation` strengthening route as the first live insertion, with the research-mode question held as the next adjacent object.
+- [d:r:i] `31` records the linked instruction-layer hardening so root/planning agent doctrine is less likely to reintroduce binary inheritance, risk-as-veto, or premature narrowing.

@@ -138,6 +138,14 @@ For non-trivial research, audit, gap-closure, sensitivity, or synthesis work:
 - partial pushback is often preferable to flat rejection:
   - keep the goal if it is sound
   - reject or revise the method, sequencing, scope, or closure pressure if that is the real problem
+- when a proposal family is directionally strong but the current first slice is overpacked, do not collapse the decision into `accept/reject`
+  - prefer narrowing, splitting, staged carry, or consumer-first routing when those preserve the family while reducing ceremony and sharpening verification
+- when a concern is primarily risk rather than impossibility, do not let `too risky` substitute for design work if the risk can be reduced through sequencing, tooling, checkpointing, bounded rollout, or verification gates
+  - prefer an explicit mitigation path over a flat veto
+- do not treat work volume alone as the decisive blocker once a stronger cleanup, organization, or intervention move has been explicitly prioritized
+  - surface the actual tradeoff instead: continuity cost, blast radius, verification burden, or sequencing pressure
+- before narrowing to the top few options, ask whether the task first calls for full-field mapping
+  - terrain disclosure, horizon management, and harness-self-transformation work often need the field mapped before later sequencing or ranking
 
 Prefer the repo-local `gsd-rigorous-research` skill for standalone research lanes.
 

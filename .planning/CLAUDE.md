@@ -16,6 +16,9 @@ This is the planning-local Claude wrapper. It does not replace [.planning/AGENTS
 - Keep the anti-threshold planning posture in positive form too: avoid deficit-oriented pseudo-positive phrasing like `not lacking`, `no longer missing`, or `not the real problem` when a direct positive formulation is available.
 - In planning, discuss, research, and audit lanes, do not ask the leading question in yes/no threshold form when the stronger task is field disclosure, stronger carry, or opportunity mapping.
 - If a lane includes a real gate, keep it bounded and pair it with the stronger question of what more could be preserved, intensified, or opened.
+- If a proposal family is sound but its first slice is overpacked, prefer narrowing, splitting, or consumer-first routing over binary accept/reject.
+- If a concern is mainly risk and the risk can be reduced through sequencing, tooling, checkpointing, or verification, prefer a mitigation path over a flat veto.
+- Before narrowing to a top few, ask whether the task first needs the full field mapped.
 
 ## What Stays Outside This Wrapper
 

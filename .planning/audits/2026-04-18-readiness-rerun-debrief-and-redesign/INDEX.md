@@ -111,6 +111,7 @@
 96. [self-overcoming-audit/outputs/01-companion-layer-proposal-opus47-max-r1.md](self-overcoming-audit/outputs/01-companion-layer-proposal-opus47-max-r1.md)
 97. [self-overcoming-audit/outputs/01-companion-layer-proposal-gpt54-xhigh-r1.md](self-overcoming-audit/outputs/01-companion-layer-proposal-gpt54-xhigh-r1.md)
 98. [self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md](self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md)
+99. [intervention-proposals/31-instruction-surface-hardening-note.md](intervention-proposals/31-instruction-surface-hardening-note.md)
 
 ## Source-Of-Truth Hierarchy
 

@@ -24,6 +24,9 @@ For vendor-neutral repo doctrine, treat [AGENTS.md](/home/rookslog/workspace/pro
 - Do not smuggle threshold logic back in through deficit-oriented pseudo-positive phrasing like `not lacking`, `no longer missing`, or `not the real problem`; prefer direct positive formulations about where carry is already strong, where it thins, and where it can be intensified.
 - In planning, discuss, research, and audit lanes, do not ask the leading question in yes/no threshold form when the stronger task is to map what the surface exposes, preserves, thins, intensifies, or leaves open.
 - If a lane includes a real gate, keep that gate as one layer only; do not let it replace the stronger question of what more could be carried or opened.
+- If a proposal direction is strong but the current packaging is weak, prefer narrowing, splitting, or staged carry over binary accept/reject.
+- If a concern is mainly risk and the risk can be reduced through sequencing, tooling, checkpointing, or verification, prefer a mitigation path over a flat veto.
+- Before narrowing to the top few options, ask whether the stronger first move is full-field mapping.
 
 ## What Not To Mirror
 
