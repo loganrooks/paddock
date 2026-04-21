@@ -29,8 +29,8 @@ Date: 2026-04-19
 
 ## Why This Artifact Exists
 
-- [g:c+i] This directory is `audit trail + program design`, not canon, so authority cannot be inferred just from top-level proximity or file density. Sources: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/INDEX.md:20-31, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/INDEX.md:40-42, .planning/AGENTS.md:33-40, ARTIFACT-GOVERNANCE.md:33-41.
-- [d:c+i] The existing index already names a source-of-truth hierarchy, but it does not yet sharply separate governing setup from challenge inputs, inquiry corpus, and procedural launch scaffolding. Sources: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/INDEX.md:20-31, ARTIFACT-GOVERNANCE.md:66-85.
+- [g:c+i] This directory is `audit trail + program design`, not canon, so authority cannot be inferred just from top-level proximity or file density. Sources: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/INDEX.md:20-28, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/INDEX.md:69-71, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/GOVERNANCE-READING-AND-UPDATE-PROTOCOL.md:17-32, ARTIFACT-GOVERNANCE.md:33-41.
+- [d:c+i] The governance set now separates controlled entry, denser artifact discovery, short governing synthesis, and longer cumulative trace, which makes it easier to judge force by role instead of by file density. Sources: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/INDEX.md:5-12, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/GOVERNANCE-READING-AND-UPDATE-PROTOCOL.md:17-69, .planning/AGENTS.md:42-77.
 - [d:c+i] Lane-03 answered a narrow question because its spec asked whether corpus distinctions changed recommendation, warrant, salience, or only rephrased, and its own output flags both coarse-category risk and doctrine-friendly case selection as failure modes. Sources: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md:17-28, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md:160-187, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/lane-03-opus47-max-corpus-vocabulary-stress-test.md:303-311, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/lane-03-opus47-max-corpus-vocabulary-stress-test.md:317-333.
 - [d:r:i] Therefore lane-03 is authoritative only on the narrow question it actually tested: no immediate corpus-to-doctrine promotion was earned on those three cases. It is not a general warrant for non-change, non-operationalization, or no further inheritance work.
 
@@ -67,6 +67,7 @@ What this class cannot do on its own:
 These files route readers, preserve launch contracts, or carry longer supporting traces, but they do not settle substantive claims on their own.
 
 - `INDEX.md`
+- `ARTIFACT-INVENTORY.md`
 - `CURRENT-STATE-TRACE.md`
 - `ONBOARDING.md`
 - `SESSION-FRAMING-BRIEF.md`
@@ -77,6 +78,7 @@ What this class can do:
 
 - define read order
 - preserve longer cumulative buildup without overloading the short governing synthesis
+- preserve denser artifact discovery without overloading the controlled entry path
 - preserve situated framing and operator hypotheses
 - define the contract for a given external lane
 - preserve launch history and audit trail

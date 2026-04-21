@@ -46,7 +46,9 @@ When a planning or audit subtree has a governance set, keep the jobs sharply sep
 Preferred shape:
 
 - `INDEX.md`
-  - entry point, read order, and artifact inventory
+  - entry point and controlled read order
+- `ARTIFACT-INVENTORY.md`
+  - denser artifact discovery and family-location map
 - `WORKSPACE-AUTHORITY-AND-ORGANIZATION.md`
   - authority classes, role disputes, and reread discipline
 - `PLAIN-LANGUAGE-*`
@@ -66,6 +68,7 @@ Update rules:
   - cumulative rationale or historical buildup: update `CURRENT-STATE-TRACE.md` or another supporting trace
   - next actions / mutable queue: update `STATUS.md`
   - discoverability / read order: update `INDEX.md`
+  - denser discovery / family-location expansion: update `ARTIFACT-INVENTORY.md`
   - authority or doc-role boundaries: update `WORKSPACE-AUTHORITY-AND-ORGANIZATION.md`
 - if one governance doc is carrying more than one of those jobs, split it instead of adding more prose
 - prefer progressive disclosure:

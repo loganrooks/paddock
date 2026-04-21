@@ -1,0 +1,113 @@
+Date: 2026-04-21
+Status: active inventory
+
+# Artifact Inventory
+
+## Purpose
+
+- [g:r:i] This file is the denser artifact-discovery surface for the workspace.
+- [d:r:i] Use [INDEX.md](INDEX.md) for the controlled entry path and short read order.
+- [d:r:i] Use this file when you need to find where a family, lane, artifact cluster, or active reference surface actually lives.
+
+## Source-Of-Truth Hierarchy
+
+- charter and governing posture: `AUDIT-CHARTER.md`
+- authority / artifact-class map for this directory: `WORKSPACE-AUTHORITY-AND-ORGANIZATION.md`
+- governance-doc role and update protocol: `GOVERNANCE-READING-AND-UPDATE-PROTOCOL.md`
+- current short governing synthesis: `CURRENT-STATE.md`
+- current longer cumulative trace: `CURRENT-STATE-TRACE.md`
+- live mutable state for this audit setup: `STATUS.md`
+- onboarding read path for later reviewers: `ONBOARDING.md`
+- primary distilled record of session-added framing: `SESSION-FRAMING-BRIEF.md`
+- substantive questions and required output shapes: `QUESTION-SET.md`
+- corpus split, packeting, and sizing discipline: `EVIDENCE-ARCHITECTURE.md`
+- competing audit-program shapes and recommended main path: `PLAN-PROPOSALS.md`
+
+## Active Family Baselines
+
+### Main-Wave And Rerun Program
+
+- main-wave design artifact: `MAIN-WAVE-LAUNCH-CONTRACT-AND-PACKET.md`
+- contract-level cross-review outputs:
+  - `lane-05-opus47-max-main-wave-contract-cross-review.md`
+  - `lane-05-gpt54-xhigh-main-wave-contract-cross-review.md`
+  - `lane-05-comparative-disposition.md`
+- Wave-1 packet companion: `WAVE-1-PACKET-MANIFESTS.md`
+- Wave-1 topology: `wave-1/README.md`
+- Wave-2 topology: `wave-2/README.md`
+- current accepted Wave-2 program-selection artifacts:
+  - `wave-2/dispositions/06-wave-2-lane06-comparative-disposition.md`
+  - `intervention-proposals/25-rerun-floor-recomputation.md`
+  - `intervention-proposals/26-brake-exit-rule.md`
+  - `intervention-proposals/27-preserve-only-activation-trigger-doctrine.md`
+  - `intervention-proposals/28-execution-capacity-reopen-rule.md`
+
+### Docs And Harness Intervention Layer
+
+- `HARNESS-INTERVENTION-UPDATE-LANE.md`
+- `HARNESS-INTERVENTION-ONBOARDING.md`
+- `PR-DOCS-INTERVENTION-CARRY-AUDIT.md`
+- `PR-DOCS-INTERVENTION-TRANSFORMATION-PLAN.md`
+- `RUNTIME-MATERIALIZATION-AND-AUTHORITY.md`
+- `GOAL-TO-SURFACE-INTERVENTION-INDEX.md`
+- `SURFACE-STATUS-AND-DELTA.md`
+- `docs-audit/`
+- `tranche-audit/`
+
+### Long-Horizon And Threshold Carry
+
+- `intervention-proposals/29-long-horizon-carry-gap-register.md`
+- `long-horizon-audit/`
+- `threshold-audit/`
+
+### Self-Overcoming Family
+
+- `intervention-proposals/32-strengthening-opportunity-first-slice-implementation.md`
+- `intervention-proposals/33-research-and-planner-strengthening-carry-follow-through.md`
+- `intervention-proposals/34-strengthening-opportunity-benchmark-packet.md`
+- `intervention-proposals/35-strengthening-opportunity-reference-surface.md`
+- `self-overcoming-audit/`
+
+### Entry-Surface / Project-Uplift Family
+
+- `intervention-proposals/36-initialization-onboarding-and-project-uplift-strengthening-plan.md`
+- `intervention-proposals/37-entry-surface-and-project-uplift-map.md`
+- `intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md`
+- `intervention-proposals/39-project-uplift-workflow-proposal.md`
+- `intervention-proposals/40-project-uplift-first-slice-implementation.md`
+- repo-local uplift outputs:
+  - `.planning/UPLIFT-REPORT.md`
+  - `.planning/UPLIFT-MANIFEST.json`
+  - `Project Uplift` section in `.planning/STATE.md`
+- challenge subtree: `entry-uplift-audit/`
+
+## Challenge And Output Subtrees
+
+- `docs-audit/`
+- `tranche-audit/`
+- `long-horizon-audit/`
+- `threshold-audit/`
+- `self-overcoming-audit/`
+- `entry-uplift-audit/`
+- `wave-1/`
+- `wave-2/`
+- `corpus/`
+
+## Generated And Structured Artifacts
+
+- selected runtime-visibility artifacts:
+  - `tranche-audit/artifacts/01-runtime-visibility-report.json`
+  - `intervention-proposals/artifacts/01-second-tranche-clean-boundary-runtime-visibility-snapshot.json`
+  - `intervention-proposals/artifacts/02-manifest-install-coherence-report.json`
+  - `intervention-proposals/artifacts/03-gsd-code-reviewer-post-carry-runtime-visibility.json`
+  - `intervention-proposals/artifacts/04-gsd-code-fixer-post-carry-runtime-visibility.json`
+  - `intervention-proposals/artifacts/05-gsd-intel-updater-post-carry-runtime-visibility.json`
+  - `intervention-proposals/artifacts/06-gsd-pattern-mapper-post-carry-runtime-visibility.json`
+- launch history:
+  - `LAUNCH-LEDGER.md`
+
+## How To Use This Inventory
+
+- [d:r:i] If you need the shortest legitimate re-entry, do not start here. Start with [INDEX.md](INDEX.md), then [CURRENT-STATE.md](CURRENT-STATE.md).
+- [d:r:i] If you need to find where a family or artifact cluster lives, use this file.
+- [d:r:i] If you need mutable next steps, use [STATUS.md](STATUS.md) rather than reading this inventory as a queue.

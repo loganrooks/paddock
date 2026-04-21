@@ -49,10 +49,11 @@ Status: active governing synthesis
 - [o:r:i] How should the recomputed rerun-floor rule family be landed into the actual carrying surfaces?
 - [o:r:i] What later compatibility surface, if any, should explicitly state intended GSD/runtime compatibility?
 - [o:r:i] Which parts of the submitted docs PR should remain stable governance/reference docs, and which should be paired with stronger intervention-oriented companions?
-- [o:r:i] Does the broader audit workspace need one more governance-doc cleanup pass after this split, especially around `INDEX.md` and queue/read-order duplication?
+- [o:r:i] If later family growth overloads the governance set again, what further routing surfaces would sharpen relevance without pushing the short synthesis back toward warehouse behavior?
 
 ## Read Next
 
 - [d:r:i] If you need the fuller cumulative narrative, read [CURRENT-STATE-TRACE.md](CURRENT-STATE-TRACE.md).
 - [d:r:i] If you need the mutable queue, read [STATUS.md](STATUS.md).
-- [d:r:i] If you need the active artifact inventory and read order, read [INDEX.md](INDEX.md).
+- [d:r:i] If you need the controlled entry path and read order, read [INDEX.md](INDEX.md).
+- [d:r:i] If you need denser artifact discovery, read [ARTIFACT-INVENTORY.md](ARTIFACT-INVENTORY.md).

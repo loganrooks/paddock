@@ -16,12 +16,20 @@ Status: active governance protocol
 
 ### `INDEX.md`
 
-- [g:r:i] Role: entry point, read order, and artifact inventory
+- [g:r:i] Role: entry point and controlled read order
 - [d:r:i] Use it when:
-  - you need to find an artifact
   - you need the official read order
-  - you need a quick map of the current subtree layout
+  - you need the controlled entry path into the workspace
 - [d:r:i] Do not use it as the cumulative state narrative or mutable queue
+
+### `ARTIFACT-INVENTORY.md`
+
+- [g:r:i] Role: denser artifact discovery and family-location map
+- [d:r:i] Use it when:
+  - you need to find an artifact family
+  - you need the active baseline files for a family
+  - you need a quick map of the current subtree layout without reading the whole queue
+- [d:r:i] Do not use it as the mutable queue or as the short governing synthesis
 
 ### `WORKSPACE-AUTHORITY-AND-ORGANIZATION.md`
 
@@ -104,7 +112,8 @@ Read:
 Read:
 
 1. `INDEX.md`
-2. `STATUS.md` only if you also need the current queue
+2. `ARTIFACT-INVENTORY.md` if you need denser discovery
+3. `STATUS.md` only if you also need the current queue
 
 ## Update Rules
 
@@ -113,7 +122,8 @@ Read:
   - current baseline or governing consequence -> `CURRENT-STATE.md`
   - cumulative buildup or multi-family narrative -> `CURRENT-STATE-TRACE.md`
   - mutable next steps, queue changes, or checkpoint boundaries -> `STATUS.md`
-  - read-order/discoverability shifts -> `INDEX.md`
+  - read-order/control-path shifts -> `INDEX.md`
+  - denser discovery or family-location expansion -> `ARTIFACT-INVENTORY.md`
   - role disputes or new doc-boundary rules -> `WORKSPACE-AUTHORITY-AND-ORGANIZATION.md`
 - [d:r:i] If a new update seems to belong in all of them, that is a warning sign that the change has not been decomposed cleanly enough yet.
 - [d:r:i] If one governance doc starts carrying multiple jobs at once, split the file instead of continuing to accrete prose.
@@ -131,4 +141,5 @@ Read:
 
 - [d:r:i] `CURRENT-STATE.md` is now the short governing synthesis for this workspace.
 - [d:r:i] `CURRENT-STATE-TRACE.md` is the longer cumulative trace.
+- [d:r:i] `ARTIFACT-INVENTORY.md` is the denser discovery surface.
 - [d:r:i] This protocol should be reread the next time the governance set starts to feel overloaded again, especially if `INDEX.md` and `STATUS.md` begin to duplicate each other or if `CURRENT-STATE.md` starts turning back into a warehouse.
