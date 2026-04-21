@@ -95,6 +95,8 @@ Status: active inventory
 - `intervention-proposals/56-setup-portable-gsd-robustness-and-reinstall-truth-implementation.md`
 - `intervention-proposals/57-transition-lifecycle-carry-first-slice-proposal.md`
 - `intervention-proposals/58-transition-lifecycle-carry-first-slice-implementation.md`
+- `intervention-proposals/59-milestone-boundary-lifecycle-carry-first-slice-proposal.md`
+- `intervention-proposals/60-milestone-boundary-lifecycle-carry-first-slice-implementation.md`
 
 ### Self-Overcoming Family
 
@@ -157,6 +159,7 @@ Status: active inventory
 - `propagation-audit/19-verifier-lifecycle-carry-change-triggered-refresh.md`
 - `propagation-audit/20-setup-portable-gsd-robustness-change-triggered-refresh.md`
 - `propagation-audit/21-transition-lifecycle-carry-change-triggered-refresh.md`
+- `propagation-audit/22-milestone-boundary-lifecycle-carry-change-triggered-refresh.md`
 - `propagation-audit/artifacts/01-propagation-field-registry-v1.json`
 - `propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json`
 - `propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json`

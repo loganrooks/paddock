@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "fc0f6cd",
+  "basis_commit": "6de8bc7",
   "evidence_entries": [
     {
       "id": "overlay_contract_validation",
@@ -91,6 +91,12 @@
       "evidence_lane": "implementation_note",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/58-transition-lifecycle-carry-first-slice-implementation.md",
       "note": "landed transition-side lifecycle carry slice covering workflow/template overlay ownership, future-preservation close-boundary review, compact state-digest upkeep, and strict post-materialization proof"
+    },
+    {
+      "id": "milestone_boundary_lifecycle_carry_impl_60",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/60-milestone-boundary-lifecycle-carry-first-slice-implementation.md",
+      "note": "landed milestone-boundary lifecycle carry slice covering tracked overlay ownership for new-milestone and complete-milestone, explicit LONG-ARC plus Future Carry Forward reread at milestone open/close, and strict post-materialization proof"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "fc0f6cd",
+  "basis_commit": "6de8bc7",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -468,6 +468,28 @@
         "setup_runtime_helper_tests",
         "setup_portable_gsd_impl_56"
       ]
+    },
+    {
+      "id": "milestone_open_workflow",
+      "family": "workflow_output",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/new-milestone.md",
+      "role": "operator-facing milestone-opening workflow carrying LONG-ARC reread and Future Carry Forward milestone-open routing",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "milestone_boundary_lifecycle_carry_impl_60"
+      ]
+    },
+    {
+      "id": "milestone_close_workflow",
+      "family": "workflow_output",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/complete-milestone.md",
+      "role": "operator-facing milestone-close workflow carrying LONG-ARC reread and Future Carry Forward milestone-close continuity review",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "milestone_boundary_lifecycle_carry_impl_60"
+      ]
     }
   ],
   "edges": [
@@ -854,6 +876,52 @@
       "evidence_refs": [
         "portable_materialization_check",
         "setup_portable_gsd_impl_56"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_milestone_open_workflow",
+      "from": "overlay_manifest",
+      "to": "milestone_open_workflow",
+      "kind": "overlay_owns_workflow_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "milestone_boundary_lifecycle_carry_impl_60"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_milestone_close_workflow",
+      "from": "overlay_manifest",
+      "to": "milestone_close_workflow",
+      "kind": "overlay_owns_workflow_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "milestone_boundary_lifecycle_carry_impl_60"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "milestone_open_workflow_to_state",
+      "from": "milestone_open_workflow",
+      "to": "state_md",
+      "kind": "workflow_rereads_and_updates_state_continuity",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "milestone_boundary_lifecycle_carry_impl_60"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "milestone_close_workflow_to_state",
+      "from": "milestone_close_workflow",
+      "to": "state_md",
+      "kind": "workflow_reviews_and_updates_state_continuity",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "milestone_boundary_lifecycle_carry_impl_60"
       ],
       "status": "mapped"
     }

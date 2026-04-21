@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "fc0f6cd",
+  "basis_commit": "6de8bc7",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -66,6 +66,18 @@
         "state_continuity"
       ],
       "claim_boundary": "declares how plan-side future_preservation is reread at phase close, how the four carry buckets are dispositioned, and how the compact Future Carry Forward digest remains explicit in project state"
+    },
+    {
+      "id": "milestone_boundary_future_carry_contract",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/new-milestone.md",
+      "validator": "tooling/codex/portable_gsd_contract.py",
+      "contract_kind": "milestone-boundary long-arc and future-carry reread semantics",
+      "families_touched": [
+        "install_overlay",
+        "workflow_output",
+        "state_continuity"
+      ],
+      "claim_boundary": "declares how milestone opening and milestone close reread LONG-ARC and Future Carry Forward, and how still-live carry remains explicit across milestone boundaries instead of thinning into operator memory"
     }
   ]
 }
