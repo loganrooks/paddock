@@ -89,7 +89,12 @@
   - [propagation-audit/11-upstream-pristine-frontier-propagation-obligation.md](propagation-audit/11-upstream-pristine-frontier-propagation-obligation.md)
   - [propagation-audit/12-cross-family-edge-supplement.md](propagation-audit/12-cross-family-edge-supplement.md)
   - [propagation-audit/13-machine-readable-propagation-registry-first-slice.md](propagation-audit/13-machine-readable-propagation-registry-first-slice.md)
+  - [propagation-audit/14-propagation-registry-generation-and-seeding-policy.md](propagation-audit/14-propagation-registry-generation-and-seeding-policy.md)
   - [propagation-audit/artifacts/01-propagation-field-registry-v1.json](propagation-audit/artifacts/01-propagation-field-registry-v1.json)
+  - [propagation-audit/launch-truth/03-propagation-registry-system-cross-vendor-launch-truth.md](propagation-audit/launch-truth/03-propagation-registry-system-cross-vendor-launch-truth.md)
+  - [propagation-audit/outputs/03-propagation-registry-system-opus47-max-r1.md](propagation-audit/outputs/03-propagation-registry-system-opus47-max-r1.md)
+  - [propagation-audit/outputs/03-propagation-registry-system-gpt54-xhigh-r1.md](propagation-audit/outputs/03-propagation-registry-system-gpt54-xhigh-r1.md)
+  - [propagation-audit/dispositions/03-propagation-registry-system-cross-vendor-inheritance.md](propagation-audit/dispositions/03-propagation-registry-system-cross-vendor-inheritance.md)
 - long-horizon / anti-threshold family:
   - [intervention-proposals/29-long-horizon-carry-gap-register.md](intervention-proposals/29-long-horizon-carry-gap-register.md)
   - [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md)

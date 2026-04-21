@@ -53,6 +53,21 @@ Status: active widened inheritance batch
     - [outputs/02-broader-network-propagation-field-mapping-opus47-max-r1.md](outputs/02-broader-network-propagation-field-mapping-opus47-max-r1.md)
   - inheritance:
     - [dispositions/02-broader-network-propagation-field-mapping-inheritance.md](dispositions/02-broader-network-propagation-field-mapping-inheritance.md)
+- lane `03`:
+  - packet:
+    - [packets/03-propagation-registry-system-cross-vendor-packet.md](packets/03-propagation-registry-system-cross-vendor-packet.md)
+  - spec:
+    - [specs/03-propagation-registry-system-cross-vendor-spec.md](specs/03-propagation-registry-system-cross-vendor-spec.md)
+  - prompts:
+    - [prompts/03-propagation-registry-system-opus47-max-r1-launch-prompt.md](prompts/03-propagation-registry-system-opus47-max-r1-launch-prompt.md)
+    - [prompts/03-propagation-registry-system-gpt54-xhigh-r1-brief.md](prompts/03-propagation-registry-system-gpt54-xhigh-r1-brief.md)
+  - launch-truth:
+    - [launch-truth/03-propagation-registry-system-cross-vendor-launch-truth.md](launch-truth/03-propagation-registry-system-cross-vendor-launch-truth.md)
+  - outputs:
+    - [outputs/03-propagation-registry-system-opus47-max-r1.md](outputs/03-propagation-registry-system-opus47-max-r1.md)
+    - [outputs/03-propagation-registry-system-gpt54-xhigh-r1.md](outputs/03-propagation-registry-system-gpt54-xhigh-r1.md)
+  - inheritance:
+    - [dispositions/03-propagation-registry-system-cross-vendor-inheritance.md](dispositions/03-propagation-registry-system-cross-vendor-inheritance.md)
 
 ## Current Follow-Through
 
@@ -102,5 +117,6 @@ Status: active widened inheritance batch
 - [d:r:i] The bounded widening lane over `08` is now completed and locally inherited through lane `02`.
 - [d:r:i] The sharpened disclosure layer is now landing too: `09` carries the stronger sub-family rows, `10` names the model-policy three-surface invariant, `11` names the upstream-pristine frontier obligation, and `12` names the first explicit cross-family edges.
 - [d:r:i] The machine-readable first slice is now landing too: `13` plus `artifacts/01-propagation-field-registry-v1.json` give the family one compact registry surface in addition to the prose layer.
-- [d:r:i] The registry-generation policy is now explicit too: `14` treats propagation registries as AI-authored hybrid maps seeded from maintained inventory/docs plus live runtime evidence, not as purely automatic extraction and not as stale hand-memory.
-- [d:r:i] The next move is to decide whether this registry slice now deserves refresh/diff tooling, or whether the family should hold on a cleaner checkpoint before more operational widening.
+- [d:r:i] The registry-generation policy is now explicit too: `14` treats propagation registries as AI-authored hybrid maps seeded from maintained inventory/docs surfaces plus bounded observed/validated carriers, not as purely automatic extraction and not as stale hand-memory.
+- [d:r:i] The registry-system reread is now completed and locally inherited through lane `03`.
+- [d:r:i] The next move is to revise the registry family itself before any diff helper: layer the family more explicitly, split the blended evidence bucket, treat maintained inventory as a coverage-carrying roster frontier, and refresh the current `v1` slice into a typed/federated `v2` shape.

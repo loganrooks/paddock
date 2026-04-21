@@ -259,6 +259,58 @@
   - live but not chosen: `Proposal C` nearest fallback, bounded `Proposal F` strongest switch path, `Proposal E` still prospective
   - not earned: full `Proposal F`, full `Proposal C-first`, `Proposal E-first`, blanket `.codex` de-ignore, broad audit-space reorganization, immediate launch-truth hook automation
 
+## 2026-04-21 `propagation-audit-lane-03`
+
+- date: `2026-04-21`
+- purpose: bounded cross-vendor reread of the propagation-registry system itself, with explicit pressure against code-only mapping and against the blended `runtime/tooling evidence` bucket
+- frozen launch basis commit: `3ee6d58`
+- requested model / reasoning:
+  - Opus: `opus[1m]` / `max`
+  - local parallel reviewer: `gpt-5.4` / `xhigh`
+- requested launch modes:
+  - Opus: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+  - GPT: `spawn_agent`
+- launch-truth artifact: [propagation-audit/launch-truth/03-propagation-registry-system-cross-vendor-launch-truth.md](propagation-audit/launch-truth/03-propagation-registry-system-cross-vendor-launch-truth.md)
+- prompt / brief artifacts:
+  - [propagation-audit/prompts/03-propagation-registry-system-opus47-max-r1-launch-prompt.md](propagation-audit/prompts/03-propagation-registry-system-opus47-max-r1-launch-prompt.md)
+  - [propagation-audit/prompts/03-propagation-registry-system-gpt54-xhigh-r1-brief.md](propagation-audit/prompts/03-propagation-registry-system-gpt54-xhigh-r1-brief.md)
+- governing spec / packet:
+  - [propagation-audit/specs/03-propagation-registry-system-cross-vendor-spec.md](propagation-audit/specs/03-propagation-registry-system-cross-vendor-spec.md)
+  - [propagation-audit/packets/03-propagation-registry-system-cross-vendor-packet.md](propagation-audit/packets/03-propagation-registry-system-cross-vendor-packet.md)
+- output artifacts:
+  - [propagation-audit/outputs/03-propagation-registry-system-opus47-max-r1.md](propagation-audit/outputs/03-propagation-registry-system-opus47-max-r1.md)
+  - [propagation-audit/outputs/03-propagation-registry-system-gpt54-xhigh-r1.md](propagation-audit/outputs/03-propagation-registry-system-gpt54-xhigh-r1.md)
+- probe summary:
+  - Opus:
+    - exit code: `0`
+    - elapsed seconds: `462.964`
+    - session id: `922519cc-c1df-4144-8496-5f894e6704eb`
+    - total cost usd: `2.275288`
+    - stdout/stderr/debug artifacts:
+      - `/tmp/propagation-registry-system-opus47-max-r1-20260421-145113.v4ufepvq.stream.jsonl`
+      - `/tmp/propagation-registry-system-opus47-max-r1-20260421-145113.0mzrph5t.stderr.log`
+      - `/tmp/propagation-registry-system-opus47-max-r1-20260421-145113.sxnrdl49.debug.log`
+  - GPT:
+    - agent id: `019db161-e0d2-7282-9a7f-a91e144d211f`
+    - agent nickname: `Boyle`
+    - requested-vs-effective capture preserved at `/tmp/propagation_registry_system_local_launch_truth.md`
+    - exact effective row: `gpt-5.4 / xhigh / never / danger-full-access`
+- disposition:
+  - [propagation-audit/dispositions/03-propagation-registry-system-cross-vendor-inheritance.md](propagation-audit/dispositions/03-propagation-registry-system-cross-vendor-inheritance.md)
+  - `Opus-led synthesis inherit`
+  - carry forward:
+    - hybrid registry stance
+    - upstream inventory as roster frontier plus local maintained-doc seed surfaces
+    - existing semantic field from `08-13`
+  - revise next:
+    - replace the blended registry shape with a typed layered/federated `v2`
+    - split the blended evidence bucket
+    - move `docs/INVENTORY.md` from mere discovery seed toward coverage-carrying roster frontier
+  - hold explicit:
+    - no diff tool yet
+    - no whole-harness auto-extraction
+    - no semantic overclaim from validation/coherence tooling
+
 ## 2026-04-20 `tranche-audit-lane-01`
 
 - date: `2026-04-20`
