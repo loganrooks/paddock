@@ -40,6 +40,7 @@ Status: active proposal/disposition batch
 30. `30-opportunity-seeking-and-self-overcoming-companion-layer-proposal.md`
 31. `31-instruction-surface-hardening-note.md`
 32. `32-strengthening-opportunity-first-slice-implementation.md`
+33. `33-research-and-planner-strengthening-carry-follow-through.md`
 
 ## Proposal Rule
 
@@ -49,3 +50,4 @@ Status: active proposal/disposition batch
 - [d:r:i] `30` now records the revised consumer-first follow-through: a `future_awareness` plus `future_preservation` strengthening route as the first live insertion, with the research-mode question held as the next adjacent object.
 - [d:r:i] `31` records the linked instruction-layer hardening so root/planning agent doctrine is less likely to reintroduce binary inheritance, risk-as-veto, or premature narrowing.
 - [d:r:i] `32` records the landed first slice itself across live runtime plus tracked overlay carry, including threshold-residue cleanup and parity verification for the touched planning surfaces.
+- [d:r:i] `33` records the next adjacent contract-alignment batch: rigorous-research, planner/checker prompts, and agent-contract reference prose now all carry the strengthening-route shape rather than the older narrower planning contract.

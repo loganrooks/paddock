@@ -113,6 +113,7 @@
 99. [self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md](self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md)
 100. [intervention-proposals/31-instruction-surface-hardening-note.md](intervention-proposals/31-instruction-surface-hardening-note.md)
 101. [intervention-proposals/32-strengthening-opportunity-first-slice-implementation.md](intervention-proposals/32-strengthening-opportunity-first-slice-implementation.md)
+102. [intervention-proposals/33-research-and-planner-strengthening-carry-follow-through.md](intervention-proposals/33-research-and-planner-strengthening-carry-follow-through.md)
 
 ## Source-Of-Truth Hierarchy
 
@@ -158,6 +159,7 @@
 - current accepted first-pass runtime-visibility implementation for the second tranche: `intervention-proposals/10-final-runtime-visibility-first-pass-disposition.md`
 - current full-field long-horizon carry seed register: `intervention-proposals/29-long-horizon-carry-gap-register.md`
 - current strengthened first-slice implementation note for the self-overcoming family: `intervention-proposals/32-strengthening-opportunity-first-slice-implementation.md`
+- current research/planner follow-through note for the self-overcoming family: `intervention-proposals/33-research-and-planner-strengthening-carry-follow-through.md`
 - current long-horizon cross-vendor challenge subtree and lane-01 inheritance: `long-horizon-audit/`
 - current threshold-language residue audit subtree and first-pass warning surface: `threshold-audit/`
 - current self-overcoming proposal challenge subtree and lane-01 inheritance: `self-overcoming-audit/`
