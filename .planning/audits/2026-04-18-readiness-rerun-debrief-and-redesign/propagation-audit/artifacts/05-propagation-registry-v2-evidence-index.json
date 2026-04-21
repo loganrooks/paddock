@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "7098aad",
+  "basis_commit": "62e37d9",
   "evidence_entries": [
     {
       "id": "overlay_contract_validation",
@@ -121,6 +121,18 @@
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_spec_future_carry_contract.py",
       "note": "focused contract coverage for spec-phase long-arc reread, spec template Future-Aware Notes buckets, and discuss-phase upstream spec carry"
+    },
+    {
+      "id": "read_packet_relevance_control_impl_66",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/66-read-packet-and-relevance-control-first-slice-implementation.md",
+      "note": "landed read-packet and relevance-control slice covering overlay ownership for the mandatory-read reference, explicit required/supporting/deeper packet tiers, layered reading control in progress/resume-project/uplift-project, and strict post-materialization proof"
+    },
+    {
+      "id": "read_packet_tier_contract_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_read_packet_tiers_contract.py",
+      "note": "focused contract coverage for mandatory-read tier doctrine, overlay ownership for the shared reference, and layered packet carry in progress, resume-project, and uplift-project"
     }
   ]
 }

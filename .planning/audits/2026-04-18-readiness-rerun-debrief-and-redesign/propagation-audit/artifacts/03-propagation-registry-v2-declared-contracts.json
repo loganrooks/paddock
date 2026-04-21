@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "7098aad",
+  "basis_commit": "62e37d9",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -103,6 +103,18 @@
         "template_shape"
       ],
       "claim_boundary": "declares how spec-phase reads long-arc doctrine, writes bounded Future-Aware Notes when materially present, and how discuss-phase inherits that upstream spec contract instead of leaving the spec boundary narrower than the later lifecycle chain"
+    },
+    {
+      "id": "read_packet_tier_contract",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/references/mandatory-initial-read.md",
+      "validator": "tooling/codex/tests/test_read_packet_tiers_contract.py",
+      "contract_kind": "shared read-packet tier semantics for operator-facing entry and re-entry surfaces",
+      "families_touched": [
+        "install_overlay",
+        "reference_behavior",
+        "workflow_output"
+      ],
+      "claim_boundary": "declares how required, supporting, and deeper reading tiers keep startup context, route-local widening, and later bounded reread explicit across current operator-facing entry and re-entry workflows without replacing contextual judgment"
     }
   ]
 }

@@ -72,6 +72,8 @@ Status: active proposal/disposition batch
 62. `62-state-progress-and-resume-future-carry-consumer-implementation.md`
 63. `63-spec-lifecycle-carry-first-slice-proposal.md`
 64. `64-spec-lifecycle-carry-first-slice-implementation.md`
+65. `65-read-packet-and-relevance-control-first-slice-proposal.md`
+66. `66-read-packet-and-relevance-control-first-slice-implementation.md`
 
 ## Proposal Rule
 
@@ -112,5 +114,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `62` now records the landed first-read consumer slice itself: overlay ownership for `state.cjs`, explicit helper parsing for decisions/blockers/future-carry/session continuity, and consumer-side progress/resume follow-through with strict post-materialization proof.
 - [d:r:i] `63` now opens the next bounded upstream lifecycle bridge directly: `spec-phase`, `templates/spec.md`, and the first downstream discuss consumer should keep bounded future-aware carry explicit instead of leaving the spec boundary narrower than the later lifecycle chain.
 - [d:r:i] `64` now records the landed spec lifecycle slice itself: overlay ownership for `spec-phase.md` and `templates/spec.md`, optional `Future-Aware Notes` in `SPEC.md`, discuss-side spec reread, and strict post-materialization proof.
+- [d:r:i] `65` now opens the next bounded operator-control bridge directly: the shared mandatory-read reference plus the current re-entry surfaces should keep primary, route-local, and deeper reading more explicit instead of flattening entry posture into one startup burden.
+- [d:r:i] `66` now records the landed read-packet slice itself: overlay ownership for the mandatory-read reference, explicit `required` / `supporting` / `deeper` packet tiers, layered reading control in `progress`, `resume-project`, and `uplift-project`, and strict post-materialization proof.
 - [d:r:i] `42` now records that harden slice as landed: multi-axis posture, phase-boundary signal, per-carrier fingerprint shape, runtime-agent globbing, typed proposal routes, file-backed held-later carry, widened tests, and the two live consumer/output bugs it surfaced and corrected.
-- [d:r:i] The current broader consequence after `42-64`: use the cleaner uplift slice, the active propagation family, the landed verifier / transition / milestone-boundary / first-read / spec lifecycle bridges, and the hardened setup/materialization path together rather than assuming one helper or one bounded slice already proves whole-network carry.
+- [d:r:i] The current broader consequence after `42-66`: use the cleaner uplift slice, the active propagation family, the landed verifier / transition / milestone-boundary / first-read / spec lifecycle bridges, the landed read-packet/relevance-control slice, and the hardened setup/materialization path together rather than assuming one helper or one bounded slice already proves whole-network carry.

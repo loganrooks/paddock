@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-04-21T21:45:08+00:00",
+  "generated_at": "2026-04-21T23:13:17+00:00",
   "mode": "detect-only",
   "last_uplift_class": "cross-runtime uplift",
   "last_uplift_secondary_signals": [
@@ -13,8 +13,8 @@
     "mid_phase_signal": true,
     "note": "phase CONTEXT carries explicit rerun-boundary posture"
   },
-  "doctrine_reference_hash": "4eae2d443e4f72b395fa5fdddc8c3de4edb4c6d7a3bbfd86d550aa88e5b3988c",
-  "project_fingerprint_hash": "77315e50c82a89d14217b796584121a3788e6702c891ad8cd7ab1dd9d320469b",
+  "doctrine_reference_hash": "d5079d2a24a0e0af8aa127626ccf5d4ba4a4f558ee76b1b1226a4392ba89ac78",
+  "project_fingerprint_hash": "3a216dedadbf3c5fb7c08d577799b01e414d3b9ff1eee78fb0664a112bd5eebd",
   "current_status": "planning",
   "runtime_dirs": [
     ".codex",
@@ -99,7 +99,7 @@
       "present": true,
       "status": "present",
       "fingerprint_shape": "content_sha256",
-      "fingerprint": "e47674d1de43085e4b39cd3590bfa6a9cdf180b72e4560624f0551136b18fe5e",
+      "fingerprint": "d25812b6a68fc502b4a3ec0c75852eccfc622dc74e766d63a4af3ce21b2f2c4a",
       "note": "file carrier present"
     },
     {
@@ -110,7 +110,7 @@
       "present": true,
       "status": "present",
       "fingerprint_shape": "content_sha256",
-      "fingerprint": "0e02322464e6fe04db82aa142185cef6500519519b0c9f6084f5713d1a53ba76",
+      "fingerprint": "354de6a3a0ca9cb3e311e618dd7b5f0abe52afa5e6649e57617b092dc9dcf200",
       "note": "file carrier present"
     },
     {
@@ -187,7 +187,7 @@
       "present": true,
       "status": "present",
       "fingerprint_shape": "inventory_item_hash",
-      "fingerprint": "327f8c5742aa50d1d2488ffe214880d0e9cd42f1d7b7f0ed148a300aa9dba7cc",
+      "fingerprint": "079b0bca2d69485ed744acbca763752b8f91d3c4914dfc869e8d62e7cf94a3b7",
       "note": "file carrier present"
     },
     {
@@ -572,7 +572,7 @@
       "present": true,
       "status": "marker_present",
       "fingerprint_shape": "marker_block_hash",
-      "fingerprint": "8369ba7506f8fe029f23f1bc0727a9fd5d605f9888e18c94e5f3a476cac68314",
+      "fingerprint": "25ddded63c66bbad9e9a033dee5ef34024aab003311c9953fbbe5c4c11f6ef15",
       "note": "marker present on carrier"
     },
     {

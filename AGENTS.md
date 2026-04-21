@@ -46,6 +46,11 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
 - Treat `CONTEXT.md` as a steering brief: decisions, assumptions, open questions, canonical refs, code context, and future awareness all matter downstream.
 - For headless external CLI runs that instruct a model to read a spec or wrapper file, prefer a repo-local path over `/tmp` and be explicit about the permissions needed to read it.
 - For `.planning/` artifact-family moves or topology cleanup, use `python3 tooling/codex/audit_refmap.py` rather than hand-editing reference rewrites; detailed rules live in `.planning/AGENTS.md`.
+- For repo-local harness prompts, workflows, and agent contracts that use reading packets, prefer layered packet structure:
+  - `required_reading` for irreducible startup context
+  - `supporting_reading` for route-local widening
+  - `deeper_reading` for bounded later expansion
+  - keep contextual reread sovereign rather than flattening every possible context surface into startup burden
 
 ## Contract Propagation
 

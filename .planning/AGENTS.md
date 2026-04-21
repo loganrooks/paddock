@@ -81,6 +81,11 @@ Update rules:
   - family-specific artifacts only when the task actually touches that family
 - when creating a supporting trace, make the short governing doc point to it explicitly so readers can choose depth deliberately rather than by file sprawl
 - when a workspace has several intervention families in flight, add a `what to read next by task` or equivalent routing surface instead of expecting every reader to reconstruct relevance from chronology alone
+- when editing repo-local harness prompts, workflows, or agent contracts that use reading packets, prefer layered packet structure:
+  - `required_reading` for irreducible startup context
+  - `supporting_reading` for route-local widening
+  - `deeper_reading` for bounded later expansion
+  - keep contextual reread sovereign rather than treating packet size alone as the governing question
 
 ### Reference-Graph Hygiene
 

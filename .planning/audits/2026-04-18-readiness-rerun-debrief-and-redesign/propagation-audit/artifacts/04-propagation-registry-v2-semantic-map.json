@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "7098aad",
+  "basis_commit": "62e37d9",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -289,35 +289,41 @@
       "id": "uplift_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md",
-      "role": "operator-facing uplift workflow",
+      "role": "operator-facing uplift workflow with layered read packet control over helper output, current uplift outputs, and later doctrine-sensitive widening",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
-        "uplift_manifest_current"
+        "uplift_manifest_current",
+        "read_packet_relevance_control_impl_66",
+        "read_packet_tier_contract_tests"
       ]
     },
     {
       "id": "progress_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/progress.md",
-      "role": "read-only uplift and future-carry consumer for first-read progress summaries",
+      "role": "read-only uplift and future-carry consumer for first-read progress summaries with layered read packet control over primary, route-local, and deeper widening",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "uplift_manifest_current",
-        "state_progress_resume_future_carry_impl_62"
+        "state_progress_resume_future_carry_impl_62",
+        "read_packet_relevance_control_impl_66",
+        "read_packet_tier_contract_tests"
       ]
     },
     {
       "id": "resume_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/resume-project.md",
-      "role": "read-only uplift and future-carry consumer for first-read re-entry",
+      "role": "read-only uplift and future-carry consumer for first-read re-entry with layered packet control over startup, route-local support, and deeper reread",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "uplift_manifest_current",
-        "state_progress_resume_future_carry_impl_62"
+        "state_progress_resume_future_carry_impl_62",
+        "read_packet_relevance_control_impl_66",
+        "read_packet_tier_contract_tests"
       ]
     },
     {
@@ -405,6 +411,18 @@
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "verifier_lifecycle_carry_impl_54"
+      ]
+    },
+    {
+      "id": "mandatory_initial_read_reference",
+      "family": "reference_behavior",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/references/mandatory-initial-read.md",
+      "role": "shared read-packet doctrine defining required, supporting, and deeper reading tiers for current operator-facing entry and re-entry workflows",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "read_packet_relevance_control_impl_66",
+        "read_packet_tier_contract_tests"
       ]
     },
     {
@@ -1069,6 +1087,54 @@
       "evidence_refs": [
         "spec_lifecycle_carry_impl_64",
         "spec_future_carry_contract_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_mandatory_initial_read_reference",
+      "from": "overlay_manifest",
+      "to": "mandatory_initial_read_reference",
+      "kind": "overlay_owns_reference_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "read_packet_relevance_control_impl_66"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "mandatory_initial_read_to_progress_workflow",
+      "from": "mandatory_initial_read_reference",
+      "to": "progress_workflow",
+      "kind": "shared_reference_guides_workflow_reading_control",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "read_packet_relevance_control_impl_66",
+        "read_packet_tier_contract_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "mandatory_initial_read_to_resume_workflow",
+      "from": "mandatory_initial_read_reference",
+      "to": "resume_workflow",
+      "kind": "shared_reference_guides_workflow_reading_control",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "read_packet_relevance_control_impl_66",
+        "read_packet_tier_contract_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "mandatory_initial_read_to_uplift_workflow",
+      "from": "mandatory_initial_read_reference",
+      "to": "uplift_workflow",
+      "kind": "shared_reference_guides_workflow_reading_control",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "read_packet_relevance_control_impl_66",
+        "read_packet_tier_contract_tests"
       ],
       "status": "mapped"
     }

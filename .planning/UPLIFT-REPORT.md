@@ -1,6 +1,6 @@
 # Project Uplift Report
 
-- Generated: 2026-04-21T21:45:08+00:00
+- Generated: 2026-04-21T23:13:17+00:00
 - Mode: detect-only
 - Project class: cross-runtime uplift
 - Secondary signals: mid_phase
@@ -46,15 +46,15 @@
 
 | Carrier | Group | State | Fingerprint Shape | Fingerprint | Note |
 |---------|-------|-------|-------------------|-------------|------|
-| Root AGENTS | doctrine_sensitive | present | content_sha256 | e47674d1de43085e4b39cd3590bfa6a9cdf180b72e4560624f0551136b18fe5e | file carrier present |
-| Planning AGENTS | doctrine_sensitive | present | content_sha256 | 0e02322464e6fe04db82aa142185cef6500519519b0c9f6084f5713d1a53ba76 | file carrier present |
+| Root AGENTS | doctrine_sensitive | present | content_sha256 | d25812b6a68fc502b4a3ec0c75852eccfc622dc74e766d63a4af3ce21b2f2c4a | file carrier present |
+| Planning AGENTS | doctrine_sensitive | present | content_sha256 | 354de6a3a0ca9cb3e311e618dd7b5f0abe52afa5e6649e57617b092dc9dcf200 | file carrier present |
 | Root CLAUDE | doctrine_sensitive | present | content_sha256 | 81c48b1986f32bbd5aa980ce69e2495aec3f1cf57b006f9cfc7491608382a471 | file carrier present |
 | Planning CLAUDE | doctrine_sensitive | present | content_sha256 | 99053bccfd1722258ef9e6ec8c25514ff22228c5125e149da7ab6b298a390c27 | file carrier present |
 | Verification Workflow | doctrine_sensitive | present | content_sha256 | eeefbd8865d021b59de99a05685a146084f9be88fc8d1130aa28f2f751f4f6df | file carrier present |
 | Verification Report Template | doctrine_sensitive | present | content_sha256 | d55c07b990f6c9d24fb41bf221a05a9b7025b2c96bf8163244012eebbb4e4980 | file carrier present |
 | Claim Types | additive_install | present | content_sha256 | 73a4261f9fb17860f95349aaf7e7bcf69d34d4a2644cf8cbc1c02a850fc5c64a | file carrier present |
 | Long Arc | additive_install | present | frontmatter_hash | 2c98d73ba277ca146ac6f83b6b589080ee3507e147af6bdb48b2103e0e9c3eb5 | file carrier present |
-| Tooling Inventory | additive_install | present | inventory_item_hash | 327f8c5742aa50d1d2488ffe214880d0e9cd42f1d7b7f0ed148a300aa9dba7cc | file carrier present |
+| Tooling Inventory | additive_install | present | inventory_item_hash | 079b0bca2d69485ed744acbca763752b8f91d3c4914dfc869e8d62e7cf94a3b7 | file carrier present |
 | Runtime Config | runtime_registry | present | normalized_toml_hash | 8cce9c25e0779b2c742275757cca9d9b96c38a6fca32fec31a01659217cb0cb5 | file carrier present |
 | Runtime Agent Contract: gsd-advisor-researcher | runtime_registry | present | normalized_toml_hash | ee1d11c2e983b4038b1fb4ae8aeca311fe661f9e3d359c25a282977c144f3fe5 | file carrier present |
 | Runtime Agent Contract: gsd-ai-researcher | runtime_registry | present | normalized_toml_hash | 5f3d1da031bdc6e3a79f6e7eb3918b76308747d2bba3a76314ddf47b027178e5 | file carrier present |
@@ -89,7 +89,7 @@
 | Runtime Agent Contract: gsd-ui-researcher | runtime_registry | present | normalized_toml_hash | db1b6915b64bc18bfe2367d5bbeb1dcce4c7957f34a0397e0ab569eb38e515c5 | file carrier present |
 | Runtime Agent Contract: gsd-user-profiler | runtime_registry | present | normalized_toml_hash | d1bc91bb5c84af2fa503933410760d18443a9f11a3c8e48e993abf45ecc7a36d | file carrier present |
 | Runtime Agent Contract: gsd-verifier | runtime_registry | present | normalized_toml_hash | e0c94870d3be5bce4249e0ca0e0b8f5c015569ec8e6b688aa7b00e611ce7bb1a | file carrier present |
-| Discuss Strengthening Route | doctrine_sensitive | marker_present | marker_block_hash | 8369ba7506f8fe029f23f1bc0727a9fd5d605f9888e18c94e5f3a476cac68314 | marker present on carrier |
+| Discuss Strengthening Route | doctrine_sensitive | marker_present | marker_block_hash | 25ddded63c66bbad9e9a033dee5ef34024aab003311c9953fbbe5c4c11f6ef15 | marker present on carrier |
 | Context Strengthening Route | doctrine_sensitive | marker_present | marker_block_hash | d81d21022782aa1190400c46c1a55dac7efef39820635ed3bb7fb6b123849f4c | marker present on carrier |
 | Plan Strengthening Route | doctrine_sensitive | marker_present | marker_block_hash | 2e4de6da5fdb88db6d6428f878dc305d317286dee03e2a661d071291a3ebbeea | marker present on carrier |
 | Research Strengthening Route | doctrine_sensitive | marker_present | marker_block_hash | 5082eb8c50c42a97f182eb75cb3309df942d83ff458cc36836583e9f340c089f | marker present on carrier |
