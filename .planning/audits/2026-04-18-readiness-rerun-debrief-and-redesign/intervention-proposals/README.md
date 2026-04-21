@@ -43,6 +43,8 @@ Status: active proposal/disposition batch
 33. `33-research-and-planner-strengthening-carry-follow-through.md`
 34. `34-strengthening-opportunity-benchmark-packet.md`
 35. `35-strengthening-opportunity-reference-surface.md`
+36. `36-initialization-onboarding-and-project-uplift-strengthening-plan.md`
+37. `37-entry-surface-and-project-uplift-map.md`
 
 ## Proposal Rule
 
@@ -55,3 +57,5 @@ Status: active proposal/disposition batch
 - [d:r:i] `33` records the next adjacent contract-alignment batch: rigorous-research, planner/checker prompts, and agent-contract reference prose now all carry the strengthening-route shape rather than the older narrower planning contract.
 - [d:r:i] `34` now freezes the first bounded example packet for this family across landed intensification and later-routed strengthening pressure.
 - [d:r:i] `35` now carries the compact working reference surface for this family, explicitly grounded in `34` rather than in theory alone.
+- [d:r:i] `36` now opens the next intervention family directly: initialization, onboarding, and project uplift should be strengthened as one entry-surface sequence rather than left scattered across init, repair, update, and audit-side onboarding objects.
+- [d:r:i] `37` now maps that entry-surface family directly across creation, milestone opening, docs bootstrap/merge, re-entry, repair, update, and migration surfaces, and makes the ownerless vanilla-project uplift seam explicit enough to support both a later uplift-workflow proposal and a widening `opus[1m]` challenge.

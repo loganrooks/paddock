@@ -451,3 +451,31 @@
   - family carried forward
   - first live slice narrowed toward existing `future_awareness` / `future_preservation` consumers
   - research-mode shaping preserved as the next adjacent object rather than the first insertion
+
+## 2026-04-21 `self-overcoming-audit-lane-02`
+
+- date: `2026-04-21`
+- purpose: bounded Opus reread of `34` plus `35` to widen and sharpen the strengthening benchmark/reference pair before later live-use widening
+- frozen launch basis commit: `e8b2e34`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- launch-truth artifact: [self-overcoming-audit/launch-truth/02-strengthening-benchmark-reference-reread-launch-truth.md](self-overcoming-audit/launch-truth/02-strengthening-benchmark-reference-reread-launch-truth.md)
+- packet artifact: [self-overcoming-audit/packets/02-strengthening-benchmark-reference-packet.md](self-overcoming-audit/packets/02-strengthening-benchmark-reference-packet.md)
+- governing spec: [self-overcoming-audit/specs/02-strengthening-benchmark-reference-reread-spec.md](self-overcoming-audit/specs/02-strengthening-benchmark-reference-reread-spec.md)
+- prompt artifact:
+  - [self-overcoming-audit/prompts/02-strengthening-benchmark-reference-opus47-max-r1-launch-prompt.md](self-overcoming-audit/prompts/02-strengthening-benchmark-reference-opus47-max-r1-launch-prompt.md)
+- request-surface language check:
+  - `scan_threshold_language.py` returned `No threshold-language residue found` across the packet, spec, and prompt surfaces
+- output artifact:
+  - [self-overcoming-audit/outputs/02-strengthening-benchmark-reference-opus47-max-r1.md](self-overcoming-audit/outputs/02-strengthening-benchmark-reference-opus47-max-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `638.543`
+  - session id: `ac2d871b-e92f-4c00-bfda-4a0a5f784032`
+  - total cost usd: `3.1944002499999997`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/strengthening-benchmark-reference-opus47-max-r1-20260421-020727.pdn_kyx8.stream.jsonl`
+    - `/tmp/strengthening-benchmark-reference-opus47-max-r1-20260421-020727.o65e9_3y.stderr.log`
+    - `/tmp/strengthening-benchmark-reference-opus47-max-r1-20260421-020727.f2vwogj8.debug.log`
+- disposition:
+  - pending local inheritance note

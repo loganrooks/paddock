@@ -116,6 +116,8 @@
 102. [intervention-proposals/33-research-and-planner-strengthening-carry-follow-through.md](intervention-proposals/33-research-and-planner-strengthening-carry-follow-through.md)
 103. [intervention-proposals/34-strengthening-opportunity-benchmark-packet.md](intervention-proposals/34-strengthening-opportunity-benchmark-packet.md)
 104. [intervention-proposals/35-strengthening-opportunity-reference-surface.md](intervention-proposals/35-strengthening-opportunity-reference-surface.md)
+105. [intervention-proposals/36-initialization-onboarding-and-project-uplift-strengthening-plan.md](intervention-proposals/36-initialization-onboarding-and-project-uplift-strengthening-plan.md)
+106. [intervention-proposals/37-entry-surface-and-project-uplift-map.md](intervention-proposals/37-entry-surface-and-project-uplift-map.md)
 
 ## Source-Of-Truth Hierarchy
 
@@ -164,6 +166,8 @@
 - current research/planner follow-through note for the self-overcoming family: `intervention-proposals/33-research-and-planner-strengthening-carry-follow-through.md`
 - current benchmark packet for the self-overcoming family: `intervention-proposals/34-strengthening-opportunity-benchmark-packet.md`
 - current compact reference surface for the self-overcoming family: `intervention-proposals/35-strengthening-opportunity-reference-surface.md`
+- current plan for the next entry-surface intervention family: `intervention-proposals/36-initialization-onboarding-and-project-uplift-strengthening-plan.md`
+- current terrain map for the next entry-surface intervention family: `intervention-proposals/37-entry-surface-and-project-uplift-map.md`
 - current long-horizon cross-vendor challenge subtree and lane-01 inheritance: `long-horizon-audit/`
 - current threshold-language residue audit subtree and first-pass warning surface: `threshold-audit/`
 - current self-overcoming proposal challenge subtree and lane-01 inheritance: `self-overcoming-audit/`
