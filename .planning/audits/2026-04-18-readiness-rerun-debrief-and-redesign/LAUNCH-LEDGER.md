@@ -479,3 +479,33 @@
     - `/tmp/strengthening-benchmark-reference-opus47-max-r1-20260421-020727.f2vwogj8.debug.log`
 - disposition:
   - pending local inheritance note
+
+## 2026-04-21 `entry-uplift-audit-lane-01`
+
+- date: `2026-04-21`
+- purpose: widen the local `37` map so the entry-surface family can be inherited as a full-field project-uplift terrain map rather than a narrow onboarding shortlist
+- frozen launch basis commit: `73d4fb4`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- launch-truth artifact: [entry-uplift-audit/launch-truth/01-entry-surface-and-project-uplift-field-mapping-launch-truth.md](entry-uplift-audit/launch-truth/01-entry-surface-and-project-uplift-field-mapping-launch-truth.md)
+- packet artifact: [entry-uplift-audit/packets/01-entry-surface-and-project-uplift-field-mapping-packet.md](entry-uplift-audit/packets/01-entry-surface-and-project-uplift-field-mapping-packet.md)
+- governing spec: [entry-uplift-audit/specs/01-entry-surface-and-project-uplift-field-mapping-spec.md](entry-uplift-audit/specs/01-entry-surface-and-project-uplift-field-mapping-spec.md)
+- prompt artifact:
+  - [entry-uplift-audit/prompts/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1-launch-prompt.md](entry-uplift-audit/prompts/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1-launch-prompt.md)
+- request-surface language check:
+  - `scan_threshold_language.py` returned `No threshold-language residue found` across the README, packet, spec, and prompt surfaces
+- output artifact:
+  - [entry-uplift-audit/outputs/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1.md](entry-uplift-audit/outputs/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `525.924`
+  - session id: `a8acb26b-956e-4a63-9206-3b49439e8605`
+  - total cost usd: `3.64128525`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/entry-surface-and-project-uplift-field-mapping-opus47-max-r1-20260421-025208.7k046cof.stream.jsonl`
+    - `/tmp/entry-surface-and-project-uplift-field-mapping-opus47-max-r1-20260421-025208.qe3alf9n.stderr.log`
+    - `/tmp/entry-surface-and-project-uplift-field-mapping-opus47-max-r1-20260421-025208.sqoaootx.debug.log`
+- disposition:
+  - [entry-uplift-audit/dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md](entry-uplift-audit/dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md)
+  - carried forward: full-field widening, composition-layer ownership split, stronger report/governing carrier set
+  - sharpen before workflow design: split the current broad uplift bucket, widen the scenario map, revise `37` before drafting `38`

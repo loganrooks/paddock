@@ -82,7 +82,21 @@ Status: active plan
   - where they overlap
   - where a single uplift path should own the work instead of relying on operator memory
 
-### 2. Uplift Path Design
+### 2. Concern And Carrier Placement Pass
+
+- [d:r:i] Before workflow design, write one explicit placement map for this family.
+- [d:r:i] It should answer not only what the concerns are, but where each one should surface most strongly:
+  - entry workflow question flow
+  - required reading
+  - governing docs
+  - `PROJECT.md`, `STATE.md`, `ROADMAP.md`, `LONG-ARC.md`
+  - runtime / install / update checks
+  - uplift report / uplift state carriers
+  - seeds and later-routing surfaces
+  - audit / repair / re-entry surfaces
+- [d:r:i] The point is not mere mention. The point is strongest placement and strongest form.
+
+### 3. Uplift Path Design
 
 - [d:r:i] Design one repo-local workflow or skill for project uplift.
 - [d:r:i] Working handle:
@@ -95,7 +109,7 @@ Status: active plan
   - required-reading / long-horizon / strengthening carry install
   - explicit disposition output
 
-### 3. First Live Slice
+### 4. First Live Slice
 
 - [d:r:i] Land the thinnest high-yield slice first:
   - post-init / post-ingest / post-milestone orientation carry
@@ -103,7 +117,7 @@ Status: active plan
   - one durable project-uplift note or report surface
 - [d:r:i] Keep the first slice compact enough that it can be tested on fresh and existing projects without widening into a full harness rewrite.
 
-### 4. Widening After Live Use
+### 5. Widening After Live Use
 
 - [d:r:i] Only after the first slice produces real examples:
   - widen into milestone-opening carry
@@ -114,9 +128,10 @@ Status: active plan
 ## Candidate Artifacts
 
 1. [d:r:i] `37-entry-surface-and-project-uplift-map.md`
-2. [d:r:i] `38-project-uplift-workflow-proposal.md`
-3. [d:r:i] `39-project-uplift-first-slice-implementation.md`
-4. [d:r:i] `40-project-uplift-example-packet.md`
+2. [d:r:i] `38-entry-surface-concern-and-carrier-placement-map.md`
+3. [d:r:i] `39-project-uplift-workflow-proposal.md`
+4. [d:r:i] `40-project-uplift-first-slice-implementation.md`
+5. [d:r:i] `41-project-uplift-example-packet.md`
 
 ## Verification And Quality Discipline
 
@@ -136,4 +151,8 @@ Status: active plan
 ## Current Consequence
 
 - [d:r:i] The next intervention family after the strengthening benchmark/reference pair should include initialization, onboarding, and project uplift directly.
-- [d:r:i] The next exact object should be the bounded map artifact for this family, not immediate broad mutation of every entry surface at once.
+- [d:r:i] The next exact sequence for this family is now:
+  1. finish the current widening-lane inheritance boundary
+  2. revise `37` so it inherits the widened field cleanly
+  3. write the concern/carrier placement pass as `38`
+  4. only then draft the uplift workflow proposal

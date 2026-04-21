@@ -146,6 +146,7 @@ Date: 2026-04-21
 - current strengthening-reference status: `intervention-proposals/35-strengthening-opportunity-reference-surface.md now carries the compact working reference for this family, grounded in 34 rather than in theory alone`
 - current entry-surface-uplift-plan status: `intervention-proposals/36-initialization-onboarding-and-project-uplift-strengthening-plan.md now records the next intervention family: initialization, onboarding, and vanilla-project uplift should be strengthened as one entry-surface sequence`
 - current entry-surface-uplift-map status: `intervention-proposals/37-entry-surface-and-project-uplift-map.md now maps creation, milestone, docs-bootstrap, re-entry, repair, update, and migration surfaces together, and makes the ownerless vanilla-project uplift seam explicit enough for a later workflow proposal and an opus[1m] widening pass`
+- current entry-uplift-audit status: `entry-uplift-audit lane-01 is now completed and inherited: the widening pass preserved 37's full-field posture, added missing entry scenario families and carrier layers, and now routes the next move through a revision of 37 before 38 is drafted`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -209,7 +210,10 @@ Date: 2026-04-21
 12. use `32` and `33` as the new baseline for this family: judge any later standalone reference-surface or benchmark-packet shape against real strengthening entries, real seed routing, and the now-aligned research/planner contracts rather than against proposal language alone
 13. use `34` and `35` as the new basis for this family: any later cross-vendor reread, reference-surface revision, or wider lifecycle widening should inherit from the benchmark packet rather than reconstructing the family from chat or proposal memory
 14. use `36` to open the next intervention family cleanly: map initialization, milestone opening, docs ingest, repair, update, and vanilla-project uplift as one entry-surface sequence before designing any repo-local uplift workflow
-15. use `37` as the local scaffold for the next entry-surface widening pass: let a later `opus[1m]` lane add missing surfaces, sharpen interactions, and challenge the current ownership split before carrying `38-project-uplift-workflow-proposal.md`
+15. use the entry-uplift lane-01 inheritance to revise `37` before workflow design: widen the scenario family set, split the current broad uplift bucket, and expand the governing/report carrier set
+16. after revising `37`, write an explicit concern/carrier-placement pass so this family records where each pressure should surface most strongly rather than only that it appears somewhere
+17. only after the revised map plus carrier-placement pass exist, draft the uplift workflow proposal
+18. after those three objects exist together, challenge the bundle cross-vendor rather than challenging the workflow proposal in isolation
 
 ## Open Questions
 

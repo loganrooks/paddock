@@ -1,5 +1,5 @@
 Date: 2026-04-21
-Status: lane-01 request surfaces drafted
+Status: lane-01 completed and inherited
 
 # Entry Uplift Audit
 
@@ -32,8 +32,8 @@ For each lane, keep this tuple explicit:
 - prompt:
   - [prompts/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1-launch-prompt.md](prompts/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1-launch-prompt.md)
 - launch-truth:
-  - pending
+  - [launch-truth/01-entry-surface-and-project-uplift-field-mapping-launch-truth.md](launch-truth/01-entry-surface-and-project-uplift-field-mapping-launch-truth.md)
 - outputs:
   - [outputs/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1.md](outputs/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1.md)
 - local inheritance:
-  - pending
+  - [dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md](dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md)
