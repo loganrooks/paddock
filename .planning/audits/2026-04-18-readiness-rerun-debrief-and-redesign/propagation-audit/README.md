@@ -25,6 +25,15 @@ Status: active opening batch
 4. [04-resume-project-second-consumer-implementation.md](04-resume-project-second-consumer-implementation.md)
 5. bounded external challenge lane only after the local map, impact surface, and first concrete follow-through are explicit
 
+## Active Challenge Packet
+
+- packet:
+  - [packets/01-propagation-chain-reread-packet.md](packets/01-propagation-chain-reread-packet.md)
+- spec:
+  - [specs/01-propagation-chain-reread-spec.md](specs/01-propagation-chain-reread-spec.md)
+- prompt:
+  - [prompts/01-propagation-chain-reread-opus47-max-r1-launch-prompt.md](prompts/01-propagation-chain-reread-opus47-max-r1-launch-prompt.md)
+
 ## Quality Gates
 
 - [d:r:i] Before any external lane opens in this subtree:
@@ -52,4 +61,5 @@ Status: active opening batch
 - [d:r:i] This family is now open as a governed subtree rather than only as a seed note.
 - [d:r:i] The first concrete local map now exists.
 - [d:r:i] The first concrete follow-through now exists too: `resume-project` is a second live uplift consumer through tracked overlay ownership and installer-backed materialization.
-- [d:r:i] The next question is no longer whether to accept the second-consumer slice. The next question is what wider scrutiny or adjacent consumer route should inherit this stronger two-consumer baseline.
+- [d:r:i] The first bounded external reread lane is now packetized against that stronger two-consumer baseline.
+- [d:r:i] The next question is no longer whether to accept the second-consumer slice. The next question is what the bounded reread exposes about wider scrutiny, carrier placement, and the next adjacent strengthening route.

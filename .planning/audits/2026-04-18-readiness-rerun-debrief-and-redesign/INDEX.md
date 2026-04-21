@@ -68,6 +68,9 @@
   - [propagation-audit/02-project-uplift-producer-consumer-and-impact-map.md](propagation-audit/02-project-uplift-producer-consumer-and-impact-map.md)
   - [propagation-audit/03-resume-project-second-consumer-follow-through-proposal.md](propagation-audit/03-resume-project-second-consumer-follow-through-proposal.md)
   - [propagation-audit/04-resume-project-second-consumer-implementation.md](propagation-audit/04-resume-project-second-consumer-implementation.md)
+  - [propagation-audit/packets/01-propagation-chain-reread-packet.md](propagation-audit/packets/01-propagation-chain-reread-packet.md)
+  - [propagation-audit/specs/01-propagation-chain-reread-spec.md](propagation-audit/specs/01-propagation-chain-reread-spec.md)
+  - [propagation-audit/prompts/01-propagation-chain-reread-opus47-max-r1-launch-prompt.md](propagation-audit/prompts/01-propagation-chain-reread-opus47-max-r1-launch-prompt.md)
 - long-horizon / anti-threshold family:
   - [intervention-proposals/29-long-horizon-carry-gap-register.md](intervention-proposals/29-long-horizon-carry-gap-register.md)
   - [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md)

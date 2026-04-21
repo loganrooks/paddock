@@ -45,8 +45,8 @@ Status: active governing synthesis
   - then decide whether additive-install routes or later cross-runtime follow-through should inherit the cleaner slice
 - [d:r:i] The broader propagation question is now also explicit:
   - the bounded `resume-project` second-consumer slice is now landed
-  - the next question is which wider scrutiny should test whether contract changes now ripple strongly enough across workflows, skills, scripts, outputs, registries, wrappers, and governing-doc carriers
-  - and whether the next adjacent local move should be a third consumer, a wider impact map, or a bounded external challenge
+  - the first bounded propagation reread lane is now packetized against that two-consumer baseline
+  - the next question is which wider scrutiny and adjacent strengthening route should follow from that reread across workflows, skills, scripts, outputs, registries, wrappers, and governing-doc carriers
 - [d:r:i] The broader rerun workspace still also needs the floor-closing honesty/routing batch carried into its actual governing surfaces rather than left only as proposal artifacts.
 - [d:r:i] If the workspace feels hard to reread, treat that as a governance-surface issue first, not as a reason to reopen settled intervention families.
 
