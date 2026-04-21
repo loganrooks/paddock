@@ -19,6 +19,7 @@ This is the planning-local Claude wrapper. It does not replace [.planning/AGENTS
 - If a proposal family is sound but its first slice is overpacked, prefer narrowing, splitting, or consumer-first routing over binary accept/reject.
 - If a concern is mainly risk and the risk can be reduced through sequencing, tooling, checkpointing, or verification, prefer a mitigation path over a flat veto.
 - Before narrowing to a top few, ask whether the task first needs the full field mapped.
+- When a lane changes a planning-local contract surface, treat producer, consumer, runtime-carrier, and durable-output propagation as part of the task. Update or explicitly hold those neighbors rather than stopping at the local patch.
 
 ## What Stays Outside This Wrapper
 

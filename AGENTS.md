@@ -46,6 +46,18 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
 - For headless external CLI runs that instruct a model to read a spec or wrapper file, prefer a repo-local path over `/tmp` and be explicit about the permissions needed to read it.
 - For `.planning/` artifact-family moves or topology cleanup, use `python3 tooling/codex/audit_refmap.py` rather than hand-editing reference rewrites; detailed rules live in `.planning/AGENTS.md`.
 
+## Contract Propagation
+
+- When a change alters a contract-carrying surface such as a workflow, skill, script, manifest, durable output, wrapper, or governing doc, do not stop at the local file diff.
+- Identify the direct producers, direct consumers, narrative mirrors, runtime/registry carriers, and durable outputs that should stay in tune with the change.
+- Update adjacent live carriers in the same slice when the propagation path is already clear. If some neighbors are intentionally held, record that boundary explicitly in a proposal, disposition, or audit artifact instead of leaving it ambient.
+- Use the repo-local propagation tools where they fit:
+  - `python3 tooling/codex/audit_refmap.py`
+  - `python3 tooling/codex/runtime_visibility.py`
+  - `python3 tooling/codex/manifest_install_coherence.py`
+  - `python3 tooling/codex/project_uplift.py`
+- Do not mistake those partial tools for proof that the whole network stayed aligned. When the change crosses several producer/consumer families, open or update an explicit propagation audit surface.
+
 ## Quality Bar
 
 - Do not optimize for `good enough`, `passes review`, or the smallest plausible response when the repo has already earned stronger doctrine, cleaner architecture, or better future guidance.

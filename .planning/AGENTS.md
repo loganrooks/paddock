@@ -134,6 +134,24 @@ Deletion / retirement rules:
   - then run `verify`
 - when an older artifact remains historically relevant, prefer replacement pointers, supersession notes, or tombstones over hard removal
 
+### Contract-Propagation Hygiene
+
+- Treat workflow, skill, script, manifest, output, wrapper, and governing-doc changes as network changes when they alter a contract surface.
+- For each contract-changing slice, identify:
+  - direct producers
+  - direct consumers
+  - narrative mirrors
+  - runtime / registry carriers
+  - durable outputs and state surfaces
+- If the propagation path is already clear, update those neighbors in the same slice rather than leaving the carry implicit.
+- If some neighbors are intentionally held for later, record that boundary explicitly in a local proposal, disposition, or audit note instead of relying on chat memory.
+- Use the repo-local propagation tools as partial visibility, not as whole-network proof:
+  - `audit_refmap.py`
+  - `runtime_visibility.py`
+  - `manifest_install_coherence.py`
+  - `project_uplift.py`
+- When a change spans several producer/consumer families and the required carry is no longer obvious from the local diff, open or extend an explicit propagation audit surface.
+
 ## Launch-Truth Discipline
 
 For spawned planning, audit, review, or doctrine-sensitive work inside `.planning/`:

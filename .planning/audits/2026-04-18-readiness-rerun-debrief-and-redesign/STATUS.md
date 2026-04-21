@@ -152,8 +152,9 @@ Date: 2026-04-21
 - current project-uplift-workflow status: `intervention-proposals/39-project-uplift-workflow-proposal.md now defines the bounded composition-layer workflow in its revised first-slice form: detect-only default, fingerprint/delta detection, explicit per-carrier install flags, thin doctrine manifest, one read-only progress hook, outputs, and review gates`
 - current project-uplift first-slice status: `intervention-proposals/40-project-uplift-first-slice-implementation.md now records the landed detect-only-first slice: helper, uplift-project workflow/skill, read-only progress note, first durable uplift outputs, synthetic vanilla/lightly-aged coverage, repo-local read-only safety verification, and the post-write recommendation fix`
 - current entry-uplift bundle-review status: `entry-uplift-audit lane-03 is now completed and locally inherited: the bounded reread moved the bundle into narrow harmonization, the eight harmonization edits are landed, and first-slice implementation now exists as the active baseline rather than the next hypothetical move`
-- current entry-uplift landed-slice reread status: `entry-uplift-audit lane-04 is now completed and locally inherited: the landed first slice carries real live value, the next adjacent route is a bounded signal-layer harden slice, and broader additive-install or cross-runtime widening stays later than that hardening pass`
-- current contract-propagation status: `the workspace now explicitly records that partial propagation machinery exists but one network-carry audit family is still missing; after the uplift signal-layer harden slice, open an audit that asks whether contract changes propagated across producer, consumer, registry, script, workflow, skill, output, and governing-doc surfaces strongly enough`
+- current entry-uplift landed-slice reread status: `entry-uplift-audit lane-04 is now completed and locally inherited: the landed first slice carries real live value, and the bounded signal-layer harden slice it called for is now landed as the active uplift baseline`
+- current project-uplift signal-layer status: `intervention-proposals/42-project-uplift-signal-layer-harden-slice.md now records the stronger baseline: multi-axis posture, phase-boundary signal, per-carrier fingerprint shapes, runtime-agent globbing, typed doctrine-sensitive proposal states, file-backed held-later carry, widened tests, and corrected progress/post-write semantics`
+- current contract-propagation status: `the workspace now has an active propagation-audit family rather than only a seed concern: propagation-audit/README.md and propagation-audit/01-contract-propagation-and-dependency-carry-opening-note.md now open the family on the hardened uplift basis, with local producer/consumer and impact mapping as the next concrete object`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -222,8 +223,9 @@ Date: 2026-04-21
 17. use `39` as the current bounded workflow object for this family rather than reopening generic onboarding brainstorming
 18. use the harmonized `37`, `38`, `39`, plus landed `40` slice as the active local basis for any later project-uplift widening, challenge, or verification work
 19. treat the first slice as landed but not final: preserve its current synthetic verification, repo-local negative check, and live output proof, then decide the next adjacent move explicitly instead of assuming additive install or cross-runtime widening by default
-20. use `entry-uplift-audit` lane-04 as the current local inheritance point for this family: harden the signal layer before wider uplift routes inherit the slice
-21. after the uplift signal-layer harden slice, open the explicit contract-propagation / dependency-carry audit family rather than assuming existing refmap/runtime/install tools already cover the whole network
+20. use `entry-uplift-audit` lane-04 plus `intervention-proposals/42-project-uplift-signal-layer-harden-slice.md` as the current uplift inheritance point rather than reopening weaker pre-harden baselines
+21. use the now-open `propagation-audit/` family to map producer / consumer and impact relations explicitly rather than assuming existing refmap/runtime/install tools already cover the whole network
+22. keep the propagation family local-first: write the producer / consumer and impact map before opening another external challenge lane
 
 ## Open Questions
 

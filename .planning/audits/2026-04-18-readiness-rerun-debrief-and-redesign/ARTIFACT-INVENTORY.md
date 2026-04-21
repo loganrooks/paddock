@@ -75,11 +75,18 @@ Status: active inventory
 - `intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md`
 - `intervention-proposals/39-project-uplift-workflow-proposal.md`
 - `intervention-proposals/40-project-uplift-first-slice-implementation.md`
+- `intervention-proposals/42-project-uplift-signal-layer-harden-slice.md`
 - repo-local uplift outputs:
   - `.planning/UPLIFT-REPORT.md`
   - `.planning/UPLIFT-MANIFEST.json`
   - `Project Uplift` section in `.planning/STATE.md`
 - challenge subtree: `entry-uplift-audit/`
+
+### Contract Propagation / Dependency-Carry Family
+
+- `intervention-proposals/41-contract-propagation-and-dependency-carry-audit-seed.md`
+- `propagation-audit/README.md`
+- `propagation-audit/01-contract-propagation-and-dependency-carry-opening-note.md`
 
 ## Challenge And Output Subtrees
 
@@ -89,6 +96,7 @@ Status: active inventory
 - `threshold-audit/`
 - `self-overcoming-audit/`
 - `entry-uplift-audit/`
+- `propagation-audit/`
 - `wave-1/`
 - `wave-2/`
 - `corpus/`

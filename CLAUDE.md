@@ -27,6 +27,7 @@ For vendor-neutral repo doctrine, treat [AGENTS.md](/home/rookslog/workspace/pro
 - If a proposal direction is strong but the current packaging is weak, prefer narrowing, splitting, or staged carry over binary accept/reject.
 - If a concern is mainly risk and the risk can be reduced through sequencing, tooling, checkpointing, or verification, prefer a mitigation path over a flat veto.
 - Before narrowing to the top few options, ask whether the stronger first move is full-field mapping.
+- When a lane changes a contract-carrying surface, treat propagation across adjacent producers, consumers, runtime carriers, and durable outputs as part of the work. Update or explicitly hold those neighbors rather than stopping at the local patch.
 
 ## What Not To Mirror
 

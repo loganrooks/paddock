@@ -80,8 +80,10 @@ Recent decisions affecting current work:
 
 ## Project Uplift
 
-Last uplift pass: 2026-04-21T08:40:17+00:00
+Last uplift pass: 2026-04-21T09:37:08+00:00
 Last uplift class: cross-runtime uplift
+Last uplift secondary signals: mid_phase
+Phase boundary signal: phase CONTEXT carries explicit rerun-boundary posture
 Doctrine reference changed since prior uplift: no
 Pending doctrine-sensitive proposals: 0
 Current recommendation: Continue with ordinary routing; uplift memory is already carrying this posture.

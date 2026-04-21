@@ -128,6 +128,17 @@ Read:
 - [d:r:i] If a new update seems to belong in all of them, that is a warning sign that the change has not been decomposed cleanly enough yet.
 - [d:r:i] If one governance doc starts carrying multiple jobs at once, split the file instead of continuing to accrete prose.
 
+## Contract-Change Recording
+
+- [d:r:i] When a change alters a contract family rather than a single isolated file, record not only what changed but where the change should propagate.
+- [d:r:i] The minimum governed record for a contract-changing slice should usually include:
+  - the active family baseline
+  - the adjacent producer / consumer or carrier surfaces that were updated
+  - the neighbors that were intentionally held for later
+  - the next audit or verification surface if the propagation burden is wider than one local slice
+- [d:r:i] Do not leave propagation obligations ambient in chat or commit messages alone.
+- [d:r:i] If a contract change starts to require several families to stay in tune at once, prefer a dedicated family note or audit subtree over expanding `CURRENT-STATE.md` into a spread tracker.
+
 ## Relevance Filters
 
 - [d:r:i] A reader should not need the whole workspace to work on one family.
