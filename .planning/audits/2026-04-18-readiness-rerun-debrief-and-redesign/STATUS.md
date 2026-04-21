@@ -152,6 +152,8 @@ Date: 2026-04-21
 - current project-uplift-workflow status: `intervention-proposals/39-project-uplift-workflow-proposal.md now defines the bounded composition-layer workflow in its revised first-slice form: detect-only default, fingerprint/delta detection, explicit per-carrier install flags, thin doctrine manifest, one read-only progress hook, outputs, and review gates`
 - current project-uplift first-slice status: `intervention-proposals/40-project-uplift-first-slice-implementation.md now records the landed detect-only-first slice: helper, uplift-project workflow/skill, read-only progress note, first durable uplift outputs, synthetic vanilla/lightly-aged coverage, repo-local read-only safety verification, and the post-write recommendation fix`
 - current entry-uplift bundle-review status: `entry-uplift-audit lane-03 is now completed and locally inherited: the bounded reread moved the bundle into narrow harmonization, the eight harmonization edits are landed, and first-slice implementation now exists as the active baseline rather than the next hypothetical move`
+- current entry-uplift landed-slice reread status: `entry-uplift-audit lane-04 is now completed and locally inherited: the landed first slice carries real live value, the next adjacent route is a bounded signal-layer harden slice, and broader additive-install or cross-runtime widening stays later than that hardening pass`
+- current contract-propagation status: `the workspace now explicitly records that partial propagation machinery exists but one network-carry audit family is still missing; after the uplift signal-layer harden slice, open an audit that asks whether contract changes propagated across producer, consumer, registry, script, workflow, skill, output, and governing-doc surfaces strongly enough`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -220,6 +222,8 @@ Date: 2026-04-21
 17. use `39` as the current bounded workflow object for this family rather than reopening generic onboarding brainstorming
 18. use the harmonized `37`, `38`, `39`, plus landed `40` slice as the active local basis for any later project-uplift widening, challenge, or verification work
 19. treat the first slice as landed but not final: preserve its current synthetic verification, repo-local negative check, and live output proof, then decide the next adjacent move explicitly instead of assuming additive install or cross-runtime widening by default
+20. use `entry-uplift-audit` lane-04 as the current local inheritance point for this family: harden the signal layer before wider uplift routes inherit the slice
+21. after the uplift signal-layer harden slice, open the explicit contract-propagation / dependency-carry audit family rather than assuming existing refmap/runtime/install tools already cover the whole network
 
 ## Open Questions
 
@@ -227,6 +231,7 @@ Date: 2026-04-21
 - do any first Wave-1 lane specs need narrower packet trims than the default manifests in order to stay within band without losing contrary pressure?
 - does the audit directory later need a bounded organization / topology cleanup beyond the current authority note, read-order scaffolding, and manifest discipline once Wave-1 artifacts accumulate?
 - should the repo later carry an explicit GSD compatibility surface or manifest that says which upstream/runtime versions this harness posture is meant to work with, and if so should that truth live as a dedicated compatibility file, a tooling-generated manifest, or a smaller section inside the runtime/install authority chain?
+- after the uplift signal-layer harden slice lands, what should the explicit contract-propagation / dependency-carry audit inspect first: workflow->artifact contracts, skill/workflow consumer routing, runtime-registry carry, output/report/state consumers, or the cross-runtime wrapper/governing-doc chain?
 - is a bounded reviewer-register vocabulary curation note worth doing later, or does stronger spec-writing and packet discipline make that unnecessary?
 - what is the best durable shape for a repo-local harness intervention onboarding doc that can carry both current runtime truth and longer-horizon modification planning?
 - how should the newly named long-horizon lifecycle gaps, horizon tensions, and positive strengthening opportunities be mapped as one field, and which parts of that field are still too weakly articulated or too diffusely framed?

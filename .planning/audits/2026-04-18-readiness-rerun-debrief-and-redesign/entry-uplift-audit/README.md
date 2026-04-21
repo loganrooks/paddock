@@ -1,5 +1,5 @@
 Date: 2026-04-21
-Status: lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread
+Status: lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread
 
 # Entry Uplift Audit
 
@@ -69,3 +69,18 @@ For each lane, keep this tuple explicit:
   - [outputs/03-revised-entry-surface-project-uplift-bundle-reread-opus47-max-r1.md](outputs/03-revised-entry-surface-project-uplift-bundle-reread-opus47-max-r1.md)
 - local inheritance:
   - [dispositions/03-revised-entry-surface-project-uplift-bundle-reread-inheritance.md](dispositions/03-revised-entry-surface-project-uplift-bundle-reread-inheritance.md)
+
+## Lane 04
+
+- packet:
+  - [packets/04-landed-project-uplift-first-slice-reread-packet.md](packets/04-landed-project-uplift-first-slice-reread-packet.md)
+- spec:
+  - [specs/04-landed-project-uplift-first-slice-reread-spec.md](specs/04-landed-project-uplift-first-slice-reread-spec.md)
+- prompt:
+  - [prompts/04-landed-project-uplift-first-slice-reread-opus47-max-r1-launch-prompt.md](prompts/04-landed-project-uplift-first-slice-reread-opus47-max-r1-launch-prompt.md)
+- launch-truth:
+  - [launch-truth/04-landed-project-uplift-first-slice-reread-launch-truth.md](launch-truth/04-landed-project-uplift-first-slice-reread-launch-truth.md)
+- outputs:
+  - [outputs/04-landed-project-uplift-first-slice-reread-opus47-max-r1.md](outputs/04-landed-project-uplift-first-slice-reread-opus47-max-r1.md)
+- local inheritance:
+  - [dispositions/04-landed-project-uplift-first-slice-reread-inheritance.md](dispositions/04-landed-project-uplift-first-slice-reread-inheritance.md)

@@ -26,26 +26,29 @@ Status: active governing synthesis
 - [d:r:i] For docs/harness intervention carry, use [HARNESS-INTERVENTION-ONBOARDING.md](HARNESS-INTERVENTION-ONBOARDING.md), [RUNTIME-MATERIALIZATION-AND-AUTHORITY.md](RUNTIME-MATERIALIZATION-AND-AUTHORITY.md), [GOAL-TO-SURFACE-INTERVENTION-INDEX.md](GOAL-TO-SURFACE-INTERVENTION-INDEX.md), and [SURFACE-STATUS-AND-DELTA.md](SURFACE-STATUS-AND-DELTA.md).
 - [d:r:i] For long-horizon and anti-threshold carry, use [intervention-proposals/29-long-horizon-carry-gap-register.md](intervention-proposals/29-long-horizon-carry-gap-register.md), [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md), and the `threshold-audit/` dispositions.
 - [d:r:i] For the self-overcoming family, the active baseline is now [intervention-proposals/32-strengthening-opportunity-first-slice-implementation.md](intervention-proposals/32-strengthening-opportunity-first-slice-implementation.md) through [intervention-proposals/35-strengthening-opportunity-reference-surface.md](intervention-proposals/35-strengthening-opportunity-reference-surface.md).
-- [d:r:i] For the project-uplift family, the active local basis is now [intervention-proposals/37-entry-surface-and-project-uplift-map.md](intervention-proposals/37-entry-surface-and-project-uplift-map.md) through [intervention-proposals/40-project-uplift-first-slice-implementation.md](intervention-proposals/40-project-uplift-first-slice-implementation.md), plus the `entry-uplift-audit/` inheritance notes.
+- [d:r:i] For the project-uplift family, the active local basis is now [intervention-proposals/37-entry-surface-and-project-uplift-map.md](intervention-proposals/37-entry-surface-and-project-uplift-map.md) through [intervention-proposals/40-project-uplift-first-slice-implementation.md](intervention-proposals/40-project-uplift-first-slice-implementation.md), plus the `entry-uplift-audit/` inheritance notes through lane-04 and the propagation-audit seed at [intervention-proposals/41-contract-propagation-and-dependency-carry-audit-seed.md](intervention-proposals/41-contract-propagation-and-dependency-carry-audit-seed.md).
 
 ## Current Consequences
 
 - [d:r:i] The rerun-program baseline is the Wave-2 lane-06 inheritance plus the explicitly written rerun-floor and honesty-rule set in `25` through `28`.
 - [d:r:i] The project-uplift family is no longer only a map/proposal family. Its first live slice now exists in runtime, overlay, repo-local uplift memory, and `progress` carry.
+- [d:r:i] The landed-slice reread is now completed and inherited. The active adjacent route is a signal-layer harden slice before additive-install widening or broader cross-runtime follow-through.
 - [d:r:i] The compatibility-surface question is recorded for later rather than being treated as a blocker for the current uplift slice.
 
 ## Immediate Decision Surfaces
 
-- [d:r:i] The nearest adjacent choice for the uplift family is now explicit:
-  - challenge the landed first slice
-  - widen into additive install routes
-  - or reopen the later cross-runtime uplift family
+- [d:r:i] The nearest adjacent move for the uplift family is now explicit:
+  - harden the uplift signal layer first
+  - then decide whether additive-install routes or later cross-runtime follow-through should inherit the cleaner slice
+- [d:r:i] The broader propagation question is now also explicit:
+  - after the signal-layer pass, what contract-propagation / dependency-carry audit should test whether contract changes ripple strongly enough across workflows, skills, scripts, outputs, registries, and governing-doc carriers?
 - [d:r:i] The broader rerun workspace still also needs the floor-closing honesty/routing batch carried into its actual governing surfaces rather than left only as proposal artifacts.
 - [d:r:i] If the workspace feels hard to reread, treat that as a governance-surface issue first, not as a reason to reopen settled intervention families.
 
 ## Live Open Questions
 
 - [o:r:i] Which adjacent move should follow the landed project-uplift first slice?
+- [o:r:i] After the uplift signal-layer harden slice, what is the strongest explicit contract-propagation / dependency-carry audit family for checking whether upstream and downstream surfaces stayed in tune with the modified contracts?
 - [o:r:i] How should the recomputed rerun-floor rule family be landed into the actual carrying surfaces?
 - [o:r:i] What later compatibility surface, if any, should explicitly state intended GSD/runtime compatibility?
 - [o:r:i] Which parts of the submitted docs PR should remain stable governance/reference docs, and which should be paired with stronger intervention-oriented companions?

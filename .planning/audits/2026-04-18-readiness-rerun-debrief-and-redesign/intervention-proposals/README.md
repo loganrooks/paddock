@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-21
 Status: active proposal/disposition batch
 
 # Intervention Proposals
@@ -48,6 +48,7 @@ Status: active proposal/disposition batch
 38. `38-entry-surface-concern-and-carrier-placement-map.md`
 39. `39-project-uplift-workflow-proposal.md`
 40. `40-project-uplift-first-slice-implementation.md`
+41. `41-contract-propagation-and-dependency-carry-audit-seed.md`
 
 ## Proposal Rule
 
@@ -65,4 +66,5 @@ Status: active proposal/disposition batch
 - [d:r:i] `38` now records stronger carrier placement for that family: it maps each concern to its primary surfaces, supporting carriers, and non-owners, with stronger treatment for phase-boundary posture, runtime-side registry truth, tooling inventory, and doctrine-carrying audit subtrees.
 - [d:r:i] `39` now defines the bounded composition-layer workflow in harmonized first-slice form: detect-only default, explicit mid-phase classification, named fingerprint shapes, explicit per-carrier install flags, thin doctrine manifest, one read-only `progress` hook, outputs, and review gates.
 - [d:r:i] `40` now records the landed first slice itself: helper, workflow, skill, `progress` note, first durable uplift outputs, synthetic verification, and repo-local read-only safety check.
-- [d:r:i] Current next move for that family after `40`: decide whether the stronger adjacent step is a challenged reread of the landed slice, additive install-route implementation, or later cross-runtime uplift follow-through.
+- [d:r:i] `41` now records the broader network-carry concern that follows this family: one explicit audit should later ask whether contract changes propagated strongly enough across producer, consumer, registry, script, workflow, skill, output, and governing-doc surfaces.
+- [d:r:i] Current next move for that family after `40`: use the lane-04 reread inheritance to harden the uplift signal layer first, then let wider uplift routes and the later contract-propagation audit inherit the cleaner slice.

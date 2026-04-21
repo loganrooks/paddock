@@ -61,6 +61,8 @@
   - [intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md](intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md)
   - [intervention-proposals/39-project-uplift-workflow-proposal.md](intervention-proposals/39-project-uplift-workflow-proposal.md)
   - [intervention-proposals/40-project-uplift-first-slice-implementation.md](intervention-proposals/40-project-uplift-first-slice-implementation.md)
+  - [entry-uplift-audit/dispositions/04-landed-project-uplift-first-slice-reread-inheritance.md](entry-uplift-audit/dispositions/04-landed-project-uplift-first-slice-reread-inheritance.md)
+  - [intervention-proposals/41-contract-propagation-and-dependency-carry-audit-seed.md](intervention-proposals/41-contract-propagation-and-dependency-carry-audit-seed.md)
 - long-horizon / anti-threshold family:
   - [intervention-proposals/29-long-horizon-carry-gap-register.md](intervention-proposals/29-long-horizon-carry-gap-register.md)
   - [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md)

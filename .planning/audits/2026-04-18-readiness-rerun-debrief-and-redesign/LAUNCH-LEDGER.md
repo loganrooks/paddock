@@ -258,6 +258,34 @@
 - parallel local reviewer:
   - launch mode: `spawn_agent`
   - effective settings verified against `~/.codex/state_5.sqlite`: `worker / gpt-5.4 / xhigh`
+
+## 2026-04-21 `entry-uplift-audit-lane-04`
+
+- date: `2026-04-21`
+- purpose: bounded reread of the landed project-uplift first slice after live implementation
+- frozen launch basis commit: `553f791`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- launch-truth artifact: [entry-uplift-audit/launch-truth/04-landed-project-uplift-first-slice-reread-launch-truth.md](entry-uplift-audit/launch-truth/04-landed-project-uplift-first-slice-reread-launch-truth.md)
+- prompt artifact: [entry-uplift-audit/prompts/04-landed-project-uplift-first-slice-reread-opus47-max-r1-launch-prompt.md](entry-uplift-audit/prompts/04-landed-project-uplift-first-slice-reread-opus47-max-r1-launch-prompt.md)
+- governing spec: [entry-uplift-audit/specs/04-landed-project-uplift-first-slice-reread-spec.md](entry-uplift-audit/specs/04-landed-project-uplift-first-slice-reread-spec.md)
+- governing packet: [entry-uplift-audit/packets/04-landed-project-uplift-first-slice-reread-packet.md](entry-uplift-audit/packets/04-landed-project-uplift-first-slice-reread-packet.md)
+- output artifact: [entry-uplift-audit/outputs/04-landed-project-uplift-first-slice-reread-opus47-max-r1.md](entry-uplift-audit/outputs/04-landed-project-uplift-first-slice-reread-opus47-max-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `544.738`
+  - session id: `f0392b36-1774-4d6b-b94e-6c35c38de078`
+  - total cost usd: `2.9737287500000003`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/landed-project-uplift-first-slice-reread-opus47-max-r1-20260421-051203.qic3ey0s.stream.jsonl`
+    - `/tmp/landed-project-uplift-first-slice-reread-opus47-max-r1-20260421-051203.t98mzq56.stderr.log`
+    - `/tmp/landed-project-uplift-first-slice-reread-opus47-max-r1-20260421-051203.t074_9sv.debug.log`
+- disposition:
+  - [entry-uplift-audit/dispositions/04-landed-project-uplift-first-slice-reread-inheritance.md](entry-uplift-audit/dispositions/04-landed-project-uplift-first-slice-reread-inheritance.md)
+  - `local inheritance accept`
+  - carry the landed slice forward
+  - revise the signal layer before wider routes inherit it
+  - hold additive-install widening and later cross-runtime follow-through until after that harden slice
   - agent nickname: `Descartes`
   - output artifact: [tranche-audit/outputs/01-runtime-visibility-tranche-gpt54-xhigh-r1.md](tranche-audit/outputs/01-runtime-visibility-tranche-gpt54-xhigh-r1.md)
 - disposition:
