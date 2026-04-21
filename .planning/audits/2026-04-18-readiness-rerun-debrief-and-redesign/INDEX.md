@@ -85,6 +85,8 @@
   - [AUDIT-SUBTREE-STATUS-REGISTER.md](AUDIT-SUBTREE-STATUS-REGISTER.md)
   - [intervention-proposals/51-audit-program-infrastructure-first-slice-implementation.md](intervention-proposals/51-audit-program-infrastructure-first-slice-implementation.md)
   - [intervention-proposals/52-audit-subtree-status-first-application.md](intervention-proposals/52-audit-subtree-status-first-application.md)
+  - [intervention-proposals/53-verifier-lifecycle-carry-first-slice-proposal.md](intervention-proposals/53-verifier-lifecycle-carry-first-slice-proposal.md)
+  - [intervention-proposals/54-verifier-lifecycle-carry-first-slice-implementation.md](intervention-proposals/54-verifier-lifecycle-carry-first-slice-implementation.md)
 - project-uplift family:
   - [intervention-proposals/37-entry-surface-and-project-uplift-map.md](intervention-proposals/37-entry-surface-and-project-uplift-map.md)
   - [intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md](intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md)
@@ -125,6 +127,7 @@
   - [propagation-audit/16-compatibility-anchor-change-triggered-refresh.md](propagation-audit/16-compatibility-anchor-change-triggered-refresh.md)
   - [propagation-audit/17-compatibility-consumer-follow-through-refresh.md](propagation-audit/17-compatibility-consumer-follow-through-refresh.md)
   - [propagation-audit/18-threshold-scanner-change-triggered-refresh.md](propagation-audit/18-threshold-scanner-change-triggered-refresh.md)
+  - [propagation-audit/19-verifier-lifecycle-carry-change-triggered-refresh.md](propagation-audit/19-verifier-lifecycle-carry-change-triggered-refresh.md)
   - [propagation-audit/artifacts/01-propagation-field-registry-v1.json](propagation-audit/artifacts/01-propagation-field-registry-v1.json)
   - [propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json](propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json)
   - [propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json](propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json)

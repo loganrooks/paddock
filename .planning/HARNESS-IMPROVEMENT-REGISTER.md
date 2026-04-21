@@ -22,7 +22,11 @@ Status: active durable register
   - current state: this register is the first landed slice
   - current pressure: keep the field visible without letting it dissolve into scattered proposal notes
 - [d:r:i] Lifecycle carry beyond discuss/plan
-  - current pressure: verify, transition, milestone boundaries, SPEC, STATE/progress, and seed consumers
+  - current state: first verifier-chain slice landed through `53` and `54`
+  - current pressure: transition, milestone boundaries, SPEC, STATE/progress, and seed consumers
+- [d:r:i] Portable setup robustness and reinstall truth
+  - current state: repeated local restore work now depends on `portable_gsd_contract.py` recovery when the direct setup script exits non-zero
+  - current pressure: reduce fragility around repo-local reinstall/materialization without hiding the current upstream `gsd-sdk` PATH failure
 - [d:r:i] Uplift / propagation consumer completion
   - current pressure: remaining ownerless uplift routes, pristine-diff, compact-prompt propagation, later freshness signals
 - [d:r:i] Durable-memory / vintage / decay semantics
@@ -34,9 +38,10 @@ Status: active durable register
 
 ## Current Bounded Next Slices
 
-- [d:r:i] Audit-program infrastructure family (`47`)
+- [d:r:i] Lifecycle carry follow-through beyond the verifier bridge
+- [d:r:i] Portable setup robustness and reinstall-truth note after the surfaced script fragility
 - [d:r:i] Standing self-improvement register growth beyond this first slice
-- [d:r:i] Lifecycle carry family after the first infrastructure/register tranche
+- [d:r:i] Explicit canon-absorption use on later landed intervention families
 
 ## Ownerless Concerns
 
@@ -47,6 +52,7 @@ Status: active durable register
 - [o:r:i] secret / privacy carrier
 - [o:r:i] cross-vendor reviewer-pattern inheritance
 - [o:r:i] later cross-repo posture export
+- [o:r:i] repo-local setup script robustness when upstream installer self-checks fail
 
 ## Cross-Dimensional Quality Basket
 

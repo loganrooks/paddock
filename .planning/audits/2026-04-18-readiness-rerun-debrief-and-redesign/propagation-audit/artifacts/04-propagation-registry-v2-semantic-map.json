@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "a33f70c",
+  "basis_commit": "fc0f6cd",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -264,6 +264,16 @@
       ]
     },
     {
+      "id": "verifier_agent_overlay",
+      "family": "registry",
+      "path": "tooling/portable-gsd/overlay/agents/gsd-verifier.toml",
+      "role": "verifier runtime contract including future-preservation review semantics",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "verifier_lifecycle_carry_impl_54"
+      ]
+    },
+    {
       "id": "uplift_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md",
@@ -297,6 +307,17 @@
       ]
     },
     {
+      "id": "verify_phase_workflow",
+      "family": "workflow_output",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/verify-phase.md",
+      "role": "operator-facing verifier workflow carrying future-preservation review",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "verifier_lifecycle_carry_impl_54"
+      ]
+    },
+    {
       "id": "uplift_report_output",
       "family": "workflow_output",
       "path": ".planning/UPLIFT-REPORT.md",
@@ -327,6 +348,27 @@
       "evidence_refs": [
         "overlay_contract_validation",
         "uplift_manifest_current"
+      ]
+    },
+    {
+      "id": "verification_report_template",
+      "family": "template_shape",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/templates/verification-report.md",
+      "role": "verification output shape carrying future-preservation review structure",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "verifier_lifecycle_carry_impl_54"
+      ]
+    },
+    {
+      "id": "verifier_agent_contracts_reference",
+      "family": "reference_behavior",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/references/agent-contracts.md",
+      "role": "reference contract routing verifier-side future-preservation review semantics",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "verifier_lifecycle_carry_impl_54"
       ]
     },
     {
@@ -476,6 +518,99 @@
         "uplift_manifest_current",
         "runtime_manifest_current",
         "runtime_version_current"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_verify_workflow",
+      "from": "overlay_manifest",
+      "to": "verify_phase_workflow",
+      "kind": "overlay_owns_workflow_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "verifier_lifecycle_carry_impl_54"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_verification_template",
+      "from": "overlay_manifest",
+      "to": "verification_report_template",
+      "kind": "overlay_owns_template_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "verifier_lifecycle_carry_impl_54"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "verifier_reference_to_agent",
+      "from": "verifier_agent_contracts_reference",
+      "to": "verifier_agent_overlay",
+      "kind": "reference_routes_agent_behavior",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "verifier_lifecycle_carry_impl_54"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "verify_workflow_to_verifier_agent",
+      "from": "verify_phase_workflow",
+      "to": "verifier_agent_overlay",
+      "kind": "workflow_routes_agent_behavior",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "verifier_lifecycle_carry_impl_54"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "verifier_agent_to_verification_template",
+      "from": "verifier_agent_overlay",
+      "to": "verification_report_template",
+      "kind": "agent_writes_template_shape",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "verifier_lifecycle_carry_impl_54"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "verifier_contract_to_uplift_helper",
+      "from": "verifier_agent_contracts_reference",
+      "to": "project_uplift",
+      "kind": "helper_samples_doctrine_surface",
+      "support_mode": "semantic_plus_producer_report",
+      "evidence_refs": [
+        "verifier_lifecycle_carry_impl_54",
+        "uplift_manifest_current"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "verify_workflow_to_uplift_helper",
+      "from": "verify_phase_workflow",
+      "to": "project_uplift",
+      "kind": "helper_samples_doctrine_surface",
+      "support_mode": "semantic_plus_producer_report",
+      "evidence_refs": [
+        "verifier_lifecycle_carry_impl_54",
+        "uplift_manifest_current"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "verification_template_to_uplift_helper",
+      "from": "verification_report_template",
+      "to": "project_uplift",
+      "kind": "helper_samples_doctrine_surface",
+      "support_mode": "semantic_plus_producer_report",
+      "evidence_refs": [
+        "verifier_lifecycle_carry_impl_54",
+        "uplift_manifest_current"
       ],
       "status": "mapped"
     },

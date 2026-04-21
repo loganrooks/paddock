@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "a33f70c",
+  "basis_commit": "fc0f6cd",
   "evidence_entries": [
     {
       "id": "overlay_contract_validation",
@@ -67,6 +67,12 @@
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_scan_threshold_language.py",
       "note": "direct unit coverage for explicit anti-pattern prohibition lines in the scanner helper"
+    },
+    {
+      "id": "verifier_lifecycle_carry_impl_54",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/54-verifier-lifecycle-carry-first-slice-implementation.md",
+      "note": "landed verifier-side lifecycle carry slice covering workflow, template, registry, reference, helper follow-through, and the held setup-script fragility"
     }
   ]
 }

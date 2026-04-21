@@ -24,4 +24,4 @@ Status: active lane; completed Opus widening lane; first bounded follow-through 
 
 ## Current Goal
 
-- [d:r:i] Use the inherited full-field widening map plus the landed first canary, audit-program infrastructure, and standing-register slices to keep opening bounded follow-through artifacts that intensify robustness, maintainability, propagation visibility, audit reuse, and self-improvement carry while the rerun remains paused.
+- [d:r:i] Use the inherited full-field widening map plus the landed first canary, audit-program infrastructure, standing-register, and verifier-lifecycle slices to keep opening bounded follow-through artifacts that intensify robustness, maintainability, propagation visibility, audit reuse, lifecycle carry, and self-improvement carry while the rerun remains paused.

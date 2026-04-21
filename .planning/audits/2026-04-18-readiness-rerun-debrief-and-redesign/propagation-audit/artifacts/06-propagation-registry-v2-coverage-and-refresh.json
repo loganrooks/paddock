@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "basis_commit": "a33f70c",
+  "basis_commit": "fc0f6cd",
   "inherited_dispositions": [
     "propagation-audit/dispositions/01-propagation-chain-reread-inheritance.md",
     "propagation-audit/dispositions/02-broader-network-propagation-field-mapping-inheritance.md",
     "propagation-audit/dispositions/03-propagation-registry-system-cross-vendor-inheritance.md",
     "propagation-audit/16-compatibility-anchor-change-triggered-refresh.md",
     "propagation-audit/17-compatibility-consumer-follow-through-refresh.md",
-    "propagation-audit/18-threshold-scanner-change-triggered-refresh.md"
+    "propagation-audit/18-threshold-scanner-change-triggered-refresh.md",
+    "propagation-audit/19-verifier-lifecycle-carry-change-triggered-refresh.md"
   ],
   "coverage_gate": [
     {
@@ -35,10 +36,34 @@
       "notes": "current slice carries the install bridge and pristine frontier distinction, not full upstream file coverage"
     },
     {
+      "family": "registry",
+      "coverage_status": "mapped",
+      "roster_source": "upstream_inventory",
+      "notes": "current slice now keeps both general runtime registry carriers and the verifier agent overlay contract explicit"
+    },
+    {
       "family": "launch_truth",
       "coverage_status": "mapped_but_roster_thin",
       "roster_source": "launch_history",
       "notes": "launch-truth family is locally governed but still lacks a richer dedicated maintained roster surface"
+    },
+    {
+      "family": "workflow_output",
+      "coverage_status": "mapped",
+      "roster_source": "upstream_inventory",
+      "notes": "current slice now keeps uplift, progress, resume, and verifier workflows explicit as routed carriers"
+    },
+    {
+      "family": "template_shape",
+      "coverage_status": "mapped_but_curated",
+      "roster_source": "upstream_inventory",
+      "notes": "current slice now keeps verification-report output shape explicit, but broader template coverage remains later work"
+    },
+    {
+      "family": "reference_behavior",
+      "coverage_status": "mapped_but_curated",
+      "roster_source": "upstream_inventory",
+      "notes": "current slice now keeps verifier-side agent-contract reference carry explicit, but broader reference-behavior coverage remains later work"
     },
     {
       "family": "governance_lane",
@@ -61,8 +86,8 @@
     },
     {
       "kind": "change_triggered_slice_refresh",
-      "status": "anchor_consumer_and_threshold_scanner_follow_through_landed",
-      "notes": "the compatibility anchor slice first refreshed the uplift/runtime carriers, the consumer-chain follow-through refreshed the live read-only routing surfaces, and the threshold-scanner slice refreshed helper plus lane-governance carry"
+      "status": "anchor_consumer_threshold_scanner_and_verifier_lifecycle_follow_through_landed",
+      "notes": "the compatibility anchor slice refreshed uplift/runtime carriers, the consumer-chain follow-through refreshed live read-only routing surfaces, the threshold-scanner slice refreshed helper plus lane-governance carry, and the verifier-lifecycle slice refreshed workflow/template/reference/registry carry"
     },
     {
       "kind": "scheduled_whole_registry_refresh",
@@ -83,6 +108,8 @@
     "aged-bespoke deep merge",
     "broader compatibility window or standalone compatibility carrier",
     "broader registry authorship policy across vendors",
-    "richer role-aware heuristic classification that still cannot drift into prose control"
+    "richer role-aware heuristic classification that still cannot drift into prose control",
+    "later lifecycle carry beyond the verifier bridge",
+    "repo-local setup/materialization robustness under repeated direct reinstalls"
   ]
 }

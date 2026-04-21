@@ -40,7 +40,7 @@ Status: active audit-program infrastructure surface
 - [d:r:i] Default reread path:
   - `propagation-audit/README.md`
   - `propagation-audit/15-propagation-registry-v2-layered-first-refresh.md`
-  - the latest change-triggered refresh notes
+  - the latest change-triggered refresh notes through `19`
 
 ### `threshold-audit/`
 
@@ -93,7 +93,7 @@ Status: active audit-program infrastructure surface
 - [d:r:i] Default reread path:
   - `harness-improvement-audit/README.md`
   - `intervention-proposals/45-harness-improvement-follow-through-sequencing.md`
-  - latest landed `49-52` family slices
+  - latest landed `49-54` family slices
 
 ## Current Local Consequence
 

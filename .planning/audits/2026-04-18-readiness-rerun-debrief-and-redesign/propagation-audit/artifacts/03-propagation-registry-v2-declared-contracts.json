@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "a33f70c",
+  "basis_commit": "fc0f6cd",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -28,6 +28,20 @@
         "registry"
       ],
       "claim_boundary": "declares how the tracked overlay is applied and which post-materialization checks are part of the local contract"
+    },
+    {
+      "id": "verifier_future_preservation_contract",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/references/agent-contracts.md",
+      "validator": "tooling/portable-gsd/overlay/agents/gsd-verifier.toml",
+      "contract_kind": "verifier-side future-preservation review semantics",
+      "families_touched": [
+        "workflow_output",
+        "template_shape",
+        "reference_behavior",
+        "registry",
+        "helper"
+      ],
+      "claim_boundary": "declares how planning-side future_preservation becomes verifier review obligations, report shape, and helper-visible doctrine carriers when present"
     }
   ]
 }

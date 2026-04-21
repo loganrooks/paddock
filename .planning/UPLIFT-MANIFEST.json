@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-04-21T20:23:12+00:00",
+  "generated_at": "2026-04-21T21:45:08+00:00",
   "mode": "detect-only",
   "last_uplift_class": "cross-runtime uplift",
   "last_uplift_secondary_signals": [
@@ -13,8 +13,8 @@
     "mid_phase_signal": true,
     "note": "phase CONTEXT carries explicit rerun-boundary posture"
   },
-  "doctrine_reference_hash": "40065252100ec20ce7e61309880ee450b8ef050006860cbd8a6398c762c2b349",
-  "project_fingerprint_hash": "fbe46ae8666e501e75f949e72df8b97817dbc622c0e088d7a915ab8660788a05",
+  "doctrine_reference_hash": "4eae2d443e4f72b395fa5fdddc8c3de4edb4c6d7a3bbfd86d550aa88e5b3988c",
+  "project_fingerprint_hash": "77315e50c82a89d14217b796584121a3788e6702c891ad8cd7ab1dd9d320469b",
   "current_status": "planning",
   "runtime_dirs": [
     ".codex",
@@ -99,7 +99,7 @@
       "present": true,
       "status": "present",
       "fingerprint_shape": "content_sha256",
-      "fingerprint": "da9bfbb058c1e665f0d90c0ee5d8210d9e0c787c4ce002bb27752614999f06e2",
+      "fingerprint": "e47674d1de43085e4b39cd3590bfa6a9cdf180b72e4560624f0551136b18fe5e",
       "note": "file carrier present"
     },
     {
@@ -110,7 +110,7 @@
       "present": true,
       "status": "present",
       "fingerprint_shape": "content_sha256",
-      "fingerprint": "ae8fac80051b12d28d771093804cc67f69878786715cc19caa930d3dd475b89b",
+      "fingerprint": "0e02322464e6fe04db82aa142185cef6500519519b0c9f6084f5713d1a53ba76",
       "note": "file carrier present"
     },
     {
@@ -133,6 +133,28 @@
       "status": "present",
       "fingerprint_shape": "content_sha256",
       "fingerprint": "99053bccfd1722258ef9e6ec8c25514ff22228c5125e149da7ab6b298a390c27",
+      "note": "file carrier present"
+    },
+    {
+      "key": "verification_workflow",
+      "label": "Verification Workflow",
+      "group": "doctrine_sensitive",
+      "rel_path": ".codex/get-shit-done/workflows/verify-phase.md",
+      "present": true,
+      "status": "present",
+      "fingerprint_shape": "content_sha256",
+      "fingerprint": "eeefbd8865d021b59de99a05685a146084f9be88fc8d1130aa28f2f751f4f6df",
+      "note": "file carrier present"
+    },
+    {
+      "key": "verification_report_template",
+      "label": "Verification Report Template",
+      "group": "doctrine_sensitive",
+      "rel_path": ".codex/get-shit-done/templates/verification-report.md",
+      "present": true,
+      "status": "present",
+      "fingerprint_shape": "content_sha256",
+      "fingerprint": "d55c07b990f6c9d24fb41bf221a05a9b7025b2c96bf8163244012eebbb4e4980",
       "note": "file carrier present"
     },
     {
@@ -165,7 +187,7 @@
       "present": true,
       "status": "present",
       "fingerprint_shape": "inventory_item_hash",
-      "fingerprint": "4a7e559282d7b4d596d773197f3f453cdfdc288eaaa6f84d0901c67ef574f1fb",
+      "fingerprint": "327f8c5742aa50d1d2488ffe214880d0e9cd42f1d7b7f0ed148a300aa9dba7cc",
       "note": "file carrier present"
     },
     {
@@ -539,7 +561,7 @@
       "present": true,
       "status": "present",
       "fingerprint_shape": "normalized_toml_hash",
-      "fingerprint": "1bb72bd6deeb7b91d3a03e0ad13d9308aeb04bdb741ae6c3f7a59d6152c9a3ba",
+      "fingerprint": "e0c94870d3be5bce4249e0ca0e0b8f5c015569ec8e6b688aa7b00e611ce7bb1a",
       "note": "file carrier present"
     },
     {

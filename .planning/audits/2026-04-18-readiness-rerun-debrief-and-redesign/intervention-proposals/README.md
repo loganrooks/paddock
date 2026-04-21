@@ -60,6 +60,8 @@ Status: active proposal/disposition batch
 50. `50-harness-self-improvement-register-first-slice-implementation.md`
 51. `51-audit-program-infrastructure-first-slice-implementation.md`
 52. `52-audit-subtree-status-first-application.md`
+53. `53-verifier-lifecycle-carry-first-slice-proposal.md`
+54. `54-verifier-lifecycle-carry-first-slice-implementation.md`
 
 ## Proposal Rule
 
@@ -88,5 +90,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `50` now records the landed first standing-register slice: `.planning/HARNESS-IMPROVEMENT-REGISTER.md` plus governance routing so the improvement field survives outside this audit subtree.
 - [d:r:i] `51` now records the landed first audit-program infrastructure slice: reusable lane-pattern library, canon-absorption protocol, subtree-aging/graduation protocol, and governance routing so later audit families do not rebuild those rules from scratch.
 - [d:r:i] `52` now records the first live application of that infrastructure slice: central subtree-status register plus clearer subtree README status force.
+- [d:r:i] `53` now opens the first bounded verifier-side lifecycle slice: connect the planning-side `future_preservation` contract to the verifier workflow, template, registry contract, reference contract, and helper/propagation follow-through instead of letting lifecycle carry thin after planning.
+- [d:r:i] `54` now records the landed first slice itself: tracked overlay ownership for verifier-side workflow/template carriers, widened verifier contract semantics, helper fingerprint follow-through, explicit local recovery path, and the still-held setup-script fragility.
 - [d:r:i] `42` now records that harden slice as landed: multi-axis posture, phase-boundary signal, per-carrier fingerprint shape, runtime-agent globbing, typed proposal routes, file-backed held-later carry, widened tests, and the two live consumer/output bugs it surfaced and corrected.
-- [d:r:i] Current next move for that family after `42`: use the cleaner uplift slice to open and work the explicit contract-propagation / dependency-carry audit family rather than assuming the partial tooling layer already proves whole-network carry.
+- [d:r:i] The current broader consequence after `42-54`: use the cleaner uplift slice, the active propagation family, and the landed verifier-lifecycle bridge together rather than assuming one helper or one bounded slice already proves whole-network carry.
