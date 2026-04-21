@@ -159,7 +159,7 @@ For spawned planning, audit, review, or doctrine-sensitive work inside `.plannin
 
 - do not rely on private sqlite inspection plus chat memory as the only launch-truth surface
 - prefer durable requested-vs-effective capture with `python3 tooling/codex/capture_launch_truth.py`
-- use a strong pre-spawn `--since` boundary when available
+- use a tight pre-spawn `--since` boundary when available
 - preserve the capture in the relevant launch-truth, review, audit, or disposition artifact before inheriting the return
 - treat missing runtime fields as unresolved rather than silently inferred matches
 
@@ -175,7 +175,9 @@ For non-trivial research, audit, gap-closure, sensitivity, or synthesis work:
 - do not let threshold framing (`adequate`, `sufficient`, `good enough`, `well enough`, `pass/fail`, `ready/not ready`) become the governing question when the real task is to increase leverage, carry, visibility, or intervention power
 - do not let deficit-oriented pseudo-positive phrasing quietly reintroduce threshold logic
   - avoid constructions like `not lacking`, `no longer missing`, `not merely deficient`, `not the real problem`, or similar before/after framing when a direct positive formulation is available
-  - prefer formulations like `already strong here`, `thins here`, `intensifies here`, `opens more optionality here`, or `strengthens carry here`
+  - prefer comparative or directional formulations like `carry broadens here`, `detail thins here`, `this intensifies future carry`, `this opens more optionality`, or `this raises intervention yield`
+- do not let static-positive evaluative phrasing quietly reintroduce threshold logic either
+  - avoid constructions like `already strong here`, `strong enough`, `clear enough`, `stable enough`, `specific enough`, or `the family is strong` when the better wording can say what broadened, sharpened, intensified, or became more durable relative to another form
 - in planning, discuss, audit, research, and spec/prompt design work, do not ask the leading question in threshold form when the stronger task is field disclosure
   - avoid question forms like `is this adequate?`, `is this ready?`, `is this clear enough?`, or `is this sufficient?`
   - prefer question forms like `what does this expose?`, `what does it still flatten?`, `what stronger form could carry more of the work?`, `what optionality does it preserve or foreclose?`
@@ -183,10 +185,11 @@ For non-trivial research, audit, gap-closure, sensitivity, or synthesis work:
   - verification, execution admission, and falsifiable requirement checks can use thresholds
   - planning and research should still carry a second layer for opportunity, stronger form, and future-aware self-transformation
 - when auditing older specs, prompts, reviews, or dispositions for framing residue, use `python3 tooling/codex/scan_threshold_language.py <paths>` as a first-pass detector rather than relying on memory alone
+  - when scanning instruction files or anti-threshold doctrine surfaces themselves, prefer `--ignore-meta-instruction-lines` so quoted forbidden examples do not drown out actual residue
 - keep the stronger distinction visible:
   - whether a document, map, lane, or doctrine surface can carry work
   - how strongly, clearly, and future-resiliently it carries that work compared with stronger available forms
-- when naming gains, prefer `load-bearing gain`, `higher-yield distinction`, `stronger carry surface`, `better intervention visibility`, or `transformation pressure` over threshold praise like `works well`
+- when naming gains, prefer `load-bearing gain`, `higher-yield distinction`, `broader carry surface`, `better intervention visibility`, or `transformation pressure` over threshold praise like `works well`
 - use gate language only for actual gates; do not let gate language flatten optimization, redesign, or long-horizon planning questions into a mere threshold check
 - do not accept a weaker frame, shortcut, or premature closure just because it was requested; push back when the request would degrade the quality of canon, planning, verification, or process doctrine
 - that pushback should be explicit and well-argued:
@@ -196,7 +199,7 @@ For non-trivial research, audit, gap-closure, sensitivity, or synthesis work:
 - partial pushback is often preferable to flat rejection:
   - keep the goal if it is sound
   - reject or revise the method, sequencing, scope, or closure pressure if that is the real problem
-- when a proposal family is directionally strong but the current first slice is overpacked, do not collapse the decision into `accept/reject`
+- when a proposal family has clear directional value but the current first slice is overpacked, do not collapse the decision into `accept/reject`
   - prefer narrowing, splitting, staged carry, or consumer-first routing when those preserve the family while reducing ceremony and sharpening verification
 - when a concern is primarily risk rather than impossibility, do not let `too risky` substitute for design work if the risk can be reduced through sequencing, tooling, checkpointing, bounded rollout, or verification gates
   - prefer an explicit mitigation path over a flat veto
@@ -275,9 +278,9 @@ If terms like `challenge`, `showcase`, `hosted`, `premium`, `event`, `reviewed`,
 Before adding or expanding instruction in either root `AGENTS.md` or `.planning/AGENTS.md`, ask:
 
 - Is this truly agent-facing runtime guidance?
-- Is it stable enough for a durable instruction file?
+- Does it belong in a durable instruction file?
 - Is it already governed elsewhere?
-- Is it specific enough to deserve prompt budget?
+- Does it earn prompt budget?
 - Would a nested file be a better fit than root?
 - What stale-state risk does this add?
 

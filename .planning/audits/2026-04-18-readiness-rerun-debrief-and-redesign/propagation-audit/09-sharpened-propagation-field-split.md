@@ -51,7 +51,7 @@ Status: active sharpened disclosure batch
 ### Install Frontiers
 
 - [e:c+i] The installer contract already distinguishes tracked overlay truth from backup-carried overwrite truth in code. Sources: [portable_gsd_contract.py](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/portable_gsd_contract.py:70), [portable_gsd_contract.py](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/portable_gsd_contract.py:137).
-- [d:r:i] Treating both as one row in `08` was useful for widening, but not strong enough for later contract-change routing.
+- [d:r:i] Treating both as one row in `08` was useful for widening, but too blended for later contract-change routing.
 
 ### Workflow Family Modes
 

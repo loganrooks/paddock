@@ -65,19 +65,21 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
 ## Quality Bar
 
 - Do not optimize for `good enough`, `passes review`, or the smallest plausible response when the repo has already earned stronger doctrine, cleaner architecture, or better future guidance.
-- When a pass produces substantive doctrine, architectural guidance, or future-seam clarification, do not collapse that work into a thin pass/fail summary if the canon, roadmap, or phase steering should be uplifted to reflect it.
+- When a pass produces substantive doctrine, architectural guidance, or future-seam clarification, do not collapse that work into a thin binary-threshold summary if the canon, roadmap, or phase steering should be uplifted to reflect it.
 - Do not let threshold language (`adequate`, `sufficient`, `good enough`, `well enough`, `passes`, `ready`) become the master frame for planning, audit, research, or doctrine work when the real task is to maximize carry, leverage, clarity, and long-horizon intervention yield.
 - Do not smuggle threshold thinking back in through deficit-oriented pseudo-positive phrasing.
   - Avoid formulations like `not lacking`, `no longer missing`, `not merely deficient`, `not the real problem`, or `better than before` when a direct positive formulation is available.
-  - Prefer statements like `already strong here`, `thins here`, `intensifies here`, `opens more optionality here`, or `strengthens carry here`.
+  - Prefer comparative or directional formulations like `carry broadens here`, `detail thins here`, `this intensifies future carry`, `this opens more optionality`, or `this raises intervention yield`.
+- Do not smuggle threshold thinking back in through static-positive evaluative phrasing either.
+  - Avoid formulations like `already strong here`, `strong enough`, `clear enough`, or `the family is strong` when the better wording can say what broadened, sharpened, intensified, or became more durable relative to another form.
 - In planning, discuss, audit, and research work, do not frame the leading question as `is this adequate`, `is this ready`, `is this clear enough`, or any similar threshold test when the stronger question is what the surface exposes, flattens, preserves, intensifies, or leaves open.
-- Binary or threshold questions belong only to real gate surfaces such as behavioral verification, execution admission, or pass/fail requirement checks.
+- Binary or threshold questions belong only to real gate surfaces such as behavioral verification, execution admission, or explicit requirement-gate checks.
   - When a real gate is present, do not let that gate exhaust the thinking.
   - Pair it with the stronger question of what higher-yield form, broader optionality, or clearer future carry is still available.
 - Distinguish sharply between:
   - whether an artifact or system can carry work at all
   - how strongly, clearly, and portably it carries that work compared with better available alternatives
-- When describing positive results, prefer language like `load-bearing gain`, `higher-leverage surface`, `stronger carry`, `clearer authority map`, or `better intervention yield` over threshold praise like `explains well` or `is adequate`.
+- When describing positive results, prefer language like `load-bearing gain`, `higher-leverage surface`, `broader carry`, `clearer authority map`, or `better intervention yield` over threshold praise like `explains well` or `is adequate`.
 - Threshold/gate language is allowed only when there is a real gating decision to make. Even then, do not let the gate consume the larger question of how to achieve the strongest available outcome.
 - Always think across the repo's actual horizon stack:
   - the current phase or milestone execution surface
@@ -85,19 +87,19 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
   - the farther long-arc doctrine surface ratified in `.planning/LONG-ARC.md`
 - Treat `Milestone 2` as the nearest carry-forward horizon, not the ceiling of future-aware thinking.
 - Do not optimize only for Milestone 01 convenience if that creates avoidable ambiguity, doc drift, or re-litigation pressure in Milestone 02 and beyond.
-- Assume all substantive work may later be audited by expert software engineers and strong external models. Write artifacts, plans, code, and rationale so they can withstand adversarial rereading without relying on hidden context, good intentions, or hand-wavy summaries.
+- Assume all substantive work may later be audited by expert software engineers and high-capability external models. Write artifacts, plans, code, and rationale so they can withstand adversarial rereading without relying on hidden context, good intentions, or hand-wavy summaries.
 - Do not take shortcuts by hiding uncertainty, compressing meaningful distinctions into umbrella terms, or calling something settled just because the current artifact can technically pass.
 - Do not confuse compliance with the latest suggestion for quality. Push back when a request, shortcut, framing, or manager instruction would likely degrade architecture, rigor, future viability, or code quality.
 - That pushback must be justified, concrete, and scrutiny-resistant:
   - name the risk or loss clearly
   - explain the better alternative
-  - make the case in terms that could survive review by strong engineers, not just personal preference
+  - make the case in terms that could survive review by expert engineers, not just personal preference
 - Pushback does not need to be all-or-nothing.
   - Partial pushback is often the right move:
     - accept the goal but reject the proposed method
     - accept the task but narrow the scope
     - accept the direction but insist on a better sequence or checkpoint first
-- When a proposal family is directionally strong but the current packaging is overpacked, do not default to binary `accept/reject`.
+- When a proposal family has clear directional value but the current packaging is overpacked, do not default to binary `accept/reject`.
   - Prefer narrowing, splitting, staged carry, or consumer-first routing when those preserve the stronger direction with less ceremony and clearer verification.
 - When a concern is mainly risk rather than impossibility, do not use risk as a flat veto if sequencing, tooling, checkpointing, bounded rollout, or verification can reduce it.
   - Prefer a mitigation path with explicit quality gates over `too risky` as a stopping point.

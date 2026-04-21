@@ -105,6 +105,7 @@ Date: 2026-04-21
 - threshold-language raw scan artifact frozen for current audit workspace plus historical readiness package
 - threshold-language first-pass residue audit written under `threshold-audit/dispositions/`
 - bounded spec/prompt and self-overcoming-surface threshold audit written under `threshold-audit/dispositions/`
+- instruction/scanner doctrine now also rejects static-positive `enough` phrasing and supports meta-instruction skip mode during doctrine-surface scans
 - bounded opportunity-seeking / self-overcoming companion-layer proposal written under `intervention-proposals/`
 - self-overcoming audit subtree created under `self-overcoming-audit/`
 - self-overcoming audit lane-01 launched and completed against frozen basis `e466bea`
@@ -135,7 +136,7 @@ Date: 2026-04-21
 - current installer-reasoning-default status: `the reviewer tranche also corrected scripts/setup-portable-gsd.sh so live .codex/config.toml now materializes with top-level model_reasoning_effort=xhigh instead of silently regressing to high`
 - current tranche-audit status: `the narrow post-tranche cross-vendor pair is complete and inherited; accepted now: classifier tightening plus thin CLAUDE wrappers, held: broad family expansion and broad stale-agent cleanup`
 - current docs-audit-sequencing status: `the challenged lane pair, transformation plan, bounded companion layer, and first intervention proposal batch are complete; the current move is proposal disposition and first bounded follow-through`
-- current long-horizon status: `the challenge-backed field map now centers the work on intensifying boundary carry architecture, building from already-strong long-horizon entry carry; Opus adds a stronger two-systems / preservation-debt model, GPT adds tighter bounded landing shapes`
+- current long-horizon status: `the challenge-backed field map now centers the work on intensifying boundary carry architecture, building from broader long-horizon entry carry; Opus adds a wider two-systems / preservation-debt model, GPT adds tighter bounded landing shapes`
 - current threshold-language status: `anti-threshold doctrine already exists in root/planning AGENTS and both CLAUDE wrappers; the live follow-on question is residue in older specs, prompts, reviews, and inherited lane artifacts`
 - current threshold-audit status: `the first-pass residue audit is now followed by a bounded spec/prompt and self-overcoming-surface audit: gate logic is structurally appropriate in verification/spec admission surfaces, threshold framing still narrows discuss/research/older audit specs, and the harness already has promising strength-seeking logic in review/future-preservation surfaces but no single explicit self-overcoming companion layer yet`
 - current self-overcoming-companion status: `the strengthening family now carries through the planning chain plus its first adjacent contract follow-through: discuss/context carry the new bucket, plan/phase-prompt plus planner/checker carry strengthening_routes, plant-seed preserves out-of-phase moves, and rigorous-research now has explicit strengthening handoff/output carry`
@@ -202,7 +203,7 @@ Date: 2026-04-21
 - [d:c+i] Start from the `04-17` bridge result rather than pretending the comparison is still undone. Sources: .planning/audits/2026-04-17-gsd-upstream-docs-readiness-comparative-audit/SYNTHESIS.md:5, .planning/audits/2026-04-17-gsd-upstream-docs-readiness-comparative-audit/SYNTHESIS.md:17.
 - [d:r:i] Treat the later docs-refresh work as stronger terrain material than the original upstream docs corpus, but not as final intervention-ready truth.
 - [d:r:i] Demand burden of proof for tame `leave it alone` or `no new modification` recommendations.
-- [d:r:i] Keep this workspace preparatory until the framing and packeting are strong enough for cross-review.
+- [d:r:i] Keep this workspace preparatory until the framing and packeting can sustain cross-review without collapsing the relevant distinctions.
 - [d:r:i] Treat the first external cross-review as `challenge input, not sovereign doctrine`.
 - [d:r:i] Treat the commentary corpus as `real interpretive gain, not yet operational doctrine`; its distinctions must earn inheritance on concrete readiness-era cases before canon uplift or workflow mutation.
 - [d:r:i] Treat the lane-03 stress-test result narrowly: it blocked immediate corpus-to-doctrine promotion on those three cases, but it did not settle the broader question of carriage quality or bounded operationalization.

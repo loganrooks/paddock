@@ -20,11 +20,12 @@ For vendor-neutral repo doctrine, treat [AGENTS.md](/home/rookslog/workspace/pro
 - Live planning canon lives in `.planning/PROJECT.md`, `.planning/ROADMAP.md`, `.planning/REQUIREMENTS.md`, `.planning/LONG-ARC.md`, `.planning/STATE.md`, and active phase docs.
 - Phase 01 is still at a pre-rerun boundary; do not treat older `01-*` artifacts as execution-approved just because they exist.
 - Use repo-local prompt/spec paths for headless Claude lanes. Do not rely on `/tmp` copies when the repo can carry the same artifact directly.
-- The quality bar is anti-threshold. Do not let `adequate`, `sufficient`, `good enough`, `passes`, or similar language become the master frame when the real task is stronger carry, leverage, clarity, and long-horizon intervention yield.
-- Do not smuggle threshold logic back in through deficit-oriented pseudo-positive phrasing like `not lacking`, `no longer missing`, or `not the real problem`; prefer direct positive formulations about where carry is already strong, where it thins, and where it can be intensified.
+- The quality bar is anti-threshold. Do not let `adequate`, `sufficient`, `good enough`, `passes`, or similar language become the master frame when the real task is broader carry, leverage, clarity, and long-horizon intervention yield.
+- Do not smuggle threshold logic back in through deficit-oriented pseudo-positive phrasing like `not lacking`, `no longer missing`, or `not the real problem`; prefer direct comparative formulations about where carry broadens, where detail thins, and where future carry can intensify.
+- Do not smuggle threshold logic back in through static-positive phrasing like `already strong here`, `strong enough`, `clear enough`, or `the family is strong`; prefer wording that says what broadened, sharpened, intensified, or became more durable.
 - In planning, discuss, research, and audit lanes, do not ask the leading question in yes/no threshold form when the stronger task is to map what the surface exposes, preserves, thins, intensifies, or leaves open.
 - If a lane includes a real gate, keep that gate as one layer only; do not let it replace the stronger question of what more could be carried or opened.
-- If a proposal direction is strong but the current packaging is weak, prefer narrowing, splitting, or staged carry over binary accept/reject.
+- If a proposal direction has clear directional value but the current packaging is weak, prefer narrowing, splitting, or staged carry over binary accept/reject.
 - If a concern is mainly risk and the risk can be reduced through sequencing, tooling, checkpointing, or verification, prefer a mitigation path over a flat veto.
 - Before narrowing to the top few options, ask whether the stronger first move is full-field mapping.
 - When a lane changes a contract-carrying surface, treat propagation across adjacent producers, consumers, runtime carriers, and durable outputs as part of the work. Update or explicitly hold those neighbors rather than stopping at the local patch.
