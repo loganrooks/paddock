@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "3afd389",
+  "basis_commit": "7098aad",
   "evidence_entries": [
     {
       "id": "overlay_contract_validation",
@@ -109,6 +109,18 @@
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_state_snapshot_future_carry.py",
       "note": "focused helper coverage for current-template decisions, blockers, future-carry buckets, session continuity, and workflow-consumer contract presence"
+    },
+    {
+      "id": "spec_lifecycle_carry_impl_64",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/64-spec-lifecycle-carry-first-slice-implementation.md",
+      "note": "landed spec lifecycle slice covering tracked overlay ownership for spec-phase and spec template, bounded Future-Aware Notes, discuss-phase spec reread, and strict post-materialization proof"
+    },
+    {
+      "id": "spec_future_carry_contract_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_spec_future_carry_contract.py",
+      "note": "focused contract coverage for spec-phase long-arc reread, spec template Future-Aware Notes buckets, and discuss-phase upstream spec carry"
     }
   ]
 }

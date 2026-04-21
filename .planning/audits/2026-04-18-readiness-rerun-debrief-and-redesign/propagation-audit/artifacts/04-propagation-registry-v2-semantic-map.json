@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "3afd389",
+  "basis_commit": "7098aad",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -505,6 +505,42 @@
         "overlay_contract_validation",
         "milestone_boundary_lifecycle_carry_impl_60"
       ]
+    },
+    {
+      "id": "spec_phase_workflow",
+      "family": "workflow_output",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/spec-phase.md",
+      "role": "upstream spec producer carrying bounded Future-Aware Notes when doctrine materially constrains the phase",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "spec_lifecycle_carry_impl_64",
+        "spec_future_carry_contract_tests"
+      ]
+    },
+    {
+      "id": "discuss_workflow",
+      "family": "workflow_output",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/discuss-phase.md",
+      "role": "first downstream discuss consumer of the upstream spec contract and bounded Future-Aware Notes",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "spec_lifecycle_carry_impl_64",
+        "spec_future_carry_contract_tests"
+      ]
+    },
+    {
+      "id": "spec_template_overlay",
+      "family": "template_shape",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/templates/spec.md",
+      "role": "spec output shape carrying optional Future-Aware Notes buckets alongside locked requirements and boundaries",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "spec_lifecycle_carry_impl_64",
+        "spec_future_carry_contract_tests"
+      ]
     }
   ],
   "edges": [
@@ -973,6 +1009,66 @@
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "milestone_boundary_lifecycle_carry_impl_60"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_spec_phase_workflow",
+      "from": "overlay_manifest",
+      "to": "spec_phase_workflow",
+      "kind": "overlay_owns_workflow_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "spec_lifecycle_carry_impl_64"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_discuss_workflow",
+      "from": "overlay_manifest",
+      "to": "discuss_workflow",
+      "kind": "overlay_owns_workflow_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "spec_lifecycle_carry_impl_64"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_spec_template",
+      "from": "overlay_manifest",
+      "to": "spec_template_overlay",
+      "kind": "overlay_owns_template_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "spec_lifecycle_carry_impl_64"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "spec_phase_to_spec_template",
+      "from": "spec_phase_workflow",
+      "to": "spec_template_overlay",
+      "kind": "workflow_writes_template_shape",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "spec_lifecycle_carry_impl_64",
+        "spec_future_carry_contract_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "spec_phase_to_discuss_workflow",
+      "from": "spec_phase_workflow",
+      "to": "discuss_workflow",
+      "kind": "upstream_spec_contract_consumed_by_downstream_workflow",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "spec_lifecycle_carry_impl_64",
+        "spec_future_carry_contract_tests"
       ],
       "status": "mapped"
     }

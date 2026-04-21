@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "3afd389",
+  "basis_commit": "7098aad",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -91,6 +91,18 @@
         "state_continuity"
       ],
       "claim_boundary": "declares how the repo-local state snapshot helper keeps decisions, blockers, future-carry buckets, and session continuity explicit for current first-read consumers, and how progress plus resume inherit that carry without relying on reader memory"
+    },
+    {
+      "id": "spec_future_carry_contract",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/spec-phase.md",
+      "validator": "tooling/codex/tests/test_spec_future_carry_contract.py",
+      "contract_kind": "upstream spec future-aware notes and first downstream discuss-consumer semantics",
+      "families_touched": [
+        "install_overlay",
+        "workflow_output",
+        "template_shape"
+      ],
+      "claim_boundary": "declares how spec-phase reads long-arc doctrine, writes bounded Future-Aware Notes when materially present, and how discuss-phase inherits that upstream spec contract instead of leaving the spec boundary narrower than the later lifecycle chain"
     }
   ]
 }

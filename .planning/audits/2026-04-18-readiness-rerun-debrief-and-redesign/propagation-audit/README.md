@@ -90,6 +90,7 @@ Status: active lane; widened inheritance batch
 - [21-transition-lifecycle-carry-change-triggered-refresh.md](21-transition-lifecycle-carry-change-triggered-refresh.md)
 - [22-milestone-boundary-lifecycle-carry-change-triggered-refresh.md](22-milestone-boundary-lifecycle-carry-change-triggered-refresh.md)
 - [23-state-progress-and-resume-future-carry-change-triggered-refresh.md](23-state-progress-and-resume-future-carry-change-triggered-refresh.md)
+- [24-spec-lifecycle-carry-change-triggered-refresh.md](24-spec-lifecycle-carry-change-triggered-refresh.md)
 - [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 - [artifacts/02-propagation-registry-v2-inventory-roster.json](artifacts/02-propagation-registry-v2-inventory-roster.json)
 - [artifacts/03-propagation-registry-v2-declared-contracts.json](artifacts/03-propagation-registry-v2-declared-contracts.json)
@@ -142,3 +143,4 @@ Status: active lane; widened inheritance batch
 - [d:r:i] A fifth non-uplift change-triggered refresh is now landing too: `21` records the transition-lifecycle slice, and the typed `v2` layers now keep phase-close workflow/template/state-continuity movement explicit instead of leaving that lifecycle bridge ambient behind one widened proposal note.
 - [d:r:i] A sixth non-uplift change-triggered refresh is now landing too: `22` records the milestone-boundary slice, and the typed `v2` layers now keep milestone-open and milestone-close workflow/state-continuity movement explicit instead of leaving milestone-boundary carry ambient behind one widened lifecycle family label.
 - [d:r:i] A seventh non-uplift change-triggered refresh is now landing too: `23` records the first-read consumer slice, and the typed `v2` layers now keep the state helper plus `progress` / `resume-project` future-carry routing explicit instead of leaving that bridge ambient behind local workflow prose.
+- [d:r:i] An eighth non-uplift change-triggered refresh is now landing too: `24` records the spec lifecycle slice, and the typed `v2` layers now keep the spec producer pair plus the discuss-side upstream spec consumer explicit instead of leaving that bridge ambient behind one template omission and one unfulfilled workflow claim.
