@@ -39,6 +39,4 @@ Status: active registry first slice
   - top-level prose widening in `08`
   - sharpened sub-family and edge notes in `09-12`
   - one compact machine-readable registry snapshot in `artifacts/01-propagation-field-registry-v1.json`
-- [d:r:i] The next stronger move, if this slice proves useful, is not bigger prose alone. It is either:
-  - a later registry refresh discipline
-  - or a small tool that can diff registry snapshots and suggest adjacent carriers to reread.
+- [d:r:i] The next stronger move is no longer hypothetical. It is now the layered `v2` first refresh recorded in [15-propagation-registry-v2-layered-first-refresh.md](15-propagation-registry-v2-layered-first-refresh.md) and `artifacts/02-06`.

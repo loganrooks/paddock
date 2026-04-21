@@ -168,6 +168,7 @@ Date: 2026-04-21
 - current propagation-registry status: `the family now also has a first compact machine-readable slice under propagation-audit/13-machine-readable-propagation-registry-first-slice.md and artifacts/01-propagation-field-registry-v1.json`
 - current propagation-registry-policy status: `future refreshes are now explicitly routed through an AI-authored hybrid policy: seed from maintained inventory/docs surfaces, join them with bounded observed/validated carriers, then disposition through the prose propagation family`
 - current propagation-registry-reread status: `lane-03 is now completed and inherited under propagation-audit/launch-truth|outputs|dispositions/03-propagation-registry-system-cross-vendor-*; Opus now leads the structural widening toward a layered/federated registry family, GPT corroborates the need to split the blended evidence bucket, and the active next move is the typed/federated v2 design pass before any diff helper`
+- current propagation-registry-v2 status: `the typed first refresh is now landed under propagation-audit/15-propagation-registry-v2-layered-first-refresh.md and artifacts/02-06: inventory roster, declared contracts, semantic map, evidence index, and coverage/refresh control are now separate surfaces instead of one blended registry story`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -248,9 +249,10 @@ Date: 2026-04-21
 29. use `propagation-audit/dispositions/02-broader-network-propagation-field-mapping-inheritance.md` as the current routing note for the widened propagation field
 30. use `propagation-audit/09-sharpened-propagation-field-split.md` as the active sharper field map when `08` is too coarse
 31. use `propagation-audit/10-model-policy-three-surface-invariant.md`, `11-upstream-pristine-frontier-propagation-obligation.md`, and `12-cross-family-edge-supplement.md` as the current invariant / relation layer for the propagation family
-32. use `propagation-audit/13-machine-readable-propagation-registry-first-slice.md`, `14-propagation-registry-generation-and-seeding-policy.md`, and `artifacts/01-propagation-field-registry-v1.json` as the current compact registry baseline for this family
-33. use `propagation-audit/dispositions/03-propagation-registry-system-cross-vendor-inheritance.md` as the current routing note for the registry family rather than reopening the diff-tool branch
-34. revise the registry family before any diff helper: layer the family more explicitly, split the blended evidence bucket, and refresh the current `v1` slice into a typed/federated `v2` shape against the maintained upstream/local roster frontiers
+32. use `propagation-audit/13-machine-readable-propagation-registry-first-slice.md` only as the predecessor compact slice, not as the active registry shape by itself
+33. use `propagation-audit/14-propagation-registry-generation-and-seeding-policy.md`, `15-propagation-registry-v2-layered-first-refresh.md`, and `artifacts/02-06` as the active typed registry baseline for this family
+34. use `propagation-audit/dispositions/03-propagation-registry-system-cross-vendor-inheritance.md` as the routing note for why the family is now layered/federated rather than reopening the diff-tool branch
+35. on the next propagation-relevant contract change, prefer a change-triggered slice refresh against the typed `v2` registry surfaces rather than rebuilding a new flat snapshot first
 
 ## Open Questions
 

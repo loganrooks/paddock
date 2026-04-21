@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "basis_commit": "052f49d",
+  "evidence_entries": [
+    {
+      "id": "overlay_contract_validation",
+      "evidence_lane": "contract_validation",
+      "path": "tooling/codex/portable_gsd_contract.py",
+      "note": "validator and post-materialization contract checks for tracked overlay ownership"
+    },
+    {
+      "id": "portable_materialization_check",
+      "evidence_lane": "materialization",
+      "path": "scripts/setup-portable-gsd.sh",
+      "note": "install entry plus overlay/materialization bridge"
+    },
+    {
+      "id": "uplift_manifest_current",
+      "evidence_lane": "producer_scoped_report",
+      "path": ".planning/UPLIFT-MANIFEST.json",
+      "note": "current producer-scoped uplift memory with observed inputs and held-later carry"
+    },
+    {
+      "id": "runtime_visibility_snapshot",
+      "evidence_lane": "observed_runtime",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/tranche-audit/artifacts/01-runtime-visibility-report.json",
+      "note": "frozen runtime-visibility report for selected high-leverage carriers"
+    },
+    {
+      "id": "manifest_install_coherence_report",
+      "evidence_lane": "coherence",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/artifacts/02-manifest-install-coherence-report.json",
+      "note": "selected-scope manifest/install coherence report"
+    },
+    {
+      "id": "launch_capture_lane_03",
+      "evidence_lane": "capture",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/launch-truth/03-propagation-registry-system-cross-vendor-launch-truth.md",
+      "note": "lane-03 requested-versus-effective launch record"
+    }
+  ]
+}

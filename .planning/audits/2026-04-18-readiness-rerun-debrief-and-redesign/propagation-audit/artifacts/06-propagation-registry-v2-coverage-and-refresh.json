@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "basis_commit": "052f49d",
+  "inherited_dispositions": [
+    "propagation-audit/dispositions/01-propagation-chain-reread-inheritance.md",
+    "propagation-audit/dispositions/02-broader-network-propagation-field-mapping-inheritance.md",
+    "propagation-audit/dispositions/03-propagation-registry-system-cross-vendor-inheritance.md"
+  ],
+  "coverage_gate": [
+    {
+      "family": "doctrine",
+      "coverage_status": "mapped",
+      "roster_source": "root_doctrine",
+      "notes": "repo and planning doctrine carriers are represented in the semantic map"
+    },
+    {
+      "family": "helper",
+      "coverage_status": "mapped",
+      "roster_source": "local_tooling_inventory",
+      "notes": "helper cohort is still sampled rather than exhaustive; current slice covers the named high-consequence helpers"
+    },
+    {
+      "family": "install_overlay",
+      "coverage_status": "mapped",
+      "roster_source": "overlay_manifest_roster",
+      "notes": "typed through the overlay contract frontier"
+    },
+    {
+      "family": "install_pristine",
+      "coverage_status": "mapped",
+      "roster_source": "upstream_inventory",
+      "notes": "current slice carries the install bridge and pristine frontier distinction, not full upstream file coverage"
+    },
+    {
+      "family": "launch_truth",
+      "coverage_status": "mapped_but_roster_thin",
+      "roster_source": "launch_history",
+      "notes": "launch-truth family is locally governed but still lacks a richer dedicated maintained roster surface"
+    },
+    {
+      "family": "compact_prompt",
+      "coverage_status": "mapped_but_local_only",
+      "roster_source": "workspace_governance",
+      "notes": "current slice keeps compact prompts explicit without treating them as upstream roster surfaces"
+    }
+  ],
+  "refresh_kinds": [
+    {
+      "kind": "lane_scoped_refresh",
+      "status": "landed_now",
+      "notes": "this v2 split is a lane-scoped refresh after the registry-system reread"
+    },
+    {
+      "kind": "change_triggered_slice_refresh",
+      "status": "active_next",
+      "notes": "next propagation-relevant slice should refresh only the touched families and adjacent coverage rows"
+    },
+    {
+      "kind": "scheduled_whole_registry_refresh",
+      "status": "held",
+      "notes": "cadence remains later-family work until the typed split has survived real slice refreshes"
+    }
+  ],
+  "refusals": [
+    "no whole-harness auto-extraction as semantic truth",
+    "no diff helper before the typed split has survived real refresh use",
+    "no semantic overclaim from validation or coherence outputs",
+    "no cross-runtime topology expansion inside this first typed refresh",
+    "no upstream-template drift machinery inside this first typed refresh"
+  ],
+  "held_pressures": [
+    "cross-runtime uplift composition",
+    "upstream-template drift machinery",
+    "aged-bespoke deep merge",
+    "compatibility surface",
+    "broader registry authorship policy across vendors"
+  ]
+}

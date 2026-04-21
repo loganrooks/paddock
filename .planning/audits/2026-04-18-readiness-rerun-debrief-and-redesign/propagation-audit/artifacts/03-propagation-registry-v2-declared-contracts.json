@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "basis_commit": "052f49d",
+  "contracts": [
+    {
+      "id": "overlay_ownership_contract",
+      "path": "tooling/portable-gsd/overlay/OVERLAY-MANIFEST.json",
+      "validator": "tooling/codex/portable_gsd_contract.py",
+      "contract_kind": "tracked overlay ownership and add/overwrite typing",
+      "families_touched": [
+        "install_overlay",
+        "workflow_output",
+        "template_shape",
+        "reference_behavior",
+        "reference_owner_skill",
+        "registry"
+      ],
+      "claim_boundary": "declares which carried files are added versus overwritten and which local overlay surfaces belong to the tracked frontier"
+    },
+    {
+      "id": "portable_materialization_contract",
+      "path": "tooling/codex/portable_gsd_contract.py",
+      "validator": "tooling/codex/portable_gsd_contract.py",
+      "contract_kind": "overlay application and post-materialization verification semantics",
+      "families_touched": [
+        "install_pristine",
+        "install_overlay",
+        "registry"
+      ],
+      "claim_boundary": "declares how the tracked overlay is applied and which post-materialization checks are part of the local contract"
+    }
+  ]
+}
