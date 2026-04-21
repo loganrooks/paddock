@@ -41,6 +41,7 @@ Date: 2026-04-19
 These are the files that currently govern local decisions about what this workspace is for, what questions it should ask, how evidence should be packeted, and what program shapes remain live.
 
 - `AUDIT-CHARTER.md`
+- `GOVERNANCE-READING-AND-UPDATE-PROTOCOL.md`
 - `CURRENT-STATE.md`
 - `QUESTION-SET.md`
 - `EVIDENCE-ARCHITECTURE.md`
@@ -61,11 +62,12 @@ What this class cannot do on its own:
 - mutate repo canon
 - silently promote challenge outputs or inquiry corpus into doctrine
 
-### 2. Briefing And Procedural Scaffolding
+### 2. Briefing, Support Traces, And Procedural Scaffolding
 
-These files route readers, preserve launch contracts, and carry situated operator context, but they do not settle substantive claims on their own.
+These files route readers, preserve launch contracts, or carry longer supporting traces, but they do not settle substantive claims on their own.
 
 - `INDEX.md`
+- `CURRENT-STATE-TRACE.md`
 - `ONBOARDING.md`
 - `SESSION-FRAMING-BRIEF.md`
 - lane specs and launch prompts in this directory
@@ -74,6 +76,7 @@ These files route readers, preserve launch contracts, and carry situated operato
 What this class can do:
 
 - define read order
+- preserve longer cumulative buildup without overloading the short governing synthesis
 - preserve situated framing and operator hypotheses
 - define the contract for a given external lane
 - preserve launch history and audit trail
@@ -192,11 +195,12 @@ Read:
 
 1. `AUDIT-CHARTER.md`
 2. `WORKSPACE-AUTHORITY-AND-ORGANIZATION.md`
-3. `CURRENT-STATE.md`
-4. `QUESTION-SET.md`
-5. `EVIDENCE-ARCHITECTURE.md`
-6. `PLAN-PROPOSALS.md`
-7. `STATUS.md`
+3. `GOVERNANCE-READING-AND-UPDATE-PROTOCOL.md`
+4. `CURRENT-STATE.md`
+5. `QUESTION-SET.md`
+6. `EVIDENCE-ARCHITECTURE.md`
+7. `PLAN-PROPOSALS.md`
+8. `STATUS.md`
 
 Then add only the challenge artifacts directly relevant to the disputed point.
 

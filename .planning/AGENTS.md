@@ -39,6 +39,42 @@ Inside `.planning/`:
 - if an artifact is stale but still historically relevant, prefer status notes and replacement pointers over deletion
 - do not let large generated corpora dominate the active planning surface without an explicit retention decision
 
+### Governance-Doc Progressive Disclosure
+
+When a planning or audit subtree has a governance set, keep the jobs sharply separated instead of letting one file absorb all roles.
+
+Preferred shape:
+
+- `INDEX.md`
+  - entry point, read order, and artifact inventory
+- `WORKSPACE-AUTHORITY-AND-ORGANIZATION.md`
+  - authority classes, role disputes, and reread discipline
+- `PLAIN-LANGUAGE-*`
+  - fastest honest re-entry for a lost reader
+- `CURRENT-STATE.md`
+  - short governing synthesis: what remains true, what currently matters, and what the next real decision surfaces are
+- `CURRENT-STATE-TRACE.md` or equivalent
+  - longer cumulative trace when the short synthesis would otherwise become overloaded
+- `STATUS.md`
+  - mutable queue, checkpoint ledger, and active next-step routing
+
+Update rules:
+
+- do not expand `CURRENT-STATE.md` into a cumulative warehouse just because new work landed
+- if a new change mainly affects:
+  - current baseline or governing consequence: update `CURRENT-STATE.md`
+  - cumulative rationale or historical buildup: update `CURRENT-STATE-TRACE.md` or another supporting trace
+  - next actions / mutable queue: update `STATUS.md`
+  - discoverability / read order: update `INDEX.md`
+  - authority or doc-role boundaries: update `WORKSPACE-AUTHORITY-AND-ORGANIZATION.md`
+- if one governance doc is carrying more than one of those jobs, split it instead of adding more prose
+- prefer progressive disclosure:
+  - short synthesis first
+  - supporting trace second
+  - family-specific artifacts only when the task actually touches that family
+- when creating a supporting trace, make the short governing doc point to it explicitly so readers can choose depth deliberately rather than by file sprawl
+- when a workspace has several intervention families in flight, add a `what to read next by task` or equivalent routing surface instead of expecting every reader to reconstruct relevance from chronology alone
+
 ### Reference-Graph Hygiene
 
 For structural `.planning/` changes that can affect markdown links, prefer the repo-local reference tool over ad hoc manual rewrites:

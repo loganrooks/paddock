@@ -12,11 +12,13 @@
 
 1. [AUDIT-CHARTER.md](AUDIT-CHARTER.md)
 2. [WORKSPACE-AUTHORITY-AND-ORGANIZATION.md](WORKSPACE-AUTHORITY-AND-ORGANIZATION.md)
-3. [PLAIN-LANGUAGE-STATE.md](PLAIN-LANGUAGE-STATE.md)
-4. [PLAIN-LANGUAGE-GLOSSARY.md](PLAIN-LANGUAGE-GLOSSARY.md)
-5. [CURRENT-STATE.md](CURRENT-STATE.md)
-6. [ONBOARDING.md](ONBOARDING.md)
-7. [SESSION-FRAMING-BRIEF.md](SESSION-FRAMING-BRIEF.md)
+3. [GOVERNANCE-READING-AND-UPDATE-PROTOCOL.md](GOVERNANCE-READING-AND-UPDATE-PROTOCOL.md)
+4. [PLAIN-LANGUAGE-STATE.md](PLAIN-LANGUAGE-STATE.md)
+5. [PLAIN-LANGUAGE-GLOSSARY.md](PLAIN-LANGUAGE-GLOSSARY.md)
+6. [CURRENT-STATE.md](CURRENT-STATE.md)
+7. [CURRENT-STATE-TRACE.md](CURRENT-STATE-TRACE.md)
+8. [ONBOARDING.md](ONBOARDING.md)
+9. [SESSION-FRAMING-BRIEF.md](SESSION-FRAMING-BRIEF.md)
 8. [QUESTION-SET.md](QUESTION-SET.md)
 9. [EVIDENCE-ARCHITECTURE.md](EVIDENCE-ARCHITECTURE.md)
 10. [PLAN-PROPOSALS.md](PLAN-PROPOSALS.md)
@@ -187,6 +189,8 @@
 - locked next sequence for that family:
   - use the harmonized `37`, `38`, `39`, and landed `40` slice as the active local basis for later challenge, widening, and verification work
   - before additive install-route or cross-runtime widening, decide whether to challenge the landed slice directly or extend it through more real-case exercise
+- current governance protocol for progressive disclosure and doc-update routing: `GOVERNANCE-READING-AND-UPDATE-PROTOCOL.md`
+- current supporting cumulative trace behind the short governing synthesis: `CURRENT-STATE-TRACE.md`
 - current long-horizon cross-vendor challenge subtree and lane-01 inheritance: `long-horizon-audit/`
 - current threshold-language residue audit subtree and first-pass warning surface: `threshold-audit/`
 - current self-overcoming proposal challenge subtree and lane-01 inheritance: `self-overcoming-audit/`
