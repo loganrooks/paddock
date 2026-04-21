@@ -49,6 +49,24 @@
       "evidence_lane": "capture",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/launch-truth/03-propagation-registry-system-cross-vendor-launch-truth.md",
       "note": "lane-03 requested-versus-effective launch record"
+    },
+    {
+      "id": "launch_capture_threshold_05",
+      "evidence_lane": "capture",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/threshold-audit/launch-truth/05-historical-scanner-influenced-reread-launch-truth.md",
+      "note": "threshold-audit lane-05 requested-versus-effective launch record"
+    },
+    {
+      "id": "historical_scanner_reread_output_05",
+      "evidence_lane": "lane_output",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/threshold-audit/outputs/05-historical-scanner-influenced-reread-gpt54-xhigh-r1.md",
+      "note": "bounded historical reread output over the scanner-influenced commit family"
+    },
+    {
+      "id": "threshold_scanner_helper_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_scan_threshold_language.py",
+      "note": "direct unit coverage for explicit anti-pattern prohibition lines in the scanner helper"
     }
   ]
 }

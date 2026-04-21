@@ -6,7 +6,8 @@
     "propagation-audit/dispositions/02-broader-network-propagation-field-mapping-inheritance.md",
     "propagation-audit/dispositions/03-propagation-registry-system-cross-vendor-inheritance.md",
     "propagation-audit/16-compatibility-anchor-change-triggered-refresh.md",
-    "propagation-audit/17-compatibility-consumer-follow-through-refresh.md"
+    "propagation-audit/17-compatibility-consumer-follow-through-refresh.md",
+    "propagation-audit/18-threshold-scanner-change-triggered-refresh.md"
   ],
   "coverage_gate": [
     {
@@ -19,7 +20,7 @@
       "family": "helper",
       "coverage_status": "mapped",
       "roster_source": "local_tooling_inventory",
-      "notes": "helper cohort is still sampled rather than exhaustive; current slice covers the named high-consequence helpers"
+      "notes": "helper cohort is still sampled rather than exhaustive; current slice now covers the named high-consequence helpers plus the threshold scanner helper"
     },
     {
       "family": "install_overlay",
@@ -40,6 +41,12 @@
       "notes": "launch-truth family is locally governed but still lacks a richer dedicated maintained roster surface"
     },
     {
+      "family": "governance_lane",
+      "coverage_status": "mapped",
+      "roster_source": "workspace_governance",
+      "notes": "lane-local inheritance now carries both propagation and threshold-audit historical reread force explicitly"
+    },
+    {
       "family": "compact_prompt",
       "coverage_status": "mapped_but_local_only",
       "roster_source": "workspace_governance",
@@ -54,8 +61,8 @@
     },
     {
       "kind": "change_triggered_slice_refresh",
-      "status": "anchor_plus_consumer_follow_through_landed",
-      "notes": "the compatibility anchor slice first refreshed the uplift/runtime carriers, then the consumer-chain follow-through refreshed the live read-only routing surfaces that now surface runtime-basis movement back to operators"
+      "status": "anchor_consumer_and_threshold_scanner_follow_through_landed",
+      "notes": "the compatibility anchor slice first refreshed the uplift/runtime carriers, the consumer-chain follow-through refreshed the live read-only routing surfaces, and the threshold-scanner slice refreshed helper plus lane-governance carry"
     },
     {
       "kind": "scheduled_whole_registry_refresh",
@@ -75,6 +82,7 @@
     "upstream-template drift machinery",
     "aged-bespoke deep merge",
     "broader compatibility window or standalone compatibility carrier",
-    "broader registry authorship policy across vendors"
+    "broader registry authorship policy across vendors",
+    "richer role-aware heuristic classification that still cannot drift into prose control"
   ]
 }

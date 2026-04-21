@@ -253,6 +253,17 @@
       "evidence_refs": []
     },
     {
+      "id": "threshold_scanner_helper",
+      "family": "helper",
+      "path": "tooling/codex/scan_threshold_language.py",
+      "role": "heuristic widening intake for threshold-framing reread",
+      "support_mode": "roster_plus_tested_behavior",
+      "evidence_refs": [
+        "threshold_scanner_helper_tests",
+        "historical_scanner_reread_output_05"
+      ]
+    },
+    {
       "id": "uplift_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md",
@@ -359,6 +370,28 @@
       "role": "widened propagation inheritance",
       "support_mode": "semantic_only_local",
       "evidence_refs": []
+    },
+    {
+      "id": "threshold_audit_output_05",
+      "family": "governance_lane",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/threshold-audit/outputs/05-historical-scanner-influenced-reread-gpt54-xhigh-r1.md",
+      "role": "bounded historical reread over the scanner-influenced commit family",
+      "support_mode": "semantic_plus_capture_evidence",
+      "evidence_refs": [
+        "historical_scanner_reread_output_05",
+        "launch_capture_threshold_05"
+      ]
+    },
+    {
+      "id": "threshold_audit_inheritance_05",
+      "family": "governance_lane",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/threshold-audit/dispositions/05-historical-scanner-influenced-reread-inheritance.md",
+      "role": "accepted historical reread and caveat layer for the threshold family",
+      "support_mode": "semantic_plus_capture_evidence",
+      "evidence_refs": [
+        "historical_scanner_reread_output_05",
+        "launch_capture_threshold_05"
+      ]
     }
   ],
   "edges": [
@@ -530,6 +563,59 @@
       "evidence_refs": [
         "uplift_manifest_current"
       ],
+      "status": "mapped"
+    },
+    {
+      "id": "planning_doctrine_to_threshold_scanner",
+      "from": "planning_agents",
+      "to": "threshold_scanner_helper",
+      "kind": "doctrine_bounds_helper_role",
+      "support_mode": "semantic_plus_tested_behavior",
+      "evidence_refs": [
+        "threshold_scanner_helper_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "threshold_scanner_to_historical_reread",
+      "from": "threshold_scanner_helper",
+      "to": "threshold_audit_output_05",
+      "kind": "heuristic_intake_reinterpreted_by_contextual_reread",
+      "support_mode": "semantic_plus_capture_evidence",
+      "evidence_refs": [
+        "historical_scanner_reread_output_05",
+        "launch_capture_threshold_05"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "threshold_reread_to_inheritance",
+      "from": "threshold_audit_output_05",
+      "to": "threshold_audit_inheritance_05",
+      "kind": "lane_output_to_inheritance",
+      "support_mode": "semantic_plus_capture_evidence",
+      "evidence_refs": [
+        "historical_scanner_reread_output_05",
+        "launch_capture_threshold_05"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "threshold_inheritance_to_workspace_current_state",
+      "from": "threshold_audit_inheritance_05",
+      "to": "workspace_current_state",
+      "kind": "lane_inheritance_updates_workspace_governance",
+      "support_mode": "semantic_only_local",
+      "evidence_refs": [],
+      "status": "mapped"
+    },
+    {
+      "id": "threshold_inheritance_to_workspace_status",
+      "from": "threshold_audit_inheritance_05",
+      "to": "workspace_status",
+      "kind": "lane_inheritance_updates_workspace_queue",
+      "support_mode": "semantic_only_local",
+      "evidence_refs": [],
       "status": "mapped"
     }
   ]

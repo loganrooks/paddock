@@ -122,6 +122,7 @@ Status: active inventory
 - `propagation-audit/15-propagation-registry-v2-layered-first-refresh.md`
 - `propagation-audit/16-compatibility-anchor-change-triggered-refresh.md`
 - `propagation-audit/17-compatibility-consumer-follow-through-refresh.md`
+- `propagation-audit/18-threshold-scanner-change-triggered-refresh.md`
 - `propagation-audit/artifacts/01-propagation-field-registry-v1.json`
 - `propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json`
 - `propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json`

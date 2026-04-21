@@ -84,6 +84,7 @@ Status: active widened inheritance batch
 - [15-propagation-registry-v2-layered-first-refresh.md](15-propagation-registry-v2-layered-first-refresh.md)
 - [16-compatibility-anchor-change-triggered-refresh.md](16-compatibility-anchor-change-triggered-refresh.md)
 - [17-compatibility-consumer-follow-through-refresh.md](17-compatibility-consumer-follow-through-refresh.md)
+- [18-threshold-scanner-change-triggered-refresh.md](18-threshold-scanner-change-triggered-refresh.md)
 - [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 - [artifacts/02-propagation-registry-v2-inventory-roster.json](artifacts/02-propagation-registry-v2-inventory-roster.json)
 - [artifacts/03-propagation-registry-v2-declared-contracts.json](artifacts/03-propagation-registry-v2-declared-contracts.json)
@@ -130,3 +131,4 @@ Status: active widened inheritance batch
 - [d:r:i] The layered `v2` first refresh is now landed too: `15` plus `artifacts/02-06` split roster sources, declared contracts, semantic map, observed evidence, and coverage/refresh control into separate surfaces.
 - [d:r:i] The first real `change_triggered_slice_refresh` is now landed too: `16` records the compatibility-anchor slice, and `artifacts/04-06` now answer back to that live contract change rather than only to the earlier flat-registry redesign.
 - [d:r:i] The next compatibility-bearing refresh is now landed too: `17` records the consumer-chain follow-through after the xhigh reread surfaced a durable-output-only carry gap, and the typed `v2` semantic/coverage surfaces now keep the live `progress` / `resume-project` routing in view.
+- [d:r:i] A second non-uplift change-triggered refresh is now landed too: `18` records the threshold-scanner historical-reread slice, and the typed `v2` semantic/coverage surfaces now keep the scanner helper plus threshold-audit lane inheritance in view instead of leaving that helper/governance relation ambient.
