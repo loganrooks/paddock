@@ -1,5 +1,5 @@
 Date: 2026-04-21
-Status: completed Opus widening lane; locally inherited
+Status: completed Opus widening lane; first bounded follow-through slice landed
 
 # Harness Improvement Audit
 
@@ -16,7 +16,8 @@ Status: completed Opus widening lane; locally inherited
 5. [launch-truth/01-harness-maximal-improvement-field-map-launch-truth.md](launch-truth/01-harness-maximal-improvement-field-map-launch-truth.md)
 6. [outputs/01-harness-maximal-improvement-field-map-opus47-max-r1.md](outputs/01-harness-maximal-improvement-field-map-opus47-max-r1.md)
 7. [dispositions/01-harness-maximal-improvement-field-map-inheritance.md](dispositions/01-harness-maximal-improvement-field-map-inheritance.md)
+8. [artifacts/01-harness-quality-canary-report.json](artifacts/01-harness-quality-canary-report.json)
 
 ## Current Goal
 
-- [d:r:i] Use the inherited full-field widening map to open bounded follow-through artifacts that intensify robustness, maintainability, propagation visibility, audit reuse, and self-improvement carry while the rerun remains paused.
+- [d:r:i] Use the inherited full-field widening map plus the landed first canary slice to keep opening bounded follow-through artifacts that intensify robustness, maintainability, propagation visibility, audit reuse, and self-improvement carry while the rerun remains paused.

@@ -75,6 +75,14 @@ Status: active inventory
 - `harness-improvement-audit/launch-truth/01-harness-maximal-improvement-field-map-launch-truth.md`
 - `harness-improvement-audit/outputs/01-harness-maximal-improvement-field-map-opus47-max-r1.md`
 - `harness-improvement-audit/dispositions/01-harness-maximal-improvement-field-map-inheritance.md`
+- `harness-improvement-audit/artifacts/01-harness-quality-canary-report.json`
+- `intervention-proposals/45-harness-improvement-follow-through-sequencing.md`
+- `intervention-proposals/46-harness-quality-canary-and-invariant-assertion-proposal.md`
+- `intervention-proposals/47-audit-program-infrastructure-canon-absorption-and-aging-proposal.md`
+- `intervention-proposals/48-harness-self-improvement-register-and-quality-basket-proposal.md`
+- `intervention-proposals/49-harness-quality-canary-first-slice-implementation.md`
+- `.planning/HARNESS-IMPROVEMENT-REGISTER.md`
+- `intervention-proposals/50-harness-self-improvement-register-first-slice-implementation.md`
 
 ### Self-Overcoming Family
 

@@ -19,6 +19,10 @@ Treat these as the primary planning canon:
 - [STATE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/STATE.md)
 - active phase docs under `.planning/phases/`
 
+For repo-local harness improvement pressure that should survive one audit subtree:
+
+- [HARNESS-IMPROVEMENT-REGISTER.md](/home/rookslog/workspace/projects/prix-guesser/.planning/HARNESS-IMPROVEMENT-REGISTER.md)
+
 Additional rules:
 
 - Prefer the latest non-superseded artifact.
@@ -110,6 +114,9 @@ For structural `.planning/` changes that can affect markdown links, prefer the r
   - use for manifest/install coherence work after a selected-lane runtime snapshot exists
   - prefer this over prose-only coherence judgments when the lane needs auditable comparison across updater-boundary truth, tracked carried-subset truth, and frozen final-runtime truth
   - `--strict` is the default quality gate when you want the report to refuse dirty current state or unresolved runtime ambiguity
+- `python3 tooling/codex/harness_canary.py report . --strict`
+  - use when the question is whether bounded runtime/install invariants still hold after a slice that touched runtime authority, install/materialization, or uplift compatibility carry
+  - prefer this over ad hoc reread of `.codex/` files when the invariant set is already explicit and machine-checkable
 
 Move manifest format:
 
@@ -149,6 +156,7 @@ Deletion / retirement rules:
   - `audit_refmap.py`
   - `runtime_visibility.py`
   - `manifest_install_coherence.py`
+  - `harness_canary.py`
   - `project_uplift.py`
 - When one slice crosses several propagation families together, prefer a clean-boundary runtime snapshot plus `manifest_install_coherence.py --strict` as a bounded coherence gate rather than relying on local reasoning alone.
 - When a change spans several producer/consumer families and the required carry is no longer obvious from the local diff, open or extend an explicit propagation audit surface.
