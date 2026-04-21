@@ -47,6 +47,7 @@
 - [AUDIT-LANE-PATTERN-LIBRARY.md](AUDIT-LANE-PATTERN-LIBRARY.md)
 - [AUDIT-CANON-ABSORPTION-PROTOCOL.md](AUDIT-CANON-ABSORPTION-PROTOCOL.md)
 - [AUDIT-SUBTREE-AGING-AND-GRADUATION.md](AUDIT-SUBTREE-AGING-AND-GRADUATION.md)
+- [AUDIT-SUBTREE-STATUS-REGISTER.md](AUDIT-SUBTREE-STATUS-REGISTER.md)
 
 ### Need Mutable Queue And Checkpoints
 
@@ -81,7 +82,9 @@
   - [AUDIT-LANE-PATTERN-LIBRARY.md](AUDIT-LANE-PATTERN-LIBRARY.md)
   - [AUDIT-CANON-ABSORPTION-PROTOCOL.md](AUDIT-CANON-ABSORPTION-PROTOCOL.md)
   - [AUDIT-SUBTREE-AGING-AND-GRADUATION.md](AUDIT-SUBTREE-AGING-AND-GRADUATION.md)
+  - [AUDIT-SUBTREE-STATUS-REGISTER.md](AUDIT-SUBTREE-STATUS-REGISTER.md)
   - [intervention-proposals/51-audit-program-infrastructure-first-slice-implementation.md](intervention-proposals/51-audit-program-infrastructure-first-slice-implementation.md)
+  - [intervention-proposals/52-audit-subtree-status-first-application.md](intervention-proposals/52-audit-subtree-status-first-application.md)
 - project-uplift family:
   - [intervention-proposals/37-entry-surface-and-project-uplift-map.md](intervention-proposals/37-entry-surface-and-project-uplift-map.md)
   - [intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md](intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md)

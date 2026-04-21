@@ -16,7 +16,8 @@ Status: active durable register
   - current evidence: clean strict report frozen at `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/harness-improvement-audit/artifacts/01-harness-quality-canary-report.json`
 - [d:r:i] Audit-program infrastructure
   - current state: first slice landed through `AUDIT-LANE-PATTERN-LIBRARY.md`, `AUDIT-CANON-ABSORPTION-PROTOCOL.md`, and `AUDIT-SUBTREE-AGING-AND-GRADUATION.md`
-  - current pressure: apply the new subtree-status vocabulary and canon-absorption rule on later family moves rather than leaving them as unused doctrine
+  - current evidence: first application landed through `AUDIT-SUBTREE-STATUS-REGISTER.md`
+  - current pressure: apply the canon-absorption rule on later family moves rather than leaving it as unused doctrine
 - [d:r:i] Standing self-improvement register and cross-dimensional quality basket
   - current state: this register is the first landed slice
   - current pressure: keep the field visible without letting it dissolve into scattered proposal notes

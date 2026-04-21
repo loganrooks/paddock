@@ -46,10 +46,12 @@ Status: active governance protocol
   - `AUDIT-LANE-PATTERN-LIBRARY.md`
   - `AUDIT-CANON-ABSORPTION-PROTOCOL.md`
   - `AUDIT-SUBTREE-AGING-AND-GRADUATION.md`
+  - `AUDIT-SUBTREE-STATUS-REGISTER.md`
 - [d:r:i] Use them when:
   - a new audit lane is being designed and recurring scaffold questions keep reappearing
   - a landed family needs doctrine/helper/register absorption rather than remaining trapped in one subtree
   - an audit subtree no longer owns the immediate next move and its later force needs clearer routing
+  - a reader needs the quickest current answer to which subtree is still live route, companion context, or aging trace
 
 ### `PLAIN-LANGUAGE-STATE.md` and `PLAIN-LANGUAGE-GLOSSARY.md`
 
@@ -140,6 +142,7 @@ Read:
   - reusable audit-lane structure -> `AUDIT-LANE-PATTERN-LIBRARY.md`
   - doctrine/helper/register uplift routing -> `AUDIT-CANON-ABSORPTION-PROTOCOL.md`
   - subtree-force aging or graduation -> `AUDIT-SUBTREE-AGING-AND-GRADUATION.md`
+  - current subtree-force application -> `AUDIT-SUBTREE-STATUS-REGISTER.md`
 - [d:r:i] If a new update seems to belong in all of them, that is a warning sign that the change has not been decomposed cleanly enough yet.
 - [d:r:i] If one governance doc starts carrying multiple jobs at once, split the file instead of continuing to accrete prose.
 

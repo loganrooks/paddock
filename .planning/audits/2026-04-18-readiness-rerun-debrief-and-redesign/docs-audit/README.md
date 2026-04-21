@@ -1,3 +1,6 @@
+Date: 2026-04-21
+Status: active companion
+
 # Docs Audit
 
 This subtree holds bounded lanes about documentation carry, inheritance, and transformation for the submitted upstream docs PR and related onboarding/intervention surfaces.

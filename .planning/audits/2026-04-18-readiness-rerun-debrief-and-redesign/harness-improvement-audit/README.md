@@ -1,5 +1,5 @@
 Date: 2026-04-21
-Status: completed Opus widening lane; first bounded follow-through slice landed
+Status: active lane; completed Opus widening lane; first bounded follow-through slices landed
 
 # Harness Improvement Audit
 

@@ -1,5 +1,5 @@
-Date: 2026-04-20
-Status: first-pass residue audit completed
+Date: 2026-04-21
+Status: active companion; first-pass residue audit completed
 
 # Threshold Audit
 

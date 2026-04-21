@@ -1,5 +1,5 @@
-Date: 2026-04-20
-Status: active narrow cross-vendor review lane
+Date: 2026-04-21
+Status: aging companion; bounded runtime-visibility tranche preserved as comparison and implementation-pressure trail
 
 # Tranche Audit
 

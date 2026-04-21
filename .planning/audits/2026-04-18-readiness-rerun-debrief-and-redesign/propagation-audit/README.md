@@ -1,5 +1,5 @@
 Date: 2026-04-21
-Status: active widened inheritance batch
+Status: active lane; widened inheritance batch
 
 # Propagation Audit
 

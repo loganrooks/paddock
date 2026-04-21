@@ -1,5 +1,5 @@
-Date: 2026-04-20
-Status: lane-01 completed and locally inherited
+Date: 2026-04-21
+Status: active companion; lane-01 completed and locally inherited
 
 # Long-Horizon Audit
 

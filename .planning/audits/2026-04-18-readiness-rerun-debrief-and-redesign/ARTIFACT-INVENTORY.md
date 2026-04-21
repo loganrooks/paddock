@@ -86,7 +86,9 @@ Status: active inventory
 - `AUDIT-LANE-PATTERN-LIBRARY.md`
 - `AUDIT-CANON-ABSORPTION-PROTOCOL.md`
 - `AUDIT-SUBTREE-AGING-AND-GRADUATION.md`
+- `AUDIT-SUBTREE-STATUS-REGISTER.md`
 - `intervention-proposals/51-audit-program-infrastructure-first-slice-implementation.md`
+- `intervention-proposals/52-audit-subtree-status-first-application.md`
 
 ### Self-Overcoming Family
 
