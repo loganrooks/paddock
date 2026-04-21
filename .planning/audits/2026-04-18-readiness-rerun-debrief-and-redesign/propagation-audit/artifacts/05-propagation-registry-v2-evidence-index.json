@@ -12,7 +12,7 @@
       "id": "portable_materialization_check",
       "evidence_lane": "materialization",
       "path": "scripts/setup-portable-gsd.sh",
-      "note": "install entry plus overlay/materialization bridge"
+      "note": "install entry plus repo-local runtime verification, fresh-install pristine capture, and overlay/materialization bridge"
     },
     {
       "id": "uplift_manifest_current",
@@ -73,6 +73,18 @@
       "evidence_lane": "implementation_note",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/54-verifier-lifecycle-carry-first-slice-implementation.md",
       "note": "landed verifier-side lifecycle carry slice covering workflow, template, registry, reference, helper follow-through, and the held setup-script fragility"
+    },
+    {
+      "id": "setup_runtime_helper_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_ensure_gsd_sdk_runtime.py",
+      "note": "direct unit coverage for healthy runtime verification, non-executable shebang-target repair, and unresolved no-candidate cases in the gsd-sdk runtime helper"
+    },
+    {
+      "id": "setup_portable_gsd_impl_56",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/56-setup-portable-gsd-robustness-and-reinstall-truth-implementation.md",
+      "note": "landed setup/materialization robustness slice covering bounded gsd-sdk runtime repair, fresh-install pristine overwrite capture, direct local helper proof, and isolated-worktree full setup proof"
     }
   ]
 }

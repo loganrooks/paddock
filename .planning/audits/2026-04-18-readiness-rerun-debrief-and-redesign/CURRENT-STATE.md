@@ -61,8 +61,9 @@ Status: active governing synthesis
 - [d:r:i] The first application of that infrastructure is now landed too. The workspace now has a central subtree-status register and clearer subtree-status force across the main audit family READMEs, which gives later readers more control over what is active lane, active companion, or aging trace.
 - [d:r:i] The broader contract-propagation / dependency-carry question is no longer only a seed concern. It is now an active governed family with local producer / consumer mapping, three completed external challenge lanes, the typed `v2` registry split, and the first real change-triggered slice refresh.
 - [d:r:i] The lifecycle-carry family is no longer only a full-field inheritance note. The first verifier-chain slice is now landed in `53` and `54`, so planning-side `future_preservation` now reaches verifier workflow, template, registry contract, reference contract, and helper fingerprint carry.
-- [d:r:i] The verifier-lifecycle slice also surfaced a separate robustness pressure that remains explicit rather than blurred into success language: direct local `setup-portable-gsd.sh` reruns still fail their upstream `gsd-sdk` PATH self-check here, while `portable_gsd_contract.py` remains the verified local recovery/materialization path.
+- [d:r:i] That earlier setup/materialization fragility is no longer only a held note. The first bounded harden slice is now landed in `55` and `56`: `setup-portable-gsd.sh` routes through a bounded `gsd-sdk` runtime helper plus fresh-install pristine overwrite capture, direct local helper proof restored the real launcher target from `0o600` to `0o755`, and a fresh isolated worktree completed the full setup path cleanly.
 - [d:r:i] The propagation family now also carries a third non-uplift change-triggered refresh in `19`, so the typed `v2` registry no longer only remembers compatibility and threshold-helper movement; it now also keeps verifier-side workflow/template/reference/registry movement explicit.
+- [d:r:i] The propagation family now also carries a fourth non-uplift change-triggered refresh in `20`, so the typed `v2` registry now keeps the setup entry bridge, bounded `gsd-sdk` runtime helper, and fresh-install pristine overwrite capture explicit instead of leaving reinstall-truth movement compressed into one installer row.
 
 ## Immediate Decision Surfaces
 
@@ -103,7 +104,7 @@ Status: active governing synthesis
 - [o:r:i] Which parts of the submitted docs PR should remain stable governance/reference docs, and which should be paired with stronger intervention-oriented companions?
 - [o:r:i] If later family growth overloads the governance set again, what further routing surfaces would sharpen relevance without pushing the short synthesis back toward warehouse behavior?
 - [o:r:i] Which later lifecycle surface should inherit next after the verifier-chain slice: `transition`, milestone boundaries, `STATE/progress`, `SPEC`, or seed-consumer carry?
-- [o:r:i] How should repo-local setup / reinstall robustness improve after the surfaced `gsd-sdk` PATH self-check failure so repeated local materialization is more durable without overclaiming upstream installer control?
+- [o:r:i] Which adjacent setup/materialization follow-through should inherit after the first bounded harden slice: wider repeated-reinstall probes, updater/frontier movement, or a later standalone compatibility carrier?
 
 ## Read Next
 

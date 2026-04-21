@@ -21,13 +21,13 @@
       "id": "portable_materialization_contract",
       "path": "tooling/codex/portable_gsd_contract.py",
       "validator": "tooling/codex/portable_gsd_contract.py",
-      "contract_kind": "overlay application and post-materialization verification semantics",
+      "contract_kind": "fresh-install pristine capture, overlay application, and post-materialization verification semantics",
       "families_touched": [
         "install_pristine",
         "install_overlay",
         "registry"
       ],
-      "claim_boundary": "declares how the tracked overlay is applied and which post-materialization checks are part of the local contract"
+      "claim_boundary": "declares how the fresh live install becomes the repo-local pristine overwrite baseline, how the tracked overlay is applied, and which post-materialization checks are part of the local contract"
     },
     {
       "id": "verifier_future_preservation_contract",
@@ -42,6 +42,17 @@
         "helper"
       ],
       "claim_boundary": "declares how planning-side future_preservation becomes verifier review obligations, report shape, and helper-visible doctrine carriers when present"
+    },
+    {
+      "id": "gsd_sdk_runtime_contract",
+      "path": "tooling/codex/ensure_gsd_sdk_runtime.py",
+      "validator": "tooling/codex/ensure_gsd_sdk_runtime.py",
+      "contract_kind": "repo-local gsd-sdk runtime verification and bounded executable repair",
+      "families_touched": [
+        "install_pristine",
+        "helper"
+      ],
+      "claim_boundary": "declares the bounded repo-local recovery path for the gsd-sdk launcher when the discovered shebang target loses readable/executable mode without muting real off-PATH or broader install failures"
     }
   ]
 }

@@ -62,6 +62,8 @@ Status: active proposal/disposition batch
 52. `52-audit-subtree-status-first-application.md`
 53. `53-verifier-lifecycle-carry-first-slice-proposal.md`
 54. `54-verifier-lifecycle-carry-first-slice-implementation.md`
+55. `55-setup-portable-gsd-robustness-and-reinstall-truth-proposal.md`
+56. `56-setup-portable-gsd-robustness-and-reinstall-truth-implementation.md`
 
 ## Proposal Rule
 
@@ -92,5 +94,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `52` now records the first live application of that infrastructure slice: central subtree-status register plus clearer subtree README status force.
 - [d:r:i] `53` now opens the first bounded verifier-side lifecycle slice: connect the planning-side `future_preservation` contract to the verifier workflow, template, registry contract, reference contract, and helper/propagation follow-through instead of letting lifecycle carry thin after planning.
 - [d:r:i] `54` now records the landed first slice itself: tracked overlay ownership for verifier-side workflow/template carriers, widened verifier contract semantics, helper fingerprint follow-through, explicit local recovery path, and the still-held setup-script fragility.
+- [d:r:i] `55` now opens the bounded setup/materialization robustness family directly: repo-local reinstall should become more durable through a bounded `gsd-sdk` runtime helper and a fresh-install pristine overwrite capture stage rather than by weakening overwrite discipline or pretending we control upstream installer semantics.
+- [d:r:i] `56` now records the landed first slice itself: bounded `gsd-sdk` runtime verification/repair, synthetic pristine overwrite capture before overlay application, fresh isolated-worktree proof of the full setup path, and direct local proof that the helper restores the real launcher target from `0o600` back to `0o755`.
 - [d:r:i] `42` now records that harden slice as landed: multi-axis posture, phase-boundary signal, per-carrier fingerprint shape, runtime-agent globbing, typed proposal routes, file-backed held-later carry, widened tests, and the two live consumer/output bugs it surfaced and corrected.
-- [d:r:i] The current broader consequence after `42-54`: use the cleaner uplift slice, the active propagation family, and the landed verifier-lifecycle bridge together rather than assuming one helper or one bounded slice already proves whole-network carry.
+- [d:r:i] The current broader consequence after `42-56`: use the cleaner uplift slice, the active propagation family, the landed verifier-lifecycle bridge, and the hardened setup/materialization path together rather than assuming one helper or one bounded slice already proves whole-network carry.

@@ -25,8 +25,8 @@ Status: active durable register
   - current state: first verifier-chain slice landed through `53` and `54`
   - current pressure: transition, milestone boundaries, SPEC, STATE/progress, and seed consumers
 - [d:r:i] Portable setup robustness and reinstall truth
-  - current state: repeated local restore work now depends on `portable_gsd_contract.py` recovery when the direct setup script exits non-zero
-  - current pressure: reduce fragility around repo-local reinstall/materialization without hiding the current upstream `gsd-sdk` PATH failure
+  - current state: first bounded local harden slice landed through `ensure_gsd_sdk_runtime.py`, fresh-install pristine overwrite capture, and the routed `setup-portable-gsd.sh` recovery path
+  - current pressure: keep widening repeated reinstall durability without confusing repo-local repair with upstream installer control
 - [d:r:i] Uplift / propagation consumer completion
   - current pressure: remaining ownerless uplift routes, pristine-diff, compact-prompt propagation, later freshness signals
 - [d:r:i] Durable-memory / vintage / decay semantics
@@ -39,7 +39,7 @@ Status: active durable register
 ## Current Bounded Next Slices
 
 - [d:r:i] Lifecycle carry follow-through beyond the verifier bridge
-- [d:r:i] Portable setup robustness and reinstall-truth note after the surfaced script fragility
+- [d:r:i] Portable setup robustness follow-through beyond the first bounded recovery/capture slice
 - [d:r:i] Standing self-improvement register growth beyond this first slice
 - [d:r:i] Explicit canon-absorption use on later landed intervention families
 
@@ -53,6 +53,7 @@ Status: active durable register
 - [o:r:i] cross-vendor reviewer-pattern inheritance
 - [o:r:i] later cross-repo posture export
 - [o:r:i] repo-local setup script robustness when upstream installer self-checks fail
+- [o:r:i] broader fresh-install/update movement once the first local setup harden slice has landed
 
 ## Cross-Dimensional Quality Basket
 
@@ -77,6 +78,7 @@ Status: active durable register
 
 - [g:r:i] Keep widening harness quality, maintainability, robustness, propagation carry, governance legibility, and later self-improvement power while the rerun remains paused.
 - [d:r:i] Do not take shortcuts that trade away future control, better routing, or cleaner maintainability merely because the current slice could stop earlier.
+- [d:r:i] When a slice changes a live helper, script, workflow, registry, or contract boundary, keep following through until the neighboring verification, propagation, and governance carriers are back in tune rather than treating the first local patch as the endpoint.
 
 ## Held Later
 

@@ -86,6 +86,7 @@ Status: active lane; widened inheritance batch
 - [17-compatibility-consumer-follow-through-refresh.md](17-compatibility-consumer-follow-through-refresh.md)
 - [18-threshold-scanner-change-triggered-refresh.md](18-threshold-scanner-change-triggered-refresh.md)
 - [19-verifier-lifecycle-carry-change-triggered-refresh.md](19-verifier-lifecycle-carry-change-triggered-refresh.md)
+- [20-setup-portable-gsd-robustness-change-triggered-refresh.md](20-setup-portable-gsd-robustness-change-triggered-refresh.md)
 - [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 - [artifacts/02-propagation-registry-v2-inventory-roster.json](artifacts/02-propagation-registry-v2-inventory-roster.json)
 - [artifacts/03-propagation-registry-v2-declared-contracts.json](artifacts/03-propagation-registry-v2-declared-contracts.json)
@@ -134,3 +135,4 @@ Status: active lane; widened inheritance batch
 - [d:r:i] The next compatibility-bearing refresh is now landed too: `17` records the consumer-chain follow-through after the xhigh reread surfaced a durable-output-only carry gap, and the typed `v2` semantic/coverage surfaces now keep the live `progress` / `resume-project` routing in view.
 - [d:r:i] A second non-uplift change-triggered refresh is now landed too: `18` records the threshold-scanner historical-reread slice, and the typed `v2` semantic/coverage surfaces now keep the scanner helper plus threshold-audit lane inheritance in view instead of leaving that helper/governance relation ambient.
 - [d:r:i] A third non-uplift change-triggered refresh is now landed too: `19` records the verifier-lifecycle slice, and the typed `v2` layers now keep verifier-side workflow/template/reference/registry movement explicit instead of leaving the lifecycle bridge ambient behind one widened proposal note.
+- [d:r:i] A fourth non-uplift change-triggered refresh is now landing too: `20` records the setup/materialization robustness slice, and the typed `v2` layers now keep the setup entry bridge, bounded `gsd-sdk` runtime helper, and fresh-install pristine overwrite capture explicit instead of leaving reinstall-truth movement compressed into one generic installer row.

@@ -127,7 +127,7 @@
       "id": "portable_contract",
       "family": "install_overlay",
       "path": "tooling/codex/portable_gsd_contract.py",
-      "role": "overlay validation, application, reasoning defaults, materialization verification",
+      "role": "fresh-install pristine capture, overlay validation/application, reasoning defaults, materialization verification",
       "support_mode": "declared_contract_plus_validation",
       "evidence_refs": [
         "overlay_contract_validation"
@@ -147,7 +147,7 @@
       "id": "setup_script",
       "family": "install_pristine",
       "path": "scripts/setup-portable-gsd.sh",
-      "role": "upstream install entry and overlay/materialization bridge",
+      "role": "upstream install entry, repo-local runtime verification, pristine capture, and overlay/materialization bridge",
       "support_mode": "roster_plus_materialization_evidence",
       "evidence_refs": [
         "portable_materialization_check"
@@ -433,6 +433,17 @@
       "evidence_refs": [
         "historical_scanner_reread_output_05",
         "launch_capture_threshold_05"
+      ]
+    },
+    {
+      "id": "gsd_sdk_runtime_helper",
+      "family": "helper",
+      "path": "tooling/codex/ensure_gsd_sdk_runtime.py",
+      "role": "repo-local gsd-sdk runtime verification and bounded executable-bit repair",
+      "support_mode": "roster_plus_tested_behavior",
+      "evidence_refs": [
+        "setup_runtime_helper_tests",
+        "setup_portable_gsd_impl_56"
       ]
     }
   ],
@@ -751,6 +762,30 @@
       "kind": "lane_inheritance_updates_workspace_queue",
       "support_mode": "semantic_only_local",
       "evidence_refs": [],
+      "status": "mapped"
+    },
+    {
+      "id": "setup_script_to_sdk_runtime_helper",
+      "from": "setup_script",
+      "to": "gsd_sdk_runtime_helper",
+      "kind": "wrapper_invokes_runtime_verification",
+      "support_mode": "semantic_plus_materialization_evidence",
+      "evidence_refs": [
+        "portable_materialization_check",
+        "setup_portable_gsd_impl_56"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "setup_script_to_portable_contract",
+      "from": "setup_script",
+      "to": "portable_contract",
+      "kind": "wrapper_invokes_pristine_capture_and_overlay_contract",
+      "support_mode": "semantic_plus_materialization_evidence",
+      "evidence_refs": [
+        "portable_materialization_check",
+        "setup_portable_gsd_impl_56"
+      ],
       "status": "mapped"
     }
   ]

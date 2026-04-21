@@ -8,7 +8,8 @@
     "propagation-audit/16-compatibility-anchor-change-triggered-refresh.md",
     "propagation-audit/17-compatibility-consumer-follow-through-refresh.md",
     "propagation-audit/18-threshold-scanner-change-triggered-refresh.md",
-    "propagation-audit/19-verifier-lifecycle-carry-change-triggered-refresh.md"
+    "propagation-audit/19-verifier-lifecycle-carry-change-triggered-refresh.md",
+    "propagation-audit/20-setup-portable-gsd-robustness-change-triggered-refresh.md"
   ],
   "coverage_gate": [
     {
@@ -21,19 +22,19 @@
       "family": "helper",
       "coverage_status": "mapped",
       "roster_source": "local_tooling_inventory",
-      "notes": "helper cohort is still sampled rather than exhaustive; current slice now covers the named high-consequence helpers plus the threshold scanner helper"
+      "notes": "helper cohort is still sampled rather than exhaustive; current slice now covers the named high-consequence helpers plus the threshold scanner helper and the gsd-sdk runtime helper"
     },
     {
       "family": "install_overlay",
       "coverage_status": "mapped",
       "roster_source": "overlay_manifest_roster",
-      "notes": "typed through the overlay contract frontier"
+      "notes": "typed through the overlay contract frontier, with fresh-install pristine capture now preserving overwrite-mode baseline truth before overlay application"
     },
     {
       "family": "install_pristine",
       "coverage_status": "mapped",
       "roster_source": "upstream_inventory",
-      "notes": "current slice carries the install bridge and pristine frontier distinction, not full upstream file coverage"
+      "notes": "current slice now keeps the install bridge, bounded gsd-sdk runtime verification, and fresh-install pristine frontier distinction explicit, not full upstream file coverage"
     },
     {
       "family": "registry",
@@ -86,8 +87,8 @@
     },
     {
       "kind": "change_triggered_slice_refresh",
-      "status": "anchor_consumer_threshold_scanner_and_verifier_lifecycle_follow_through_landed",
-      "notes": "the compatibility anchor slice refreshed uplift/runtime carriers, the consumer-chain follow-through refreshed live read-only routing surfaces, the threshold-scanner slice refreshed helper plus lane-governance carry, and the verifier-lifecycle slice refreshed workflow/template/reference/registry carry"
+      "status": "anchor_consumer_threshold_scanner_verifier_lifecycle_and_setup_robustness_follow_through_landed",
+      "notes": "the compatibility anchor slice refreshed uplift/runtime carriers, the consumer-chain follow-through refreshed live read-only routing surfaces, the threshold-scanner slice refreshed helper plus lane-governance carry, the verifier-lifecycle slice refreshed workflow/template/reference/registry carry, and the setup/materialization slice refreshed installer-entry/helper/contract carry"
     },
     {
       "kind": "scheduled_whole_registry_refresh",
@@ -110,6 +111,6 @@
     "broader registry authorship policy across vendors",
     "richer role-aware heuristic classification that still cannot drift into prose control",
     "later lifecycle carry beyond the verifier bridge",
-    "repo-local setup/materialization robustness under repeated direct reinstalls"
+    "broader repeated-reinstall durability beyond the first local setup/materialization harden slice"
   ]
 }
