@@ -138,8 +138,9 @@ Date: 2026-04-21
 - current long-horizon status: `the challenge-backed field map now centers the work on intensifying boundary carry architecture, building from already-strong long-horizon entry carry; Opus adds a stronger two-systems / preservation-debt model, GPT adds tighter bounded landing shapes`
 - current threshold-language status: `anti-threshold doctrine already exists in root/planning AGENTS and both CLAUDE wrappers; the live follow-on question is residue in older specs, prompts, reviews, and inherited lane artifacts`
 - current threshold-audit status: `the first-pass residue audit is now followed by a bounded spec/prompt and self-overcoming-surface audit: gate logic is structurally appropriate in verification/spec admission surfaces, threshold framing still narrows discuss/research/older audit specs, and the harness already has promising strength-seeking logic in review/future-preservation surfaces but no single explicit self-overcoming companion layer yet`
-- current self-overcoming-companion status: `proposal 30 is now revised to match that challenged reread: the first live slice is a consumer-first strengthening path in future-awareness / future-preservation with plant-seed routing, while the research-mode question stays live as the next adjacent object`
+- current self-overcoming-companion status: `the first consumer-first strengthening slice is now landed in the live planning chain: discuss/context carry the new future-awareness bucket, plan/phase-prompt carry strengthening_routes, and plant-seed now preserves out-of-phase strengthening moves; the research-mode question stays live as the next adjacent object`
 - current instruction-surface status: `root/planning AGENTS and both CLAUDE wrappers now explicitly harden against binary proposal inheritance, risk-used-as-veto, premature top-few narrowing, and using work volume alone as a blocker once stronger cleanup or intervention has been explicitly prioritized`
+- current strengthening-first-slice status: `intervention-proposals/32-strengthening-opportunity-first-slice-implementation.md now records the landed runtime/overlay insertion and its verification: threshold scan clean, normalized live-vs-overlay parity clean, and tracked overlay carry now includes plant-seed`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -200,7 +201,7 @@ Date: 2026-04-21
 9. preserve the strengthened method of `29`: map the full field of pressures, tensions, and strengthening opportunities before filtering down to narrower intervention sequences
 10. inherit the long-horizon pair through the comparative disposition rather than re-opening a generic horizon lane: boundary carry, preservation-debt, canonical-ref carry, compact horizon-watch, and activation-consumer surfaces are now the main follow-through families
 11. preserve the completed threshold-audit result as live reread pressure: older specs, prompts, reviews, and inherited lane artifacts still carry residue even though root/planning `AGENTS.md` and both `CLAUDE.md` wrappers now reject threshold framing directly
-12. revise proposal `30` through the completed self-overcoming audit pair: carry the family, narrow the first live slice toward `future_awareness` plus `future_preservation`, and keep the research-mode shape as the next adjacent object rather than the first insertion
+12. use `32` as the new baseline for this family: judge later research-mode / reference-surface follow-through against real strengthening entries and real seed routing rather than against proposal language alone
 
 ## Open Questions
 

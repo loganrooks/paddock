@@ -39,6 +39,7 @@ Status: active proposal/disposition batch
 29. `29-long-horizon-carry-gap-register.md`
 30. `30-opportunity-seeking-and-self-overcoming-companion-layer-proposal.md`
 31. `31-instruction-surface-hardening-note.md`
+32. `32-strengthening-opportunity-first-slice-implementation.md`
 
 ## Proposal Rule
 
@@ -47,3 +48,4 @@ Status: active proposal/disposition batch
 - [d:r:i] `29` records the next broader pressure that emerged after the re-entry/plain-language pass: long-horizon carry is strong at discuss/plan entry but still weaker in lifecycle, verification, milestone, and harness-self-improvement surfaces.
 - [d:r:i] `30` now records the revised consumer-first follow-through: a `future_awareness` plus `future_preservation` strengthening route as the first live insertion, with the research-mode question held as the next adjacent object.
 - [d:r:i] `31` records the linked instruction-layer hardening so root/planning agent doctrine is less likely to reintroduce binary inheritance, risk-as-veto, or premature narrowing.
+- [d:r:i] `32` records the landed first slice itself across live runtime plus tracked overlay carry, including threshold-residue cleanup and parity verification for the touched planning surfaces.

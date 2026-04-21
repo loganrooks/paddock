@@ -89,29 +89,30 @@
 75. [tranche-audit/artifacts/01-runtime-visibility-report.json](tranche-audit/artifacts/01-runtime-visibility-report.json)
 76. [LAUNCH-LEDGER.md](LAUNCH-LEDGER.md)
 77. [lane-01-opus47-cross-review-disposition.md](lane-01-opus47-cross-review-disposition.md)
-77. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
-78. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
-79. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
-80. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
-81. [corpus/README.md](corpus/README.md)
-82. [intervention-proposals/29-long-horizon-carry-gap-register.md](intervention-proposals/29-long-horizon-carry-gap-register.md)
-83. [intervention-proposals/30-opportunity-seeking-and-self-overcoming-companion-layer-proposal.md](intervention-proposals/30-opportunity-seeking-and-self-overcoming-companion-layer-proposal.md)
-84. [long-horizon-audit/README.md](long-horizon-audit/README.md)
-85. [long-horizon-audit/launch-truth/01-long-horizon-field-mapping-launch-truth.md](long-horizon-audit/launch-truth/01-long-horizon-field-mapping-launch-truth.md)
-86. [long-horizon-audit/outputs/01-long-horizon-field-mapping-opus47-max-r1.md](long-horizon-audit/outputs/01-long-horizon-field-mapping-opus47-max-r1.md)
-87. [long-horizon-audit/outputs/01-long-horizon-field-mapping-gpt54-xhigh-r1.md](long-horizon-audit/outputs/01-long-horizon-field-mapping-gpt54-xhigh-r1.md)
-88. [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md)
-89. [threshold-audit/README.md](threshold-audit/README.md)
-90. [threshold-audit/artifacts/01-threshold-language-raw-scan.txt](threshold-audit/artifacts/01-threshold-language-raw-scan.txt)
-91. [threshold-audit/artifacts/02-threshold-language-top-files.txt](threshold-audit/artifacts/02-threshold-language-top-files.txt)
-92. [threshold-audit/dispositions/01-threshold-language-residue-audit.md](threshold-audit/dispositions/01-threshold-language-residue-audit.md)
-93. [threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md](threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md)
-94. [self-overcoming-audit/README.md](self-overcoming-audit/README.md)
-95. [self-overcoming-audit/launch-truth/01-companion-layer-proposal-launch-truth.md](self-overcoming-audit/launch-truth/01-companion-layer-proposal-launch-truth.md)
-96. [self-overcoming-audit/outputs/01-companion-layer-proposal-opus47-max-r1.md](self-overcoming-audit/outputs/01-companion-layer-proposal-opus47-max-r1.md)
-97. [self-overcoming-audit/outputs/01-companion-layer-proposal-gpt54-xhigh-r1.md](self-overcoming-audit/outputs/01-companion-layer-proposal-gpt54-xhigh-r1.md)
-98. [self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md](self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md)
-99. [intervention-proposals/31-instruction-surface-hardening-note.md](intervention-proposals/31-instruction-surface-hardening-note.md)
+78. [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
+79. [OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md](OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md)
+80. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
+81. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
+82. [corpus/README.md](corpus/README.md)
+83. [intervention-proposals/29-long-horizon-carry-gap-register.md](intervention-proposals/29-long-horizon-carry-gap-register.md)
+84. [intervention-proposals/30-opportunity-seeking-and-self-overcoming-companion-layer-proposal.md](intervention-proposals/30-opportunity-seeking-and-self-overcoming-companion-layer-proposal.md)
+85. [long-horizon-audit/README.md](long-horizon-audit/README.md)
+86. [long-horizon-audit/launch-truth/01-long-horizon-field-mapping-launch-truth.md](long-horizon-audit/launch-truth/01-long-horizon-field-mapping-launch-truth.md)
+87. [long-horizon-audit/outputs/01-long-horizon-field-mapping-opus47-max-r1.md](long-horizon-audit/outputs/01-long-horizon-field-mapping-opus47-max-r1.md)
+88. [long-horizon-audit/outputs/01-long-horizon-field-mapping-gpt54-xhigh-r1.md](long-horizon-audit/outputs/01-long-horizon-field-mapping-gpt54-xhigh-r1.md)
+89. [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md)
+90. [threshold-audit/README.md](threshold-audit/README.md)
+91. [threshold-audit/artifacts/01-threshold-language-raw-scan.txt](threshold-audit/artifacts/01-threshold-language-raw-scan.txt)
+92. [threshold-audit/artifacts/02-threshold-language-top-files.txt](threshold-audit/artifacts/02-threshold-language-top-files.txt)
+93. [threshold-audit/dispositions/01-threshold-language-residue-audit.md](threshold-audit/dispositions/01-threshold-language-residue-audit.md)
+94. [threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md](threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md)
+95. [self-overcoming-audit/README.md](self-overcoming-audit/README.md)
+96. [self-overcoming-audit/launch-truth/01-companion-layer-proposal-launch-truth.md](self-overcoming-audit/launch-truth/01-companion-layer-proposal-launch-truth.md)
+97. [self-overcoming-audit/outputs/01-companion-layer-proposal-opus47-max-r1.md](self-overcoming-audit/outputs/01-companion-layer-proposal-opus47-max-r1.md)
+98. [self-overcoming-audit/outputs/01-companion-layer-proposal-gpt54-xhigh-r1.md](self-overcoming-audit/outputs/01-companion-layer-proposal-gpt54-xhigh-r1.md)
+99. [self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md](self-overcoming-audit/dispositions/01-companion-layer-proposal-comparative-disposition.md)
+100. [intervention-proposals/31-instruction-surface-hardening-note.md](intervention-proposals/31-instruction-surface-hardening-note.md)
+101. [intervention-proposals/32-strengthening-opportunity-first-slice-implementation.md](intervention-proposals/32-strengthening-opportunity-first-slice-implementation.md)
 
 ## Source-Of-Truth Hierarchy
 
@@ -156,6 +157,7 @@
 - current bounded final-runtime visibility proposal for the second tranche: `intervention-proposals/09-final-runtime-visibility-proposal.md`
 - current accepted first-pass runtime-visibility implementation for the second tranche: `intervention-proposals/10-final-runtime-visibility-first-pass-disposition.md`
 - current full-field long-horizon carry seed register: `intervention-proposals/29-long-horizon-carry-gap-register.md`
+- current strengthened first-slice implementation note for the self-overcoming family: `intervention-proposals/32-strengthening-opportunity-first-slice-implementation.md`
 - current long-horizon cross-vendor challenge subtree and lane-01 inheritance: `long-horizon-audit/`
 - current threshold-language residue audit subtree and first-pass warning surface: `threshold-audit/`
 - current self-overcoming proposal challenge subtree and lane-01 inheritance: `self-overcoming-audit/`
