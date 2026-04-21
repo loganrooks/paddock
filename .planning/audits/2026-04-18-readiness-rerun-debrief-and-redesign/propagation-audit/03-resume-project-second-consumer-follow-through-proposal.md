@@ -1,5 +1,5 @@
 Date: 2026-04-21
-Status: active bounded proposal
+Status: accepted bounded proposal
 
 # Resume-Project Second-Consumer Follow-Through Proposal
 
@@ -61,6 +61,6 @@ Status: active bounded proposal
 
 ## Current Consequence
 
-- [d:r:i] This is the strongest next bounded follow-through inside the propagation family.
-- [d:r:i] The next decision is no longer whether the family needs another broad map first.
-- [d:r:i] The next decision is whether to accept and implement this second-consumer slice or hold `resume-project` as intentionally non-uplift-aware for now.
+- [d:r:i] This proposal is now accepted and implemented in `04`.
+- [d:r:i] The family no longer needs to decide whether the second-consumer slice should land.
+- [d:r:i] The next decision is what wider scrutiny or adjacent routed consumer should follow this stronger two-consumer baseline.

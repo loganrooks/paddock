@@ -16,7 +16,7 @@ Status: active local map
   - the tracked overlay `progress` consumer
   - the durable uplift outputs under `.planning/`
   - the materialization path through `scripts/setup-portable-gsd.sh`
-  - the current absence of any `resume-project` uplift consumer
+  - the then-current absence of any `resume-project` uplift consumer
   - the earlier Checkpoint-3 contract-mapping frame
 
 ## Route Map
@@ -102,11 +102,11 @@ Status: active local map
 
 ## Current Thin Spots
 
-- [d:r:i] `progress` is the only live routed consumer. That is a real gain, but it also means project re-entry still depends on a reader remembering the uplift family unless `progress` happens to be used first.
-- [d:r:i] `resume-project.md` still has no uplift-aware consumer path even though `STATE.md` now carries a dedicated uplift section.
+- [d:r:i] At the time this map was written, `progress` was the only live routed consumer. That asymmetry is what later opened `03`.
+- [d:r:i] See `04` for the landed second-consumer follow-through that resolves this specific thin spot through `resume-project`.
 - [d:r:i] The current map is still local to the uplift example. The broader network question remains open: how many other workflow / output / registry families should be mapped in the same producer / consumer / mirror / held-neighbor form?
 
 ## Current Consequence
 
 - [d:r:i] The propagation family now has its first explicit local impact map instead of only a seed concern.
-- [d:r:i] The strongest next local follow-through is a bounded note on whether `resume-project` or another re-entry surface should become the second live uplift consumer before any broader external challenge lane opens.
+- [d:r:i] The strongest next local follow-through identified here is now carried in `03` and landed in `04`.

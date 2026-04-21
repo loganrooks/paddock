@@ -89,6 +89,7 @@ Status: active inventory
 - `propagation-audit/01-contract-propagation-and-dependency-carry-opening-note.md`
 - `propagation-audit/02-project-uplift-producer-consumer-and-impact-map.md`
 - `propagation-audit/03-resume-project-second-consumer-follow-through-proposal.md`
+- `propagation-audit/04-resume-project-second-consumer-implementation.md`
 
 ## Challenge And Output Subtrees
 

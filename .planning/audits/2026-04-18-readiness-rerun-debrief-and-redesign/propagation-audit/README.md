@@ -22,7 +22,8 @@ Status: active opening batch
 1. [01-contract-propagation-and-dependency-carry-opening-note.md](01-contract-propagation-and-dependency-carry-opening-note.md)
 2. [02-project-uplift-producer-consumer-and-impact-map.md](02-project-uplift-producer-consumer-and-impact-map.md)
 3. [03-resume-project-second-consumer-follow-through-proposal.md](03-resume-project-second-consumer-follow-through-proposal.md)
-4. bounded external challenge lane only after the local map and impact surface are explicit
+4. [04-resume-project-second-consumer-implementation.md](04-resume-project-second-consumer-implementation.md)
+5. bounded external challenge lane only after the local map, impact surface, and first concrete follow-through are explicit
 
 ## Quality Gates
 
@@ -50,4 +51,5 @@ Status: active opening batch
 
 - [d:r:i] This family is now open as a governed subtree rather than only as a seed note.
 - [d:r:i] The first concrete local map now exists.
-- [d:r:i] The next concrete object is now explicit too: a bounded proposal to make `resume-project` the second live uplift consumer without widening into a broader entry-family rewrite.
+- [d:r:i] The first concrete follow-through now exists too: `resume-project` is a second live uplift consumer through tracked overlay ownership and installer-backed materialization.
+- [d:r:i] The next question is no longer whether to accept the second-consumer slice. The next question is what wider scrutiny or adjacent consumer route should inherit this stronger two-consumer baseline.

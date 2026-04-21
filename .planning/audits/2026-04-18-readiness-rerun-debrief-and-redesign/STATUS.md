@@ -156,7 +156,7 @@ Date: 2026-04-21
 - current project-uplift signal-layer status: `intervention-proposals/42-project-uplift-signal-layer-harden-slice.md now records the stronger baseline: multi-axis posture, phase-boundary signal, per-carrier fingerprint shapes, runtime-agent globbing, typed doctrine-sensitive proposal states, file-backed held-later carry, widened tests, and corrected progress/post-write semantics`
 - current contract-propagation status: `the workspace now has an active propagation-audit family rather than only a seed concern: propagation-audit/README.md and propagation-audit/01-contract-propagation-and-dependency-carry-opening-note.md now open the family on the hardened uplift basis, with local producer/consumer and impact mapping as the next concrete object`
 - current propagation-map status: `propagation-audit/02-project-uplift-producer-consumer-and-impact-map.md now names the current uplift-chain producers, direct consumers, narrative mirrors, materialization carriers, held neighbors, and change-type-specific propagation obligations; the strongest next local question is whether resume-project should become the second live uplift consumer`
-- current second-consumer-follow-through status: `propagation-audit/03-resume-project-second-consumer-follow-through-proposal.md now defines the narrow next move: add a read-only uplift note to resume-project through a new tracked overlay owner, reuse project_uplift.py progress-note rather than inventing a second parsing path, and keep the route non-absorptive`
+- current second-consumer-follow-through status: `propagation-audit/03-resume-project-second-consumer-follow-through-proposal.md is now accepted and carried in propagation-audit/04-resume-project-second-consumer-implementation.md: resume-project is now a second live uplift consumer through a new tracked overlay owner, helper reuse, and installer-backed materialization, while route takeover and auto-write remain held`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -229,7 +229,7 @@ Date: 2026-04-21
 21. use the now-open `propagation-audit/` family to map producer / consumer and impact relations explicitly rather than assuming existing refmap/runtime/install tools already cover the whole network
 22. keep the propagation family local-first: use `propagation-audit/02-project-uplift-producer-consumer-and-impact-map.md` as the current basis rather than reopening the family from the seed note
 23. use `propagation-audit/03-resume-project-second-consumer-follow-through-proposal.md` as the next local decision surface rather than improvising a resume-project patch from memory
-24. before any broader external propagation challenge, decide whether to accept and implement the second-consumer slice or to hold `resume-project` deliberately outside the uplift chain for now
+24. use the landed two-consumer baseline in `propagation-audit/04-resume-project-second-consumer-implementation.md` as the new propagation entry point before deciding whether the next stronger move is a wider local map, a third consumer, or a bounded external challenge
 
 ## Open Questions
 
