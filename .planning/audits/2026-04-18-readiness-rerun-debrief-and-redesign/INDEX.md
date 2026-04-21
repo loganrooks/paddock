@@ -118,10 +118,11 @@
 104. [intervention-proposals/35-strengthening-opportunity-reference-surface.md](intervention-proposals/35-strengthening-opportunity-reference-surface.md)
 105. [intervention-proposals/36-initialization-onboarding-and-project-uplift-strengthening-plan.md](intervention-proposals/36-initialization-onboarding-and-project-uplift-strengthening-plan.md)
 106. [intervention-proposals/37-entry-surface-and-project-uplift-map.md](intervention-proposals/37-entry-surface-and-project-uplift-map.md)
-107. [entry-uplift-audit/README.md](entry-uplift-audit/README.md)
-108. [entry-uplift-audit/launch-truth/01-entry-surface-and-project-uplift-field-mapping-launch-truth.md](entry-uplift-audit/launch-truth/01-entry-surface-and-project-uplift-field-mapping-launch-truth.md)
-109. [entry-uplift-audit/outputs/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1.md](entry-uplift-audit/outputs/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1.md)
-110. [entry-uplift-audit/dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md](entry-uplift-audit/dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md)
+107. [intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md](intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md)
+108. [entry-uplift-audit/README.md](entry-uplift-audit/README.md)
+109. [entry-uplift-audit/launch-truth/01-entry-surface-and-project-uplift-field-mapping-launch-truth.md](entry-uplift-audit/launch-truth/01-entry-surface-and-project-uplift-field-mapping-launch-truth.md)
+110. [entry-uplift-audit/outputs/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1.md](entry-uplift-audit/outputs/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1.md)
+111. [entry-uplift-audit/dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md](entry-uplift-audit/dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md)
 
 ## Source-Of-Truth Hierarchy
 
@@ -172,9 +173,9 @@
 - current compact reference surface for the self-overcoming family: `intervention-proposals/35-strengthening-opportunity-reference-surface.md`
 - current plan for the next entry-surface intervention family: `intervention-proposals/36-initialization-onboarding-and-project-uplift-strengthening-plan.md`
 - current terrain map for the next entry-surface intervention family: `intervention-proposals/37-entry-surface-and-project-uplift-map.md`
+- current concern/carrier placement map for that family: `intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md`
 - current widening challenge subtree for that family: `entry-uplift-audit/`
 - locked next sequence for that family:
-  - add an explicit concern/carrier-placement pass as the next local object
   - then draft the uplift workflow proposal
   - then challenge that stronger bundle cross-vendor
 - current long-horizon cross-vendor challenge subtree and lane-01 inheritance: `long-horizon-audit/`

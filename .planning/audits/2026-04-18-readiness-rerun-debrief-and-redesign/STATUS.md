@@ -147,6 +147,7 @@ Date: 2026-04-21
 - current entry-surface-uplift-plan status: `intervention-proposals/36-initialization-onboarding-and-project-uplift-strengthening-plan.md now records the next intervention family: initialization, onboarding, and vanilla-project uplift should be strengthened as one entry-surface sequence`
 - current entry-surface-uplift-map status: `intervention-proposals/37-entry-surface-and-project-uplift-map.md now carries the widened field directly: split uplift families, workspace/worktree entry, phase-injection entry, installer rerun, governing-posture install, forensics entry, archived-milestone re-entry, and audit-subtree aging now all sit inside the same family map`
 - current entry-uplift-audit status: `entry-uplift-audit lane-01 is now completed and inherited: the widening pass preserved 37's full-field posture, added missing entry scenario families and carrier layers, and now routes the next move through a revision of 37 before 38 is drafted`
+- current entry-surface-placement status: `intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md now records strongest placement for runtime/install, governing-doc, required-reading, claim-type, long-horizon, state-boundary, discovery, cross-runtime, tooling, audit-aging, and uplift-output concerns before workflow design`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -211,8 +212,8 @@ Date: 2026-04-21
 13. use `34` and `35` as the new basis for this family: any later cross-vendor reread, reference-surface revision, or wider lifecycle widening should inherit from the benchmark packet rather than reconstructing the family from chat or proposal memory
 14. use `36` to open the next intervention family cleanly: map initialization, milestone opening, docs ingest, repair, update, and vanilla-project uplift as one entry-surface sequence before designing any repo-local uplift workflow
 15. use the revised `37` as the active terrain map for this family rather than falling back to the narrower pre-widening version
-16. write an explicit concern/carrier-placement pass so this family records where each pressure should surface most strongly rather than only that it appears somewhere
-17. only after the revised map plus carrier-placement pass exist, draft the uplift workflow proposal
+16. use `38` as the placement basis for this family rather than letting `39` improvise carrier ownership from memory
+17. draft the uplift workflow proposal against `37` plus `38`
 18. after those three objects exist together, challenge the bundle cross-vendor rather than challenging the workflow proposal in isolation
 
 ## Open Questions
