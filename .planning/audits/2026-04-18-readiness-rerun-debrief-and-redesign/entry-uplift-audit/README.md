@@ -1,5 +1,5 @@
 Date: 2026-04-21
-Status: lane-01 completed and inherited
+Status: lane-01 completed and inherited; lane-02 request surfaces drafted
 
 # Entry Uplift Audit
 
@@ -37,3 +37,20 @@ For each lane, keep this tuple explicit:
   - [outputs/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1.md](outputs/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1.md)
 - local inheritance:
   - [dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md](dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md)
+
+## Lane 02
+
+- packet:
+  - [packets/02-entry-surface-project-uplift-bundle-packet.md](packets/02-entry-surface-project-uplift-bundle-packet.md)
+- spec:
+  - [specs/02-entry-surface-project-uplift-bundle-cross-vendor-spec.md](specs/02-entry-surface-project-uplift-bundle-cross-vendor-spec.md)
+- prompts:
+  - [prompts/02-entry-surface-project-uplift-bundle-opus47-max-r1-launch-prompt.md](prompts/02-entry-surface-project-uplift-bundle-opus47-max-r1-launch-prompt.md)
+  - [prompts/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1-brief.md](prompts/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1-brief.md)
+- launch-truth:
+  - pending
+- outputs:
+  - [outputs/02-entry-surface-project-uplift-bundle-opus47-max-r1.md](outputs/02-entry-surface-project-uplift-bundle-opus47-max-r1.md)
+  - [outputs/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1.md](outputs/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1.md)
+- local comparative disposition:
+  - pending
