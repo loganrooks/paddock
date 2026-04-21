@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "basis_commit": "052f49d",
+  "basis_commit": "a33f70c",
   "inherited_dispositions": [
     "propagation-audit/dispositions/01-propagation-chain-reread-inheritance.md",
     "propagation-audit/dispositions/02-broader-network-propagation-field-mapping-inheritance.md",
-    "propagation-audit/dispositions/03-propagation-registry-system-cross-vendor-inheritance.md"
+    "propagation-audit/dispositions/03-propagation-registry-system-cross-vendor-inheritance.md",
+    "propagation-audit/16-compatibility-anchor-change-triggered-refresh.md"
   ],
   "coverage_gate": [
     {
@@ -52,8 +53,8 @@
     },
     {
       "kind": "change_triggered_slice_refresh",
-      "status": "active_next",
-      "notes": "next propagation-relevant slice should refresh only the touched families and adjacent coverage rows"
+      "status": "first_real_slice_landed",
+      "notes": "the compatibility anchor slice refreshed the touched uplift/runtime carriers and narrowed later compatibility pressure"
     },
     {
       "kind": "scheduled_whole_registry_refresh",
@@ -72,7 +73,7 @@
     "cross-runtime uplift composition",
     "upstream-template drift machinery",
     "aged-bespoke deep merge",
-    "compatibility surface",
+    "broader compatibility window or standalone compatibility carrier",
     "broader registry authorship policy across vendors"
   ]
 }

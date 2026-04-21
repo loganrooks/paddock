@@ -80,13 +80,15 @@ Recent decisions affecting current work:
 
 ## Project Uplift
 
-Last uplift pass: 2026-04-21T10:10:15+00:00
+Last uplift pass: 2026-04-21T19:32:15+00:00
 Last uplift class: cross-runtime uplift
 Last uplift secondary signals: mid_phase
 Phase boundary signal: phase CONTEXT carries explicit rerun-boundary posture
 Doctrine reference changed since prior uplift: no
+Compatibility posture: observed_basis_only
+Observed runtime basis: 1.38.3
 Pending doctrine-sensitive proposals: 0
-Current recommendation: Continue with ordinary routing; uplift memory is already carrying this posture.
+Current recommendation: Continue with ordinary routing; uplift memory keeps this posture explicit.
 Current uplift report: .planning/UPLIFT-REPORT.md
 Current uplift manifest: .planning/UPLIFT-MANIFEST.json
 

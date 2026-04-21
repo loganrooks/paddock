@@ -82,6 +82,7 @@ Status: active widened inheritance batch
 - [13-machine-readable-propagation-registry-first-slice.md](13-machine-readable-propagation-registry-first-slice.md)
 - [14-propagation-registry-generation-and-seeding-policy.md](14-propagation-registry-generation-and-seeding-policy.md)
 - [15-propagation-registry-v2-layered-first-refresh.md](15-propagation-registry-v2-layered-first-refresh.md)
+- [16-compatibility-anchor-change-triggered-refresh.md](16-compatibility-anchor-change-triggered-refresh.md)
 - [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 - [artifacts/02-propagation-registry-v2-inventory-roster.json](artifacts/02-propagation-registry-v2-inventory-roster.json)
 - [artifacts/03-propagation-registry-v2-declared-contracts.json](artifacts/03-propagation-registry-v2-declared-contracts.json)
@@ -126,4 +127,4 @@ Status: active widened inheritance batch
 - [d:r:i] The registry-generation policy is now explicit too: `14` treats propagation registries as AI-authored hybrid maps seeded from maintained inventory/docs surfaces plus bounded observed/validated carriers, not as purely automatic extraction and not as stale hand-memory.
 - [d:r:i] The registry-system reread is now completed and locally inherited through lane `03`.
 - [d:r:i] The layered `v2` first refresh is now landed too: `15` plus `artifacts/02-06` split roster sources, declared contracts, semantic map, observed evidence, and coverage/refresh control into separate surfaces.
-- [d:r:i] The next move is to use that typed split on the next propagation-relevant change-triggered slice rather than reopening the earlier diff-tool branch.
+- [d:r:i] The first real `change_triggered_slice_refresh` is now landed too: `16` records the compatibility-anchor slice, and `artifacts/04-06` now answer back to that live contract change rather than only to the earlier flat-registry redesign.

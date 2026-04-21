@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "052f49d",
+  "basis_commit": "a33f70c",
   "contracts": [
     {
       "id": "overlay_ownership_contract",

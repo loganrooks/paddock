@@ -1,6 +1,6 @@
 # Project Uplift Report
 
-- Generated: 2026-04-21T10:10:15+00:00
+- Generated: 2026-04-21T19:32:15+00:00
 - Mode: detect-only
 - Project class: cross-runtime uplift
 - Secondary signals: mid_phase
@@ -18,19 +18,41 @@
 
 ## Recommendation Reasons
 
-- Current uplift memory and current carrier posture are already carrying ordinary routing cleanly.
+- Current uplift memory keeps ordinary routing explicit without queuing another detect-only pass.
+
+## Compatibility Basis
+
+- Compatibility posture: observed_basis_only
+- Observed runtime version: 1.38.3
+- Observed runtime manifest version: 1.38.3
+- Runtime version alignment: aligned
+- Overlay manifest schema version: 1
+- Uplift manifest schema version: 4
+
+### Compatibility Check Protocol
+
+- compare candidate runtime version to observed_runtime_version
+- compare candidate runtime manifest version to observed_runtime_manifest_version when present
+- rerun ./scripts/setup-portable-gsd.sh before refreshing durable uplift memory after runtime movement
+- rerun $gsd-uplift-project --write after runtime movement so compatibility anchors and uplift posture stay in tune
+
+### Wider Compatibility Claims Held
+
+- version-window claims beyond the observed runtime basis
+- cross-runtime compatibility matrix
+- upstream-template drift compatibility
 
 ## Carrier Posture
 
 | Carrier | Group | State | Fingerprint Shape | Fingerprint | Note |
 |---------|-------|-------|-------------------|-------------|------|
-| Root AGENTS | doctrine_sensitive | present | content_sha256 | dc19615376fa7163c0cff2768e7be3545a53f945d40a18dd2a72f63468bd4f32 | file carrier present |
-| Planning AGENTS | doctrine_sensitive | present | content_sha256 | 2be77d73c4afc70ea987986958d94246c22a6f35a12e0852a248c87dfd35c3ed | file carrier present |
-| Root CLAUDE | doctrine_sensitive | present | content_sha256 | 998155e28c715b8184abcbceba63a07e6febe47c81cbd5db86695c83cb06270d | file carrier present |
-| Planning CLAUDE | doctrine_sensitive | present | content_sha256 | 5431fbb4b26bc9cd21d10ef762cb44ac87709890a3ae7df4198d43c0e45d666f | file carrier present |
+| Root AGENTS | doctrine_sensitive | present | content_sha256 | da9bfbb058c1e665f0d90c0ee5d8210d9e0c787c4ce002bb27752614999f06e2 | file carrier present |
+| Planning AGENTS | doctrine_sensitive | present | content_sha256 | 7a9f4d44f334388e52de077cd273f7e1e414a0459763bc1517d5afc8ef2a15a7 | file carrier present |
+| Root CLAUDE | doctrine_sensitive | present | content_sha256 | 81c48b1986f32bbd5aa980ce69e2495aec3f1cf57b006f9cfc7491608382a471 | file carrier present |
+| Planning CLAUDE | doctrine_sensitive | present | content_sha256 | 99053bccfd1722258ef9e6ec8c25514ff22228c5125e149da7ab6b298a390c27 | file carrier present |
 | Claim Types | additive_install | present | content_sha256 | 73a4261f9fb17860f95349aaf7e7bcf69d34d4a2644cf8cbc1c02a850fc5c64a | file carrier present |
 | Long Arc | additive_install | present | frontmatter_hash | 2c98d73ba277ca146ac6f83b6b589080ee3507e147af6bdb48b2103e0e9c3eb5 | file carrier present |
-| Tooling Inventory | additive_install | present | inventory_item_hash | 6035dd3a48a548cb40f32b3c7f4af8f9c395b34cf5b93aafbd57b429a2f2d342 | file carrier present |
+| Tooling Inventory | additive_install | present | inventory_item_hash | 4a7e559282d7b4d596d773197f3f453cdfdc288eaaa6f84d0901c67ef574f1fb | file carrier present |
 | Runtime Config | runtime_registry | present | normalized_toml_hash | 8cce9c25e0779b2c742275757cca9d9b96c38a6fca32fec31a01659217cb0cb5 | file carrier present |
 | Runtime Agent Contract: gsd-advisor-researcher | runtime_registry | present | normalized_toml_hash | ee1d11c2e983b4038b1fb4ae8aeca311fe661f9e3d359c25a282977c144f3fe5 | file carrier present |
 | Runtime Agent Contract: gsd-ai-researcher | runtime_registry | present | normalized_toml_hash | 5f3d1da031bdc6e3a79f6e7eb3918b76308747d2bba3a76314ddf47b027178e5 | file carrier present |

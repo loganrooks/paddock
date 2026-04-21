@@ -44,4 +44,4 @@ Status: active typed v2 refresh
   - layered registry policy in `14`
   - typed first refresh in this note and `artifacts/02-06`
 - [d:r:i] The next move is no longer `should we build a diff helper now?`
-- [d:r:i] The next move is to use this typed split as the active registry baseline on the next propagation-relevant slice and see which `change-triggered slice refresh` pressure it actually surfaces.
+- [d:r:i] The first real `change-triggered slice refresh` is now recorded in [16-compatibility-anchor-change-triggered-refresh.md](16-compatibility-anchor-change-triggered-refresh.md), and later registry movement should keep following actual contract change rather than abstract appetite for a bigger map.

@@ -61,7 +61,7 @@ Status: partially completed next-step note
 ## Things To Keep Explicitly In View
 
 - [d:r:i] The submitted docs PR is not current runtime truth.
-- [d:r:i] The local runtime is already at published `v1.38.1`; no blind reinstall is needed to answer where the repo currently stands.
+- [d:r:i] At the 2026-04-20 docs-audit boundary, the local runtime already sat at published `v1.38.1`; the live runtime has since moved, but that does not reopen the old blind-reinstall question.
 - [d:r:i] The frozen PR-docs snapshot is partial by design and is stored as `.md.txt` evidence so it does not pollute markdown-reference verification inside this audit workspace.
 - [d:r:i] The goal is not to decide whether the docs `work`. The goal is to decide how they should be inherited and transformed so they carry stronger intervention planning across the harness ecosystem.
 

@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-21
 Status: active companion artifact
 
 # Runtime Materialization And Authority
@@ -23,7 +23,7 @@ Status: active companion artifact
 ### 1. Upstream Base Install
 
 - [e:c+i] The installer begins by running `npx get-shit-done-cc --codex --local`, so the first layer is the current upstream/npm-installed regular GSD payload, not a repo-authored scaffold. Source: [scripts/setup-portable-gsd.sh](/home/rookslog/workspace/projects/prix-guesser/scripts/setup-portable-gsd.sh:20).
-- [e:c+i] The currently materialized base version in this repo is `1.38.1`. Sources: [.codex/get-shit-done/VERSION](/home/rookslog/workspace/projects/prix-guesser/.codex/get-shit-done/VERSION:1), [.codex/gsd-file-manifest.json](/home/rookslog/workspace/projects/prix-guesser/.codex/gsd-file-manifest.json:2).
+- [e:c+i] The currently materialized base version in this repo is `1.38.3`. Sources: [.codex/get-shit-done/VERSION](/home/rookslog/workspace/projects/prix-guesser/.codex/get-shit-done/VERSION:1), [.codex/gsd-file-manifest.json](/home/rookslog/workspace/projects/prix-guesser/.codex/gsd-file-manifest.json:2).
 
 ### 2. Tracked Overlay Copy
 
@@ -65,7 +65,7 @@ Status: active companion artifact
 ## Backup And Manifest Limits
 
 - [e:c+i] `.codex/gsd-local-patches/backup-meta.json` records only the backed-up replaced subset from the pre-overlay runtime, not the full overlay inventory or the full live intervention set. Sources: [.codex/gsd-local-patches/backup-meta.json](/home/rookslog/workspace/projects/prix-guesser/.codex/gsd-local-patches/backup-meta.json:2), [.codex/gsd-local-patches/backup-meta.json](/home/rookslog/workspace/projects/prix-guesser/.codex/gsd-local-patches/backup-meta.json:5), [.codex/gsd-local-patches/backup-meta.json](/home/rookslog/workspace/projects/prix-guesser/.codex/gsd-local-patches/backup-meta.json:17).
-- [e:c+i] The manifest records the active version as `1.38.1` and a file hash inventory, but the update lane already established that manifest hashes had gone stale relative to the actual post-overlay state even when live surfaces were semantically aligned with a fresh reinstall. Sources: [.codex/gsd-file-manifest.json](/home/rookslog/workspace/projects/prix-guesser/.codex/gsd-file-manifest.json:2), [.codex/gsd-file-manifest.json](/home/rookslog/workspace/projects/prix-guesser/.codex/gsd-file-manifest.json:3), [HARNESS-INTERVENTION-UPDATE-LANE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/HARNESS-INTERVENTION-UPDATE-LANE.md:31), [HARNESS-INTERVENTION-UPDATE-LANE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/HARNESS-INTERVENTION-UPDATE-LANE.md:32).
+- [e:c+i] The manifest records the active version as `1.38.3` and a file hash inventory, but the earlier update lane already established that manifest hashes had gone stale relative to the actual post-overlay state even when live surfaces were semantically aligned with a fresh reinstall at the then-current `1.38.1` probe boundary. Sources: [.codex/gsd-file-manifest.json](/home/rookslog/workspace/projects/prix-guesser/.codex/gsd-file-manifest.json:2), [.codex/gsd-file-manifest.json](/home/rookslog/workspace/projects/prix-guesser/.codex/gsd-file-manifest.json:3), [HARNESS-INTERVENTION-UPDATE-LANE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/HARNESS-INTERVENTION-UPDATE-LANE.md:31), [HARNESS-INTERVENTION-UPDATE-LANE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/HARNESS-INTERVENTION-UPDATE-LANE.md:32).
 - [d:r:i] Practical consequence: backup metadata and manifest state are both useful, but neither should be treated as a sovereign proof of current effective runtime truth without cross-checking the actual live files.
 
 ## First-Rank Intervention Surfaces

@@ -78,8 +78,8 @@ Date: 2026-04-21
 - runtime-visibility v2 follow-through landed (`obsolete live residue` support where repo evidence exists, checkout-local hash scope, unit tests)
 - thin root/planning `CLAUDE.md` wrappers landed for cross-vendor lanes
 - isolated latest-install probe completed against detached worktree
-- active repo-local `.codex/` confirmed already at `v1.38.1`
-- fresh latest reinstall + overlay confirmed semantically aligned with active runtime except for repo-local config defaults and stale manifest hashes
+- 2026-04-20 isolated probe established the repo-local `.codex/` boundary then sat at `v1.38.1`
+- 2026-04-20 fresh reinstall + overlay came back semantically aligned with that probe-boundary runtime except for repo-local config defaults and stale manifest hashes
 - docs-refresh branch confirmed useful as inventory/parity governance pressure, not as equivalent current upstream truth
 - Wave-2 lane-06 launch-truth note written under `wave-2/launch-truth/`
 - Wave-2 lane-06 comparative disposition written under `wave-2/dispositions/`
@@ -90,7 +90,7 @@ Date: 2026-04-21
 - no readiness-package mutation authorized from this workspace
 - recommended main path currently: `redefined Proposal B-extended + bounded harness-first prerequisite tranche + learning-rerun posture`
 - current main-wave status: `Wave-2 lane-06 accepted; the bounded R5.18 materialization fix slice is now partially executed and reinstall-backed, not just proposed`
-- current harness-update status: `active runtime already sits at published v1.38.1; the missing object is intervention onboarding, not a blind reinstall`
+- current harness-update status: `the live runtime basis now sits at v1.38.3, while the 2026-04-20 isolated probe remains the earlier v1.38.1 comparison boundary; intervention onboarding and compatibility carry still matter more than a blind reinstall`
 - current docs-onboarding status: `the submitted docs PR now has a carry-focused audit, a transformation plan, and a completed bounded companion layer for runtime authority, goal routing, and surface-state distinctions`
 - plain-language re-entry pair written for this workspace: `PLAIN-LANGUAGE-STATE.md` and `PLAIN-LANGUAGE-GLOSSARY.md`
 - long-horizon carry gap register written under `intervention-proposals/29-long-horizon-carry-gap-register.md`
@@ -106,6 +106,7 @@ Date: 2026-04-21
 - threshold-language first-pass residue audit written under `threshold-audit/dispositions/`
 - bounded spec/prompt and self-overcoming-surface threshold audit written under `threshold-audit/dispositions/`
 - instruction/scanner doctrine now also rejects static-positive `enough` phrasing, supports meta-instruction skip mode during doctrine-surface scans, and treats scanner output as heuristic intake rather than adjudication
+- threshold-scanner side-effects internal audit written under `threshold-audit/dispositions/`
 - bounded opportunity-seeking / self-overcoming companion-layer proposal written under `intervention-proposals/`
 - self-overcoming audit subtree created under `self-overcoming-audit/`
 - self-overcoming audit lane-01 launched and completed against frozen basis `e466bea`
@@ -152,6 +153,7 @@ Date: 2026-04-21
 - current entry-surface-placement status: `intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md now records stronger placement for runtime/install, governing-doc, required-reading, claim-type, long-horizon, phase-boundary/state-boundary, discovery, cross-runtime, tooling inventory, audit-aging, and uplift-output concerns`
 - current project-uplift-workflow status: `intervention-proposals/39-project-uplift-workflow-proposal.md now defines the bounded composition-layer workflow in its revised first-slice form: detect-only default, fingerprint/delta detection, explicit per-carrier install flags, thin doctrine manifest, one read-only progress hook, outputs, and review gates`
 - current project-uplift first-slice status: `intervention-proposals/40-project-uplift-first-slice-implementation.md now records the landed detect-only-first slice: helper, uplift-project workflow/skill, read-only progress note, first durable uplift outputs, synthetic vanilla/lightly-aged coverage, repo-local read-only safety verification, and the post-write recommendation fix`
+- current project-uplift compatibility status: `intervention-proposals/43-project-uplift-compatibility-anchor-slice.md now records the bounded follow-through: uplift memory carries an observed-basis compatibility block anchored to .codex/get-shit-done/VERSION, .codex/gsd-file-manifest.json, and the overlay/uplift schema anchors without widening into a broader version-window claim`
 - current entry-uplift bundle-review status: `entry-uplift-audit lane-03 is now completed and locally inherited: the bounded reread moved the bundle into narrow harmonization, the eight harmonization edits are landed, and first-slice implementation now exists as the active baseline rather than the next hypothetical move`
 - current entry-uplift landed-slice reread status: `entry-uplift-audit lane-04 is now completed and locally inherited: the landed first slice carries real live value, and the bounded signal-layer harden slice it called for is now landed as the active uplift baseline`
 - current project-uplift signal-layer status: `intervention-proposals/42-project-uplift-signal-layer-harden-slice.md now records the stronger baseline: multi-axis posture, phase-boundary signal, per-carrier fingerprint shapes, runtime-agent globbing, typed doctrine-sensitive proposal states, file-backed held-later carry, widened tests, and corrected progress/post-write semantics`
@@ -168,7 +170,7 @@ Date: 2026-04-21
 - current propagation-registry status: `the family now also has a first compact machine-readable slice under propagation-audit/13-machine-readable-propagation-registry-first-slice.md and artifacts/01-propagation-field-registry-v1.json`
 - current propagation-registry-policy status: `future refreshes are now explicitly routed through an AI-authored hybrid policy: seed from maintained inventory/docs surfaces, join them with bounded observed/validated carriers, then disposition through the prose propagation family`
 - current propagation-registry-reread status: `lane-03 is now completed and inherited under propagation-audit/launch-truth|outputs|dispositions/03-propagation-registry-system-cross-vendor-*; Opus now leads the structural widening toward a layered/federated registry family, GPT corroborates the need to split the blended evidence bucket, and the active next move is the typed/federated v2 design pass before any diff helper`
-- current propagation-registry-v2 status: `the typed first refresh is now landed under propagation-audit/15-propagation-registry-v2-layered-first-refresh.md and artifacts/02-06: inventory roster, declared contracts, semantic map, evidence index, and coverage/refresh control are now separate surfaces instead of one blended registry story`
+- current propagation-registry-v2 status: `the typed first refresh is now landed under propagation-audit/15-propagation-registry-v2-layered-first-refresh.md and artifacts/02-06, and the first real change-triggered slice refresh is now landed under propagation-audit/16-compatibility-anchor-change-triggered-refresh.md: the semantic map and evidence index now answer back to the uplift compatibility anchor rather than leaving compatibility only as a held flat pressure`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -259,7 +261,7 @@ Date: 2026-04-21
 - does `mapping-adequacy-and-comparative-mapping` stay one Wave-1 lane in practice, or should the actual spec escalate into a split because packet bounds or defect-type separation demand it?
 - do any first Wave-1 lane specs need narrower packet trims than the default manifests in order to stay within band without losing contrary pressure?
 - does the audit directory later need a bounded organization / topology cleanup beyond the current authority note, read-order scaffolding, and manifest discipline once Wave-1 artifacts accumulate?
-- should the repo later carry an explicit GSD compatibility surface or manifest that says which upstream/runtime versions this harness posture is meant to work with, and if so should that truth live as a dedicated compatibility file, a tooling-generated manifest, or a smaller section inside the runtime/install authority chain?
+- should the embedded uplift compatibility anchor later remain the main carrier, or should a broader standalone compatibility surface grow only after more runtime-change slices have exercised the embedded route?
 - after the uplift signal-layer harden slice lands, what should the explicit contract-propagation / dependency-carry audit inspect first: workflow->artifact contracts, skill/workflow consumer routing, runtime-registry carry, output/report/state consumers, or the cross-runtime wrapper/governing-doc chain?
 - is a bounded reviewer-register vocabulary curation note worth doing later, or does stronger spec-writing and packet discipline make that unnecessary?
 - what is the best durable shape for a repo-local harness intervention onboarding doc that can carry both current runtime truth and longer-horizon modification planning?

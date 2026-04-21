@@ -184,9 +184,11 @@ For non-trivial research, audit, gap-closure, sensitivity, or synthesis work:
 - when a workflow legitimately contains a gate, keep that gate as one layer rather than the whole frame
   - verification, execution admission, and falsifiable requirement checks can use thresholds
   - planning and research should still carry a second layer for opportunity, stronger form, and future-aware self-transformation
-- when auditing older specs, prompts, reviews, or dispositions for framing residue, use `python3 tooling/codex/scan_threshold_language.py <paths>` as a first-pass detector rather than relying on memory alone
+- when a task is explicitly a framing-residue audit, you may use `python3 tooling/codex/scan_threshold_language.py <paths>` as one widening aid
+  - do not use the scanner as a routine completion gate on ordinary batches
   - when scanning instruction files or anti-threshold doctrine surfaces themselves, prefer `--ignore-meta-instruction-lines` so quoted forbidden examples do not drown out actual residue
   - do not treat scanner output as authoritative adjudication; it is a heuristic intake surface that must be followed by contextual reread, classification, and human disposition
+  - do not rewrite explicit prohibitions, quoted examples, or historical evidence solely to quiet a scanner hit
 - keep the stronger distinction visible:
   - whether a document, map, lane, or doctrine surface can carry work
   - how strongly, clearly, and future-resiliently it carries that work compared with stronger available forms

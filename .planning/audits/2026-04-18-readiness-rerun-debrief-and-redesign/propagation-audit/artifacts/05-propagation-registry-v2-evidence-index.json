@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "052f49d",
+  "basis_commit": "a33f70c",
   "evidence_entries": [
     {
       "id": "overlay_contract_validation",
@@ -18,7 +18,19 @@
       "id": "uplift_manifest_current",
       "evidence_lane": "producer_scoped_report",
       "path": ".planning/UPLIFT-MANIFEST.json",
-      "note": "current producer-scoped uplift memory with observed inputs and held-later carry"
+      "note": "current producer-scoped uplift memory with observed inputs, compatibility anchor, and held-later carry"
+    },
+    {
+      "id": "runtime_manifest_current",
+      "evidence_lane": "observed_runtime",
+      "path": ".codex/gsd-file-manifest.json",
+      "note": "materialized runtime manifest carrying the current observed version anchor for uplift compatibility"
+    },
+    {
+      "id": "runtime_version_current",
+      "evidence_lane": "observed_runtime",
+      "path": ".codex/get-shit-done/VERSION",
+      "note": "materialized runtime version file carrying the current observed version anchor for uplift compatibility"
     },
     {
       "id": "runtime_visibility_snapshot",

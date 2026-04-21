@@ -50,6 +50,7 @@ Status: active proposal/disposition batch
 40. `40-project-uplift-first-slice-implementation.md`
 41. `41-contract-propagation-and-dependency-carry-audit-seed.md`
 42. `42-project-uplift-signal-layer-harden-slice.md`
+43. `43-project-uplift-compatibility-anchor-slice.md`
 
 ## Proposal Rule
 
@@ -68,5 +69,6 @@ Status: active proposal/disposition batch
 - [d:r:i] `39` now defines the bounded composition-layer workflow in harmonized first-slice form: detect-only default, explicit mid-phase classification, named fingerprint shapes, explicit per-carrier install flags, thin doctrine manifest, one read-only `progress` hook, outputs, and review gates.
 - [d:r:i] `40` now records the landed first slice itself: helper, workflow, skill, `progress` note, first durable uplift outputs, synthetic verification, and repo-local read-only safety check.
 - [d:r:i] `41` now records the broader network-carry concern that follows this family: one explicit audit should later ask whether contract changes propagated strongly enough across producer, consumer, registry, script, workflow, skill, output, and governing-doc surfaces.
+- [d:r:i] `43` now records the bounded compatibility follow-through inside that same uplift chain: the durable uplift outputs carry an observed-basis compatibility anchor without widening into a broader version-window claim.
 - [d:r:i] `42` now records that harden slice as landed: multi-axis posture, phase-boundary signal, per-carrier fingerprint shape, runtime-agent globbing, typed proposal routes, file-backed held-later carry, widened tests, and the two live consumer/output bugs it surfaced and corrected.
 - [d:r:i] Current next move for that family after `42`: use the cleaner uplift slice to open and work the explicit contract-propagation / dependency-carry audit family rather than assuming the partial tooling layer already proves whole-network carry.

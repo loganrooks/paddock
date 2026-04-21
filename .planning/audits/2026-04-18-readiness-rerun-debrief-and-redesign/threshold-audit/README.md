@@ -19,3 +19,5 @@ Status: first-pass residue audit completed
    - [dispositions/01-threshold-language-residue-audit.md](dispositions/01-threshold-language-residue-audit.md)
 4. bounded spec/prompt plus self-overcoming-surface audit:
    - [dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md](dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md)
+5. threshold-scanner side-effects internal audit:
+   - [dispositions/03-threshold-scanner-side-effects-internal-audit.md](dispositions/03-threshold-scanner-side-effects-internal-audit.md)

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "052f49d",
+  "basis_commit": "a33f70c",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -154,6 +154,26 @@
       ]
     },
     {
+      "id": "runtime_manifest_file",
+      "family": "install_pristine",
+      "path": ".codex/gsd-file-manifest.json",
+      "role": "materialized runtime manifest version anchor sampled by uplift compatibility",
+      "support_mode": "roster_plus_observed_runtime",
+      "evidence_refs": [
+        "runtime_manifest_current"
+      ]
+    },
+    {
+      "id": "runtime_version_file",
+      "family": "install_pristine",
+      "path": ".codex/get-shit-done/VERSION",
+      "role": "materialized runtime version anchor sampled by uplift compatibility",
+      "support_mode": "roster_plus_observed_runtime",
+      "evidence_refs": [
+        "runtime_version_current"
+      ]
+    },
+    {
       "id": "quality_reasoning",
       "family": "registry",
       "path": "tooling/codex/portable_gsd_contract.py",
@@ -266,6 +286,28 @@
       ]
     },
     {
+      "id": "uplift_report_output",
+      "family": "workflow_output",
+      "path": ".planning/UPLIFT-REPORT.md",
+      "role": "operator-facing uplift narrative and compatibility summary",
+      "support_mode": "producer_report_narrative_mirror",
+      "evidence_refs": [
+        "uplift_manifest_current"
+      ]
+    },
+    {
+      "id": "uplift_manifest_output",
+      "family": "workflow_output",
+      "path": ".planning/UPLIFT-MANIFEST.json",
+      "role": "structured uplift memory and observed-basis compatibility anchor",
+      "support_mode": "producer_report_with_observed_basis",
+      "evidence_refs": [
+        "uplift_manifest_current",
+        "runtime_manifest_current",
+        "runtime_version_current"
+      ]
+    },
+    {
       "id": "research_output_template",
       "family": "reference_owner_skill",
       "path": "tooling/portable-gsd/overlay/skills/gsd-rigorous-research/references/output-template.md",
@@ -333,6 +375,30 @@
       "status": "mapped"
     },
     {
+      "id": "runtime_manifest_to_helper",
+      "from": "runtime_manifest_file",
+      "to": "project_uplift",
+      "kind": "observed_runtime_basis_sampled_by_helper",
+      "support_mode": "semantic_plus_observed_runtime",
+      "evidence_refs": [
+        "runtime_manifest_current",
+        "uplift_manifest_current"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "runtime_version_to_helper",
+      "from": "runtime_version_file",
+      "to": "project_uplift",
+      "kind": "observed_runtime_basis_sampled_by_helper",
+      "support_mode": "semantic_plus_observed_runtime",
+      "evidence_refs": [
+        "runtime_version_current",
+        "uplift_manifest_current"
+      ],
+      "status": "mapped"
+    },
+    {
       "id": "overlay_to_workflow_to_helper",
       "from": "overlay_manifest",
       "to": "uplift_workflow",
@@ -384,6 +450,30 @@
       "support_mode": "semantic_plus_producer_report",
       "evidence_refs": [
         "uplift_manifest_current"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "helper_to_uplift_report",
+      "from": "project_uplift",
+      "to": "uplift_report_output",
+      "kind": "durable_report_write",
+      "support_mode": "semantic_plus_producer_report",
+      "evidence_refs": [
+        "uplift_manifest_current"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "helper_to_uplift_manifest",
+      "from": "project_uplift",
+      "to": "uplift_manifest_output",
+      "kind": "durable_structured_output_write",
+      "support_mode": "semantic_plus_producer_report",
+      "evidence_refs": [
+        "uplift_manifest_current",
+        "runtime_manifest_current",
+        "runtime_version_current"
       ],
       "status": "mapped"
     },

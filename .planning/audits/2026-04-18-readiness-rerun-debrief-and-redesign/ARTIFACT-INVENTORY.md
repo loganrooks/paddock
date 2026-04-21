@@ -59,6 +59,7 @@ Status: active inventory
 - `intervention-proposals/29-long-horizon-carry-gap-register.md`
 - `long-horizon-audit/`
 - `threshold-audit/`
+- `threshold-audit/dispositions/03-threshold-scanner-side-effects-internal-audit.md`
 
 ### Self-Overcoming Family
 
@@ -76,6 +77,7 @@ Status: active inventory
 - `intervention-proposals/39-project-uplift-workflow-proposal.md`
 - `intervention-proposals/40-project-uplift-first-slice-implementation.md`
 - `intervention-proposals/42-project-uplift-signal-layer-harden-slice.md`
+- `intervention-proposals/43-project-uplift-compatibility-anchor-slice.md`
 - repo-local uplift outputs:
   - `.planning/UPLIFT-REPORT.md`
   - `.planning/UPLIFT-MANIFEST.json`
@@ -111,7 +113,15 @@ Status: active inventory
 - `propagation-audit/11-upstream-pristine-frontier-propagation-obligation.md`
 - `propagation-audit/12-cross-family-edge-supplement.md`
 - `propagation-audit/13-machine-readable-propagation-registry-first-slice.md`
+- `propagation-audit/14-propagation-registry-generation-and-seeding-policy.md`
+- `propagation-audit/15-propagation-registry-v2-layered-first-refresh.md`
+- `propagation-audit/16-compatibility-anchor-change-triggered-refresh.md`
 - `propagation-audit/artifacts/01-propagation-field-registry-v1.json`
+- `propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json`
+- `propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json`
+- `propagation-audit/artifacts/04-propagation-registry-v2-semantic-map.json`
+- `propagation-audit/artifacts/05-propagation-registry-v2-evidence-index.json`
+- `propagation-audit/artifacts/06-propagation-registry-v2-coverage-and-refresh.json`
 
 ## Challenge And Output Subtrees
 

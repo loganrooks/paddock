@@ -62,6 +62,7 @@
   - [intervention-proposals/39-project-uplift-workflow-proposal.md](intervention-proposals/39-project-uplift-workflow-proposal.md)
   - [intervention-proposals/40-project-uplift-first-slice-implementation.md](intervention-proposals/40-project-uplift-first-slice-implementation.md)
   - [intervention-proposals/42-project-uplift-signal-layer-harden-slice.md](intervention-proposals/42-project-uplift-signal-layer-harden-slice.md)
+  - [intervention-proposals/43-project-uplift-compatibility-anchor-slice.md](intervention-proposals/43-project-uplift-compatibility-anchor-slice.md)
   - [entry-uplift-audit/dispositions/04-landed-project-uplift-first-slice-reread-inheritance.md](entry-uplift-audit/dispositions/04-landed-project-uplift-first-slice-reread-inheritance.md)
   - [propagation-audit/README.md](propagation-audit/README.md)
   - [propagation-audit/01-contract-propagation-and-dependency-carry-opening-note.md](propagation-audit/01-contract-propagation-and-dependency-carry-opening-note.md)
@@ -91,6 +92,7 @@
   - [propagation-audit/13-machine-readable-propagation-registry-first-slice.md](propagation-audit/13-machine-readable-propagation-registry-first-slice.md)
   - [propagation-audit/14-propagation-registry-generation-and-seeding-policy.md](propagation-audit/14-propagation-registry-generation-and-seeding-policy.md)
   - [propagation-audit/15-propagation-registry-v2-layered-first-refresh.md](propagation-audit/15-propagation-registry-v2-layered-first-refresh.md)
+  - [propagation-audit/16-compatibility-anchor-change-triggered-refresh.md](propagation-audit/16-compatibility-anchor-change-triggered-refresh.md)
   - [propagation-audit/artifacts/01-propagation-field-registry-v1.json](propagation-audit/artifacts/01-propagation-field-registry-v1.json)
   - [propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json](propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json)
   - [propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json](propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json)
@@ -105,6 +107,7 @@
   - [intervention-proposals/29-long-horizon-carry-gap-register.md](intervention-proposals/29-long-horizon-carry-gap-register.md)
   - [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md)
   - [threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md](threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md)
+  - [threshold-audit/dispositions/03-threshold-scanner-side-effects-internal-audit.md](threshold-audit/dispositions/03-threshold-scanner-side-effects-internal-audit.md)
 
 ## Current Session Rule
 
