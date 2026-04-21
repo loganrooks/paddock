@@ -93,6 +93,8 @@
   - [intervention-proposals/58-transition-lifecycle-carry-first-slice-implementation.md](intervention-proposals/58-transition-lifecycle-carry-first-slice-implementation.md)
   - [intervention-proposals/59-milestone-boundary-lifecycle-carry-first-slice-proposal.md](intervention-proposals/59-milestone-boundary-lifecycle-carry-first-slice-proposal.md)
   - [intervention-proposals/60-milestone-boundary-lifecycle-carry-first-slice-implementation.md](intervention-proposals/60-milestone-boundary-lifecycle-carry-first-slice-implementation.md)
+  - [intervention-proposals/61-state-progress-and-resume-future-carry-consumer-proposal.md](intervention-proposals/61-state-progress-and-resume-future-carry-consumer-proposal.md)
+  - [intervention-proposals/62-state-progress-and-resume-future-carry-consumer-implementation.md](intervention-proposals/62-state-progress-and-resume-future-carry-consumer-implementation.md)
 - project-uplift family:
   - [intervention-proposals/37-entry-surface-and-project-uplift-map.md](intervention-proposals/37-entry-surface-and-project-uplift-map.md)
   - [intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md](intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md)
@@ -137,6 +139,7 @@
   - [propagation-audit/20-setup-portable-gsd-robustness-change-triggered-refresh.md](propagation-audit/20-setup-portable-gsd-robustness-change-triggered-refresh.md)
   - [propagation-audit/21-transition-lifecycle-carry-change-triggered-refresh.md](propagation-audit/21-transition-lifecycle-carry-change-triggered-refresh.md)
   - [propagation-audit/22-milestone-boundary-lifecycle-carry-change-triggered-refresh.md](propagation-audit/22-milestone-boundary-lifecycle-carry-change-triggered-refresh.md)
+  - [propagation-audit/23-state-progress-and-resume-future-carry-change-triggered-refresh.md](propagation-audit/23-state-progress-and-resume-future-carry-change-triggered-refresh.md)
   - [propagation-audit/artifacts/01-propagation-field-registry-v1.json](propagation-audit/artifacts/01-propagation-field-registry-v1.json)
   - [propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json](propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json)
   - [propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json](propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json)

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "6de8bc7",
+  "basis_commit": "3afd389",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -78,6 +78,19 @@
         "state_continuity"
       ],
       "claim_boundary": "declares how milestone opening and milestone close reread LONG-ARC and Future Carry Forward, and how still-live carry remains explicit across milestone boundaries instead of thinning into operator memory"
+    },
+    {
+      "id": "state_consumer_future_carry_contract",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/bin/lib/state.cjs",
+      "validator": "tooling/codex/tests/test_state_snapshot_future_carry.py",
+      "contract_kind": "first-read state consumer semantics for accumulated context, future carry, and session continuity",
+      "families_touched": [
+        "install_overlay",
+        "lib_runtime",
+        "workflow_output",
+        "state_continuity"
+      ],
+      "claim_boundary": "declares how the repo-local state snapshot helper keeps decisions, blockers, future-carry buckets, and session continuity explicit for current first-read consumers, and how progress plus resume inherit that carry without relying on reader memory"
     }
   ]
 }

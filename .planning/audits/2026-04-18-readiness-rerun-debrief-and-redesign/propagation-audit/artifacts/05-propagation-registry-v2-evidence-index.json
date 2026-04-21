@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "6de8bc7",
+  "basis_commit": "3afd389",
   "evidence_entries": [
     {
       "id": "overlay_contract_validation",
@@ -97,6 +97,18 @@
       "evidence_lane": "implementation_note",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/60-milestone-boundary-lifecycle-carry-first-slice-implementation.md",
       "note": "landed milestone-boundary lifecycle carry slice covering tracked overlay ownership for new-milestone and complete-milestone, explicit LONG-ARC plus Future Carry Forward reread at milestone open/close, and strict post-materialization proof"
+    },
+    {
+      "id": "state_progress_resume_future_carry_impl_62",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/62-state-progress-and-resume-future-carry-consumer-implementation.md",
+      "note": "landed first-read consumer slice covering tracked overlay ownership for the state helper plus progress/resume workflows, structured accumulated-context and future-carry parsing, and strict post-materialization proof"
+    },
+    {
+      "id": "state_snapshot_future_carry_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_state_snapshot_future_carry.py",
+      "note": "focused helper coverage for current-template decisions, blockers, future-carry buckets, session continuity, and workflow-consumer contract presence"
     }
   ]
 }

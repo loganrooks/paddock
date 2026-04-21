@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "6de8bc7",
+  "basis_commit": "3afd389",
   "inherited_dispositions": [
     "propagation-audit/dispositions/01-propagation-chain-reread-inheritance.md",
     "propagation-audit/dispositions/02-broader-network-propagation-field-mapping-inheritance.md",
@@ -11,7 +11,8 @@
     "propagation-audit/19-verifier-lifecycle-carry-change-triggered-refresh.md",
     "propagation-audit/20-setup-portable-gsd-robustness-change-triggered-refresh.md",
     "propagation-audit/21-transition-lifecycle-carry-change-triggered-refresh.md",
-    "propagation-audit/22-milestone-boundary-lifecycle-carry-change-triggered-refresh.md"
+    "propagation-audit/22-milestone-boundary-lifecycle-carry-change-triggered-refresh.md",
+    "propagation-audit/23-state-progress-and-resume-future-carry-change-triggered-refresh.md"
   ],
   "coverage_gate": [
     {
@@ -54,7 +55,13 @@
       "family": "workflow_output",
       "coverage_status": "mapped",
       "roster_source": "upstream_inventory",
-      "notes": "current slice now keeps uplift, progress, resume, verifier, transition, new-milestone, and complete-milestone workflows explicit as routed carriers"
+      "notes": "current slice now keeps uplift, progress, resume, verifier, transition, new-milestone, and complete-milestone workflows explicit as routed carriers, with first-read future-carry consumer movement now visible too"
+    },
+    {
+      "family": "lib_runtime",
+      "coverage_status": "mapped_but_curated",
+      "roster_source": "upstream_inventory",
+      "notes": "current slice now keeps the repo-local state snapshot helper explicit as a runtime lib carrier, but broader lib-runtime coverage remains later work"
     },
     {
       "family": "template_shape",
@@ -89,8 +96,8 @@
     },
     {
       "kind": "change_triggered_slice_refresh",
-      "status": "anchor_consumer_threshold_scanner_verifier_lifecycle_setup_robustness_transition_lifecycle_and_milestone_boundary_follow_through_landed",
-      "notes": "the compatibility anchor slice refreshed uplift/runtime carriers, the consumer-chain follow-through refreshed live read-only routing surfaces, the threshold-scanner slice refreshed helper plus lane-governance carry, the verifier-lifecycle slice refreshed workflow/template/reference/registry carry, the setup/materialization slice refreshed installer-entry/helper/contract carry, the transition-lifecycle slice refreshed phase-close workflow/template/state-continuity carry, and the milestone-boundary slice refreshed milestone-open plus milestone-close workflow/state-continuity carry"
+      "status": "anchor_consumer_threshold_scanner_verifier_lifecycle_setup_robustness_transition_lifecycle_milestone_boundary_and_first_read_consumer_follow_through_landed",
+      "notes": "the compatibility anchor slice refreshed uplift/runtime carriers, the consumer-chain follow-through refreshed live read-only routing surfaces, the threshold-scanner slice refreshed helper plus lane-governance carry, the verifier-lifecycle slice refreshed workflow/template/reference/registry carry, the setup/materialization slice refreshed installer-entry/helper/contract carry, the transition-lifecycle slice refreshed phase-close workflow/template/state-continuity carry, the milestone-boundary slice refreshed milestone-open plus milestone-close workflow/state-continuity carry, and the first-read consumer slice refreshed the state helper plus progress/resume future-carry routing"
     },
     {
       "kind": "scheduled_whole_registry_refresh",
@@ -112,7 +119,7 @@
     "broader compatibility window or standalone compatibility carrier",
     "broader registry authorship policy across vendors",
     "richer role-aware heuristic classification that still cannot drift into prose control",
-    "later lifecycle carry beyond the verifier, transition, and milestone-boundary bridges",
+    "later lifecycle carry beyond the verifier, transition, milestone-boundary, and first-read consumer bridges",
     "broader repeated-reinstall durability beyond the first local setup/materialization harden slice"
   ]
 }

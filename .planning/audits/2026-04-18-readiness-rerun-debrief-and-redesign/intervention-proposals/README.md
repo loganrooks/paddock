@@ -68,6 +68,8 @@ Status: active proposal/disposition batch
 58. `58-transition-lifecycle-carry-first-slice-implementation.md`
 59. `59-milestone-boundary-lifecycle-carry-first-slice-proposal.md`
 60. `60-milestone-boundary-lifecycle-carry-first-slice-implementation.md`
+61. `61-state-progress-and-resume-future-carry-consumer-proposal.md`
+62. `62-state-progress-and-resume-future-carry-consumer-implementation.md`
 
 ## Proposal Rule
 
@@ -104,5 +106,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `58` now records the landed first transition-side slice itself: overlay ownership for `transition.md` and `templates/state.md`, transition-time review of the four future-preservation buckets, compact `Future Carry Forward` digest shape in the state template, and strict post-materialization proof that the new carriers survive repo-local reinstall/materialization.
 - [d:r:i] `59` now opens the next bounded lifecycle-carry bridge directly: milestone opening and milestone close should reread `LONG-ARC.md` plus `Future Carry Forward` explicitly instead of leaving long-horizon carry to operator memory across milestone boundaries.
 - [d:r:i] `60` now records the landed first milestone-boundary slice itself: overlay ownership for `new-milestone.md` and `complete-milestone.md`, explicit milestone-open and milestone-close long-arc/future-carry reread, and strict post-materialization proof that those carriers survive repo-local reinstall/materialization.
+- [d:r:i] `61` now opens the next bounded first-read consumer bridge directly: `progress`, `resume-project`, and the repo-local state helper should keep accumulated-context carry and `Future Carry Forward` explicit instead of letting that bridge thin between lifecycle producers and later operators.
+- [d:r:i] `62` now records the landed first-read consumer slice itself: overlay ownership for `state.cjs`, explicit helper parsing for decisions/blockers/future-carry/session continuity, and consumer-side progress/resume follow-through with strict post-materialization proof.
 - [d:r:i] `42` now records that harden slice as landed: multi-axis posture, phase-boundary signal, per-carrier fingerprint shape, runtime-agent globbing, typed proposal routes, file-backed held-later carry, widened tests, and the two live consumer/output bugs it surfaced and corrected.
-- [d:r:i] The current broader consequence after `42-60`: use the cleaner uplift slice, the active propagation family, the landed verifier / transition / milestone-boundary lifecycle bridges, and the hardened setup/materialization path together rather than assuming one helper or one bounded slice already proves whole-network carry.
+- [d:r:i] The current broader consequence after `42-62`: use the cleaner uplift slice, the active propagation family, the landed verifier / transition / milestone-boundary / first-read lifecycle bridges, and the hardened setup/materialization path together rather than assuming one helper or one bounded slice already proves whole-network carry.

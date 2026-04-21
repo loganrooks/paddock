@@ -89,6 +89,7 @@ Status: active lane; widened inheritance batch
 - [20-setup-portable-gsd-robustness-change-triggered-refresh.md](20-setup-portable-gsd-robustness-change-triggered-refresh.md)
 - [21-transition-lifecycle-carry-change-triggered-refresh.md](21-transition-lifecycle-carry-change-triggered-refresh.md)
 - [22-milestone-boundary-lifecycle-carry-change-triggered-refresh.md](22-milestone-boundary-lifecycle-carry-change-triggered-refresh.md)
+- [23-state-progress-and-resume-future-carry-change-triggered-refresh.md](23-state-progress-and-resume-future-carry-change-triggered-refresh.md)
 - [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 - [artifacts/02-propagation-registry-v2-inventory-roster.json](artifacts/02-propagation-registry-v2-inventory-roster.json)
 - [artifacts/03-propagation-registry-v2-declared-contracts.json](artifacts/03-propagation-registry-v2-declared-contracts.json)
@@ -140,3 +141,4 @@ Status: active lane; widened inheritance batch
 - [d:r:i] A fourth non-uplift change-triggered refresh is now landing too: `20` records the setup/materialization robustness slice, and the typed `v2` layers now keep the setup entry bridge, bounded `gsd-sdk` runtime helper, and fresh-install pristine overwrite capture explicit instead of leaving reinstall-truth movement compressed into one generic installer row.
 - [d:r:i] A fifth non-uplift change-triggered refresh is now landing too: `21` records the transition-lifecycle slice, and the typed `v2` layers now keep phase-close workflow/template/state-continuity movement explicit instead of leaving that lifecycle bridge ambient behind one widened proposal note.
 - [d:r:i] A sixth non-uplift change-triggered refresh is now landing too: `22` records the milestone-boundary slice, and the typed `v2` layers now keep milestone-open and milestone-close workflow/state-continuity movement explicit instead of leaving milestone-boundary carry ambient behind one widened lifecycle family label.
+- [d:r:i] A seventh non-uplift change-triggered refresh is now landing too: `23` records the first-read consumer slice, and the typed `v2` layers now keep the state helper plus `progress` / `resume-project` future-carry routing explicit instead of leaving that bridge ambient behind local workflow prose.

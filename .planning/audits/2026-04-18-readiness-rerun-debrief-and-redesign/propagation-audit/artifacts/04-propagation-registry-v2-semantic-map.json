@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "6de8bc7",
+  "basis_commit": "3afd389",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -264,6 +264,18 @@
       ]
     },
     {
+      "id": "state_snapshot_helper",
+      "family": "lib_runtime",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/bin/lib/state.cjs",
+      "role": "repo-local state snapshot helper carrying accumulated-context, future-carry, and session-continuity consumer digest",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "state_progress_resume_future_carry_impl_62",
+        "state_snapshot_future_carry_tests"
+      ]
+    },
+    {
       "id": "verifier_agent_overlay",
       "family": "registry",
       "path": "tooling/portable-gsd/overlay/agents/gsd-verifier.toml",
@@ -288,22 +300,24 @@
       "id": "progress_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/progress.md",
-      "role": "read-only uplift consumer and compatibility-drift prompt surface",
+      "role": "read-only uplift and future-carry consumer for first-read progress summaries",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
-        "uplift_manifest_current"
+        "uplift_manifest_current",
+        "state_progress_resume_future_carry_impl_62"
       ]
     },
     {
       "id": "resume_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/resume-project.md",
-      "role": "second read-only uplift consumer and compatibility-drift prompt surface",
+      "role": "read-only uplift and future-carry consumer for first-read re-entry",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
-        "uplift_manifest_current"
+        "uplift_manifest_current",
+        "state_progress_resume_future_carry_impl_62"
       ]
     },
     {
@@ -397,11 +411,12 @@
       "id": "state_md",
       "family": "state_continuity",
       "path": ".planning/STATE.md",
-      "role": "multi-owner continuity surface",
+      "role": "multi-owner continuity surface carrying accumulated context, future-carry digest, and session continuity",
       "support_mode": "semantic_plus_producer_report",
       "evidence_refs": [
         "uplift_manifest_current",
-        "transition_lifecycle_carry_impl_58"
+        "transition_lifecycle_carry_impl_58",
+        "state_progress_resume_future_carry_impl_62"
       ]
     },
     {
@@ -574,6 +589,42 @@
         "uplift_manifest_current",
         "runtime_manifest_current",
         "runtime_version_current"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_state_snapshot_helper",
+      "from": "overlay_manifest",
+      "to": "state_snapshot_helper",
+      "kind": "overlay_owns_runtime_helper_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "state_progress_resume_future_carry_impl_62"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "state_snapshot_helper_to_progress",
+      "from": "state_snapshot_helper",
+      "to": "progress_workflow",
+      "kind": "helper_supplies_structured_state_digest",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "state_progress_resume_future_carry_impl_62",
+        "state_snapshot_future_carry_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "state_snapshot_helper_to_resume",
+      "from": "state_snapshot_helper",
+      "to": "resume_workflow",
+      "kind": "helper_supplies_structured_state_digest",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "state_progress_resume_future_carry_impl_62",
+        "state_snapshot_future_carry_tests"
       ],
       "status": "mapped"
     },

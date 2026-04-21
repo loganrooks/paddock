@@ -22,8 +22,8 @@ Status: active durable register
   - current state: this register is the first landed slice
   - current pressure: keep the field visible without letting it dissolve into scattered proposal notes
 - [d:r:i] Lifecycle carry beyond discuss/plan
-  - current state: verifier-side first slice landed through `53` and `54`, transition-side first slice landed through `57` and `58`, and milestone-boundary first slice is now landed through `59` and `60`
-  - current pressure: `SPEC`, `STATE/progress` consumer readout, and seed consumers
+  - current state: verifier-side first slice landed through `53` and `54`, transition-side first slice landed through `57` and `58`, milestone-boundary first slice landed through `59` and `60`, and first-read consumer carry is now landed through `61` and `62`
+  - current pressure: `SPEC` and seed consumers
 - [d:r:i] Portable setup robustness and reinstall truth
   - current state: first bounded local harden slice landed through `ensure_gsd_sdk_runtime.py`, fresh-install pristine overwrite capture, and the routed `setup-portable-gsd.sh` recovery path
   - current pressure: keep widening repeated reinstall durability without confusing repo-local repair with upstream installer control
@@ -38,7 +38,7 @@ Status: active durable register
 
 ## Current Bounded Next Slices
 
-- [d:r:i] Lifecycle carry follow-through beyond the verifier, transition, and milestone-boundary bridges
+- [d:r:i] Lifecycle carry follow-through beyond the verifier, transition, milestone-boundary, and first-read consumer bridges
 - [d:r:i] Portable setup robustness follow-through beyond the first bounded recovery/capture slice
 - [d:r:i] Standing self-improvement register growth beyond this first slice
 - [d:r:i] Explicit canon-absorption use on later landed intervention families
