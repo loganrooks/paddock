@@ -96,6 +96,8 @@ Status: active inventory
 - `propagation-audit/launch-truth/01-propagation-chain-reread-launch-truth.md`
 - `propagation-audit/outputs/01-propagation-chain-reread-opus47-max-r1.md`
 - `propagation-audit/dispositions/01-propagation-chain-reread-inheritance.md`
+- `propagation-audit/05-project-uplift-chain-map.md`
+- `propagation-audit/06-bounded-propagation-strengthening-batch-a-b-d-e-f.md`
 
 ## Challenge And Output Subtrees
 

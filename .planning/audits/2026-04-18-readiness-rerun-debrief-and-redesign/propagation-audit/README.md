@@ -40,6 +40,11 @@ Status: active opening batch
 - inheritance:
   - [dispositions/01-propagation-chain-reread-inheritance.md](dispositions/01-propagation-chain-reread-inheritance.md)
 
+## Current Follow-Through
+
+- [05-project-uplift-chain-map.md](05-project-uplift-chain-map.md)
+- [06-bounded-propagation-strengthening-batch-a-b-d-e-f.md](06-bounded-propagation-strengthening-batch-a-b-d-e-f.md)
+
 ## Quality Gates
 
 - [d:r:i] Before any external lane opens in this subtree:
@@ -68,4 +73,5 @@ Status: active opening batch
 - [d:r:i] The first concrete local map now exists.
 - [d:r:i] The first concrete follow-through now exists too: `resume-project` is a second live uplift consumer through tracked overlay ownership and installer-backed materialization.
 - [d:r:i] The first bounded external reread lane is now completed and locally inherited against that stronger two-consumer baseline.
-- [d:r:i] The next question is no longer whether the reread should happen. The next question is how to land the accepted bounded strengthening routes before any wider propagation-family widening.
+- [d:r:i] The accepted A/B/D/E/F strengthening routes are now landed too.
+- [d:r:i] The next question is no longer whether the reread should happen or whether the first strengthening batch should land. The next question is whether Route C then Route G should come next or whether a still-stronger local routing need appears first.

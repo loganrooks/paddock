@@ -159,6 +159,7 @@ Date: 2026-04-21
 - current second-consumer-follow-through status: `propagation-audit/03-resume-project-second-consumer-follow-through-proposal.md is now accepted and carried in propagation-audit/04-resume-project-second-consumer-implementation.md: resume-project is now a second live uplift consumer through a new tracked overlay owner, helper reuse, and installer-backed materialization, while route takeover and auto-write remain held`
 - current propagation-reread status: `the first bounded external propagation reread lane is now completed and locally inherited under propagation-audit/launch-truth|outputs|dispositions/01-propagation-chain-reread-* against the clean two-consumer baseline`
 - current propagation-strengthening status: `the accepted next bounded routes are now explicit from the Opus reread: A JSON-to-prose contract test, B held-later status typing, D read-only consumer skill-edge typing, E chain-flow disclosure, and F governance/inventory disclosure; C overlay add-vs-overwrite manifest is the next materialization-integrity batch after that, and G waits on C`
+- current propagation-strengthening-batch status: `A, B, D, E, and F are now landed: helper contract vocabulary + tests, typed held-later registry and schema-v3 outputs, overlay owners for gsd-progress and gsd-resume-work, chain-flow disclosure artifact 05, and stronger inventory/governance routing`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -233,8 +234,8 @@ Date: 2026-04-21
 23. use `propagation-audit/03-resume-project-second-consumer-follow-through-proposal.md` as the next local decision surface rather than improvising a resume-project patch from memory
 24. use the landed two-consumer baseline in `propagation-audit/04-resume-project-second-consumer-implementation.md` as the new propagation entry point before deciding whether the next stronger move is a wider local map, a third consumer, or a bounded external challenge
 25. use `propagation-audit/dispositions/01-propagation-chain-reread-inheritance.md` as the current propagation-family routing note
-26. land the accepted bounded strengthening batch inside the current chain: A, B, D, E, and F
-27. only after that, decide whether the next move is the add-vs-overwrite materialization-integrity batch (`C` then `G`) or a wider local map beyond the uplift example
+26. use `propagation-audit/06-bounded-propagation-strengthening-batch-a-b-d-e-f.md` and `05-project-uplift-chain-map.md` as the current strengthened baseline inside the propagation family
+27. decide whether the next move is the add-vs-overwrite materialization-integrity batch (`C` then `G`) or a wider local map beyond the uplift example
 
 ## Open Questions
 

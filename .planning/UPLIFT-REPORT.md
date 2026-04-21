@@ -1,6 +1,6 @@
 # Project Uplift Report
 
-- Generated: 2026-04-21T09:37:08+00:00
+- Generated: 2026-04-21T10:10:15+00:00
 - Mode: detect-only
 - Project class: cross-runtime uplift
 - Secondary signals: mid_phase
@@ -24,10 +24,10 @@
 
 | Carrier | Group | State | Fingerprint Shape | Fingerprint | Note |
 |---------|-------|-------|-------------------|-------------|------|
-| Root AGENTS | doctrine_sensitive | present | content_sha256 | da880a81d7a5b3831713b3381fb695c352ee01afaaef4a42e31563f16ce017d0 | file carrier present |
-| Planning AGENTS | doctrine_sensitive | present | content_sha256 | 09560998e8be5a0bcfbc59eda5370a1df2a232d409dfc166b2c063a937a18093 | file carrier present |
-| Root CLAUDE | doctrine_sensitive | present | content_sha256 | d5fc138ff9e993afb889cb2248f3e0290502f6fcc392d9f29ab2554fc49f7a14 | file carrier present |
-| Planning CLAUDE | doctrine_sensitive | present | content_sha256 | 602be8912c6609508c525477ea3b60a14ab61301e355cc68a917cb0b301b1e1b | file carrier present |
+| Root AGENTS | doctrine_sensitive | present | content_sha256 | dc19615376fa7163c0cff2768e7be3545a53f945d40a18dd2a72f63468bd4f32 | file carrier present |
+| Planning AGENTS | doctrine_sensitive | present | content_sha256 | 2be77d73c4afc70ea987986958d94246c22a6f35a12e0852a248c87dfd35c3ed | file carrier present |
+| Root CLAUDE | doctrine_sensitive | present | content_sha256 | 998155e28c715b8184abcbceba63a07e6febe47c81cbd5db86695c83cb06270d | file carrier present |
+| Planning CLAUDE | doctrine_sensitive | present | content_sha256 | 5431fbb4b26bc9cd21d10ef762cb44ac87709890a3ae7df4198d43c0e45d666f | file carrier present |
 | Claim Types | additive_install | present | content_sha256 | 73a4261f9fb17860f95349aaf7e7bcf69d34d4a2644cf8cbc1c02a850fc5c64a | file carrier present |
 | Long Arc | additive_install | present | frontmatter_hash | 2c98d73ba277ca146ac6f83b6b589080ee3507e147af6bdb48b2103e0e9c3eb5 | file carrier present |
 | Tooling Inventory | additive_install | present | inventory_item_hash | 6035dd3a48a548cb40f32b3c7f4af8f9c395b34cf5b93aafbd57b429a2f2d342 | file carrier present |
@@ -80,11 +80,11 @@
 
 ## Held For Later Families
 
-- required-reading installation practice
-- cross-runtime uplift composition
-- upstream-template drift machinery
-- aged-bespoke deep merge
-- audit-subtree aging carry
-- routed-entry hooks beyond `progress`
-- forensics / archived-milestone integration
-- workstream parent/child posture reconciliation
+- required-reading installation practice — held
+- cross-runtime uplift composition — held
+- upstream-template drift machinery — held
+- aged-bespoke deep merge — held
+- audit-subtree aging carry — held
+- routed-entry hooks beyond `progress` — partially landed: propagation-audit/04-resume-project-second-consumer-implementation.md
+- forensics / archived-milestone integration — held
+- workstream parent/child posture reconciliation — held
