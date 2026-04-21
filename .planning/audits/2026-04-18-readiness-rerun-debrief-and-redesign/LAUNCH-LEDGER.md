@@ -266,6 +266,38 @@
   - accepted now: tighter classifier follow-through, unit tests for `runtime_visibility.py`, explicit checkout-local hash scope, thin root/planning `CLAUDE.md` wrappers
   - held: broad family expansion, broad stale-agent cleanup, direct `AGENTS.md` mirroring into `CLAUDE.md`
 
+## 2026-04-20 `long-horizon-audit-lane-01`
+
+- date: `2026-04-20`
+- purpose: bounded cross-vendor field mapping of long-horizon carry, horizon-tension management, optionality preservation, and harness self-overcoming pressure
+- launch scaffold basis commit: `3856c9b`
+- packet content basis: `3856c9b`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- launch-truth artifact: [long-horizon-audit/launch-truth/01-long-horizon-field-mapping-launch-truth.md](long-horizon-audit/launch-truth/01-long-horizon-field-mapping-launch-truth.md)
+- prompt artifact: [long-horizon-audit/prompts/01-long-horizon-field-mapping-opus47-max-r1-launch-prompt.md](long-horizon-audit/prompts/01-long-horizon-field-mapping-opus47-max-r1-launch-prompt.md)
+- governing spec: [long-horizon-audit/specs/01-long-horizon-field-mapping-cross-vendor-spec.md](long-horizon-audit/specs/01-long-horizon-field-mapping-cross-vendor-spec.md)
+- governing packet: [long-horizon-audit/packets/01-long-horizon-field-mapping-packet.md](long-horizon-audit/packets/01-long-horizon-field-mapping-packet.md)
+- output artifacts:
+  - [long-horizon-audit/outputs/01-long-horizon-field-mapping-opus47-max-r1.md](long-horizon-audit/outputs/01-long-horizon-field-mapping-opus47-max-r1.md)
+  - [long-horizon-audit/outputs/01-long-horizon-field-mapping-gpt54-xhigh-r1.md](long-horizon-audit/outputs/01-long-horizon-field-mapping-gpt54-xhigh-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `908.288`
+  - session id: `cc3be3b3-11bd-41be-ac84-e681e25e7ec6`
+  - total cost usd: `6.0682`
+- parallel local reviewer:
+  - launch mode: `spawn_agent`
+  - effective settings verified against `~/.codex/state_5.sqlite`: `worker / gpt-5.4 / xhigh`
+  - agent nickname: `Hypatia`
+  - brief artifact: [long-horizon-audit/prompts/01-long-horizon-field-mapping-gpt54-xhigh-r1-brief.md](long-horizon-audit/prompts/01-long-horizon-field-mapping-gpt54-xhigh-r1-brief.md)
+  - output artifact: [long-horizon-audit/outputs/01-long-horizon-field-mapping-gpt54-xhigh-r1.md](long-horizon-audit/outputs/01-long-horizon-field-mapping-gpt54-xhigh-r1.md)
+- disposition:
+  - [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md)
+  - `synthesis accept`
+  - accepted now: full-field mapping over top-few ranking, stronger boundary-carry diagnosis, Opus two-systems/preservation-debt propagation model, GPT bounded horizon-watch and activation-consumer landing shapes
+  - explicit next audit candidate: legacy threshold-language residue in older specs, prompts, reviews, and inherited lane artifacts, since anti-threshold doctrine already exists in root/planning `AGENTS.md` and both `CLAUDE.md` wrappers
+
 ## 2026-04-19 `wave-1-lane-02`
 
 - date: `2026-04-19`

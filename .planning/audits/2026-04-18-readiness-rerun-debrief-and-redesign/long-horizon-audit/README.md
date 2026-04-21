@@ -1,5 +1,5 @@
 Date: 2026-04-20
-Status: active lane scaffold
+Status: lane-01 completed and locally inherited
 
 # Long-Horizon Audit
 
@@ -32,4 +32,5 @@ For each lane, keep this tuple explicit:
 - outputs:
   - [outputs/01-long-horizon-field-mapping-opus47-max-r1.md](outputs/01-long-horizon-field-mapping-opus47-max-r1.md)
   - [outputs/01-long-horizon-field-mapping-gpt54-xhigh-r1.md](outputs/01-long-horizon-field-mapping-gpt54-xhigh-r1.md)
-
+- local comparative disposition:
+  - [dispositions/01-long-horizon-field-mapping-comparative-disposition.md](dispositions/01-long-horizon-field-mapping-comparative-disposition.md)

@@ -96,6 +96,11 @@ Date: 2026-04-20
 - long-horizon carry gap register written under `intervention-proposals/29-long-horizon-carry-gap-register.md`
 - long-horizon gap register strengthened to reject deficiency-only framing and explicitly track positive self-overcoming / ideal-form pressure
 - long-horizon gap register strengthened again to reject premature narrowing and require full-field mapping before later intervention routing
+- long-horizon cross-vendor audit subtree created under `long-horizon-audit/`
+- long-horizon field-mapping lane launched and completed against frozen basis `3856c9b`
+- parallel local spawned reviewer completed for long-horizon lane-01
+- long-horizon lane-01 launch-truth note written under `long-horizon-audit/launch-truth/`
+- long-horizon lane-01 comparative disposition written under `long-horizon-audit/dispositions/`
 - current intervention-proposal status: `the first four bounded harness follow-through proposals now exist, the first-tranche disposition is written, and the first accepted pair is now landed in the instruction/runtime layer`
 - current drift-register status: `the second tranche now has a bounded pilot register; sampled load-bearing differences are mostly intelligible materialized carry or selective overlay boundary, not mystery drift`
 - current manifest-contract status: `the second tranche now rejects manifest semantic collapse; gsd-file-manifest.json remains an upstream/update-boundary artifact, backup-meta stays tracked subset-carry metadata, and the missing object is a separate final-runtime visibility surface`
@@ -118,6 +123,8 @@ Date: 2026-04-20
 - current installer-reasoning-default status: `the reviewer tranche also corrected scripts/setup-portable-gsd.sh so live .codex/config.toml now materializes with top-level model_reasoning_effort=xhigh instead of silently regressing to high`
 - current tranche-audit status: `the narrow post-tranche cross-vendor pair is complete and inherited; accepted now: classifier tightening plus thin CLAUDE wrappers, held: broad family expansion and broad stale-agent cleanup`
 - current docs-audit-sequencing status: `the challenged lane pair, transformation plan, bounded companion layer, and first intervention proposal batch are complete; the current move is proposal disposition and first bounded follow-through`
+- current long-horizon status: `the challenge-backed field map now says the main problem is boundary carry architecture, not missing future awareness; Opus adds a stronger two-systems / preservation-debt model, GPT adds tighter bounded landing shapes`
+- current threshold-language status: `anti-threshold doctrine already exists in root/planning AGENTS and both CLAUDE wrappers; the live follow-on question is residue in older specs, prompts, reviews, and inherited lane artifacts`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -176,6 +183,8 @@ Date: 2026-04-20
 7. if this workspace wants a sharper cross-vendor challenge on horizon carry and harness ideal-form pressure, use `intervention-proposals/29-long-horizon-carry-gap-register.md` as the packet seed rather than reconstructing the gap from chat
 8. preserve the strengthened reading of `29`: the task is not only to diagnose under-carried surfaces, but to identify where the harness could positively intensify long-horizon carry, optionality, and multi-dimensional excellence
 9. preserve the strengthened method of `29`: map the full field of pressures, tensions, and strengthening opportunities before filtering down to narrower intervention sequences
+10. inherit the long-horizon pair through the comparative disposition rather than re-opening a generic horizon lane: boundary carry, preservation-debt, canonical-ref carry, compact horizon-watch, and activation-consumer surfaces are now the main follow-through families
+11. treat a legacy threshold-language audit as an explicit next audit candidate: root/planning `AGENTS.md` and both `CLAUDE.md` wrappers already carry anti-threshold doctrine, so the question is residue and contamination in older specs, prompts, reviews, and inherited lane artifacts
 
 ## Open Questions
 
@@ -185,4 +194,6 @@ Date: 2026-04-20
 - is a bounded reviewer-register vocabulary curation note worth doing later, or does stronger spec-writing and packet discipline make that unnecessary?
 - what is the best durable shape for a repo-local harness intervention onboarding doc that can carry both current runtime truth and longer-horizon modification planning?
 - how should the newly named long-horizon lifecycle gaps, horizon tensions, and positive strengthening opportunities be mapped as one field, and which parts of that field are still too weakly articulated or too diffusely framed?
+- how should the current `29` register be revised now that the long-horizon cross-vendor pair has added `preservation-debt`, roadmap-time preservation criteria, later-lifecycle canonical-ref rereads, and bounded horizon-watch surfaces?
+- how much threshold / pass-fail residue still lives in older specs, prompts, reviews, and inherited lane artifacts despite the newer anti-threshold doctrine already present in root/planning `AGENTS.md` and both `CLAUDE.md` wrappers?
 - how should the submitted docs PR be transformed, extended, or paired so it carries intervention planning rather than only contributor orientation and docs governance?

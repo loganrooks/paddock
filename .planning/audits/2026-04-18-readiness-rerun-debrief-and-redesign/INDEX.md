@@ -94,6 +94,12 @@
 79. [lane-03-opus47-max-corpus-vocabulary-stress-test.md](lane-03-opus47-max-corpus-vocabulary-stress-test.md)
 80. [COMMENTARY-CORPUS-READSET.md](corpus/COMMENTARY-CORPUS-READSET.md)
 81. [corpus/README.md](corpus/README.md)
+82. [intervention-proposals/29-long-horizon-carry-gap-register.md](intervention-proposals/29-long-horizon-carry-gap-register.md)
+83. [long-horizon-audit/README.md](long-horizon-audit/README.md)
+84. [long-horizon-audit/launch-truth/01-long-horizon-field-mapping-launch-truth.md](long-horizon-audit/launch-truth/01-long-horizon-field-mapping-launch-truth.md)
+85. [long-horizon-audit/outputs/01-long-horizon-field-mapping-opus47-max-r1.md](long-horizon-audit/outputs/01-long-horizon-field-mapping-opus47-max-r1.md)
+86. [long-horizon-audit/outputs/01-long-horizon-field-mapping-gpt54-xhigh-r1.md](long-horizon-audit/outputs/01-long-horizon-field-mapping-gpt54-xhigh-r1.md)
+87. [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md)
 
 ## Source-Of-Truth Hierarchy
 
@@ -137,6 +143,8 @@
 - current manifest semantic correction for the second tranche: `intervention-proposals/08-manifest-semantic-contract-disposition.md`
 - current bounded final-runtime visibility proposal for the second tranche: `intervention-proposals/09-final-runtime-visibility-proposal.md`
 - current accepted first-pass runtime-visibility implementation for the second tranche: `intervention-proposals/10-final-runtime-visibility-first-pass-disposition.md`
+- current full-field long-horizon carry seed register: `intervention-proposals/29-long-horizon-carry-gap-register.md`
+- current long-horizon cross-vendor challenge subtree and lane-01 inheritance: `long-horizon-audit/`
 - current bounded docs-audit lane subtree for that challenge work: `docs-audit/`
 - current docs-audit launch record: `docs-audit/launch-truth/01-pr-docs-intervention-carry-launch-truth.md`
 - current raw docs-audit outputs: `docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md`, `docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md`
