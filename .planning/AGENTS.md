@@ -150,6 +150,7 @@ Deletion / retirement rules:
   - `runtime_visibility.py`
   - `manifest_install_coherence.py`
   - `project_uplift.py`
+- When one slice crosses several propagation families together, prefer a clean-boundary runtime snapshot plus `manifest_install_coherence.py --strict` as a bounded coherence gate rather than relying on local reasoning alone.
 - When a change spans several producer/consumer families and the required carry is no longer obvious from the local diff, open or extend an explicit propagation audit surface.
 
 ## Launch-Truth Discipline

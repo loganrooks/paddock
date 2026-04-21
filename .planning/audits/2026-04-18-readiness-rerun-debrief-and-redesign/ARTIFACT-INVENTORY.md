@@ -106,6 +106,10 @@ Status: active inventory
 - `propagation-audit/launch-truth/02-broader-network-propagation-field-mapping-launch-truth.md`
 - `propagation-audit/outputs/02-broader-network-propagation-field-mapping-opus47-max-r1.md`
 - `propagation-audit/dispositions/02-broader-network-propagation-field-mapping-inheritance.md`
+- `propagation-audit/09-sharpened-propagation-field-split.md`
+- `propagation-audit/10-model-policy-three-surface-invariant.md`
+- `propagation-audit/11-upstream-pristine-frontier-propagation-obligation.md`
+- `propagation-audit/12-cross-family-edge-supplement.md`
 
 ## Challenge And Output Subtrees
 

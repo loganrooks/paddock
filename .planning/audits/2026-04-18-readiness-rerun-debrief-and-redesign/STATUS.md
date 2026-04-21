@@ -163,6 +163,7 @@ Date: 2026-04-21
 - current propagation-materialization-integrity status: `Route C and Route G are now landed too: the tracked overlay now carries OVERLAY-MANIFEST.json with explicit add-vs-overwrite typing, setup-portable-gsd.sh now validates and verifies that contract through portable_gsd_contract.py, runtime_visibility now inherits shared install/materialization truth from that helper, and the first live gate already surfaced and corrected one real ownership drift case (skills/gsd-resume-work/SKILL.md retyped from add to overwrite)`
 - current broader-propagation-map status: `the propagation family is now widened beyond the uplift example in propagation-audit/08-broader-network-producer-consumer-and-carrier-map.md; the active carrier split now explicitly includes governing doctrine, install/materialization, runtime registry, workflow/template/reference contracts, skill routing, helper/output chains, and governance carriers`
 - current broader-propagation-reread status: `lane-02 is now completed and inherited under propagation-audit/launch-truth|outputs|dispositions/02-broader-network-propagation-field-mapping-*; the active next move is not generic widening but the sharpened disclosure batch H/I/J/K/R plus L/N/Q, followed by the named invariant / edge companions O/P/S`
+- current sharpened-propagation-disclosure status: `the first sharpened layer is now landing under propagation-audit/09-12: refined sub-family rows, model-policy three-surface invariant, upstream-pristine frontier obligation, and cross-family edge supplement`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -241,8 +242,9 @@ Date: 2026-04-21
 27. use `propagation-audit/07-overlay-add-vs-overwrite-contract-and-post-materialization-gate.md` as the current installer/materialization boundary note rather than reconstructing Route `C`/`G` from chat
 28. use `propagation-audit/08-broader-network-producer-consumer-and-carrier-map.md` as the current widening note rather than reconstructing the broader family split from chat
 29. use `propagation-audit/dispositions/02-broader-network-propagation-field-mapping-inheritance.md` as the current routing note for the widened propagation field
-30. land the sharpened propagation disclosure batch next: `H/I/J/K/R` plus `L/N/Q`
-31. after that disclosure batch lands, land the named invariant / edge companion objects `O/P/S`
+30. use `propagation-audit/09-sharpened-propagation-field-split.md` as the active sharper field map when `08` is too coarse
+31. use `propagation-audit/10-model-policy-three-surface-invariant.md`, `11-upstream-pristine-frontier-propagation-obligation.md`, and `12-cross-family-edge-supplement.md` as the current invariant / relation layer for the propagation family
+32. finish wiring the sharpened propagation layer into remaining discovery/doctrine carriers before reopening wider propagation work
 
 ## Open Questions
 

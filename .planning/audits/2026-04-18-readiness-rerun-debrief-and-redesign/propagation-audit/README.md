@@ -60,6 +60,10 @@ Status: active widened inheritance batch
 - [06-bounded-propagation-strengthening-batch-a-b-d-e-f.md](06-bounded-propagation-strengthening-batch-a-b-d-e-f.md)
 - [07-overlay-add-vs-overwrite-contract-and-post-materialization-gate.md](07-overlay-add-vs-overwrite-contract-and-post-materialization-gate.md)
 - [08-broader-network-producer-consumer-and-carrier-map.md](08-broader-network-producer-consumer-and-carrier-map.md)
+- [09-sharpened-propagation-field-split.md](09-sharpened-propagation-field-split.md)
+- [10-model-policy-three-surface-invariant.md](10-model-policy-three-surface-invariant.md)
+- [11-upstream-pristine-frontier-propagation-obligation.md](11-upstream-pristine-frontier-propagation-obligation.md)
+- [12-cross-family-edge-supplement.md](12-cross-family-edge-supplement.md)
 
 ## Quality Gates
 
@@ -93,4 +97,5 @@ Status: active widened inheritance batch
 - [d:r:i] Route `C` and Route `G` are now landed too: overlay add-vs-overwrite typing is explicit, installer/materialization verification is explicit, and the first live run already caught and corrected one real ownership drift case (`skills/gsd-resume-work/SKILL.md`).
 - [d:r:i] The broader family map now exists too: `08` widens the propagation family from the uplift example into a layer stack of governing doctrine, install/materialization, runtime registry, workflow/template/reference contracts, skill routing, helper/output chains, and governance carriers.
 - [d:r:i] The bounded widening lane over `08` is now completed and locally inherited through lane `02`.
-- [d:r:i] The next move is the sharpened disclosure batch earned by lane `02`: split the current family rows more strongly (`H/I/J/K/R`), add the low-cost new carrier rows (`L/N/Q`), and then land the named invariant / edge companion objects (`O/P/S`) before reopening whole-network widening.
+- [d:r:i] The sharpened disclosure layer is now landing too: `09` carries the stronger sub-family rows, `10` names the model-policy three-surface invariant, `11` names the upstream-pristine frontier obligation, and `12` names the first explicit cross-family edges.
+- [d:r:i] The next move is to wire this sharper layer into the remaining discovery/governance surfaces, then decide whether any still-bounded operational follow-through should land before reopening wider propagation work.

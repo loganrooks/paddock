@@ -84,6 +84,10 @@
   - [propagation-audit/launch-truth/02-broader-network-propagation-field-mapping-launch-truth.md](propagation-audit/launch-truth/02-broader-network-propagation-field-mapping-launch-truth.md)
   - [propagation-audit/outputs/02-broader-network-propagation-field-mapping-opus47-max-r1.md](propagation-audit/outputs/02-broader-network-propagation-field-mapping-opus47-max-r1.md)
   - [propagation-audit/dispositions/02-broader-network-propagation-field-mapping-inheritance.md](propagation-audit/dispositions/02-broader-network-propagation-field-mapping-inheritance.md)
+  - [propagation-audit/09-sharpened-propagation-field-split.md](propagation-audit/09-sharpened-propagation-field-split.md)
+  - [propagation-audit/10-model-policy-three-surface-invariant.md](propagation-audit/10-model-policy-three-surface-invariant.md)
+  - [propagation-audit/11-upstream-pristine-frontier-propagation-obligation.md](propagation-audit/11-upstream-pristine-frontier-propagation-obligation.md)
+  - [propagation-audit/12-cross-family-edge-supplement.md](propagation-audit/12-cross-family-edge-supplement.md)
 - long-horizon / anti-threshold family:
   - [intervention-proposals/29-long-horizon-carry-gap-register.md](intervention-proposals/29-long-horizon-carry-gap-register.md)
   - [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md)
