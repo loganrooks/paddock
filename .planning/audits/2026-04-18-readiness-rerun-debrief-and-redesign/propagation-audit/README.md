@@ -83,6 +83,7 @@ Status: active widened inheritance batch
 - [14-propagation-registry-generation-and-seeding-policy.md](14-propagation-registry-generation-and-seeding-policy.md)
 - [15-propagation-registry-v2-layered-first-refresh.md](15-propagation-registry-v2-layered-first-refresh.md)
 - [16-compatibility-anchor-change-triggered-refresh.md](16-compatibility-anchor-change-triggered-refresh.md)
+- [17-compatibility-consumer-follow-through-refresh.md](17-compatibility-consumer-follow-through-refresh.md)
 - [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 - [artifacts/02-propagation-registry-v2-inventory-roster.json](artifacts/02-propagation-registry-v2-inventory-roster.json)
 - [artifacts/03-propagation-registry-v2-declared-contracts.json](artifacts/03-propagation-registry-v2-declared-contracts.json)
@@ -95,7 +96,7 @@ Status: active widened inheritance batch
 - [d:r:i] Before any external lane opens in this subtree:
   - local producer / consumer and impact routing must be written down first
   - the read set must be explicit and bounded
-  - packet/spec/prompt wording must clear the threshold-language scanner
+  - packet/spec/prompt wording must receive contextual reread for binary-gate residue when doctrine-sensitive framing is at stake; heuristic widening aids may help, but they do not decide the result
   - the launch basis commit must be frozen and recorded
 - [d:r:i] Before a local disposition is treated as carrying force:
   - touched vs intentionally-held neighbor surfaces must be named
@@ -128,3 +129,4 @@ Status: active widened inheritance batch
 - [d:r:i] The registry-system reread is now completed and locally inherited through lane `03`.
 - [d:r:i] The layered `v2` first refresh is now landed too: `15` plus `artifacts/02-06` split roster sources, declared contracts, semantic map, observed evidence, and coverage/refresh control into separate surfaces.
 - [d:r:i] The first real `change_triggered_slice_refresh` is now landed too: `16` records the compatibility-anchor slice, and `artifacts/04-06` now answer back to that live contract change rather than only to the earlier flat-registry redesign.
+- [d:r:i] The next compatibility-bearing refresh is now landed too: `17` records the consumer-chain follow-through after the xhigh reread surfaced a durable-output-only carry gap, and the typed `v2` semantic/coverage surfaces now keep the live `progress` / `resume-project` routing in view.

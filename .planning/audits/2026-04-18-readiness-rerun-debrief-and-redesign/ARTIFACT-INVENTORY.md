@@ -60,6 +60,8 @@ Status: active inventory
 - `long-horizon-audit/`
 - `threshold-audit/`
 - `threshold-audit/dispositions/03-threshold-scanner-side-effects-internal-audit.md`
+- `threshold-audit/outputs/04-scanner-side-effects-internal-audit-review-gpt54-xhigh-r1.md`
+- `threshold-audit/dispositions/04-scanner-side-effects-internal-audit-review-inheritance.md`
 
 ### Self-Overcoming Family
 
@@ -78,6 +80,7 @@ Status: active inventory
 - `intervention-proposals/40-project-uplift-first-slice-implementation.md`
 - `intervention-proposals/42-project-uplift-signal-layer-harden-slice.md`
 - `intervention-proposals/43-project-uplift-compatibility-anchor-slice.md`
+- `intervention-proposals/44-project-uplift-compatibility-consumer-follow-through.md`
 - repo-local uplift outputs:
   - `.planning/UPLIFT-REPORT.md`
   - `.planning/UPLIFT-MANIFEST.json`
@@ -116,6 +119,7 @@ Status: active inventory
 - `propagation-audit/14-propagation-registry-generation-and-seeding-policy.md`
 - `propagation-audit/15-propagation-registry-v2-layered-first-refresh.md`
 - `propagation-audit/16-compatibility-anchor-change-triggered-refresh.md`
+- `propagation-audit/17-compatibility-consumer-follow-through-refresh.md`
 - `propagation-audit/artifacts/01-propagation-field-registry-v1.json`
 - `propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json`
 - `propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json`

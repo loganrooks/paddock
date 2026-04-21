@@ -1,6 +1,6 @@
 # Project Uplift Report
 
-- Generated: 2026-04-21T19:32:15+00:00
+- Generated: 2026-04-21T20:23:12+00:00
 - Mode: detect-only
 - Project class: cross-runtime uplift
 - Secondary signals: mid_phase
@@ -47,7 +47,7 @@
 | Carrier | Group | State | Fingerprint Shape | Fingerprint | Note |
 |---------|-------|-------|-------------------|-------------|------|
 | Root AGENTS | doctrine_sensitive | present | content_sha256 | da9bfbb058c1e665f0d90c0ee5d8210d9e0c787c4ce002bb27752614999f06e2 | file carrier present |
-| Planning AGENTS | doctrine_sensitive | present | content_sha256 | 7a9f4d44f334388e52de077cd273f7e1e414a0459763bc1517d5afc8ef2a15a7 | file carrier present |
+| Planning AGENTS | doctrine_sensitive | present | content_sha256 | ae8fac80051b12d28d771093804cc67f69878786715cc19caa930d3dd475b89b | file carrier present |
 | Root CLAUDE | doctrine_sensitive | present | content_sha256 | 81c48b1986f32bbd5aa980ce69e2495aec3f1cf57b006f9cfc7491608382a471 | file carrier present |
 | Planning CLAUDE | doctrine_sensitive | present | content_sha256 | 99053bccfd1722258ef9e6ec8c25514ff22228c5125e149da7ab6b298a390c27 | file carrier present |
 | Claim Types | additive_install | present | content_sha256 | 73a4261f9fb17860f95349aaf7e7bcf69d34d4a2644cf8cbc1c02a850fc5c64a | file carrier present |

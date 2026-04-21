@@ -59,7 +59,8 @@ Status: landed harden slice
 
 ### Governance Gates
 
-- [e:r:i] Threshold-language scan now passes on the touched uplift and tooling surfaces after the README wording was tightened away from explicit threshold-term enumeration.
+- [e:r:i] The touched uplift and tooling surfaces were contextually reread for binary-gate residue during this slice.
+- [d:r:i] Later scanner-side-effects audit pressure now sharpens this boundary further: explicit anti-pattern naming remains allowed where the file itself is teaching what to avoid, and heuristic scan results do not govern wording by themselves. See [threshold-audit/dispositions/03-threshold-scanner-side-effects-internal-audit.md](../threshold-audit/dispositions/03-threshold-scanner-side-effects-internal-audit.md).
 - [e:r:i] `audit_refmap.py verify` still reports `0` missing local links for this audit root.
 - [e:r:i] `git diff --check` passes for the batch.
 

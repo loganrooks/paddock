@@ -218,7 +218,7 @@
       "id": "project_uplift",
       "family": "helper",
       "path": "tooling/codex/project_uplift.py",
-      "role": "authoritative uplift producer",
+      "role": "authoritative uplift producer and compatibility-drift router",
       "support_mode": "roster_plus_producer_report",
       "evidence_refs": [
         "uplift_manifest_current"
@@ -267,7 +267,7 @@
       "id": "progress_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/progress.md",
-      "role": "read-only uplift consumer",
+      "role": "read-only uplift consumer and compatibility-drift prompt surface",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
@@ -278,7 +278,7 @@
       "id": "resume_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/resume-project.md",
-      "role": "second read-only uplift consumer",
+      "role": "second read-only uplift consumer and compatibility-drift prompt surface",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
@@ -427,7 +427,9 @@
       "kind": "read_only_json_bridge",
       "support_mode": "semantic_plus_producer_report",
       "evidence_refs": [
-        "uplift_manifest_current"
+        "uplift_manifest_current",
+        "runtime_manifest_current",
+        "runtime_version_current"
       ],
       "status": "mapped"
     },
@@ -438,7 +440,9 @@
       "kind": "read_only_json_bridge",
       "support_mode": "semantic_plus_producer_report",
       "evidence_refs": [
-        "uplift_manifest_current"
+        "uplift_manifest_current",
+        "runtime_manifest_current",
+        "runtime_version_current"
       ],
       "status": "mapped"
     },

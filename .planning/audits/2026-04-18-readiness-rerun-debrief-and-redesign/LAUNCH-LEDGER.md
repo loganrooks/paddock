@@ -665,3 +665,22 @@
   - carried forward: revised bundle as active local basis, reread judgment that the bundle has crossed into narrow harmonization rather than broad revision
   - landed now: the eight harmonization edits inside `37`, `38`, and `39`
   - next move: first-slice implementation plus bounded verification set
+
+## 2026-04-21 `threshold-audit-review-04`
+
+- date: `2026-04-21`
+- purpose: bounded xhigh reread over the scanner-side-effects internal audit batch after the user challenged whether the scanner had already pushed harmful rewrites
+- requested model / reasoning: `gpt-5.4` / `xhigh`
+- launch mode: `spawn_agent`
+- launch-truth artifact:
+  - [threshold-audit/launch-truth/04-scanner-side-effects-internal-audit-review-launch-truth.md](threshold-audit/launch-truth/04-scanner-side-effects-internal-audit-review-launch-truth.md)
+- output artifact:
+  - [threshold-audit/outputs/04-scanner-side-effects-internal-audit-review-gpt54-xhigh-r1.md](threshold-audit/outputs/04-scanner-side-effects-internal-audit-review-gpt54-xhigh-r1.md)
+- inheritance artifact:
+  - [threshold-audit/dispositions/04-scanner-side-effects-internal-audit-review-inheritance.md](threshold-audit/dispositions/04-scanner-side-effects-internal-audit-review-inheritance.md)
+- disposition:
+  - `accept bounded reviewer return`
+  - accepted now:
+    - route compatibility drift into the live read-only consumer chain
+    - remove scanner-as-gate carry from active governance
+    - tighten observed regular-runtime truth to the canonical `.codex/get-shit-done/VERSION` path

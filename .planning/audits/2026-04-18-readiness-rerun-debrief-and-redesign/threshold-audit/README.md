@@ -21,3 +21,10 @@ Status: first-pass residue audit completed
    - [dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md](dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md)
 5. threshold-scanner side-effects internal audit:
    - [dispositions/03-threshold-scanner-side-effects-internal-audit.md](dispositions/03-threshold-scanner-side-effects-internal-audit.md)
+6. bounded xhigh reread over the scanner-side-effects batch:
+   - output:
+     - [outputs/04-scanner-side-effects-internal-audit-review-gpt54-xhigh-r1.md](outputs/04-scanner-side-effects-internal-audit-review-gpt54-xhigh-r1.md)
+   - launch-truth:
+     - [launch-truth/04-scanner-side-effects-internal-audit-review-launch-truth.md](launch-truth/04-scanner-side-effects-internal-audit-review-launch-truth.md)
+   - inheritance:
+     - [dispositions/04-scanner-side-effects-internal-audit-review-inheritance.md](dispositions/04-scanner-side-effects-internal-audit-review-inheritance.md)

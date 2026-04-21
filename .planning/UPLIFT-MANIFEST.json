@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-04-21T19:32:15+00:00",
+  "generated_at": "2026-04-21T20:23:12+00:00",
   "mode": "detect-only",
   "last_uplift_class": "cross-runtime uplift",
   "last_uplift_secondary_signals": [
@@ -13,8 +13,8 @@
     "mid_phase_signal": true,
     "note": "phase CONTEXT carries explicit rerun-boundary posture"
   },
-  "doctrine_reference_hash": "59e6cdeaf2a3ed93ccb4b8ec3336afc83cf72b5060b93b7bb7cd3dc360eae0a0",
-  "project_fingerprint_hash": "f9137a06d625dceecd7a518ed7afb32e185318d882ade03d23a1a47115bb5b73",
+  "doctrine_reference_hash": "40065252100ec20ce7e61309880ee450b8ef050006860cbd8a6398c762c2b349",
+  "project_fingerprint_hash": "fbe46ae8666e501e75f949e72df8b97817dbc622c0e088d7a915ab8660788a05",
   "current_status": "planning",
   "runtime_dirs": [
     ".codex",
@@ -110,7 +110,7 @@
       "present": true,
       "status": "present",
       "fingerprint_shape": "content_sha256",
-      "fingerprint": "7a9f4d44f334388e52de077cd273f7e1e414a0459763bc1517d5afc8ef2a15a7",
+      "fingerprint": "ae8fac80051b12d28d771093804cc67f69878786715cc19caa930d3dd475b89b",
       "note": "file carrier present"
     },
     {
