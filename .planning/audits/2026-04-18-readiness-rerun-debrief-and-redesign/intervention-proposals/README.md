@@ -58,6 +58,7 @@ Status: active proposal/disposition batch
 48. `48-harness-self-improvement-register-and-quality-basket-proposal.md`
 49. `49-harness-quality-canary-first-slice-implementation.md`
 50. `50-harness-self-improvement-register-first-slice-implementation.md`
+51. `51-audit-program-infrastructure-first-slice-implementation.md`
 
 ## Proposal Rule
 
@@ -84,5 +85,6 @@ Status: active proposal/disposition batch
 - [d:r:i] `48` now proposes the standing self-improvement register family: a durable improvement register plus cross-dimensional quality basket outside this one audit subtree.
 - [d:r:i] `49` now records the landed first canary slice: `harness_canary.py`, tests, doctrine/tooling routing, and a clean frozen report on the current repo.
 - [d:r:i] `50` now records the landed first standing-register slice: `.planning/HARNESS-IMPROVEMENT-REGISTER.md` plus governance routing so the improvement field survives outside this audit subtree.
+- [d:r:i] `51` now records the landed first audit-program infrastructure slice: reusable lane-pattern library, canon-absorption protocol, subtree-aging/graduation protocol, and governance routing so later audit families do not rebuild those rules from scratch.
 - [d:r:i] `42` now records that harden slice as landed: multi-axis posture, phase-boundary signal, per-carrier fingerprint shape, runtime-agent globbing, typed proposal routes, file-backed held-later carry, widened tests, and the two live consumer/output bugs it surfaced and corrected.
 - [d:r:i] Current next move for that family after `42`: use the cleaner uplift slice to open and work the explicit contract-propagation / dependency-carry audit family rather than assuming the partial tooling layer already proves whole-network carry.

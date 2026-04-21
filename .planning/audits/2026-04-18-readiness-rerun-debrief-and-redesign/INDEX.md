@@ -42,6 +42,12 @@
 - [WORKSPACE-AUTHORITY-AND-ORGANIZATION.md](WORKSPACE-AUTHORITY-AND-ORGANIZATION.md)
 - [GOVERNANCE-READING-AND-UPDATE-PROTOCOL.md](GOVERNANCE-READING-AND-UPDATE-PROTOCOL.md)
 
+### Need Audit-Lane Reuse, Canon Uplift, Or Subtree-Status Control
+
+- [AUDIT-LANE-PATTERN-LIBRARY.md](AUDIT-LANE-PATTERN-LIBRARY.md)
+- [AUDIT-CANON-ABSORPTION-PROTOCOL.md](AUDIT-CANON-ABSORPTION-PROTOCOL.md)
+- [AUDIT-SUBTREE-AGING-AND-GRADUATION.md](AUDIT-SUBTREE-AGING-AND-GRADUATION.md)
+
 ### Need Mutable Queue And Checkpoints
 
 - [STATUS.md](STATUS.md)
@@ -72,6 +78,10 @@
   - [.planning/HARNESS-IMPROVEMENT-REGISTER.md](/home/rookslog/workspace/projects/prix-guesser/.planning/HARNESS-IMPROVEMENT-REGISTER.md)
   - [intervention-proposals/50-harness-self-improvement-register-first-slice-implementation.md](intervention-proposals/50-harness-self-improvement-register-first-slice-implementation.md)
   - [harness-improvement-audit/artifacts/01-harness-quality-canary-report.json](harness-improvement-audit/artifacts/01-harness-quality-canary-report.json)
+  - [AUDIT-LANE-PATTERN-LIBRARY.md](AUDIT-LANE-PATTERN-LIBRARY.md)
+  - [AUDIT-CANON-ABSORPTION-PROTOCOL.md](AUDIT-CANON-ABSORPTION-PROTOCOL.md)
+  - [AUDIT-SUBTREE-AGING-AND-GRADUATION.md](AUDIT-SUBTREE-AGING-AND-GRADUATION.md)
+  - [intervention-proposals/51-audit-program-infrastructure-first-slice-implementation.md](intervention-proposals/51-audit-program-infrastructure-first-slice-implementation.md)
 - project-uplift family:
   - [intervention-proposals/37-entry-surface-and-project-uplift-map.md](intervention-proposals/37-entry-surface-and-project-uplift-map.md)
   - [intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md](intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md)

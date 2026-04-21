@@ -48,6 +48,9 @@ These are the files that currently govern local decisions about what this worksp
 - `PLAN-PROPOSALS.md`
 - `STATUS.md`
 - `WORKSPACE-AUTHORITY-AND-ORGANIZATION.md`
+- `AUDIT-LANE-PATTERN-LIBRARY.md`
+- `AUDIT-CANON-ABSORPTION-PROTOCOL.md`
+- `AUDIT-SUBTREE-AGING-AND-GRADUATION.md`
 
 What this class can do:
 
@@ -55,6 +58,7 @@ What this class can do:
 - set burden-of-proof expectations
 - name the live comparison model and proposal space
 - sequence the next local program-design moves
+- route recurring audit-lane structure, canon absorption, and subtree-aging judgments
 
 What this class cannot do on its own:
 

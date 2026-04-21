@@ -15,7 +15,8 @@ Status: active durable register
   - current state: first slice landed through `tooling/codex/harness_canary.py`
   - current evidence: clean strict report frozen at `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/harness-improvement-audit/artifacts/01-harness-quality-canary-report.json`
 - [d:r:i] Audit-program infrastructure
-  - current pressure: pattern library, canon absorption, and audit-subtree aging still need bounded landing
+  - current state: first slice landed through `AUDIT-LANE-PATTERN-LIBRARY.md`, `AUDIT-CANON-ABSORPTION-PROTOCOL.md`, and `AUDIT-SUBTREE-AGING-AND-GRADUATION.md`
+  - current pressure: apply the new subtree-status vocabulary and canon-absorption rule on later family moves rather than leaving them as unused doctrine
 - [d:r:i] Standing self-improvement register and cross-dimensional quality basket
   - current state: this register is the first landed slice
   - current pressure: keep the field visible without letting it dissolve into scattered proposal notes
@@ -64,6 +65,11 @@ Status: active durable register
   - does the family leave a cleaner, more scrutiny-resistant trail?
 - [d:r:i] Intervention yield
   - does the family open stronger later moves, not just patch one local symptom?
+
+## Current Operator Directive
+
+- [g:r:i] Keep widening harness quality, maintainability, robustness, propagation carry, governance legibility, and later self-improvement power while the rerun remains paused.
+- [d:r:i] Do not take shortcuts that trade away future control, better routing, or cleaner maintainability merely because the current slice could stop earlier.
 
 ## Held Later
 

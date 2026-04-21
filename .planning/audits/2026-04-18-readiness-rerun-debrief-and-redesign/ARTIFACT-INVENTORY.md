@@ -83,6 +83,10 @@ Status: active inventory
 - `intervention-proposals/49-harness-quality-canary-first-slice-implementation.md`
 - `.planning/HARNESS-IMPROVEMENT-REGISTER.md`
 - `intervention-proposals/50-harness-self-improvement-register-first-slice-implementation.md`
+- `AUDIT-LANE-PATTERN-LIBRARY.md`
+- `AUDIT-CANON-ABSORPTION-PROTOCOL.md`
+- `AUDIT-SUBTREE-AGING-AND-GRADUATION.md`
+- `intervention-proposals/51-audit-program-infrastructure-first-slice-implementation.md`
 
 ### Self-Overcoming Family
 

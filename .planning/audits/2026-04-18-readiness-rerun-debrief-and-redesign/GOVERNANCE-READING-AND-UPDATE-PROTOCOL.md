@@ -39,6 +39,18 @@ Status: active governance protocol
   - two artifacts seem to conflict in force
   - you need to know which doc should absorb a new kind of update
 
+### Audit-program infrastructure surfaces
+
+- [g:r:i] Role: reusable lane structure, canon-absorption routing, and subtree-aging control
+- [d:r:i] Surfaces:
+  - `AUDIT-LANE-PATTERN-LIBRARY.md`
+  - `AUDIT-CANON-ABSORPTION-PROTOCOL.md`
+  - `AUDIT-SUBTREE-AGING-AND-GRADUATION.md`
+- [d:r:i] Use them when:
+  - a new audit lane is being designed and recurring scaffold questions keep reappearing
+  - a landed family needs doctrine/helper/register absorption rather than remaining trapped in one subtree
+  - an audit subtree no longer owns the immediate next move and its later force needs clearer routing
+
 ### `PLAIN-LANGUAGE-STATE.md` and `PLAIN-LANGUAGE-GLOSSARY.md`
 
 - [g:r:i] Role: fastest honest re-entry for a reader who has lost the thread
@@ -125,6 +137,9 @@ Read:
   - read-order/control-path shifts -> `INDEX.md`
   - denser discovery or family-location expansion -> `ARTIFACT-INVENTORY.md`
   - role disputes or new doc-boundary rules -> `WORKSPACE-AUTHORITY-AND-ORGANIZATION.md`
+  - reusable audit-lane structure -> `AUDIT-LANE-PATTERN-LIBRARY.md`
+  - doctrine/helper/register uplift routing -> `AUDIT-CANON-ABSORPTION-PROTOCOL.md`
+  - subtree-force aging or graduation -> `AUDIT-SUBTREE-AGING-AND-GRADUATION.md`
 - [d:r:i] If a new update seems to belong in all of them, that is a warning sign that the change has not been decomposed cleanly enough yet.
 - [d:r:i] If one governance doc starts carrying multiple jobs at once, split the file instead of continuing to accrete prose.
 

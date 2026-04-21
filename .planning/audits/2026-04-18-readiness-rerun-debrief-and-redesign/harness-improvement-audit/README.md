@@ -17,7 +17,11 @@ Status: completed Opus widening lane; first bounded follow-through slice landed
 6. [outputs/01-harness-maximal-improvement-field-map-opus47-max-r1.md](outputs/01-harness-maximal-improvement-field-map-opus47-max-r1.md)
 7. [dispositions/01-harness-maximal-improvement-field-map-inheritance.md](dispositions/01-harness-maximal-improvement-field-map-inheritance.md)
 8. [artifacts/01-harness-quality-canary-report.json](artifacts/01-harness-quality-canary-report.json)
+9. [../AUDIT-LANE-PATTERN-LIBRARY.md](../AUDIT-LANE-PATTERN-LIBRARY.md)
+10. [../AUDIT-CANON-ABSORPTION-PROTOCOL.md](../AUDIT-CANON-ABSORPTION-PROTOCOL.md)
+11. [../AUDIT-SUBTREE-AGING-AND-GRADUATION.md](../AUDIT-SUBTREE-AGING-AND-GRADUATION.md)
+12. [../intervention-proposals/51-audit-program-infrastructure-first-slice-implementation.md](../intervention-proposals/51-audit-program-infrastructure-first-slice-implementation.md)
 
 ## Current Goal
 
-- [d:r:i] Use the inherited full-field widening map plus the landed first canary slice to keep opening bounded follow-through artifacts that intensify robustness, maintainability, propagation visibility, audit reuse, and self-improvement carry while the rerun remains paused.
+- [d:r:i] Use the inherited full-field widening map plus the landed first canary, audit-program infrastructure, and standing-register slices to keep opening bounded follow-through artifacts that intensify robustness, maintainability, propagation visibility, audit reuse, and self-improvement carry while the rerun remains paused.
