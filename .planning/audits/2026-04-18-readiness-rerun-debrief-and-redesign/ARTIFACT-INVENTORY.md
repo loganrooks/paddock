@@ -62,6 +62,8 @@ Status: active inventory
 - `threshold-audit/dispositions/03-threshold-scanner-side-effects-internal-audit.md`
 - `threshold-audit/outputs/04-scanner-side-effects-internal-audit-review-gpt54-xhigh-r1.md`
 - `threshold-audit/dispositions/04-scanner-side-effects-internal-audit-review-inheritance.md`
+- `threshold-audit/outputs/05-historical-scanner-influenced-reread-gpt54-xhigh-r1.md`
+- `threshold-audit/dispositions/05-historical-scanner-influenced-reread-inheritance.md`
 
 ### Self-Overcoming Family
 

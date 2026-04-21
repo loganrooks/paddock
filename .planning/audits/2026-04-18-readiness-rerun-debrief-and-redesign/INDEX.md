@@ -111,6 +111,7 @@
   - [threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md](threshold-audit/dispositions/02-spec-prompt-threshold-residue-and-self-overcoming-surface-audit.md)
   - [threshold-audit/dispositions/03-threshold-scanner-side-effects-internal-audit.md](threshold-audit/dispositions/03-threshold-scanner-side-effects-internal-audit.md)
   - [threshold-audit/dispositions/04-scanner-side-effects-internal-audit-review-inheritance.md](threshold-audit/dispositions/04-scanner-side-effects-internal-audit-review-inheritance.md)
+  - [threshold-audit/dispositions/05-historical-scanner-influenced-reread-inheritance.md](threshold-audit/dispositions/05-historical-scanner-influenced-reread-inheritance.md)
 
 ## Current Session Rule
 

@@ -28,3 +28,14 @@ Status: first-pass residue audit completed
      - [launch-truth/04-scanner-side-effects-internal-audit-review-launch-truth.md](launch-truth/04-scanner-side-effects-internal-audit-review-launch-truth.md)
    - inheritance:
      - [dispositions/04-scanner-side-effects-internal-audit-review-inheritance.md](dispositions/04-scanner-side-effects-internal-audit-review-inheritance.md)
+7. bounded historical reread over the scanner-influenced commit family:
+   - packet/spec/prompt:
+     - [packets/05-historical-scanner-influenced-reread-packet.md](packets/05-historical-scanner-influenced-reread-packet.md)
+     - [specs/05-historical-scanner-influenced-reread-spec.md](specs/05-historical-scanner-influenced-reread-spec.md)
+     - [prompts/05-historical-scanner-influenced-reread-gpt54-xhigh-launch-prompt.md](prompts/05-historical-scanner-influenced-reread-gpt54-xhigh-launch-prompt.md)
+   - output:
+     - [outputs/05-historical-scanner-influenced-reread-gpt54-xhigh-r1.md](outputs/05-historical-scanner-influenced-reread-gpt54-xhigh-r1.md)
+   - launch-truth:
+     - [launch-truth/05-historical-scanner-influenced-reread-launch-truth.md](launch-truth/05-historical-scanner-influenced-reread-launch-truth.md)
+   - inheritance:
+     - [dispositions/05-historical-scanner-influenced-reread-inheritance.md](dispositions/05-historical-scanner-influenced-reread-inheritance.md)

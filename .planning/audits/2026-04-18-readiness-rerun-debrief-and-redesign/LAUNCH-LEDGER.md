@@ -684,3 +684,25 @@
     - route compatibility drift into the live read-only consumer chain
     - remove scanner-as-gate carry from active governance
     - tighten observed regular-runtime truth to the canonical `.codex/get-shit-done/VERSION` path
+
+## 2026-04-21 `threshold-audit-review-05`
+
+- date: `2026-04-21`
+- purpose: bounded historical reread over the scanner-influenced commit family after the side-effects audit established that some scanner-led corrections had drifted into wording control
+- requested model / reasoning: `gpt-5.4` / `xhigh`
+- launch mode: `spawn_agent`
+- launch-truth artifact:
+  - [threshold-audit/launch-truth/05-historical-scanner-influenced-reread-launch-truth.md](threshold-audit/launch-truth/05-historical-scanner-influenced-reread-launch-truth.md)
+- packet / spec / prompt:
+  - [threshold-audit/packets/05-historical-scanner-influenced-reread-packet.md](threshold-audit/packets/05-historical-scanner-influenced-reread-packet.md)
+  - [threshold-audit/specs/05-historical-scanner-influenced-reread-spec.md](threshold-audit/specs/05-historical-scanner-influenced-reread-spec.md)
+  - [threshold-audit/prompts/05-historical-scanner-influenced-reread-gpt54-xhigh-launch-prompt.md](threshold-audit/prompts/05-historical-scanner-influenced-reread-gpt54-xhigh-launch-prompt.md)
+- output artifact:
+  - [threshold-audit/outputs/05-historical-scanner-influenced-reread-gpt54-xhigh-r1.md](threshold-audit/outputs/05-historical-scanner-influenced-reread-gpt54-xhigh-r1.md)
+- inheritance artifact:
+  - [threshold-audit/dispositions/05-historical-scanner-influenced-reread-inheritance.md](threshold-audit/dispositions/05-historical-scanner-influenced-reread-inheritance.md)
+- disposition:
+  - `accept`
+  - keep the threshold-audit family and the later scanner demotion
+  - preserve `01` and `02` as historical audit surfaces, but reread them through the later `03`-`05` caveat layer
+  - narrow the still-live false-control edge in `scan_threshold_language.py`
