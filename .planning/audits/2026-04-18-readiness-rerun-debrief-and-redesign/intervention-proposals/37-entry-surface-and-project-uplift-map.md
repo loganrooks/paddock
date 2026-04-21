@@ -10,36 +10,65 @@ Status: active map artifact
 
 ## Framing
 
-- [d:r:i] The current family contains at least five distinct jobs:
+- [d:r:i] The current family contains at least eight distinct jobs:
   - initial creation
   - milestone opening
   - docs bootstrap / docs merge
   - session re-entry and planning recovery
+  - runtime / install refresh
+  - structural or posture repair
+  - migration across generations or runtimes
   - runtime / planning / doctrine uplift for projects that already exist
-- [d:r:i] The first four jobs already have real owners. The fifth is distributed across several surfaces and still lacks one explicit owner.
+- [d:r:i] Several of these jobs already have specialist owners. The composition-layer uplift job still spreads across several surfaces and lacks one explicit owner.
 - [d:r:i] This map therefore asks not only what each surface already carries, but also where ownership thins, where carry becomes scattered across multiple commands, and where a dedicated uplift workflow should later gather the work into one auditable path.
 
 ## Scenario Map
 
 - [d:r:i] `Fresh greenfield repo`
   - current primary owner: `new-project`
+- [d:r:i] `Greenfield repo with durable discovery corpus but no .planning/`
+  - current primary owner: `new-project`
+  - thinner edge: the `discovery/` to live-planning boundary still needs manual carry
 - [d:r:i] `Brownfield repo with code but no .planning/`
   - current primary owner: `new-project`, with optional `map-codebase` detour first
 - [d:r:i] `Existing project opening a new milestone`
   - current primary owner: `new-milestone`
 - [d:r:i] `Docs-heavy repo bootstrapping or merging planning state`
   - current primary owner: `ingest-docs`
+- [d:r:i] `Workspace / worktree entry`
+  - current primary owners: `gsd-new-workspace`, `gsd-list-workspaces`, `gsd-remove-workspace`
+- [d:r:i] `Phase-injection entry inside an existing milestone`
+  - current primary owners: `gsd-add-phase`, `gsd-insert-phase`, `gsd-plan-milestone-gaps`
 - [d:r:i] `Existing project returning after time away`
   - current primary owners: `resume-project` and `progress`
 - [d:r:i] `Existing project with damaged or thin planning state`
   - current primary owner: `health`
 - [d:r:i] `Existing project updating runtime install/version`
   - current primary owner: `update`
+- [d:r:i] `Installer re-run / materialization refresh without broader project uplift`
+  - current primary owner: `scripts/setup-portable-gsd.sh`, usually via `update`
 - [d:r:i] `Project migrating from GSD2 back to .planning/`
   - current primary owner: `from-gsd2`
-- [d:r:i] `Existing vanilla or older GSD project that should inherit stronger repo-local doctrine, governing docs, long-horizon carry, and runtime posture`
+- [d:r:i] `Required-reading posture install`
+  - current primary carrier: `mandatory-initial-read`
+  - current owner for wider project install: no single explicit owner yet
+- [d:r:i] `Claim-type / long-horizon / anti-threshold doctrine install on an existing project`
+  - current primary carriers: root/planning `AGENTS.md`, `CLAIM-TYPES.md`, `LONG-ARC.md`
+  - current owner for project-wide install: no single explicit owner yet
+- [d:r:i] `Existing vanilla project that should inherit stronger repo-local doctrine, governing docs, long-horizon carry, and runtime posture`
   - current owner: no single explicit owner yet
-  - current practical reality: the user/operator must compose pieces from `update`, `health`, `resume-project`, `progress`, governing-doc rereads, and local audit/onboarding artifacts by hand
+- [d:r:i] `Existing aged bespoke project that already has custom local carriers but should be refreshed toward current repo-local posture`
+  - current owner: no single explicit owner yet
+- [d:r:i] `Cross-runtime posture uplift`
+  - current owner: no single explicit owner yet
+- [d:r:i] `Upstream-template-drift uplift`
+  - current owner: no single explicit owner yet
+- [d:r:i] `Forensics / post-mortem entry`
+  - current primary owner: `gsd-forensics`
+- [d:r:i] `Archived-milestone re-entry`
+  - current primary owners: milestone archive / summary surfaces
+- [d:r:i] `Audit-subtree aging and companion-carrier refresh`
+  - current owner: no single explicit owner yet
 
 ## Current Surface Map
 
@@ -95,6 +124,17 @@ Status: active map artifact
 
 - [e:c+i] `mandatory-initial-read` enforces `<required_reading>` when a workflow has already named files to load. Source: .codex/get-shit-done/references/mandatory-initial-read.md:1.
 - [d:r:i] That makes it an important discipline carrier, but not an uplift owner. It does not decide what a vanilla or older project should newly inherit; it only ensures required files are read once they have already been named.
+- [e:c+i] Root/planning `AGENTS.md`, thin `CLAUDE.md` wrappers, `.planning/CLAIM-TYPES.md`, and `.planning/LONG-ARC.md` already carry repo-local doctrine, claim notation, long-horizon posture, and anti-threshold framing. Sources: AGENTS.md:13-20, AGENTS.md:60-106, .planning/AGENTS.md:13-24, .planning/AGENTS.md:117-132.
+- [d:r:i] These are not merely background reading. They are current posture carriers that many older or vanilla projects will not yet have inherited in their stronger form.
+- [e:c+i] Repo-local tooling now also carries doctrine in executable form: `audit_refmap.py`, `scan_threshold_language.py`, `runtime_visibility.py`, `capture_launch_truth.py`, and `manifest_install_coherence.py` are named directly in root/planning guidance for audit, runtime, and request-surface discipline. Sources: AGENTS.md:149-152, .planning/AGENTS.md:44-74.
+- [d:r:i] That means governing posture now has both document carriers and tooling carriers. A later uplift workflow should check both rather than treating onboarding as only a markdown-doc problem.
+- [e:c+i] The repo-local `gsd-rigorous-research` skill is also a standing posture carrier for non-phase-bound research lanes. Source: AGENTS.md:44.
+
+### 10. Adjacent Entry And Carrier Families
+
+- [d:r:i] `Workspace / worktree entry`, `phase-injection entry`, `forensics entry`, and `archived-milestone re-entry` are real entry families even though they should stay specialist-owned rather than absorbed into a first uplift slice.
+- [d:r:i] `Required-reading posture install`, `claim-type / long-horizon install`, `repo-local tooling install`, and `audit-subtree aging` are not standalone workflows today, but they already function as entry-sensitive posture families and should be treated as such in later uplift design.
+- [d:r:i] The main current gain from naming them here is not to widen the first slice recklessly. It is to stop them from disappearing into a generic onboarding bucket.
 
 ## Interaction Map
 
@@ -104,19 +144,21 @@ Status: active map artifact
 - [d:r:i] `health` is the thickest structural repair surface.
 - [d:r:i] `update` is the thickest runtime-version surface.
 - [d:r:i] `from-gsd2` is the thickest format migration surface.
+- [d:r:i] `mandatory-initial-read`, root/planning `AGENTS.md`, `CLAUDE.md` wrappers, `CLAIM-TYPES.md`, `LONG-ARC.md`, and the repo-local tooling stack are the thickest governing/posture carriers.
 - [d:r:i] None of these currently owns the full cross-surface move:
   - detect older/vanilla posture
   - check runtime/install state
   - check `.planning/` structural health
-  - install or refresh repo-local governing docs/instruction carriers
+  - install or refresh repo-local governing docs, tooling, and instruction carriers
   - ensure required-reading and long-horizon carry are active
+  - ensure claim-type and anti-threshold posture are active in load-bearing surfaces
   - output an explicit uplift disposition showing what was refreshed, what stayed local, and what still needs later work
 
 ## Where Carry Is Currently Scattered
 
 ### Governing-Doc Refresh
 
-- [d:r:i] The current harness can generate an instruction file during `new-project`, and local audit work has its own onboarding companions, but there is no single follow-through path for refreshing root/planning `AGENTS.md`, thin `CLAUDE.md` wrappers, or related governance documents on an already-existing project. Sources: .codex/get-shit-done/workflows/new-project.md:1247, .codex/get-shit-done/workflows/new-project.md:1346.
+- [d:r:i] The current harness can generate an instruction file during `new-project`, and local audit work has its own onboarding companions, but there is no single follow-through path for refreshing root/planning `AGENTS.md`, thin `CLAUDE.md` wrappers, `.planning/CLAIM-TYPES.md`, `.planning/LONG-ARC.md`, or related governance documents on an already-existing project. Sources: .codex/get-shit-done/workflows/new-project.md:1247, .codex/get-shit-done/workflows/new-project.md:1346, AGENTS.md:92-106, .planning/AGENTS.md:16.
 
 ### Long-Horizon And Strengthening Carry Install
 
@@ -126,9 +168,26 @@ Status: active map artifact
 
 - [d:r:i] An existing vanilla project can currently be updated, repaired, resumed, or progressed, but it still lacks one explicit route that says: detect thinner posture, refresh runtime/governing/planning carriers, and write a durable report of the uplift. This is the family’s clearest ownerless seam.
 
+### Aged-Bespoke Uplift
+
+- [d:r:i] A project that already carries custom local governance or planning doctrine can be stronger than vanilla and still drift from current repo-local posture. That refresh is different from vanilla uplift because the task is not first install, but selective refresh without flattening bespoke local value.
+
+### Cross-Runtime Uplift
+
+- [d:r:i] A project may have been initialized under one runtime and later used under another. The current surface family can update the runtime install and generate runtime-specific instruction files during first init, but it does not own later cross-runtime posture alignment.
+
+### Upstream-Template-Drift Uplift
+
+- [d:r:i] A project may be current on package version and still thinner than current shipped template posture. This is not the same problem as runtime update or structural health, and it needs its own seat in the uplift family rather than disappearing into generic “update”.
+
 ### Output Record
 
 - [d:r:i] The current entry surfaces each produce their own local outputs (`PROJECT.md`, `STATE.md`, roadmap, conflicts, repair results, resume status), but there is no single uplift report surface that records the before/after of a project-wide repo-local refresh.
+- [d:r:i] The stronger candidate carrier set is now visible:
+  - `UPLIFT-REPORT.md`
+  - `UPLIFT-STATE.md` or equivalent persistent state carry
+  - a project doctrine manifest
+  - uplift-origin seed routing for what should be deferred rather than silently dropped
 
 ## Candidate Ownership Split For A Later Uplift Workflow
 
@@ -140,11 +199,20 @@ Status: active map artifact
   - detect whether uplift is worth opening
   - gather runtime/install, planning-health, and governing-posture evidence
   - refresh repo-local carriers that belong together
-  - write a durable uplift report / disposition
+  - install or refresh required-reading, claim-type, long-horizon, and anti-threshold posture where it thins
+  - install or refresh the repo-local tooling carriers that current doctrine now assumes
+  - write a durable uplift report / disposition and state carry
   - route any remainder into later work instead of mutating silently
+- [d:r:i] The first slice of that workflow should stay compact:
+  - no full reinstall
+  - no full migration
+  - no cross-project batching
+  - no workstream reconciliation
+  - no audit-tree restructuring
+  - no full upstream-template expression pass
 
 ## Current Consequence
 
-- [d:r:i] The family terrain is now sharp enough for a next design object.
-- [d:r:i] The next exact object should be `38-project-uplift-workflow-proposal.md`.
-- [d:r:i] Before or alongside `38`, this map is now strong enough to serve as the local scaffold for the later `opus[1m]` widening pass the workspace already agreed to run.
+- [d:r:i] The family terrain now carries the widened field directly rather than only through the raw Opus output.
+- [d:r:i] The next exact object should therefore be the explicit concern/carrier-placement pass as `38`, so this family records where each pressure should surface most strongly before workflow design begins.
+- [d:r:i] Only after that placement pass should the workspace draft the uplift workflow proposal.

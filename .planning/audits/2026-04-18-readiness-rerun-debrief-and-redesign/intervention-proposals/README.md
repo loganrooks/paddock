@@ -58,10 +58,8 @@ Status: active proposal/disposition batch
 - [d:r:i] `34` now freezes the first bounded example packet for this family across landed intensification and later-routed strengthening pressure.
 - [d:r:i] `35` now carries the compact working reference surface for this family, explicitly grounded in `34` rather than in theory alone.
 - [d:r:i] `36` now opens the next intervention family directly: initialization, onboarding, and project uplift should be strengthened as one entry-surface sequence rather than left scattered across init, repair, update, and audit-side onboarding objects.
-- [d:r:i] `37` now maps that entry-surface family directly across creation, milestone opening, docs bootstrap/merge, re-entry, repair, update, and migration surfaces, and makes the ownerless vanilla-project uplift seam explicit enough to support both a later uplift-workflow proposal and a widening `opus[1m]` challenge.
+- [d:r:i] `37` now carries the widened field directly: creation, milestone opening, docs bootstrap/merge, re-entry, repair, update, migration, workspace/worktree entry, phase-injection entry, installer re-run, governing-posture install, split uplift families, forensics entry, archived-milestone re-entry, and audit-subtree aging now all have an explicit seat in the family map.
 - [d:r:i] The locked next sequence for that family is now:
-  1. finish the current widening-lane inheritance boundary
-  2. revise `37` so it inherits the widened field and carrier set
-  3. write an explicit concern/carrier-placement pass as `38`
-  4. draft `39-project-uplift-workflow-proposal.md`
-  5. only then challenge the revised map plus placement pass plus workflow proposal together
+  1. write an explicit concern/carrier-placement pass as `38`
+  2. draft `39-project-uplift-workflow-proposal.md`
+  3. only then challenge the revised map plus placement pass plus workflow proposal together

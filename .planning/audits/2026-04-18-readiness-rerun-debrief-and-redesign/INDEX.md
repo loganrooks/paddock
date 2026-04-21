@@ -174,8 +174,6 @@
 - current terrain map for the next entry-surface intervention family: `intervention-proposals/37-entry-surface-and-project-uplift-map.md`
 - current widening challenge subtree for that family: `entry-uplift-audit/`
 - locked next sequence for that family:
-  - finish the widening-lane inheritance boundary
-  - revise `37`
   - add an explicit concern/carrier-placement pass as the next local object
   - then draft the uplift workflow proposal
   - then challenge that stronger bundle cross-vendor
