@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "62e37d9",
+  "basis_commit": "0d1c9ad",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -115,6 +115,18 @@
         "workflow_output"
       ],
       "claim_boundary": "declares how required, supporting, and deeper reading tiers keep startup context, route-local widening, and later bounded reread explicit across current operator-facing entry and re-entry workflows without replacing contextual judgment"
+    },
+    {
+      "id": "initialization_ingest_read_packet_contract",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/new-project.md",
+      "validator": "tooling/codex/tests/test_initialization_read_packet_contract.py",
+      "contract_kind": "shared read-packet tier semantics for initialization, milestone-open, and doc-ingest surfaces with explicit uplift-route separation",
+      "families_touched": [
+        "install_overlay",
+        "workflow_output",
+        "reference_behavior"
+      ],
+      "claim_boundary": "declares how new-project, new-milestone, and ingest-docs inherit required/supporting/deeper reading tiers, and how existing-project refresh or later repo-local uplift remain explicit route splits instead of being flattened into one blended startup space"
     }
   ]
 }

@@ -92,6 +92,7 @@ Status: active lane; widened inheritance batch
 - [23-state-progress-and-resume-future-carry-change-triggered-refresh.md](23-state-progress-and-resume-future-carry-change-triggered-refresh.md)
 - [24-spec-lifecycle-carry-change-triggered-refresh.md](24-spec-lifecycle-carry-change-triggered-refresh.md)
 - [25-read-packet-and-relevance-control-change-triggered-refresh.md](25-read-packet-and-relevance-control-change-triggered-refresh.md)
+- [26-initialization-and-ingest-read-packet-change-triggered-refresh.md](26-initialization-and-ingest-read-packet-change-triggered-refresh.md)
 - [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 - [artifacts/02-propagation-registry-v2-inventory-roster.json](artifacts/02-propagation-registry-v2-inventory-roster.json)
 - [artifacts/03-propagation-registry-v2-declared-contracts.json](artifacts/03-propagation-registry-v2-declared-contracts.json)
@@ -146,3 +147,4 @@ Status: active lane; widened inheritance batch
 - [d:r:i] A seventh non-uplift change-triggered refresh is now landing too: `23` records the first-read consumer slice, and the typed `v2` layers now keep the state helper plus `progress` / `resume-project` future-carry routing explicit instead of leaving that bridge ambient behind local workflow prose.
 - [d:r:i] An eighth non-uplift change-triggered refresh is now landing too: `24` records the spec lifecycle slice, and the typed `v2` layers now keep the spec producer pair plus the discuss-side upstream spec consumer explicit instead of leaving that bridge ambient behind one template omission and one unfulfilled workflow claim.
 - [d:r:i] A ninth non-uplift change-triggered refresh is now landing too: `25` records the read-packet and relevance-control slice, and the typed `v2` layers now keep the shared mandatory-read reference plus the `progress` / `resume-project` / `uplift-project` reading-control consumers explicit instead of leaving operator packet posture ambient behind one small reference file and three workflow habits.
+- [d:r:i] A tenth non-uplift change-triggered refresh is now landing too: `26` records the initialization and ingest read-packet slice, and the typed `v2` layers now keep `new-project`, `new-milestone`, and `ingest-docs` explicit as shared-reference consumers with bounded uplift-route relations instead of leaving initialization/onboarding as a flatter older pocket.

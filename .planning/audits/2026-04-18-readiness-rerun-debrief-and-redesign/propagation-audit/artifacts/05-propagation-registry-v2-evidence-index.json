@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "62e37d9",
+  "basis_commit": "0d1c9ad",
   "evidence_entries": [
     {
       "id": "overlay_contract_validation",
@@ -133,6 +133,18 @@
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_read_packet_tiers_contract.py",
       "note": "focused contract coverage for mandatory-read tier doctrine, overlay ownership for the shared reference, and layered packet carry in progress, resume-project, and uplift-project"
+    },
+    {
+      "id": "initialization_ingest_read_packet_impl_68",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/68-initialization-and-ingest-read-packet-first-slice-implementation.md",
+      "note": "landed initialization and ingest read-packet slice covering tracked overlay ownership for new-project, new-milestone, and ingest-docs, explicit required/supporting/deeper packet tiers, and sharper progress-then-uplift versus merge-then-later-uplift route separation"
+    },
+    {
+      "id": "initialization_read_packet_contract_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_initialization_read_packet_contract.py",
+      "note": "focused contract coverage for overlay ownership of new-project, new-milestone, and ingest-docs, layered packet doctrine presence, and explicit uplift-route visibility where this slice makes that route real"
     }
   ]
 }

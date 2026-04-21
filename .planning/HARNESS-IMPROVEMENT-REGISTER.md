@@ -22,8 +22,8 @@ Status: active durable register
   - current state: this register is the first landed slice
   - current pressure: keep the field visible without letting it dissolve into scattered proposal notes
 - [d:r:i] Lifecycle carry beyond discuss/plan
-  - current state: verifier-side first slice landed through `53` and `54`, transition-side first slice landed through `57` and `58`, milestone-boundary first slice landed through `59` and `60`, first-read consumer carry landed through `61` and `62`, spec-boundary carry is now landed through `63` and `64`, and the first read-packet / relevance-control slice is now landed through `65` and `66`
-  - current pressure: initialization surfaces, seed consumers, and any later wider packet retrofit beyond the current operator-facing slice
+  - current state: verifier-side first slice landed through `53` and `54`, transition-side first slice landed through `57` and `58`, milestone-boundary first slice landed through `59` and `60`, first-read consumer carry landed through `61` and `62`, spec-boundary carry is now landed through `63` and `64`, the first read-packet / relevance-control slice is now landed through `65` and `66`, and the initialization/doc-ingest inheritance slice is now landed through `67` and `68`
+  - current pressure: health / repair, `from-gsd2` / migration, seed consumers, and any later wider packet retrofit beyond the current operator-facing plus initialization/doc-ingest slice
 - [d:r:i] Portable setup robustness and reinstall truth
   - current state: first bounded local harden slice landed through `ensure_gsd_sdk_runtime.py`, fresh-install pristine overwrite capture, and the routed `setup-portable-gsd.sh` recovery path
   - current pressure: keep widening repeated reinstall durability without confusing repo-local repair with upstream installer control
@@ -39,7 +39,7 @@ Status: active durable register
 ## Current Bounded Next Slices
 
 - [d:r:i] Lifecycle carry follow-through beyond the verifier, transition, milestone-boundary, first-read consumer, and spec bridges
-- [d:r:i] Lifecycle carry follow-through beyond the current read-packet / relevance-control slice
+- [d:r:i] Lifecycle carry follow-through beyond the current re-entry plus initialization/doc-ingest read-packet slice
 - [d:r:i] Portable setup robustness follow-through beyond the first bounded recovery/capture slice
 - [d:r:i] Standing self-improvement register growth beyond this first slice
 - [d:r:i] Explicit canon-absorption use on later landed intervention families

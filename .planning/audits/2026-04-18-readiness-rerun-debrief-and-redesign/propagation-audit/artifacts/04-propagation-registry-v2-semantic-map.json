@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "62e37d9",
+  "basis_commit": "0d1c9ad",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -417,12 +417,14 @@
       "id": "mandatory_initial_read_reference",
       "family": "reference_behavior",
       "path": "tooling/portable-gsd/overlay/get-shit-done/references/mandatory-initial-read.md",
-      "role": "shared read-packet doctrine defining required, supporting, and deeper reading tiers for current operator-facing entry and re-entry workflows",
+      "role": "shared read-packet doctrine defining required, supporting, and deeper reading tiers for current operator-facing entry, re-entry, initialization, milestone-open, and doc-ingest workflows",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "read_packet_relevance_control_impl_66",
-        "read_packet_tier_contract_tests"
+        "read_packet_tier_contract_tests",
+        "initialization_ingest_read_packet_impl_68",
+        "initialization_read_packet_contract_tests"
       ]
     },
     {
@@ -506,11 +508,37 @@
       "id": "milestone_open_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/new-milestone.md",
-      "role": "operator-facing milestone-opening workflow carrying LONG-ARC reread and Future Carry Forward milestone-open routing",
+      "role": "operator-facing milestone-opening workflow carrying LONG-ARC reread, Future Carry Forward milestone-open routing, and layered read-packet control over primary milestone context, seed widening, and deeper later research",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
-        "milestone_boundary_lifecycle_carry_impl_60"
+        "milestone_boundary_lifecycle_carry_impl_60",
+        "initialization_ingest_read_packet_impl_68",
+        "initialization_read_packet_contract_tests"
+      ]
+    },
+    {
+      "id": "new_project_workflow",
+      "family": "workflow_output",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/new-project.md",
+      "role": "operator-facing project initialization workflow carrying layered read-packet control over init plus idea context, route-local brownfield widening, and explicit existing-project refresh toward progress then later uplift",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "initialization_ingest_read_packet_impl_68",
+        "initialization_read_packet_contract_tests"
+      ]
+    },
+    {
+      "id": "ingest_docs_workflow",
+      "family": "workflow_output",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/ingest-docs.md",
+      "role": "operator-facing doc-ingest workflow carrying layered read-packet control over parse or init context, staged discovery and merge widening, and a later repo-local uplift route kept distinct from planning-doc merge",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "initialization_ingest_read_packet_impl_68",
+        "initialization_read_packet_contract_tests"
       ]
     },
     {
@@ -992,7 +1020,32 @@
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
-        "milestone_boundary_lifecycle_carry_impl_60"
+        "milestone_boundary_lifecycle_carry_impl_60",
+        "initialization_ingest_read_packet_impl_68"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_new_project_workflow",
+      "from": "overlay_manifest",
+      "to": "new_project_workflow",
+      "kind": "overlay_owns_workflow_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "initialization_ingest_read_packet_impl_68"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_ingest_docs_workflow",
+      "from": "overlay_manifest",
+      "to": "ingest_docs_workflow",
+      "kind": "overlay_owns_workflow_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "initialization_ingest_read_packet_impl_68"
       ],
       "status": "mapped"
     },
@@ -1115,6 +1168,42 @@
       "status": "mapped"
     },
     {
+      "id": "mandatory_initial_read_to_new_project_workflow",
+      "from": "mandatory_initial_read_reference",
+      "to": "new_project_workflow",
+      "kind": "shared_reference_guides_workflow_reading_control",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "initialization_ingest_read_packet_impl_68",
+        "initialization_read_packet_contract_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "mandatory_initial_read_to_milestone_open_workflow",
+      "from": "mandatory_initial_read_reference",
+      "to": "milestone_open_workflow",
+      "kind": "shared_reference_guides_workflow_reading_control",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "initialization_ingest_read_packet_impl_68",
+        "initialization_read_packet_contract_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "mandatory_initial_read_to_ingest_docs_workflow",
+      "from": "mandatory_initial_read_reference",
+      "to": "ingest_docs_workflow",
+      "kind": "shared_reference_guides_workflow_reading_control",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "initialization_ingest_read_packet_impl_68",
+        "initialization_read_packet_contract_tests"
+      ],
+      "status": "mapped"
+    },
+    {
       "id": "mandatory_initial_read_to_resume_workflow",
       "from": "mandatory_initial_read_reference",
       "to": "resume_workflow",
@@ -1135,6 +1224,30 @@
       "evidence_refs": [
         "read_packet_relevance_control_impl_66",
         "read_packet_tier_contract_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "new_project_workflow_to_progress_workflow",
+      "from": "new_project_workflow",
+      "to": "progress_workflow",
+      "kind": "existing_project_refresh_routes_through_progress",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "initialization_ingest_read_packet_impl_68",
+        "initialization_read_packet_contract_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "ingest_docs_workflow_to_uplift_workflow",
+      "from": "ingest_docs_workflow",
+      "to": "uplift_workflow",
+      "kind": "doc_merge_kept_distinct_from_later_repo_local_uplift",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "initialization_ingest_read_packet_impl_68",
+        "initialization_read_packet_contract_tests"
       ],
       "status": "mapped"
     }
