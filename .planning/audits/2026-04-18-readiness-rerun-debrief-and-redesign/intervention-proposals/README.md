@@ -78,6 +78,8 @@ Status: active proposal/disposition batch
 68. `68-initialization-and-ingest-read-packet-first-slice-implementation.md`
 69. `69-health-and-migration-follow-through-first-slice-proposal.md`
 70. `70-health-and-migration-follow-through-first-slice-implementation.md`
+71. `71-update-follow-through-first-slice-proposal.md`
+72. `72-update-follow-through-first-slice-implementation.md`
 
 ## Proposal Rule
 
@@ -124,5 +126,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `68` now records the landed initialization/doc-ingest slice itself: tracked overlay ownership for `new-project`, `new-milestone`, and `ingest-docs`, explicit `required` / `supporting` / `deeper` packet tiers on all three, and sharper `progress -> uplift` versus merge-then-later-uplift routing.
 - [d:r:i] `69` now opens the next bounded onboarding inheritance step directly: `health` and `from-gsd2` should inherit the same layered read-packet and route-separation doctrine so repair and migration no longer stop at structural repair or format conversion alone.
 - [d:r:i] `70` now records the landed repair/migration slice itself: tracked overlay ownership for `health.md`, `gsd-health`, and `gsd-from-gsd2`, explicit `required` / `supporting` / `deeper` packet tiers in `health`, explicit structural-repair versus missing-planning versus later-uplift routing, and post-migration structural-validation plus later-uplift separation in `from-gsd2`.
+- [d:r:i] `71` now opens the next bounded onboarding inheritance step directly: `update` and `gsd-update` should inherit the same layered read-packet and route-separation doctrine so runtime/package movement no longer flattens structural repair or later posture refresh into one generic update story.
+- [d:r:i] `72` now records the landed update slice itself: tracked overlay ownership for `update.md` and `gsd-update`, explicit `required` / `supporting` / `deeper` packet tiers in `update`, and explicit runtime/package versus structural-health versus later-uplift routing in both the workflow and wrapper.
 - [d:r:i] `42` now records that harden slice as landed: multi-axis posture, phase-boundary signal, per-carrier fingerprint shape, runtime-agent globbing, typed proposal routes, file-backed held-later carry, widened tests, and the two live consumer/output bugs it surfaced and corrected.
-- [d:r:i] The current broader consequence after `42-70`: use the cleaner uplift slice, the active propagation family, the landed verifier / transition / milestone-boundary / first-read / spec lifecycle bridges, the landed re-entry plus initialization/doc-ingest plus repair/migration read-packet and route-separation slices, and the hardened setup/materialization path together rather than assuming one helper or one bounded slice already proves whole-network carry.
+- [d:r:i] The current broader consequence after `42-72`: use the cleaner uplift slice, the active propagation family, the landed verifier / transition / milestone-boundary / first-read / spec lifecycle bridges, the landed re-entry plus initialization/doc-ingest plus repair/migration plus update read-packet and route-separation slices, and the hardened setup/materialization path together rather than assuming one helper or one bounded slice already proves whole-network carry.

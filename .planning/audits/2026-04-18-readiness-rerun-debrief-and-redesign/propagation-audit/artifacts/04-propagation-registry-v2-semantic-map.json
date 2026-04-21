@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "d3c09e5",
+  "basis_commit": "8cecd8e",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -417,7 +417,7 @@
       "id": "mandatory_initial_read_reference",
       "family": "reference_behavior",
       "path": "tooling/portable-gsd/overlay/get-shit-done/references/mandatory-initial-read.md",
-      "role": "shared read-packet doctrine defining required, supporting, and deeper reading tiers for current operator-facing entry, re-entry, initialization, milestone-open, doc-ingest, and health workflows",
+      "role": "shared read-packet doctrine defining required, supporting, and deeper reading tiers for current operator-facing entry, re-entry, initialization, milestone-open, doc-ingest, health, and update workflows",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
@@ -426,7 +426,9 @@
         "initialization_ingest_read_packet_impl_68",
         "initialization_read_packet_contract_tests",
         "health_migration_follow_through_impl_70",
-        "health_migration_follow_through_tests"
+        "health_migration_follow_through_tests",
+        "update_follow_through_impl_72",
+        "update_follow_through_tests"
       ]
     },
     {
@@ -624,6 +626,30 @@
         "overlay_contract_validation",
         "health_migration_follow_through_impl_70",
         "health_migration_follow_through_tests"
+      ]
+    },
+    {
+      "id": "update_workflow",
+      "family": "workflow_output",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/update.md",
+      "role": "runtime/package update workflow with layered read-packet control and explicit separation between installer movement, structural health routing, and later repo-local uplift",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "update_follow_through_impl_72",
+        "update_follow_through_tests"
+      ]
+    },
+    {
+      "id": "update_skill_wrapper",
+      "family": "wrapper",
+      "path": "tooling/portable-gsd/overlay/skills/gsd-update/SKILL.md",
+      "role": "invocation-binding wrapper that keeps runtime/package update ownership explicit while routing structural planning repair and later repo-local uplift separately",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "update_follow_through_impl_72",
+        "update_follow_through_tests"
       ]
     }
   ],
@@ -1382,6 +1408,78 @@
       "evidence_refs": [
         "initialization_ingest_read_packet_impl_68",
         "initialization_read_packet_contract_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_update_workflow",
+      "from": "overlay_manifest",
+      "to": "update_workflow",
+      "kind": "overlay_owns_workflow_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "update_follow_through_impl_72"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_update_skill_wrapper",
+      "from": "overlay_manifest",
+      "to": "update_skill_wrapper",
+      "kind": "overlay_owns_wrapper_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "update_follow_through_impl_72"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "mandatory_initial_read_to_update_workflow",
+      "from": "mandatory_initial_read_reference",
+      "to": "update_workflow",
+      "kind": "shared_reference_guides_workflow_reading_control",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "update_follow_through_impl_72",
+        "update_follow_through_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "update_skill_wrapper_to_update_workflow",
+      "from": "update_skill_wrapper",
+      "to": "update_workflow",
+      "kind": "wrapper_binds_skill_to_workflow",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "update_follow_through_impl_72",
+        "update_follow_through_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "update_workflow_to_health_workflow",
+      "from": "update_workflow",
+      "to": "health_workflow",
+      "kind": "runtime_package_update_kept_distinct_from_structural_health",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "update_follow_through_impl_72",
+        "update_follow_through_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "update_workflow_to_uplift_workflow",
+      "from": "update_workflow",
+      "to": "uplift_workflow",
+      "kind": "runtime_package_update_kept_distinct_from_later_repo_local_uplift",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "update_follow_through_impl_72",
+        "update_follow_through_tests"
       ],
       "status": "mapped"
     }

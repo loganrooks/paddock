@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "d3c09e5",
+  "basis_commit": "8cecd8e",
   "evidence_entries": [
     {
       "id": "overlay_contract_validation",
@@ -157,6 +157,18 @@
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_health_and_migration_follow_through_contract.py",
       "note": "focused contract coverage for overlay ownership of health plus the two wrappers, layered packet doctrine presence in health, and explicit structural-validation plus later-uplift follow-through in repair and migration wrappers"
+    },
+    {
+      "id": "update_follow_through_impl_72",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/72-update-follow-through-first-slice-implementation.md",
+      "note": "landed update follow-through slice covering tracked overlay ownership for update and gsd-update, layered read-packet carry in update, and explicit runtime/package versus structural-health versus later-uplift route separation"
+    },
+    {
+      "id": "update_follow_through_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_update_follow_through_contract.py",
+      "note": "focused contract coverage for overlay ownership of update and gsd-update, layered packet doctrine presence in update, and explicit runtime/package versus structural-health versus later-uplift route separation in the workflow and wrapper"
     }
   ]
 }

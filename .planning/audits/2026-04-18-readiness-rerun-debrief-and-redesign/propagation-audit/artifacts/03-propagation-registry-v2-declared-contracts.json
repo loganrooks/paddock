@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "d3c09e5",
+  "basis_commit": "8cecd8e",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -140,6 +140,19 @@
         "reference_behavior"
       ],
       "claim_boundary": "declares how health inherits layered read-packet control, keeps structural repair separate from missing-planning routing and later uplift, and how from-gsd2 adds structural validation plus later uplift handoff instead of ending at format conversion alone"
+    },
+    {
+      "id": "update_follow_through_contract",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/update.md",
+      "validator": "tooling/codex/tests/test_update_follow_through_contract.py",
+      "contract_kind": "runtime and package update follow-through semantics with layered read-packet control and separate structural-repair versus later-uplift routing",
+      "families_touched": [
+        "install_overlay",
+        "workflow_output",
+        "wrapper",
+        "reference_behavior"
+      ],
+      "claim_boundary": "declares how update inherits layered read-packet control, keeps runtime/package movement separate from structural planning repair and later repo-local uplift, and how gsd-update preserves that route split instead of flattening runtime currentness into the whole project-entry story"
     }
   ]
 }
