@@ -156,6 +156,7 @@ Date: 2026-04-21
 - current project-uplift signal-layer status: `intervention-proposals/42-project-uplift-signal-layer-harden-slice.md now records the stronger baseline: multi-axis posture, phase-boundary signal, per-carrier fingerprint shapes, runtime-agent globbing, typed doctrine-sensitive proposal states, file-backed held-later carry, widened tests, and corrected progress/post-write semantics`
 - current contract-propagation status: `the workspace now has an active propagation-audit family rather than only a seed concern: propagation-audit/README.md and propagation-audit/01-contract-propagation-and-dependency-carry-opening-note.md now open the family on the hardened uplift basis, with local producer/consumer and impact mapping as the next concrete object`
 - current propagation-map status: `propagation-audit/02-project-uplift-producer-consumer-and-impact-map.md now names the current uplift-chain producers, direct consumers, narrative mirrors, materialization carriers, held neighbors, and change-type-specific propagation obligations; the strongest next local question is whether resume-project should become the second live uplift consumer`
+- current second-consumer-follow-through status: `propagation-audit/03-resume-project-second-consumer-follow-through-proposal.md now defines the narrow next move: add a read-only uplift note to resume-project through a new tracked overlay owner, reuse project_uplift.py progress-note rather than inventing a second parsing path, and keep the route non-absorptive`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -227,7 +228,8 @@ Date: 2026-04-21
 20. use `entry-uplift-audit` lane-04 plus `intervention-proposals/42-project-uplift-signal-layer-harden-slice.md` as the current uplift inheritance point rather than reopening weaker pre-harden baselines
 21. use the now-open `propagation-audit/` family to map producer / consumer and impact relations explicitly rather than assuming existing refmap/runtime/install tools already cover the whole network
 22. keep the propagation family local-first: use `propagation-audit/02-project-uplift-producer-consumer-and-impact-map.md` as the current basis rather than reopening the family from the seed note
-23. before any broader external propagation challenge, decide whether `resume-project` or another re-entry surface should become the second live uplift consumer
+23. use `propagation-audit/03-resume-project-second-consumer-follow-through-proposal.md` as the next local decision surface rather than improvising a resume-project patch from memory
+24. before any broader external propagation challenge, decide whether to accept and implement the second-consumer slice or to hold `resume-project` deliberately outside the uplift chain for now
 
 ## Open Questions
 

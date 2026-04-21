@@ -27,7 +27,7 @@ Status: active governing synthesis
 - [d:r:i] For long-horizon and anti-threshold carry, use [intervention-proposals/29-long-horizon-carry-gap-register.md](intervention-proposals/29-long-horizon-carry-gap-register.md), [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md), and the `threshold-audit/` dispositions.
 - [d:r:i] For the self-overcoming family, the active baseline is now [intervention-proposals/32-strengthening-opportunity-first-slice-implementation.md](intervention-proposals/32-strengthening-opportunity-first-slice-implementation.md) through [intervention-proposals/35-strengthening-opportunity-reference-surface.md](intervention-proposals/35-strengthening-opportunity-reference-surface.md).
 - [d:r:i] For the project-uplift family, the active local basis is now [intervention-proposals/37-entry-surface-and-project-uplift-map.md](intervention-proposals/37-entry-surface-and-project-uplift-map.md) through [intervention-proposals/42-project-uplift-signal-layer-harden-slice.md](intervention-proposals/42-project-uplift-signal-layer-harden-slice.md), plus the `entry-uplift-audit/` inheritance notes through lane-04.
-- [d:r:i] For the broader network-carry question, the active opening basis is now [intervention-proposals/41-contract-propagation-and-dependency-carry-audit-seed.md](intervention-proposals/41-contract-propagation-and-dependency-carry-audit-seed.md), [propagation-audit/README.md](propagation-audit/README.md), [propagation-audit/01-contract-propagation-and-dependency-carry-opening-note.md](propagation-audit/01-contract-propagation-and-dependency-carry-opening-note.md), and [propagation-audit/02-project-uplift-producer-consumer-and-impact-map.md](propagation-audit/02-project-uplift-producer-consumer-and-impact-map.md).
+- [d:r:i] For the broader network-carry question, the active opening basis is now [intervention-proposals/41-contract-propagation-and-dependency-carry-audit-seed.md](intervention-proposals/41-contract-propagation-and-dependency-carry-audit-seed.md), [propagation-audit/README.md](propagation-audit/README.md), [propagation-audit/01-contract-propagation-and-dependency-carry-opening-note.md](propagation-audit/01-contract-propagation-and-dependency-carry-opening-note.md), [propagation-audit/02-project-uplift-producer-consumer-and-impact-map.md](propagation-audit/02-project-uplift-producer-consumer-and-impact-map.md), and [propagation-audit/03-resume-project-second-consumer-follow-through-proposal.md](propagation-audit/03-resume-project-second-consumer-follow-through-proposal.md).
 
 ## Current Consequences
 
@@ -43,7 +43,7 @@ Status: active governing synthesis
   - use the hardened signal layer as the active local baseline
   - then decide whether additive-install routes or later cross-runtime follow-through should inherit the cleaner slice
 - [d:r:i] The broader propagation question is now also explicit:
-  - now that the first local map exists, should the next move be a bounded second-consumer follow-through note around `resume-project` or another re-entry surface
+  - now that the first local map exists, should the next move be to accept and implement the bounded `resume-project` second-consumer slice
   - and only after that, which later external challenge should test whether contract changes ripple strongly enough across workflows, skills, scripts, outputs, registries, wrappers, and governing-doc carriers?
 - [d:r:i] The broader rerun workspace still also needs the floor-closing honesty/routing batch carried into its actual governing surfaces rather than left only as proposal artifacts.
 - [d:r:i] If the workspace feels hard to reread, treat that as a governance-surface issue first, not as a reason to reopen settled intervention families.
@@ -51,7 +51,7 @@ Status: active governing synthesis
 ## Live Open Questions
 
 - [o:r:i] Which adjacent move should follow the hardened uplift baseline: additive install routes, later cross-runtime follow-through, or a deeper propagation-family reread first?
-- [o:r:i] Should `resume-project` become the second live uplift consumer, or is another re-entry surface the stronger adjacent route?
+- [o:r:i] Should `resume-project` become the second live uplift consumer now, or should that route stay held until a wider entry-family pass exists?
 - [o:r:i] How should the recomputed rerun-floor rule family be landed into the actual carrying surfaces?
 - [o:r:i] What later compatibility surface, if any, should explicitly state intended GSD/runtime compatibility?
 - [o:r:i] Which parts of the submitted docs PR should remain stable governance/reference docs, and which should be paired with stronger intervention-oriented companions?
