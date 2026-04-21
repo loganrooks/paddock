@@ -53,6 +53,19 @@
         "helper"
       ],
       "claim_boundary": "declares the bounded repo-local recovery path for the gsd-sdk launcher when the discovered shebang target loses readable/executable mode without muting real off-PATH or broader install failures"
+    },
+    {
+      "id": "transition_future_preservation_contract",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/transition.md",
+      "validator": "tooling/codex/portable_gsd_contract.py",
+      "contract_kind": "transition-side future-preservation carry and state-digest upkeep semantics",
+      "families_touched": [
+        "install_overlay",
+        "workflow_output",
+        "template_shape",
+        "state_continuity"
+      ],
+      "claim_boundary": "declares how plan-side future_preservation is reread at phase close, how the four carry buckets are dispositioned, and how the compact Future Carry Forward digest remains explicit in project state"
     }
   ]
 }

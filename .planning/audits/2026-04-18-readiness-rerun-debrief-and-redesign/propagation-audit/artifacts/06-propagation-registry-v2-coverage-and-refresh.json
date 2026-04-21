@@ -9,7 +9,8 @@
     "propagation-audit/17-compatibility-consumer-follow-through-refresh.md",
     "propagation-audit/18-threshold-scanner-change-triggered-refresh.md",
     "propagation-audit/19-verifier-lifecycle-carry-change-triggered-refresh.md",
-    "propagation-audit/20-setup-portable-gsd-robustness-change-triggered-refresh.md"
+    "propagation-audit/20-setup-portable-gsd-robustness-change-triggered-refresh.md",
+    "propagation-audit/21-transition-lifecycle-carry-change-triggered-refresh.md"
   ],
   "coverage_gate": [
     {
@@ -52,13 +53,13 @@
       "family": "workflow_output",
       "coverage_status": "mapped",
       "roster_source": "upstream_inventory",
-      "notes": "current slice now keeps uplift, progress, resume, and verifier workflows explicit as routed carriers"
+      "notes": "current slice now keeps uplift, progress, resume, verifier, and transition workflows explicit as routed carriers"
     },
     {
       "family": "template_shape",
       "coverage_status": "mapped_but_curated",
       "roster_source": "upstream_inventory",
-      "notes": "current slice now keeps verification-report output shape explicit, but broader template coverage remains later work"
+      "notes": "current slice now keeps verification-report and state continuity digest shapes explicit, but broader template coverage remains later work"
     },
     {
       "family": "reference_behavior",
@@ -70,7 +71,7 @@
       "family": "governance_lane",
       "coverage_status": "mapped",
       "roster_source": "workspace_governance",
-      "notes": "lane-local inheritance now carries both propagation and threshold-audit historical reread force explicitly"
+      "notes": "lane-local inheritance now carries both propagation and threshold-audit historical reread force explicitly, plus multiple real change-triggered lifecycle refreshes"
     },
     {
       "family": "compact_prompt",
@@ -87,8 +88,8 @@
     },
     {
       "kind": "change_triggered_slice_refresh",
-      "status": "anchor_consumer_threshold_scanner_verifier_lifecycle_and_setup_robustness_follow_through_landed",
-      "notes": "the compatibility anchor slice refreshed uplift/runtime carriers, the consumer-chain follow-through refreshed live read-only routing surfaces, the threshold-scanner slice refreshed helper plus lane-governance carry, the verifier-lifecycle slice refreshed workflow/template/reference/registry carry, and the setup/materialization slice refreshed installer-entry/helper/contract carry"
+      "status": "anchor_consumer_threshold_scanner_verifier_lifecycle_setup_robustness_and_transition_lifecycle_follow_through_landed",
+      "notes": "the compatibility anchor slice refreshed uplift/runtime carriers, the consumer-chain follow-through refreshed live read-only routing surfaces, the threshold-scanner slice refreshed helper plus lane-governance carry, the verifier-lifecycle slice refreshed workflow/template/reference/registry carry, the setup/materialization slice refreshed installer-entry/helper/contract carry, and the transition-lifecycle slice refreshed phase-close workflow/template/state-continuity carry"
     },
     {
       "kind": "scheduled_whole_registry_refresh",
@@ -110,7 +111,7 @@
     "broader compatibility window or standalone compatibility carrier",
     "broader registry authorship policy across vendors",
     "richer role-aware heuristic classification that still cannot drift into prose control",
-    "later lifecycle carry beyond the verifier bridge",
+    "later lifecycle carry beyond the verifier and transition bridges",
     "broader repeated-reinstall durability beyond the first local setup/materialization harden slice"
   ]
 }

@@ -64,6 +64,8 @@ Status: active proposal/disposition batch
 54. `54-verifier-lifecycle-carry-first-slice-implementation.md`
 55. `55-setup-portable-gsd-robustness-and-reinstall-truth-proposal.md`
 56. `56-setup-portable-gsd-robustness-and-reinstall-truth-implementation.md`
+57. `57-transition-lifecycle-carry-first-slice-proposal.md`
+58. `58-transition-lifecycle-carry-first-slice-implementation.md`
 
 ## Proposal Rule
 
@@ -96,5 +98,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `54` now records the landed first slice itself: tracked overlay ownership for verifier-side workflow/template carriers, widened verifier contract semantics, helper fingerprint follow-through, explicit local recovery path, and the still-held setup-script fragility.
 - [d:r:i] `55` now opens the bounded setup/materialization robustness family directly: repo-local reinstall should become more durable through a bounded `gsd-sdk` runtime helper and a fresh-install pristine overwrite capture stage rather than by weakening overwrite discipline or pretending we control upstream installer semantics.
 - [d:r:i] `56` now records the landed first slice itself: bounded `gsd-sdk` runtime verification/repair, synthetic pristine overwrite capture before overlay application, fresh isolated-worktree proof of the full setup path, and direct local proof that the helper restores the real launcher target from `0o600` back to `0o755`.
+- [d:r:i] `57` now opens the next bounded lifecycle-carry bridge directly: transition should load planning-side `future_preservation`, carry close-boundary judgments explicitly, and keep a compact state digest rather than letting preserved seams and strengthening routes thin at phase close.
+- [d:r:i] `58` now records the landed first transition-side slice itself: overlay ownership for `transition.md` and `templates/state.md`, transition-time review of the four future-preservation buckets, compact `Future Carry Forward` digest shape in the state template, and strict post-materialization proof that the new carriers survive repo-local reinstall/materialization.
 - [d:r:i] `42` now records that harden slice as landed: multi-axis posture, phase-boundary signal, per-carrier fingerprint shape, runtime-agent globbing, typed proposal routes, file-backed held-later carry, widened tests, and the two live consumer/output bugs it surfaced and corrected.
-- [d:r:i] The current broader consequence after `42-56`: use the cleaner uplift slice, the active propagation family, the landed verifier-lifecycle bridge, and the hardened setup/materialization path together rather than assuming one helper or one bounded slice already proves whole-network carry.
+- [d:r:i] The current broader consequence after `42-58`: use the cleaner uplift slice, the active propagation family, the landed verifier and transition lifecycle bridges, and the hardened setup/materialization path together rather than assuming one helper or one bounded slice already proves whole-network carry.

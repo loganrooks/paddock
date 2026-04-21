@@ -318,6 +318,17 @@
       ]
     },
     {
+      "id": "transition_workflow",
+      "family": "workflow_output",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/transition.md",
+      "role": "operator-facing transition workflow carrying future-preservation close-boundary review and state-digest upkeep",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "transition_lifecycle_carry_impl_58"
+      ]
+    },
+    {
       "id": "uplift_report_output",
       "family": "workflow_output",
       "path": ".planning/UPLIFT-REPORT.md",
@@ -362,6 +373,17 @@
       ]
     },
     {
+      "id": "state_template_overlay",
+      "family": "template_shape",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/templates/state.md",
+      "role": "state continuity template carrying the compact Future Carry Forward digest shape",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "transition_lifecycle_carry_impl_58"
+      ]
+    },
+    {
       "id": "verifier_agent_contracts_reference",
       "family": "reference_behavior",
       "path": "tooling/portable-gsd/overlay/get-shit-done/references/agent-contracts.md",
@@ -378,7 +400,8 @@
       "role": "multi-owner continuity surface",
       "support_mode": "semantic_plus_producer_report",
       "evidence_refs": [
-        "uplift_manifest_current"
+        "uplift_manifest_current",
+        "transition_lifecycle_carry_impl_58"
       ]
     },
     {
@@ -545,6 +568,18 @@
       "status": "mapped"
     },
     {
+      "id": "overlay_to_transition_workflow",
+      "from": "overlay_manifest",
+      "to": "transition_workflow",
+      "kind": "overlay_owns_workflow_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "transition_lifecycle_carry_impl_58"
+      ],
+      "status": "mapped"
+    },
+    {
       "id": "overlay_to_verification_template",
       "from": "overlay_manifest",
       "to": "verification_report_template",
@@ -553,6 +588,18 @@
       "evidence_refs": [
         "overlay_contract_validation",
         "verifier_lifecycle_carry_impl_54"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_state_template",
+      "from": "overlay_manifest",
+      "to": "state_template_overlay",
+      "kind": "overlay_owns_template_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "transition_lifecycle_carry_impl_58"
       ],
       "status": "mapped"
     },
@@ -586,6 +633,28 @@
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "verifier_lifecycle_carry_impl_54"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "transition_workflow_to_state_template",
+      "from": "transition_workflow",
+      "to": "state_template_overlay",
+      "kind": "workflow_routes_state_digest_shape",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "transition_lifecycle_carry_impl_58"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "transition_workflow_to_state",
+      "from": "transition_workflow",
+      "to": "state_md",
+      "kind": "workflow_updates_state_continuity",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "transition_lifecycle_carry_impl_58"
       ],
       "status": "mapped"
     },

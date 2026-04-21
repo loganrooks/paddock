@@ -85,6 +85,12 @@
       "evidence_lane": "implementation_note",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/56-setup-portable-gsd-robustness-and-reinstall-truth-implementation.md",
       "note": "landed setup/materialization robustness slice covering bounded gsd-sdk runtime repair, fresh-install pristine overwrite capture, direct local helper proof, and isolated-worktree full setup proof"
+    },
+    {
+      "id": "transition_lifecycle_carry_impl_58",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/58-transition-lifecycle-carry-first-slice-implementation.md",
+      "note": "landed transition-side lifecycle carry slice covering workflow/template overlay ownership, future-preservation close-boundary review, compact state-digest upkeep, and strict post-materialization proof"
     }
   ]
 }
