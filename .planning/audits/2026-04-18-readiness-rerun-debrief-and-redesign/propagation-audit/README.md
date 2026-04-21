@@ -1,5 +1,5 @@
 Date: 2026-04-21
-Status: active opening batch
+Status: active widened inheritance batch
 
 # Propagation Audit
 
@@ -25,20 +25,34 @@ Status: active opening batch
 4. [04-resume-project-second-consumer-implementation.md](04-resume-project-second-consumer-implementation.md)
 5. bounded external challenge lane only after the local map, impact surface, and first concrete follow-through are explicit
 
-## Active Challenge Packet
+## Challenge Lanes
 
-- packet:
-  - [packets/01-propagation-chain-reread-packet.md](packets/01-propagation-chain-reread-packet.md)
-- spec:
-  - [specs/01-propagation-chain-reread-spec.md](specs/01-propagation-chain-reread-spec.md)
-- prompt:
-  - [prompts/01-propagation-chain-reread-opus47-max-r1-launch-prompt.md](prompts/01-propagation-chain-reread-opus47-max-r1-launch-prompt.md)
-- launch-truth:
-  - [launch-truth/01-propagation-chain-reread-launch-truth.md](launch-truth/01-propagation-chain-reread-launch-truth.md)
-- output:
-  - [outputs/01-propagation-chain-reread-opus47-max-r1.md](outputs/01-propagation-chain-reread-opus47-max-r1.md)
-- inheritance:
-  - [dispositions/01-propagation-chain-reread-inheritance.md](dispositions/01-propagation-chain-reread-inheritance.md)
+- lane `01`:
+  - packet:
+    - [packets/01-propagation-chain-reread-packet.md](packets/01-propagation-chain-reread-packet.md)
+  - spec:
+    - [specs/01-propagation-chain-reread-spec.md](specs/01-propagation-chain-reread-spec.md)
+  - prompt:
+    - [prompts/01-propagation-chain-reread-opus47-max-r1-launch-prompt.md](prompts/01-propagation-chain-reread-opus47-max-r1-launch-prompt.md)
+  - launch-truth:
+    - [launch-truth/01-propagation-chain-reread-launch-truth.md](launch-truth/01-propagation-chain-reread-launch-truth.md)
+  - output:
+    - [outputs/01-propagation-chain-reread-opus47-max-r1.md](outputs/01-propagation-chain-reread-opus47-max-r1.md)
+  - inheritance:
+    - [dispositions/01-propagation-chain-reread-inheritance.md](dispositions/01-propagation-chain-reread-inheritance.md)
+- lane `02`:
+  - packet:
+    - [packets/02-broader-network-propagation-field-mapping-packet.md](packets/02-broader-network-propagation-field-mapping-packet.md)
+  - spec:
+    - [specs/02-broader-network-propagation-field-mapping-spec.md](specs/02-broader-network-propagation-field-mapping-spec.md)
+  - prompt:
+    - [prompts/02-broader-network-propagation-field-mapping-opus47-max-r1-launch-prompt.md](prompts/02-broader-network-propagation-field-mapping-opus47-max-r1-launch-prompt.md)
+  - launch-truth:
+    - [launch-truth/02-broader-network-propagation-field-mapping-launch-truth.md](launch-truth/02-broader-network-propagation-field-mapping-launch-truth.md)
+  - output:
+    - [outputs/02-broader-network-propagation-field-mapping-opus47-max-r1.md](outputs/02-broader-network-propagation-field-mapping-opus47-max-r1.md)
+  - inheritance:
+    - [dispositions/02-broader-network-propagation-field-mapping-inheritance.md](dispositions/02-broader-network-propagation-field-mapping-inheritance.md)
 
 ## Current Follow-Through
 
@@ -78,4 +92,5 @@ Status: active opening batch
 - [d:r:i] The accepted A/B/D/E/F strengthening routes are now landed too.
 - [d:r:i] Route `C` and Route `G` are now landed too: overlay add-vs-overwrite typing is explicit, installer/materialization verification is explicit, and the first live run already caught and corrected one real ownership drift case (`skills/gsd-resume-work/SKILL.md`).
 - [d:r:i] The broader family map now exists too: `08` widens the propagation family from the uplift example into a layer stack of governing doctrine, install/materialization, runtime registry, workflow/template/reference contracts, skill routing, helper/output chains, and governance carriers.
-- [d:r:i] The next question is no longer whether installer/materialization integrity should become explicit or whether the family is still only an uplift example. The next question is what a bounded challenge lane says about the widened carrier split in `08`.
+- [d:r:i] The bounded widening lane over `08` is now completed and locally inherited through lane `02`.
+- [d:r:i] The next move is the sharpened disclosure batch earned by lane `02`: split the current family rows more strongly (`H/I/J/K/R`), add the low-cost new carrier rows (`L/N/Q`), and then land the named invariant / edge companion objects (`O/P/S`) before reopening whole-network widening.

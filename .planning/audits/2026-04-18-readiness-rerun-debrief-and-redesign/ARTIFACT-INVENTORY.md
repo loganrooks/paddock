@@ -100,6 +100,12 @@ Status: active inventory
 - `propagation-audit/06-bounded-propagation-strengthening-batch-a-b-d-e-f.md`
 - `propagation-audit/07-overlay-add-vs-overwrite-contract-and-post-materialization-gate.md`
 - `propagation-audit/08-broader-network-producer-consumer-and-carrier-map.md`
+- `propagation-audit/packets/02-broader-network-propagation-field-mapping-packet.md`
+- `propagation-audit/specs/02-broader-network-propagation-field-mapping-spec.md`
+- `propagation-audit/prompts/02-broader-network-propagation-field-mapping-opus47-max-r1-launch-prompt.md`
+- `propagation-audit/launch-truth/02-broader-network-propagation-field-mapping-launch-truth.md`
+- `propagation-audit/outputs/02-broader-network-propagation-field-mapping-opus47-max-r1.md`
+- `propagation-audit/dispositions/02-broader-network-propagation-field-mapping-inheritance.md`
 
 ## Challenge And Output Subtrees
 
