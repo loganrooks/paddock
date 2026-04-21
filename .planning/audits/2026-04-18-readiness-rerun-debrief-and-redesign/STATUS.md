@@ -142,7 +142,8 @@ Date: 2026-04-21
 - current instruction-surface status: `root/planning AGENTS and both CLAUDE wrappers now explicitly harden against binary proposal inheritance, risk-used-as-veto, premature top-few narrowing, and using work volume alone as a blocker once stronger cleanup or intervention has been explicitly prioritized`
 - current strengthening-first-slice status: `intervention-proposals/32-strengthening-opportunity-first-slice-implementation.md now records the landed runtime/overlay insertion and its verification: threshold scan clean, normalized live-vs-overlay parity clean, and tracked overlay carry now includes plant-seed`
 - current strengthening-follow-through status: `intervention-proposals/33-research-and-planner-strengthening-carry-follow-through.md now records the next adjacent carry batch: rigorous-research, planner/checker contracts, and agent-contracts.md now carry strengthening routes explicitly`
-- current strengthening-next-step status: `the next queued object for this family is a bounded benchmark packet drawn from real strengthening entries, followed by any later standalone reference-surface shaping against that packet rather than against theory alone`
+- current strengthening-benchmark status: `intervention-proposals/34-strengthening-opportunity-benchmark-packet.md now freezes the first real example packet for this family across landed intensification and later-routed strengthening pressure`
+- current strengthening-reference status: `intervention-proposals/35-strengthening-opportunity-reference-surface.md now carries the compact working reference for this family, grounded in 34 rather than in theory alone`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -204,7 +205,7 @@ Date: 2026-04-21
 10. inherit the long-horizon pair through the comparative disposition rather than re-opening a generic horizon lane: boundary carry, preservation-debt, canonical-ref carry, compact horizon-watch, and activation-consumer surfaces are now the main follow-through families
 11. preserve the completed threshold-audit result as live reread pressure: older specs, prompts, reviews, and inherited lane artifacts still carry residue even though root/planning `AGENTS.md` and both `CLAUDE.md` wrappers now reject threshold framing directly
 12. use `32` and `33` as the new baseline for this family: judge any later standalone reference-surface or benchmark-packet shape against real strengthening entries, real seed routing, and the now-aligned research/planner contracts rather than against proposal language alone
-13. next for this family: build a bounded benchmark packet from real strengthening entries, then use that packet to shape any later standalone reference surface or cross-vendor reread
+13. use `34` and `35` as the new basis for this family: any later cross-vendor reread, reference-surface revision, or wider lifecycle widening should inherit from the benchmark packet rather than reconstructing the family from chat or proposal memory
 
 ## Open Questions
 

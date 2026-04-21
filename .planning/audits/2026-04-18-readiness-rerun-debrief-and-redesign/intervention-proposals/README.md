@@ -41,6 +41,8 @@ Status: active proposal/disposition batch
 31. `31-instruction-surface-hardening-note.md`
 32. `32-strengthening-opportunity-first-slice-implementation.md`
 33. `33-research-and-planner-strengthening-carry-follow-through.md`
+34. `34-strengthening-opportunity-benchmark-packet.md`
+35. `35-strengthening-opportunity-reference-surface.md`
 
 ## Proposal Rule
 
@@ -51,4 +53,5 @@ Status: active proposal/disposition batch
 - [d:r:i] `31` records the linked instruction-layer hardening so root/planning agent doctrine is less likely to reintroduce binary inheritance, risk-as-veto, or premature narrowing.
 - [d:r:i] `32` records the landed first slice itself across live runtime plus tracked overlay carry, including threshold-residue cleanup and parity verification for the touched planning surfaces.
 - [d:r:i] `33` records the next adjacent contract-alignment batch: rigorous-research, planner/checker prompts, and agent-contract reference prose now all carry the strengthening-route shape rather than the older narrower planning contract.
-- [d:r:i] Current queued follow-through after `33`: build a bounded benchmark packet from real strengthening entries, then shape any later standalone reference surface against that packet rather than against theory alone.
+- [d:r:i] `34` now freezes the first bounded example packet for this family across landed intensification and later-routed strengthening pressure.
+- [d:r:i] `35` now carries the compact working reference surface for this family, explicitly grounded in `34` rather than in theory alone.
