@@ -13,6 +13,7 @@ This is the planning-local Claude wrapper. It does not replace [.planning/AGENTS
 - Use `python3 tooling/codex/audit_refmap.py` for structural `.planning/` moves, retirements, and verification rather than ad hoc link rewrites.
 - For harness-intervention or portable-GSD runtime questions, prefer `python3 tooling/codex/runtime_visibility.py` when the real need is a bounded, classified view of final `.codex/` runtime carry.
 - Keep the anti-threshold planning posture: the question is not merely whether a map or artifact can carry, but how strongly and how much more of the work a stronger form could expose or route.
+- Keep the anti-threshold planning posture in positive form too: avoid deficit-oriented pseudo-positive phrasing like `not lacking`, `no longer missing`, or `not the real problem` when a direct positive formulation is available.
 
 ## What Stays Outside This Wrapper
 

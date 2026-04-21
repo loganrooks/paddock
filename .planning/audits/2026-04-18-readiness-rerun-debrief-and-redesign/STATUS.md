@@ -123,7 +123,7 @@ Date: 2026-04-20
 - current installer-reasoning-default status: `the reviewer tranche also corrected scripts/setup-portable-gsd.sh so live .codex/config.toml now materializes with top-level model_reasoning_effort=xhigh instead of silently regressing to high`
 - current tranche-audit status: `the narrow post-tranche cross-vendor pair is complete and inherited; accepted now: classifier tightening plus thin CLAUDE wrappers, held: broad family expansion and broad stale-agent cleanup`
 - current docs-audit-sequencing status: `the challenged lane pair, transformation plan, bounded companion layer, and first intervention proposal batch are complete; the current move is proposal disposition and first bounded follow-through`
-- current long-horizon status: `the challenge-backed field map now says the main problem is boundary carry architecture, not missing future awareness; Opus adds a stronger two-systems / preservation-debt model, GPT adds tighter bounded landing shapes`
+- current long-horizon status: `the challenge-backed field map now centers the work on intensifying boundary carry architecture, building from already-strong long-horizon entry carry; Opus adds a stronger two-systems / preservation-debt model, GPT adds tighter bounded landing shapes`
 - current threshold-language status: `anti-threshold doctrine already exists in root/planning AGENTS and both CLAUDE wrappers; the live follow-on question is residue in older specs, prompts, reviews, and inherited lane artifacts`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)

@@ -51,6 +51,9 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
 - Do not optimize for `good enough`, `passes review`, or the smallest plausible response when the repo has already earned stronger doctrine, cleaner architecture, or better future guidance.
 - When a pass produces substantive doctrine, architectural guidance, or future-seam clarification, do not collapse that work into a thin pass/fail summary if the canon, roadmap, or phase steering should be uplifted to reflect it.
 - Do not let threshold language (`adequate`, `sufficient`, `good enough`, `well enough`, `passes`, `ready`) become the master frame for planning, audit, research, or doctrine work when the real task is to maximize carry, leverage, clarity, and long-horizon intervention yield.
+- Do not smuggle threshold thinking back in through deficit-oriented pseudo-positive phrasing.
+  - Avoid formulations like `not lacking`, `no longer missing`, `not merely deficient`, `not the real problem`, or `better than before` when a direct positive formulation is available.
+  - Prefer statements like `already strong here`, `thins here`, `intensifies here`, `opens more optionality here`, or `strengthens carry here`.
 - Distinguish sharply between:
   - whether an artifact or system can carry work at all
   - how strongly, clearly, and portably it carries that work compared with better available alternatives

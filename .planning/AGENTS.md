@@ -115,6 +115,10 @@ For non-trivial research, audit, gap-closure, sensitivity, or synthesis work:
 - define loaded terms and anti-misread rules when they matter
 - do not silently broaden scope
 - do not let threshold framing (`adequate`, `sufficient`, `good enough`, `well enough`, `pass/fail`, `ready/not ready`) become the governing question when the real task is to increase leverage, carry, visibility, or intervention power
+- do not let deficit-oriented pseudo-positive phrasing quietly reintroduce threshold logic
+  - avoid constructions like `not lacking`, `no longer missing`, `not merely deficient`, `not the real problem`, or similar before/after framing when a direct positive formulation is available
+  - prefer formulations like `already strong here`, `thins here`, `intensifies here`, `opens more optionality here`, or `strengthens carry here`
+- when auditing older specs, prompts, reviews, or dispositions for framing residue, use `python3 tooling/codex/scan_threshold_language.py <paths>` as a first-pass detector rather than relying on memory alone
 - keep the stronger distinction visible:
   - whether a document, map, lane, or doctrine surface can carry work
   - how strongly, clearly, and future-resiliently it carries that work compared with stronger available forms

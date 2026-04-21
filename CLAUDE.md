@@ -21,6 +21,7 @@ For vendor-neutral repo doctrine, treat [AGENTS.md](/home/rookslog/workspace/pro
 - Phase 01 is still at a pre-rerun boundary; do not treat older `01-*` artifacts as execution-approved just because they exist.
 - Use repo-local prompt/spec paths for headless Claude lanes. Do not rely on `/tmp` copies when the repo can carry the same artifact directly.
 - The quality bar is anti-threshold. Do not let `adequate`, `sufficient`, `good enough`, `passes`, or similar language become the master frame when the real task is stronger carry, leverage, clarity, and long-horizon intervention yield.
+- Do not smuggle threshold logic back in through deficit-oriented pseudo-positive phrasing like `not lacking`, `no longer missing`, or `not the real problem`; prefer direct positive formulations about where carry is already strong, where it thins, and where it can be intensified.
 
 ## What Not To Mirror
 
