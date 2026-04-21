@@ -45,6 +45,7 @@ Status: active opening batch
 - [05-project-uplift-chain-map.md](05-project-uplift-chain-map.md)
 - [06-bounded-propagation-strengthening-batch-a-b-d-e-f.md](06-bounded-propagation-strengthening-batch-a-b-d-e-f.md)
 - [07-overlay-add-vs-overwrite-contract-and-post-materialization-gate.md](07-overlay-add-vs-overwrite-contract-and-post-materialization-gate.md)
+- [08-broader-network-producer-consumer-and-carrier-map.md](08-broader-network-producer-consumer-and-carrier-map.md)
 
 ## Quality Gates
 
@@ -76,4 +77,5 @@ Status: active opening batch
 - [d:r:i] The first bounded external reread lane is now completed and locally inherited against that stronger two-consumer baseline.
 - [d:r:i] The accepted A/B/D/E/F strengthening routes are now landed too.
 - [d:r:i] Route `C` and Route `G` are now landed too: overlay add-vs-overwrite typing is explicit, installer/materialization verification is explicit, and the first live run already caught and corrected one real ownership drift case (`skills/gsd-resume-work/SKILL.md`).
-- [d:r:i] The next question is no longer whether installer/materialization integrity should become explicit. The next question is how to widen propagation mapping beyond the uplift example without losing the now-explicit contract layer.
+- [d:r:i] The broader family map now exists too: `08` widens the propagation family from the uplift example into a layer stack of governing doctrine, install/materialization, runtime registry, workflow/template/reference contracts, skill routing, helper/output chains, and governance carriers.
+- [d:r:i] The next question is no longer whether installer/materialization integrity should become explicit or whether the family is still only an uplift example. The next question is what a bounded challenge lane says about the widened carrier split in `08`.

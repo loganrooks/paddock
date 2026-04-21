@@ -77,6 +77,7 @@
   - [propagation-audit/05-project-uplift-chain-map.md](propagation-audit/05-project-uplift-chain-map.md)
   - [propagation-audit/06-bounded-propagation-strengthening-batch-a-b-d-e-f.md](propagation-audit/06-bounded-propagation-strengthening-batch-a-b-d-e-f.md)
   - [propagation-audit/07-overlay-add-vs-overwrite-contract-and-post-materialization-gate.md](propagation-audit/07-overlay-add-vs-overwrite-contract-and-post-materialization-gate.md)
+  - [propagation-audit/08-broader-network-producer-consumer-and-carrier-map.md](propagation-audit/08-broader-network-producer-consumer-and-carrier-map.md)
 - long-horizon / anti-threshold family:
   - [intervention-proposals/29-long-horizon-carry-gap-register.md](intervention-proposals/29-long-horizon-carry-gap-register.md)
   - [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md)
