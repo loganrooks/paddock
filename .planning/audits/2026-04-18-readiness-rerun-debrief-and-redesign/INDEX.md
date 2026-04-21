@@ -56,6 +56,14 @@
 - self-overcoming family:
   - [intervention-proposals/32-strengthening-opportunity-first-slice-implementation.md](intervention-proposals/32-strengthening-opportunity-first-slice-implementation.md)
   - [intervention-proposals/35-strengthening-opportunity-reference-surface.md](intervention-proposals/35-strengthening-opportunity-reference-surface.md)
+- harness-improvement full-field audit:
+  - [harness-improvement-audit/README.md](harness-improvement-audit/README.md)
+  - [harness-improvement-audit/01-harness-maximal-improvement-opening-note.md](harness-improvement-audit/01-harness-maximal-improvement-opening-note.md)
+  - [harness-improvement-audit/packets/01-harness-maximal-improvement-field-map-packet.md](harness-improvement-audit/packets/01-harness-maximal-improvement-field-map-packet.md)
+  - [harness-improvement-audit/specs/01-harness-maximal-improvement-field-map-spec.md](harness-improvement-audit/specs/01-harness-maximal-improvement-field-map-spec.md)
+  - [harness-improvement-audit/launch-truth/01-harness-maximal-improvement-field-map-launch-truth.md](harness-improvement-audit/launch-truth/01-harness-maximal-improvement-field-map-launch-truth.md)
+  - [harness-improvement-audit/outputs/01-harness-maximal-improvement-field-map-opus47-max-r1.md](harness-improvement-audit/outputs/01-harness-maximal-improvement-field-map-opus47-max-r1.md)
+  - [harness-improvement-audit/dispositions/01-harness-maximal-improvement-field-map-inheritance.md](harness-improvement-audit/dispositions/01-harness-maximal-improvement-field-map-inheritance.md)
 - project-uplift family:
   - [intervention-proposals/37-entry-surface-and-project-uplift-map.md](intervention-proposals/37-entry-surface-and-project-uplift-map.md)
   - [intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md](intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md)

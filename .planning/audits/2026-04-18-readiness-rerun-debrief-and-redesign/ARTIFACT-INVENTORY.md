@@ -65,6 +65,17 @@ Status: active inventory
 - `threshold-audit/outputs/05-historical-scanner-influenced-reread-gpt54-xhigh-r1.md`
 - `threshold-audit/dispositions/05-historical-scanner-influenced-reread-inheritance.md`
 
+### Harness Improvement Full-Field Audit
+
+- `harness-improvement-audit/README.md`
+- `harness-improvement-audit/01-harness-maximal-improvement-opening-note.md`
+- `harness-improvement-audit/packets/01-harness-maximal-improvement-field-map-packet.md`
+- `harness-improvement-audit/specs/01-harness-maximal-improvement-field-map-spec.md`
+- `harness-improvement-audit/prompts/01-harness-maximal-improvement-field-map-opus47-max-r1-launch-prompt.md`
+- `harness-improvement-audit/launch-truth/01-harness-maximal-improvement-field-map-launch-truth.md`
+- `harness-improvement-audit/outputs/01-harness-maximal-improvement-field-map-opus47-max-r1.md`
+- `harness-improvement-audit/dispositions/01-harness-maximal-improvement-field-map-inheritance.md`
+
 ### Self-Overcoming Family
 
 - `intervention-proposals/32-strengthening-opportunity-first-slice-implementation.md`

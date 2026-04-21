@@ -108,6 +108,10 @@ Date: 2026-04-21
 - instruction/scanner doctrine now also rejects static-positive `enough` phrasing, supports meta-instruction skip mode during doctrine-surface scans, and treats scanner output as heuristic intake rather than adjudication
 - threshold-scanner side-effects internal audit written under `threshold-audit/dispositions/`
 - bounded historical reread over the scanner-influenced commit family completed under `threshold-audit/outputs/05-*` and inherited under `threshold-audit/dispositions/05-*`
+- harness-improvement full-field audit family opened under `harness-improvement-audit/`
+- harness-improvement full-field Opus widening lane launched and completed against frozen basis `0f3b5e3`
+- harness-improvement lane-01 launch-truth note written under `harness-improvement-audit/launch-truth/`
+- harness-improvement lane-01 inheritance note written under `harness-improvement-audit/dispositions/`
 - bounded opportunity-seeking / self-overcoming companion-layer proposal written under `intervention-proposals/`
 - self-overcoming audit subtree created under `self-overcoming-audit/`
 - self-overcoming audit lane-01 launched and completed against frozen basis `e466bea`
@@ -161,6 +165,7 @@ Date: 2026-04-21
 - current entry-uplift landed-slice reread status: `entry-uplift-audit lane-04 is now completed and locally inherited: the landed first slice carries real live value, and the bounded signal-layer harden slice it called for is now landed as the active uplift baseline`
 - current project-uplift signal-layer status: `intervention-proposals/42-project-uplift-signal-layer-harden-slice.md now records the stronger baseline: multi-axis posture, phase-boundary signal, per-carrier fingerprint shapes, runtime-agent globbing, typed doctrine-sensitive proposal states, file-backed held-later carry, widened tests, corrected progress/post-write semantics, and the later scanner-demotion correction on its governance note`
 - current operator directive: `continue harness-hardening, maintainability, robustness, propagation, and governance-improvement work aggressively; stop short of relaunching Phase 01; do not take shortcuts; keep contextual reread, quality gates, and review gates ahead of convenience`
+- current harness-improvement audit status: `the first full-field Opus widening lane is now completed and inherited under harness-improvement-audit/launch-truth|outputs|dispositions/01-* against basis 0f3b5e3; the field now makes explicit the next bounded robustness/maintainability families instead of leaving them ambient`
 - current contract-propagation status: `the workspace now has an active propagation-audit family rather than only a seed concern: propagation-audit/README.md and propagation-audit/01-contract-propagation-and-dependency-carry-opening-note.md now open the family on the hardened uplift basis, with local producer/consumer and impact mapping as the next concrete object`
 - current propagation-map status: `propagation-audit/02-project-uplift-producer-consumer-and-impact-map.md now names the current uplift-chain producers, direct consumers, narrative mirrors, materialization carriers, held neighbors, and change-type-specific propagation obligations; the strongest next local question is whether resume-project should become the second live uplift consumer`
 - current second-consumer-follow-through status: `propagation-audit/03-resume-project-second-consumer-follow-through-proposal.md is now accepted and carried in propagation-audit/04-resume-project-second-consumer-implementation.md: resume-project is now a second live uplift consumer through a new tracked overlay owner, helper reuse, and installer-backed materialization, while route takeover and auto-write remain held`
@@ -261,6 +266,7 @@ Date: 2026-04-21
 34. use `propagation-audit/dispositions/03-propagation-registry-system-cross-vendor-inheritance.md` as the routing note for why the family is now layered/federated rather than reopening the diff-tool branch
 35. on the next propagation-relevant contract change, prefer a change-triggered slice refresh against the typed `v2` registry surfaces rather than rebuilding a new flat snapshot first
 36. preserve the xhigh scanner-side-effects reviewer inheritance through `threshold-audit/outputs/04-*`, `threshold-audit/dispositions/04-*`, `intervention-proposals/44-*`, and `propagation-audit/17-*` rather than reopening the same compatibility-consumer / scanner-governance concerns from chat memory
+37. use `harness-improvement-audit/outputs/01-*` plus `dispositions/01-*` as the widening baseline for the next bounded harness-improvement families rather than reopening the field from chat or letting the Opus map sit unused
 
 ## Open Questions
 

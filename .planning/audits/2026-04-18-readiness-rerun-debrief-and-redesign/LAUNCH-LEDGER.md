@@ -706,3 +706,34 @@
   - keep the threshold-audit family and the later scanner demotion
   - preserve `01` and `02` as historical audit surfaces, but reread them through the later `03`-`05` caveat layer
   - narrow the still-live false-control edge in `scan_threshold_language.py`
+
+## 2026-04-21 `harness-improvement-lane-01`
+
+- date: `2026-04-21`
+- purpose: first full-field widening lane over further harness improvement possibilities while the rerun remains paused
+- frozen launch basis commit: `0f3b5e3`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- launch-truth artifact:
+  - [harness-improvement-audit/launch-truth/01-harness-maximal-improvement-field-map-launch-truth.md](harness-improvement-audit/launch-truth/01-harness-maximal-improvement-field-map-launch-truth.md)
+- packet artifact:
+  - [harness-improvement-audit/packets/01-harness-maximal-improvement-field-map-packet.md](harness-improvement-audit/packets/01-harness-maximal-improvement-field-map-packet.md)
+- governing spec:
+  - [harness-improvement-audit/specs/01-harness-maximal-improvement-field-map-spec.md](harness-improvement-audit/specs/01-harness-maximal-improvement-field-map-spec.md)
+- prompt artifact:
+  - [harness-improvement-audit/prompts/01-harness-maximal-improvement-field-map-opus47-max-r1-launch-prompt.md](harness-improvement-audit/prompts/01-harness-maximal-improvement-field-map-opus47-max-r1-launch-prompt.md)
+- output artifact:
+  - [harness-improvement-audit/outputs/01-harness-maximal-improvement-field-map-opus47-max-r1.md](harness-improvement-audit/outputs/01-harness-maximal-improvement-field-map-opus47-max-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `604.510`
+  - session id: `c17cce42-5652-4cb8-b73e-d83bade7a079`
+  - total cost usd: `4.0932414999999995`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/harness-maximal-improvement-field-map-opus47-max-r1-20260421-165149.ul_d5yx8.stream.jsonl`
+    - `/tmp/harness-maximal-improvement-field-map-opus47-max-r1-20260421-165149.nmp7j54_.stderr.log`
+    - `/tmp/harness-maximal-improvement-field-map-opus47-max-r1-20260421-165149._mednnpg.debug.log`
+- disposition:
+  - [harness-improvement-audit/dispositions/01-harness-maximal-improvement-field-map-inheritance.md](harness-improvement-audit/dispositions/01-harness-maximal-improvement-field-map-inheritance.md)
+  - `inherit full-field widening`
+  - accepted current consequence: use this field map to open bounded follow-through families for canary/invariant assertion, audit-program infrastructure, standing self-improvement register, lifecycle carry, and related ownerless improvement concerns while the rerun remains paused
