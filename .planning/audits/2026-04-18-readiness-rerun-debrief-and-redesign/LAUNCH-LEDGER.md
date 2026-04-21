@@ -218,6 +218,34 @@
   - effective settings verified against `~/.codex/state_5.sqlite`: `worker / gpt-5.4 / xhigh`
   - agent nickname: `Lovelace`
   - output artifact: [wave-2/outputs/06-rerun-design-gpt54-xhigh-r1.md](wave-2/outputs/06-rerun-design-gpt54-xhigh-r1.md)
+
+## 2026-04-21 `propagation-audit-lane-01`
+
+- date: `2026-04-21`
+- purpose: bounded external reread of the propagation family after the landed two-consumer uplift baseline
+- frozen launch basis commit: `b0e48c4`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- launch-truth artifact: [propagation-audit/launch-truth/01-propagation-chain-reread-launch-truth.md](propagation-audit/launch-truth/01-propagation-chain-reread-launch-truth.md)
+- prompt artifact: [propagation-audit/prompts/01-propagation-chain-reread-opus47-max-r1-launch-prompt.md](propagation-audit/prompts/01-propagation-chain-reread-opus47-max-r1-launch-prompt.md)
+- governing spec: [propagation-audit/specs/01-propagation-chain-reread-spec.md](propagation-audit/specs/01-propagation-chain-reread-spec.md)
+- governing packet: [propagation-audit/packets/01-propagation-chain-reread-packet.md](propagation-audit/packets/01-propagation-chain-reread-packet.md)
+- output artifact: [propagation-audit/outputs/01-propagation-chain-reread-opus47-max-r1.md](propagation-audit/outputs/01-propagation-chain-reread-opus47-max-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `423.587`
+  - session id: `d585e844-a299-4482-9b39-376f98438dab`
+  - total cost usd: `3.7735877499999986`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/propagation-chain-reread-opus47-max-r1-20260421-055847.vxtnjart.stream.jsonl`
+    - `/tmp/propagation-chain-reread-opus47-max-r1-20260421-055847.9umc0x8w.stderr.log`
+    - `/tmp/propagation-chain-reread-opus47-max-r1-20260421-055847.ozj5iguo.debug.log`
+- disposition:
+  - [propagation-audit/dispositions/01-propagation-chain-reread-inheritance.md](propagation-audit/dispositions/01-propagation-chain-reread-inheritance.md)
+  - `accept as bounded strengthening guide`
+  - accepted now: A JSON-to-prose contract test, B held-later status typing, D read-only consumer skill-edge typing, E chain-flow disclosure, F governance/inventory disclosure
+  - accepted next materialization-integrity batch: C overlay add-vs-overwrite manifest, then G post-materialization coherence gate
+  - held later: third consumer, additive install routing, cross-runtime reconciliation, upstream-template drift, aged-bespoke deep merge, audit-subtree aging, forensics/archived-milestone integration, workstream parent/child posture reconciliation, larger whole-network challenge lane, docs companion refresh
 - bounded parallel follow-up:
   - launch mode: `spawn_agent`
   - effective settings verified against `~/.codex/state_5.sqlite`: `worker / gpt-5.4 / xhigh`

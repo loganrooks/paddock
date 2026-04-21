@@ -33,6 +33,12 @@ Status: active opening batch
   - [specs/01-propagation-chain-reread-spec.md](specs/01-propagation-chain-reread-spec.md)
 - prompt:
   - [prompts/01-propagation-chain-reread-opus47-max-r1-launch-prompt.md](prompts/01-propagation-chain-reread-opus47-max-r1-launch-prompt.md)
+- launch-truth:
+  - [launch-truth/01-propagation-chain-reread-launch-truth.md](launch-truth/01-propagation-chain-reread-launch-truth.md)
+- output:
+  - [outputs/01-propagation-chain-reread-opus47-max-r1.md](outputs/01-propagation-chain-reread-opus47-max-r1.md)
+- inheritance:
+  - [dispositions/01-propagation-chain-reread-inheritance.md](dispositions/01-propagation-chain-reread-inheritance.md)
 
 ## Quality Gates
 
@@ -61,5 +67,5 @@ Status: active opening batch
 - [d:r:i] This family is now open as a governed subtree rather than only as a seed note.
 - [d:r:i] The first concrete local map now exists.
 - [d:r:i] The first concrete follow-through now exists too: `resume-project` is a second live uplift consumer through tracked overlay ownership and installer-backed materialization.
-- [d:r:i] The first bounded external reread lane is now packetized against that stronger two-consumer baseline.
-- [d:r:i] The next question is no longer whether to accept the second-consumer slice. The next question is what the bounded reread exposes about wider scrutiny, carrier placement, and the next adjacent strengthening route.
+- [d:r:i] The first bounded external reread lane is now completed and locally inherited against that stronger two-consumer baseline.
+- [d:r:i] The next question is no longer whether the reread should happen. The next question is how to land the accepted bounded strengthening routes before any wider propagation-family widening.
