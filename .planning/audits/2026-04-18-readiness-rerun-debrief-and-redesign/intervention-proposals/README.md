@@ -62,5 +62,5 @@ Status: active proposal/disposition batch
 - [d:r:i] `38` now records strongest carrier placement for that family: it maps each concern to its primary surfaces, supporting carriers, and non-owners so workflow design does not collapse back into a generic onboarding bucket.
 - [d:r:i] `39` now defines the bounded composition-layer workflow itself: one explicit owner for project uplift, one compact first slice, explicit specialist-owner boundaries, detection signals, outputs, and review gates.
 - [d:r:i] The locked next sequence for that family is now:
-  1. challenge the revised map plus placement pass plus workflow proposal together
-  2. or move directly into first-slice implementation only if the workspace decides the proposal is already sharp enough without that challenge
+  1. revise `37`, `38`, and `39` with Opus-leading widening and structural revision, while using GPT mainly as compactness and carrier-discipline restraint
+  2. then choose between direct first-slice implementation and one more challenge only if the revisions materially change first-slice scope

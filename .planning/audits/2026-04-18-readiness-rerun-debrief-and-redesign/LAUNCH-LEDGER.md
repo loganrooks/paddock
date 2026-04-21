@@ -509,3 +509,28 @@
   - [entry-uplift-audit/dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md](entry-uplift-audit/dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md)
   - carried forward: full-field widening, composition-layer ownership split, stronger report/governing carrier set
   - sharpen before workflow design: split the current broad uplift bucket, widen the scenario map, revise `37` before drafting `38`
+
+## 2026-04-21 `entry-uplift-audit-lane-02`
+
+- date: `2026-04-21`
+- purpose: challenge the full local bundle `36 + 37 + 38 + 39` together so terrain, placement, and workflow shape are judged as one family rather than as isolated objects
+- frozen launch basis commit: `96dbf5c`
+- request-surface language check:
+  - `scan_threshold_language.py` returned `No threshold-language residue found` across the lane-02 README, packet, spec, and prompt surfaces after one spec-phrasing correction
+- launch-truth artifact:
+  - [entry-uplift-audit/launch-truth/02-entry-surface-project-uplift-bundle-launch-truth.md](entry-uplift-audit/launch-truth/02-entry-surface-project-uplift-bundle-launch-truth.md)
+- packet artifact:
+  - [entry-uplift-audit/packets/02-entry-surface-project-uplift-bundle-packet.md](entry-uplift-audit/packets/02-entry-surface-project-uplift-bundle-packet.md)
+- governing spec:
+  - [entry-uplift-audit/specs/02-entry-surface-project-uplift-bundle-cross-vendor-spec.md](entry-uplift-audit/specs/02-entry-surface-project-uplift-bundle-cross-vendor-spec.md)
+- prompt artifacts:
+  - [entry-uplift-audit/prompts/02-entry-surface-project-uplift-bundle-opus47-max-r1-launch-prompt.md](entry-uplift-audit/prompts/02-entry-surface-project-uplift-bundle-opus47-max-r1-launch-prompt.md)
+  - [entry-uplift-audit/prompts/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1-brief.md](entry-uplift-audit/prompts/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1-brief.md)
+- outputs:
+  - [entry-uplift-audit/outputs/02-entry-surface-project-uplift-bundle-opus47-max-r1.md](entry-uplift-audit/outputs/02-entry-surface-project-uplift-bundle-opus47-max-r1.md)
+  - [entry-uplift-audit/outputs/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1.md](entry-uplift-audit/outputs/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1.md)
+- disposition:
+  - [entry-uplift-audit/dispositions/02-entry-surface-project-uplift-bundle-comparative-disposition.md](entry-uplift-audit/dispositions/02-entry-surface-project-uplift-bundle-comparative-disposition.md)
+  - carried forward: bundle shape, `38` placement grammar, composition-layer ownership split, compact first-slice brake
+  - inheritance weighting: Opus leads the widening and structural revision of `37`, `38`, and `39`; GPT remains the compactness and carrier-discipline brake on first-slice scope
+  - revise before implementation: one more revision pass over `37`, `38`, and `39`

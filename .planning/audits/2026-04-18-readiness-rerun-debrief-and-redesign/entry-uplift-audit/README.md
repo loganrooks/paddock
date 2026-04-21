@@ -1,5 +1,5 @@
 Date: 2026-04-21
-Status: lane-01 completed and inherited; lane-02 request surfaces drafted
+Status: lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint
 
 # Entry Uplift Audit
 
@@ -48,9 +48,9 @@ For each lane, keep this tuple explicit:
   - [prompts/02-entry-surface-project-uplift-bundle-opus47-max-r1-launch-prompt.md](prompts/02-entry-surface-project-uplift-bundle-opus47-max-r1-launch-prompt.md)
   - [prompts/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1-brief.md](prompts/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1-brief.md)
 - launch-truth:
-  - pending
+  - [launch-truth/02-entry-surface-project-uplift-bundle-launch-truth.md](launch-truth/02-entry-surface-project-uplift-bundle-launch-truth.md)
 - outputs:
   - [outputs/02-entry-surface-project-uplift-bundle-opus47-max-r1.md](outputs/02-entry-surface-project-uplift-bundle-opus47-max-r1.md)
   - [outputs/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1.md](outputs/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1.md)
 - local comparative disposition:
-  - pending
+  - [dispositions/02-entry-surface-project-uplift-bundle-comparative-disposition.md](dispositions/02-entry-surface-project-uplift-bundle-comparative-disposition.md)

@@ -149,6 +149,7 @@ Date: 2026-04-21
 - current entry-uplift-audit status: `entry-uplift-audit lane-01 is now completed and inherited: the widening pass preserved 37's full-field posture, added missing entry scenario families and carrier layers, and now routes the next move through a revision of 37 before 38 is drafted`
 - current entry-surface-placement status: `intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md now records strongest placement for runtime/install, governing-doc, required-reading, claim-type, long-horizon, state-boundary, discovery, cross-runtime, tooling, audit-aging, and uplift-output concerns before workflow design`
 - current project-uplift-workflow status: `intervention-proposals/39-project-uplift-workflow-proposal.md now defines the bounded composition-layer workflow itself: explicit ownership boundary, detection signals, compact first slice, outputs, and review gates`
+- current entry-uplift bundle-review status: `entry-uplift-audit lane-02 is now completed and comparatively inherited with Opus as the primary widening/structural-revision guide and GPT as the compactness brake: the bundle shape is carried forward, but `37`, `38`, and `39` should each be revised once more before implementation`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -215,7 +216,8 @@ Date: 2026-04-21
 15. use the revised `37` as the active terrain map for this family rather than falling back to the narrower pre-widening version
 16. use `38` as the placement basis for this family rather than letting `39` improvise carrier ownership from memory
 17. use `39` as the current bounded workflow object for this family rather than reopening generic onboarding brainstorming
-18. next choose between a cross-vendor challenge on `37 + 38 + 39`, or a direct first-slice implementation if the workspace decides the proposal is already sharp enough without that challenge
+18. revise `37`, `38`, and `39` with Opus-leading widening and structural revision, while using GPT mainly as first-slice compactness and carrier-discipline restraint, before any implementation slice opens
+19. only after that revision pass, choose again between direct first-slice implementation and one more challenge if the first-slice scope materially changed
 
 ## Open Questions
 

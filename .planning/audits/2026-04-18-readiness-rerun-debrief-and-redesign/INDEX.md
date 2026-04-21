@@ -124,6 +124,10 @@
 110. [entry-uplift-audit/launch-truth/01-entry-surface-and-project-uplift-field-mapping-launch-truth.md](entry-uplift-audit/launch-truth/01-entry-surface-and-project-uplift-field-mapping-launch-truth.md)
 111. [entry-uplift-audit/outputs/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1.md](entry-uplift-audit/outputs/01-entry-surface-and-project-uplift-field-mapping-opus47-max-r1.md)
 112. [entry-uplift-audit/dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md](entry-uplift-audit/dispositions/01-entry-surface-and-project-uplift-field-mapping-inheritance.md)
+113. [entry-uplift-audit/launch-truth/02-entry-surface-project-uplift-bundle-launch-truth.md](entry-uplift-audit/launch-truth/02-entry-surface-project-uplift-bundle-launch-truth.md)
+114. [entry-uplift-audit/outputs/02-entry-surface-project-uplift-bundle-opus47-max-r1.md](entry-uplift-audit/outputs/02-entry-surface-project-uplift-bundle-opus47-max-r1.md)
+115. [entry-uplift-audit/outputs/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1.md](entry-uplift-audit/outputs/02-entry-surface-project-uplift-bundle-gpt54-xhigh-r1.md)
+116. [entry-uplift-audit/dispositions/02-entry-surface-project-uplift-bundle-comparative-disposition.md](entry-uplift-audit/dispositions/02-entry-surface-project-uplift-bundle-comparative-disposition.md)
 
 ## Source-Of-Truth Hierarchy
 
@@ -178,8 +182,8 @@
 - current workflow proposal for that family: `intervention-proposals/39-project-uplift-workflow-proposal.md`
 - current widening challenge subtree for that family: `entry-uplift-audit/`
 - locked next sequence for that family:
-  - then challenge that stronger bundle cross-vendor
-  - or move into first-slice implementation if the local proposal is already sharp enough
+  - revise `37`, `38`, and `39` with Opus-leading widening and structural revision, while using GPT mainly as compactness and carrier-discipline restraint
+  - then choose between direct first-slice implementation and one more challenge only if the revisions materially change first-slice scope
 - current long-horizon cross-vendor challenge subtree and lane-01 inheritance: `long-horizon-audit/`
 - current threshold-language residue audit subtree and first-pass warning surface: `threshold-audit/`
 - current self-overcoming proposal challenge subtree and lane-01 inheritance: `self-overcoming-audit/`
