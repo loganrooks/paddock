@@ -191,6 +191,16 @@
 - [d:r:i] Current consequence: the next honest move is not another generic long-horizon lane. It is either to revise `29` itself with the sharper field map or to open bounded follow-through work on the newly exposed surface families: `boundary carry`, `preservation-debt`, `canonical-ref carry`, `compact horizon-watch`, and `activation consumer surfaces`.
 - [d:r:i] The same lane also makes the threshold-language concern cleaner: root/planning `AGENTS.md` and both `CLAUDE.md` wrappers already carry anti-threshold doctrine, so the next audit candidate is residue in older specs, prompts, reviews, and inherited lane artifacts rather than doctrine invention.
 
+## Threshold-Language Residue Audit
+
+- [e:c+i] That residue audit now exists under `threshold-audit/`, with a frozen raw scan artifact, per-file count surface, and first-pass classification note. Sources: [threshold-audit/README.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/threshold-audit/README.md:1), [threshold-audit/artifacts/01-threshold-language-raw-scan.txt](./threshold-audit/artifacts/01-threshold-language-raw-scan.txt:925), [threshold-audit/dispositions/01-threshold-language-residue-audit.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/threshold-audit/dispositions/01-threshold-language-residue-audit.md:1).
+- [e:c+i] The combined first-pass scan across this rerun-redesign workspace plus the historical readiness package found `486` residue hits. Source: [threshold-audit/artifacts/01-threshold-language-raw-scan.txt](./threshold-audit/artifacts/01-threshold-language-raw-scan.txt:925).
+- [d:r:i] The audit’s strongest conclusion is that the main contamination vector is not only stray wording. It is threshold-shaped task framing in load-bearing specs, prompts, and adjudication logic, plus a smaller but still real amount of active contamination in current steering surfaces.
+- [d:r:i] Current consequence: the next strongest follow-through is not “clean the whole archive blindly.” It is:
+  - patch active steering surfaces still carrying inherited threshold wording
+  - run a bounded spec/prompt residue audit on the most contaminating historical framing surfaces
+  - then revisit selected historical review/adjudication families through that sharper caution layer
+
 ## What Is Still Unsettled
 
 - [o:r:i] How much of the original readiness underreach came from weak terrain mapping versus closure-biased judgment, and how much came from interaction effects between the two.

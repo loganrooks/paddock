@@ -101,6 +101,9 @@ Date: 2026-04-20
 - parallel local spawned reviewer completed for long-horizon lane-01
 - long-horizon lane-01 launch-truth note written under `long-horizon-audit/launch-truth/`
 - long-horizon lane-01 comparative disposition written under `long-horizon-audit/dispositions/`
+- threshold-language audit subtree created under `threshold-audit/`
+- threshold-language raw scan artifact frozen for current audit workspace plus historical readiness package
+- threshold-language first-pass residue audit written under `threshold-audit/dispositions/`
 - current intervention-proposal status: `the first four bounded harness follow-through proposals now exist, the first-tranche disposition is written, and the first accepted pair is now landed in the instruction/runtime layer`
 - current drift-register status: `the second tranche now has a bounded pilot register; sampled load-bearing differences are mostly intelligible materialized carry or selective overlay boundary, not mystery drift`
 - current manifest-contract status: `the second tranche now rejects manifest semantic collapse; gsd-file-manifest.json remains an upstream/update-boundary artifact, backup-meta stays tracked subset-carry metadata, and the missing object is a separate final-runtime visibility surface`
@@ -125,6 +128,7 @@ Date: 2026-04-20
 - current docs-audit-sequencing status: `the challenged lane pair, transformation plan, bounded companion layer, and first intervention proposal batch are complete; the current move is proposal disposition and first bounded follow-through`
 - current long-horizon status: `the challenge-backed field map now centers the work on intensifying boundary carry architecture, building from already-strong long-horizon entry carry; Opus adds a stronger two-systems / preservation-debt model, GPT adds tighter bounded landing shapes`
 - current threshold-language status: `anti-threshold doctrine already exists in root/planning AGENTS and both CLAUDE wrappers; the live follow-on question is residue in older specs, prompts, reviews, and inherited lane artifacts`
+- current threshold-audit status: `the first-pass residue audit found broad historical spread plus specific active contamination in live steering surfaces and threshold-shaped framing in load-bearing specs; the next strong move is a bounded spec/prompt residue audit plus targeted steering-surface cleanup`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)

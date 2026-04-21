@@ -100,6 +100,10 @@
 85. [long-horizon-audit/outputs/01-long-horizon-field-mapping-opus47-max-r1.md](long-horizon-audit/outputs/01-long-horizon-field-mapping-opus47-max-r1.md)
 86. [long-horizon-audit/outputs/01-long-horizon-field-mapping-gpt54-xhigh-r1.md](long-horizon-audit/outputs/01-long-horizon-field-mapping-gpt54-xhigh-r1.md)
 87. [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md)
+88. [threshold-audit/README.md](threshold-audit/README.md)
+89. [threshold-audit/artifacts/01-threshold-language-raw-scan.txt](threshold-audit/artifacts/01-threshold-language-raw-scan.txt)
+90. [threshold-audit/artifacts/02-threshold-language-top-files.txt](threshold-audit/artifacts/02-threshold-language-top-files.txt)
+91. [threshold-audit/dispositions/01-threshold-language-residue-audit.md](threshold-audit/dispositions/01-threshold-language-residue-audit.md)
 
 ## Source-Of-Truth Hierarchy
 
@@ -145,6 +149,7 @@
 - current accepted first-pass runtime-visibility implementation for the second tranche: `intervention-proposals/10-final-runtime-visibility-first-pass-disposition.md`
 - current full-field long-horizon carry seed register: `intervention-proposals/29-long-horizon-carry-gap-register.md`
 - current long-horizon cross-vendor challenge subtree and lane-01 inheritance: `long-horizon-audit/`
+- current threshold-language residue audit subtree and first-pass warning surface: `threshold-audit/`
 - current bounded docs-audit lane subtree for that challenge work: `docs-audit/`
 - current docs-audit launch record: `docs-audit/launch-truth/01-pr-docs-intervention-carry-launch-truth.md`
 - current raw docs-audit outputs: `docs-audit/outputs/01-pr-docs-intervention-carry-opus47-max-r1.md`, `docs-audit/outputs/01-pr-docs-intervention-carry-gpt54-xhigh-r1.md`
