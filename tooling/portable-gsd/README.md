@@ -12,12 +12,16 @@ This overlay solves that by tracking only the project-specific patched files and
 
 1. [`scripts/setup-portable-gsd.sh`](/home/rookslog/workspace/projects/prix-guesser/scripts/setup-portable-gsd.sh) installs regular local GSD with:
    - `npx get-shit-done-cc --codex --local`
-2. The script then copies the tracked overlay files into `.codex/`
-3. While copying, it replaces `__PROJECT_ROOT__` with the current checkout path
-4. It also materializes the compact prompt selector:
+2. The script validates [OVERLAY-MANIFEST.json](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/OVERLAY-MANIFEST.json), which explicitly types every tracked overlay file as either:
+   - `overwrite` — deliberate replacement of an upstream-shipped surface already backed by `backup-meta.json`
+   - `add` — deliberate additive repo-local owner outside the updater/carried-subset backup surface
+3. The script then copies the tracked overlay files into `.codex/`
+4. While copying, it replaces `__PROJECT_ROOT__` with the current checkout path
+5. It also materializes the compact prompt selector:
    - repo default: `tooling/compact-prompts/project.md`
    - one-off override: `PRIX_COMPACT_PROMPT_FILE=tooling/compact-prompts/readiness.md ./scripts/setup-portable-gsd.sh`
    - persistent worktree-local override: first line of `.codex.local/compact-prompt.txt`
+6. After overlay copy and reasoning-default application, the script runs a post-materialization coherence gate so the live `.codex/` frontier must still match the tracked overlay/install contract.
 
 Compact prompt paths are config values relative to `.codex/`.
 
@@ -31,6 +35,21 @@ The overlay currently patches regular local GSD so this project gets:
 - `future_awareness` support in context generation
 - research/planning prompts that consume assumptions, open questions, and future-aware constraints
 - a general project compact prompt as the repo default instead of a readiness-specific global pin
+
+## Overlay Contract
+
+The tracked overlay now carries an explicit install contract instead of relying on ambient knowledge:
+
+- [OVERLAY-MANIFEST.json](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/OVERLAY-MANIFEST.json)
+- [portable_gsd_contract.py](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/portable_gsd_contract.py)
+
+That shared contract is now used by:
+
+- the installer
+- post-materialization coherence verification
+- runtime visibility classification of install-mutation targets
+
+This keeps overlay ownership, backup-carried overwrite truth, and additive repo-local owners from drifting silently apart.
 
 ## Codex Model Policy
 

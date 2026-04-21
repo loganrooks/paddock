@@ -98,6 +98,7 @@ Status: active inventory
 - `propagation-audit/dispositions/01-propagation-chain-reread-inheritance.md`
 - `propagation-audit/05-project-uplift-chain-map.md`
 - `propagation-audit/06-bounded-propagation-strengthening-batch-a-b-d-e-f.md`
+- `propagation-audit/07-overlay-add-vs-overwrite-contract-and-post-materialization-gate.md`
 
 ## Challenge And Output Subtrees
 

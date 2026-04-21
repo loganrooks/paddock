@@ -56,6 +56,7 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
   - `python3 tooling/codex/runtime_visibility.py`
   - `python3 tooling/codex/manifest_install_coherence.py`
   - `python3 tooling/codex/project_uplift.py`
+  - `python3 tooling/codex/portable_gsd_contract.py`
 - For the current worked example of this repo-local doctrine in action, start with:
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/`
 - Do not mistake those partial tools for proof that the whole network stayed aligned. When the change crosses several producer/consumer families, open or update an explicit propagation audit surface.

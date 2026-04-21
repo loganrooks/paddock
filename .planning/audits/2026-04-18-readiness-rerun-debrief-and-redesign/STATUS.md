@@ -160,6 +160,7 @@ Date: 2026-04-21
 - current propagation-reread status: `the first bounded external propagation reread lane is now completed and locally inherited under propagation-audit/launch-truth|outputs|dispositions/01-propagation-chain-reread-* against the clean two-consumer baseline`
 - current propagation-strengthening status: `the accepted next bounded routes are now explicit from the Opus reread: A JSON-to-prose contract test, B held-later status typing, D read-only consumer skill-edge typing, E chain-flow disclosure, and F governance/inventory disclosure; C overlay add-vs-overwrite manifest is the next materialization-integrity batch after that, and G waits on C`
 - current propagation-strengthening-batch status: `A, B, D, E, and F are now landed: helper contract vocabulary + tests, typed held-later registry and schema-v3 outputs, overlay owners for gsd-progress and gsd-resume-work, chain-flow disclosure artifact 05, and stronger inventory/governance routing`
+- current propagation-materialization-integrity status: `Route C and Route G are now landed too: the tracked overlay now carries OVERLAY-MANIFEST.json with explicit add-vs-overwrite typing, setup-portable-gsd.sh now validates and verifies that contract through portable_gsd_contract.py, runtime_visibility now inherits shared install/materialization truth from that helper, and the first live gate already surfaced and corrected one real ownership drift case (skills/gsd-resume-work/SKILL.md retyped from add to overwrite)`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -235,7 +236,8 @@ Date: 2026-04-21
 24. use the landed two-consumer baseline in `propagation-audit/04-resume-project-second-consumer-implementation.md` as the new propagation entry point before deciding whether the next stronger move is a wider local map, a third consumer, or a bounded external challenge
 25. use `propagation-audit/dispositions/01-propagation-chain-reread-inheritance.md` as the current propagation-family routing note
 26. use `propagation-audit/06-bounded-propagation-strengthening-batch-a-b-d-e-f.md` and `05-project-uplift-chain-map.md` as the current strengthened baseline inside the propagation family
-27. decide whether the next move is the add-vs-overwrite materialization-integrity batch (`C` then `G`) or a wider local map beyond the uplift example
+27. use `propagation-audit/07-overlay-add-vs-overwrite-contract-and-post-materialization-gate.md` as the current installer/materialization boundary note rather than reconstructing Route `C`/`G` from chat
+28. decide which broader producer / consumer and contract-carry families should widen next now that the uplift example also has an explicit overlay/materialization contract layer
 
 ## Open Questions
 
