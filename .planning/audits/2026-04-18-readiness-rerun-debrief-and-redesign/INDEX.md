@@ -88,6 +88,8 @@
   - [propagation-audit/10-model-policy-three-surface-invariant.md](propagation-audit/10-model-policy-three-surface-invariant.md)
   - [propagation-audit/11-upstream-pristine-frontier-propagation-obligation.md](propagation-audit/11-upstream-pristine-frontier-propagation-obligation.md)
   - [propagation-audit/12-cross-family-edge-supplement.md](propagation-audit/12-cross-family-edge-supplement.md)
+  - [propagation-audit/13-machine-readable-propagation-registry-first-slice.md](propagation-audit/13-machine-readable-propagation-registry-first-slice.md)
+  - [propagation-audit/artifacts/01-propagation-field-registry-v1.json](propagation-audit/artifacts/01-propagation-field-registry-v1.json)
 - long-horizon / anti-threshold family:
   - [intervention-proposals/29-long-horizon-carry-gap-register.md](intervention-proposals/29-long-horizon-carry-gap-register.md)
   - [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md)

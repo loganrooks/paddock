@@ -64,6 +64,8 @@ Status: active widened inheritance batch
 - [10-model-policy-three-surface-invariant.md](10-model-policy-three-surface-invariant.md)
 - [11-upstream-pristine-frontier-propagation-obligation.md](11-upstream-pristine-frontier-propagation-obligation.md)
 - [12-cross-family-edge-supplement.md](12-cross-family-edge-supplement.md)
+- [13-machine-readable-propagation-registry-first-slice.md](13-machine-readable-propagation-registry-first-slice.md)
+- [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 
 ## Quality Gates
 
@@ -98,4 +100,5 @@ Status: active widened inheritance batch
 - [d:r:i] The broader family map now exists too: `08` widens the propagation family from the uplift example into a layer stack of governing doctrine, install/materialization, runtime registry, workflow/template/reference contracts, skill routing, helper/output chains, and governance carriers.
 - [d:r:i] The bounded widening lane over `08` is now completed and locally inherited through lane `02`.
 - [d:r:i] The sharpened disclosure layer is now landing too: `09` carries the stronger sub-family rows, `10` names the model-policy three-surface invariant, `11` names the upstream-pristine frontier obligation, and `12` names the first explicit cross-family edges.
-- [d:r:i] The next move is to wire this sharper layer into the remaining discovery/governance surfaces, then decide whether any still-bounded operational follow-through should land before reopening wider propagation work.
+- [d:r:i] The machine-readable first slice is now landing too: `13` plus `artifacts/01-propagation-field-registry-v1.json` give the family one compact registry surface in addition to the prose layer.
+- [d:r:i] The next move is to decide whether this registry slice now deserves refresh/diff tooling, or whether the family should hold on a cleaner checkpoint before more operational widening.

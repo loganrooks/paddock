@@ -41,6 +41,7 @@ Status: active governing synthesis
 - [d:r:i] The propagation family is no longer only an uplift worked example plus installer boundary. It now also has a broader carrier-family map that widens the field into governing doctrine, install/materialization, runtime registry, workflow/template/reference contracts, skill routing, helper/output chains, and governance carriers.
 - [d:r:i] That widened map has now been reread externally and locally inherited. The active next pressure is sharper field disclosure rather than generic widening: helper-cohort split, install-frontier split, workflow-mode split, skill-mode split, governance-scope split, plus the added carrier rows for launch-truth, compact-prompt carry, and state-continuity.
 - [d:r:i] That sharper disclosure layer is now landing in concrete artifacts too: `09` carries the refined sub-family map, `10` the model-policy three-surface invariant, `11` the upstream-pristine frontier obligation, and `12` the first explicit cross-family edge supplement.
+- [d:r:i] The propagation family now also has one compact machine-readable foothold: `13` plus `artifacts/01-propagation-field-registry-v1.json` freeze the current families, carriers, and selected edges in a diffable snapshot.
 - [d:r:i] The compatibility-surface question is recorded for later rather than being treated as a blocker for the current uplift slice.
 - [d:r:i] The broader contract-propagation / dependency-carry question is no longer only a seed concern. It is now an active governed family with its first local producer / consumer and impact map, but it is still before any external challenge stage.
 
@@ -57,7 +58,7 @@ Status: active governing synthesis
   - the wider propagation map beyond the uplift example now exists in `08`
   - the widening reread over `08` is now also completed and inherited through lane `02`
   - the sharpened disclosure layer `09-12` is now the active local basis
-  - the next bounded move is to finish wiring that sharper layer into the remaining discovery and doctrine carriers, then judge whether any still-bounded operational follow-through should land immediately after
+  - the next bounded move is to decide whether the new registry slice should earn refresh/diff tooling or whether the family should hold on this cleaner checkpoint before more operational widening
   - later whole-network widening stays later-family work rather than immediate next-step absorption
 - [d:r:i] The broader rerun workspace still also needs the floor-closing honesty/routing batch carried into its actual governing surfaces rather than left only as proposal artifacts.
 - [d:r:i] If the workspace feels hard to reread, treat that as a governance-surface issue first, not as a reason to reopen settled intervention families.

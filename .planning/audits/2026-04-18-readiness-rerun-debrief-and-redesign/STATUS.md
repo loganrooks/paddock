@@ -164,6 +164,7 @@ Date: 2026-04-21
 - current broader-propagation-map status: `the propagation family is now widened beyond the uplift example in propagation-audit/08-broader-network-producer-consumer-and-carrier-map.md; the active carrier split now explicitly includes governing doctrine, install/materialization, runtime registry, workflow/template/reference contracts, skill routing, helper/output chains, and governance carriers`
 - current broader-propagation-reread status: `lane-02 is now completed and inherited under propagation-audit/launch-truth|outputs|dispositions/02-broader-network-propagation-field-mapping-*; the active next move is not generic widening but the sharpened disclosure batch H/I/J/K/R plus L/N/Q, followed by the named invariant / edge companions O/P/S`
 - current sharpened-propagation-disclosure status: `the first sharpened layer is now landing under propagation-audit/09-12: refined sub-family rows, model-policy three-surface invariant, upstream-pristine frontier obligation, and cross-family edge supplement`
+- current propagation-registry status: `the family now also has a first compact machine-readable slice under propagation-audit/13-machine-readable-propagation-registry-first-slice.md and artifacts/01-propagation-field-registry-v1.json`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -244,7 +245,8 @@ Date: 2026-04-21
 29. use `propagation-audit/dispositions/02-broader-network-propagation-field-mapping-inheritance.md` as the current routing note for the widened propagation field
 30. use `propagation-audit/09-sharpened-propagation-field-split.md` as the active sharper field map when `08` is too coarse
 31. use `propagation-audit/10-model-policy-three-surface-invariant.md`, `11-upstream-pristine-frontier-propagation-obligation.md`, and `12-cross-family-edge-supplement.md` as the current invariant / relation layer for the propagation family
-32. finish wiring the sharpened propagation layer into remaining discovery/doctrine carriers before reopening wider propagation work
+32. use `propagation-audit/13-machine-readable-propagation-registry-first-slice.md` and `artifacts/01-propagation-field-registry-v1.json` as the current compact registry slice for this family
+33. decide whether that registry slice now deserves refresh/diff tooling or whether the family should hold on the current checkpoint before more operational widening
 
 ## Open Questions
 
