@@ -20,8 +20,8 @@ Status: active opening batch
 ## Opening Sequence
 
 1. [01-contract-propagation-and-dependency-carry-opening-note.md](01-contract-propagation-and-dependency-carry-opening-note.md)
-2. local producer / consumer and impact map
-3. local carrier-placement or docs-surface follow-through if the map shows a weak route
+2. [02-project-uplift-producer-consumer-and-impact-map.md](02-project-uplift-producer-consumer-and-impact-map.md)
+3. local carrier-placement or second-consumer follow-through if the map shows a weak route
 4. bounded external challenge lane only after the local map and impact surface are explicit
 
 ## Quality Gates
@@ -49,4 +49,5 @@ Status: active opening batch
 ## Current Consequence
 
 - [d:r:i] This family is now open as a governed subtree rather than only as a seed note.
-- [d:r:i] The next concrete object should be the local producer / consumer and impact map for the current uplift example plus the adjacent harness surfaces it touches.
+- [d:r:i] The first concrete local map now exists.
+- [d:r:i] The next concrete object should be a bounded follow-through note on whether `resume-project` or another re-entry surface should become the second live uplift consumer before the family opens a broader external challenge lane.

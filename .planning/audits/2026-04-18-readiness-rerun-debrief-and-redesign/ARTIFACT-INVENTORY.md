@@ -87,6 +87,7 @@ Status: active inventory
 - `intervention-proposals/41-contract-propagation-and-dependency-carry-audit-seed.md`
 - `propagation-audit/README.md`
 - `propagation-audit/01-contract-propagation-and-dependency-carry-opening-note.md`
+- `propagation-audit/02-project-uplift-producer-consumer-and-impact-map.md`
 
 ## Challenge And Output Subtrees
 
