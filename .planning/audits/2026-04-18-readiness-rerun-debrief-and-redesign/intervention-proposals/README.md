@@ -51,3 +51,4 @@ Status: active proposal/disposition batch
 - [d:r:i] `31` records the linked instruction-layer hardening so root/planning agent doctrine is less likely to reintroduce binary inheritance, risk-as-veto, or premature narrowing.
 - [d:r:i] `32` records the landed first slice itself across live runtime plus tracked overlay carry, including threshold-residue cleanup and parity verification for the touched planning surfaces.
 - [d:r:i] `33` records the next adjacent contract-alignment batch: rigorous-research, planner/checker prompts, and agent-contract reference prose now all carry the strengthening-route shape rather than the older narrower planning contract.
+- [d:r:i] Current queued follow-through after `33`: build a bounded benchmark packet from real strengthening entries, then shape any later standalone reference surface against that packet rather than against theory alone.
