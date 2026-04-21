@@ -52,8 +52,9 @@ Status: active workflow proposal
 
 ### Explicit Entry
 
-- [d:r:i] The workflow should be invokable directly when the operator wants a repo-local posture refresh:
-  - `Run $gsd-uplift-project`
+- [d:r:i] The workflow should be invokable directly when the operator wants a repo-local posture reread or refresh:
+  - `Run $gsd-uplift-project --detect-only`
+- [d:r:i] Detect-only should be the default opening posture. Refresh or install should require explicit flags.
 
 ### Routed Entry
 
@@ -68,24 +69,25 @@ Status: active workflow proposal
 
 ## Detection Signals
 
-- [d:r:i] A first-slice uplift pass should open when one or more of these signals appear:
-  - existing project carries thin or older governing-doc posture
-  - root/planning `AGENTS.md` or `CLAUDE.md` wrappers are absent or materially older than current repo doctrine
-  - `.planning/CLAIM-TYPES.md` is absent
-  - `.planning/LONG-ARC.md` is absent or clearly outside current repo posture
-  - required-reading installation practice is absent from local packet/spec/prompt surfaces
-  - strengthening-route carry is absent from the local discuss/context/plan/research chain where the repo now expects it
-  - repo-local tooling expected by doctrine is absent
-  - the project resumed or opened a new milestone after a major doctrine move without a posture refresh
-  - the project was initialized under a thinner or different runtime posture than current local doctrine expects
+- [d:r:i] A first-slice uplift pass should open when the project’s current carrier fingerprint differs from current repo-local doctrine in one or more bounded ways:
+  - governing-doc carrier fingerprint differs across root/planning `AGENTS.md` or `CLAUDE.md` wrappers
+  - `.planning/CLAIM-TYPES.md` carrier is absent or fingerprints to an older local doctrine version
+  - `.planning/LONG-ARC.md` carrier is absent or fingerprints to an older local doctrine version
+  - required-reading installation practice is not yet present on the project’s live packet/spec/prompt surfaces
+  - strengthening-route carry is not yet present in the local discuss/context/plan/research chain where the repo now expects it
+  - repo-local tooling inventory expected by doctrine is not yet present
+  - the project resumed or opened a new milestone after a major doctrine move without an intervening uplift record
+  - runtime-side registry or wrapper posture fingerprints differ from current local runtime expectations
 
 ## First-Slice Scope
 
 - [d:r:i] The first slice should cover:
   - one repo at a time
+  - detect-only classification and reporting by default
   - vanilla and lightly aged projects first
-  - single-runtime posture refresh first
-  - governing/posture refresh and durable output
+  - single-runtime posture reread first
+  - additive carrier installs only when explicitly requested
+  - durable output plus one routable state carrier
 - [d:r:i] The first slice should hold out:
   - full runtime reinstall
   - structural repair beyond `health`
@@ -94,6 +96,7 @@ Status: active workflow proposal
   - aged-bespoke deep merge
   - full audit-tree restructuring
   - full upstream-template expression pass
+  - broad doctrine-sensitive wrapper rewrites by default
 
 ## Proposed Workflow Shape
 
@@ -108,6 +111,7 @@ Status: active workflow proposal
   - `.planning/CLAIM-TYPES.md` if present
 - [d:r:i] Classify the uplift family:
   - vanilla uplift
+  - lightly aged uplift
   - aged-bespoke uplift
   - cross-runtime uplift
   - upstream-template-drift uplift
@@ -129,36 +133,60 @@ Status: active workflow proposal
   - `ingest-docs` outputs where relevant
 - [d:r:i] The workflow consumes these outputs. It does not reimplement them.
 
-### 3. Refresh The First-Slice Carrier Set
+### 3. Produce A Doctrine-And-Posture Delta
 
-- [d:r:i] Refresh or install the strongest compact set:
-  - root `AGENTS.md` only where the repo expects repo-local doctrine to exist
-  - `.planning/AGENTS.md`
-  - root/planning `CLAUDE.md` wrappers
-  - `.planning/CLAIM-TYPES.md` where absent
-  - `.planning/LONG-ARC.md` where absent or clearly stale at the posture level
-  - required-reading installation practice on relevant request/spec/prompt surfaces
-  - presence of repo-local tooling that current doctrine assumes
-- [d:r:i] For first slice, prefer refreshing carrier presence and posture over rewriting lots of project-specific content.
+- [d:r:i] Detect-only should produce a thin delta first:
+  - current class
+  - current carrier fingerprints
+  - current runtime-side registry posture
+  - current doctrine/install carriers present
+  - current doctrine/install carriers absent
+  - later-family pressure that should stay deferred
+- [d:r:i] That delta should become operator-facing material inside `UPLIFT-REPORT.md` and machine-routable material inside the thin doctrine manifest.
 
-### 4. Write Durable Uplift Outputs
+### 4. Apply Explicit First-Slice Refresh Flags
+
+- [d:r:i] First-slice refresh should be split into narrower per-carrier routes with explicit flags and blast-radius labels.
+- [d:r:i] Low-ambiguity additive routes:
+  - install `.planning/CLAIM-TYPES.md` where absent
+  - install `.planning/LONG-ARC.md` where absent
+  - install thin doctrine manifest and uplift state carriers
+  - install tooling inventory carrier where absent
+- [d:r:i] Doctrine-sensitive proposal routes:
+  - generate diffs/proposals for root/planning `AGENTS.md`
+  - generate diffs/proposals for root/planning `CLAUDE.md`
+  - generate diffs/proposals for required-reading practice on request/spec/prompt surfaces
+  - generate diffs/proposals for strengthening-route carry where the repo now expects it
+- [d:r:i] Claim-type reference install and claim-type activation are separate:
+  - reference-file install may sit in the first slice
+  - activation across existing load-bearing artifacts should require explicit operator consent because it rewrites project content
+- [d:r:i] For first slice, prefer additive install or proposal generation over broad content rewrite.
+
+### 5. Write Durable Uplift Outputs
 
 - [d:r:i] First-slice outputs should be:
   - `UPLIFT-REPORT.md`
-  - `UPLIFT-STATE.md` or a dedicated uplift section inside `STATE.md`
+  - dedicated uplift section inside `STATE.md`
+  - thin doctrine manifest such as `UPLIFT-MANIFEST.json`
 - [d:r:i] `UPLIFT-REPORT.md` should record:
   - detected uplift class
   - before-state posture
+  - current doctrine-and-posture delta
   - what was refreshed
   - what was intentionally not refreshed
   - what should be routed later
-- [d:r:i] `UPLIFT-STATE.md` or equivalent should record:
+- [d:r:i] The `STATE.md` uplift section should record:
   - last uplift date
   - last uplift class
   - whether doctrine has materially moved since the last uplift
-- [d:r:i] A project doctrine manifest remains promising, but it can be a second-slice object if `UPLIFT-REPORT.md` and state carry already make the first slice legible.
+- [d:r:i] The thin doctrine manifest should record:
+  - carrier fingerprints or version stamps
+  - last detect-only pass
+  - last explicit install pass
+  - whether runtime-side registry and wrapper posture align
+  - whether any doctrine-sensitive proposals are still pending human review
 
-### 5. Route The Next Action
+### 6. Route The Next Action
 
 - [d:r:i] After refresh, the workflow should route explicitly:
   - to `new-milestone` when the real next move is milestone opening
@@ -167,6 +195,8 @@ Status: active workflow proposal
   - to `update` when install/runtime issues block posture refresh
   - to `discuss-phase` when a phase boundary should be reopened under current doctrine
   - to `plant-seed` when a stronger future move is out of scope for the current uplift slice
+- [d:r:i] First live routed consumer:
+  - one read-only `progress` hook that notices the uplift section plus thin doctrine manifest and can recommend `gsd-uplift-project --detect-only` when posture has drifted or when pending doctrine-sensitive proposals are still unresolved
 
 ## Carrier Decisions
 
@@ -182,8 +212,10 @@ Status: active workflow proposal
 
 - [d:r:i] `UPLIFT-REPORT.md`
   - strongest for per-pass memory and operator-facing before/after truth
-- [d:r:i] `UPLIFT-STATE.md` or state section
+- [d:r:i] `STATE.md` uplift section
   - strongest for later routing by `progress` / `resume-project`
+- [d:r:i] `UPLIFT-MANIFEST.json`
+  - strongest for thin structured doctrine/runtime fingerprints that later consumers can read without prose parsing
 - [d:r:i] seeds
   - strongest for out-of-slice deferred strengthening
 
@@ -191,14 +223,17 @@ Status: active workflow proposal
 
 - [g:r:i] Before any implementation slice is accepted:
   - run `scan_threshold_language.py` on new request/spec/prompt/proposal surfaces
+  - run `scan_threshold_language.py` on generated `UPLIFT-REPORT.md` before finalizing the pass
   - run `audit_refmap.py verify` on the active audit root
   - if runtime surfaces change, re-materialize through `./scripts/setup-portable-gsd.sh`
   - reread touched workflow/skill surfaces against `37` and `38`, not against memory
+  - require explicit human review before accepting doctrine-sensitive diffs for root/planning `AGENTS.md`, root/planning `CLAUDE.md`, or other canon carriers
 - [g:r:i] Before the first live slice is accepted:
   - test one vanilla project case
   - test one lightly aged project case
   - confirm the workflow routes rather than absorbs specialist-owner work
   - confirm the output artifacts make the before/after legible
+  - confirm `progress` can read the uplift state carrier and thin doctrine manifest without prose parsing
 
 ## Current Consequence
 
@@ -207,4 +242,9 @@ Status: active workflow proposal
   - revised `37` terrain map
   - `38` concern/carrier placement map
   - this bounded workflow proposal
-- [d:r:i] The next move after local reread should be a bounded cross-vendor challenge on `37 + 38 + 39` together, or a direct first-slice implementation only if the workspace decides the proposal is already sharp enough to carry without that challenge.
+- [d:r:i] This revision pass changes first-slice mechanics materially:
+  - detect-only is now the default opening
+  - fingerprint/delta language now shapes detection
+  - the thin doctrine manifest now lands in first slice
+  - `progress` now has one explicit read-only consumer hook
+- [d:r:i] The next move should therefore be one bounded reread on the revised `37 + 38 + 39` bundle before implementation, so the revised first-slice mechanics are challenged as a set rather than assumed from the earlier lane-02 packet.

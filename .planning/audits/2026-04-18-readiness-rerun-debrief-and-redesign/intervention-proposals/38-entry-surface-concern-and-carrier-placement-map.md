@@ -110,6 +110,7 @@ Status: active placement map
 ### 6. Doctrine Vintage / Pre-Rerun Boundary / Active Boundary Posture
 
 - [d:r:i] Primary carriers:
+  - per-phase `CONTEXT.md` boundary stamp
   - `STATE.md`
   - `UPLIFT-STATE.md` or equivalent uplift history
   - `progress` / `resume-project` routing branches
@@ -122,7 +123,7 @@ Status: active placement map
   - `new-project`
 - [d:r:i] Why this placement is stronger:
   - this concern matters when deciding what to do next with an already-existing project
-  - it belongs in state/routing surfaces that can actually change behavior, not only in static doctrine prose
+  - it belongs in the phase boundary plus state/routing surfaces that can actually change behavior, not only in static doctrine prose
 
 ### 7. Discovery Boundary And Brownfield Carry
 
@@ -143,25 +144,28 @@ Status: active placement map
 ### 8. Cross-Runtime Posture
 
 - [d:r:i] Primary carriers:
-  - root/planning `CLAUDE.md` wrappers plus root/planning `AGENTS.md`
+  - `.codex/config.toml`
+  - `.codex/agents/*.toml`
   - uplift outputs that record runtime posture and wrapper alignment
 - [d:r:i] Supporting carriers:
+  - root/planning `CLAUDE.md` wrappers plus root/planning `AGENTS.md`
   - generated instruction file
   - `update`
 - [d:r:i] Non-owners:
   - `health`
   - `new-milestone`
 - [d:r:i] Why this placement is stronger:
-  - runtime plurality is a governing-posture problem first, install problem second
-  - it should be visible in wrappers and reports before it is treated as resolved in runtime state
+  - runtime plurality has runtime-side registry truth and wrapper-side operator truth, and those can drift independently
+  - the runtime-side registry therefore needs first seat, while wrappers and reports expose the posture to operators
 
 ### 9. Repo-Local Tooling Install
 
 - [d:r:i] Primary carriers:
+  - explicit tooling inventory carrier such as `tooling/codex/INVENTORY.md`
   - uplift workflow/install pass
   - project doctrine manifest
-  - root/planning `AGENTS.md`
 - [d:r:i] Supporting carriers:
+  - root/planning `AGENTS.md`
   - `UPLIFT-REPORT.md`
   - audit subtree README conventions
 - [d:r:i] Non-owners:
@@ -169,12 +173,13 @@ Status: active placement map
   - `resume-project`
 - [d:r:i] Why this placement is stronger:
   - the tools are governing infrastructure
-  - their presence should be installed and recorded explicitly, not discovered accidentally only when an audit lane tries to use them
+  - their presence should be inventoried, installed, and recorded explicitly, not discovered accidentally only when an audit lane tries to use them
 
 ### 10. Audit-Subtree And Companion-Carrier Aging
 
 - [d:r:i] Primary carriers:
   - audit-subtree `README.md`, `INDEX.md`, `STATUS.md`
+  - doctrine-vintage stamp on doctrine-carrying audit subtrees
   - uplift outputs only when an uplift pass explicitly touches an active audit family
 - [d:r:i] Supporting carriers:
   - seeds for later cleanup or re-entry
@@ -236,6 +241,8 @@ Status: active placement map
   - strongest for project identity, scope, discovery inheritance
 - [d:r:i] `STATE.md`
   - strongest for active boundary, doctrine-vintage routing, current next-step consequences
+- [d:r:i] per-phase `CONTEXT.md`
+  - strongest for live phase-boundary posture, especially when doctrine has moved during an active phase
 - [d:r:i] `ROADMAP.md`
   - strongest for milestone/phase carry, not for governing posture install
 - [d:r:i] `LONG-ARC.md`
@@ -264,6 +271,6 @@ Status: active placement map
 
 ## Current Consequence
 
-- [d:r:i] `37` now carries the widened terrain.
-- [d:r:i] `38` now carries strongest placement.
-- [d:r:i] The next exact object should therefore be `39-project-uplift-workflow-proposal.md`, drafted against both the revised terrain map and this placement map rather than against a generic “improve onboarding” brief.
+- [d:r:i] `37` now carries the widened terrain, including the four-way uplift split and mid-phase case.
+- [d:r:i] `38` now carries stronger placement, especially for phase-boundary posture, runtime-side registry truth, tooling inventory, and doctrine-carrying audit subtrees.
+- [d:r:i] The revised workflow pass should therefore use this map as the active carrier-allocation basis rather than improvising ownership from memory or from a generic onboarding brief.

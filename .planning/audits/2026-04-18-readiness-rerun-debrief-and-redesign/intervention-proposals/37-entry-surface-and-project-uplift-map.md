@@ -10,7 +10,7 @@ Status: active map artifact
 
 ## Framing
 
-- [d:r:i] The current family contains at least eight distinct jobs:
+- [d:r:i] The current family contains a wider set of distinct jobs:
   - initial creation
   - milestone opening
   - docs bootstrap / docs merge
@@ -18,7 +18,12 @@ Status: active map artifact
   - runtime / install refresh
   - structural or posture repair
   - migration across generations or runtimes
-  - runtime / planning / doctrine uplift for projects that already exist
+  - vanilla-project uplift into current repo-local posture
+  - lightly aged project uplift with limited bespoke carry
+  - aged-bespoke project uplift with selective refresh
+  - cross-runtime posture uplift
+  - upstream-template-drift uplift
+  - mid-phase uplift when doctrine has moved during active execution
 - [d:r:i] Several of these jobs already have specialist owners. The composition-layer uplift job still spreads across several surfaces and lacks one explicit owner.
 - [d:r:i] This map therefore asks not only what each surface already carries, but also where ownership thins, where carry becomes scattered across multiple commands, and where a dedicated uplift workflow should later gather the work into one auditable path.
 
@@ -41,12 +46,16 @@ Status: active map artifact
   - current primary owners: `gsd-add-phase`, `gsd-insert-phase`, `gsd-plan-milestone-gaps`
 - [d:r:i] `Existing project returning after time away`
   - current primary owners: `resume-project` and `progress`
+- [d:r:i] `Existing active phase whose doctrine posture has moved mid-stream`
+  - current primary owners: no single explicit owner yet
+  - strongest current adjacent carriers: phase `CONTEXT.md`, `progress`, `discuss-phase`
 - [d:r:i] `Existing project with damaged or thin planning state`
   - current primary owner: `health`
 - [d:r:i] `Existing project updating runtime install/version`
   - current primary owner: `update`
 - [d:r:i] `Installer re-run / materialization refresh without broader project uplift`
-  - current primary owner: `scripts/setup-portable-gsd.sh`, usually via `update`
+  - current primary owner: `scripts/setup-portable-gsd.sh`
+  - strongest supporting owner: `update`
 - [d:r:i] `Project migrating from GSD2 back to .planning/`
   - current primary owner: `from-gsd2`
 - [d:r:i] `Required-reading posture install`
@@ -57,7 +66,9 @@ Status: active map artifact
   - current owner for project-wide install: no single explicit owner yet
 - [d:r:i] `Existing vanilla project that should inherit stronger repo-local doctrine, governing docs, long-horizon carry, and runtime posture`
   - current owner: no single explicit owner yet
-- [d:r:i] `Existing aged bespoke project that already has custom local carriers but should be refreshed toward current repo-local posture`
+- [d:r:i] `Existing lightly aged project whose current posture is thinner than current repo-local carry but whose bespoke local content is still limited`
+  - current owner: no single explicit owner yet
+- [d:r:i] `Existing aged-bespoke project that already has custom local carriers and needs selective rather than blanket refresh`
   - current owner: no single explicit owner yet
 - [d:r:i] `Cross-runtime posture uplift`
   - current owner: no single explicit owner yet
@@ -168,6 +179,10 @@ Status: active map artifact
 
 - [d:r:i] An existing vanilla project can currently be updated, repaired, resumed, or progressed, but it still lacks one explicit route that says: detect thinner posture, refresh runtime/governing/planning carriers, and write a durable report of the uplift. This is the family’s clearest ownerless seam.
 
+### Lightly Aged Project Uplift
+
+- [d:r:i] A lightly aged project is not equivalent to a vanilla project. It may already carry some repo-local doctrine and planning posture, but not the newer carrier set now assumed by the repo. This family needs selective refresh, not blanket reinstall.
+
 ### Aged-Bespoke Uplift
 
 - [d:r:i] A project that already carries custom local governance or planning doctrine can be stronger than vanilla and still drift from current repo-local posture. That refresh is different from vanilla uplift because the task is not first install, but selective refresh without flattening bespoke local value.
@@ -179,6 +194,10 @@ Status: active map artifact
 ### Upstream-Template-Drift Uplift
 
 - [d:r:i] A project may be current on package version and still thinner than current shipped template posture. This is not the same problem as runtime update or structural health, and it needs its own seat in the uplift family rather than disappearing into generic “update”.
+
+### Mid-Phase Uplift
+
+- [d:r:i] A project can also need uplift while a phase is already active. That is its own interaction family, because the strongest carry surface is the live `CONTEXT.md` boundary and any resulting routing back into `discuss-phase` or `progress`, not a generic onboarding pass.
 
 ### Output Record
 
@@ -214,5 +233,5 @@ Status: active map artifact
 ## Current Consequence
 
 - [d:r:i] The family terrain now carries the widened field directly rather than only through the raw Opus output.
-- [d:r:i] The next exact object should therefore be the explicit concern/carrier-placement pass as `38`, so this family records where each pressure should surface most strongly before workflow design begins.
-- [d:r:i] Only after that placement pass should the workspace draft the uplift workflow proposal.
+- [d:r:i] This map now carries the four-way uplift split, the mid-phase uplift case, and the installer/materialization distinction directly rather than leaving them only in the cross-vendor lane output.
+- [d:r:i] The next workflow pass should therefore use this revised terrain as the active local field map rather than the earlier narrower shape.

@@ -145,11 +145,11 @@ Date: 2026-04-21
 - current strengthening-benchmark status: `intervention-proposals/34-strengthening-opportunity-benchmark-packet.md now freezes the first real example packet for this family across landed intensification and later-routed strengthening pressure`
 - current strengthening-reference status: `intervention-proposals/35-strengthening-opportunity-reference-surface.md now carries the compact working reference for this family, grounded in 34 rather than in theory alone`
 - current entry-surface-uplift-plan status: `intervention-proposals/36-initialization-onboarding-and-project-uplift-strengthening-plan.md now records the next intervention family: initialization, onboarding, and vanilla-project uplift should be strengthened as one entry-surface sequence`
-- current entry-surface-uplift-map status: `intervention-proposals/37-entry-surface-and-project-uplift-map.md now carries the widened field directly: split uplift families, workspace/worktree entry, phase-injection entry, installer rerun, governing-posture install, forensics entry, archived-milestone re-entry, and audit-subtree aging now all sit inside the same family map`
+- current entry-surface-uplift-map status: `intervention-proposals/37-entry-surface-and-project-uplift-map.md now carries the widened field in its stronger local form: the four-way uplift split, mid-phase uplift, installer-rerun/materialization distinction, workspace/worktree entry, phase-injection entry, governing-posture install, forensics entry, archived-milestone re-entry, and audit-subtree aging now all sit inside the same family map`
 - current entry-uplift-audit status: `entry-uplift-audit lane-01 is now completed and inherited: the widening pass preserved 37's full-field posture, added missing entry scenario families and carrier layers, and now routes the next move through a revision of 37 before 38 is drafted`
-- current entry-surface-placement status: `intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md now records strongest placement for runtime/install, governing-doc, required-reading, claim-type, long-horizon, state-boundary, discovery, cross-runtime, tooling, audit-aging, and uplift-output concerns before workflow design`
-- current project-uplift-workflow status: `intervention-proposals/39-project-uplift-workflow-proposal.md now defines the bounded composition-layer workflow itself: explicit ownership boundary, detection signals, compact first slice, outputs, and review gates`
-- current entry-uplift bundle-review status: `entry-uplift-audit lane-02 is now completed and comparatively inherited with Opus as the primary widening/structural-revision guide and GPT as the compactness brake: the bundle shape is carried forward, but `37`, `38`, and `39` should each be revised once more before implementation`
+- current entry-surface-placement status: `intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md now records stronger placement for runtime/install, governing-doc, required-reading, claim-type, long-horizon, phase-boundary/state-boundary, discovery, cross-runtime, tooling inventory, audit-aging, and uplift-output concerns`
+- current project-uplift-workflow status: `intervention-proposals/39-project-uplift-workflow-proposal.md now defines the bounded composition-layer workflow in its revised first-slice form: detect-only default, fingerprint/delta detection, explicit per-carrier install flags, thin doctrine manifest, one read-only progress hook, outputs, and review gates`
+- current entry-uplift bundle-review status: `entry-uplift-audit lane-02 is now completed and comparatively inherited with Opus as the primary widening/structural-revision guide and GPT as the compactness brake; that revision pass is now landed locally, and the next move is one bounded reread of the revised `37 + 38 + 39` bundle before implementation`
 - current challenge artifacts:
   - [lane-01-opus47-audit-setup-cross-review.md](lane-01-opus47-audit-setup-cross-review.md)
   - [lane-02-opus47-max-resituation-review.md](lane-02-opus47-max-resituation-review.md)
@@ -216,8 +216,8 @@ Date: 2026-04-21
 15. use the revised `37` as the active terrain map for this family rather than falling back to the narrower pre-widening version
 16. use `38` as the placement basis for this family rather than letting `39` improvise carrier ownership from memory
 17. use `39` as the current bounded workflow object for this family rather than reopening generic onboarding brainstorming
-18. revise `37`, `38`, and `39` with Opus-leading widening and structural revision, while using GPT mainly as first-slice compactness and carrier-discipline restraint, before any implementation slice opens
-19. only after that revision pass, choose again between direct first-slice implementation and one more challenge if the first-slice scope materially changed
+18. use the revised `37`, `38`, and `39` bundle as the active local basis for this family rather than the earlier narrower bundle
+19. run one bounded reread on the revised `37 + 38 + 39` bundle before any implementation slice opens, because the first-slice mechanics changed materially in the local revision pass
 
 ## Open Questions
 

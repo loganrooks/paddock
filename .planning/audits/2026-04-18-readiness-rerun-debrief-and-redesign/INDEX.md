@@ -182,8 +182,8 @@
 - current workflow proposal for that family: `intervention-proposals/39-project-uplift-workflow-proposal.md`
 - current widening challenge subtree for that family: `entry-uplift-audit/`
 - locked next sequence for that family:
-  - revise `37`, `38`, and `39` with Opus-leading widening and structural revision, while using GPT mainly as compactness and carrier-discipline restraint
-  - then choose between direct first-slice implementation and one more challenge only if the revisions materially change first-slice scope
+  - use the revised `37`, `38`, and `39` bundle as the active local basis for this family
+  - run one bounded reread on that revised bundle before any implementation slice opens
 - current long-horizon cross-vendor challenge subtree and lane-01 inheritance: `long-horizon-audit/`
 - current threshold-language residue audit subtree and first-pass warning surface: `threshold-audit/`
 - current self-overcoming proposal challenge subtree and lane-01 inheritance: `self-overcoming-audit/`
