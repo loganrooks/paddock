@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "25aee9f",
+  "basis_commit": "a95ef91",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -231,7 +231,7 @@
       "id": "propagation_review_route_contract",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md",
       "validator": "tooling/codex/tests/test_propagation_review_route_contract.py",
-      "contract_kind": "operator-facing propagation review semantics for concrete multi-family contract movement across baseline, delta, typed carrier layers, and bounded runtime/install gate tooling",
+      "contract_kind": "operator-facing propagation review semantics for concrete multi-family contract movement across baseline, delta, typed carrier layers, bounded runtime/install gate tooling, explicit durable-note placement, and explicit tool-result-to-disposition carry",
       "families_touched": [
         "install_overlay",
         "workflow_output",
@@ -239,7 +239,7 @@
         "governance_lane",
         "helper"
       ],
-      "claim_boundary": "declares how later contract-changing slices reread the upstream-pristine baseline plus repo-local delta pair before widening into the typed propagation family, how local tooling remains partial visibility instead of whole-network proof, and how explicit held boundaries stay visible when adjacent carriers do not move in the same slice"
+      "claim_boundary": "declares how later contract-changing slices reread the upstream-pristine baseline plus repo-local delta pair before widening into the typed propagation family, how local tooling remains partial visibility instead of whole-network proof, how explicit held boundaries stay visible when adjacent carriers do not move in the same slice, how route-local durable notes prefer existing lane homes, and how helper results sharpen Updated In This Slice versus Held With Explicit Boundary rather than silently closing the route"
     }
   ]
 }

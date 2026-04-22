@@ -213,6 +213,7 @@ Status: active inventory
 - `propagation-audit/37-seed-migration-operator-facing-pointer-change-triggered-refresh.md`
 - `propagation-audit/38-seed-migration-pointer-bridge-harden-change-triggered-refresh.md`
 - `propagation-audit/39-propagation-review-route-change-triggered-refresh.md`
+- `propagation-audit/40-propagation-review-route-harden-change-triggered-refresh.md`
 - `propagation-audit/launch-truth/07-propagation-review-route-reread-launch-truth.md`
 - `propagation-audit/outputs/07-propagation-review-route-reread-opus47-max-r1.md`
 - `propagation-audit/dispositions/07-propagation-review-route-reread-inheritance.md`
@@ -248,6 +249,8 @@ Status: active inventory
 - `intervention-proposals/96-repo-local-propagation-delta-first-slice.md`
 - `intervention-proposals/97-propagation-review-route-first-slice-proposal.md`
 - `intervention-proposals/98-propagation-review-route-first-slice-implementation.md`
+- `intervention-proposals/99-propagation-review-route-harden-follow-through-proposal.md`
+- `intervention-proposals/100-propagation-review-route-harden-follow-through-implementation.md`
 
 ## Challenge And Output Subtrees
 

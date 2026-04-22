@@ -28,8 +28,8 @@ Status: active durable register
   - current state: first bounded local harden slice landed through `ensure_gsd_sdk_runtime.py`, fresh-install pristine overwrite capture, and the routed `setup-portable-gsd.sh` recovery path
   - current pressure: keep widening repeated reinstall durability without confusing repo-local repair with upstream installer control
 - [d:r:i] Uplift / propagation consumer completion
-  - current state: upstream-pristine baseline plus repo-local delta pair are now explicit through `95` and `96`, and the first operator-facing propagation-review route is now landed through `97` and `98`
-  - current pressure: use that route on live multi-family slices, then reread what it still leaves thinner before later uplift agent-assist, pristine-diff, compact-prompt propagation, or later freshness signals inherit next
+  - current state: upstream-pristine baseline plus repo-local delta pair are now explicit through `95` and `96`, the first operator-facing propagation-review route is now landed through `97` and `98`, its first bounded reread is now inherited through lane `07`, and its harden follow-through is now landed through `99`, `100`, and `40`
+  - current pressure: shift back toward later uplift agent-assist, pristine-diff, compact-prompt propagation, or later freshness signals on the cleaner route instead of defaulting to another route-local harden loop
 - [d:r:i] Durable-memory / vintage / decay semantics
   - current pressure: make staleness and movement over time more visible across durable artifacts
 - [d:r:i] Safety / cost / privacy carriers
