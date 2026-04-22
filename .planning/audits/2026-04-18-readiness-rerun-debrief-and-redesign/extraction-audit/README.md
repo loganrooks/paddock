@@ -88,7 +88,13 @@ Status: active opening audit family
 - [d:r:i] The next carried artifact is now landed too:
   - [../../../../harness_modifier/overlay/helpers/AUTHORITY-MAP.md](../../../../harness_modifier/overlay/helpers/AUTHORITY-MAP.md)
   - [../intervention-proposals/152-harness-modifier-helper-payload-authority-map-implementation.md](../intervention-proposals/152-harness-modifier-helper-payload-authority-map-implementation.md)
-- [d:r:i] The next extraction move is no longer another generic helper-authority note. It is the bounded `project_uplift.py` neutralization proposal that the authority map now points at directly.
+- [d:r:i] The next extraction move is no longer another generic helper-authority note. It is the bounded `project_uplift.py` neutralization proposal that the authority map now points at directly:
+  - [../intervention-proposals/153-harness-modifier-project-uplift-neutralization-proposal.md](../intervention-proposals/153-harness-modifier-project-uplift-neutralization-proposal.md)
+- [d:r:i] Lane `05` is now the active challenge on that neutralization object:
+  - [packets/05-harness-modifier-project-uplift-neutralization-proposal-reread-packet.md](packets/05-harness-modifier-project-uplift-neutralization-proposal-reread-packet.md)
+  - [specs/05-harness-modifier-project-uplift-neutralization-proposal-reread-spec.md](specs/05-harness-modifier-project-uplift-neutralization-proposal-reread-spec.md)
+  - [prompts/05-harness-modifier-project-uplift-neutralization-proposal-reread-opus47-max-r1-launch-prompt.md](prompts/05-harness-modifier-project-uplift-neutralization-proposal-reread-opus47-max-r1-launch-prompt.md)
+  - [launch-truth/05-harness-modifier-project-uplift-neutralization-proposal-reread-launch-truth.md](launch-truth/05-harness-modifier-project-uplift-neutralization-proposal-reread-launch-truth.md)
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern
