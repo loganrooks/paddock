@@ -80,6 +80,8 @@ Status: active proposal/disposition batch
 70. `70-health-and-migration-follow-through-first-slice-implementation.md`
 71. `71-update-follow-through-first-slice-proposal.md`
 72. `72-update-follow-through-first-slice-implementation.md`
+73. `73-seed-consumer-carry-first-slice-proposal.md`
+74. `74-seed-consumer-carry-first-slice-implementation.md`
 
 ## Proposal Rule
 
@@ -128,5 +130,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `70` now records the landed repair/migration slice itself: tracked overlay ownership for `health.md`, `gsd-health`, and `gsd-from-gsd2`, explicit `required` / `supporting` / `deeper` packet tiers in `health`, explicit structural-repair versus missing-planning versus later-uplift routing, and post-migration structural-validation plus later-uplift separation in `from-gsd2`.
 - [d:r:i] `71` now opens the next bounded onboarding inheritance step directly: `update` and `gsd-update` should inherit the same layered read-packet and route-separation doctrine so runtime/package movement no longer flattens structural repair or later posture refresh into one generic update story.
 - [d:r:i] `72` now records the landed update slice itself: tracked overlay ownership for `update.md` and `gsd-update`, explicit `required` / `supporting` / `deeper` packet tiers in `update`, and explicit runtime/package versus structural-health versus later-uplift routing in both the workflow and wrapper.
+- [d:r:i] `73` now opens the next bounded seed producer/consumer bridge directly: `plant-seed` should keep strengthening carry explicit, and `new-milestone` should consume that richer seed meaning instead of scanning only trigger timing and planted-during context.
+- [d:r:i] `74` now records the landed seed slice itself: explicit `Strengthening Carry` in `plant-seed`, overlay-owned `gsd-plant-seed`, and stronger `Why This Matters` plus `Strengthening Carry` consumption in `new-milestone`.
 - [d:r:i] `42` now records that harden slice as landed: multi-axis posture, phase-boundary signal, per-carrier fingerprint shape, runtime-agent globbing, typed proposal routes, file-backed held-later carry, widened tests, and the two live consumer/output bugs it surfaced and corrected.
-- [d:r:i] The current broader consequence after `42-72`: use the cleaner uplift slice, the active propagation family, the landed verifier / transition / milestone-boundary / first-read / spec lifecycle bridges, the landed re-entry plus initialization/doc-ingest plus repair/migration plus update read-packet and route-separation slices, and the hardened setup/materialization path together rather than assuming one helper or one bounded slice already proves whole-network carry.
+- [d:r:i] The current broader consequence after `42-74`: use the cleaner uplift slice, the active propagation family, the landed verifier / transition / milestone-boundary / first-read / spec lifecycle bridges, the landed re-entry plus initialization/doc-ingest plus repair/migration plus update plus seed producer/consumer slices, and the hardened setup/materialization path together rather than assuming one helper or one bounded slice already proves whole-network carry.

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "8cecd8e",
+  "basis_commit": "fea9327",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -153,6 +153,18 @@
         "reference_behavior"
       ],
       "claim_boundary": "declares how update inherits layered read-packet control, keeps runtime/package movement separate from structural planning repair and later repo-local uplift, and how gsd-update preserves that route split instead of flattening runtime currentness into the whole project-entry story"
+    },
+    {
+      "id": "seed_consumer_follow_through_contract",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/plant-seed.md",
+      "validator": "tooling/codex/tests/test_seed_consumer_follow_through_contract.py",
+      "contract_kind": "seed producer and milestone-open consumer follow-through semantics with explicit strengthening-carry preservation and consumption",
+      "families_touched": [
+        "install_overlay",
+        "workflow_output",
+        "wrapper"
+      ],
+      "claim_boundary": "declares how plant-seed preserves strengthening carry in an explicit section, how new-milestone consumes Why This Matters plus Strengthening Carry from matching seeds, and how the gsd-plant-seed wrapper keeps that producer role explicit instead of leaving seed meaning ambient"
     }
   ]
 }

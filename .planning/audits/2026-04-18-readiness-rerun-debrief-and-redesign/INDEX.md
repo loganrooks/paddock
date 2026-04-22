@@ -105,6 +105,8 @@
   - [intervention-proposals/70-health-and-migration-follow-through-first-slice-implementation.md](intervention-proposals/70-health-and-migration-follow-through-first-slice-implementation.md)
   - [intervention-proposals/71-update-follow-through-first-slice-proposal.md](intervention-proposals/71-update-follow-through-first-slice-proposal.md)
   - [intervention-proposals/72-update-follow-through-first-slice-implementation.md](intervention-proposals/72-update-follow-through-first-slice-implementation.md)
+  - [intervention-proposals/73-seed-consumer-carry-first-slice-proposal.md](intervention-proposals/73-seed-consumer-carry-first-slice-proposal.md)
+  - [intervention-proposals/74-seed-consumer-carry-first-slice-implementation.md](intervention-proposals/74-seed-consumer-carry-first-slice-implementation.md)
 - project-uplift family:
   - [intervention-proposals/37-entry-surface-and-project-uplift-map.md](intervention-proposals/37-entry-surface-and-project-uplift-map.md)
   - [intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md](intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md)
@@ -155,6 +157,7 @@
   - [propagation-audit/26-initialization-and-ingest-read-packet-change-triggered-refresh.md](propagation-audit/26-initialization-and-ingest-read-packet-change-triggered-refresh.md)
   - [propagation-audit/27-health-and-migration-follow-through-change-triggered-refresh.md](propagation-audit/27-health-and-migration-follow-through-change-triggered-refresh.md)
   - [propagation-audit/28-update-follow-through-change-triggered-refresh.md](propagation-audit/28-update-follow-through-change-triggered-refresh.md)
+  - [propagation-audit/29-seed-consumer-carry-change-triggered-refresh.md](propagation-audit/29-seed-consumer-carry-change-triggered-refresh.md)
   - [propagation-audit/artifacts/01-propagation-field-registry-v1.json](propagation-audit/artifacts/01-propagation-field-registry-v1.json)
   - [propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json](propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json)
   - [propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json](propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json)

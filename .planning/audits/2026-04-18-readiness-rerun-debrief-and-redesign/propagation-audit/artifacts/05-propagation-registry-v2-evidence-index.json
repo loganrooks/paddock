@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "8cecd8e",
+  "basis_commit": "fea9327",
   "evidence_entries": [
     {
       "id": "overlay_contract_validation",
@@ -169,6 +169,18 @@
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_update_follow_through_contract.py",
       "note": "focused contract coverage for overlay ownership of update and gsd-update, layered packet doctrine presence in update, and explicit runtime/package versus structural-health versus later-uplift route separation in the workflow and wrapper"
+    },
+    {
+      "id": "seed_consumer_carry_impl_74",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/74-seed-consumer-carry-first-slice-implementation.md",
+      "note": "landed seed producer/consumer follow-through slice covering explicit Strengthening Carry in plant-seed, richer Why This Matters plus Strengthening Carry extraction in new-milestone, and tracked overlay ownership for the plant-seed wrapper"
+    },
+    {
+      "id": "seed_consumer_carry_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_seed_consumer_follow_through_contract.py",
+      "note": "focused contract coverage for plant-seed producer carry, gsd-plant-seed wrapper ownership, and new-milestone consumer extraction of Why This Matters plus Strengthening Carry"
     }
   ]
 }
