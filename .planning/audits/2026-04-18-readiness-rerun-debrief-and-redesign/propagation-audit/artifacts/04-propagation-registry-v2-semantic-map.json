@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "1f814e9",
+  "basis_commit": "07c0cdb",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -218,10 +218,12 @@
       "id": "project_uplift",
       "family": "helper",
       "path": "tooling/codex/project_uplift.py",
-      "role": "authoritative uplift producer and compatibility-drift router",
+      "role": "authoritative uplift producer, compatibility-drift router, and seed-corpus posture scanner",
       "support_mode": "roster_plus_producer_report",
       "evidence_refs": [
-        "uplift_manifest_current"
+        "uplift_manifest_current",
+        "uplift_seed_corpus_impl_80",
+        "project_uplift_contract_tests"
       ]
     },
     {
@@ -289,11 +291,13 @@
       "id": "uplift_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md",
-      "role": "operator-facing uplift workflow with layered read packet control over helper output, current uplift outputs, and later doctrine-sensitive widening",
+      "role": "operator-facing uplift workflow with layered read packet control over helper output, current uplift outputs, seed corpus posture, and later doctrine-sensitive widening",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "uplift_manifest_current",
+        "uplift_seed_corpus_impl_80",
+        "project_uplift_contract_tests",
         "read_packet_relevance_control_impl_66",
         "read_packet_tier_contract_tests"
       ]
@@ -302,11 +306,13 @@
       "id": "progress_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/progress.md",
-      "role": "read-only uplift and future-carry consumer for first-read progress summaries with layered read packet control over primary, route-local, and deeper widening",
+      "role": "read-only uplift, future-carry, and seed-posture consumer for first-read progress summaries with layered read packet control over primary, route-local, and deeper widening",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "uplift_manifest_current",
+        "uplift_seed_corpus_impl_80",
+        "project_uplift_contract_tests",
         "state_progress_resume_future_carry_impl_62",
         "read_packet_relevance_control_impl_66",
         "read_packet_tier_contract_tests"
@@ -316,11 +322,13 @@
       "id": "resume_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/resume-project.md",
-      "role": "read-only uplift and future-carry consumer for first-read re-entry with layered packet control over startup, route-local support, and deeper reread",
+      "role": "read-only uplift, future-carry, and seed-posture consumer for first-read re-entry with layered packet control over startup, route-local support, and deeper reread",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "uplift_manifest_current",
+        "uplift_seed_corpus_impl_80",
+        "project_uplift_contract_tests",
         "state_progress_resume_future_carry_impl_62",
         "read_packet_relevance_control_impl_66",
         "read_packet_tier_contract_tests"
@@ -352,22 +360,36 @@
       "id": "uplift_report_output",
       "family": "workflow_output",
       "path": ".planning/UPLIFT-REPORT.md",
-      "role": "operator-facing uplift narrative and compatibility summary",
+      "role": "operator-facing uplift narrative carrying compatibility plus seed-corpus posture summary",
       "support_mode": "producer_report_narrative_mirror",
       "evidence_refs": [
-        "uplift_manifest_current"
+        "uplift_manifest_current",
+        "uplift_seed_corpus_impl_80"
       ]
     },
     {
       "id": "uplift_manifest_output",
       "family": "workflow_output",
       "path": ".planning/UPLIFT-MANIFEST.json",
-      "role": "structured uplift memory and observed-basis compatibility anchor",
+      "role": "structured uplift memory carrying observed-basis compatibility plus seed-corpus posture",
       "support_mode": "producer_report_with_observed_basis",
       "evidence_refs": [
         "uplift_manifest_current",
+        "uplift_seed_corpus_impl_80",
         "runtime_manifest_current",
         "runtime_version_current"
+      ]
+    },
+    {
+      "id": "uplift_skill_wrapper",
+      "family": "wrapper",
+      "path": "tooling/portable-gsd/overlay/skills/gsd-uplift-project/SKILL.md",
+      "role": "invocation-binding wrapper that keeps detect-only uplift posture, seed-corpus visibility, and later migration separation explicit",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "uplift_seed_corpus_impl_80",
+        "project_uplift_contract_tests"
       ]
     },
     {
@@ -1392,6 +1414,18 @@
       "evidence_refs": [
         "read_packet_relevance_control_impl_66",
         "read_packet_tier_contract_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "uplift_skill_wrapper_to_uplift_workflow",
+      "from": "uplift_skill_wrapper",
+      "to": "uplift_workflow",
+      "kind": "wrapper_keeps_seed_posture_visible_while_preserving_detect_only_and_later_migration_separation",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "uplift_seed_corpus_impl_80",
+        "project_uplift_contract_tests"
       ],
       "status": "mapped"
     },

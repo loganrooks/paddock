@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "1f814e9",
+  "basis_commit": "07c0cdb",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -189,6 +189,19 @@
         "wrapper"
       ],
       "claim_boundary": "declares how plant-seed writes seed_contract_version: 2, how new-milestone treats missing markers as legacy_unversioned rather than invalid, and how gsd-plant-seed keeps the current version anchor explicit at the wrapper boundary"
+    },
+    {
+      "id": "uplift_seed_corpus_posture_contract",
+      "path": "tooling/codex/project_uplift.py",
+      "validator": "tooling/codex/tests/test_project_uplift.py",
+      "contract_kind": "uplift-side seed corpus posture semantics with durable memory refresh and later migration separation",
+      "families_touched": [
+        "helper",
+        "workflow_output",
+        "wrapper",
+        "state_continuity"
+      ],
+      "claim_boundary": "declares how project uplift scans current versus legacy seed corpus posture, how uplift-project and gsd-uplift-project keep that posture visible, how durable uplift memory preserves it, and how later legacy-seed migration stays separate from detect-only uplift"
     }
   ]
 }

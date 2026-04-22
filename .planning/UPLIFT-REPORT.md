@@ -1,6 +1,6 @@
 # Project Uplift Report
 
-- Generated: 2026-04-21T23:13:17+00:00
+- Generated: 2026-04-22T00:39:41+00:00
 - Mode: detect-only
 - Project class: cross-runtime uplift
 - Secondary signals: mid_phase
@@ -27,7 +27,7 @@
 - Observed runtime manifest version: 1.38.3
 - Runtime version alignment: aligned
 - Overlay manifest schema version: 1
-- Uplift manifest schema version: 4
+- Uplift manifest schema version: 5
 
 ### Compatibility Check Protocol
 
@@ -41,6 +41,14 @@
 - version-window claims beyond the observed runtime basis
 - cross-runtime compatibility matrix
 - upstream-template drift compatibility
+
+## Seed Corpus Posture
+
+- Summary: no_seed_corpus (total 0; current 0; legacy 0; noncurrent none)
+- Current contract version: 2
+- Legacy-unversioned examples: none
+- Noncurrent-version examples: none
+
 
 ## Carrier Posture
 
@@ -109,6 +117,7 @@
 - upstream-template drift machinery — held
 - aged-bespoke deep merge — held
 - audit-subtree aging carry — held
+- legacy seed corpus migration — held
 - routed-entry hooks beyond `progress` — partially landed: propagation-audit/04-resume-project-second-consumer-implementation.md
 - forensics / archived-milestone integration — held
 - workstream parent/child posture reconciliation — held

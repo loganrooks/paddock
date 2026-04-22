@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "1f814e9",
+  "basis_commit": "07c0cdb",
   "evidence_entries": [
     {
       "id": "overlay_contract_validation",
@@ -18,7 +18,7 @@
       "id": "uplift_manifest_current",
       "evidence_lane": "producer_scoped_report",
       "path": ".planning/UPLIFT-MANIFEST.json",
-      "note": "current producer-scoped uplift memory with observed inputs, compatibility anchor, and held-later carry"
+      "note": "current producer-scoped uplift memory with observed inputs, compatibility anchor, seed-corpus posture, and held-later carry"
     },
     {
       "id": "runtime_manifest_current",
@@ -211,6 +211,18 @@
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_seed_consumer_follow_through_contract.py",
       "note": "focused contract coverage for seed_contract_version: 2 in plant-seed, explicit legacy_unversioned tolerance in new-milestone, and current version-anchor language in gsd-plant-seed"
+    },
+    {
+      "id": "uplift_seed_corpus_impl_80",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/80-uplift-side-seed-corpus-posture-first-slice-implementation.md",
+      "note": "landed uplift-side seed corpus posture slice covering helper-side classification, durable uplift-memory carry, wrapper/workflow visibility, and later migration separation"
+    },
+    {
+      "id": "project_uplift_contract_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_project_uplift.py",
+      "note": "focused helper and consumer coverage for uplift classification, durable output schema, compatibility drift routing, and seed-corpus posture movement"
     }
   ]
 }

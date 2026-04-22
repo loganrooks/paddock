@@ -1,6 +1,6 @@
 {
-  "schema_version": 4,
-  "generated_at": "2026-04-21T23:13:17+00:00",
+  "schema_version": 5,
+  "generated_at": "2026-04-22T00:39:41+00:00",
   "mode": "detect-only",
   "last_uplift_class": "cross-runtime uplift",
   "last_uplift_secondary_signals": [
@@ -14,7 +14,7 @@
     "note": "phase CONTEXT carries explicit rerun-boundary posture"
   },
   "doctrine_reference_hash": "d5079d2a24a0e0af8aa127626ccf5d4ba4a4f558ee76b1b1226a4392ba89ac78",
-  "project_fingerprint_hash": "3a216dedadbf3c5fb7c08d577799b01e414d3b9ff1eee78fb0664a112bd5eebd",
+  "project_fingerprint_hash": "9a272edc76786fffbfe8e21c59b0c056e7c7f6129406f243be5841f07d66cd19",
   "current_status": "planning",
   "runtime_dirs": [
     ".codex",
@@ -51,6 +51,11 @@
       "pointer": null
     },
     {
+      "family": "legacy seed corpus migration",
+      "status": "held",
+      "pointer": null
+    },
+    {
       "family": "routed-entry hooks beyond `progress`",
       "status": "partially landed",
       "pointer": "propagation-audit/04-resume-project-second-consumer-implementation.md"
@@ -77,7 +82,7 @@
       "1.38.3"
     ],
     "overlay_manifest_schema_version": 1,
-    "uplift_manifest_schema_version": 4,
+    "uplift_manifest_schema_version": 5,
     "check_protocol": [
       "compare candidate runtime version to observed_runtime_version",
       "compare candidate runtime manifest version to observed_runtime_manifest_version when present",
@@ -89,6 +94,19 @@
       "cross-runtime compatibility matrix",
       "upstream-template drift compatibility"
     ]
+  },
+  "seed_corpus_posture": {
+    "seed_dir_present": false,
+    "seed_file_count": 0,
+    "current_contract_version": "2",
+    "posture": "no_seed_corpus",
+    "current_contract_count": 0,
+    "legacy_unversioned_count": 0,
+    "noncurrent_version_total": 0,
+    "noncurrent_version_counts": {},
+    "legacy_unversioned_examples": [],
+    "noncurrent_version_examples": [],
+    "corpus_fingerprint": null
   },
   "carriers": [
     {

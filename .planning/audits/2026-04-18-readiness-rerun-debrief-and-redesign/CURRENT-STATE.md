@@ -78,6 +78,7 @@ Status: active governing synthesis
 - [d:r:i] The propagation family now also carries a thirteenth non-uplift change-triggered refresh in `29`, so the typed `v2` registry now keeps `plant-seed`, `gsd-plant-seed`, and the stronger `plant-seed -> new-milestone` consumer relation explicit instead of leaving seed meaning as another flatter milestone-open pocket.
 - [d:r:i] The propagation family now also carries a fourteenth non-uplift change-triggered refresh in `30`, so the typed `v2` registry now keeps `explore`, `gsd-explore`, and the `explore -> plant-seed` route explicit instead of leaving the seed family split between one current producer and one stale ideation-side output path.
 - [d:r:i] The propagation family now also carries a fifteenth non-uplift change-triggered refresh in `31`, so the typed `v2` registry now keeps current-contract versus legacy-unversioned seed shape explicit at `plant-seed` and `new-milestone` instead of leaving that compatibility distinction ambient.
+- [d:r:i] The propagation family now also carries a sixteenth non-uplift change-triggered refresh in `32`, so the typed `v2` registry now keeps uplift-side seed corpus posture explicit at the helper/workflow/wrapper/output cluster instead of leaving seed compatibility only at milestone-open or inside operator memory.
 
 ## Immediate Decision Surfaces
 
@@ -117,7 +118,7 @@ Status: active governing synthesis
 - [o:r:i] Should the compatibility anchor remain embedded inside uplift memory, or later grow into a standalone compatibility carrier after more runtime-change slices have exercised it?
 - [o:r:i] Which parts of the submitted docs PR should remain stable governance/reference docs, and which should be paired with stronger intervention-oriented companions?
 - [o:r:i] If later family growth overloads the governance set again, what further routing surfaces would sharpen relevance without pushing the short synthesis back toward warehouse behavior?
-- [o:r:i] Which adjacent seed-family move should inherit next after the landed doctrine-vintage anchor slice: broader seed consumers beyond milestone opening, uplift-side legacy seed scanning, later `audit.cjs` widening, or a later wider entry-wrapper retrofit?
+- [o:r:i] Which adjacent seed-family move should inherit next after the landed uplift-side seed corpus posture slice: broader seed consumers beyond milestone opening, later `audit.cjs` widening, a later wider entry-wrapper retrofit, or any later standalone legacy seed migration family?
 - [o:r:i] Which adjacent setup/materialization follow-through should inherit after the first bounded harden slice: wider repeated-reinstall probes, updater/frontier movement, or a later standalone compatibility carrier?
 
 ## Read Next
