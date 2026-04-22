@@ -773,11 +773,12 @@
       "id": "update_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/update.md",
-      "role": "runtime/package update workflow with layered read-packet control and explicit separation between installer movement, structural health routing, and later repo-local uplift",
+      "role": "runtime/package update workflow with layered read-packet control, a provider-gated shared entry/runtime continuity review beat before clean-install rematerialization, and explicit separation between installer movement, structural health routing, and later repo-local uplift",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "update_follow_through_impl_72",
+        "update_entry_runtime_continuity_impl_133",
         "update_follow_through_tests"
       ]
     },
@@ -785,11 +786,12 @@
       "id": "update_skill_wrapper",
       "family": "wrapper",
       "path": "tooling/portable-gsd/overlay/skills/gsd-update/SKILL.md",
-      "role": "invocation-binding wrapper that keeps runtime/package update ownership explicit while routing structural planning repair and later repo-local uplift separately",
+      "role": "invocation-binding wrapper that keeps runtime/package update ownership explicit while carrying the same codex-or-claude continuity boundary and routing structural planning repair and later repo-local uplift separately",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "update_follow_through_impl_72",
+        "update_entry_runtime_continuity_impl_133",
         "update_follow_through_tests"
       ]
     },
@@ -923,12 +925,13 @@
       "id": "entry_runtime_uplift_reference",
       "family": "reference_behavior",
       "path": "tooling/portable-gsd/overlay/get-shit-done/references/entry-runtime-uplift-continuity.md",
-      "role": "shared read-only entry/runtime continuity reference guiding new-project and ingest-docs widening from route-state and optional Project Uplift digest toward narrative and typed uplift carriers without widening mandatory-initial-read or turning entry routes into write-side uplift dispatch",
+      "role": "shared read-only entry/runtime continuity reference guiding new-project, ingest-docs, and the provider-gated update consumer widening from route-state and optional Project Uplift digest toward narrative and typed uplift carriers without widening mandatory-initial-read or turning entry/update routes into write-side uplift dispatch",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "entry_runtime_continuity_impl_130",
-        "entry_runtime_continuity_tests"
+        "entry_runtime_continuity_tests",
+        "update_entry_runtime_continuity_impl_133"
       ]
     }
   ],
@@ -1885,6 +1888,30 @@
       "support_mode": "declared_contract_plus_tested_behavior",
       "evidence_refs": [
         "update_follow_through_impl_72",
+        "update_follow_through_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "entry_runtime_uplift_reference_to_update_workflow",
+      "from": "entry_runtime_uplift_reference",
+      "to": "update_workflow",
+      "kind": "shared_reference_guides_provider_gated_workflow_reading_control",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "update_entry_runtime_continuity_impl_133",
+        "update_follow_through_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "entry_runtime_uplift_reference_to_update_skill_wrapper",
+      "from": "entry_runtime_uplift_reference",
+      "to": "update_skill_wrapper",
+      "kind": "shared_reference_guides_wrapper_scope_boundary",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "update_entry_runtime_continuity_impl_133",
         "update_follow_through_tests"
       ],
       "status": "mapped"

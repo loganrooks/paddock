@@ -386,6 +386,45 @@
   - tighten the provider-horizon and trigger-shape contract now
   - next move: `update` plus `gsd-update` consumer follow-through before `from-gsd2`
 
+## 2026-04-22 `entry-uplift-lane-18`
+
+- date: `2026-04-22`
+- purpose: bounded Opus reread of the `update + gsd-update` consumer proposal after the landed earliest-entry shared-reference slice and the lane-17 harden follow-through
+- frozen launch basis commit: `6f588ab`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth:
+  - [entry-uplift-audit/launch-truth/18-update-entry-runtime-continuity-follow-through-proposal-reread-launch-truth.md](entry-uplift-audit/launch-truth/18-update-entry-runtime-continuity-follow-through-proposal-reread-launch-truth.md)
+- packet:
+  - [entry-uplift-audit/packets/24-update-entry-runtime-continuity-follow-through-proposal-reread-packet.md](entry-uplift-audit/packets/24-update-entry-runtime-continuity-follow-through-proposal-reread-packet.md)
+- spec:
+  - [entry-uplift-audit/specs/18-update-entry-runtime-continuity-follow-through-proposal-reread-spec.md](entry-uplift-audit/specs/18-update-entry-runtime-continuity-follow-through-proposal-reread-spec.md)
+- prompt:
+  - [entry-uplift-audit/prompts/18-update-entry-runtime-continuity-follow-through-proposal-reread-opus47-max-r1-launch-prompt.md](entry-uplift-audit/prompts/18-update-entry-runtime-continuity-follow-through-proposal-reread-opus47-max-r1-launch-prompt.md)
+- output:
+  - [entry-uplift-audit/outputs/22-update-entry-runtime-continuity-follow-through-proposal-reread-opus47-max-r1.md](entry-uplift-audit/outputs/22-update-entry-runtime-continuity-follow-through-proposal-reread-opus47-max-r1.md)
+- inheritance:
+  - [entry-uplift-audit/dispositions/22-update-entry-runtime-continuity-follow-through-proposal-reread-inheritance.md](entry-uplift-audit/dispositions/22-update-entry-runtime-continuity-follow-through-proposal-reread-inheritance.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `461.143`
+  - session id: `bca0d61c-ad4d-4338-be8e-5463255b6daa`
+  - total cost usd: `2.7648075`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/update-entry-runtime-continuity-follow-through-proposal-reread-opus47-max-r1-20260422-052526.d1sw_4vy.stream.jsonl`
+    - `/tmp/update-entry-runtime-continuity-follow-through-proposal-reread-opus47-max-r1-20260422-052526.9otghae9.stderr.log`
+    - `/tmp/update-entry-runtime-continuity-follow-through-proposal-reread-opus47-max-r1-20260422-052526.g71lndb_.debug.log`
+- timing calibration:
+  - estimated wall-clock duration: `9-14 minutes`
+  - actual elapsed: `7 minutes 41.143 seconds`
+  - calibration note: faster than the estimate, but still clearly a real bounded reread rather than a same-carrier spot check
+- disposition:
+  - `accept with local revision and landed consumer follow-through`
+  - the `update + gsd-update` branch remains the next adjacent consumer after the earliest-entry pair
+  - scope correction: lane-17 harden had already landed in `6f588ab`
+  - landed now: workflow-side pointer, sequenced review beat, provider-horizon gate, wrapper-side boundary, focused contract extension, re-materialization, and propagation refresh `49`
+  - later: `from-gsd2` remains the next adjacent consumer, while the `.codex` / `.claude` installation-parity audit stays explicitly deferred until this boundary settles
+
 ## 2026-04-21 `propagation-audit-lane-01`
 
 - date: `2026-04-21`

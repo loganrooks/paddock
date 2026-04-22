@@ -23,9 +23,9 @@ Status: active bounded proposal
 
 ## Proposed Slice
 
-- [d:r:i] Teach [tooling/portable-gsd/overlay/get-shit-done/workflows/update.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/update.md) to point directly at `entry-runtime-uplift-continuity.md` as a bounded supporting continuity surface.
-- [d:r:i] Teach [tooling/portable-gsd/overlay/skills/gsd-update/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/skills/gsd-update/SKILL.md) to preserve the same continuity route at the wrapper layer.
-- [d:r:i] Fold the lane-17 local harden into the same batch:
+- [d:r:i] Teach [tooling/portable-gsd/overlay/get-shit-done/workflows/update.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/update.md) to point directly at `entry-runtime-uplift-continuity.md` as a bounded supporting continuity surface and to surface one explicit review beat between `compare_versions` and `show_changes_and_confirm`.
+- [d:r:i] Teach [tooling/portable-gsd/overlay/skills/gsd-update/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/skills/gsd-update/SKILL.md) to preserve the same continuity route at the wrapper boundary, specifically at `<objective>`.
+- [d:r:i] Treat the lane-17 reference-side harden as already landed in commit `6f588ab`, not as pending work inside this slice:
   - early compact-read provider-horizon wording in the reference
   - greenfield route-evaluable trigger
   - explicit entry-side `_when_present` asymmetry
@@ -42,19 +42,21 @@ Status: active bounded proposal
   - observed `.codex` basis
   - held `.claude` annotation
   - optional compact `Project Uplift` digest when present
-- [d:r:i] The continuity surface should help the operator understand repo-local continuity after update movement.
-- [d:r:i] It should not silently upgrade the broader multi-provider detection frontier into a repo-local continuity claim.
+- [d:r:i] The continuity surface should help the operator understand repo-local continuity after update movement, before the clean-install step rewrites the runtime copy of the reference via overlay rematerialization.
+- [d:r:i] The continuity surface should surface only when `PREFERRED_RUNTIME` is `codex` or `claude` and repo-local `.codex/` or `.claude/` state is present.
 - [d:r:i] It should not flatten runtime/package movement, structural repair, and later posture refresh into one blended update story.
+- [d:r:i] `mandatory-initial-read.md` should remain grammar-only through this slice; the sibling reference stays the content-bearing continuity carrier.
 
 ## Verification
 
 - [d:r:i] Add focused contract coverage for:
   - `update.md` pointing at the shared reference
-  - `gsd-update` preserving the same route and boundary language
+  - the provider-horizon gate inside `update.md`
+  - the update-side read-only boundary line
+  - `gsd-update` preserving the wrapper-side boundary sentence at `<objective>`
   - continued separation between update-owned movement, structural-health routing, and later write-side uplift refresh
-  - the widened reference-side assertions from lane `17`
 - [d:r:i] Re-materialize the overlay into live `.codex` after the overlay edits.
-- [d:r:i] Refresh the typed propagation family in the same batch because a new consumer branch and wrapper edge will move.
+- [d:r:i] Refresh the typed propagation family in the same batch at slot `49` because a new consumer branch and wrapper edge will move.
 
 ## Hold Outside This Slice
 
@@ -67,5 +69,8 @@ Status: active bounded proposal
 ## Next Bounded Objects
 
 - [d:r:i] If accepted, the implementation note should land as:
-  - `132-update-entry-runtime-continuity-follow-through-implementation.md`
-- [d:r:i] The matching propagation refresh should land in the next available `propagation-audit/` slot.
+  - `133-update-entry-runtime-continuity-follow-through-implementation.md`
+- [d:r:i] The matching propagation refresh should land as:
+  - `propagation-audit/49-update-entry-runtime-continuity-follow-through-change-triggered-refresh.md`
+- [d:r:i] The adjacent runtime-specific install-parity audit stays queued in:
+  - [132-codex-claude-installation-parity-audit-deferred-note.md](132-codex-claude-installation-parity-audit-deferred-note.md)

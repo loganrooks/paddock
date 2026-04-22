@@ -172,14 +172,15 @@
       "id": "update_follow_through_contract",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/update.md",
       "validator": "tooling/codex/tests/test_update_follow_through_contract.py",
-      "contract_kind": "runtime and package update follow-through semantics with layered read-packet control and separate structural-repair versus later-uplift routing",
+      "contract_kind": "runtime and package update follow-through semantics with shared entry/runtime continuity carry, layered read-packet control, and separate structural-repair versus later-uplift routing",
       "families_touched": [
         "install_overlay",
         "workflow_output",
         "wrapper",
-        "reference_behavior"
+        "reference_behavior",
+        "state_continuity"
       ],
-      "claim_boundary": "declares how update inherits layered read-packet control, keeps runtime/package movement separate from structural planning repair and later repo-local uplift, and how gsd-update preserves that route split instead of flattening runtime currentness into the whole project-entry story"
+      "claim_boundary": "declares how update inherits layered read-packet control, reads the shared entry/runtime continuity reference only under an evaluable codex-or-claude provider gate, keeps that review read-only before the clean-install rematerialization rewrites the runtime copy, preserves runtime/package movement as distinct from structural planning repair and later repo-local uplift, and how gsd-update keeps the same continuity boundary at the wrapper scope instead of widening it into parity, matrix, or version-window claims"
     },
     {
       "id": "seed_consumer_follow_through_contract",
