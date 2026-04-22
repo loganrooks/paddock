@@ -26,8 +26,8 @@ Status: active launch-truth record
 ## Timing
 
 - [d:r:i] Pre-launch estimate: `12-18 minutes`
-- [o:r:i] Actual elapsed seconds: pending
-- [o:r:i] Timing calibration: pending completion
+- [e:c+i] Actual elapsed seconds: `452.397`
+- [d:r:i] Timing calibration: shorter than expected at roughly `7.5 minutes`; this behaved more like a bounded classification-and-sequencing reread than a wider extraction/distribution design audit.
 
 ## Launch Note
 
@@ -36,7 +36,11 @@ Status: active launch-truth record
 
 ## Return Summary
 
-- [o:r:i] Exit code: pending
-- [o:r:i] Session id: pending
-- [o:r:i] Total cost usd: pending
-- [o:r:i] Repo-local artifacts: pending completion
+- [e:c+i] Exit code: `0`
+- [e:c+i] Session id: `e561d717-e4c4-43d9-baef-d7f0b4ec8aac`
+- [e:c+i] Total cost usd: `3.068666`
+- [e:c+i] Repo-local artifacts:
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/02/probe-summary.txt`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/02/extraction-audit-02-20260422-155442.1aevu7z0.stream.jsonl`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/02/extraction-audit-02-20260422-155442.fi7fzdfj.stderr.log`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/02/extraction-audit-02-20260422-155442.3brcboep.debug.log`

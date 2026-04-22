@@ -1319,8 +1319,40 @@
   - repo-local artifacts:
     - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/01/probe-summary.txt`
     - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/01/extraction-audit-01-20260422-150133.tf9fstrc.stream.jsonl`
-    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/01/extraction-audit-01-20260422-150133.zex3wpon.stderr.log`
-    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/01/extraction-audit-01-20260422-150133.4xbvmstp.debug.log`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/01/extraction-audit-01-20260422-150133.zex3wpon.stderr.log`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/01/extraction-audit-01-20260422-150133.4xbvmstp.debug.log`
+
+## 2026-04-22 `extraction-audit lane-02`
+
+- date: `2026-04-22`
+- purpose: bounded Opus reread over the next extraction object after helper rehome plus portable compatibility declaration, with the horizon explicitly centered on the harness-uplift program rather than `prix-guesser` product planning
+- requested model / reasoning: `opus[1m]` / `xhigh`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- frozen launch basis commit: `d6b7989`
+- prompt artifact: [extraction-audit/prompts/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1-launch-prompt.md](extraction-audit/prompts/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1-launch-prompt.md)
+- governing spec: [extraction-audit/specs/02-harness-modifier-overlay-carrier-rehome-reread-spec.md](extraction-audit/specs/02-harness-modifier-overlay-carrier-rehome-reread-spec.md)
+- governing packet: [extraction-audit/packets/02-harness-modifier-overlay-carrier-rehome-reread-packet.md](extraction-audit/packets/02-harness-modifier-overlay-carrier-rehome-reread-packet.md)
+- launch-truth artifact: [extraction-audit/launch-truth/02-harness-modifier-overlay-carrier-rehome-reread-launch-truth.md](extraction-audit/launch-truth/02-harness-modifier-overlay-carrier-rehome-reread-launch-truth.md)
+- output artifact: [extraction-audit/outputs/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1.md](extraction-audit/outputs/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1.md)
+- pre-launch estimate: `12-18 minutes`
+- actual elapsed seconds: `452.397`
+- timing calibration:
+  - shorter than expected at roughly `7.5 minutes`
+  - behaved like a bounded classification/sequencing reread rather than a wider extraction/distribution redesign
+- probe summary:
+  - exit code: `0`
+  - session id: `e561d717-e4c4-43d9-baef-d7f0b4ec8aac`
+  - total cost usd: `3.068666`
+  - repo-local artifacts:
+    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/02/probe-summary.txt`
+    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/02/extraction-audit-02-20260422-155442.1aevu7z0.stream.jsonl`
+    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/02/extraction-audit-02-20260422-155442.fi7fzdfj.stderr.log`
+    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/02/extraction-audit-02-20260422-155442.3brcboep.debug.log`
+- disposition:
+  - [extraction-audit/dispositions/02-harness-modifier-overlay-carrier-rehome-reread-inheritance.md](extraction-audit/dispositions/02-harness-modifier-overlay-carrier-rehome-reread-inheritance.md)
+  - `accept with narrower next move`
+  - overlay/workflow/skill/reference tranche remains the real next extraction object
+  - immediate filesystem rehome is held; roster + embedded-host-path scan is the exact next move
 - timing calibration:
   - actual runtime was much shorter than the `14-22 minute` estimate at roughly `6.8 minutes`; the lane behaved like a bounded structural field-map reread rather than a broader packaging or migration audit
 - disposition:

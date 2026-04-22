@@ -40,6 +40,11 @@ Status: active opening audit family
   - [prompts/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1-launch-prompt.md](prompts/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1-launch-prompt.md)
   - [launch-truth/02-harness-modifier-overlay-carrier-rehome-reread-launch-truth.md](launch-truth/02-harness-modifier-overlay-carrier-rehome-reread-launch-truth.md)
   - [outputs/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1.md](outputs/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1.md)
+  - [dispositions/02-harness-modifier-overlay-carrier-rehome-reread-inheritance.md](dispositions/02-harness-modifier-overlay-carrier-rehome-reread-inheritance.md)
+- [d:r:i] Lane `02` is now completed and the next extraction move is narrower than the older `142` wording:
+  - [../intervention-proposals/144-harness-modifier-overlay-roster-and-embedded-host-path-scan-proposal.md](../intervention-proposals/144-harness-modifier-overlay-roster-and-embedded-host-path-scan-proposal.md)
+  - no filesystem rehome yet
+  - roster + embedded-host-path scan first
 
 ## Expected Artifact Pattern
 
