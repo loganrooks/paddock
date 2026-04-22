@@ -153,4 +153,8 @@ For each lane, keep this tuple explicit:
   - [outputs/10-uplift-cross-runtime-comparison-first-exercise.md](outputs/10-uplift-cross-runtime-comparison-first-exercise.md)
   - [dispositions/10-uplift-cross-runtime-comparison-first-exercise-disposition.md](dispositions/10-uplift-cross-runtime-comparison-first-exercise-disposition.md)
   - [../intervention-proposals/112-uplift-cross-runtime-comparison-first-exercise.md](../intervention-proposals/112-uplift-cross-runtime-comparison-first-exercise.md)
+- [d:r:i] The bounded Opus widening lane over that first packet is now drafted too:
+  - [packets/13-uplift-cross-runtime-comparison-first-exercise-reread-packet.md](packets/13-uplift-cross-runtime-comparison-first-exercise-reread-packet.md)
+  - [specs/07-uplift-cross-runtime-comparison-first-exercise-reread-spec.md](specs/07-uplift-cross-runtime-comparison-first-exercise-reread-spec.md)
+  - [prompts/07-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1-launch-prompt.md](prompts/07-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1-launch-prompt.md)
 - [d:r:i] The current adjacent move is now a bounded Opus widening lane over that first packet, with live `.claude` translation, compatibility-matrix claims, and composition judgment still held after the widening round.

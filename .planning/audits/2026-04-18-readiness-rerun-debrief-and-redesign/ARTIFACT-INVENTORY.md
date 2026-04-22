@@ -266,10 +266,14 @@ Status: active inventory
 - `entry-uplift-audit/packets/06-uplift-docs-governance-classification-packet-template.md`
 - `entry-uplift-audit/packets/07-uplift-docs-governance-classification-first-exercise-packet.md`
 - `entry-uplift-audit/packets/12-uplift-cross-runtime-comparison-first-exercise-packet.md`
+- `entry-uplift-audit/packets/13-uplift-cross-runtime-comparison-first-exercise-reread-packet.md`
 - `entry-uplift-audit/outputs/06-uplift-docs-governance-classification-first-exercise.md`
 - `entry-uplift-audit/outputs/10-uplift-cross-runtime-comparison-first-exercise.md`
+- `entry-uplift-audit/outputs/11-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1.md`
 - `entry-uplift-audit/dispositions/06-uplift-docs-governance-classification-first-exercise-disposition.md`
 - `entry-uplift-audit/dispositions/10-uplift-cross-runtime-comparison-first-exercise-disposition.md`
+- `entry-uplift-audit/specs/07-uplift-cross-runtime-comparison-first-exercise-reread-spec.md`
+- `entry-uplift-audit/prompts/07-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1-launch-prompt.md`
 - `entry-uplift-audit/launch-truth/06-uplift-assist-post-first-exercise-next-move-launch-truth.md`
 - `entry-uplift-audit/outputs/07-uplift-assist-post-first-exercise-next-move-opus47-max-r1.md`
 - `entry-uplift-audit/dispositions/07-uplift-assist-post-first-exercise-next-move-inheritance.md`
