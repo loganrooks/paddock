@@ -258,6 +258,38 @@
 
 - date: `2026-04-22`
 - purpose: bounded Opus reread of the milestone-boundary shared-reference proposal after `121` landed and `122` opened as the second `119` route
+
+## 2026-04-22 `entry-uplift-lane-14`
+
+- date: `2026-04-22`
+- purpose: bounded Opus reread of the adjacent `health.md` deepen-in-place proposal after `123` landed and `124` opened as the next repair-facing route
+- frozen launch basis commit: `be5a02d`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth:
+  - [entry-uplift-audit/launch-truth/14-health-uplift-deepen-in-place-first-slice-proposal-reread-launch-truth.md](entry-uplift-audit/launch-truth/14-health-uplift-deepen-in-place-first-slice-proposal-reread-launch-truth.md)
+- output:
+  - [entry-uplift-audit/outputs/18-health-uplift-deepen-in-place-first-slice-proposal-reread-opus47-max-r1.md](entry-uplift-audit/outputs/18-health-uplift-deepen-in-place-first-slice-proposal-reread-opus47-max-r1.md)
+- inheritance:
+  - [entry-uplift-audit/dispositions/18-health-uplift-deepen-in-place-first-slice-proposal-reread-inheritance.md](entry-uplift-audit/dispositions/18-health-uplift-deepen-in-place-first-slice-proposal-reread-inheritance.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `457.939`
+  - session id: `2d4e97f6-2624-44b8-8334-9ae354def24e`
+  - total cost usd: `1.6083512499999997`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/health-uplift-deepen-in-place-first-slice-proposal-reread-opus47-max-r1-20260422-034827.d2nks17l.stream.jsonl`
+    - `/tmp/health-uplift-deepen-in-place-first-slice-proposal-reread-opus47-max-r1-20260422-034827.84yafe_k.stderr.log`
+    - `/tmp/health-uplift-deepen-in-place-first-slice-proposal-reread-opus47-max-r1-20260422-034827.plbemm_u.debug.log`
+- timing calibration:
+  - estimated wall-clock duration: `8-12 minutes`
+  - actual elapsed: `7 minutes 37.939 seconds`
+  - calibration note: slightly shorter than estimate, but still within the same high-single-digit bounded reread band; future Opus rereads of similar size should still be budgeted materially longer than short polls
+- disposition:
+  - `accept with local revision`
+  - health remains the next adjacent carrier and should deepen in place
+  - accepted now: tighter trigger discipline, five-part local reread grammar, explicit post-repair placement, positive three-way ownership split, extra holds against drift computation/footer widening/manifest mirroring
+  - next move: bounded implementation slice plus contract test, propagation refresh `46`, and implementation note `125`
 - requested model / reasoning: `opus[1m]` / `max`
 - requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
 - frozen launch basis commit: `a733a1e`

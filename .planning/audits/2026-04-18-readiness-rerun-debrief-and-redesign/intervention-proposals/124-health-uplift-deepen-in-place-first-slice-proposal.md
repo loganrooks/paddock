@@ -47,15 +47,24 @@ Status: active bounded proposal
 
 ## Proposed First Slice
 
-- [d:r:i] Deepen `tooling/portable-gsd/overlay/get-shit-done/workflows/health.md` in place with one explicit bounded step after health validation and before final output formatting:
+- [d:r:i] Deepen `tooling/portable-gsd/overlay/get-shit-done/workflows/health.md` in place with one explicit bounded step:
   - `Review Project Uplift Health Follow-Through`
+- [d:r:i] Place that step explicitly:
+  - after all structural validation, including `verify_repairs` when `--repair` was used
+  - before `format_output`
 - [d:r:i] Keep that step read-only in character:
   - start from `.planning/STATE.md` `## Project Uplift`
   - widen into `.planning/UPLIFT-REPORT.md` only when the compact digest does not carry enough route-local context
   - widen into `.planning/UPLIFT-MANIFEST.json` only when basis or annotation ambiguity remains after the first two reads
   - keep `compatibility_posture: observed_basis_only` explicit when surfaced
   - keep held runtime annotation as annotation rather than relabeling top-level posture
-- [d:r:i] Only surface this step when structural planning state is present and the route has actually shifted from repair to later posture follow-through.
+- [d:r:i] Structure the step with one local five-part grammar so the route-local reread stays consistent with neighboring continuity routes without turning into another shared-reference family:
+  - `Primary Compact Read`
+  - `Supporting Narrative Read`
+  - `Deeper Typed Read`
+  - `Interpretation Frame`
+  - `When To Surface`
+- [d:r:i] Only surface this step when structural planning state is present and the compact `Project Uplift` block signals live posture pressure rather than simple steady-state continuation.
 - [d:r:i] Keep the wrapper boundary explicit in `tooling/portable-gsd/overlay/skills/gsd-health/SKILL.md`:
   - structural health remains the objective
   - repo-local uplift continuity may be reread after health
@@ -78,7 +87,7 @@ Status: active bounded proposal
 - [d:r:i] The health route should say more clearly when uplift continuity matters after validation:
   - planning structure is present
   - health findings do not by themselves answer the repo-local posture question
-  - route-local posture ambiguity or held-later uplift pressure remains live
+  - the compact `Project Uplift` block still signals live posture pressure
 - [d:r:i] The follow-through should keep the compact-versus-deeper split durable:
   - compact scalar digest in `STATE.md`
   - narrative route context in `UPLIFT-REPORT.md`
@@ -90,6 +99,10 @@ Status: active bounded proposal
 - [d:r:i] The route should keep current helper ownership boundaries visible:
   - `gsd-sdk query validate.health` remains structural-health authority
   - `$gsd-uplift-project --write` remains the later posture-refresh authority
+- [d:r:i] The route should state that three-way ownership split as the slice’s positive structural contribution:
+  - structural-health authority
+  - read-only uplift-continuity surfacing
+  - separate later write-side refresh
 
 ## What This Proposal Does Not Authorize
 
@@ -101,6 +114,9 @@ Status: active bounded proposal
 - [d:r:i] No widening of `validate.health` semantics into repo-local posture adjudication.
 - [d:r:i] No widening of `from-gsd2`, `update`, or `mandatory-initial-read.md` through this slice.
 - [d:r:i] No extraction/npm/`npx` movement.
+- [d:r:i] No drift computation inside the health step.
+- [d:r:i] No second-uplift-workflow footer widening.
+- [d:r:i] No manifest mirroring or cache surface inside health output.
 
 ## Verification Gates
 
