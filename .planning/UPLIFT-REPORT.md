@@ -1,6 +1,6 @@
 # Project Uplift Report
 
-- Generated: 2026-04-22T02:11:59+00:00
+- Generated: 2026-04-22T02:41:49+00:00
 - Mode: detect-only
 - Project class: cross-runtime uplift
 - Secondary signals: mid_phase
@@ -117,7 +117,7 @@
 - upstream-template drift machinery — held
 - aged-bespoke deep merge — held
 - audit-subtree aging carry — held
-- legacy seed corpus migration — partially landed: tooling/portable-gsd/overlay/get-shit-done/workflows/seed-migration-inventory.md
+- legacy seed corpus migration — partially landed: tooling/portable-gsd/overlay/get-shit-done/workflows/seed-migration-inventory.md | intervention-proposals/92-seed-migration-pointer-bridge-harden-follow-through-implementation.md | propagation-audit/38-seed-migration-pointer-bridge-harden-change-triggered-refresh.md
 - routed-entry hooks beyond `progress` — partially landed: propagation-audit/04-resume-project-second-consumer-implementation.md
 - forensics / archived-milestone integration — held
 - workstream parent/child posture reconciliation — held

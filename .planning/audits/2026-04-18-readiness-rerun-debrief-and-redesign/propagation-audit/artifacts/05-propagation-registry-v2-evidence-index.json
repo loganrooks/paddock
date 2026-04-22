@@ -288,13 +288,31 @@
       "id": "seed_migration_pointer_bridge_impl_90",
       "evidence_lane": "implementation_note",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/90-seed-migration-operator-facing-pointer-bridge-implementation.md",
-      "note": "landed operator-facing specialist packet bridge covering project_uplift progress-note candidate counts plus bounded command disclosure at progress and resume-project when migration candidates are present"
+      "note": "landed first operator-facing specialist packet bridge covering project_uplift progress-note candidate counts plus bounded command disclosure at progress and resume-project when migration candidates are present"
     },
     {
       "id": "seed_migration_pointer_refresh_37",
       "evidence_lane": "change_triggered_refresh",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/37-seed-migration-operator-facing-pointer-change-triggered-refresh.md",
       "note": "typed v2 refresh that keeps specialist packet candidate counts plus bounded operator-facing packet disclosure explicit at the project_uplift -> progress/resume-project bridge"
+    },
+    {
+      "id": "seed_migration_bridge_harden_impl_92",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/92-seed-migration-pointer-bridge-harden-follow-through-implementation.md",
+      "note": "landed bridge-hardening follow-through covering inspect/write command split, candidate breakdown disclosure, durable uplift-memory count preservation, held-later breadcrumb widening, and end-to-end chain proof"
+    },
+    {
+      "id": "seed_migration_manifest_shape_fixture",
+      "evidence_lane": "shape_fixture",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/artifacts/07-seed-migration-manifest-shape-fixture.json",
+      "note": "representative synthetic SEED-MIGRATION-MANIFEST shape fixture used to anchor rereads and end-to-end chain proof for the specialist packet"
+    },
+    {
+      "id": "seed_migration_pointer_harden_refresh_38",
+      "evidence_lane": "change_triggered_refresh",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/38-seed-migration-pointer-bridge-harden-change-triggered-refresh.md",
+      "note": "typed v2 refresh that keeps breakdown disclosure, inspect/write split, fixture-backed packet shape, and stronger consumer gating proof explicit at the project_uplift -> progress/resume -> specialist-packet bridge"
     }
   ]
 }

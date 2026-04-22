@@ -127,6 +127,8 @@ Status: active inventory
 - `intervention-proposals/88-seed-migration-detect-only-harden-follow-through-implementation.md`
 - `intervention-proposals/89-seed-migration-operator-facing-pointer-bridge-proposal.md`
 - `intervention-proposals/90-seed-migration-operator-facing-pointer-bridge-implementation.md`
+- `intervention-proposals/91-seed-migration-pointer-bridge-harden-follow-through-proposal.md`
+- `intervention-proposals/92-seed-migration-pointer-bridge-harden-follow-through-implementation.md`
 
 ### Self-Overcoming Family
 
@@ -205,6 +207,7 @@ Status: active inventory
 - `propagation-audit/35-legacy-seed-corpus-migration-detect-only-change-triggered-refresh.md`
 - `propagation-audit/36-seed-migration-detect-only-harden-change-triggered-refresh.md`
 - `propagation-audit/37-seed-migration-operator-facing-pointer-change-triggered-refresh.md`
+- `propagation-audit/38-seed-migration-pointer-bridge-harden-change-triggered-refresh.md`
 - `propagation-audit/launch-truth/30-seed-doctrine-vintage-sidecar-launch-truth.md`
 - `propagation-audit/outputs/04-seed-vintage-and-consumer-field-sidecar-gpt54-xhigh-r1.md`
 - `propagation-audit/dispositions/04-seed-vintage-and-consumer-field-sidecar-inheritance.md`
@@ -214,12 +217,19 @@ Status: active inventory
 - `propagation-audit/launch-truth/04-seed-migration-detect-only-first-slice-reread-launch-truth.md`
 - `propagation-audit/outputs/04-seed-migration-detect-only-first-slice-reread-opus47-max-r1.md`
 - `propagation-audit/dispositions/04-seed-migration-detect-only-first-slice-reread-inheritance.md`
+- `propagation-audit/packets/05-seed-migration-operator-facing-pointer-bridge-reread-packet.md`
+- `propagation-audit/specs/05-seed-migration-operator-facing-pointer-bridge-reread-spec.md`
+- `propagation-audit/prompts/05-seed-migration-operator-facing-pointer-bridge-reread-opus47-max-r1-launch-prompt.md`
+- `propagation-audit/launch-truth/05-seed-migration-operator-facing-pointer-bridge-reread-launch-truth.md`
+- `propagation-audit/outputs/05-seed-migration-operator-facing-pointer-bridge-reread-opus47-max-r1.md`
+- `propagation-audit/dispositions/05-seed-migration-operator-facing-pointer-bridge-reread-inheritance.md`
 - `propagation-audit/artifacts/01-propagation-field-registry-v1.json`
 - `propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json`
 - `propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json`
 - `propagation-audit/artifacts/04-propagation-registry-v2-semantic-map.json`
 - `propagation-audit/artifacts/05-propagation-registry-v2-evidence-index.json`
 - `propagation-audit/artifacts/06-propagation-registry-v2-coverage-and-refresh.json`
+- `propagation-audit/artifacts/07-seed-migration-manifest-shape-fixture.json`
 
 ## Challenge And Output Subtrees
 

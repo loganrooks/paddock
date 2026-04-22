@@ -88,6 +88,19 @@ Status: active lane; widened inheritance batch
     - [outputs/04-seed-migration-detect-only-first-slice-reread-opus47-max-r1.md](outputs/04-seed-migration-detect-only-first-slice-reread-opus47-max-r1.md)
   - inheritance:
     - [dispositions/04-seed-migration-detect-only-first-slice-reread-inheritance.md](dispositions/04-seed-migration-detect-only-first-slice-reread-inheritance.md)
+- lane `05`:
+  - packet:
+    - [packets/05-seed-migration-operator-facing-pointer-bridge-reread-packet.md](packets/05-seed-migration-operator-facing-pointer-bridge-reread-packet.md)
+  - spec:
+    - [specs/05-seed-migration-operator-facing-pointer-bridge-reread-spec.md](specs/05-seed-migration-operator-facing-pointer-bridge-reread-spec.md)
+  - prompt:
+    - [prompts/05-seed-migration-operator-facing-pointer-bridge-reread-opus47-max-r1-launch-prompt.md](prompts/05-seed-migration-operator-facing-pointer-bridge-reread-opus47-max-r1-launch-prompt.md)
+  - launch-truth:
+    - [launch-truth/05-seed-migration-operator-facing-pointer-bridge-reread-launch-truth.md](launch-truth/05-seed-migration-operator-facing-pointer-bridge-reread-launch-truth.md)
+  - output:
+    - [outputs/05-seed-migration-operator-facing-pointer-bridge-reread-opus47-max-r1.md](outputs/05-seed-migration-operator-facing-pointer-bridge-reread-opus47-max-r1.md)
+  - inheritance:
+    - [dispositions/05-seed-migration-operator-facing-pointer-bridge-reread-inheritance.md](dispositions/05-seed-migration-operator-facing-pointer-bridge-reread-inheritance.md)
 
 ## Current Follow-Through
 
@@ -124,6 +137,7 @@ Status: active lane; widened inheritance batch
 - [35-legacy-seed-corpus-migration-detect-only-change-triggered-refresh.md](35-legacy-seed-corpus-migration-detect-only-change-triggered-refresh.md)
 - [36-seed-migration-detect-only-harden-change-triggered-refresh.md](36-seed-migration-detect-only-harden-change-triggered-refresh.md)
 - [37-seed-migration-operator-facing-pointer-change-triggered-refresh.md](37-seed-migration-operator-facing-pointer-change-triggered-refresh.md)
+- [38-seed-migration-pointer-bridge-harden-change-triggered-refresh.md](38-seed-migration-pointer-bridge-harden-change-triggered-refresh.md)
 - [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 - [artifacts/02-propagation-registry-v2-inventory-roster.json](artifacts/02-propagation-registry-v2-inventory-roster.json)
 - [artifacts/03-propagation-registry-v2-declared-contracts.json](artifacts/03-propagation-registry-v2-declared-contracts.json)
@@ -190,4 +204,6 @@ Status: active lane; widened inheritance batch
 - [d:r:i] A nineteenth non-uplift change-triggered refresh is now landing too: `35` records the specialist detect-only legacy-seed migration slice, and the typed `v2` layers now keep the helper/workflow/wrapper plus uplift handoff explicit instead of leaving migration planning at posture counts and held-later prose alone.
 - [d:r:i] A twentieth non-uplift change-triggered refresh is now landed too: `36` records the harden follow-through after the Opus reread, and the typed `v2` layers now keep post-write durable-output state, producer-follow-through to `plant-seed`, route-state disambiguation, and uplift-side shape-gap discovery explicit instead of leaving the sharper packet semantics ambient.
 - [d:r:i] A twenty-first non-uplift change-triggered refresh is now landed too: `37` records the narrower operator-facing pointer bridge, and the typed `v2` layers now keep specialist packet candidate counts plus bounded packet disclosure explicit at the `project_uplift -> progress/resume-project` bridge instead of leaving that bridge at seed posture visibility alone.
-- [d:r:i] The next adjacent seed-family route is now a bounded reread of the landed operator-facing bridge before later entry-wrapper widening, broader audit-open consumer widening, or rewrite/normalization family work inherits next.
+- [d:r:i] Lane `05` is now completed and locally inherited too: the bounded Opus reread over the landed bridge has now been absorbed into a narrower bridge-hardening slice rather than into a new wrapper family.
+- [d:r:i] A twenty-second non-uplift change-triggered refresh is now landed too: `38` records the bridge-hardening follow-through, and the typed `v2` layers now keep candidate breakdown, inspect/write split, fixture-backed packet shape, and stronger consumer gating proof explicit at the same bridge instead of leaving those sharpenings ambient.
+- [d:r:i] The next adjacent seed-family route is now a bounded reread of the hardened operator-facing bridge before later entry-wrapper widening, broader audit-open consumer widening, or rewrite/normalization family work inherits next.

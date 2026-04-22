@@ -783,3 +783,31 @@
   - [harness-improvement-audit/dispositions/01-harness-maximal-improvement-field-map-inheritance.md](harness-improvement-audit/dispositions/01-harness-maximal-improvement-field-map-inheritance.md)
   - `inherit full-field widening`
   - accepted current consequence: use this field map to open bounded follow-through families for canary/invariant assertion, audit-program infrastructure, standing self-improvement register, lifecycle carry, and related ownerless improvement concerns while the rerun remains paused
+
+## 2026-04-22 `propagation-audit-lane-05`
+
+- date: `2026-04-22`
+- purpose: bounded Opus reread over the landed operator-facing seed-migration bridge after `89/90`, so the bridge itself is judged before any wider wrapper or rewrite family opens
+- frozen launch basis commit: `846b6b0`
+- request-surface reread:
+  - packet/spec/prompt received contextual reread before launch; no heuristic scanner result was used as a wording gate for this lane
+- launch-truth artifact:
+  - [propagation-audit/launch-truth/05-seed-migration-operator-facing-pointer-bridge-reread-launch-truth.md](propagation-audit/launch-truth/05-seed-migration-operator-facing-pointer-bridge-reread-launch-truth.md)
+- packet artifact:
+  - [propagation-audit/packets/05-seed-migration-operator-facing-pointer-bridge-reread-packet.md](propagation-audit/packets/05-seed-migration-operator-facing-pointer-bridge-reread-packet.md)
+- governing spec:
+  - [propagation-audit/specs/05-seed-migration-operator-facing-pointer-bridge-reread-spec.md](propagation-audit/specs/05-seed-migration-operator-facing-pointer-bridge-reread-spec.md)
+- prompt artifact:
+  - [propagation-audit/prompts/05-seed-migration-operator-facing-pointer-bridge-reread-opus47-max-r1-launch-prompt.md](propagation-audit/prompts/05-seed-migration-operator-facing-pointer-bridge-reread-opus47-max-r1-launch-prompt.md)
+- output artifact:
+  - [propagation-audit/outputs/05-seed-migration-operator-facing-pointer-bridge-reread-opus47-max-r1.md](propagation-audit/outputs/05-seed-migration-operator-facing-pointer-bridge-reread-opus47-max-r1.md)
+- disposition artifact:
+  - [propagation-audit/dispositions/05-seed-migration-operator-facing-pointer-bridge-reread-inheritance.md](propagation-audit/dispositions/05-seed-migration-operator-facing-pointer-bridge-reread-inheritance.md)
+- disposition:
+  - `accept bounded reread`
+  - carry forward: bridge triad, gating rule, typed consumer-chain edges, no-corpus caution
+  - landed now:
+    - `91` bounded bridge-hardening proposal
+    - `92` bridge-hardening implementation
+    - `38` typed refresh over the hardened bridge
+  - next move: one more bounded reread of the hardened bridge before any wider seed-family inheritance opens

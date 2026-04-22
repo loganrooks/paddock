@@ -98,11 +98,13 @@ Status: active proposal/disposition batch
 88. `88-seed-migration-detect-only-harden-follow-through-implementation.md`
 89. `89-seed-migration-operator-facing-pointer-bridge-proposal.md`
 90. `90-seed-migration-operator-facing-pointer-bridge-implementation.md`
+91. `91-seed-migration-pointer-bridge-harden-follow-through-proposal.md`
+92. `92-seed-migration-pointer-bridge-harden-follow-through-implementation.md`
 
 ## Proposal Rule
 
 - [d:r:i] Each proposal should stay bounded enough that a later acceptance/revision/rejection decision can be made on its own merits rather than by invoking another broad “improve the harness” abstraction.
-- [d:r:i] Current next move after this batch: use `79` through `90` plus `32` through `37` as the current seed-family baseline, then run a bounded reread of the landed operator-facing specialist-packet bridge before any later wider entry-wrapper retrofit, broader audit-open consumer widening, or rewrite/normalization family inherits next.
+- [d:r:i] Current next move after this batch: use `79` through `92` plus `32` through `38` as the current seed-family baseline, then run a bounded reread of the hardened operator-facing specialist-packet bridge before any later wider entry-wrapper retrofit, broader audit-open consumer widening, or rewrite/normalization family inherits next.
 - [d:r:i] `29` records the next broader pressure that emerged after the re-entry/plain-language pass: long-horizon carry is strong at discuss/plan entry but still weaker in lifecycle, verification, milestone, and harness-self-improvement surfaces.
 - [d:r:i] `30` now records the revised consumer-first follow-through: a `future_awareness` plus `future_preservation` strengthening route as the first live insertion, with the research-mode question held as the next adjacent object.
 - [d:r:i] `31` records the linked instruction-layer hardening so root/planning agent doctrine is less likely to reintroduce binary inheritance, risk-as-veto, or premature narrowing.
@@ -164,5 +166,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `88` now records the landed harden slice itself: shared seed-shape constants, current-version shape-gap attention in `project_uplift.py`, clearer `no_corpus` versus `current_only` semantics, post-write durable-output wording, and rematerialized workflow/wrapper guidance that separates deeper packet disclosure from durable write side effects.
 - [d:r:i] `89` now opens the narrower operator-facing follow-through cleared by `88`: ordinary progress/resume surfaces should disclose the specialist seed-migration packet only when migration candidates are present, while keeping that packet detect-only and specialist-owned.
 - [d:r:i] `90` now records the landed pointer bridge itself: `project_uplift.py` emits packet candidate counts plus a bounded command pointer, and `progress` / `resume-project` surface that disclosure without turning it into rewrite or auto-write pressure.
+- [d:r:i] `91` now records the narrower bridge-hardening follow-through cleared by lane `05`: preserve the inspect/write split at the bridge, surface a compact breakdown, bind disclosed commands back to the specialist wrapper, widen the consumer gating proof, preserve the aggregated count in durable uplift memory, widen the held-later breadcrumb, and freeze one representative packet shape fixture.
+- [d:r:i] `92` now records the landed bridge-hardening slice itself: `project_uplift.py` now emits split inspect/write commands plus a compact breakdown, uplift memory carries the aggregated candidate count and breakdown, the held-later breadcrumb points at the fuller evidence trail, and one end-to-end chain test now proves the synthetic mixed-corpus packet shape against a committed fixture.
 - [d:r:i] `42` now records that harden slice as landed: multi-axis posture, phase-boundary signal, per-carrier fingerprint shape, runtime-agent globbing, typed proposal routes, file-backed held-later carry, widened tests, and the two live consumer/output bugs it surfaced and corrected.
 - [d:r:i] The current broader consequence after `42-74`: use the cleaner uplift slice, the active propagation family, the landed verifier / transition / milestone-boundary / first-read / spec lifecycle bridges, the landed re-entry plus initialization/doc-ingest plus repair/migration plus update plus seed producer/consumer slices, and the hardened setup/materialization path together rather than assuming one helper or one bounded slice already proves whole-network carry.
