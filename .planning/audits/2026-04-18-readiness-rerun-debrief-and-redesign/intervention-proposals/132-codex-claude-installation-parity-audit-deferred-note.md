@@ -1,12 +1,12 @@
 Date: 2026-04-22
-Status: deferred next-adjacent audit note
+Status: active opening note
 
 # Codex Claude Installation Parity Audit Deferred Note
 
 ## Why This Note Exists
 
-- [d:r:i] A bounded `.codex` / `.claude` installation-parity audit is now earned, but it should not open before the current `update` consumer reread is inherited and the `update + gsd-update` continuity slice is dispositioned.
-- [d:r:i] This note keeps that route explicit so it does not remain only in chat memory or get reopened out of sequence.
+- [d:r:i] A bounded `.codex` / `.claude` installation-parity audit was earned earlier and deliberately held until the `update + gsd-update` consumer branch settled.
+- [d:r:i] That trigger is now satisfied by commit `c530a6a`, so this note now serves as the opening note for the live audit route rather than a still-deferred reminder.
 
 ## What Prompted The Note
 
@@ -27,7 +27,7 @@ Status: deferred next-adjacent audit note
   - workflow/reference wording where provider-specific install shape matters
 - [d:r:i] Use upstream runtime-specific install logic as the comparison frontier, then inspect where repo-local overlay or workflow surfaces diverge, flatten, or blur those differences.
 
-## Why It Is Deferred
+## Why It Was Deferred
 
 - [d:r:i] The current bounded cross-vendor boundary is still the `update + gsd-update` consumer reread and inheritance path.
 - [d:r:i] Opening the parity audit before that boundary closes would widen terrain on top of an unresolved consumer slice and make it harder to tell which pressure belongs to the current `update` branch versus the later installation-parity branch.
@@ -36,6 +36,7 @@ Status: deferred next-adjacent audit note
   2. revise or land the `update + gsd-update` continuity slice
   3. then open the bounded `.codex` / `.claude` installation-parity audit
 
-## Next Trigger
+## Current Trigger State
 
-- [d:r:i] Open this audit immediately after the current `update` consumer branch settles, unless that inheritance itself absorbs the parity question so fully that only a narrower residual branch remains.
+- [d:r:i] The `update` consumer branch is now settled, and the parity question was not absorbed away.
+- [d:r:i] The active next move is to run the bounded audit now, with `.codex` and `.claude` kept as the only provider horizon.
