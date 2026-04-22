@@ -131,6 +131,8 @@ Status: active inventory
 - `intervention-proposals/92-seed-migration-pointer-bridge-harden-follow-through-implementation.md`
 - `intervention-proposals/93-uplift-agent-assist-and-propagation-baseline-split-note.md`
 - `intervention-proposals/94-propagation-baseline-delta-split-first-follow-through-proposal.md`
+- `intervention-proposals/95-upstream-pristine-propagation-baseline-first-slice.md`
+- `intervention-proposals/96-repo-local-propagation-delta-first-slice.md`
 
 ### Self-Overcoming Family
 
