@@ -522,6 +522,18 @@
       ]
     },
     {
+      "id": "milestone_boundary_uplift_reference",
+      "family": "reference_behavior",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/references/milestone-boundary-uplift-continuity.md",
+      "role": "shared read-only uplift continuity reference guiding milestone-open and milestone-close widening from the compact Project Uplift digest toward narrative and typed uplift carriers",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "milestone_boundary_uplift_impl_123",
+        "milestone_boundary_uplift_contract_tests"
+      ]
+    },
+    {
       "id": "state_md",
       "family": "state_continuity",
       "path": ".planning/STATE.md",
@@ -619,11 +631,13 @@
       "id": "milestone_open_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/new-milestone.md",
-      "role": "operator-facing milestone-opening workflow carrying LONG-ARC reread, Future Carry Forward milestone-open routing, layered read-packet control over primary milestone context, seed widening, explicit Why This Matters plus Strengthening Carry consumption from matched seeds, and current-versus-legacy-unversioned seed vintage tolerance",
+      "role": "operator-facing milestone-opening workflow carrying LONG-ARC reread, Future Carry Forward milestone-open routing, layered read-packet control over primary milestone context, shared milestone-boundary uplift continuity reference consumption, seed widening, explicit Why This Matters plus Strengthening Carry consumption from matched seeds, and current-versus-legacy-unversioned seed vintage tolerance",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "milestone_boundary_lifecycle_carry_impl_60",
+        "milestone_boundary_uplift_impl_123",
+        "milestone_boundary_uplift_contract_tests",
         "initialization_ingest_read_packet_impl_68",
         "initialization_read_packet_contract_tests",
         "seed_consumer_carry_impl_74",
@@ -672,11 +686,13 @@
       "id": "milestone_close_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/complete-milestone.md",
-      "role": "operator-facing milestone-close workflow carrying LONG-ARC reread, Future Carry Forward milestone-close continuity review, and richer audit-open seed judgment visibility during acknowledgment or deferment",
+      "role": "operator-facing milestone-close workflow carrying LONG-ARC reread, Future Carry Forward milestone-close continuity review, shared milestone-boundary uplift continuity reference consumption, and richer audit-open seed judgment visibility during acknowledgment or deferment",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "milestone_boundary_lifecycle_carry_impl_60",
+        "milestone_boundary_uplift_impl_123",
+        "milestone_boundary_uplift_contract_tests",
         "seed_audit_gate_impl_84",
         "seed_audit_gate_tests"
       ]
@@ -1535,6 +1551,18 @@
       "status": "mapped"
     },
     {
+      "id": "overlay_to_milestone_boundary_uplift_reference",
+      "from": "overlay_manifest",
+      "to": "milestone_boundary_uplift_reference",
+      "kind": "overlay_owns_reference_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "milestone_boundary_uplift_impl_123"
+      ],
+      "status": "mapped"
+    },
+    {
       "id": "mandatory_initial_read_to_progress_workflow",
       "from": "mandatory_initial_read_reference",
       "to": "progress_workflow",
@@ -1543,6 +1571,64 @@
       "evidence_refs": [
         "read_packet_relevance_control_impl_66",
         "read_packet_tier_contract_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "milestone_boundary_uplift_reference_to_milestone_open_workflow",
+      "from": "milestone_boundary_uplift_reference",
+      "to": "milestone_open_workflow",
+      "kind": "shared_reference_guides_workflow_reading_control",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "milestone_boundary_uplift_impl_123",
+        "milestone_boundary_uplift_contract_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "milestone_boundary_uplift_reference_to_milestone_close_workflow",
+      "from": "milestone_boundary_uplift_reference",
+      "to": "milestone_close_workflow",
+      "kind": "shared_reference_guides_workflow_reading_control",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "milestone_boundary_uplift_impl_123",
+        "milestone_boundary_uplift_contract_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "milestone_boundary_uplift_reference_to_state",
+      "from": "milestone_boundary_uplift_reference",
+      "to": "state_md",
+      "kind": "shared_reference_points_first_to_compact_state_digest",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "milestone_boundary_uplift_impl_123",
+        "transition_state_uplift_impl_121"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "milestone_boundary_uplift_reference_to_uplift_report",
+      "from": "milestone_boundary_uplift_reference",
+      "to": "uplift_report_output",
+      "kind": "shared_reference_widens_to_narrative_uplift_carrier",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "milestone_boundary_uplift_impl_123"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "milestone_boundary_uplift_reference_to_uplift_manifest",
+      "from": "milestone_boundary_uplift_reference",
+      "to": "uplift_manifest_output",
+      "kind": "shared_reference_widens_to_typed_uplift_carrier",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "milestone_boundary_uplift_impl_123"
       ],
       "status": "mapped"
     },

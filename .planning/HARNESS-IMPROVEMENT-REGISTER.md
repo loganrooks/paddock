@@ -52,6 +52,7 @@ Status: active durable register
   - dedicated milestone-boundary uplift shared reference first
   - then the matching compatibility-family refresh plus governance-trace note
   - `health.md` remains the adjacent held single-carrier deepen-in-place route
+- [d:r:i] That next bounded move is now landed through `123`, and the matching compatibility-family refresh now also sits in propagation `45`; the adjacent held route remains `health.md` deepen-in-place follow-through rather than another proposal loop around the same milestone-boundary pair.
 - [d:r:i] Keep the later harness-modifier extraction/distribution route explicit through `115`, but hold actual repo/package split until the present uplift/cross-runtime and propagation contracts travel farther
 
 ## Ownerless Concerns

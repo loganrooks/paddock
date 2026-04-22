@@ -267,6 +267,24 @@
       "note": "typed v2 refresh that keeps the transition/state Project Uplift continuity bridge explicit on top of the earlier compatibility-family anchor, consumer-chain, and held-annotation refreshes"
     },
     {
+      "id": "milestone_boundary_uplift_impl_123",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/123-milestone-boundary-uplift-shared-reference-first-slice-implementation.md",
+      "note": "landed milestone-boundary uplift continuity slice covering the dedicated shared reference, overlay add ownership, milestone-open plus milestone-close read-only surfacing steps, and relation to the existing transition/state continuity route"
+    },
+    {
+      "id": "milestone_boundary_uplift_contract_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_milestone_boundary_uplift_shared_reference_contract.py",
+      "note": "focused contract coverage for overlay add ownership of the shared reference, minimum read-only reference shape, and explicit milestone-open plus milestone-close consumer carry"
+    },
+    {
+      "id": "milestone_boundary_uplift_refresh_45",
+      "evidence_lane": "change_triggered_refresh",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/45-milestone-boundary-uplift-shared-reference-change-triggered-refresh.md",
+      "note": "typed v2 refresh that keeps the milestone-boundary shared uplift reference explicit on top of the earlier compatibility-family anchor, consumer-chain, held-annotation, and transition/state continuity refreshes"
+    },
+    {
       "id": "seed_audit_gate_impl_84",
       "evidence_lane": "implementation_note",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/84-seed-audit-gate-widening-first-slice-implementation.md",
