@@ -38,3 +38,7 @@ Status: active bounded audit family
   - harden the existing `gsd-review` route directly
   - use a helper-backed run-home / launch-truth / salvage layer beneath it
   - keep subject-keyed route splitting and larger telemetry / parity widening explicit as later adjacent routes
+- [d:r:i] That first live slice is now explicit as a governed intervention object too:
+  - [../intervention-proposals/143-gsd-review-helper-backed-run-home-first-slice-proposal.md](../intervention-proposals/143-gsd-review-helper-backed-run-home-first-slice-proposal.md)
+  - [../intervention-proposals/145-gsd-review-helper-backed-run-home-first-slice-implementation.md](../intervention-proposals/145-gsd-review-helper-backed-run-home-first-slice-implementation.md)
+  - [../propagation-audit/53-review-route-helper-backed-run-home-first-slice-change-triggered-refresh.md](../propagation-audit/53-review-route-helper-backed-run-home-first-slice-change-triggered-refresh.md)
