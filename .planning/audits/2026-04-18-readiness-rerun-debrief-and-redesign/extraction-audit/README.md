@@ -106,7 +106,8 @@ Status: active opening audit family
   - thinner declaration consumption in `project_uplift.py`
   - downstream seed-shape carrier adoption in `seed_migration_inventory.py`
   - uplift-output-policy adoption in `harness_canary.py`
-- [d:r:i] The next extraction move is now no longer carrier neutralization. It is a post-neutralization judgment of whether `project_uplift.py` still wants later payload movement on top of the cleaner carrier split.
+- [d:r:i] The next extraction move is now no longer carrier neutralization. It is the post-neutralization payload-home judgment opened in:
+  - [../intervention-proposals/155-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-proposal.md](../intervention-proposals/155-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-proposal.md)
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern
