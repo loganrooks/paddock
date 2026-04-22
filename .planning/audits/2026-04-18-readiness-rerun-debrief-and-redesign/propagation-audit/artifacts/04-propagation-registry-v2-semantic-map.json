@@ -674,12 +674,14 @@
       "id": "health_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/health.md",
-      "role": "structural-health workflow with layered read-packet control, explicit missing-planning routing, and later repo-local uplift kept separate from repair",
+      "role": "structural-health workflow with layered read-packet control, explicit missing-planning routing, a post-validation read-only uplift continuity reread that starts from the compact Project Uplift digest and only widens toward narrative and typed carriers when ambiguity remains, and a later write-side uplift route kept separate from repair",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "health_migration_follow_through_impl_70",
-        "health_migration_follow_through_tests"
+        "health_migration_follow_through_tests",
+        "health_uplift_deepen_impl_125",
+        "health_uplift_deepen_contract_tests"
       ]
     },
     {
@@ -737,12 +739,14 @@
       "id": "health_skill_wrapper",
       "family": "wrapper",
       "path": "tooling/portable-gsd/overlay/skills/gsd-health/SKILL.md",
-      "role": "invocation-binding wrapper that routes structural planning health through the health workflow while keeping later uplift separate",
+      "role": "invocation-binding wrapper that routes structural planning health through the health workflow, allows read-only uplift continuity reread after validation when route-local posture pressure stays live, and keeps later write-side uplift refresh separate",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "health_migration_follow_through_impl_70",
-        "health_migration_follow_through_tests"
+        "health_migration_follow_through_tests",
+        "health_uplift_deepen_impl_125",
+        "health_uplift_deepen_contract_tests"
       ]
     },
     {
@@ -1724,7 +1728,46 @@
       "support_mode": "declared_contract_plus_tested_behavior",
       "evidence_refs": [
         "health_migration_follow_through_impl_70",
-        "health_migration_follow_through_tests"
+        "health_migration_follow_through_tests",
+        "health_uplift_deepen_impl_125",
+        "health_uplift_deepen_contract_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "health_workflow_to_state",
+      "from": "health_workflow",
+      "to": "state_md",
+      "kind": "post_validation_read_only_step_starts_from_compact_project_uplift_digest",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "health_uplift_deepen_impl_125",
+        "health_uplift_deepen_contract_tests",
+        "transition_state_uplift_impl_121"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "health_workflow_to_uplift_report",
+      "from": "health_workflow",
+      "to": "uplift_report_output",
+      "kind": "post_validation_read_only_step_widens_to_narrative_uplift_carrier_only_when_needed",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "health_uplift_deepen_impl_125",
+        "health_uplift_deepen_contract_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "health_workflow_to_uplift_manifest",
+      "from": "health_workflow",
+      "to": "uplift_manifest_output",
+      "kind": "post_validation_read_only_step_widens_to_typed_uplift_carrier_only_when_needed",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "health_uplift_deepen_impl_125",
+        "health_uplift_deepen_contract_tests"
       ],
       "status": "mapped"
     },
@@ -1732,11 +1775,13 @@
       "id": "health_workflow_to_uplift_workflow",
       "from": "health_workflow",
       "to": "uplift_workflow",
-      "kind": "structural_health_kept_distinct_from_later_repo_local_uplift",
+      "kind": "post_validation_read_only_uplift_continuity_kept_distinct_from_later_write_side_refresh",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "health_migration_follow_through_impl_70",
-        "health_migration_follow_through_tests"
+        "health_migration_follow_through_tests",
+        "health_uplift_deepen_impl_125",
+        "health_uplift_deepen_contract_tests"
       ],
       "status": "mapped"
     },

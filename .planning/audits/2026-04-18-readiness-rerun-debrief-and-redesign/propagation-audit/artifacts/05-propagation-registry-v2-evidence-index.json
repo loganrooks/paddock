@@ -285,6 +285,24 @@
       "note": "typed v2 refresh that keeps the milestone-boundary shared uplift reference explicit on top of the earlier compatibility-family anchor, consumer-chain, held-annotation, and transition/state continuity refreshes"
     },
     {
+      "id": "health_uplift_deepen_impl_125",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/125-health-uplift-deepen-in-place-first-slice-implementation.md",
+      "note": "landed health-side uplift continuity slice covering the in-place post-validation read-only step, compact-to-narrative-to-typed widening grammar, explicit three-way ownership split, and the kept boundary between structural-health authority and later write-side uplift refresh"
+    },
+    {
+      "id": "health_uplift_deepen_contract_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_health_uplift_deepen_in_place_contract.py",
+      "note": "focused contract coverage for the post-validation health uplift step, five-part local grammar, ordered widening from state to report to manifest, read-only discipline, and wrapper-side ownership split"
+    },
+    {
+      "id": "health_uplift_deepen_refresh_46",
+      "evidence_lane": "change_triggered_refresh",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/46-health-uplift-deepen-in-place-change-triggered-refresh.md",
+      "note": "typed v2 refresh that keeps repair-facing health uplift continuity explicit on top of the earlier compatibility-family anchor, consumer-chain, held-annotation, transition/state, and milestone-boundary continuity refreshes"
+    },
+    {
       "id": "seed_audit_gate_impl_84",
       "evidence_lane": "implementation_note",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/84-seed-audit-gate-widening-first-slice-implementation.md",

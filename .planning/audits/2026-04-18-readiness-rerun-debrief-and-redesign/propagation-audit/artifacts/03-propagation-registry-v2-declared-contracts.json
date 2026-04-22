@@ -155,6 +155,20 @@
       "claim_boundary": "declares how health inherits layered read-packet control, keeps structural repair separate from missing-planning routing and later uplift, and how from-gsd2 adds structural validation plus later uplift handoff instead of ending at format conversion alone"
     },
     {
+      "id": "health_uplift_deepen_in_place_contract",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/health.md",
+      "validator": "tooling/codex/tests/test_health_uplift_deepen_in_place_contract.py",
+      "contract_kind": "post-validation health-side read-only uplift continuity semantics with explicit compact-to-narrative-to-typed widening and separate later write-side refresh",
+      "families_touched": [
+        "install_overlay",
+        "workflow_output",
+        "wrapper",
+        "state_continuity",
+        "reference_behavior"
+      ],
+      "claim_boundary": "declares how health now carries one explicit post-validation read-only uplift continuity step, how that step reads STATE.md Project Uplift first then widens to UPLIFT-REPORT.md and UPLIFT-MANIFEST.json only when ambiguity remains, and how the wrapper keeps structural-health authority separate from later write-side uplift refresh"
+    },
+    {
       "id": "update_follow_through_contract",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/update.md",
       "validator": "tooling/codex/tests/test_update_follow_through_contract.py",
