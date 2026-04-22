@@ -154,6 +154,7 @@ Status: active proposal/disposition batch
 148. `148-harness-modifier-first-overlay-filesystem-rehome-implementation.md`
 149. `149-harness-modifier-first-overlay-residue-classification-pass-proposal.md`
 150. `150-harness-modifier-first-overlay-residue-classification-pass-implementation.md`
+151. `151-harness-modifier-helper-payload-authority-map-proposal.md`
 
 ## Proposal Rule
 
@@ -276,5 +277,6 @@ Status: active proposal/disposition batch
 - [d:r:i] `92` now records the landed bridge-hardening slice itself: `project_uplift.py` now emits split inspect/write commands plus a compact breakdown, uplift memory carries the aggregated candidate count and breakdown, the held-later breadcrumb points at the fuller evidence trail, and one end-to-end chain test now proves the synthetic mixed-corpus packet shape against a committed fixture.
 - [d:r:i] `149` now opens the next bounded extraction object directly: classify the residues exposed by the first specialist source split — skill-adapter `execution_context` policy, helper-shim versus helper-payload authority, default-source-root policy, and overwrite-mode source-indirection readiness — before any second overlay tranche or helper-payload move is proposed.
 - [d:r:i] `150` now records the landed residue-classification pass itself: the moved skill adapters now use source-side `__PROJECT_ROOT__` token abstraction with focused materialization proof, while helper-payload promotion, default-source-root migration, and overwrite-mode source indirection remain explicit later boundaries rather than second-tranche momentum.
+- [d:r:i] `151` now opens the next extraction object directly: classify helper-payload authority across `project_uplift.py`, `seed_migration_inventory.py`, `audit_refmap.py`, and the current shim boundary before any later payload relocation, default-source-root migration, overwrite-family source split, or standalone-project widening inherits next.
 - [d:r:i] `42` now records that harden slice as landed: multi-axis posture, phase-boundary signal, per-carrier fingerprint shape, runtime-agent globbing, typed proposal routes, file-backed held-later carry, widened tests, and the two live consumer/output bugs it surfaced and corrected.
 - [d:r:i] The current broader consequence after `42-74`: use the cleaner uplift slice, the active propagation family, the landed verifier / transition / milestone-boundary / first-read / spec lifecycle bridges, the landed re-entry plus initialization/doc-ingest plus repair/migration plus update plus seed producer/consumer slices, and the hardened setup/materialization path together rather than assuming one helper or one bounded slice already proves whole-network carry.

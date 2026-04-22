@@ -73,6 +73,9 @@ Status: active opening audit family
 - [d:r:i] The carried result is now explicit:
   - source-side token abstraction is now settled for the moved skill adapters
   - helper-payload promotion, default-source-root migration, and overwrite-family source indirection remain later bounded questions
+- [d:r:i] The next extraction move is now narrowed again:
+  - [../intervention-proposals/151-harness-modifier-helper-payload-authority-map-proposal.md](../intervention-proposals/151-harness-modifier-helper-payload-authority-map-proposal.md)
+- [d:r:i] `151` keeps the family on the next live authority question exposed by `150`: which helper payloads are modifier-facing enough to count as later movement candidates, which remain shared-boundary, and whether the current helper shims are temporary bridges or stable long-lived boundaries.
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern
