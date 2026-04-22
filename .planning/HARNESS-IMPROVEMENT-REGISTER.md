@@ -29,7 +29,7 @@ Status: active durable register
   - current pressure: keep widening repeated reinstall durability without confusing repo-local repair with upstream installer control
 - [d:r:i] Uplift / propagation consumer completion
   - current state: upstream-pristine baseline plus repo-local delta pair are now explicit through `95` and `96`, the first operator-facing propagation-review route is now landed through `97` and `98`, its first bounded reread is now inherited through lane `07`, and its harden follow-through is now landed through `99`, `100`, and `40`
-  - current pressure: keep the cleaner route, keep the uplift-assist pointer plus docs-governance runtime-proof explicit in the propagation family, and then use the newly landed cross-runtime packet carrier to narrow the next assist-family move before any wider composition judgment
+  - current pressure: keep the cleaner route, keep the uplift-assist pointer plus docs-governance runtime-proof explicit in the propagation family, and use the now-landed first cross-runtime packet exercise to shape an Opus widening lane before any wider composition judgment
 - [d:r:i] Durable-memory / vintage / decay semantics
   - current pressure: make staleness and movement over time more visible across durable artifacts
 - [d:r:i] Safety / cost / privacy carriers
@@ -45,7 +45,7 @@ Status: active durable register
 - [d:r:i] Standing self-improvement register growth beyond this first slice
 - [d:r:i] Explicit canon-absorption use on later landed intervention families
 - [d:r:i] Bounded uplift-agent-assist patterning that keeps composition-layer judgment in the parent thread while delegation sharpens narrower uplift subproblems
-- [d:r:i] After the first two exercised uplift-assist patterns, the landed narrow route pointer, the landed docs-governance runtime-proof, and the landed cross-runtime packet carrier, the next bounded move is the first cross-runtime packet exercise rather than back into first-discoverability or first-proof work
+- [d:r:i] After the first three exercised uplift-assist patterns, the landed narrow route pointer, and the landed docs-governance runtime-proof, the next bounded move is an Opus widening lane over the first cross-runtime packet rather than direct `.claude` translation or composition work
 
 ## Ownerless Concerns
 

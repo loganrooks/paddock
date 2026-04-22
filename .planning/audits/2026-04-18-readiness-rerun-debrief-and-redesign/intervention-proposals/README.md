@@ -115,6 +115,7 @@ Status: active proposal/disposition batch
 109. `109-uplift-docs-governance-runtime-proof-and-refresh.md`
 110. `110-uplift-cross-runtime-comparison-packet-template-proposal.md`
 111. `111-uplift-cross-runtime-comparison-packet-template-implementation.md`
+112. `112-uplift-cross-runtime-comparison-first-exercise.md`
 
 ## Proposal Rule
 

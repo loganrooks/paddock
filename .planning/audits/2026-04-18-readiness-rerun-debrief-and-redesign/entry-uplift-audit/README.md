@@ -148,4 +148,9 @@ For each lane, keep this tuple explicit:
   - [../intervention-proposals/110-uplift-cross-runtime-comparison-packet-template-proposal.md](../intervention-proposals/110-uplift-cross-runtime-comparison-packet-template-proposal.md)
   - [packets/11-uplift-cross-runtime-comparison-packet-template.md](packets/11-uplift-cross-runtime-comparison-packet-template.md)
   - [../intervention-proposals/111-uplift-cross-runtime-comparison-packet-template-implementation.md](../intervention-proposals/111-uplift-cross-runtime-comparison-packet-template-implementation.md)
-- [d:r:i] The current adjacent move is now the first `cross_runtime_comparison_packet` exercise using that carrier, with any later Opus widening or composition judgment still held after the first bounded packet exists.
+- [d:r:i] The `cross_runtime_comparison_packet` family now also has its first bounded exercise:
+  - [packets/12-uplift-cross-runtime-comparison-first-exercise-packet.md](packets/12-uplift-cross-runtime-comparison-first-exercise-packet.md)
+  - [outputs/10-uplift-cross-runtime-comparison-first-exercise.md](outputs/10-uplift-cross-runtime-comparison-first-exercise.md)
+  - [dispositions/10-uplift-cross-runtime-comparison-first-exercise-disposition.md](dispositions/10-uplift-cross-runtime-comparison-first-exercise-disposition.md)
+  - [../intervention-proposals/112-uplift-cross-runtime-comparison-first-exercise.md](../intervention-proposals/112-uplift-cross-runtime-comparison-first-exercise.md)
+- [d:r:i] The current adjacent move is now a bounded Opus widening lane over that first packet, with live `.claude` translation, compatibility-matrix claims, and composition judgment still held after the widening round.

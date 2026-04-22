@@ -140,4 +140,5 @@ Status: landed bounded reference
 - [d:r:i] The narrow live route pointer is now landed in `uplift-project.md`.
 - [d:r:i] The `docs_governance_classification` pattern now also has one live-trigger runtime-proof plus the resulting parent-thread durable refresh.
 - [d:r:i] The `cross_runtime_comparison_packet` family now also has one reusable packet carrier.
-- [d:r:i] The next adjacent move is now the first `cross_runtime_comparison_packet` exercise using that carrier, not first route discoverability or first runtime-proof work.
+- [d:r:i] The `cross_runtime_comparison_packet` family now also has its first exercised packet round trip in `112`.
+- [d:r:i] The next adjacent move is now a bounded Opus widening lane over that first packet before any live `.claude` translation or composition judgment.
