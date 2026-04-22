@@ -1227,3 +1227,36 @@
   - `accept with local widening and landed first classification carrier`
   - current state carries zero currently evidenced active-pointer defects in the `.codex` tree
   - the first follow-through is a report-only classified parity carrier inside `verify-materialized`, not a Claude-side install branch
+
+## 2026-04-22 `review-route-audit lane-01`
+
+- date: `2026-04-22`
+- purpose: bounded widening audit over the repo-local `$gsd-review` route so the family can absorb durable run-home, launch-truth, timing calibration, provider-shaped runner handling, failure salvage, and later review-workflow uplift routes without prematurely forking a sibling route family
+- frozen launch basis commit: `fcd0f9f`
+- requested model / reasoning: `opus[1m]` / `xhigh`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth:
+  - [review-route-audit/launch-truth/01-gsd-review-route-hardening-audit-launch-truth.md](review-route-audit/launch-truth/01-gsd-review-route-hardening-audit-launch-truth.md)
+- output:
+  - [review-route-audit/outputs/01-gsd-review-route-hardening-audit-opus47-max-r1.md](review-route-audit/outputs/01-gsd-review-route-hardening-audit-opus47-max-r1.md)
+- inheritance:
+  - [review-route-audit/dispositions/01-gsd-review-route-hardening-audit-inheritance.md](review-route-audit/dispositions/01-gsd-review-route-hardening-audit-inheritance.md)
+- timing estimate:
+  - `12-18 minutes`
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `298.245`
+  - session id: `8e6bfc45-dbf0-4c64-8336-a608600258ef`
+  - total cost usd: `2.0128912500000005`
+  - repo-local artifacts:
+    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/review-route-audit/logs/01/probe-summary.txt`
+    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/review-route-audit/logs/01/review-route-audit-01-20260422-084119.wqsgbr1m.stream.jsonl`
+    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/review-route-audit/logs/01/review-route-audit-01-20260422-084119.3sd1kxl5.stderr.log`
+    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/review-route-audit/logs/01/review-route-audit-01-20260422-084119.pkie6k1e.debug.log`
+- timing calibration:
+  - actual runtime was much shorter than the `12-18 minute` estimate at roughly `5.0 minutes`; the lane behaved more like a tightly bounded route-reading audit than the broader widening family the estimate was implicitly patterned on
+- disposition:
+  - `accept with in-place hardening and helper-backed first slice`
+  - keep `$gsd-review` as the primary route
+  - land one helper-backed run-home / launch-truth / timing / salvage layer beneath it
+  - keep later subject-keyed split, retry, telemetry, and parity widening explicit but held later

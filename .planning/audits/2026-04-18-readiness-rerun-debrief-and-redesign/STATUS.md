@@ -371,6 +371,8 @@ Date: 2026-04-22
 49. use `intervention-proposals/69-*` plus `70-*` as the current health/migration follow-through baseline rather than reopening repair/migration packet control and later-uplift routing from chat memory
 50. use `propagation-audit/27-health-and-migration-follow-through-change-triggered-refresh.md` plus typed `v2` artifacts `03-06` as the current propagation baseline for the repair/migration slice rather than rebuilding the registry story from chat memory
 51. use lane `19`, its inheritance note, `134`, `135`, and `propagation-audit/50` as the active `.codex` / `.claude` parity baseline rather than reopening the parity question from the deferred-note stage
+52. use the completed `review-route-audit/` lane `01`, its launch-truth note, and its inheritance note as the current widening baseline for `gsd-review`, provider-shaped review runners, failure salvage, launch-truth/timing calibration, and adjacent review-workflow uplift routes rather than treating the next move as only a local command patch or leaving the broader review-route field ambient
+53. after lane `01` is inherited, open one bounded workspace-state reread so the current program can be reread as a governed map of completed work, absorbed recommendations, planned follow-through, under-attended improvement pressure, short/medium/long horizon routes, and the current harness parallelization / orchestration posture
 
 ## Open Questions
 
@@ -380,6 +382,17 @@ Date: 2026-04-22
 - should the embedded uplift compatibility anchor later remain the main carrier, or should a broader standalone compatibility surface grow only after more runtime-change slices have exercised the embedded route?
 - after the uplift signal-layer harden slice lands, what should the explicit contract-propagation / dependency-carry audit inspect first: workflow->artifact contracts, skill/workflow consumer routing, runtime-registry carry, output/report/state consumers, or the cross-runtime wrapper/governing-doc chain?
 - is a bounded reviewer-register vocabulary curation note worth doing later, or does stronger spec-writing and packet discipline make that unnecessary?
+- after the widened `gsd-review` audit lane returns, what should land as the first live review-route slice, and which adjacent review-workflow uplift opportunities should remain explicit as later routes rather than disappearing back into operator memory?
+- in the upcoming workspace-state reread, where is bounded parallelization actually earned:
+  - sub-agents
+  - external-lane overlap with local implementation or governance work
+  - timing-calibrated wait windows
+  - administrative upkeep that should travel alongside substantive family uplift
+- which governance/operator surfaces should change if the answer above is currently too implicit:
+  - root/planning `AGENTS.md`
+  - audit-lane pattern docs
+  - continuation / compaction prompts
+  - other routing surfaces not yet made explicit
 - what is the best durable shape for a repo-local harness intervention onboarding doc that can carry both current runtime truth and longer-horizon modification planning?
 - how should the newly named long-horizon lifecycle gaps, horizon tensions, and positive strengthening opportunities be mapped as one field, and which parts of that field are still too weakly articulated or too diffusely framed?
 - how should the current `29` register be revised now that the long-horizon cross-vendor pair has added `preservation-debt`, roadmap-time preservation criteria, later-lifecycle canonical-ref rereads, and bounded horizon-watch surfaces?

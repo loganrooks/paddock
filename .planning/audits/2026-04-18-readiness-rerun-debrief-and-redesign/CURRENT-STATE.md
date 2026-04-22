@@ -153,6 +153,13 @@ Status: active governing synthesis
   - landed `52` first subtree-status application
   - landed `53` verifier-lifecycle first-slice proposal
   - landed `54` verifier-lifecycle first-slice implementation
+- [d:r:i] The review-workflow family now also has a completed widening lane of its own under `review-route-audit/`: lane `01` no longer left the question at a narrow `gsd-review` patch, and its inherited return now says to harden `$gsd-review` in place through one helper-backed run-home / launch-truth / timing / salvage slice while keeping later subject-split, retry, telemetry, and parity routes explicit rather than ambient.
+- [d:r:i] Once that widened review-route lane is inherited, the next state-of-workspace reread should no longer be ambient: it should run as one bounded audit that maps completed work, accepted recommendations, active plans, under-attended improvement pressure, and short/medium/long horizon routes from the current governed baseline.
+- [d:r:i] That workspace-state reread should also map the harness as an operating machine rather than only as a pile of completed slices:
+  - where long-running Opus or other external lanes create usable local-work windows
+  - where bounded sub-agent delegation is earned and where parent-thread ownership should remain central
+  - which administrative/governance/propagation updates can and should travel in parallel with implementation or review lanes
+  - whether root/planning `AGENTS.md`, lane-pattern docs, or compaction/continuation prompts need revision so the harness can sustain a more deliberate multi-horizon parallel work pattern
 - [d:r:i] If the workspace feels hard to reread, treat that as a governance-surface issue first, not as a reason to reopen settled intervention families.
 
 ## Live Open Questions
@@ -166,6 +173,7 @@ Status: active governing synthesis
   - separate repo
   - npm/`npx` installer
   - another distribution path
+- [o:r:i] After the active widened `gsd-review` lane returns, what is the sharpest first live slice for the review route itself, and which adjacent review-workflow uplift opportunities should remain explicit as later family moves rather than being silently dropped?
 - [o:r:i] Which parts of the submitted docs PR should remain stable governance/reference docs, and which should be paired with stronger intervention-oriented companions?
 - [o:r:i] If later family growth overloads the governance set again, what further routing surfaces would sharpen relevance without pushing the short synthesis back toward warehouse behavior?
 - [o:r:i] What still widens or sharpens under a bounded reread of the hardened operator-facing specialist-packet bridge before any later entry-wrapper or broader seed-consumer widening inherits next?

@@ -1,4 +1,5 @@
 *.stream.jsonl
 *.stderr.log
 *.debug.log
+probe-summary.txt
 latest

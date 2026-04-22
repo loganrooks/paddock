@@ -320,6 +320,13 @@
   - [threshold-audit/dispositions/03-threshold-scanner-side-effects-internal-audit.md](threshold-audit/dispositions/03-threshold-scanner-side-effects-internal-audit.md)
   - [threshold-audit/dispositions/04-scanner-side-effects-internal-audit-review-inheritance.md](threshold-audit/dispositions/04-scanner-side-effects-internal-audit-review-inheritance.md)
   - [threshold-audit/dispositions/05-historical-scanner-influenced-reread-inheritance.md](threshold-audit/dispositions/05-historical-scanner-influenced-reread-inheritance.md)
+  - [review-route-audit/README.md](review-route-audit/README.md)
+  - [review-route-audit/packets/01-gsd-review-route-hardening-audit-packet.md](review-route-audit/packets/01-gsd-review-route-hardening-audit-packet.md)
+  - [review-route-audit/specs/01-gsd-review-route-hardening-audit-spec.md](review-route-audit/specs/01-gsd-review-route-hardening-audit-spec.md)
+  - [review-route-audit/prompts/01-gsd-review-route-hardening-audit-opus47-max-r1-launch-prompt.md](review-route-audit/prompts/01-gsd-review-route-hardening-audit-opus47-max-r1-launch-prompt.md)
+  - [review-route-audit/launch-truth/01-gsd-review-route-hardening-audit-launch-truth.md](review-route-audit/launch-truth/01-gsd-review-route-hardening-audit-launch-truth.md)
+  - [review-route-audit/outputs/01-gsd-review-route-hardening-audit-opus47-max-r1.md](review-route-audit/outputs/01-gsd-review-route-hardening-audit-opus47-max-r1.md)
+  - [review-route-audit/dispositions/01-gsd-review-route-hardening-audit-inheritance.md](review-route-audit/dispositions/01-gsd-review-route-hardening-audit-inheritance.md)
 
 ## Current Session Rule
 

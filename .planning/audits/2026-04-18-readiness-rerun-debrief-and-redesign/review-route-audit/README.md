@@ -17,7 +17,10 @@ Status: active bounded audit family
 
 ## Current Lane
 
-- [d:r:i] Lane `01` is the opening Opus widening audit over the current `gsd-review` route and the first local hardening shape.
+- [d:r:i] Lane `01` is completed:
+  - [outputs/01-gsd-review-route-hardening-audit-opus47-max-r1.md](outputs/01-gsd-review-route-hardening-audit-opus47-max-r1.md)
+  - [launch-truth/01-gsd-review-route-hardening-audit-launch-truth.md](launch-truth/01-gsd-review-route-hardening-audit-launch-truth.md)
+  - [dispositions/01-gsd-review-route-hardening-audit-inheritance.md](dispositions/01-gsd-review-route-hardening-audit-inheritance.md)
 
 ## Expected Artifact Pattern
 
@@ -30,7 +33,8 @@ Status: active bounded audit family
 
 ## Current Consequence
 
-- [d:r:i] The next move inside this family is to complete lane `01`, then decide whether the first live slice should:
+- [d:r:i] The next move inside this family is no longer another widening lane on the same question.
+- [d:r:i] The next move is the accepted first live slice:
   - harden the existing `gsd-review` route directly
-  - add a helper-backed run-home/logging layer beside it
-  - or split those into a narrower first implementation plus later follow-through
+  - use a helper-backed run-home / launch-truth / salvage layer beneath it
+  - keep subject-keyed route splitting and larger telemetry / parity widening explicit as later adjacent routes

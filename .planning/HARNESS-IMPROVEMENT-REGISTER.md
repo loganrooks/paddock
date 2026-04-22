@@ -37,6 +37,9 @@ Status: active durable register
 - [d:r:i] Cross-repo distribution
   - current pressure: later portability of repo-local harness gains without forcing it early
   - current evidence: `115` now keeps separate-repo plus npm/`npx` distribution explicit as a later route while the current uplift/cross-runtime and propagation contracts continue sharpening
+- [d:r:i] Cross-vendor review-route and audit-lane carry
+  - current state: the bounded `gsd-review` route audit is now completed under `review-route-audit/`; lane `01` widened the family beyond a narrow route patch and is now inherited as one helper-backed in-place hardening slice with adjacent later review-workflow routes kept explicit
+  - current pressure: land that first helper-versus-workflow slice without flattening the broader review-workflow field back into one command-local fix or silently dropping the later route families the audit surfaced
 
 ## Current Bounded Next Slices
 
@@ -55,6 +58,26 @@ Status: active durable register
 - [d:r:i] That next bounded move is now landed through `123`, and the matching compatibility-family refresh now also sits in propagation `45`; the adjacent held route remains `health.md` deepen-in-place follow-through rather than another proposal loop around the same milestone-boundary pair.
 - [d:r:i] That adjacent held route is now opened directly in `124`, keeping the next move focused on one repair-facing carrier family before any later broader wrapper-family widening reopens.
 - [d:r:i] Keep the later harness-modifier extraction/distribution route explicit through `115`, but hold actual repo/package split until the present uplift/cross-runtime and propagation contracts travel farther
+- [d:r:i] After the widened `gsd-review` audit lane lands, open one bounded workspace-state reread that maps:
+  - what has been completed
+  - what has been recommended and absorbed
+  - what remains planned
+  - what still sits under-attended relative to later harness uplift
+  - short / medium / long horizon routes from the current governed baseline
+  - how findings should be inherited across horizons:
+    - immediate bounded slice
+    - near-term family queue
+    - preserved seam / doctrine carry
+    - explicit defer / seed / held-later route
+  - where bounded parallelization is earned:
+    - sub-agent delegation
+    - Opus / external-lane overlap with local work
+    - administrative/update/governance work that should be paired with long-running lanes
+  - which governance or operator surfaces should change to support that better:
+    - root / planning `AGENTS.md`
+    - lane-pattern docs
+    - launch/timing discipline
+    - compaction / continuation prompts
 
 ## Ownerless Concerns
 
@@ -63,7 +86,6 @@ Status: active durable register
 - [o:r:i] canon absorption rule for landed intervention families
 - [o:r:i] token-budget / cost carrier
 - [o:r:i] secret / privacy carrier
-- [o:r:i] cross-vendor reviewer-pattern inheritance
 - [o:r:i] later cross-repo posture export
 - [o:r:i] repo-local setup script robustness when upstream installer self-checks fail
 - [o:r:i] broader fresh-install/update movement once the first local setup harden slice has landed
@@ -71,6 +93,11 @@ Status: active durable register
   - whether generated traces should become governed durable artifacts
   - stay runtime-only and ignored
   - or route through a separate measurement subtree instead of appearing as unmanaged repo drift
+- [o:r:i] explicit horizon-inheritance policy:
+  - when a review finding belongs in `LONG-ARC.md`
+  - when it belongs in `STATE.md` / active next-slice routing
+  - when it belongs in seeds / held-later routes
+  - when it belongs in audit-family memory only
 
 ## Cross-Dimensional Quality Basket
 
