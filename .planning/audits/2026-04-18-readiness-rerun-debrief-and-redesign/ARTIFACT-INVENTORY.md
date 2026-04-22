@@ -156,6 +156,8 @@ Status: active inventory
 - `intervention-proposals/118-uplift-consumer-chain-asymmetry-next-proposal.md`
 - `intervention-proposals/119-uplift-consumer-chain-asymmetry-classification-return.md`
 - `intervention-proposals/120-transition-state-uplift-continuity-first-slice-proposal.md`
+- `intervention-proposals/121-transition-state-uplift-continuity-first-slice-implementation.md`
+- `propagation-audit/44-transition-state-uplift-continuity-change-triggered-refresh.md`
 - repo-local uplift outputs:
   - `.planning/UPLIFT-REPORT.md`
   - `.planning/UPLIFT-MANIFEST.json`
@@ -219,6 +221,7 @@ Status: active inventory
 - `propagation-audit/43-uplift-compatibility-annotation-change-triggered-refresh.md`
 - `propagation-audit/39-propagation-review-route-change-triggered-refresh.md`
 - `propagation-audit/40-propagation-review-route-harden-change-triggered-refresh.md`
+- `propagation-audit/44-transition-state-uplift-continuity-change-triggered-refresh.md`
 - `propagation-audit/launch-truth/07-propagation-review-route-reread-launch-truth.md`
 - `propagation-audit/outputs/07-propagation-review-route-reread-opus47-max-r1.md`
 - `propagation-audit/dispositions/07-propagation-review-route-reread-inheritance.md`

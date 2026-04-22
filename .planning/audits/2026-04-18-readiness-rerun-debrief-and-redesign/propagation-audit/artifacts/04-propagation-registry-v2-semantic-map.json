@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "9722ad9",
+  "basis_commit": "d7b2d7c",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -228,7 +228,7 @@
       "id": "project_uplift",
       "family": "helper",
       "path": "tooling/codex/project_uplift.py",
-      "role": "authoritative uplift producer, observed-basis compatibility anchor owner, held runtime annotation owner, compatibility-drift router, shared seed-shape contract carrier, seed-corpus posture scanner, current-version shape-gap detector, and progress-note source for operator-facing seed visibility plus bounded specialist-packet disclosure with candidate breakdown and inspect/write command split when migration candidates are present",
+      "role": "authoritative uplift producer, observed-basis compatibility anchor owner, held runtime annotation owner, compatibility-drift router, top-level Project Uplift slot writer, shared seed-shape contract carrier, seed-corpus posture scanner, current-version shape-gap detector, and progress-note source for operator-facing seed visibility plus bounded specialist-packet disclosure with candidate breakdown and inspect/write command split when migration candidates are present",
       "support_mode": "roster_plus_producer_report",
       "evidence_refs": [
         "uplift_manifest_current",
@@ -239,7 +239,9 @@
         "project_uplift_contract_tests",
         "seed_migration_harden_impl_88",
         "seed_migration_pointer_bridge_impl_90",
-        "seed_migration_bridge_harden_impl_92"
+        "seed_migration_bridge_harden_impl_92",
+        "transition_state_uplift_impl_121",
+        "transition_state_uplift_tests"
       ]
     },
     {
@@ -409,11 +411,13 @@
       "id": "transition_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/transition.md",
-      "role": "operator-facing transition workflow carrying future-preservation close-boundary review and state-digest upkeep",
+      "role": "operator-facing transition workflow carrying future-preservation close-boundary review, state-digest upkeep, and bounded project-uplift preserve/refresh continuity at phase close",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
-        "transition_lifecycle_carry_impl_58"
+        "transition_lifecycle_carry_impl_58",
+        "transition_state_uplift_impl_121",
+        "transition_state_uplift_tests"
       ]
     },
     {
@@ -480,11 +484,13 @@
       "id": "state_template_overlay",
       "family": "template_shape",
       "path": "tooling/portable-gsd/overlay/get-shit-done/templates/state.md",
-      "role": "state continuity template carrying the compact Future Carry Forward digest shape",
+      "role": "state continuity template carrying the compact Future Carry Forward digest shape plus the top-level Project Uplift continuity slot",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
-        "transition_lifecycle_carry_impl_58"
+        "transition_lifecycle_carry_impl_58",
+        "transition_state_uplift_impl_121",
+        "transition_state_uplift_tests"
       ]
     },
     {
@@ -519,12 +525,13 @@
       "id": "state_md",
       "family": "state_continuity",
       "path": ".planning/STATE.md",
-      "role": "multi-owner continuity surface carrying accumulated context, future-carry digest, and session continuity",
+      "role": "multi-owner continuity surface carrying accumulated context, future-carry digest, top-level Project Uplift continuity, and session continuity",
       "support_mode": "semantic_plus_producer_report",
       "evidence_refs": [
         "uplift_manifest_current",
         "transition_lifecycle_carry_impl_58",
-        "state_progress_resume_future_carry_impl_62"
+        "state_progress_resume_future_carry_impl_62",
+        "transition_state_uplift_impl_121"
       ]
     },
     {
@@ -1034,7 +1041,8 @@
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
-        "transition_lifecycle_carry_impl_58"
+        "transition_lifecycle_carry_impl_58",
+        "transition_state_uplift_impl_121"
       ],
       "status": "mapped"
     },
@@ -1058,7 +1066,8 @@
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
-        "transition_lifecycle_carry_impl_58"
+        "transition_lifecycle_carry_impl_58",
+        "transition_state_uplift_impl_121"
       ],
       "status": "mapped"
     },
@@ -1099,10 +1108,12 @@
       "id": "transition_workflow_to_state_template",
       "from": "transition_workflow",
       "to": "state_template_overlay",
-      "kind": "workflow_routes_state_digest_shape",
+      "kind": "workflow_routes_state_digest_shape_and_project_uplift_continuity_slot",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
-        "transition_lifecycle_carry_impl_58"
+        "transition_lifecycle_carry_impl_58",
+        "transition_state_uplift_impl_121",
+        "transition_state_uplift_tests"
       ],
       "status": "mapped"
     },
@@ -1110,10 +1121,24 @@
       "id": "transition_workflow_to_state",
       "from": "transition_workflow",
       "to": "state_md",
-      "kind": "workflow_updates_state_continuity",
+      "kind": "workflow_updates_state_continuity_and_project_uplift_digest",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
-        "transition_lifecycle_carry_impl_58"
+        "transition_lifecycle_carry_impl_58",
+        "transition_state_uplift_impl_121",
+        "transition_state_uplift_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "transition_workflow_to_uplift_helper",
+      "from": "transition_workflow",
+      "to": "project_uplift",
+      "kind": "bounded_refresh_path_invokes_helper_when_uplift_basis_moves",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "transition_state_uplift_impl_121",
+        "transition_state_uplift_tests"
       ],
       "status": "mapped"
     },
@@ -1157,10 +1182,12 @@
       "id": "helper_to_state",
       "from": "project_uplift",
       "to": "state_md",
-      "kind": "durable_state_section_write",
+      "kind": "durable_state_section_write_with_declared_project_uplift_slot",
       "support_mode": "semantic_plus_producer_report",
       "evidence_refs": [
-        "uplift_manifest_current"
+        "uplift_manifest_current",
+        "transition_state_uplift_impl_121",
+        "transition_state_uplift_tests"
       ],
       "status": "mapped"
     },

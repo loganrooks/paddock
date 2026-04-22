@@ -258,6 +258,12 @@ For each lane, keep this tuple explicit:
   - [launch-truth/12-transition-state-uplift-continuity-first-slice-proposal-reread-launch-truth.md](launch-truth/12-transition-state-uplift-continuity-first-slice-proposal-reread-launch-truth.md)
   - [outputs/16-transition-state-uplift-continuity-first-slice-proposal-reread-opus47-max-r1.md](outputs/16-transition-state-uplift-continuity-first-slice-proposal-reread-opus47-max-r1.md)
   - [dispositions/16-transition-state-uplift-continuity-first-slice-proposal-reread-inheritance.md](dispositions/16-transition-state-uplift-continuity-first-slice-proposal-reread-inheritance.md)
+- [d:r:i] That first ≤2-carrier implementation slice is now landed too:
+  - [../intervention-proposals/121-transition-state-uplift-continuity-first-slice-implementation.md](../intervention-proposals/121-transition-state-uplift-continuity-first-slice-implementation.md)
+- [d:r:i] The next adjacent move is no longer the transition/state pair itself.
+- [d:r:i] The next adjacent move is the next `119` priority choice on the cleaner baseline:
+  - milestone-boundary pair through a shared reference
+  - or `health.md` as the next single-carrier deepen-in-place route
 - [d:r:i] The next bounded move is now the implementation slice for the transition/state pair, not another proposal reread loop.
   is now no longer the active next object by itself; its first slice landed in `116`, and lane-10 has now inherited the adjacent field opened by that slice.
 - [d:r:i] The current adjacent move is now the per-carrier classification return in:

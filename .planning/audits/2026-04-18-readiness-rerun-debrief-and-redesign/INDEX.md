@@ -129,6 +129,8 @@
   - [intervention-proposals/118-uplift-consumer-chain-asymmetry-next-proposal.md](intervention-proposals/118-uplift-consumer-chain-asymmetry-next-proposal.md)
   - [intervention-proposals/119-uplift-consumer-chain-asymmetry-classification-return.md](intervention-proposals/119-uplift-consumer-chain-asymmetry-classification-return.md)
   - [intervention-proposals/120-transition-state-uplift-continuity-first-slice-proposal.md](intervention-proposals/120-transition-state-uplift-continuity-first-slice-proposal.md)
+  - [intervention-proposals/121-transition-state-uplift-continuity-first-slice-implementation.md](intervention-proposals/121-transition-state-uplift-continuity-first-slice-implementation.md)
+  - [propagation-audit/44-transition-state-uplift-continuity-change-triggered-refresh.md](propagation-audit/44-transition-state-uplift-continuity-change-triggered-refresh.md)
   - [entry-uplift-audit/dispositions/04-landed-project-uplift-first-slice-reread-inheritance.md](entry-uplift-audit/dispositions/04-landed-project-uplift-first-slice-reread-inheritance.md)
   - [entry-uplift-audit/dispositions/14-uplift-cross-runtime-post-annotation-next-move-inheritance.md](entry-uplift-audit/dispositions/14-uplift-cross-runtime-post-annotation-next-move-inheritance.md)
   - [entry-uplift-audit/dispositions/15-uplift-consumer-chain-asymmetry-proposal-reread-inheritance.md](entry-uplift-audit/dispositions/15-uplift-consumer-chain-asymmetry-proposal-reread-inheritance.md)

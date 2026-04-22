@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "9722ad9",
+  "basis_commit": "d7b2d7c",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -57,15 +57,15 @@
     {
       "id": "transition_future_preservation_contract",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/transition.md",
-      "validator": "tooling/codex/portable_gsd_contract.py",
-      "contract_kind": "transition-side future-preservation carry and state-digest upkeep semantics",
+      "validator": "tooling/codex/tests/test_transition_uplift_continuity.py",
+      "contract_kind": "transition-side future-preservation carry plus project-uplift continuity preserve/refresh semantics",
       "families_touched": [
         "install_overlay",
         "workflow_output",
         "template_shape",
         "state_continuity"
       ],
-      "claim_boundary": "declares how plan-side future_preservation is reread at phase close, how the four carry buckets are dispositioned, and how the compact Future Carry Forward digest remains explicit in project state"
+      "claim_boundary": "declares how plan-side future_preservation is reread at phase close, how the four carry buckets are dispositioned, how the compact Future Carry Forward digest remains explicit in project state, and how the top-level Project Uplift digest is preserved or refreshed without widening STATE.md into a structural compatibility carrier"
     },
     {
       "id": "milestone_boundary_future_carry_contract",
@@ -215,7 +215,7 @@
         "state_continuity",
         "install_pristine"
       ],
-      "claim_boundary": "declares how project_uplift keeps .codex as the observed runtime basis, records .claude as a held runtime annotation rather than a relabeled top-level basis, preserves that distinction in uplift report/manifest/state output, and routes held-runtime annotation movement into the read-only progress/resume consumer path without widening into matrix or translation claims"
+      "claim_boundary": "declares how project_uplift keeps .codex as the observed runtime basis, records .claude as a held runtime annotation rather than a relabeled top-level basis, preserves that distinction in uplift report/manifest/state output, fills the declared top-level Project Uplift slot in place, and routes held-runtime annotation movement into the read-only progress/resume plus transition continuity path without widening into matrix or translation claims"
     },
     {
       "id": "seed_audit_gate_contract",
