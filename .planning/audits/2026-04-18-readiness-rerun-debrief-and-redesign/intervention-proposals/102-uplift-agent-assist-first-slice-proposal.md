@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: reference landed via `103`; route-hook hold remains open
+Status: reference, route pointer, and docs-governance runtime-proof landed
 
 # Uplift Agent-Assist First Slice Proposal
 
@@ -97,4 +97,5 @@ Status: reference landed via `103`; route-hook hold remains open
   - `docs_governance_classification`
   - `carrier_gap_identification`
 - [d:r:i] The narrow operator-initiated route pointer is now landed in the live uplift route.
-- [d:r:i] The next bounded move is now a later runtime-proof or later assist-family slice, not first-discoverability work.
+- [d:r:i] The `docs_governance_classification` pattern now also has one live-trigger runtime-proof and the resulting parent-thread durable refresh.
+- [d:r:i] The next bounded move is now later assist-family widening or other bounded uplift follow-through, not first-proof or first-discoverability work.

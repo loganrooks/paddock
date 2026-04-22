@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-04-22T02:41:49+00:00",
+  "generated_at": "2026-04-22T04:41:12+00:00",
   "mode": "detect-only",
   "last_uplift_class": "cross-runtime uplift",
   "last_uplift_secondary_signals": [
@@ -13,8 +13,8 @@
     "mid_phase_signal": true,
     "note": "phase CONTEXT carries explicit rerun-boundary posture"
   },
-  "doctrine_reference_hash": "ba0b349e5ccb4a49cc03aac5b83af9e5a6b42ff7626f7f1514cfcf4c41980574",
-  "project_fingerprint_hash": "01767a909e07fb52047cf23b0c1db5cd14f559e647f7b3e66ee5b2c744fbb013",
+  "doctrine_reference_hash": "5caf65641c559023c995f74395e08f5701cd8a506dd9e6d7d70e64953f3f30f2",
+  "project_fingerprint_hash": "6f7cfec68fb473527be45d8f8f9560b67eed1ca4ba1c971c22e4bb397ea2a417",
   "current_status": "planning",
   "runtime_dirs": [
     ".codex",
@@ -129,7 +129,7 @@
       "present": true,
       "status": "present",
       "fingerprint_shape": "content_sha256",
-      "fingerprint": "d25812b6a68fc502b4a3ec0c75852eccfc622dc74e766d63a4af3ce21b2f2c4a",
+      "fingerprint": "bb4b0e82b28c65e1725735a22eca3d460303bc51167ad797ff217e985ad20aa1",
       "note": "file carrier present"
     },
     {
@@ -140,7 +140,7 @@
       "present": true,
       "status": "present",
       "fingerprint_shape": "content_sha256",
-      "fingerprint": "354de6a3a0ca9cb3e311e618dd7b5f0abe52afa5e6649e57617b092dc9dcf200",
+      "fingerprint": "1c33fa86628b3fbfcaf03907397fb092f44f2a0180b9c8abab62881b47052b6e",
       "note": "file carrier present"
     },
     {
@@ -217,7 +217,7 @@
       "present": true,
       "status": "present",
       "fingerprint_shape": "inventory_item_hash",
-      "fingerprint": "e7c0722be8c48f4cfeb26920cff89c0fd4ee8343ec7830117bdc9f13f3b50283",
+      "fingerprint": "2b8e98edfcdca8d631d3ba0a39374047c1067cd470107f26df2850e09769446e",
       "note": "file carrier present"
     },
     {

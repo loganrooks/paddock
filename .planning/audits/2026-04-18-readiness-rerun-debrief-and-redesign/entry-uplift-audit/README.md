@@ -139,4 +139,9 @@ For each lane, keep this tuple explicit:
   - [../intervention-proposals/107-uplift-carrier-gap-identification-second-exercise.md](../intervention-proposals/107-uplift-carrier-gap-identification-second-exercise.md)
 - [d:r:i] The narrow live route pointer is now landed in the live uplift workflow:
   - [../intervention-proposals/108-uplift-assist-route-pointer-first-slice-implementation.md](../intervention-proposals/108-uplift-assist-route-pointer-first-slice-implementation.md)
-- [d:r:i] The current adjacent move is now one bounded later runtime-proof or later assist-family slice, with the route-pointer movement also carried into the propagation family.
+- [d:r:i] The `docs_governance_classification` pattern now also has one live-trigger runtime-proof:
+  - [packets/10-uplift-docs-governance-classification-runtime-proof-packet.md](packets/10-uplift-docs-governance-classification-runtime-proof-packet.md)
+  - [outputs/09-uplift-docs-governance-classification-runtime-proof.md](outputs/09-uplift-docs-governance-classification-runtime-proof.md)
+  - [dispositions/09-uplift-docs-governance-classification-runtime-proof-disposition.md](dispositions/09-uplift-docs-governance-classification-runtime-proof-disposition.md)
+  - [../intervention-proposals/109-uplift-docs-governance-runtime-proof-and-refresh.md](../intervention-proposals/109-uplift-docs-governance-runtime-proof-and-refresh.md)
+- [d:r:i] The current adjacent move is now later assist-family widening or other bounded uplift follow-through, with the resulting durable-refresh movement also carried into the propagation family.

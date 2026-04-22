@@ -138,4 +138,5 @@ Status: landed bounded reference
   - `docs_governance_classification`
   - `carrier_gap_identification`
 - [d:r:i] The narrow live route pointer is now landed in `uplift-project.md`.
-- [d:r:i] The next adjacent move is now one bounded later runtime-proof or later assist-family slice, not first route discoverability.
+- [d:r:i] The `docs_governance_classification` pattern now also has one live-trigger runtime-proof plus the resulting parent-thread durable refresh.
+- [d:r:i] The next adjacent move is now later assist-family widening or other bounded uplift follow-through, not first route discoverability or first runtime-proof work.

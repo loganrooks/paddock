@@ -111,6 +111,8 @@ Status: active proposal/disposition batch
 101. `101-repo-local-workflow-additions-and-propagation-map-orientation.md`
 102. `102-uplift-agent-assist-first-slice-proposal.md`
 103. `103-uplift-agent-assist-patterns.md`
+108. `108-uplift-assist-route-pointer-first-slice-implementation.md`
+109. `109-uplift-docs-governance-runtime-proof-and-refresh.md`
 
 ## Proposal Rule
 
@@ -137,6 +139,8 @@ Status: active proposal/disposition batch
 - [d:r:i] `101` now keeps the current repo-local workflow additions and the stable-versus-evolving propagation-map split explicit in one compact operator note instead of leaving those answers distributed across `93/95/96` plus the workflow files.
 - [d:r:i] `102` now turns the remaining uplift-agent question into one bounded next route: define assist patterns for narrower uplift subproblems while keeping the composition layer and final uplift judgment in the parent thread.
 - [d:r:i] `103` now lands that assist-pattern reference itself: allowed uplift subproblem shapes, packet expectations, write boundaries, disposition rules, and the split between Codex subagents for bounded repo-local packet work versus Opus lanes for later widening/challenge work.
+- [d:r:i] `108` now records the landed narrow route pointer itself: the live uplift workflow now points at the assist-family reference plus the two exercised packet templates while still preserving detect-only posture and parent-thread ownership.
+- [d:r:i] `109` now records the live-trigger docs-governance runtime-proof plus the resulting parent-thread durable uplift refresh, so later assist-family widening no longer needs to re-prove that one of the named patterns can answer a real live trigger.
 - [d:r:i] `43` now records the bounded compatibility follow-through inside that same uplift chain: the durable uplift outputs carry an observed-basis compatibility anchor without widening into a broader version-window claim.
 - [d:r:i] `44` now records the consumer-chain follow-through that keeps the compatibility anchor from remaining only as stored uplift memory.
 - [d:r:i] `45` now sequences the first harness-improvement follow-through tranche after the full-field Opus widening: canary/invariant assertion first, audit-program infrastructure second, standing self-improvement register third.

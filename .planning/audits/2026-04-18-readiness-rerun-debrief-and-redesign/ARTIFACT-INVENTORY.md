@@ -259,6 +259,7 @@ Status: active inventory
 - `intervention-proposals/106-uplift-docs-governance-classification-first-exercise.md`
 - `intervention-proposals/107-uplift-carrier-gap-identification-second-exercise.md`
 - `intervention-proposals/108-uplift-assist-route-pointer-first-slice-implementation.md`
+- `intervention-proposals/109-uplift-docs-governance-runtime-proof-and-refresh.md`
 - `entry-uplift-audit/packets/06-uplift-docs-governance-classification-packet-template.md`
 - `entry-uplift-audit/packets/07-uplift-docs-governance-classification-first-exercise-packet.md`
 - `entry-uplift-audit/outputs/06-uplift-docs-governance-classification-first-exercise.md`
@@ -268,9 +269,13 @@ Status: active inventory
 - `entry-uplift-audit/dispositions/07-uplift-assist-post-first-exercise-next-move-inheritance.md`
 - `entry-uplift-audit/packets/08-uplift-carrier-gap-identification-packet-template.md`
 - `entry-uplift-audit/packets/09-uplift-carrier-gap-identification-second-exercise-packet.md`
+- `entry-uplift-audit/packets/10-uplift-docs-governance-classification-runtime-proof-packet.md`
 - `entry-uplift-audit/outputs/08-uplift-carrier-gap-identification-second-exercise.md`
+- `entry-uplift-audit/outputs/09-uplift-docs-governance-classification-runtime-proof.md`
 - `entry-uplift-audit/dispositions/08-uplift-carrier-gap-identification-second-exercise-disposition.md`
+- `entry-uplift-audit/dispositions/09-uplift-docs-governance-classification-runtime-proof-disposition.md`
 - `propagation-audit/41-uplift-assist-route-pointer-change-triggered-refresh.md`
+- `propagation-audit/42-uplift-docs-governance-runtime-proof-change-triggered-refresh.md`
 
 ## Challenge And Output Subtrees
 

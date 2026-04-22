@@ -29,7 +29,7 @@ Status: active durable register
   - current pressure: keep widening repeated reinstall durability without confusing repo-local repair with upstream installer control
 - [d:r:i] Uplift / propagation consumer completion
   - current state: upstream-pristine baseline plus repo-local delta pair are now explicit through `95` and `96`, the first operator-facing propagation-review route is now landed through `97` and `98`, its first bounded reread is now inherited through lane `07`, and its harden follow-through is now landed through `99`, `100`, and `40`
-  - current pressure: keep the cleaner route, keep the newly landed uplift-assist pointer explicit in the propagation family, and only then widen toward later runtime-proof or later assist-family movement
+  - current pressure: keep the cleaner route, keep the uplift-assist pointer plus docs-governance runtime-proof explicit in the propagation family, and only then widen toward later assist-family movement
 - [d:r:i] Durable-memory / vintage / decay semantics
   - current pressure: make staleness and movement over time more visible across durable artifacts
 - [d:r:i] Safety / cost / privacy carriers
@@ -45,7 +45,7 @@ Status: active durable register
 - [d:r:i] Standing self-improvement register growth beyond this first slice
 - [d:r:i] Explicit canon-absorption use on later landed intervention families
 - [d:r:i] Bounded uplift-agent-assist patterning that keeps composition-layer judgment in the parent thread while delegation sharpens narrower uplift subproblems
-- [d:r:i] After the first two exercised uplift-assist patterns and the landed narrow route pointer, widen next into a later runtime-proof or other assist family rather than back into first-discoverability work
+- [d:r:i] After the first two exercised uplift-assist patterns, the landed narrow route pointer, and the landed docs-governance runtime-proof, widen next into a later assist family or other bounded uplift follow-through rather than back into first-discoverability or first-proof work
 
 ## Ownerless Concerns
 

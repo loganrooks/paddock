@@ -349,6 +349,18 @@
       "evidence_lane": "change_triggered_refresh",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/40-propagation-review-route-harden-change-triggered-refresh.md",
       "note": "typed v2 refresh that keeps the route-hardening follow-through explicit instead of leaving note-placement and disposition semantics ambient in the workflow diff alone"
+    },
+    {
+      "id": "uplift_docs_governance_runtime_proof_109",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/109-uplift-docs-governance-runtime-proof-and-refresh.md",
+      "note": "landed live-trigger docs-governance runtime-proof plus the parent-thread durable uplift refresh it classified"
+    },
+    {
+      "id": "uplift_docs_governance_runtime_proof_refresh_42",
+      "evidence_lane": "change_triggered_refresh",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/42-uplift-docs-governance-runtime-proof-change-triggered-refresh.md",
+      "note": "change-triggered propagation refresh that keeps the live-trigger docs-governance runtime-proof plus the resulting durable uplift refresh explicit"
     }
   ]
 }
