@@ -1361,3 +1361,27 @@
   - keep `.claude` as held annotation
   - land `138` as the next bounded in-repo step
   - keep repo split, npm packaging, and wider support-window claims later
+
+## 2026-04-22 `extraction-audit lane-03`
+
+- date: `2026-04-22`
+- purpose: bounded Opus reread over the landed first specialist overlay source split so the extraction family can judge what the new source/install/materialization split now clarifies, what still stays blurred, and what next slice it now earns before any second overlay tranche or standalone widening
+- frozen launch basis commit: `ed3a17b`
+- requested model / reasoning: `opus[1m]` / `xhigh`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- prompt artifact: [extraction-audit/prompts/03-harness-modifier-first-overlay-filesystem-rehome-reread-opus47-max-r1-launch-prompt.md](extraction-audit/prompts/03-harness-modifier-first-overlay-filesystem-rehome-reread-opus47-max-r1-launch-prompt.md)
+- governing spec: [extraction-audit/specs/03-harness-modifier-first-overlay-filesystem-rehome-reread-spec.md](extraction-audit/specs/03-harness-modifier-first-overlay-filesystem-rehome-reread-spec.md)
+- governing packet: [extraction-audit/packets/03-harness-modifier-first-overlay-filesystem-rehome-reread-packet.md](extraction-audit/packets/03-harness-modifier-first-overlay-filesystem-rehome-reread-packet.md)
+- launch-truth artifact: [extraction-audit/launch-truth/03-harness-modifier-first-overlay-filesystem-rehome-reread-launch-truth.md](extraction-audit/launch-truth/03-harness-modifier-first-overlay-filesystem-rehome-reread-launch-truth.md)
+- output artifact: [extraction-audit/outputs/03-harness-modifier-first-overlay-filesystem-rehome-reread-opus47-max-r1.md](extraction-audit/outputs/03-harness-modifier-first-overlay-filesystem-rehome-reread-opus47-max-r1.md)
+- pre-launch estimate:
+  - `10-16 minutes`
+- current state:
+  - running
+  - the lane is intentionally narrower than lane `02`
+  - it challenges the landed first specialist source split itself, not standalone extraction appetite
+- repo-local artifacts:
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/03/probe-summary.txt`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/03/extraction-audit-03-20260422-171221.lakfwtu5.stream.jsonl`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/03/extraction-audit-03-20260422-171221.289tdxux.stderr.log`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/03/extraction-audit-03-20260422-171221.6tk25w9u.debug.log`
