@@ -95,6 +95,18 @@ Status: active audit-program infrastructure surface
   - `intervention-proposals/45-harness-improvement-follow-through-sequencing.md`
   - latest landed `49-54` family slices
 
+### `workspace-state-audit/`
+
+- [d:r:i] Status: active companion
+- [d:r:i] Why:
+  - the opening workspace-state lane is now completed and inherited
+  - its first governance carries now live in the harness register and lane-pattern library rather than only in the subtree
+  - later rereads of current-machine state, horizon routing, or bounded parallelization should still start here
+- [d:r:i] Default reread path:
+  - `workspace-state-audit/dispositions/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-inheritance.md`
+  - `../../HARNESS-IMPROVEMENT-REGISTER.md`
+  - `AUDIT-LANE-PATTERN-LIBRARY.md`
+
 ## Current Local Consequence
 
 - [d:r:i] This register is now the quickest route for deciding which audit subtree should still be a default reread path and which should be treated more as companion or trace.

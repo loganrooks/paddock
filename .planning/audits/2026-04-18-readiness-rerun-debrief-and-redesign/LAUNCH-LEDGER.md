@@ -1260,3 +1260,36 @@
   - keep `$gsd-review` as the primary route
   - land one helper-backed run-home / launch-truth / timing / salvage layer beneath it
   - keep later subject-keyed split, retry, telemetry, and parity widening explicit but held later
+
+## 2026-04-22 `workspace-state-audit lane-01`
+
+- date: `2026-04-22`
+- purpose: bounded Opus audit over the current governed workspace state so the machine's horizon-routing, deferred/held/doctrine carriers, and bounded parallelization posture become explicit before more widening or helper work lands
+- frozen launch basis commit: `0ab6040`
+- requested model / reasoning: `opus[1m]` / `xhigh`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth:
+  - [workspace-state-audit/launch-truth/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-launch-truth.md](workspace-state-audit/launch-truth/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-launch-truth.md)
+- output:
+  - [workspace-state-audit/outputs/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-opus47-max-r1.md](workspace-state-audit/outputs/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-opus47-max-r1.md)
+- inheritance:
+  - [workspace-state-audit/dispositions/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-inheritance.md](workspace-state-audit/dispositions/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-inheritance.md)
+- timing estimate:
+  - `18-28 minutes`
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `537.455`
+  - session id: `9627340c-de62-4a2d-8649-e4d1888fed2e`
+  - total cost usd: `3.72271175`
+  - repo-local artifacts:
+    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/workspace-state-audit/logs/01/probe-summary.txt`
+    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/workspace-state-audit/logs/01/workspace-state-audit-01-20260422-124201.mu7didx3.stream.jsonl`
+    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/workspace-state-audit/logs/01/workspace-state-audit-01-20260422-124201.5zmiqdnf.stderr.log`
+    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/workspace-state-audit/logs/01/workspace-state-audit-01-20260422-124201.fny2p7js.debug.log`
+- timing calibration:
+  - actual runtime was much shorter than the `18-28 minute` estimate at roughly `9.0 minutes`; the lane behaved like a bounded current-machine reread rather than a broader multi-family widening pass
+- disposition:
+  - `accept with landed governance carry`
+  - land `Horizon Routing` in the harness register
+  - land `Bounded Parallelization And Overlap` in the lane-pattern library
+  - keep `CURRENT-STATE.md` active-baseline split, compaction/continuation mirroring, and `.planning/AGENTS.md` promotion explicitly later

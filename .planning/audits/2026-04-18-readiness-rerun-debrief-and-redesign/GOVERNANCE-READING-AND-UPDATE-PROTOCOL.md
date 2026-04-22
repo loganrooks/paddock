@@ -165,6 +165,8 @@ Read:
   - the next adjacent choice
   - the minimal reread set for that family
 - [d:r:i] When deeper detail is useful but not always needed, prefer a supporting trace or family-specific note over expanding the short synthesis.
+- [d:r:i] When a harness-improvement family lives inside a host-product repo, mark loaded surfaces as `host-project context`, `shared boundary`, or `harness doctrine`.
+- [d:r:i] Do not let a product-level planning doc become default harness doctrine just because it is nearby in the same repo.
 
 ## Current Local Application
 

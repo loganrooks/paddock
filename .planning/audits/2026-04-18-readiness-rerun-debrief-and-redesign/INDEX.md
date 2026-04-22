@@ -270,6 +270,7 @@
   - [intervention-proposals/113-uplift-cross-runtime-concern-family-split-next-move.md](intervention-proposals/113-uplift-cross-runtime-concern-family-split-next-move.md)
   - [intervention-proposals/114-uplift-cross-runtime-compatibility-widening-shape-proposal.md](intervention-proposals/114-uplift-cross-runtime-compatibility-widening-shape-proposal.md)
   - [intervention-proposals/115-harness-modifier-extraction-and-npx-distribution-route.md](intervention-proposals/115-harness-modifier-extraction-and-npx-distribution-route.md)
+  - [intervention-proposals/136-harness-extraction-escalation-and-scope-boundary-note.md](intervention-proposals/136-harness-extraction-escalation-and-scope-boundary-note.md)
   - [entry-uplift-audit/packets/15-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-packet.md](entry-uplift-audit/packets/15-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-packet.md)
   - [entry-uplift-audit/specs/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-spec.md](entry-uplift-audit/specs/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-spec.md)
   - [entry-uplift-audit/prompts/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1-launch-prompt.md](entry-uplift-audit/prompts/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1-launch-prompt.md)
@@ -331,7 +332,10 @@
   - [workspace-state-audit/packets/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-packet.md](workspace-state-audit/packets/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-packet.md)
   - [workspace-state-audit/specs/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-spec.md](workspace-state-audit/specs/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-spec.md)
   - [workspace-state-audit/prompts/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-opus47-max-r1-launch-prompt.md](workspace-state-audit/prompts/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-opus47-max-r1-launch-prompt.md)
+  - [workspace-state-audit/launch-truth/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-launch-truth.md](workspace-state-audit/launch-truth/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-launch-truth.md)
   - [workspace-state-audit/outputs/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-opus47-max-r1.md](workspace-state-audit/outputs/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-opus47-max-r1.md)
+  - [workspace-state-audit/dispositions/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-inheritance.md](workspace-state-audit/dispositions/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-inheritance.md)
+  - [intervention-proposals/136-harness-extraction-escalation-and-scope-boundary-note.md](intervention-proposals/136-harness-extraction-escalation-and-scope-boundary-note.md)
 
 ## Current Session Rule
 

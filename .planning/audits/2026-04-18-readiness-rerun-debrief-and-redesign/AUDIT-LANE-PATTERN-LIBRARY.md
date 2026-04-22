@@ -74,6 +74,35 @@ Status: active audit-program infrastructure surface
 - [d:r:i] The task is not perfect prediction.
 - [d:r:i] The task is to build a less naive local runtime model over repeated lanes.
 
+## Bounded Parallelization And Overlap
+
+- [g:r:i] Treat parallelization as bounded overlap discipline, not as generic appetite for more moving parts.
+- [d:r:i] Earned patterns:
+  - external-lane overlap:
+    - while one long-running external lane reads a frozen basis, land unrelated propagation refreshes, subtree-status updates, launch-ledger housekeeping, or other bounded governance carry that does not touch the lane basis
+  - narrower delegated work with parent-thread composition ownership:
+    - use sub-agents for bounded classification, packet assembly, or gap-identification work while the parent thread keeps composition-layer judgment and inheritance
+  - change-triggered refresh cadence:
+    - let mechanical refresh notes travel alongside landed slices instead of waiting for one giant catch-up pass
+  - bounded reread on a frozen landed slice:
+    - launch one narrow challenge lane against a coherent checkpoint while adjacent unrelated families continue
+- [d:r:i] Forbidden overlaps:
+  - editing the packet, spec, prompt, or core governed basis a live lane is currently reading
+  - changing governance-role surfaces during a live lane when the lane depends on those role definitions
+  - refmap or topology rewrites that could invalidate the lane's frozen basis or artifact paths
+  - crossing a larger program boundary, especially the Phase 01 rerun boundary, while a lane is still returning on the prior governed baseline
+- [d:r:i] Companion carry during a live external lane:
+  - unrelated propagation change-triggered refreshes
+  - subtree-status or README force updates for other families
+  - launch-ledger and launch-truth housekeeping on earlier completed lanes
+  - durable-register updates when a family's state shifts independently of the live lane
+  - bounded verification or artifact-hygiene cleanup that does not touch the lane basis
+- [d:r:i] Recheck rule:
+  - use the timing estimate above as the first recheck window
+  - if companion carry finishes before that window, check the lane rather than idling on user reply
+  - if there is nothing safe and useful left to do, wait on the lane instead of manufacturing filler work
+- [d:r:i] Read this section together with `Timing estimate`; one governs when to check, the other governs what can safely travel while waiting.
+
 ### Output
 
 - [g:r:i] Preserve reviewer output as output, not as already-adopted doctrine.

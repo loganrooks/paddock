@@ -34,6 +34,20 @@ Date: 2026-04-19
 - [d:c+i] Lane-03 answered a narrow question because its spec asked whether corpus distinctions changed recommendation, warrant, salience, or only rephrased, and its own output flags both coarse-category risk and doctrine-friendly case selection as failure modes. Sources: .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md:17-28, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/OPUS-CORPUS-VOCABULARY-STRESS-TEST-SPEC.md:160-187, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/lane-03-opus47-max-corpus-vocabulary-stress-test.md:303-311, .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/lane-03-opus47-max-corpus-vocabulary-stress-test.md:317-333.
 - [d:r:i] Therefore lane-03 is authoritative only on the narrow question it actually tested: no immediate corpus-to-doctrine promotion was earned on those three cases. It is not a general warrant for non-change, non-operationalization, or no further inheritance work.
 
+## Host Project Context Versus Harness Modifier Scope
+
+- [g:r:i] This audit workspace lives inside the `prix-guesser` repo, but the harness-uplift program carried here is not identical to the `prix-guesser` product-planning surface.
+- [d:r:i] Product-side planning docs such as `.planning/LONG-ARC.md`, `.planning/ROADMAP.md`, `.planning/STATE.md`, and readiness/rerun canon remain host-project context unless a slice explicitly crosses into product planning, rerun coupling, or entry / re-entry integration.
+- [d:r:i] For harness-uplift work, short / medium / long horizons mean:
+  - immediate harness slice
+  - near-term harness family queue
+  - longer-horizon harness doctrine, extraction, propagation, and distribution direction
+- [d:r:i] When a read set mixes surfaces from both scopes, mark each one as:
+  - `host-project context`
+  - `shared boundary`
+  - `harness doctrine`
+- [d:r:i] Do not let a nearby host-project planning doc become default harness doctrine merely because the harness-improvement work is currently co-located in the same repository.
+
 ## Authority Classes
 
 ### 1. Governing Setup Spine

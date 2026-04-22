@@ -17,6 +17,7 @@ Status: active bounded future route
   - [95-upstream-pristine-propagation-baseline-first-slice.md](95-upstream-pristine-propagation-baseline-first-slice.md)
   - [96-repo-local-propagation-delta-first-slice.md](96-repo-local-propagation-delta-first-slice.md)
 - [d:r:i] That makes later extraction thinkable.
+- [d:r:i] Co-location with host-project planning doctrine now also creates a real scope-leak risk during horizon mapping and audit inheritance, which makes extraction pressure more concrete than abstract packaging appetite alone.
 - [d:r:i] It does not yet make immediate extraction the better move, because the uplift and cross-runtime families are still actively sharpening their contracts.
 
 ## Plausible Later Shape
@@ -27,6 +28,7 @@ Status: active bounded future route
   - installer/update bridge
   - compatibility policy
   - propagation and governance reference surfaces
+  - harness-specific horizon and doctrine surfaces separated from any one host project's product-planning docs
 - [d:r:i] One plausible distribution channel is an npm package with a narrow installer entry such as `npx ...`, where the installer:
   - detects whether supported GSD runtime carriers are present
   - checks the observed runtime version and related manifest truth

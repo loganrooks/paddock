@@ -36,10 +36,39 @@ Status: active durable register
   - current pressure: stop leaving these as ambient rows
 - [d:r:i] Cross-repo distribution
   - current pressure: later portability of repo-local harness gains without forcing it early
-  - current evidence: `115` now keeps separate-repo plus npm/`npx` distribution explicit as a later route while the current uplift/cross-runtime and propagation contracts continue sharpening
+  - current evidence: `115` keeps separate-repo plus npm/`npx` distribution explicit as a later route while the current uplift/cross-runtime and propagation contracts continue sharpening, and `136` now records host-project versus harness scope leakage as concrete extraction pressure rather than ambient future appetite alone
 - [d:r:i] Cross-vendor review-route and audit-lane carry
   - current state: the bounded `gsd-review` route audit is now completed under `review-route-audit/`; lane `01` widened the family beyond a narrow route patch and is now inherited as one helper-backed in-place hardening slice with adjacent later review-workflow routes kept explicit
   - current pressure: land that first helper-versus-workflow slice without flattening the broader review-workflow field back into one command-local fix or silently dropping the later route families the audit surfaced
+
+## Horizon Routing
+
+- [g:r:i] Route findings by carrier type, not by whichever note was most recently open.
+- [d:r:i] `active bounded slice`
+  - carriers: `CURRENT-STATE.md` immediate decision surfaces, `STATUS.md` next pending actions, the live proposal/implementation pair, and any matching change-triggered refresh
+  - use when: the finding is the adjacent next move or is already changing a live contract surface
+  - current example: the review-route helper-backed first slice now routes here after the completed `review-route-audit` lane `01` inheritance
+- [d:r:i] `held later`
+  - carriers: disposition `Keep Explicitly Later`, register `Held Later`, and bounded deferred-note proposals inside the same family
+  - use when: the finding belongs to the current family but should not be executed in the present slice
+  - current example: wider `.claude` install/materialization widening remains held later inside the parity family after `134/135`
+- [d:r:i] `seed`
+  - carriers: `.planning/seeds/SEED-NNN-slug.md`, `plant-seed`, `new-milestone`, and uplift-side seed surfacing
+  - use when: the finding is forward-looking, trigger-bound, and should auto-surface at a later milestone boundary rather than now
+  - current example: the seed family is structurally ready even though the live corpus is presently empty
+- [d:r:i] `deferred / milestone-crossing residue`
+  - carriers: `.planning/STATE.md` deferred items, future-carry-forward residue, and explicit cross-milestone hold notes
+  - use when: the finding should survive the current local family without becoming an always-on doctrine rule or a milestone-open seed trigger
+  - current example: later rerun-floor closure items remain this type until they are actually discharged into their carrying surfaces
+- [d:r:i] `doctrine / protected seam`
+  - carriers: root/planning `AGENTS.md`, provider wrapper translations, harness-governance doctrine, and explicit extraction / portability route notes
+  - use when: the finding should preserve harness-side long-horizon quality, propagation, or protected-seam behavior across many later families
+  - current example: anti-threshold posture and launch-truth discipline live here instead of inside one audit subtree
+  - scope note: host-project planning docs such as `.planning/LONG-ARC.md` are contextual only when a slice truly crosses into product planning, rerun coupling, or entry / re-entry integration; they are not the default long-horizon doctrine carriers for the harness-improvement program itself
+- [d:r:i] `audit-family memory`
+  - carriers: subtree `packets/`, `specs/`, `prompts/`, `launch-truth/`, `outputs/`, and `dispositions/`
+  - use when: the finding should remain inspectable as widening or challenge context without yet being promoted into one of the carriers above
+  - current example: the completed workspace-state lane remains reusable challenge context even after its first governance carries land
 
 ## Current Bounded Next Slices
 
@@ -58,27 +87,17 @@ Status: active durable register
 - [d:r:i] That next bounded move is now landed through `123`, and the matching compatibility-family refresh now also sits in propagation `45`; the adjacent held route remains `health.md` deepen-in-place follow-through rather than another proposal loop around the same milestone-boundary pair.
 - [d:r:i] That adjacent held route is now opened directly in `124`, keeping the next move focused on one repair-facing carrier family before any later broader wrapper-family widening reopens.
 - [d:r:i] Keep the later harness-modifier extraction/distribution route explicit through `115`, but hold actual repo/package split until the present uplift/cross-runtime and propagation contracts travel farther
-- [d:r:i] After the widened `gsd-review` audit lane lands, open one bounded workspace-state reread that maps:
-  - what has been completed
-  - what has been recommended and absorbed
-  - what remains planned
-  - what still sits under-attended relative to later harness uplift
-  - short / medium / long horizon routes from the current governed baseline
-  - how findings should be inherited across horizons:
-    - immediate bounded slice
-    - near-term family queue
-    - preserved seam / doctrine carry
-    - explicit defer / seed / held-later route
-  - where bounded parallelization is earned:
-    - sub-agent delegation
-    - Opus / external-lane overlap with local work
-    - administrative/update/governance work that should be paired with long-running lanes
-  - which governance or operator surfaces should change to support that better:
-    - root / planning `AGENTS.md`
-    - lane-pattern docs
-    - launch/timing discipline
-    - compaction / continuation prompts
-- [d:r:i] That workspace-state reread is now packeted under `workspace-state-audit/` lane `01`; the next move there is to run the bounded Opus lane from the current governed baseline rather than widening the field further in chat.
+- [d:r:i] The workspace-state audit lane `01` is now completed and inherited:
+  - the first landed governance carries are `Horizon Routing` in this register and `Bounded Parallelization And Overlap` in `AUDIT-LANE-PATTERN-LIBRARY.md`
+  - the lane also now sharpens `136`: host-project versus harness scope leakage counts as real extraction pressure, not only future packaging appetite
+  - explicitly later from that lane are:
+    - splitting `CURRENT-STATE.md` `Active Baselines`
+    - mirroring the operator directive into compaction / continuation prompts
+    - promoting horizon-routing into `.planning/AGENTS.md`
+  - the adjacent substantive moves remain:
+    - the helper-backed `gsd-review` first slice
+    - `from-gsd2` as the next uplift-continuity consumer
+    - exercising the landed parity classifier on later real materialization boundaries
 
 ## Ownerless Concerns
 
@@ -94,11 +113,6 @@ Status: active durable register
   - whether generated traces should become governed durable artifacts
   - stay runtime-only and ignored
   - or route through a separate measurement subtree instead of appearing as unmanaged repo drift
-- [o:r:i] explicit horizon-inheritance policy:
-  - when a review finding belongs in `LONG-ARC.md`
-  - when it belongs in `STATE.md` / active next-slice routing
-  - when it belongs in seeds / held-later routes
-  - when it belongs in audit-family memory only
 
 ## Cross-Dimensional Quality Basket
 
@@ -123,6 +137,8 @@ Status: active durable register
 
 - [g:r:i] Keep widening harness quality, maintainability, robustness, propagation carry, governance legibility, and later self-improvement power while the rerun remains paused.
 - [g:r:i] Keep the 2026-04-21 operator directive explicit: no stone left unturned, no opportunity left on the table from laziness, and no local patch treated as complete until neighboring governance, propagation, review, and verification carriers are back in tune.
+- [g:r:i] Keep going automatically through bounded slices, governance carry, and adjacent implementation work rather than pausing on commentary-level checkpoints alone.
+- [g:r:i] If a genuinely significant milestone is reached, especially actual readiness to start the Phase 01 rerun, stop and surface that boundary explicitly instead of rolling past it.
 - [d:r:i] Do not take shortcuts that trade away future control, better routing, or cleaner maintainability merely because the current slice could stop earlier.
 - [d:r:i] Double-check and, where the boundary is still high-consequence, triple-check live helper, workflow, registry, and governance changes before treating them as carried harness truth.
 - [d:r:i] When a slice changes a live helper, script, workflow, registry, or contract boundary, keep following through until the neighboring verification, propagation, and governance carriers are back in tune rather than treating the first local patch as the endpoint.
