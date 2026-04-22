@@ -141,4 +141,5 @@ Status: landed bounded reference
 - [d:r:i] The `docs_governance_classification` pattern now also has one live-trigger runtime-proof plus the resulting parent-thread durable refresh.
 - [d:r:i] The `cross_runtime_comparison_packet` family now also has one reusable packet carrier.
 - [d:r:i] The `cross_runtime_comparison_packet` family now also has its first exercised packet round trip in `112`.
-- [d:r:i] The next adjacent move is now a bounded Opus widening lane over that first packet before any live `.claude` translation or composition judgment.
+- [d:r:i] That Opus widening lane is now completed and inherited through lane `07`.
+- [d:r:i] The next adjacent move is now a bounded concern-family split note and follow-on Opus lane over the widened cross-runtime family before any live `.claude` translation or composition judgment.

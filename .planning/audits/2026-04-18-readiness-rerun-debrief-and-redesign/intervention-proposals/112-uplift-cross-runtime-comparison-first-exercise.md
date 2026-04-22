@@ -32,5 +32,6 @@ Status: completed parent-thread packet output
 
 ## Current Consequence
 
-- [d:r:i] The next adjacent move is now a bounded Opus widening lane over the first packet, not direct cross-runtime route translation.
-- [d:r:i] If that later widening earns a narrower live implementation family, it should stay family-by-family rather than collapsing everything into one parity push.
+- [d:r:i] That bounded Opus widening lane is now completed and inherited through `entry-uplift-audit/outputs/11-*` and `entry-uplift-audit/dispositions/11-*`.
+- [d:r:i] The next adjacent move is now a concern-family split note over the widened cross-runtime family, then one follow-on Opus lane over that split rather than direct cross-runtime route translation.
+- [d:r:i] If a later widening earns a narrower live implementation family, it should stay family-by-family rather than collapsing everything into one parity push.

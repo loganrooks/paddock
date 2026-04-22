@@ -45,7 +45,7 @@ Status: active durable register
 - [d:r:i] Standing self-improvement register growth beyond this first slice
 - [d:r:i] Explicit canon-absorption use on later landed intervention families
 - [d:r:i] Bounded uplift-agent-assist patterning that keeps composition-layer judgment in the parent thread while delegation sharpens narrower uplift subproblems
-- [d:r:i] After the first three exercised uplift-assist patterns, the landed narrow route pointer, and the landed docs-governance runtime-proof, the next bounded move is an Opus widening lane over the first cross-runtime packet rather than direct `.claude` translation or composition work
+- [d:r:i] After the first three exercised uplift-assist patterns, the landed narrow route pointer, the landed docs-governance runtime-proof, the first cross-runtime packet exercise, and the completed Opus widening reread, the next bounded move is a concern-family split note and follow-on Opus lane over the widened cross-runtime family rather than direct `.claude` translation or composition work
 
 ## Ownerless Concerns
 

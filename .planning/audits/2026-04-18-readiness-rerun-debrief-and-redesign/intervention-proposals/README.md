@@ -116,6 +116,7 @@ Status: active proposal/disposition batch
 110. `110-uplift-cross-runtime-comparison-packet-template-proposal.md`
 111. `111-uplift-cross-runtime-comparison-packet-template-implementation.md`
 112. `112-uplift-cross-runtime-comparison-first-exercise.md`
+113. `113-uplift-cross-runtime-concern-family-split-next-move.md`
 
 ## Proposal Rule
 
@@ -146,6 +147,8 @@ Status: active proposal/disposition batch
 - [d:r:i] `109` now records the live-trigger docs-governance runtime-proof plus the resulting parent-thread durable uplift refresh, so later assist-family widening no longer needs to re-prove that one of the named patterns can answer a real live trigger.
 - [d:r:i] `110` now opens the next assist-family widening directly: the repo still classifies as `cross-runtime uplift`, so the next bounded carrier is one reusable packet template for `.codex` versus `.claude` comparison rather than another abstract held-family label.
 - [d:r:i] `111` now records that carrier as landed: the cross-runtime family now has one reusable packet template, and the next adjacent move is the first bounded comparison packet before any later Opus widening or composition judgment.
+- [d:r:i] `112` now records the first exercised cross-runtime packet itself: shared doctrine/wrapper basis, continuation-floor overlap, and route asymmetry are explicit while live `.claude` translation, compatibility-matrix claims, and composition judgment remain held.
+- [d:r:i] `113` now records the next bounded move after the completed Opus widening reread over that packet: keep the visible cross-runtime concern families explicit, then route through a concern-family split before any live translation, compatibility-matrix claim, or composition judgment.
 - [d:r:i] `43` now records the bounded compatibility follow-through inside that same uplift chain: the durable uplift outputs carry an observed-basis compatibility anchor without widening into a broader version-window claim.
 - [d:r:i] `44` now records the consumer-chain follow-through that keeps the compatibility anchor from remaining only as stored uplift memory.
 - [d:r:i] `45` now sequences the first harness-improvement follow-through tranche after the full-field Opus widening: canary/invariant assertion first, audit-program infrastructure second, standing self-improvement register third.

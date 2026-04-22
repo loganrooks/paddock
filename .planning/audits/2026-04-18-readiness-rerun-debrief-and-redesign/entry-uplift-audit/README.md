@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread
+Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread; lane-07 completed and locally inherited after cross-runtime first-exercise reread
 
 # Entry Uplift Audit
 
@@ -8,7 +8,7 @@ This subtree holds bounded challenge lanes about initialization, onboarding, re-
 Use this subtree when the question is not generic harness improvement, but specifically:
 
 - how the entry surfaces interact across creation, milestone opening, docs bootstrap/merge, re-entry, repair, update, and migration
-- which parts of that field are already well owned and which remain ownerless or scattered
+- which parts of that field already have explicit owners and which remain ownerless or scattered
 - what a dedicated project-uplift workflow should own
 - what governing and report carriers that uplift workflow should create or refresh
 
@@ -115,6 +115,21 @@ For each lane, keep this tuple explicit:
 - local inheritance:
   - [dispositions/07-uplift-assist-post-first-exercise-next-move-inheritance.md](dispositions/07-uplift-assist-post-first-exercise-next-move-inheritance.md)
 
+## Lane 07
+
+- packet:
+  - [packets/13-uplift-cross-runtime-comparison-first-exercise-reread-packet.md](packets/13-uplift-cross-runtime-comparison-first-exercise-reread-packet.md)
+- spec:
+  - [specs/07-uplift-cross-runtime-comparison-first-exercise-reread-spec.md](specs/07-uplift-cross-runtime-comparison-first-exercise-reread-spec.md)
+- prompt:
+  - [prompts/07-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1-launch-prompt.md](prompts/07-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1-launch-prompt.md)
+- launch-truth:
+  - [launch-truth/07-uplift-cross-runtime-comparison-first-exercise-reread-launch-truth.md](launch-truth/07-uplift-cross-runtime-comparison-first-exercise-reread-launch-truth.md)
+- outputs:
+  - [outputs/11-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1.md](outputs/11-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1.md)
+- local inheritance:
+  - [dispositions/11-uplift-cross-runtime-comparison-first-exercise-reread-inheritance.md](dispositions/11-uplift-cross-runtime-comparison-first-exercise-reread-inheritance.md)
+
 ## Current Adjacent Move
 
 - [d:r:i] The uplift-assist family no longer points first toward a live route hook.
@@ -153,8 +168,8 @@ For each lane, keep this tuple explicit:
   - [outputs/10-uplift-cross-runtime-comparison-first-exercise.md](outputs/10-uplift-cross-runtime-comparison-first-exercise.md)
   - [dispositions/10-uplift-cross-runtime-comparison-first-exercise-disposition.md](dispositions/10-uplift-cross-runtime-comparison-first-exercise-disposition.md)
   - [../intervention-proposals/112-uplift-cross-runtime-comparison-first-exercise.md](../intervention-proposals/112-uplift-cross-runtime-comparison-first-exercise.md)
-- [d:r:i] The bounded Opus widening lane over that first packet is now drafted too:
-  - [packets/13-uplift-cross-runtime-comparison-first-exercise-reread-packet.md](packets/13-uplift-cross-runtime-comparison-first-exercise-reread-packet.md)
-  - [specs/07-uplift-cross-runtime-comparison-first-exercise-reread-spec.md](specs/07-uplift-cross-runtime-comparison-first-exercise-reread-spec.md)
-  - [prompts/07-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1-launch-prompt.md](prompts/07-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1-launch-prompt.md)
-- [d:r:i] The current adjacent move is now a bounded Opus widening lane over that first packet, with live `.claude` translation, compatibility-matrix claims, and composition judgment still held after the widening round.
+- [d:r:i] That bounded Opus widening lane is now completed and inherited too:
+  - [launch-truth/07-uplift-cross-runtime-comparison-first-exercise-reread-launch-truth.md](launch-truth/07-uplift-cross-runtime-comparison-first-exercise-reread-launch-truth.md)
+  - [outputs/11-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1.md](outputs/11-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1.md)
+  - [dispositions/11-uplift-cross-runtime-comparison-first-exercise-reread-inheritance.md](dispositions/11-uplift-cross-runtime-comparison-first-exercise-reread-inheritance.md)
+- [d:r:i] The current adjacent move is now a bounded concern-family split note and follow-on Opus lane over the widened cross-runtime family, with live `.claude` translation, compatibility-matrix claims, and composition judgment still held after the widening round.

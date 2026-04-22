@@ -99,4 +99,5 @@ Status: reference, route pointer, and docs-governance runtime-proof landed
 - [d:r:i] The narrow operator-initiated route pointer is now landed in the live uplift route.
 - [d:r:i] The `docs_governance_classification` pattern now also has one live-trigger runtime-proof and the resulting parent-thread durable refresh.
 - [d:r:i] The `cross_runtime_comparison_packet` family now also has its first exercised packet round trip in `112`.
-- [d:r:i] The next bounded move is now a bounded Opus widening lane over that first packet, not first-proof work and not direct cross-runtime translation.
+- [d:r:i] That Opus widening lane is now completed and inherited through lane `07`.
+- [d:r:i] The next bounded move is now a concern-family split note over the widened cross-runtime family, not direct cross-runtime translation.
