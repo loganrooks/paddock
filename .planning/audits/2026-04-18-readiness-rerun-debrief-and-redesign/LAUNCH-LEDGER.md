@@ -1196,3 +1196,21 @@
   - lane-06 closes the missing-packet-carrier reason for holding the pointer, but keeps the live pointer held because coverage-breadth should intensify before reach-breadth
   - the next move is one `carrier_gap_identification` template-plus-exercise slice
   - the later route pointer should follow that second exercised pattern rather than precede it
+
+## 2026-04-22 `entry-uplift-audit lane-19`
+
+- date: `2026-04-22`
+- purpose: bounded `.codex` / `.claude` installation-parity audit now that the `update + gsd-update` continuity consumer branch is checkpointed
+- frozen launch basis commit: `a75cfe7`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth:
+  - [entry-uplift-audit/launch-truth/19-codex-claude-installation-parity-audit-launch-truth.md](entry-uplift-audit/launch-truth/19-codex-claude-installation-parity-audit-launch-truth.md)
+- output:
+  - [entry-uplift-audit/outputs/23-codex-claude-installation-parity-audit-opus47-max-r1.md](entry-uplift-audit/outputs/23-codex-claude-installation-parity-audit-opus47-max-r1.md)
+- status:
+  - `launched`
+- timing estimate:
+  - `12-18 minutes`
+- note:
+  - this lane explicitly treats `.claude` hits contextually rather than as automatic defects and keeps `.codex` / `.claude` as the only provider horizon
