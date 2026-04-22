@@ -129,6 +129,8 @@ Status: active inventory
 - `intervention-proposals/90-seed-migration-operator-facing-pointer-bridge-implementation.md`
 - `intervention-proposals/91-seed-migration-pointer-bridge-harden-follow-through-proposal.md`
 - `intervention-proposals/92-seed-migration-pointer-bridge-harden-follow-through-implementation.md`
+- `intervention-proposals/93-uplift-agent-assist-and-propagation-baseline-split-note.md`
+- `intervention-proposals/94-propagation-baseline-delta-split-first-follow-through-proposal.md`
 
 ### Self-Overcoming Family
 
@@ -208,6 +210,12 @@ Status: active inventory
 - `propagation-audit/36-seed-migration-detect-only-harden-change-triggered-refresh.md`
 - `propagation-audit/37-seed-migration-operator-facing-pointer-change-triggered-refresh.md`
 - `propagation-audit/38-seed-migration-pointer-bridge-harden-change-triggered-refresh.md`
+- `propagation-audit/packets/06-seed-migration-pointer-bridge-harden-reread-packet.md`
+- `propagation-audit/specs/06-seed-migration-pointer-bridge-harden-reread-spec.md`
+- `propagation-audit/prompts/06-seed-migration-pointer-bridge-harden-reread-opus47-max-r1-launch-prompt.md`
+- `propagation-audit/launch-truth/06-seed-migration-pointer-bridge-harden-reread-launch-truth.md`
+- `propagation-audit/outputs/06-seed-migration-pointer-bridge-harden-reread-opus47-max-r1.md`
+- `propagation-audit/dispositions/06-seed-migration-pointer-bridge-harden-reread-inheritance.md`
 - `propagation-audit/launch-truth/30-seed-doctrine-vintage-sidecar-launch-truth.md`
 - `propagation-audit/outputs/04-seed-vintage-and-consumer-field-sidecar-gpt54-xhigh-r1.md`
 - `propagation-audit/dispositions/04-seed-vintage-and-consumer-field-sidecar-inheritance.md`

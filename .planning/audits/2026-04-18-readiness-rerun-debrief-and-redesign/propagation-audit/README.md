@@ -101,6 +101,19 @@ Status: active lane; widened inheritance batch
     - [outputs/05-seed-migration-operator-facing-pointer-bridge-reread-opus47-max-r1.md](outputs/05-seed-migration-operator-facing-pointer-bridge-reread-opus47-max-r1.md)
   - inheritance:
     - [dispositions/05-seed-migration-operator-facing-pointer-bridge-reread-inheritance.md](dispositions/05-seed-migration-operator-facing-pointer-bridge-reread-inheritance.md)
+- lane `06`:
+  - packet:
+    - [packets/06-seed-migration-pointer-bridge-harden-reread-packet.md](packets/06-seed-migration-pointer-bridge-harden-reread-packet.md)
+  - spec:
+    - [specs/06-seed-migration-pointer-bridge-harden-reread-spec.md](specs/06-seed-migration-pointer-bridge-harden-reread-spec.md)
+  - prompt:
+    - [prompts/06-seed-migration-pointer-bridge-harden-reread-opus47-max-r1-launch-prompt.md](prompts/06-seed-migration-pointer-bridge-harden-reread-opus47-max-r1-launch-prompt.md)
+  - launch-truth:
+    - [launch-truth/06-seed-migration-pointer-bridge-harden-reread-launch-truth.md](launch-truth/06-seed-migration-pointer-bridge-harden-reread-launch-truth.md)
+  - output:
+    - [outputs/06-seed-migration-pointer-bridge-harden-reread-opus47-max-r1.md](outputs/06-seed-migration-pointer-bridge-harden-reread-opus47-max-r1.md)
+  - inheritance:
+    - [dispositions/06-seed-migration-pointer-bridge-harden-reread-inheritance.md](dispositions/06-seed-migration-pointer-bridge-harden-reread-inheritance.md)
 
 ## Current Follow-Through
 
@@ -207,3 +220,5 @@ Status: active lane; widened inheritance batch
 - [d:r:i] Lane `05` is now completed and locally inherited too: the bounded Opus reread over the landed bridge has now been absorbed into a narrower bridge-hardening slice rather than into a new wrapper family.
 - [d:r:i] A twenty-second non-uplift change-triggered refresh is now landed too: `38` records the bridge-hardening follow-through, and the typed `v2` layers now keep candidate breakdown, inspect/write split, fixture-backed packet shape, and stronger consumer gating proof explicit at the same bridge instead of leaving those sharpenings ambient.
 - [d:r:i] The next adjacent seed-family route is now a bounded reread of the hardened operator-facing bridge before later entry-wrapper widening, broader audit-open consumer widening, or rewrite/normalization family work inherits next.
+- [d:r:i] That bounded reread is now completed and inherited through lane `06` on the clean post-hardening basis.
+- [d:r:i] The next adjacent route now shifts toward the `93` family rather than another default seed-family harden pass without live corpus.

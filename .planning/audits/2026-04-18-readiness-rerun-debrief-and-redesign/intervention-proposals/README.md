@@ -100,11 +100,13 @@ Status: active proposal/disposition batch
 90. `90-seed-migration-operator-facing-pointer-bridge-implementation.md`
 91. `91-seed-migration-pointer-bridge-harden-follow-through-proposal.md`
 92. `92-seed-migration-pointer-bridge-harden-follow-through-implementation.md`
+93. `93-uplift-agent-assist-and-propagation-baseline-split-note.md`
+94. `94-propagation-baseline-delta-split-first-follow-through-proposal.md`
 
 ## Proposal Rule
 
 - [d:r:i] Each proposal should stay bounded enough that a later acceptance/revision/rejection decision can be made on its own merits rather than by invoking another broad “improve the harness” abstraction.
-- [d:r:i] Current next move after this batch: use `79` through `92` plus `32` through `38` as the current seed-family baseline, then run a bounded reread of the hardened operator-facing specialist-packet bridge before any later wider entry-wrapper retrofit, broader audit-open consumer widening, or rewrite/normalization family inherits next.
+- [d:r:i] Current next move after this batch: use `79` through `92` plus `32` through `38` as the current seed-family baseline, treat lane `06` as the completed bounded reread over that hardened bridge, and shift the adjacent inheritance route toward `93` rather than reopening another default seed-family harden pass without a live corpus.
 - [d:r:i] `29` records the next broader pressure that emerged after the re-entry/plain-language pass: long-horizon carry is strong at discuss/plan entry but still weaker in lifecycle, verification, milestone, and harness-self-improvement surfaces.
 - [d:r:i] `30` now records the revised consumer-first follow-through: a `future_awareness` plus `future_preservation` strengthening route as the first live insertion, with the research-mode question held as the next adjacent object.
 - [d:r:i] `31` records the linked instruction-layer hardening so root/planning agent doctrine is less likely to reintroduce binary inheritance, risk-as-veto, or premature narrowing.
@@ -118,6 +120,8 @@ Status: active proposal/disposition batch
 - [d:r:i] `39` now defines the bounded composition-layer workflow in harmonized first-slice form: detect-only default, explicit mid-phase classification, named fingerprint shapes, explicit per-carrier install flags, thin doctrine manifest, one read-only `progress` hook, outputs, and review gates.
 - [d:r:i] `40` now records the landed first slice itself: helper, workflow, skill, `progress` note, first durable uplift outputs, synthetic verification, and repo-local read-only safety check.
 - [d:r:i] `41` now records the broader network-carry concern that follows this family: one explicit audit should later ask whether contract changes propagated strongly enough across producer, consumer, registry, script, workflow, skill, output, and governing-doc surfaces.
+- [d:r:i] `93` now keeps two adjacent later-family routes explicit: bounded agent-assist for uplift, and a cleaner upstream-baseline versus repo-local-delta split for the propagation family.
+- [d:r:i] `94` now turns that adjacent family into one concrete next route: baseline/delta split first, uplift agent-assist second.
 - [d:r:i] `43` now records the bounded compatibility follow-through inside that same uplift chain: the durable uplift outputs carry an observed-basis compatibility anchor without widening into a broader version-window claim.
 - [d:r:i] `44` now records the consumer-chain follow-through that keeps the compatibility anchor from remaining only as stored uplift memory.
 - [d:r:i] `45` now sequences the first harness-improvement follow-through tranche after the full-field Opus widening: canary/invariant assertion first, audit-program infrastructure second, standing self-improvement register third.

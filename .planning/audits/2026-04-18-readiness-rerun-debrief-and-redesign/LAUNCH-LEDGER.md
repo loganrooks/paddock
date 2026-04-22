@@ -811,3 +811,25 @@
     - `92` bridge-hardening implementation
     - `38` typed refresh over the hardened bridge
   - next move: one more bounded reread of the hardened bridge before any wider seed-family inheritance opens
+
+## 2026-04-22 propagation-audit-lane-06
+
+- packet:
+  - [propagation-audit/packets/06-seed-migration-pointer-bridge-harden-reread-packet.md](propagation-audit/packets/06-seed-migration-pointer-bridge-harden-reread-packet.md)
+- spec:
+  - [propagation-audit/specs/06-seed-migration-pointer-bridge-harden-reread-spec.md](propagation-audit/specs/06-seed-migration-pointer-bridge-harden-reread-spec.md)
+- prompt:
+  - [propagation-audit/prompts/06-seed-migration-pointer-bridge-harden-reread-opus47-max-r1-launch-prompt.md](propagation-audit/prompts/06-seed-migration-pointer-bridge-harden-reread-opus47-max-r1-launch-prompt.md)
+- launch-truth:
+  - [propagation-audit/launch-truth/06-seed-migration-pointer-bridge-harden-reread-launch-truth.md](propagation-audit/launch-truth/06-seed-migration-pointer-bridge-harden-reread-launch-truth.md)
+- output:
+  - [propagation-audit/outputs/06-seed-migration-pointer-bridge-harden-reread-opus47-max-r1.md](propagation-audit/outputs/06-seed-migration-pointer-bridge-harden-reread-opus47-max-r1.md)
+- inheritance:
+  - [propagation-audit/dispositions/06-seed-migration-pointer-bridge-harden-reread-inheritance.md](propagation-audit/dispositions/06-seed-migration-pointer-bridge-harden-reread-inheritance.md)
+- status:
+  - `completed bounded Opus reread against clean basis 61fd707`
+- attempt history:
+  - first probe stalled mid tool-input stream and was cut
+  - second probe completed and produced the inherited return
+- next move:
+  - shift the adjacent route toward the `93` family unless one narrower bridge-footprint sharpening is explicitly chosen first
