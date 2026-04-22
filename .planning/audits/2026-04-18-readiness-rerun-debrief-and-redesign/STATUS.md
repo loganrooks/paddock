@@ -373,6 +373,7 @@ Date: 2026-04-22
 51. use lane `19`, its inheritance note, `134`, `135`, and `propagation-audit/50` as the active `.codex` / `.claude` parity baseline rather than reopening the parity question from the deferred-note stage
 52. use the completed `review-route-audit/` lane `01`, its launch-truth note, and its inheritance note as the current widening baseline for `gsd-review`, provider-shaped review runners, failure salvage, launch-truth/timing calibration, and adjacent review-workflow uplift routes rather than treating the next move as only a local command patch or leaving the broader review-route field ambient
 53. after lane `01` is inherited, open one bounded workspace-state reread so the current program can be reread as a governed map of completed work, absorbed recommendations, planned follow-through, under-attended improvement pressure, short/medium/long horizon routes, and the current harness parallelization / orchestration posture
+54. use `workspace-state-audit/` lane `01` as the current bounded surface for the `where are we now` / horizon-inheritance / parallelization question rather than treating those questions as commentary-only operator reflection
 
 ## Open Questions
 

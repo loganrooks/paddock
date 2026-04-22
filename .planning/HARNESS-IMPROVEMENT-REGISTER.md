@@ -78,6 +78,7 @@ Status: active durable register
     - lane-pattern docs
     - launch/timing discipline
     - compaction / continuation prompts
+- [d:r:i] That workspace-state reread is now packeted under `workspace-state-audit/` lane `01`; the next move there is to run the bounded Opus lane from the current governed baseline rather than widening the field further in chat.
 
 ## Ownerless Concerns
 

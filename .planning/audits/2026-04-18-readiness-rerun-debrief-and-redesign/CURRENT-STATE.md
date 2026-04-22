@@ -160,6 +160,7 @@ Status: active governing synthesis
   - where bounded sub-agent delegation is earned and where parent-thread ownership should remain central
   - which administrative/governance/propagation updates can and should travel in parallel with implementation or review lanes
   - whether root/planning `AGENTS.md`, lane-pattern docs, or compaction/continuation prompts need revision so the harness can sustain a more deliberate multi-horizon parallel work pattern
+- [d:r:i] That reread is now packeted as `workspace-state-audit` lane `01`, so the horizon-inheritance and parallelization question is no longer only ambient operator intent.
 - [d:r:i] If the workspace feels hard to reread, treat that as a governance-surface issue first, not as a reason to reopen settled intervention families.
 
 ## Live Open Questions

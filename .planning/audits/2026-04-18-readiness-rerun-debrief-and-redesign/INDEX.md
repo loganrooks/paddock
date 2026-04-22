@@ -327,6 +327,11 @@
   - [review-route-audit/launch-truth/01-gsd-review-route-hardening-audit-launch-truth.md](review-route-audit/launch-truth/01-gsd-review-route-hardening-audit-launch-truth.md)
   - [review-route-audit/outputs/01-gsd-review-route-hardening-audit-opus47-max-r1.md](review-route-audit/outputs/01-gsd-review-route-hardening-audit-opus47-max-r1.md)
   - [review-route-audit/dispositions/01-gsd-review-route-hardening-audit-inheritance.md](review-route-audit/dispositions/01-gsd-review-route-hardening-audit-inheritance.md)
+  - [workspace-state-audit/README.md](workspace-state-audit/README.md)
+  - [workspace-state-audit/packets/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-packet.md](workspace-state-audit/packets/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-packet.md)
+  - [workspace-state-audit/specs/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-spec.md](workspace-state-audit/specs/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-spec.md)
+  - [workspace-state-audit/prompts/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-opus47-max-r1-launch-prompt.md](workspace-state-audit/prompts/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-opus47-max-r1-launch-prompt.md)
+  - [workspace-state-audit/outputs/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-opus47-max-r1.md](workspace-state-audit/outputs/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-opus47-max-r1.md)
 
 ## Current Session Rule
 
