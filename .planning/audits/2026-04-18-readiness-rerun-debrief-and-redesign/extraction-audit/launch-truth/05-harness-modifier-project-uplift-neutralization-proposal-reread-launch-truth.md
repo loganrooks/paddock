@@ -1,11 +1,11 @@
 Date: 2026-04-22
-Status: prepared pending launch
+Status: launched
 
 # Harness Modifier Project Uplift Neutralization Proposal Reread Launch Truth
 
 - [d:r:i] Lane id: `05`
 - [d:r:i] Family: `extraction-audit`
-- [d:r:i] Frozen launch basis commit: `pending scaffold checkpoint`
+- [d:r:i] Frozen launch basis commit: `892411c`
 - [d:r:i] Requested reviewer: `Opus 4.7 Max`
 - [d:r:i] Requested runtime string: `opus[1m]`
 - [d:r:i] Requested reasoning effort: `xhigh`
