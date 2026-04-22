@@ -213,6 +213,9 @@ Status: active inventory
 - `propagation-audit/37-seed-migration-operator-facing-pointer-change-triggered-refresh.md`
 - `propagation-audit/38-seed-migration-pointer-bridge-harden-change-triggered-refresh.md`
 - `propagation-audit/39-propagation-review-route-change-triggered-refresh.md`
+- `propagation-audit/launch-truth/07-propagation-review-route-reread-launch-truth.md`
+- `propagation-audit/outputs/07-propagation-review-route-reread-opus47-max-r1.md`
+- `propagation-audit/dispositions/07-propagation-review-route-reread-inheritance.md`
 - `propagation-audit/packets/06-seed-migration-pointer-bridge-harden-reread-packet.md`
 - `propagation-audit/specs/06-seed-migration-pointer-bridge-harden-reread-spec.md`
 - `propagation-audit/prompts/06-seed-migration-pointer-bridge-harden-reread-opus47-max-r1-launch-prompt.md`

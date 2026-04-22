@@ -225,6 +225,8 @@ Status: active lane; widened inheritance batch
 - [d:r:i] Lane `05` is now completed and locally inherited too: the bounded Opus reread over the landed bridge has now been absorbed into a narrower bridge-hardening slice rather than into a new wrapper family.
 - [d:r:i] A twenty-second non-uplift change-triggered refresh is now landed too: `38` records the bridge-hardening follow-through, and the typed `v2` layers now keep candidate breakdown, inspect/write split, fixture-backed packet shape, and stronger consumer gating proof explicit at the same bridge instead of leaving those sharpenings ambient.
 - [d:r:i] A twenty-third non-uplift change-triggered refresh is now landed too: `39` records the new propagation-review workflow and wrapper, and the typed `v2` layers now keep the baseline/delta-guided operator route explicit instead of leaving later multi-family review on chat memory or local diff intuition alone.
+- [d:r:i] The first bounded reread of that route is now completed and inherited through lane `07`.
+- [d:r:i] That reread now shifts the adjacent move toward one narrower route-hardening slice on durable-note carry, tool-result-to-disposition carry, and focused contract-test widening before later uplift agent-assist or broader family widening inherits next.
 - [d:r:i] The next adjacent seed-family route is now a bounded reread of the hardened operator-facing bridge before later entry-wrapper widening, broader audit-open consumer widening, or rewrite/normalization family work inherits next.
 - [d:r:i] That bounded reread is now completed and inherited through lane `06` on the clean post-hardening basis.
 - [d:r:i] The next adjacent route now shifts toward the `93` family rather than another default seed-family harden pass without live corpus.

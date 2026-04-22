@@ -833,3 +833,24 @@
   - second probe completed and produced the inherited return
 - next move:
   - shift the adjacent route toward the `93` family unless one narrower bridge-footprint sharpening is explicitly chosen first
+
+## 2026-04-22 `propagation-audit lane-07`
+
+- date: `2026-04-22`
+- purpose: bounded reread of the newly landed `propagation-review` route on frozen basis `306f1d8`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth:
+  - [propagation-audit/launch-truth/07-propagation-review-route-reread-launch-truth.md](propagation-audit/launch-truth/07-propagation-review-route-reread-launch-truth.md)
+- output:
+  - [propagation-audit/outputs/07-propagation-review-route-reread-opus47-max-r1.md](propagation-audit/outputs/07-propagation-review-route-reread-opus47-max-r1.md)
+- inheritance:
+  - [propagation-audit/dispositions/07-propagation-review-route-reread-inheritance.md](propagation-audit/dispositions/07-propagation-review-route-reread-inheritance.md)
+- attempt history:
+  - attempt `1`: full reply-only reread returned completed sections `1-2`, began section `3`, then stalled
+  - attempt `2`: continuation prompt reread the spec/partial/packet and stalled before final text
+  - attempt `3`: compact continuation packet still fell into repeated `Read` calls and stalled before final text
+- status:
+  - `completed as transparent composite with Opus partial carry plus bounded local completion`
+- next move:
+  - harden durable-note carry, tool-result-to-disposition carry, and the focused contract-test frontier before later uplift agent-assist or broader family widening inherits next
