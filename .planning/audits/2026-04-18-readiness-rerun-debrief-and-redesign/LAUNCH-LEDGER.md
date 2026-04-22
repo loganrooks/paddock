@@ -854,3 +854,31 @@
   - `completed as transparent composite with Opus partial carry plus bounded local completion`
 - next move:
   - harden durable-note carry, tool-result-to-disposition carry, and the focused contract-test frontier before later uplift agent-assist or broader family widening inherits next
+
+## 2026-04-22 `entry-uplift-audit lane-05`
+
+- date: `2026-04-22`
+- purpose: bounded reread of the uplift-agent-assist proposal/reference pair before any live uplift-route hook inherits the family
+- frozen launch basis commit: `3620239`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth:
+  - [entry-uplift-audit/launch-truth/05-uplift-agent-assist-proposal-and-patterns-reread-launch-truth.md](entry-uplift-audit/launch-truth/05-uplift-agent-assist-proposal-and-patterns-reread-launch-truth.md)
+- output:
+  - [entry-uplift-audit/outputs/05-uplift-agent-assist-proposal-and-patterns-reread-opus47-max-r1.md](entry-uplift-audit/outputs/05-uplift-agent-assist-proposal-and-patterns-reread-opus47-max-r1.md)
+- inheritance:
+  - [entry-uplift-audit/dispositions/05-uplift-agent-assist-proposal-and-patterns-reread-inheritance.md](entry-uplift-audit/dispositions/05-uplift-agent-assist-proposal-and-patterns-reread-inheritance.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `368.659`
+  - session id: `24a277f7-d58b-424c-9c5a-3298d6eaeb1b`
+  - total cost usd: `2.0418315`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/uplift-agent-assist-proposal-and-patterns-reread-opus47-max-r1-20260422-000405.rdg3du13.stream.jsonl`
+    - `/tmp/uplift-agent-assist-proposal-and-patterns-reread-opus47-max-r1-20260422-000405.qyb7466g.stderr.log`
+    - `/tmp/uplift-agent-assist-proposal-and-patterns-reread-opus47-max-r1-20260422-000405.174zthgk.debug.log`
+- disposition:
+  - `accept as widening input`
+  - the family bookkeeping and runtime/disposition clarifications should land before any live hook
+  - the first adjacent live move is one `docs_governance_classification` packet template plus named disposition carrier
+  - the opt-in uplift-route hook remains held until one packet/disposition round trip has actually happened

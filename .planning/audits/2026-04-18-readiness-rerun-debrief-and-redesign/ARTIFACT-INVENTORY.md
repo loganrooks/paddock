@@ -254,6 +254,13 @@ Status: active inventory
 - `intervention-proposals/101-repo-local-workflow-additions-and-propagation-map-orientation.md`
 - `intervention-proposals/102-uplift-agent-assist-first-slice-proposal.md`
 - `intervention-proposals/103-uplift-agent-assist-patterns.md`
+- `intervention-proposals/104-uplift-docs-governance-classification-packet-template-proposal.md`
+- `intervention-proposals/105-uplift-docs-governance-classification-packet-template-implementation.md`
+- `intervention-proposals/106-uplift-docs-governance-classification-first-exercise.md`
+- `entry-uplift-audit/packets/06-uplift-docs-governance-classification-packet-template.md`
+- `entry-uplift-audit/packets/07-uplift-docs-governance-classification-first-exercise-packet.md`
+- `entry-uplift-audit/outputs/06-uplift-docs-governance-classification-first-exercise.md`
+- `entry-uplift-audit/dispositions/06-uplift-docs-governance-classification-first-exercise-disposition.md`
 
 ## Challenge And Output Subtrees
 

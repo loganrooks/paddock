@@ -52,6 +52,9 @@ Status: landed bounded reference
     - narrative mirrors
     - runtime/registry carriers
     - held-later neighbors
+- [d:r:i] Relation to `$gsd-propagation-review`:
+  - treat this pattern as the uplift-context narrowing that can precede a wider propagation review when the question starts from an uplift result
+  - do not treat it as a competing replacement for `$gsd-propagation-review` when the question is already a concrete multi-family contract change
 - [d:r:i] Write boundary:
   - read-only analysis or one bounded review note
 
@@ -84,6 +87,14 @@ Status: landed bounded reference
   - packet only
   - no direct runtime mutation by the assist lane
 
+## Packet Assembly
+
+- [d:r:i] Packet assembly stays parent-thread-owned unless a later helper or wrapper earns that job explicitly.
+- [d:r:i] For `docs_governance_classification`, use the packet template at:
+  - [entry-uplift-audit/packets/06-uplift-docs-governance-classification-packet-template.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/packets/06-uplift-docs-governance-classification-packet-template.md)
+- [d:r:i] Do not infer that the other three patterns have the same packet shape.
+- [d:r:i] Each later pattern should earn its own assembly carrier when its concrete subproblem becomes live.
+
 ## Output Discipline
 
 - [e:c+i] The propagation-review route now already requires durable notes to prefer existing lane homes and to preserve local claim-type grammar when they land inside this audit workspace. Source: [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md:123).
@@ -91,6 +102,8 @@ Status: landed bounded reference
   - `outputs/` for preserved external/composite returns
   - `dispositions/` for local inheritance or judgment
   - `*-change-triggered-refresh.md` when the note itself becomes a propagation carrier
+- [d:r:i] Until a live route hook exists, the default durable disposition home for this family is:
+  - [entry-uplift-audit/dispositions/](../entry-uplift-audit/dispositions/)
 - [d:r:i] Assist output is never self-accepting.
 - [d:r:i] The parent thread must still disposition it as:
   - `accept`
@@ -103,6 +116,11 @@ Status: landed bounded reference
 - [d:r:i] Use a Codex subagent only when the subproblem is concrete, bounded, and has an auditable read/write boundary.
 - [d:r:i] Use an external Opus lane when the task is widening, field-mapping, or comparative challenge rather than repo-local packet work.
 - [d:r:i] Keep one assist lane per subproblem. Do not launch a generic “uplift helper” agent with mixed ownership.
+- [d:r:i] Default runtime mapping for the current four patterns:
+  - `docs_governance_classification` -> Codex subagent or parent-thread packet exercise
+  - `carrier_gap_identification` -> Opus widening when the gap question is still field-mapping; Codex only when the carrier set is already concrete and bounded
+  - `additive_install_packet` -> Codex subagent or parent-thread packet drafting
+  - `cross_runtime_comparison_packet` -> external Opus lane unless the comparison has already been narrowed to one auditable repo-local packet
 
 ## What This Reference Does Not Authorize
 
@@ -114,4 +132,5 @@ Status: landed bounded reference
 ## Current Consequence
 
 - [d:r:i] The uplift-agent question now has a bounded reference surface rather than only an open note and a proposal.
-- [d:r:i] The next adjacent move can therefore narrow onto one opt-in uplift-route hook or one concrete delegated packet family, not another abstract debate about whether delegation might help.
+- [d:r:i] The next adjacent move is now one concrete `docs_governance_classification` packet template paired with a named disposition home, then one end-to-end packet exercise.
+- [d:r:i] The opt-in uplift-route hook remains later work until that packet/disposition round trip has actually happened.

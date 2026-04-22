@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: open bounded proposal
+Status: reference landed via `103`; route-hook hold remains open
 
 # Uplift Agent-Assist First Slice Proposal
 
@@ -87,5 +87,11 @@ Status: open bounded proposal
 
 ## Current Consequence
 
-- [d:r:i] The next bounded move after this proposal is not another abstract discussion of whether agents might help.
-- [d:r:i] The next bounded move is to write the assist-pattern reference surface itself, then decide whether one opt-in uplift-route hook should inherit from it.
+- [d:r:i] The assist-pattern reference named in this proposal has now landed in `103`.
+- [d:r:i] This proposal now remains active as the family boundary and sequencing carrier for what still stays outside that landed reference:
+  - route-hook carry into `uplift-project.md` and `gsd-uplift-project/SKILL.md`
+  - automatic-spawn refusal
+  - durable-write parent-thread ownership
+  - broader propagation-map hold
+- [d:r:i] The next bounded move after the landed reference is not another abstract discussion of whether agents might help.
+- [d:r:i] The next bounded move is one concrete delegated-packet template plus named disposition carrier for `docs_governance_classification`, then one end-to-end packet exercise before any opt-in uplift-route hook is reconsidered.

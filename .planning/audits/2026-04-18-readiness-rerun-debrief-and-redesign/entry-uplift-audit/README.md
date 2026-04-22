@@ -84,3 +84,34 @@ For each lane, keep this tuple explicit:
   - [outputs/04-landed-project-uplift-first-slice-reread-opus47-max-r1.md](outputs/04-landed-project-uplift-first-slice-reread-opus47-max-r1.md)
 - local inheritance:
   - [dispositions/04-landed-project-uplift-first-slice-reread-inheritance.md](dispositions/04-landed-project-uplift-first-slice-reread-inheritance.md)
+
+## Lane 05
+
+- packet:
+  - [packets/05-uplift-agent-assist-proposal-and-patterns-reread-packet.md](packets/05-uplift-agent-assist-proposal-and-patterns-reread-packet.md)
+- spec:
+  - [specs/05-uplift-agent-assist-proposal-and-patterns-reread-spec.md](specs/05-uplift-agent-assist-proposal-and-patterns-reread-spec.md)
+- prompt:
+  - [prompts/05-uplift-agent-assist-proposal-and-patterns-reread-opus47-max-r1-launch-prompt.md](prompts/05-uplift-agent-assist-proposal-and-patterns-reread-opus47-max-r1-launch-prompt.md)
+- launch-truth:
+  - [launch-truth/05-uplift-agent-assist-proposal-and-patterns-reread-launch-truth.md](launch-truth/05-uplift-agent-assist-proposal-and-patterns-reread-launch-truth.md)
+- outputs:
+  - [outputs/05-uplift-agent-assist-proposal-and-patterns-reread-opus47-max-r1.md](outputs/05-uplift-agent-assist-proposal-and-patterns-reread-opus47-max-r1.md)
+- local inheritance:
+  - [dispositions/05-uplift-agent-assist-proposal-and-patterns-reread-inheritance.md](dispositions/05-uplift-agent-assist-proposal-and-patterns-reread-inheritance.md)
+
+## Current Adjacent Move
+
+- [d:r:i] The uplift-assist family no longer points first toward a live route hook.
+- [d:r:i] The packet/disposition layer is now landed and has one real round trip:
+  - [intervention-proposals/104-uplift-docs-governance-classification-packet-template-proposal.md](../intervention-proposals/104-uplift-docs-governance-classification-packet-template-proposal.md)
+  - [entry-uplift-audit/packets/06-uplift-docs-governance-classification-packet-template.md](packets/06-uplift-docs-governance-classification-packet-template.md)
+  - [intervention-proposals/105-uplift-docs-governance-classification-packet-template-implementation.md](../intervention-proposals/105-uplift-docs-governance-classification-packet-template-implementation.md)
+- [d:r:i] The first end-to-end packet exercise is now also landed:
+  - [entry-uplift-audit/packets/07-uplift-docs-governance-classification-first-exercise-packet.md](packets/07-uplift-docs-governance-classification-first-exercise-packet.md)
+  - [entry-uplift-audit/outputs/06-uplift-docs-governance-classification-first-exercise.md](outputs/06-uplift-docs-governance-classification-first-exercise.md)
+  - [entry-uplift-audit/dispositions/06-uplift-docs-governance-classification-first-exercise-disposition.md](dispositions/06-uplift-docs-governance-classification-first-exercise-disposition.md)
+  - [intervention-proposals/106-uplift-docs-governance-classification-first-exercise.md](../intervention-proposals/106-uplift-docs-governance-classification-first-exercise.md)
+- [d:r:i] The current adjacent decision surface is now:
+  - whether one narrow live route pointer is earned
+  - or whether a second assist-pattern exercise would strengthen the family more first
