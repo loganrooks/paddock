@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "fea9327",
+  "basis_commit": "407c279",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -676,6 +676,30 @@
         "overlay_contract_validation",
         "seed_consumer_carry_impl_74",
         "seed_consumer_carry_tests"
+      ]
+    },
+    {
+      "id": "explore_workflow",
+      "family": "workflow_output",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/explore.md",
+      "role": "ideation workflow that routes selected seed outputs through the live plant-seed contract instead of describing legacy inline seed minting",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "explore_seed_convergence_impl_76",
+        "explore_seed_convergence_tests"
+      ]
+    },
+    {
+      "id": "explore_skill_wrapper",
+      "family": "wrapper",
+      "path": "tooling/portable-gsd/overlay/skills/gsd-explore/SKILL.md",
+      "role": "invocation-binding wrapper that keeps ideation-side seed routing on the live plant-seed contract rather than a legacy inline seed shape",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "explore_seed_convergence_impl_76",
+        "explore_seed_convergence_tests"
       ]
     }
   ],
@@ -1554,6 +1578,54 @@
       "evidence_refs": [
         "seed_consumer_carry_impl_74",
         "seed_consumer_carry_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_explore_workflow",
+      "from": "overlay_manifest",
+      "to": "explore_workflow",
+      "kind": "overlay_owns_workflow_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "explore_seed_convergence_impl_76"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_explore_skill_wrapper",
+      "from": "overlay_manifest",
+      "to": "explore_skill_wrapper",
+      "kind": "overlay_owns_wrapper_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "explore_seed_convergence_impl_76"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "explore_skill_wrapper_to_explore_workflow",
+      "from": "explore_skill_wrapper",
+      "to": "explore_workflow",
+      "kind": "wrapper_binds_skill_to_workflow",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "explore_seed_convergence_impl_76",
+        "explore_seed_convergence_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "explore_workflow_to_plant_seed_workflow",
+      "from": "explore_workflow",
+      "to": "plant_seed_workflow",
+      "kind": "ideation_seed_output_routes_through_current_seed_producer_contract",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "explore_seed_convergence_impl_76",
+        "explore_seed_convergence_tests"
       ],
       "status": "mapped"
     }

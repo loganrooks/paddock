@@ -82,11 +82,13 @@ Status: active proposal/disposition batch
 72. `72-update-follow-through-first-slice-implementation.md`
 73. `73-seed-consumer-carry-first-slice-proposal.md`
 74. `74-seed-consumer-carry-first-slice-implementation.md`
+75. `75-explore-seed-producer-convergence-first-slice-proposal.md`
+76. `76-explore-seed-producer-convergence-first-slice-implementation.md`
 
 ## Proposal Rule
 
 - [d:r:i] Each proposal should stay bounded enough that a later acceptance/revision/rejection decision can be made on its own merits rather than by invoking another broad “improve the harness” abstraction.
-- [d:r:i] Current next move after this batch: use `25` through `28` to drive the next concrete floor-closing action set rather than reopening already-settled parity/materialization seams.
+- [d:r:i] Current next move after this batch: use `75` and `76` to keep the seed family on one live producer contract before doctrine-vintage, broader consumers, or later audit widening inherit next.
 - [d:r:i] `29` records the next broader pressure that emerged after the re-entry/plain-language pass: long-horizon carry is strong at discuss/plan entry but still weaker in lifecycle, verification, milestone, and harness-self-improvement surfaces.
 - [d:r:i] `30` now records the revised consumer-first follow-through: a `future_awareness` plus `future_preservation` strengthening route as the first live insertion, with the research-mode question held as the next adjacent object.
 - [d:r:i] `31` records the linked instruction-layer hardening so root/planning agent doctrine is less likely to reintroduce binary inheritance, risk-as-veto, or premature narrowing.
@@ -132,5 +134,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `72` now records the landed update slice itself: tracked overlay ownership for `update.md` and `gsd-update`, explicit `required` / `supporting` / `deeper` packet tiers in `update`, and explicit runtime/package versus structural-health versus later-uplift routing in both the workflow and wrapper.
 - [d:r:i] `73` now opens the next bounded seed producer/consumer bridge directly: `plant-seed` should keep strengthening carry explicit, and `new-milestone` should consume that richer seed meaning instead of scanning only trigger timing and planted-during context.
 - [d:r:i] `74` now records the landed seed slice itself: explicit `Strengthening Carry` in `plant-seed`, overlay-owned `gsd-plant-seed`, and stronger `Why This Matters` plus `Strengthening Carry` consumption in `new-milestone`.
+- [d:r:i] `75` now opens the next bounded seed-family move directly: converge the stale `explore` seed producer onto the live `plant-seed` contract before broader doctrine-vintage or consumer widening inherits next.
+- [d:r:i] `76` now records the landed producer-convergence slice itself: overlay-owned `explore` plus `gsd-explore`, explicit `$gsd-plant-seed` / `SEED-NNN-slug` routing, and focused contract proof that the stale legacy seed strings are gone from the producer path.
 - [d:r:i] `42` now records that harden slice as landed: multi-axis posture, phase-boundary signal, per-carrier fingerprint shape, runtime-agent globbing, typed proposal routes, file-backed held-later carry, widened tests, and the two live consumer/output bugs it surfaced and corrected.
 - [d:r:i] The current broader consequence after `42-74`: use the cleaner uplift slice, the active propagation family, the landed verifier / transition / milestone-boundary / first-read / spec lifecycle bridges, the landed re-entry plus initialization/doc-ingest plus repair/migration plus update plus seed producer/consumer slices, and the hardened setup/materialization path together rather than assuming one helper or one bounded slice already proves whole-network carry.

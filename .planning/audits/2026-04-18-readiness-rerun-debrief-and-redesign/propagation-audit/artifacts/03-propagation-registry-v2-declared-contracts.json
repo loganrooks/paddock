@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "fea9327",
+  "basis_commit": "407c279",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -165,6 +165,18 @@
         "wrapper"
       ],
       "claim_boundary": "declares how plant-seed preserves strengthening carry in an explicit section, how new-milestone consumes Why This Matters plus Strengthening Carry from matching seeds, and how the gsd-plant-seed wrapper keeps that producer role explicit instead of leaving seed meaning ambient"
+    },
+    {
+      "id": "explore_seed_producer_convergence_contract",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/explore.md",
+      "validator": "tooling/codex/tests/test_explore_seed_follow_through_contract.py",
+      "contract_kind": "ideation-side seed producer convergence semantics with explicit routing into the live plant-seed contract",
+      "families_touched": [
+        "install_overlay",
+        "workflow_output",
+        "wrapper"
+      ],
+      "claim_boundary": "declares how explore routes selected seed outputs through $gsd-plant-seed and the live SEED-NNN-slug contract, and how gsd-explore keeps that current route explicit instead of leaving a legacy inline seed shape live beside the current producer"
     }
   ]
 }

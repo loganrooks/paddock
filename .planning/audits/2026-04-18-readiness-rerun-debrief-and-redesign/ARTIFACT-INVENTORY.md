@@ -111,6 +111,8 @@ Status: active inventory
 - `intervention-proposals/72-update-follow-through-first-slice-implementation.md`
 - `intervention-proposals/73-seed-consumer-carry-first-slice-proposal.md`
 - `intervention-proposals/74-seed-consumer-carry-first-slice-implementation.md`
+- `intervention-proposals/75-explore-seed-producer-convergence-first-slice-proposal.md`
+- `intervention-proposals/76-explore-seed-producer-convergence-first-slice-implementation.md`
 
 ### Self-Overcoming Family
 
@@ -181,6 +183,10 @@ Status: active inventory
 - `propagation-audit/27-health-and-migration-follow-through-change-triggered-refresh.md`
 - `propagation-audit/28-update-follow-through-change-triggered-refresh.md`
 - `propagation-audit/29-seed-consumer-carry-change-triggered-refresh.md`
+- `propagation-audit/30-explore-seed-producer-convergence-change-triggered-refresh.md`
+- `propagation-audit/launch-truth/30-seed-doctrine-vintage-sidecar-launch-truth.md`
+- `propagation-audit/outputs/04-seed-vintage-and-consumer-field-sidecar-gpt54-xhigh-r1.md`
+- `propagation-audit/dispositions/04-seed-vintage-and-consumer-field-sidecar-inheritance.md`
 - `propagation-audit/artifacts/01-propagation-field-registry-v1.json`
 - `propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json`
 - `propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json`

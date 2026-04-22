@@ -68,6 +68,13 @@ Status: active lane; widened inheritance batch
     - [outputs/03-propagation-registry-system-gpt54-xhigh-r1.md](outputs/03-propagation-registry-system-gpt54-xhigh-r1.md)
   - inheritance:
     - [dispositions/03-propagation-registry-system-cross-vendor-inheritance.md](dispositions/03-propagation-registry-system-cross-vendor-inheritance.md)
+- lane `04`:
+  - launch-truth:
+    - [launch-truth/30-seed-doctrine-vintage-sidecar-launch-truth.md](launch-truth/30-seed-doctrine-vintage-sidecar-launch-truth.md)
+  - output:
+    - [outputs/04-seed-vintage-and-consumer-field-sidecar-gpt54-xhigh-r1.md](outputs/04-seed-vintage-and-consumer-field-sidecar-gpt54-xhigh-r1.md)
+  - inheritance:
+    - [dispositions/04-seed-vintage-and-consumer-field-sidecar-inheritance.md](dispositions/04-seed-vintage-and-consumer-field-sidecar-inheritance.md)
 
 ## Current Follow-Through
 
@@ -96,6 +103,7 @@ Status: active lane; widened inheritance batch
 - [27-health-and-migration-follow-through-change-triggered-refresh.md](27-health-and-migration-follow-through-change-triggered-refresh.md)
 - [28-update-follow-through-change-triggered-refresh.md](28-update-follow-through-change-triggered-refresh.md)
 - [29-seed-consumer-carry-change-triggered-refresh.md](29-seed-consumer-carry-change-triggered-refresh.md)
+- [30-explore-seed-producer-convergence-change-triggered-refresh.md](30-explore-seed-producer-convergence-change-triggered-refresh.md)
 - [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 - [artifacts/02-propagation-registry-v2-inventory-roster.json](artifacts/02-propagation-registry-v2-inventory-roster.json)
 - [artifacts/03-propagation-registry-v2-declared-contracts.json](artifacts/03-propagation-registry-v2-declared-contracts.json)
@@ -154,3 +162,4 @@ Status: active lane; widened inheritance batch
 - [d:r:i] An eleventh non-uplift change-triggered refresh is now landing too: `27` records the repair and migration follow-through slice, and the typed `v2` layers now keep `health`, `gsd-health`, and `gsd-from-gsd2` explicit as another shared-reference consumer set with structural-repair, validation, and later-uplift route separation instead of leaving older-project recovery as another flatter pocket.
 - [d:r:i] A twelfth non-uplift change-triggered refresh is now landing too: `28` records the update follow-through slice, and the typed `v2` layers now keep `update` and `gsd-update` explicit as another shared-reference and wrapper carrier pair with runtime/package versus structural-health versus later-uplift route separation instead of leaving update-side onboarding as another flatter runtime-success pocket.
 - [d:r:i] A thirteenth non-uplift change-triggered refresh is now landing too: `29` records the seed producer/consumer slice, and the typed `v2` layers now keep `plant-seed`, `gsd-plant-seed`, and the stronger `plant-seed -> new-milestone` consumer relation explicit instead of leaving seed meaning as another flatter milestone-open pocket.
+- [d:r:i] A fourteenth non-uplift change-triggered refresh is now landing too: `30` records the `explore` seed-producer convergence slice, and the typed `v2` layers now keep `explore`, `gsd-explore`, and the `explore -> plant-seed` route explicit instead of leaving the seed family split between one current producer and one stale ideation-side output path.

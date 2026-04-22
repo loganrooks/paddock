@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "fea9327",
+  "basis_commit": "407c279",
   "evidence_entries": [
     {
       "id": "overlay_contract_validation",
@@ -181,6 +181,24 @@
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_seed_consumer_follow_through_contract.py",
       "note": "focused contract coverage for plant-seed producer carry, gsd-plant-seed wrapper ownership, and new-milestone consumer extraction of Why This Matters plus Strengthening Carry"
+    },
+    {
+      "id": "seed_vintage_consumer_sidecar_04",
+      "evidence_lane": "mapping_memo",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/outputs/04-seed-vintage-and-consumer-field-sidecar-gpt54-xhigh-r1.md",
+      "note": "bounded local sidecar showing no live repo-local seed corpus and identifying the stale explore producer path as the sharper live drift before doctrine-vintage widening"
+    },
+    {
+      "id": "explore_seed_convergence_impl_76",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/76-explore-seed-producer-convergence-first-slice-implementation.md",
+      "note": "landed explore-seed producer convergence slice covering overlay ownership for explore and gsd-explore, explicit $gsd-plant-seed plus SEED-NNN-slug routing, and removal of the stale legacy inline seed description"
+    },
+    {
+      "id": "explore_seed_convergence_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_explore_seed_follow_through_contract.py",
+      "note": "focused contract coverage for overlay ownership of explore and gsd-explore, explicit current seed-route language, and absence of legacy inline-seed vocabulary"
     }
   ]
 }

@@ -76,6 +76,7 @@ Status: active governing synthesis
 - [d:r:i] The propagation family now also carries an eleventh non-uplift change-triggered refresh in `27`, so the typed `v2` registry now keeps `health`, `gsd-health`, and `gsd-from-gsd2` explicit as shared-reference and wrapper carriers with structural-repair, validation, and later-uplift route separation instead of leaving repair/migration as another flatter older-project pocket.
 - [d:r:i] The propagation family now also carries a twelfth non-uplift change-triggered refresh in `28`, so the typed `v2` registry now keeps `update` and `gsd-update` explicit as shared-reference and wrapper carriers with runtime/package versus structural-health versus later-uplift route separation instead of leaving update-side onboarding as another flatter runtime-success pocket.
 - [d:r:i] The propagation family now also carries a thirteenth non-uplift change-triggered refresh in `29`, so the typed `v2` registry now keeps `plant-seed`, `gsd-plant-seed`, and the stronger `plant-seed -> new-milestone` consumer relation explicit instead of leaving seed meaning as another flatter milestone-open pocket.
+- [d:r:i] The propagation family now also carries a fourteenth non-uplift change-triggered refresh in `30`, so the typed `v2` registry now keeps `explore`, `gsd-explore`, and the `explore -> plant-seed` route explicit instead of leaving the seed family split between one current producer and one stale ideation-side output path.
 
 ## Immediate Decision Surfaces
 
@@ -115,7 +116,7 @@ Status: active governing synthesis
 - [o:r:i] Should the compatibility anchor remain embedded inside uplift memory, or later grow into a standalone compatibility carrier after more runtime-change slices have exercised it?
 - [o:r:i] Which parts of the submitted docs PR should remain stable governance/reference docs, and which should be paired with stronger intervention-oriented companions?
 - [o:r:i] If later family growth overloads the governance set again, what further routing surfaces would sharpen relevance without pushing the short synthesis back toward warehouse behavior?
-- [o:r:i] Which adjacent family should inherit next after the landed seed-consumer carry slice: seed doctrine-vintage, broader seed consumers beyond milestone opening, a later wider entry-wrapper retrofit, or a broader repeated-reinstall / compatibility carrier?
+- [o:r:i] Which adjacent seed-family move should inherit next after the landed `explore` producer convergence slice: seed doctrine-vintage, broader seed consumers beyond milestone opening, later `audit.cjs` widening, or a later wider entry-wrapper retrofit?
 - [o:r:i] Which adjacent setup/materialization follow-through should inherit after the first bounded harden slice: wider repeated-reinstall probes, updater/frontier movement, or a later standalone compatibility carrier?
 
 ## Read Next

@@ -107,6 +107,8 @@
   - [intervention-proposals/72-update-follow-through-first-slice-implementation.md](intervention-proposals/72-update-follow-through-first-slice-implementation.md)
   - [intervention-proposals/73-seed-consumer-carry-first-slice-proposal.md](intervention-proposals/73-seed-consumer-carry-first-slice-proposal.md)
   - [intervention-proposals/74-seed-consumer-carry-first-slice-implementation.md](intervention-proposals/74-seed-consumer-carry-first-slice-implementation.md)
+  - [intervention-proposals/75-explore-seed-producer-convergence-first-slice-proposal.md](intervention-proposals/75-explore-seed-producer-convergence-first-slice-proposal.md)
+  - [intervention-proposals/76-explore-seed-producer-convergence-first-slice-implementation.md](intervention-proposals/76-explore-seed-producer-convergence-first-slice-implementation.md)
 - project-uplift family:
   - [intervention-proposals/37-entry-surface-and-project-uplift-map.md](intervention-proposals/37-entry-surface-and-project-uplift-map.md)
   - [intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md](intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md)
@@ -158,6 +160,7 @@
   - [propagation-audit/27-health-and-migration-follow-through-change-triggered-refresh.md](propagation-audit/27-health-and-migration-follow-through-change-triggered-refresh.md)
   - [propagation-audit/28-update-follow-through-change-triggered-refresh.md](propagation-audit/28-update-follow-through-change-triggered-refresh.md)
   - [propagation-audit/29-seed-consumer-carry-change-triggered-refresh.md](propagation-audit/29-seed-consumer-carry-change-triggered-refresh.md)
+  - [propagation-audit/30-explore-seed-producer-convergence-change-triggered-refresh.md](propagation-audit/30-explore-seed-producer-convergence-change-triggered-refresh.md)
   - [propagation-audit/artifacts/01-propagation-field-registry-v1.json](propagation-audit/artifacts/01-propagation-field-registry-v1.json)
   - [propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json](propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json)
   - [propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json](propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json)
@@ -168,6 +171,9 @@
   - [propagation-audit/outputs/03-propagation-registry-system-opus47-max-r1.md](propagation-audit/outputs/03-propagation-registry-system-opus47-max-r1.md)
   - [propagation-audit/outputs/03-propagation-registry-system-gpt54-xhigh-r1.md](propagation-audit/outputs/03-propagation-registry-system-gpt54-xhigh-r1.md)
   - [propagation-audit/dispositions/03-propagation-registry-system-cross-vendor-inheritance.md](propagation-audit/dispositions/03-propagation-registry-system-cross-vendor-inheritance.md)
+  - [propagation-audit/launch-truth/30-seed-doctrine-vintage-sidecar-launch-truth.md](propagation-audit/launch-truth/30-seed-doctrine-vintage-sidecar-launch-truth.md)
+  - [propagation-audit/outputs/04-seed-vintage-and-consumer-field-sidecar-gpt54-xhigh-r1.md](propagation-audit/outputs/04-seed-vintage-and-consumer-field-sidecar-gpt54-xhigh-r1.md)
+  - [propagation-audit/dispositions/04-seed-vintage-and-consumer-field-sidecar-inheritance.md](propagation-audit/dispositions/04-seed-vintage-and-consumer-field-sidecar-inheritance.md)
 - long-horizon / anti-threshold family:
   - [intervention-proposals/29-long-horizon-carry-gap-register.md](intervention-proposals/29-long-horizon-carry-gap-register.md)
   - [long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md](long-horizon-audit/dispositions/01-long-horizon-field-mapping-comparative-disposition.md)
