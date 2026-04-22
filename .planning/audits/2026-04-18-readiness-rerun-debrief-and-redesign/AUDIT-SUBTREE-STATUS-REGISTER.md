@@ -109,14 +109,15 @@ Status: active audit-program infrastructure surface
 
 ### `extraction-audit/`
 
-- [d:r:i] Status: active opening lane
+- [d:r:i] Status: active companion
 - [d:r:i] Why:
   - host-project versus harness scope leakage is now concrete enough that standalone extraction needs its own bounded field map
-  - the next extraction move is not repo split execution; it is one challenged carrier map over ownership, compatibility, materialization, and migration shape
+  - the opening lane is now completed and inherited
+  - the next extraction move is not repo split execution; it is the bounded in-repo rehome proposal in `138`
 - [d:r:i] Default reread path:
   - `intervention-proposals/136-harness-extraction-escalation-and-scope-boundary-note.md`
   - `intervention-proposals/137-harness-extraction-field-map.md`
-  - `extraction-audit/README.md`
+  - `extraction-audit/dispositions/01-harness-extraction-field-map-audit-inheritance.md`
 
 ## Current Local Consequence
 

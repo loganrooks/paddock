@@ -342,6 +342,10 @@
   - [extraction-audit/packets/01-harness-extraction-field-map-audit-packet.md](extraction-audit/packets/01-harness-extraction-field-map-audit-packet.md)
   - [extraction-audit/specs/01-harness-extraction-field-map-audit-spec.md](extraction-audit/specs/01-harness-extraction-field-map-audit-spec.md)
   - [extraction-audit/prompts/01-harness-extraction-field-map-audit-opus47-max-r1-launch-prompt.md](extraction-audit/prompts/01-harness-extraction-field-map-audit-opus47-max-r1-launch-prompt.md)
+  - [extraction-audit/launch-truth/01-harness-extraction-field-map-audit-launch-truth.md](extraction-audit/launch-truth/01-harness-extraction-field-map-audit-launch-truth.md)
+  - [extraction-audit/outputs/01-harness-extraction-field-map-audit-opus47-max-r1.md](extraction-audit/outputs/01-harness-extraction-field-map-audit-opus47-max-r1.md)
+  - [extraction-audit/dispositions/01-harness-extraction-field-map-audit-inheritance.md](extraction-audit/dispositions/01-harness-extraction-field-map-audit-inheritance.md)
+  - [intervention-proposals/138-harness-modifier-in-place-rehome-step-1-proposal.md](intervention-proposals/138-harness-modifier-in-place-rehome-step-1-proposal.md)
 
 ## Current Session Rule
 

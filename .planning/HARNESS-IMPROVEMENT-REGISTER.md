@@ -87,6 +87,7 @@ Status: active durable register
 - [d:r:i] That next bounded move is now landed through `123`, and the matching compatibility-family refresh now also sits in propagation `45`; the adjacent held route remains `health.md` deepen-in-place follow-through rather than another proposal loop around the same milestone-boundary pair.
 - [d:r:i] That adjacent held route is now opened directly in `124`, keeping the next move focused on one repair-facing carrier family before any later broader wrapper-family widening reopens.
 - [d:r:i] Keep the later harness-modifier extraction/distribution route explicit through `115`, but hold actual repo/package split until the present uplift/cross-runtime and propagation contracts travel farther
+- [d:r:i] After the completed extraction audit lane `01`, the next bounded extraction move is now no longer a vague route note; it is the in-repo `harness-modifier/` rehome proposal in `138`, while compatibility declaration, standalone repo extraction, and npm packaging remain later sequence steps
 - [d:r:i] The workspace-state audit lane `01` is now completed and inherited:
   - the first landed governance carries are `Horizon Routing` in this register and `Bounded Parallelization And Overlap` in `AUDIT-LANE-PATTERN-LIBRARY.md`
   - the lane also now sharpens `136`: host-project versus harness scope leakage counts as real extraction pressure, not only future packaging appetite

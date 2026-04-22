@@ -1293,3 +1293,39 @@
   - land `Horizon Routing` in the harness register
   - land `Bounded Parallelization And Overlap` in the lane-pattern library
   - keep `CURRENT-STATE.md` active-baseline split, compaction/continuation mirroring, and `.planning/AGENTS.md` promotion explicitly later
+
+## 2026-04-22 `extraction-audit lane-01`
+
+- date: `2026-04-22`
+- purpose: bounded Opus audit over the first standalone-harness extraction field map so the host-project versus harness carrier split, compatibility declaration shape, installer/materialization ownership, and migration sequence become sharper before any repo-split or packaging move
+- frozen launch basis commit: `fc3275f`
+- requested model / reasoning: `opus[1m]` / `xhigh`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth:
+  - [extraction-audit/launch-truth/01-harness-extraction-field-map-audit-launch-truth.md](extraction-audit/launch-truth/01-harness-extraction-field-map-audit-launch-truth.md)
+- output:
+  - [extraction-audit/outputs/01-harness-extraction-field-map-audit-opus47-max-r1.md](extraction-audit/outputs/01-harness-extraction-field-map-audit-opus47-max-r1.md)
+- timing estimate:
+  - `14-22 minutes`
+- current state:
+  - completed
+  - first shell attempt failed only because the repo-local logs directory did not exist yet
+  - relaunched immediately after creating `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/01/`
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `410.115`
+  - session id: `79650535-0a1a-4d0c-bbba-765e1e8803c5`
+  - total cost usd: `2.4960592499999996`
+  - repo-local artifacts:
+    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/01/probe-summary.txt`
+    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/01/extraction-audit-01-20260422-150133.tf9fstrc.stream.jsonl`
+    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/01/extraction-audit-01-20260422-150133.zex3wpon.stderr.log`
+    - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/01/extraction-audit-01-20260422-150133.4xbvmstp.debug.log`
+- timing calibration:
+  - actual runtime was much shorter than the `14-22 minute` estimate at roughly `6.8 minutes`; the lane behaved like a bounded structural field-map reread rather than a broader packaging or migration audit
+- disposition:
+  - `accept with staged extraction sequence`
+  - keep host-project doctrine from traveling
+  - keep `.claude` as held annotation
+  - land `138` as the next bounded in-repo step
+  - keep repo split, npm packaging, and wider support-window claims later

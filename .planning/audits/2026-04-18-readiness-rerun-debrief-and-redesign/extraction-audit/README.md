@@ -15,6 +15,12 @@ Status: active opening audit family
 ## Opening Lane
 
 - [d:r:i] Lane `01` will challenge the first local extraction field map rather than jumping straight to repo split or npm packaging.
+- [d:r:i] Lane `01` current tuple:
+  - [packets/01-harness-extraction-field-map-audit-packet.md](packets/01-harness-extraction-field-map-audit-packet.md)
+  - [specs/01-harness-extraction-field-map-audit-spec.md](specs/01-harness-extraction-field-map-audit-spec.md)
+  - [prompts/01-harness-extraction-field-map-audit-opus47-max-r1-launch-prompt.md](prompts/01-harness-extraction-field-map-audit-opus47-max-r1-launch-prompt.md)
+  - [launch-truth/01-harness-extraction-field-map-audit-launch-truth.md](launch-truth/01-harness-extraction-field-map-audit-launch-truth.md)
+  - [outputs/01-harness-extraction-field-map-audit-opus47-max-r1.md](outputs/01-harness-extraction-field-map-audit-opus47-max-r1.md)
 
 ## Expected Artifact Pattern
 
