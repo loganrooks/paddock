@@ -34,6 +34,12 @@ Status: active opening audit family
   - [intervention-proposals/142-harness-modifier-overlay-carrier-rehome-next-proposal.md](../intervention-proposals/142-harness-modifier-overlay-carrier-rehome-next-proposal.md)
   - standalone repo boundary design
   - second-host exercise
+- [d:r:i] Lane `02` is now the active challenge on that boundary:
+  - [packets/02-harness-modifier-overlay-carrier-rehome-reread-packet.md](packets/02-harness-modifier-overlay-carrier-rehome-reread-packet.md)
+  - [specs/02-harness-modifier-overlay-carrier-rehome-reread-spec.md](specs/02-harness-modifier-overlay-carrier-rehome-reread-spec.md)
+  - [prompts/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1-launch-prompt.md](prompts/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1-launch-prompt.md)
+  - [launch-truth/02-harness-modifier-overlay-carrier-rehome-reread-launch-truth.md](launch-truth/02-harness-modifier-overlay-carrier-rehome-reread-launch-truth.md)
+  - [outputs/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1.md](outputs/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1.md)
 
 ## Expected Artifact Pattern
 

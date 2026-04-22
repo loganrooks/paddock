@@ -275,6 +275,11 @@
   - [intervention-proposals/140-harness-modifier-compatibility-declaration-carrier-proposal.md](intervention-proposals/140-harness-modifier-compatibility-declaration-carrier-proposal.md)
   - [intervention-proposals/141-harness-modifier-compatibility-declaration-carrier-implementation.md](intervention-proposals/141-harness-modifier-compatibility-declaration-carrier-implementation.md)
   - [intervention-proposals/142-harness-modifier-overlay-carrier-rehome-next-proposal.md](intervention-proposals/142-harness-modifier-overlay-carrier-rehome-next-proposal.md)
+  - [extraction-audit/packets/02-harness-modifier-overlay-carrier-rehome-reread-packet.md](extraction-audit/packets/02-harness-modifier-overlay-carrier-rehome-reread-packet.md)
+  - [extraction-audit/specs/02-harness-modifier-overlay-carrier-rehome-reread-spec.md](extraction-audit/specs/02-harness-modifier-overlay-carrier-rehome-reread-spec.md)
+  - [extraction-audit/prompts/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1-launch-prompt.md](extraction-audit/prompts/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1-launch-prompt.md)
+  - [extraction-audit/launch-truth/02-harness-modifier-overlay-carrier-rehome-reread-launch-truth.md](extraction-audit/launch-truth/02-harness-modifier-overlay-carrier-rehome-reread-launch-truth.md)
+  - [extraction-audit/outputs/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1.md](extraction-audit/outputs/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1.md)
   - [entry-uplift-audit/packets/15-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-packet.md](entry-uplift-audit/packets/15-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-packet.md)
   - [entry-uplift-audit/specs/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-spec.md](entry-uplift-audit/specs/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-spec.md)
   - [entry-uplift-audit/prompts/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1-launch-prompt.md](entry-uplift-audit/prompts/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1-launch-prompt.md)
@@ -355,6 +360,11 @@
   - [intervention-proposals/141-harness-modifier-compatibility-declaration-carrier-implementation.md](intervention-proposals/141-harness-modifier-compatibility-declaration-carrier-implementation.md)
   - [propagation-audit/52-harness-modifier-compatibility-declaration-carrier-change-triggered-refresh.md](propagation-audit/52-harness-modifier-compatibility-declaration-carrier-change-triggered-refresh.md)
   - [intervention-proposals/142-harness-modifier-overlay-carrier-rehome-next-proposal.md](intervention-proposals/142-harness-modifier-overlay-carrier-rehome-next-proposal.md)
+  - [extraction-audit/packets/02-harness-modifier-overlay-carrier-rehome-reread-packet.md](extraction-audit/packets/02-harness-modifier-overlay-carrier-rehome-reread-packet.md)
+  - [extraction-audit/specs/02-harness-modifier-overlay-carrier-rehome-reread-spec.md](extraction-audit/specs/02-harness-modifier-overlay-carrier-rehome-reread-spec.md)
+  - [extraction-audit/prompts/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1-launch-prompt.md](extraction-audit/prompts/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1-launch-prompt.md)
+  - [extraction-audit/launch-truth/02-harness-modifier-overlay-carrier-rehome-reread-launch-truth.md](extraction-audit/launch-truth/02-harness-modifier-overlay-carrier-rehome-reread-launch-truth.md)
+  - [extraction-audit/outputs/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1.md](extraction-audit/outputs/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1.md)
 
 ## Current Session Rule
 
