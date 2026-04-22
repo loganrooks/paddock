@@ -162,6 +162,7 @@ Status: active governing synthesis
 - [d:r:i] That extraction lane is now completed too: [extraction-audit/outputs/01-harness-extraction-field-map-audit-opus47-max-r1.md](extraction-audit/outputs/01-harness-extraction-field-map-audit-opus47-max-r1.md) and [extraction-audit/dispositions/01-harness-extraction-field-map-audit-inheritance.md](extraction-audit/dispositions/01-harness-extraction-field-map-audit-inheritance.md) keep extraction staged, keep host doctrine from traveling, route the next move into [intervention-proposals/138-harness-modifier-in-place-rehome-step-1-proposal.md](intervention-proposals/138-harness-modifier-in-place-rehome-step-1-proposal.md), and the first two landed extraction slices are now:
   - [intervention-proposals/139-harness-modifier-in-place-rehome-step-1-implementation.md](intervention-proposals/139-harness-modifier-in-place-rehome-step-1-implementation.md) plus [propagation-audit/51-harness-modifier-in-place-rehome-step-1-change-triggered-refresh.md](propagation-audit/51-harness-modifier-in-place-rehome-step-1-change-triggered-refresh.md)
   - [intervention-proposals/141-harness-modifier-compatibility-declaration-carrier-implementation.md](intervention-proposals/141-harness-modifier-compatibility-declaration-carrier-implementation.md) plus [propagation-audit/52-harness-modifier-compatibility-declaration-carrier-change-triggered-refresh.md](propagation-audit/52-harness-modifier-compatibility-declaration-carrier-change-triggered-refresh.md)
+- [d:r:i] The next extraction object is now explicit too: [intervention-proposals/142-harness-modifier-overlay-carrier-rehome-next-proposal.md](intervention-proposals/142-harness-modifier-overlay-carrier-rehome-next-proposal.md) keeps the next decision on the overlay/workflow/skill/reference tranche concrete instead of leaving “make it its own project” at the helper/package level only.
 - [d:r:i] The first landed governance carries from that lane are:
   - `Horizon Routing` in `.planning/HARNESS-IMPROVEMENT-REGISTER.md`
   - `Bounded Parallelization And Overlap` in `AUDIT-LANE-PATTERN-LIBRARY.md`
@@ -184,7 +185,7 @@ Status: active governing synthesis
   - another distribution path
 - [o:r:i] Which co-location confusions should now count as extraction pressure rather than being handled only as local governance cleanup inside the host repo?
 - [o:r:i] After the landed `139` helper rehome plus `141` portable compatibility declaration carrier, what should inherit next inside the extraction family:
-  - overlay/workflow/skill/template/reference carriers
+  - overlay/workflow/skill/template/reference carriers through `142`
   - standalone repo boundary design
   - second-host exercise
 - [o:r:i] As the helper-backed `gsd-review` first slice lands, which adjacent review-workflow uplift opportunities should remain explicit as later family moves rather than being silently dropped?

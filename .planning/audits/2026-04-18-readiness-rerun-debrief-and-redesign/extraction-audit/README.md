@@ -31,7 +31,7 @@ Status: active opening audit family
   - [intervention-proposals/141-harness-modifier-compatibility-declaration-carrier-implementation.md](../intervention-proposals/141-harness-modifier-compatibility-declaration-carrier-implementation.md)
   - [../propagation-audit/52-harness-modifier-compatibility-declaration-carrier-change-triggered-refresh.md](../propagation-audit/52-harness-modifier-compatibility-declaration-carrier-change-triggered-refresh.md)
 - [d:r:i] The next adjacent extraction question is no longer whether the compatibility carrier should exist. It is which later step should inherit after the helper rehome plus portable declaration:
-  - overlay/workflow/skill/template/reference carriers
+  - [intervention-proposals/142-harness-modifier-overlay-carrier-rehome-next-proposal.md](../intervention-proposals/142-harness-modifier-overlay-carrier-rehome-next-proposal.md)
   - standalone repo boundary design
   - second-host exercise
 
