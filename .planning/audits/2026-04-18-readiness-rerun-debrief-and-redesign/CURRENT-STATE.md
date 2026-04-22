@@ -85,6 +85,7 @@ Status: active governing synthesis
 - [d:r:i] The propagation family now also carries an eighteenth non-uplift change-triggered refresh in `34`, so the typed `v2` registry now keeps the `plant-seed -> audit-open helper -> milestone-close` route explicit instead of leaving richer seed audit judgment ambient inside helper output alone.
 - [d:r:i] The propagation family now also carries a nineteenth non-uplift change-triggered refresh in `35`, so the typed `v2` registry now keeps the specialist `seed_migration_inventory.py -> seed-migration-inventory workflow -> gsd-seed-migration-inventory wrapper` route explicit together with the uplift handoff instead of leaving legacy-seed migration at posture counts plus a held-later line.
 - [d:r:i] The propagation family now also carries a twentieth non-uplift change-triggered refresh in `36`, so the typed `v2` registry now keeps post-write durable-output state, producer-follow-through to `plant-seed`, route-state disambiguation, and uplift-side current-version shape-gap discovery explicit instead of leaving the sharper detect-only packet semantics ambient after the reread.
+- [d:r:i] The propagation family now also carries a twenty-first non-uplift change-triggered refresh in `37`, so the typed `v2` registry now keeps specialist packet candidate counts plus bounded packet disclosure explicit at the `project_uplift -> progress/resume-project` bridge instead of leaving that operator-facing route at seed posture visibility alone.
 
 ## Immediate Decision Surfaces
 
@@ -100,8 +101,8 @@ Status: active governing synthesis
   - the widening reread over `08` is now also completed and inherited through lane `02`
   - the sharpened disclosure layer `09-12` is now the active local basis
   - the first real change-triggered slice refresh is now the compatibility-anchor batch in `16`
-  - the seed-migration reread plus harden follow-through now sit inside that same basis through `36`
-  - the next adjacent seed-family route inside the propagation family is the narrower operator-facing specialist-packet pointer bridge through `progress` / `resume-project`
+  - the seed-migration reread, harden follow-through, and operator-facing pointer bridge now sit inside that same basis through `37`
+  - the next adjacent seed-family route inside the propagation family is now a bounded reread of the landed operator-facing specialist-packet bridge before any later entry-wrapper widening, broader audit-open consumer widening, or rewrite/normalization family inherits next
   - later refreshes should keep following actual contract movement rather than abstract appetite for bigger maps
   - later whole-network widening stays later-family work rather than immediate next-step absorption
 - [d:r:i] The broader rerun workspace still also needs the floor-closing honesty/routing batch carried into its actual governing surfaces rather than left only as proposal artifacts.
@@ -126,7 +127,7 @@ Status: active governing synthesis
 - [o:r:i] Should the compatibility anchor remain embedded inside uplift memory, or later grow into a standalone compatibility carrier after more runtime-change slices have exercised it?
 - [o:r:i] Which parts of the submitted docs PR should remain stable governance/reference docs, and which should be paired with stronger intervention-oriented companions?
 - [o:r:i] If later family growth overloads the governance set again, what further routing surfaces would sharpen relevance without pushing the short synthesis back toward warehouse behavior?
-- [o:r:i] How should the narrower operator-facing specialist-packet pointer bridge land through `progress` / `resume-project` without blurring detect-only disclosure into rewrite pressure or a generic wrapper sweep?
+- [o:r:i] What still widens or sharpens under a bounded reread of the landed operator-facing specialist-packet bridge before any later entry-wrapper or broader seed-consumer widening inherits next?
 - [o:r:i] Which adjacent setup/materialization follow-through should inherit after the first bounded harden slice: wider repeated-reinstall probes, updater/frontier movement, or a later standalone compatibility carrier?
 
 ## Read Next

@@ -228,13 +228,13 @@
       "id": "project_uplift_contract_tests",
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_project_uplift.py",
-      "note": "focused helper and consumer coverage for uplift classification, durable output schema, compatibility drift routing, seed-corpus posture movement, operator-facing seed posture visibility, and current-version seed shape-gap discovery"
+      "note": "focused helper and consumer coverage for uplift classification, durable output schema, compatibility drift routing, seed-corpus posture movement, operator-facing seed posture visibility, bounded specialist packet disclosure, and current-version seed shape-gap discovery"
     },
     {
       "id": "seed_operator_consumer_contract_tests",
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_seed_operator_consumer_follow_through_contract.py",
-      "note": "focused contract coverage for progress/resume seed posture display through the uplift-note bridge"
+      "note": "focused contract coverage for progress/resume seed posture display plus specialist packet candidate-count and pointer disclosure through the uplift-note bridge"
     },
     {
       "id": "seed_audit_gate_impl_84",
@@ -283,6 +283,18 @@
       "evidence_lane": "change_triggered_refresh",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/36-seed-migration-detect-only-harden-change-triggered-refresh.md",
       "note": "typed v2 refresh that keeps the reread-earned harden semantics explicit at the helper/workflow/wrapper/uplift cluster instead of leaving them ambient after the first detect-only landing"
+    },
+    {
+      "id": "seed_migration_pointer_bridge_impl_90",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/90-seed-migration-operator-facing-pointer-bridge-implementation.md",
+      "note": "landed operator-facing specialist packet bridge covering project_uplift progress-note candidate counts plus bounded command disclosure at progress and resume-project when migration candidates are present"
+    },
+    {
+      "id": "seed_migration_pointer_refresh_37",
+      "evidence_lane": "change_triggered_refresh",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/37-seed-migration-operator-facing-pointer-change-triggered-refresh.md",
+      "note": "typed v2 refresh that keeps specialist packet candidate counts plus bounded operator-facing packet disclosure explicit at the project_uplift -> progress/resume-project bridge"
     }
   ]
 }

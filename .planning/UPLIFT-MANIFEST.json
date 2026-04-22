@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-04-22T02:01:24+00:00",
+  "generated_at": "2026-04-22T02:11:59+00:00",
   "mode": "detect-only",
   "last_uplift_class": "cross-runtime uplift",
   "last_uplift_secondary_signals": [

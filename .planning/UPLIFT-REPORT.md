@@ -1,6 +1,6 @@
 # Project Uplift Report
 
-- Generated: 2026-04-22T02:01:24+00:00
+- Generated: 2026-04-22T02:11:59+00:00
 - Mode: detect-only
 - Project class: cross-runtime uplift
 - Secondary signals: mid_phase

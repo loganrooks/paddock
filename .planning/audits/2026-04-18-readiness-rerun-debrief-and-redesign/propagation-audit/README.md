@@ -123,6 +123,7 @@ Status: active lane; widened inheritance batch
 - [34-seed-audit-gate-widening-change-triggered-refresh.md](34-seed-audit-gate-widening-change-triggered-refresh.md)
 - [35-legacy-seed-corpus-migration-detect-only-change-triggered-refresh.md](35-legacy-seed-corpus-migration-detect-only-change-triggered-refresh.md)
 - [36-seed-migration-detect-only-harden-change-triggered-refresh.md](36-seed-migration-detect-only-harden-change-triggered-refresh.md)
+- [37-seed-migration-operator-facing-pointer-change-triggered-refresh.md](37-seed-migration-operator-facing-pointer-change-triggered-refresh.md)
 - [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 - [artifacts/02-propagation-registry-v2-inventory-roster.json](artifacts/02-propagation-registry-v2-inventory-roster.json)
 - [artifacts/03-propagation-registry-v2-declared-contracts.json](artifacts/03-propagation-registry-v2-declared-contracts.json)
@@ -188,4 +189,5 @@ Status: active lane; widened inheritance batch
 - [d:r:i] An eighteenth non-uplift change-triggered refresh is now landing too: `34` records audit-open seed widening, and the typed `v2` layers now keep the `plant-seed -> audit-open helper -> milestone-close` route explicit instead of leaving richer seed audit judgment ambient inside helper output alone.
 - [d:r:i] A nineteenth non-uplift change-triggered refresh is now landing too: `35` records the specialist detect-only legacy-seed migration slice, and the typed `v2` layers now keep the helper/workflow/wrapper plus uplift handoff explicit instead of leaving migration planning at posture counts and held-later prose alone.
 - [d:r:i] A twentieth non-uplift change-triggered refresh is now landed too: `36` records the harden follow-through after the Opus reread, and the typed `v2` layers now keep post-write durable-output state, producer-follow-through to `plant-seed`, route-state disambiguation, and uplift-side shape-gap discovery explicit instead of leaving the sharper packet semantics ambient.
-- [d:r:i] The next adjacent seed-family route is now narrower than another helper/workflow harden pass: operator-facing specialist-packet pointer disclosure through `progress` / `resume-project`, with rewrite widening and generic wrapper sweep still held later.
+- [d:r:i] A twenty-first non-uplift change-triggered refresh is now landed too: `37` records the narrower operator-facing pointer bridge, and the typed `v2` layers now keep specialist packet candidate counts plus bounded packet disclosure explicit at the `project_uplift -> progress/resume-project` bridge instead of leaving that bridge at seed posture visibility alone.
+- [d:r:i] The next adjacent seed-family route is now a bounded reread of the landed operator-facing bridge before later entry-wrapper widening, broader audit-open consumer widening, or rewrite/normalization family work inherits next.
