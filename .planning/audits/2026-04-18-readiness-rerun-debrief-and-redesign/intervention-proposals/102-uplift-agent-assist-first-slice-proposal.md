@@ -96,4 +96,5 @@ Status: reference landed via `103`; route-hook hold remains open
 - [d:r:i] The first bounded packet/disposition layer and the first two parent-thread exercises now exist:
   - `docs_governance_classification`
   - `carrier_gap_identification`
-- [d:r:i] The next bounded move is now the narrow operator-initiated route pointer that cites both exercised packet templates while preserving detect-only posture and parent-thread ownership.
+- [d:r:i] The narrow operator-initiated route pointer is now landed in the live uplift route.
+- [d:r:i] The next bounded move is now a later runtime-proof or later assist-family slice, not first-discoverability work.

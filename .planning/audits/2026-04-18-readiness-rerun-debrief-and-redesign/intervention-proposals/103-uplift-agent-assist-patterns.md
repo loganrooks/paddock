@@ -137,4 +137,5 @@ Status: landed bounded reference
 - [d:r:i] The family now carries two exercised patterns with explicit packet templates:
   - `docs_governance_classification`
   - `carrier_gap_identification`
-- [d:r:i] The next adjacent move is now one narrow live route pointer that cites both exercised packet templates while preserving detect-only posture and parent-thread ownership.
+- [d:r:i] The narrow live route pointer is now landed in `uplift-project.md`.
+- [d:r:i] The next adjacent move is now one bounded later runtime-proof or later assist-family slice, not first route discoverability.

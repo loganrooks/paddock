@@ -258,6 +258,7 @@ Status: active inventory
 - `intervention-proposals/105-uplift-docs-governance-classification-packet-template-implementation.md`
 - `intervention-proposals/106-uplift-docs-governance-classification-first-exercise.md`
 - `intervention-proposals/107-uplift-carrier-gap-identification-second-exercise.md`
+- `intervention-proposals/108-uplift-assist-route-pointer-first-slice-implementation.md`
 - `entry-uplift-audit/packets/06-uplift-docs-governance-classification-packet-template.md`
 - `entry-uplift-audit/packets/07-uplift-docs-governance-classification-first-exercise-packet.md`
 - `entry-uplift-audit/outputs/06-uplift-docs-governance-classification-first-exercise.md`
@@ -269,6 +270,7 @@ Status: active inventory
 - `entry-uplift-audit/packets/09-uplift-carrier-gap-identification-second-exercise-packet.md`
 - `entry-uplift-audit/outputs/08-uplift-carrier-gap-identification-second-exercise.md`
 - `entry-uplift-audit/dispositions/08-uplift-carrier-gap-identification-second-exercise-disposition.md`
+- `propagation-audit/41-uplift-assist-route-pointer-change-triggered-refresh.md`
 
 ## Challenge And Output Subtrees
 

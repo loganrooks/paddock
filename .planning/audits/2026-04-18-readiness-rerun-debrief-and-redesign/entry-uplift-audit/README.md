@@ -137,4 +137,6 @@ For each lane, keep this tuple explicit:
   - [outputs/08-uplift-carrier-gap-identification-second-exercise.md](outputs/08-uplift-carrier-gap-identification-second-exercise.md)
   - [dispositions/08-uplift-carrier-gap-identification-second-exercise-disposition.md](dispositions/08-uplift-carrier-gap-identification-second-exercise-disposition.md)
   - [../intervention-proposals/107-uplift-carrier-gap-identification-second-exercise.md](../intervention-proposals/107-uplift-carrier-gap-identification-second-exercise.md)
-- [d:r:i] The current adjacent move is now one narrow live route pointer that cites both exercised packet templates while preserving detect-only posture and parent-thread ownership.
+- [d:r:i] The narrow live route pointer is now landed in the live uplift workflow:
+  - [../intervention-proposals/108-uplift-assist-route-pointer-first-slice-implementation.md](../intervention-proposals/108-uplift-assist-route-pointer-first-slice-implementation.md)
+- [d:r:i] The current adjacent move is now one bounded later runtime-proof or later assist-family slice, with the route-pointer movement also carried into the propagation family.
