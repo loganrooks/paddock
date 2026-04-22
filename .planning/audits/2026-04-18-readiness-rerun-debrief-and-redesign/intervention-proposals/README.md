@@ -131,6 +131,7 @@ Status: active proposal/disposition batch
 125. `125-health-uplift-deepen-in-place-first-slice-implementation.md`
 126. `126-health-uplift-deepen-in-place-harden-follow-through-proposal.md`
 127. `127-health-uplift-deepen-in-place-harden-follow-through-implementation.md`
+128. `128-entry-runtime-continuity-shared-reference-proposal.md`
 
 ## Proposal Rule
 
@@ -176,6 +177,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `125` now records the landed adjacent repair-facing slice itself: `health.md` now carries a post-validation read-only uplift continuity step with the same compact-to-narrative-to-typed grammar, `gsd-health` keeps the structural-health / read-only continuity / later write-side refresh split explicit, and the matching compatibility-family refresh now carries in `46`.
 - [d:r:i] `126` now records the reread-cleared same-carrier harden follow-through: tighten the trigger predicate, make the silent case literal test-held carry, state the footer/step coexistence directly, and let `Interpretation Frame` carry the authoritative three-way split.
 - [d:r:i] `127` now records the landed harden slice itself: the health carrier holds more of its own trigger, silence, and ownership semantics locally, the focused contract test is wider, and the next adjacent move can return to the broader `119` frontier on a cleaner repair-facing basis.
+- [d:r:i] `128` now turns that reopened `119` branch into one bounded shared-reference proposal: entry/runtime continuity should travel first through a dedicated shared reference plus `mandatory-initial-read.md`, `new-project.md`, and `ingest-docs.md`, while `update` and `from-gsd2` remain the next adjacent consumers after that first proof.
 - [d:r:i] `43` now records the bounded compatibility follow-through inside that same uplift chain: the durable uplift outputs carry an observed-basis compatibility anchor without widening into a broader version-window claim.
 - [d:r:i] `44` now records the consumer-chain follow-through that keeps the compatibility anchor from remaining only as stored uplift memory.
 - [d:r:i] `45` now sequences the first harness-improvement follow-through tranche after the full-field Opus widening: canary/invariant assertion first, audit-program infrastructure second, standing self-improvement register third.

@@ -261,5 +261,6 @@ For each lane, keep this tuple explicit:
   - [../intervention-proposals/126-health-uplift-deepen-in-place-harden-follow-through-proposal.md](../intervention-proposals/126-health-uplift-deepen-in-place-harden-follow-through-proposal.md)
   - [../intervention-proposals/127-health-uplift-deepen-in-place-harden-follow-through-implementation.md](../intervention-proposals/127-health-uplift-deepen-in-place-harden-follow-through-implementation.md)
   - [../propagation-audit/47-health-uplift-deepen-in-place-harden-change-triggered-refresh.md](../propagation-audit/47-health-uplift-deepen-in-place-harden-change-triggered-refresh.md)
-- [d:r:i] The next adjacent move can now return to the broader `119` frontier on a cleaner repair-facing basis instead of widening from the older thinner trigger surface.
+- [d:r:i] The next adjacent move is now opened concretely at:
+  - [../intervention-proposals/128-entry-runtime-continuity-shared-reference-proposal.md](../intervention-proposals/128-entry-runtime-continuity-shared-reference-proposal.md)
 - [d:r:i] Keep broader cross-runtime, extraction, and new-carrier movement held until that next bounded choice is reopened explicitly.
