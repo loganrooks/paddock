@@ -280,6 +280,7 @@
   - [intervention-proposals/146-harness-modifier-overlay-roster-and-embedded-host-path-scan-implementation.md](intervention-proposals/146-harness-modifier-overlay-roster-and-embedded-host-path-scan-implementation.md)
   - [intervention-proposals/147-harness-modifier-first-overlay-filesystem-rehome-proposal.md](intervention-proposals/147-harness-modifier-first-overlay-filesystem-rehome-proposal.md)
   - [intervention-proposals/148-harness-modifier-first-overlay-filesystem-rehome-implementation.md](intervention-proposals/148-harness-modifier-first-overlay-filesystem-rehome-implementation.md)
+  - [intervention-proposals/150-harness-modifier-first-overlay-residue-classification-pass-implementation.md](intervention-proposals/150-harness-modifier-first-overlay-residue-classification-pass-implementation.md)
   - [extraction-audit/packets/02-harness-modifier-overlay-carrier-rehome-reread-packet.md](extraction-audit/packets/02-harness-modifier-overlay-carrier-rehome-reread-packet.md)
   - [extraction-audit/specs/02-harness-modifier-overlay-carrier-rehome-reread-spec.md](extraction-audit/specs/02-harness-modifier-overlay-carrier-rehome-reread-spec.md)
   - [extraction-audit/prompts/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1-launch-prompt.md](extraction-audit/prompts/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1-launch-prompt.md)
@@ -293,6 +294,7 @@
   - [extraction-audit/outputs/03-harness-modifier-first-overlay-filesystem-rehome-reread-opus47-max-r1.md](extraction-audit/outputs/03-harness-modifier-first-overlay-filesystem-rehome-reread-opus47-max-r1.md)
   - [extraction-audit/dispositions/03-harness-modifier-first-overlay-filesystem-rehome-reread-inheritance.md](extraction-audit/dispositions/03-harness-modifier-first-overlay-filesystem-rehome-reread-inheritance.md)
   - [intervention-proposals/149-harness-modifier-first-overlay-residue-classification-pass-proposal.md](intervention-proposals/149-harness-modifier-first-overlay-residue-classification-pass-proposal.md)
+  - [propagation-audit/56-harness-modifier-first-overlay-residue-classification-change-triggered-refresh.md](propagation-audit/56-harness-modifier-first-overlay-residue-classification-change-triggered-refresh.md)
   - [extraction-audit/artifacts/03-overlay-embedded-host-path-scan.md](extraction-audit/artifacts/03-overlay-embedded-host-path-scan.md)
   - [../../../harness_modifier/overlay/ROSTER.md](../../../harness_modifier/overlay/ROSTER.md)
   - [entry-uplift-audit/packets/15-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-packet.md](entry-uplift-audit/packets/15-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-packet.md)
@@ -393,6 +395,7 @@
   - [extraction-audit/outputs/03-harness-modifier-first-overlay-filesystem-rehome-reread-opus47-max-r1.md](extraction-audit/outputs/03-harness-modifier-first-overlay-filesystem-rehome-reread-opus47-max-r1.md)
   - [extraction-audit/dispositions/03-harness-modifier-first-overlay-filesystem-rehome-reread-inheritance.md](extraction-audit/dispositions/03-harness-modifier-first-overlay-filesystem-rehome-reread-inheritance.md)
   - [intervention-proposals/149-harness-modifier-first-overlay-residue-classification-pass-proposal.md](intervention-proposals/149-harness-modifier-first-overlay-residue-classification-pass-proposal.md)
+  - [intervention-proposals/150-harness-modifier-first-overlay-residue-classification-pass-implementation.md](intervention-proposals/150-harness-modifier-first-overlay-residue-classification-pass-implementation.md)
 
 ## Current Session Rule
 

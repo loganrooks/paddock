@@ -535,6 +535,24 @@
       "evidence_lane": "change_triggered_refresh",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/55-harness-modifier-first-overlay-filesystem-rehome-change-triggered-refresh.md",
       "note": "change-triggered refresh that keeps the first specialist source split explicit across overlay roster, install-target contract, materialization helper, moved workflow/wrapper sources, and package-owned helper shims"
+    },
+    {
+      "id": "overlay_residue_classification_impl_150",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/150-harness-modifier-first-overlay-residue-classification-pass-implementation.md",
+      "note": "landed residue-classification slice covering source-side __PROJECT_ROOT__ token abstraction for the moved skill adapters plus explicit later-bound classification for helper-payload promotion, default-source-root migration, and overwrite-family source indirection"
+    },
+    {
+      "id": "overlay_residue_classification_contract_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_portable_gsd_contract.py",
+      "note": "focused contract coverage proving explicit manifest source entries still render __PROJECT_ROOT__ correctly through apply-overlay and materialization"
+    },
+    {
+      "id": "overlay_residue_classification_refresh_56",
+      "evidence_lane": "refresh_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/56-harness-modifier-first-overlay-residue-classification-change-triggered-refresh.md",
+      "note": "change-triggered refresh capturing the resolved skill-adapter source-path residue and the three remaining later-bound extraction pressures after the first specialist source split"
     }
   ]
 }

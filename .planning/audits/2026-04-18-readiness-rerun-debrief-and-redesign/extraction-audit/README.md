@@ -64,9 +64,15 @@ Status: active opening audit family
 - [d:r:i] Lane `03` is now completed and inherited:
   - [outputs/03-harness-modifier-first-overlay-filesystem-rehome-reread-opus47-max-r1.md](outputs/03-harness-modifier-first-overlay-filesystem-rehome-reread-opus47-max-r1.md)
   - [dispositions/03-harness-modifier-first-overlay-filesystem-rehome-reread-inheritance.md](dispositions/03-harness-modifier-first-overlay-filesystem-rehome-reread-inheritance.md)
-- [d:r:i] The next extraction move is now narrowed again:
+- [d:r:i] The next extraction move was then narrowed again:
   - [../intervention-proposals/149-harness-modifier-first-overlay-residue-classification-pass-proposal.md](../intervention-proposals/149-harness-modifier-first-overlay-residue-classification-pass-proposal.md)
-- [d:r:i] `149` keeps the next move on the first slice's residues instead of widening directly into a second filesystem tranche.
+- [d:r:i] `149` kept the next move on the first slice's residues instead of widening directly into a second filesystem tranche.
+- [d:r:i] That residue-classification pass is now landed too:
+  - [../intervention-proposals/150-harness-modifier-first-overlay-residue-classification-pass-implementation.md](../intervention-proposals/150-harness-modifier-first-overlay-residue-classification-pass-implementation.md)
+  - [../propagation-audit/56-harness-modifier-first-overlay-residue-classification-change-triggered-refresh.md](../propagation-audit/56-harness-modifier-first-overlay-residue-classification-change-triggered-refresh.md)
+- [d:r:i] The carried result is now explicit:
+  - source-side token abstraction is now settled for the moved skill adapters
+  - helper-payload promotion, default-source-root migration, and overwrite-family source indirection remain later bounded questions
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern
