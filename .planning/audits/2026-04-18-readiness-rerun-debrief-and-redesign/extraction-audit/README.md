@@ -76,6 +76,12 @@ Status: active opening audit family
 - [d:r:i] The next extraction move is now narrowed again:
   - [../intervention-proposals/151-harness-modifier-helper-payload-authority-map-proposal.md](../intervention-proposals/151-harness-modifier-helper-payload-authority-map-proposal.md)
 - [d:r:i] `151` keeps the family on the next live authority question exposed by `150`: which helper payloads are modifier-facing enough to count as later movement candidates, which remain shared-boundary, and whether the current helper shims are temporary bridges or stable long-lived boundaries.
+- [d:r:i] Lane `04` is now the active challenge on that boundary:
+  - [packets/04-harness-modifier-helper-payload-authority-map-reread-packet.md](packets/04-harness-modifier-helper-payload-authority-map-reread-packet.md)
+  - [specs/04-harness-modifier-helper-payload-authority-map-reread-spec.md](specs/04-harness-modifier-helper-payload-authority-map-reread-spec.md)
+  - [prompts/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1-launch-prompt.md](prompts/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1-launch-prompt.md)
+  - [launch-truth/04-harness-modifier-helper-payload-authority-map-reread-launch-truth.md](launch-truth/04-harness-modifier-helper-payload-authority-map-reread-launch-truth.md)
+  - [outputs/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1.md](outputs/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1.md)
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern

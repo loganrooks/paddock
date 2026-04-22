@@ -282,6 +282,11 @@
   - [intervention-proposals/148-harness-modifier-first-overlay-filesystem-rehome-implementation.md](intervention-proposals/148-harness-modifier-first-overlay-filesystem-rehome-implementation.md)
   - [intervention-proposals/150-harness-modifier-first-overlay-residue-classification-pass-implementation.md](intervention-proposals/150-harness-modifier-first-overlay-residue-classification-pass-implementation.md)
   - [intervention-proposals/151-harness-modifier-helper-payload-authority-map-proposal.md](intervention-proposals/151-harness-modifier-helper-payload-authority-map-proposal.md)
+  - [extraction-audit/packets/04-harness-modifier-helper-payload-authority-map-reread-packet.md](extraction-audit/packets/04-harness-modifier-helper-payload-authority-map-reread-packet.md)
+  - [extraction-audit/specs/04-harness-modifier-helper-payload-authority-map-reread-spec.md](extraction-audit/specs/04-harness-modifier-helper-payload-authority-map-reread-spec.md)
+  - [extraction-audit/prompts/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1-launch-prompt.md](extraction-audit/prompts/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1-launch-prompt.md)
+  - [extraction-audit/launch-truth/04-harness-modifier-helper-payload-authority-map-reread-launch-truth.md](extraction-audit/launch-truth/04-harness-modifier-helper-payload-authority-map-reread-launch-truth.md)
+  - [extraction-audit/outputs/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1.md](extraction-audit/outputs/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1.md)
   - [extraction-audit/packets/02-harness-modifier-overlay-carrier-rehome-reread-packet.md](extraction-audit/packets/02-harness-modifier-overlay-carrier-rehome-reread-packet.md)
   - [extraction-audit/specs/02-harness-modifier-overlay-carrier-rehome-reread-spec.md](extraction-audit/specs/02-harness-modifier-overlay-carrier-rehome-reread-spec.md)
   - [extraction-audit/prompts/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1-launch-prompt.md](extraction-audit/prompts/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1-launch-prompt.md)
@@ -398,6 +403,10 @@
   - [intervention-proposals/149-harness-modifier-first-overlay-residue-classification-pass-proposal.md](intervention-proposals/149-harness-modifier-first-overlay-residue-classification-pass-proposal.md)
   - [intervention-proposals/150-harness-modifier-first-overlay-residue-classification-pass-implementation.md](intervention-proposals/150-harness-modifier-first-overlay-residue-classification-pass-implementation.md)
   - [intervention-proposals/151-harness-modifier-helper-payload-authority-map-proposal.md](intervention-proposals/151-harness-modifier-helper-payload-authority-map-proposal.md)
+  - [extraction-audit/packets/04-harness-modifier-helper-payload-authority-map-reread-packet.md](extraction-audit/packets/04-harness-modifier-helper-payload-authority-map-reread-packet.md)
+  - [extraction-audit/specs/04-harness-modifier-helper-payload-authority-map-reread-spec.md](extraction-audit/specs/04-harness-modifier-helper-payload-authority-map-reread-spec.md)
+  - [extraction-audit/prompts/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1-launch-prompt.md](extraction-audit/prompts/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1-launch-prompt.md)
+  - [extraction-audit/launch-truth/04-harness-modifier-helper-payload-authority-map-reread-launch-truth.md](extraction-audit/launch-truth/04-harness-modifier-helper-payload-authority-map-reread-launch-truth.md)
 
 ## Current Session Rule
 
