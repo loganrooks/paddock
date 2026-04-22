@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "3711cde",
+  "basis_commit": "a5d7160",
   "evidence_entries": [
     {
       "id": "overlay_contract_validation",
@@ -235,6 +235,18 @@
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_seed_operator_consumer_follow_through_contract.py",
       "note": "focused contract coverage for progress/resume seed posture display through the uplift-note bridge"
+    },
+    {
+      "id": "seed_audit_gate_impl_84",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/84-seed-audit-gate-widening-first-slice-implementation.md",
+      "note": "landed audit-side seed slice covering overlay-owned audit.cjs, richer seed rows in structured and human audit output, milestone-close consumer reminder, and explicit non-movement for verify-work"
+    },
+    {
+      "id": "seed_audit_gate_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_seed_audit_gate_follow_through_contract.py",
+      "note": "focused contract coverage for overlay ownership of audit.cjs, richer seed audit JSON/report output, and milestone-close consumer wording that preserves surfaced seed detail"
     }
   ]
 }

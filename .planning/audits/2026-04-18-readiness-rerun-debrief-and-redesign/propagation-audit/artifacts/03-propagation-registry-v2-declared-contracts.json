@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "3711cde",
+  "basis_commit": "a5d7160",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -202,6 +202,18 @@
         "state_continuity"
       ],
       "claim_boundary": "declares how project uplift scans current versus legacy seed corpus posture, how uplift-project plus gsd-uplift-project keep that posture visible, how progress and resume consume it through the progress-note bridge, how durable uplift memory preserves it, and how later legacy-seed migration stays separate from detect-only uplift"
+    },
+    {
+      "id": "seed_audit_gate_contract",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/bin/lib/audit.cjs",
+      "validator": "tooling/codex/tests/test_seed_audit_gate_follow_through_contract.py",
+      "contract_kind": "seed audit-helper and milestone-close judgment semantics with visible vintage, Why This Matters, and Strengthening Carry",
+      "families_touched": [
+        "install_overlay",
+        "lib_runtime",
+        "workflow_output"
+      ],
+      "claim_boundary": "declares how audit-open keeps canonical seed id, contract vintage, Why This Matters, and Strengthening Carry visible in JSON and human report output, and how milestone-close keeps those richer seed lines visible during acknowledgment or deferment judgment instead of flattening them back to bare seed ids"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "3711cde",
+  "basis_commit": "a5d7160",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -265,6 +265,18 @@
       "evidence_refs": [
         "threshold_scanner_helper_tests",
         "historical_scanner_reread_output_05"
+      ]
+    },
+    {
+      "id": "audit_open_helper",
+      "family": "lib_runtime",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/bin/lib/audit.cjs",
+      "role": "open-artifact audit helper that keeps canonical seed id, contract vintage, Why This Matters, and Strengthening Carry visible for milestone-close audit judgment",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "seed_audit_gate_impl_84",
+        "seed_audit_gate_tests"
       ]
     },
     {
@@ -593,11 +605,13 @@
       "id": "milestone_close_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/complete-milestone.md",
-      "role": "operator-facing milestone-close workflow carrying LONG-ARC reread and Future Carry Forward milestone-close continuity review",
+      "role": "operator-facing milestone-close workflow carrying LONG-ARC reread, Future Carry Forward milestone-close continuity review, and richer audit-open seed judgment visibility during acknowledgment or deferment",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
-        "milestone_boundary_lifecycle_carry_impl_60"
+        "milestone_boundary_lifecycle_carry_impl_60",
+        "seed_audit_gate_impl_84",
+        "seed_audit_gate_tests"
       ]
     },
     {
@@ -1250,6 +1264,18 @@
       "status": "mapped"
     },
     {
+      "id": "overlay_to_audit_open_helper",
+      "from": "overlay_manifest",
+      "to": "audit_open_helper",
+      "kind": "overlay_owns_runtime_helper_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "seed_audit_gate_impl_84"
+      ],
+      "status": "mapped"
+    },
+    {
       "id": "milestone_open_workflow_to_state",
       "from": "milestone_open_workflow",
       "to": "state_md",
@@ -1630,6 +1656,34 @@
         "seed_consumer_carry_tests",
         "seed_doctrine_vintage_impl_78",
         "seed_doctrine_vintage_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "plant_seed_workflow_to_audit_open_helper",
+      "from": "plant_seed_workflow",
+      "to": "audit_open_helper",
+      "kind": "seed_producer_routes_vintage_why_and_strengthening_carry_into_audit_reader",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "seed_consumer_carry_impl_74",
+        "seed_consumer_carry_tests",
+        "seed_doctrine_vintage_impl_78",
+        "seed_doctrine_vintage_tests",
+        "seed_audit_gate_impl_84",
+        "seed_audit_gate_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "audit_open_helper_to_milestone_close_workflow",
+      "from": "audit_open_helper",
+      "to": "milestone_close_workflow",
+      "kind": "helper_keeps_seed_vintage_and_strengthening_judgment_visible_at_milestone_close",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "seed_audit_gate_impl_84",
+        "seed_audit_gate_tests"
       ],
       "status": "mapped"
     },

@@ -115,6 +115,8 @@
   - [intervention-proposals/80-uplift-side-seed-corpus-posture-first-slice-implementation.md](intervention-proposals/80-uplift-side-seed-corpus-posture-first-slice-implementation.md)
   - [intervention-proposals/81-seed-operator-consumer-widening-first-slice-proposal.md](intervention-proposals/81-seed-operator-consumer-widening-first-slice-proposal.md)
   - [intervention-proposals/82-seed-operator-consumer-widening-first-slice-implementation.md](intervention-proposals/82-seed-operator-consumer-widening-first-slice-implementation.md)
+  - [intervention-proposals/83-seed-audit-gate-widening-first-slice-proposal.md](intervention-proposals/83-seed-audit-gate-widening-first-slice-proposal.md)
+  - [intervention-proposals/84-seed-audit-gate-widening-first-slice-implementation.md](intervention-proposals/84-seed-audit-gate-widening-first-slice-implementation.md)
 - project-uplift family:
   - [intervention-proposals/37-entry-surface-and-project-uplift-map.md](intervention-proposals/37-entry-surface-and-project-uplift-map.md)
   - [intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md](intervention-proposals/38-entry-surface-concern-and-carrier-placement-map.md)
@@ -170,6 +172,7 @@
   - [propagation-audit/31-seed-doctrine-vintage-anchor-change-triggered-refresh.md](propagation-audit/31-seed-doctrine-vintage-anchor-change-triggered-refresh.md)
   - [propagation-audit/32-uplift-seed-corpus-posture-change-triggered-refresh.md](propagation-audit/32-uplift-seed-corpus-posture-change-triggered-refresh.md)
   - [propagation-audit/33-seed-operator-consumer-widening-change-triggered-refresh.md](propagation-audit/33-seed-operator-consumer-widening-change-triggered-refresh.md)
+  - [propagation-audit/34-seed-audit-gate-widening-change-triggered-refresh.md](propagation-audit/34-seed-audit-gate-widening-change-triggered-refresh.md)
   - [propagation-audit/artifacts/01-propagation-field-registry-v1.json](propagation-audit/artifacts/01-propagation-field-registry-v1.json)
   - [propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json](propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json)
   - [propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json](propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json)
