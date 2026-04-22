@@ -1453,6 +1453,24 @@
 - pre-launch estimate:
   - `10-16 minutes`
 - current state:
-  - active
-  - the lane is constrained to typed-carrier split and helper-thinning judgment
-  - it should not reopen relocation, second overlay tranche, overwrite-family source split, standalone repo, or package-distribution appetite
+  - completed
+  - the lane stayed constrained to typed-carrier split and helper-thinning judgment
+  - it did not reopen relocation, second overlay tranche, overwrite-family source split, standalone repo, or package-distribution appetite
+- repo-local artifacts:
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/05/probe-summary.txt`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/05/extraction-audit-05-20260422-183143.tzaaoc6p.stream.jsonl`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/05/extraction-audit-05-20260422-183143.x417238w.stderr.log`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/05/extraction-audit-05-20260422-183143.gqqb325g.debug.log`
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `436.198`
+  - session id: `94513606-99b5-4cf6-9930-7ae9387837cd`
+  - total cost usd: `2.7205682499999995`
+- timing calibration:
+  - actual runtime came in below the `10-16 minute` estimate at roughly `7.3 minutes`
+  - the lane behaved like a tightly bounded typed-carrier split reread rather than a wider extraction redesign lane
+- disposition:
+  - [extraction-audit/dispositions/05-harness-modifier-project-uplift-neutralization-proposal-reread-inheritance.md](extraction-audit/dispositions/05-harness-modifier-project-uplift-neutralization-proposal-reread-inheritance.md)
+  - `accept with typed-carrier split`
+  - land one bounded neutralization implementation slice
+  - keep relocation, second overlay tranche, overwrite-family split, standalone repo, npm/`npx`, and second-host work explicitly later

@@ -30,3 +30,17 @@ python3 tooling/codex/run_claude_probe.py \
   --prompt-file .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/prompts/05-harness-modifier-project-uplift-neutralization-proposal-reread-opus47-max-r1-launch-prompt.md \
   > .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/05/probe-summary.txt
 ```
+
+- [d:r:i] Probe summary:
+  - exit code: `0`
+  - elapsed seconds: `436.198`
+  - session id: `94513606-99b5-4cf6-9930-7ae9387837cd`
+  - total cost usd: `2.7205682499999995`
+- [d:r:i] Repo-local artifacts:
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/05/probe-summary.txt`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/05/extraction-audit-05-20260422-183143.tzaaoc6p.stream.jsonl`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/05/extraction-audit-05-20260422-183143.x417238w.stderr.log`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/05/extraction-audit-05-20260422-183143.gqqb325g.debug.log`
+- [d:r:i] Timing calibration:
+  - actual runtime came in below the `10-16 minute` estimate at roughly `7.3 minutes`
+  - the lane behaved like a tightly bounded typed-carrier split reread rather than a wider extraction redesign lane
