@@ -285,6 +285,34 @@
   - carried now: sharper annotation sub-shape split, posture-label discipline, direct version-gap evidence, explicit family-6 parallelizability, and clearer helper-side implementation choice hold
   - still held: live anchor mutation, compatibility matrix, `.claude` translation, composition judgment, cross-repo extraction execution
 
+## 2026-04-22 `entry-uplift-audit-lane-10`
+
+- date: `2026-04-22`
+- purpose: bounded reread of the adjacent cross-runtime field after the landed held-runtime annotation slice in `116`, to decide what should intensify next without collapsing observed-basis discipline
+- frozen launch basis commit: `e19371b`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- launch-truth artifact: [entry-uplift-audit/launch-truth/10-uplift-cross-runtime-post-annotation-next-move-launch-truth.md](entry-uplift-audit/launch-truth/10-uplift-cross-runtime-post-annotation-next-move-launch-truth.md)
+- prompt artifact: [entry-uplift-audit/prompts/10-uplift-cross-runtime-post-annotation-next-move-opus47-max-r1-launch-prompt.md](entry-uplift-audit/prompts/10-uplift-cross-runtime-post-annotation-next-move-opus47-max-r1-launch-prompt.md)
+- governing spec: [entry-uplift-audit/specs/10-uplift-cross-runtime-post-annotation-next-move-spec.md](entry-uplift-audit/specs/10-uplift-cross-runtime-post-annotation-next-move-spec.md)
+- governing packet: [entry-uplift-audit/packets/16-uplift-cross-runtime-post-annotation-next-move-packet.md](entry-uplift-audit/packets/16-uplift-cross-runtime-post-annotation-next-move-packet.md)
+- output artifact: [entry-uplift-audit/outputs/14-uplift-cross-runtime-post-annotation-next-move-opus47-max-r1.md](entry-uplift-audit/outputs/14-uplift-cross-runtime-post-annotation-next-move-opus47-max-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `323.546`
+  - session id: `c1d5df51-ce35-4301-a43d-1e1a2d096098`
+  - total cost usd: `2.1029889999999996`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/uplift-cross-runtime-post-annotation-next-move-opus47-max-r1-20260422-021003.15zlhw38.stream.jsonl`
+    - `/tmp/uplift-cross-runtime-post-annotation-next-move-opus47-max-r1-20260422-021003.mhos1f_c.stderr.log`
+    - `/tmp/uplift-cross-runtime-post-annotation-next-move-opus47-max-r1-20260422-021003.8zayv7st.debug.log`
+- disposition:
+  - [entry-uplift-audit/dispositions/14-uplift-cross-runtime-post-annotation-next-move-inheritance.md](entry-uplift-audit/dispositions/14-uplift-cross-runtime-post-annotation-next-move-inheritance.md)
+  - `accept as widening input`
+  - consumer-chain asymmetry is the next bounded proposal inside the compatibility family
+  - family-6 wider route mapping remains parallelizable
+  - structural-row, typed carrier, translation, and extraction remain later
+
 ## 2026-04-21 `propagation-audit-lane-03`
 
 - date: `2026-04-21`

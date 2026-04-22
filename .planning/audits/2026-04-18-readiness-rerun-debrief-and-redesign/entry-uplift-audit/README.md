@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread; lane-07 completed and locally inherited after cross-runtime first-exercise reread; lane-08 completed and locally inherited after concern-family split reread; lane-09 completed and locally inherited after compatibility-shape reread
+Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread; lane-07 completed and locally inherited after cross-runtime first-exercise reread; lane-08 completed and locally inherited after concern-family split reread; lane-09 completed and locally inherited after compatibility-shape reread; lane-10 completed and locally inherited after post-annotation next-move reread
 
 # Entry Uplift Audit
 
@@ -160,6 +160,21 @@ For each lane, keep this tuple explicit:
 - local inheritance:
   - [dispositions/13-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-inheritance.md](dispositions/13-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-inheritance.md)
 
+## Lane 10
+
+- packet:
+  - [packets/16-uplift-cross-runtime-post-annotation-next-move-packet.md](packets/16-uplift-cross-runtime-post-annotation-next-move-packet.md)
+- spec:
+  - [specs/10-uplift-cross-runtime-post-annotation-next-move-spec.md](specs/10-uplift-cross-runtime-post-annotation-next-move-spec.md)
+- prompt:
+  - [prompts/10-uplift-cross-runtime-post-annotation-next-move-opus47-max-r1-launch-prompt.md](prompts/10-uplift-cross-runtime-post-annotation-next-move-opus47-max-r1-launch-prompt.md)
+- launch-truth:
+  - [launch-truth/10-uplift-cross-runtime-post-annotation-next-move-launch-truth.md](launch-truth/10-uplift-cross-runtime-post-annotation-next-move-launch-truth.md)
+- outputs:
+  - [outputs/14-uplift-cross-runtime-post-annotation-next-move-opus47-max-r1.md](outputs/14-uplift-cross-runtime-post-annotation-next-move-opus47-max-r1.md)
+- local inheritance:
+  - [dispositions/14-uplift-cross-runtime-post-annotation-next-move-inheritance.md](dispositions/14-uplift-cross-runtime-post-annotation-next-move-inheritance.md)
+
 ## Current Adjacent Move
 
 - [d:r:i] The uplift-assist family no longer points first toward a live route hook.
@@ -206,7 +221,9 @@ For each lane, keep this tuple explicit:
   - [launch-truth/08-uplift-cross-runtime-concern-family-split-launch-truth.md](launch-truth/08-uplift-cross-runtime-concern-family-split-launch-truth.md)
   - [outputs/12-uplift-cross-runtime-concern-family-split-opus47-max-r1.md](outputs/12-uplift-cross-runtime-concern-family-split-opus47-max-r1.md)
   - [dispositions/12-uplift-cross-runtime-concern-family-split-inheritance.md](dispositions/12-uplift-cross-runtime-concern-family-split-inheritance.md)
-- [d:r:i] The current adjacent move is now the revised bounded compatibility-family widening-shape proposal in:
+- [d:r:i] The compatibility-family widening-shape proposal in:
   - [../intervention-proposals/114-uplift-cross-runtime-compatibility-widening-shape-proposal.md](../intervention-proposals/114-uplift-cross-runtime-compatibility-widening-shape-proposal.md)
-- [d:r:i] Lane-09 kept the overall ordering but revised the package: annotation posture now carries a visible held-scalar versus structural-row split, posture-label discipline is explicit, the `.codex` `1.38.3` versus `.claude` `1.34.2` gap is named directly, and family-6 wider route mapping remains parallelizable.
-- [d:r:i] Live `.claude` translation, compatibility-matrix claims, composition judgment, and cross-repo extraction remain held after that inheritance.
+  is now no longer the active next object by itself; its first slice landed in `116`, and lane-10 has now inherited the adjacent field opened by that slice.
+- [d:r:i] The current adjacent move is now the bounded consumer-chain asymmetry proposal in:
+  - [../intervention-proposals/118-uplift-consumer-chain-asymmetry-next-proposal.md](../intervention-proposals/118-uplift-consumer-chain-asymmetry-next-proposal.md)
+- [d:r:i] Lane-10 keeps family-6 wider route mapping parallelizable, while live `.claude` translation, compatibility-matrix claims, composition judgment, and cross-repo extraction remain held later.

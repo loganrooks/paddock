@@ -46,8 +46,8 @@ Status: active durable register
 - [d:r:i] Standing self-improvement register growth beyond this first slice
 - [d:r:i] Explicit canon-absorption use on later landed intervention families
 - [d:r:i] Bounded uplift-agent-assist patterning that keeps composition-layer judgment in the parent thread while delegation sharpens narrower uplift subproblems
-- [d:r:i] After the first three exercised uplift-assist patterns, the landed narrow route pointer, the landed docs-governance runtime-proof, the first cross-runtime packet exercise, the completed Opus widening reread, and the completed concern-family split lane, the next bounded move is the compatibility-family widening-shape proposal in `114` rather than direct `.claude` translation or composition work
-- [d:r:i] After the first compatibility-family implementation slice in `116`, the next adjacent move is no longer `whether the anchor carries any cross-runtime detail at all`; it is whether later widening should intensify consumer-chain asymmetry, structural-row annotation, or another bounded cross-runtime family without collapsing observed-basis discipline
+- [d:r:i] After the first three exercised uplift-assist patterns, the landed narrow route pointer, the landed docs-governance runtime-proof, the first cross-runtime packet exercise, the completed Opus widening reread, and the completed concern-family split lane, the compatibility-family widening-shape proposal in `114` is now no longer just prospective; its first slice landed in `116`
+- [d:r:i] After the first compatibility-family implementation slice in `116` and the completed post-annotation reread in lane `10`, the next bounded move is the consumer-chain asymmetry proposal in `118`, while family-6 wider route mapping remains parallelizable and extraction/distribution remains later
 - [d:r:i] Keep the later harness-modifier extraction/distribution route explicit through `115`, but hold actual repo/package split until the present uplift/cross-runtime and propagation contracts travel farther
 
 ## Ownerless Concerns
@@ -61,6 +61,10 @@ Status: active durable register
 - [o:r:i] later cross-repo posture export
 - [o:r:i] repo-local setup script robustness when upstream installer self-checks fail
 - [o:r:i] broader fresh-install/update movement once the first local setup harden slice has landed
+- [o:r:i] repo-local measurement / telemetry side-effect governance for external review lanes:
+  - whether generated traces should become governed durable artifacts
+  - stay runtime-only and ignored
+  - or route through a separate measurement subtree instead of appearing as unmanaged repo drift
 
 ## Cross-Dimensional Quality Basket
 

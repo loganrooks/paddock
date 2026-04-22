@@ -25,6 +25,9 @@ Status: landed first-slice implementation
   - read the held `.claude` runtime annotation separately
   - preserve the top-level observed-basis posture
   - route held-runtime movement into the progress-note write recommendation path
+- [d:r:i] The landed helper-side implementation choice is the narrower `.claude`-specific constant route, not a runtime-dir walker:
+  - `HELD_CLAUDE_RUNTIME_VERSION_REL_PATH`
+  - the observed-basis anchor stays narrow while the held runtime is read through one explicitly named secondary path
 - [d:r:i] Durable uplift outputs now carry the annotation:
   - [UPLIFT-REPORT.md](/home/rookslog/workspace/projects/prix-guesser/.planning/UPLIFT-REPORT.md)
   - [UPLIFT-MANIFEST.json](/home/rookslog/workspace/projects/prix-guesser/.planning/UPLIFT-MANIFEST.json)
@@ -38,6 +41,10 @@ Status: landed first-slice implementation
 ## What This Slice Preserves
 
 - [d:r:i] The observed runtime basis remains `.codex` only.
+- [d:r:i] The slice keeps one explicit asymmetry visible rather than hiding it:
+  - the wider runtime detection list still includes `.gemini`, `.opencode`, and `.kilo`
+  - the held-runtime annotation reader only reads `.claude`
+  - this keeps later third-runtime widening named as later instead of quietly implying it already travels today
 - [d:r:i] The slice does not claim a version-window compatibility matrix.
 - [d:r:i] The slice does not claim `.claude` route translation parity.
 - [d:r:i] The slice does not open a standalone multi-runtime compatibility carrier.

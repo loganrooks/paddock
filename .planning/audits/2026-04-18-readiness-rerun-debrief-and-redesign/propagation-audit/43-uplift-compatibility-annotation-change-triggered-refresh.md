@@ -24,6 +24,11 @@ Status: landed change-triggered refresh
   - the observed-basis anchor still lives in durable uplift memory
   - the held runtime annotation now lives beside it without relabeling the top-level posture
   - the read-only consumer chain now surfaces that held annotation too
+- [d:r:i] The refresh also has to keep one helper-side asymmetry explicit:
+  - runtime detection is wider than held-runtime annotation reading
+  - the detection list sees several runtime roots
+  - the held annotation reader still names only `.claude`
+  - later third-runtime widening should inherit from that explicit asymmetry rather than from an accidental impression of broader live coverage
 - [d:r:i] The typed `v2` layer therefore now needs to remember not only:
   - where the compatibility anchor is stored
   - where compatibility movement is surfaced back to operators
@@ -41,4 +46,5 @@ Status: landed change-triggered refresh
 - [d:r:i] Later refreshes should keep distinguishing:
   - observed-basis runtime truth
   - held runtime annotation
+  - wider detection frontier versus narrower annotation-reader coverage
   - wider cross-runtime compatibility claims still held for later

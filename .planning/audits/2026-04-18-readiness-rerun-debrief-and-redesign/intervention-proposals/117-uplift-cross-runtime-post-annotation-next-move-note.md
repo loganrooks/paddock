@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: active next-move note
+Status: completed next-move note; lane-10 completed and inherited
 
 # Uplift Cross-Runtime Post-Annotation Next-Move Note
 
@@ -34,10 +34,12 @@ Status: active next-move note
   - what is still better kept as a later route
   - where stronger propagation or consumer carry would have to move if the next slice intensifies
 
-## Planned Challenge
+## Inherited Answer
 
-- [d:r:i] The next Opus lane should read `112` through `117`, the new live uplift outputs, and `43`.
-- [d:r:i] That lane should map the full adjacent field first, then distinguish:
-  - immediate next bounded move
-  - later cross-runtime widening
-  - later extraction/distribution field
+- [d:r:i] Lane `10` has now completed that field map and inheritance.
+- [d:r:i] The field-map step is no longer the open task.
+- [d:r:i] The cleared next bounded move is now:
+  - one `consumer-chain asymmetry` proposal inside the uplift compatibility family
+- [d:r:i] The clearer later split is now:
+  - family-6 wider route-asymmetry mapping can open in parallel
+  - structural-row promotion, typed carrier, route translation, and extraction remain later
