@@ -104,6 +104,7 @@ Status: active lane; widened inheritance batch
 - [28-update-follow-through-change-triggered-refresh.md](28-update-follow-through-change-triggered-refresh.md)
 - [29-seed-consumer-carry-change-triggered-refresh.md](29-seed-consumer-carry-change-triggered-refresh.md)
 - [30-explore-seed-producer-convergence-change-triggered-refresh.md](30-explore-seed-producer-convergence-change-triggered-refresh.md)
+- [31-seed-doctrine-vintage-anchor-change-triggered-refresh.md](31-seed-doctrine-vintage-anchor-change-triggered-refresh.md)
 - [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 - [artifacts/02-propagation-registry-v2-inventory-roster.json](artifacts/02-propagation-registry-v2-inventory-roster.json)
 - [artifacts/03-propagation-registry-v2-declared-contracts.json](artifacts/03-propagation-registry-v2-declared-contracts.json)
@@ -163,3 +164,4 @@ Status: active lane; widened inheritance batch
 - [d:r:i] A twelfth non-uplift change-triggered refresh is now landing too: `28` records the update follow-through slice, and the typed `v2` layers now keep `update` and `gsd-update` explicit as another shared-reference and wrapper carrier pair with runtime/package versus structural-health versus later-uplift route separation instead of leaving update-side onboarding as another flatter runtime-success pocket.
 - [d:r:i] A thirteenth non-uplift change-triggered refresh is now landing too: `29` records the seed producer/consumer slice, and the typed `v2` layers now keep `plant-seed`, `gsd-plant-seed`, and the stronger `plant-seed -> new-milestone` consumer relation explicit instead of leaving seed meaning as another flatter milestone-open pocket.
 - [d:r:i] A fourteenth non-uplift change-triggered refresh is now landing too: `30` records the `explore` seed-producer convergence slice, and the typed `v2` layers now keep `explore`, `gsd-explore`, and the `explore -> plant-seed` route explicit instead of leaving the seed family split between one current producer and one stale ideation-side output path.
+- [d:r:i] A fifteenth non-uplift change-triggered refresh is now landing too: `31` records the seed doctrine-vintage anchor slice, and the typed `v2` layers now keep current-contract versus legacy-unversioned seed shape explicit at the main producer and main milestone-open consumer instead of leaving that compatibility distinction ambient.

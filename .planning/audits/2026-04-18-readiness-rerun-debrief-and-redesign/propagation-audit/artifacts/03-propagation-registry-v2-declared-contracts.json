@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "407c279",
+  "basis_commit": "1f814e9",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -177,6 +177,18 @@
         "wrapper"
       ],
       "claim_boundary": "declares how explore routes selected seed outputs through $gsd-plant-seed and the live SEED-NNN-slug contract, and how gsd-explore keeps that current route explicit instead of leaving a legacy inline seed shape live beside the current producer"
+    },
+    {
+      "id": "seed_doctrine_vintage_anchor_contract",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/plant-seed.md",
+      "validator": "tooling/codex/tests/test_seed_consumer_follow_through_contract.py",
+      "contract_kind": "seed current-versus-legacy vintage anchor semantics at the main producer and milestone-open consumer",
+      "families_touched": [
+        "install_overlay",
+        "workflow_output",
+        "wrapper"
+      ],
+      "claim_boundary": "declares how plant-seed writes seed_contract_version: 2, how new-milestone treats missing markers as legacy_unversioned rather than invalid, and how gsd-plant-seed keeps the current version anchor explicit at the wrapper boundary"
     }
   ]
 }

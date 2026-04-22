@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "407c279",
+  "basis_commit": "1f814e9",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -512,7 +512,7 @@
       "id": "milestone_open_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/new-milestone.md",
-      "role": "operator-facing milestone-opening workflow carrying LONG-ARC reread, Future Carry Forward milestone-open routing, layered read-packet control over primary milestone context, seed widening, and explicit Why This Matters plus Strengthening Carry consumption from matched seeds",
+      "role": "operator-facing milestone-opening workflow carrying LONG-ARC reread, Future Carry Forward milestone-open routing, layered read-packet control over primary milestone context, seed widening, explicit Why This Matters plus Strengthening Carry consumption from matched seeds, and current-versus-legacy-unversioned seed vintage tolerance",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
@@ -520,7 +520,9 @@
         "initialization_ingest_read_packet_impl_68",
         "initialization_read_packet_contract_tests",
         "seed_consumer_carry_impl_74",
-        "seed_consumer_carry_tests"
+        "seed_consumer_carry_tests",
+        "seed_doctrine_vintage_impl_78",
+        "seed_doctrine_vintage_tests"
       ]
     },
     {
@@ -658,24 +660,28 @@
       "id": "plant_seed_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/plant-seed.md",
-      "role": "seed producer workflow that preserves trigger timing, Why This Matters, breadcrumbs, and explicit Strengthening Carry for later milestone-open consumers",
+      "role": "seed producer workflow that preserves trigger timing, Why This Matters, breadcrumbs, explicit Strengthening Carry, and seed_contract_version: 2 for later milestone-open consumers",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "seed_consumer_carry_impl_74",
-        "seed_consumer_carry_tests"
+        "seed_consumer_carry_tests",
+        "seed_doctrine_vintage_impl_78",
+        "seed_doctrine_vintage_tests"
       ]
     },
     {
       "id": "plant_seed_skill_wrapper",
       "family": "wrapper",
       "path": "tooling/portable-gsd/overlay/skills/gsd-plant-seed/SKILL.md",
-      "role": "invocation-binding wrapper that keeps seed producer carry explicit, including strengthening carry intended for later milestone-open consumption",
+      "role": "invocation-binding wrapper that keeps seed producer carry explicit, including strengthening carry and the current seed contract version anchor intended for later milestone-open consumption",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "seed_consumer_carry_impl_74",
-        "seed_consumer_carry_tests"
+        "seed_consumer_carry_tests",
+        "seed_doctrine_vintage_impl_78",
+        "seed_doctrine_vintage_tests"
       ]
     },
     {
@@ -1573,11 +1579,13 @@
       "id": "plant_seed_workflow_to_milestone_open_workflow",
       "from": "plant_seed_workflow",
       "to": "milestone_open_workflow",
-      "kind": "seed_producer_routes_why_and_strengthening_carry_into_milestone_open_consumer",
+      "kind": "seed_producer_routes_vintage_why_and_strengthening_carry_into_milestone_open_consumer",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "seed_consumer_carry_impl_74",
-        "seed_consumer_carry_tests"
+        "seed_consumer_carry_tests",
+        "seed_doctrine_vintage_impl_78",
+        "seed_doctrine_vintage_tests"
       ],
       "status": "mapped"
     },

@@ -113,6 +113,8 @@ Status: active inventory
 - `intervention-proposals/74-seed-consumer-carry-first-slice-implementation.md`
 - `intervention-proposals/75-explore-seed-producer-convergence-first-slice-proposal.md`
 - `intervention-proposals/76-explore-seed-producer-convergence-first-slice-implementation.md`
+- `intervention-proposals/77-seed-doctrine-vintage-anchor-first-slice-proposal.md`
+- `intervention-proposals/78-seed-doctrine-vintage-anchor-first-slice-implementation.md`
 
 ### Self-Overcoming Family
 
@@ -184,6 +186,7 @@ Status: active inventory
 - `propagation-audit/28-update-follow-through-change-triggered-refresh.md`
 - `propagation-audit/29-seed-consumer-carry-change-triggered-refresh.md`
 - `propagation-audit/30-explore-seed-producer-convergence-change-triggered-refresh.md`
+- `propagation-audit/31-seed-doctrine-vintage-anchor-change-triggered-refresh.md`
 - `propagation-audit/launch-truth/30-seed-doctrine-vintage-sidecar-launch-truth.md`
 - `propagation-audit/outputs/04-seed-vintage-and-consumer-field-sidecar-gpt54-xhigh-r1.md`
 - `propagation-audit/dispositions/04-seed-vintage-and-consumer-field-sidecar-inheritance.md`
