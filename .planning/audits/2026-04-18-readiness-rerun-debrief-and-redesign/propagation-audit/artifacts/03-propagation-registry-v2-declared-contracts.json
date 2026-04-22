@@ -21,13 +21,13 @@
       "id": "portable_materialization_contract",
       "path": "tooling/codex/portable_gsd_contract.py",
       "validator": "tooling/codex/portable_gsd_contract.py",
-      "contract_kind": "fresh-install pristine capture, overlay application, and post-materialization verification semantics",
+      "contract_kind": "fresh-install pristine capture, overlay application, post-materialization verification semantics, and typed parity-reference disclosure for runtime-specific .claude hits inside live .codex materialization",
       "families_touched": [
         "install_pristine",
         "install_overlay",
         "registry"
       ],
-      "claim_boundary": "declares how the fresh live install becomes the repo-local pristine overwrite baseline, how the tracked overlay is applied, and which post-materialization checks are part of the local contract"
+      "claim_boundary": "declares how the fresh live install becomes the repo-local pristine overwrite baseline, how the tracked overlay is applied, which post-materialization checks are part of the local contract, how the current known .claude-hit baseline is classified contextually inside live .codex materialization, and how unreviewed runtime-specific hits widen attention through contextual reread rather than through automatic defect claims"
     },
     {
       "id": "verifier_future_preservation_contract",

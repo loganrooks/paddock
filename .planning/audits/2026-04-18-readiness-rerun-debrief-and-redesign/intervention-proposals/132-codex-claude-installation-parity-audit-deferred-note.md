@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: active opening note
+Status: completed opening note and route pointer
 
 # Codex Claude Installation Parity Audit Deferred Note
 
@@ -39,4 +39,9 @@ Status: active opening note
 ## Current Trigger State
 
 - [d:r:i] The `update` consumer branch is now settled, and the parity question was not absorbed away.
-- [d:r:i] The active next move is to run the bounded audit now, with `.codex` and `.claude` kept as the only provider horizon.
+- [d:r:i] The bounded audit is now completed under:
+  - [../entry-uplift-audit/outputs/23-codex-claude-installation-parity-audit-opus47-max-r1.md](../entry-uplift-audit/outputs/23-codex-claude-installation-parity-audit-opus47-max-r1.md)
+  - [../entry-uplift-audit/dispositions/23-codex-claude-installation-parity-audit-inheritance.md](../entry-uplift-audit/dispositions/23-codex-claude-installation-parity-audit-inheritance.md)
+- [d:r:i] The next bounded follow-through is now landed at:
+  - [134-codex-claude-parity-classification-carrier-proposal.md](134-codex-claude-parity-classification-carrier-proposal.md)
+  - [135-codex-claude-parity-classification-carrier-implementation.md](135-codex-claude-parity-classification-carrier-implementation.md)

@@ -127,10 +127,12 @@
       "id": "portable_contract",
       "family": "install_overlay",
       "path": "tooling/codex/portable_gsd_contract.py",
-      "role": "fresh-install pristine capture, overlay validation/application, reasoning defaults, materialization verification",
+      "role": "fresh-install pristine capture, overlay validation/application, reasoning defaults, materialization verification, and typed runtime-specific parity-reference reporting for live .codex materialization",
       "support_mode": "declared_contract_plus_validation",
       "evidence_refs": [
-        "overlay_contract_validation"
+        "overlay_contract_validation",
+        "portable_contract_tests",
+        "codex_claude_parity_impl_135"
       ]
     },
     {

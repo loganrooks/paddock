@@ -9,6 +9,12 @@
       "note": "validator and post-materialization contract checks for tracked overlay ownership"
     },
     {
+      "id": "portable_contract_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_portable_gsd_contract.py",
+      "note": "focused contract coverage for verify-materialized baseline parity-reference classification and the contextual-reread route for unreviewed runtime-specific hits"
+    },
+    {
       "id": "portable_materialization_check",
       "evidence_lane": "materialization",
       "path": "scripts/setup-portable-gsd.sh",
@@ -181,6 +187,18 @@
       "evidence_lane": "implementation_note",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/133-update-entry-runtime-continuity-follow-through-implementation.md",
       "note": "landed update consumer follow-through slice covering the shared entry/runtime continuity pointer, provider-horizon gate, pre-wipe read-only review beat, wrapper-side objective boundary, and the explicit reader/rewriter asymmetry at update"
+    },
+    {
+      "id": "codex_claude_parity_impl_135",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/135-codex-claude-parity-classification-carrier-implementation.md",
+      "note": "landed parity classification carrier slice covering typed runtime-specific reference disclosure inside verify-materialized, stable known-baseline classification, and contextual-reread routing for unreviewed hits"
+    },
+    {
+      "id": "codex_claude_parity_refresh_50",
+      "evidence_lane": "refresh_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/50-codex-claude-parity-classification-carrier-change-triggered-refresh.md",
+      "note": "change-triggered refresh capturing parity-reference disclosure as a live portable-materialization contract consequence instead of lane-only prose"
     },
     {
       "id": "seed_consumer_carry_impl_74",

@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread; lane-07 completed and locally inherited after cross-runtime first-exercise reread; lane-08 completed and locally inherited after concern-family split reread; lane-09 completed and locally inherited after compatibility-shape reread; lane-10 completed and locally inherited after post-annotation next-move reread; lane-11 completed and locally inherited after consumer-chain proposal reread; lane-12 completed and locally inherited after transition/state continuity reread; lane-13 completed and locally inherited after milestone-boundary shared-reference reread; lane-14 completed and locally inherited after health deepen-in-place reread; lane-15 completed and locally inherited after landed health harden follow-through reread; lane-16 completed and locally inherited after entry runtime continuity proposal reread; lane-17 completed and locally inherited after landed entry runtime continuity first-slice reread; lane-18 completed and locally inherited after update consumer reread
+Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread; lane-07 completed and locally inherited after cross-runtime first-exercise reread; lane-08 completed and locally inherited after concern-family split reread; lane-09 completed and locally inherited after compatibility-shape reread; lane-10 completed and locally inherited after post-annotation next-move reread; lane-11 completed and locally inherited after consumer-chain proposal reread; lane-12 completed and locally inherited after transition/state continuity reread; lane-13 completed and locally inherited after milestone-boundary shared-reference reread; lane-14 completed and locally inherited after health deepen-in-place reread; lane-15 completed and locally inherited after landed health harden follow-through reread; lane-16 completed and locally inherited after entry runtime continuity proposal reread; lane-17 completed and locally inherited after landed entry runtime continuity first-slice reread; lane-18 completed and locally inherited after update consumer reread; lane-19 completed and locally inherited after codex claude installation-parity audit
 
 # Entry Uplift Audit
 
@@ -250,6 +250,21 @@ For each lane, keep this tuple explicit:
 - local inheritance:
   - [dispositions/19-landed-health-uplift-deepen-in-place-first-slice-reread-inheritance.md](dispositions/19-landed-health-uplift-deepen-in-place-first-slice-reread-inheritance.md)
 
+## Lane 19
+
+- packet:
+  - [packets/25-codex-claude-installation-parity-audit-packet.md](packets/25-codex-claude-installation-parity-audit-packet.md)
+- spec:
+  - [specs/19-codex-claude-installation-parity-audit-spec.md](specs/19-codex-claude-installation-parity-audit-spec.md)
+- prompt:
+  - [prompts/19-codex-claude-installation-parity-audit-opus47-max-r1-launch-prompt.md](prompts/19-codex-claude-installation-parity-audit-opus47-max-r1-launch-prompt.md)
+- launch-truth:
+  - [launch-truth/19-codex-claude-installation-parity-audit-launch-truth.md](launch-truth/19-codex-claude-installation-parity-audit-launch-truth.md)
+- output:
+  - [outputs/23-codex-claude-installation-parity-audit-opus47-max-r1.md](outputs/23-codex-claude-installation-parity-audit-opus47-max-r1.md)
+- local inheritance:
+  - [dispositions/23-codex-claude-installation-parity-audit-inheritance.md](dispositions/23-codex-claude-installation-parity-audit-inheritance.md)
+
 ## Current Adjacent Move
 
 - [d:r:i] The repair-facing health carrier no longer points at the thinner `125` boundary.
@@ -282,7 +297,15 @@ For each lane, keep this tuple explicit:
 - [d:r:i] The landed consumer follow-through is now explicit:
   - [../intervention-proposals/133-update-entry-runtime-continuity-follow-through-implementation.md](../intervention-proposals/133-update-entry-runtime-continuity-follow-through-implementation.md)
   - [../propagation-audit/49-update-entry-runtime-continuity-follow-through-change-triggered-refresh.md](../propagation-audit/49-update-entry-runtime-continuity-follow-through-change-triggered-refresh.md)
+- [d:r:i] Lane `19` is now completed and locally inherited:
+  - [launch-truth/19-codex-claude-installation-parity-audit-launch-truth.md](launch-truth/19-codex-claude-installation-parity-audit-launch-truth.md)
+  - [outputs/23-codex-claude-installation-parity-audit-opus47-max-r1.md](outputs/23-codex-claude-installation-parity-audit-opus47-max-r1.md)
+  - [dispositions/23-codex-claude-installation-parity-audit-inheritance.md](dispositions/23-codex-claude-installation-parity-audit-inheritance.md)
+- [d:r:i] The first parity follow-through is now landed:
+  - [../intervention-proposals/134-codex-claude-parity-classification-carrier-proposal.md](../intervention-proposals/134-codex-claude-parity-classification-carrier-proposal.md)
+  - [../intervention-proposals/135-codex-claude-parity-classification-carrier-implementation.md](../intervention-proposals/135-codex-claude-parity-classification-carrier-implementation.md)
+  - [../propagation-audit/50-codex-claude-parity-classification-carrier-change-triggered-refresh.md](../propagation-audit/50-codex-claude-parity-classification-carrier-change-triggered-refresh.md)
 - [d:r:i] The next adjacent consumer inside this family is now `from-gsd2`.
-- [d:r:i] The adjacent cross-cutting runtime-specific install-parity audit is now kept explicit but deferred until after this consumer boundary settles:
+- [d:r:i] The adjacent cross-cutting runtime-specific install-parity family is now opened and carried:
   - [../intervention-proposals/132-codex-claude-installation-parity-audit-deferred-note.md](../intervention-proposals/132-codex-claude-installation-parity-audit-deferred-note.md)
 - [d:r:i] Keep broader cross-runtime, extraction, and new-carrier movement held until that later bounded choice is reopened explicitly.

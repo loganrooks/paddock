@@ -40,4 +40,17 @@ Status: launched capture
 
 - [e:r:i] Local monitoring session:
   - `63520`
-- [d:r:i] Actual elapsed, exit code, session id, cost, and temp artifacts will be filled in after completion.
+- [e:r:i] Actual elapsed:
+  - `786.116 seconds`
+- [e:r:i] Exit code:
+  - `0`
+- [e:r:i] Claude session id:
+  - `26c23312-de91-4bcb-85ba-d83e761a2a12`
+- [e:r:i] Total cost usd:
+  - `4.14505825`
+- [e:r:i] Temp artifacts:
+  - `/tmp/codex-claude-installation-parity-audit-opus47-max-r1-20260422-060042.n3yj88n0.stream.jsonl`
+  - `/tmp/codex-claude-installation-parity-audit-opus47-max-r1-20260422-060042.l8sfr70c.stderr.log`
+  - `/tmp/codex-claude-installation-parity-audit-opus47-max-r1-20260422-060042.8fwx94vl.debug.log`
+- [d:r:i] Calibration note:
+  - actual runtime landed inside the `12-18 minute` estimate window at roughly `13.1 minutes`, which fits the lane shape better than the earlier shorter waits did

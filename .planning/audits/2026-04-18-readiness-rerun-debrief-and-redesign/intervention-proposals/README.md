@@ -136,6 +136,9 @@ Status: active proposal/disposition batch
 130. `130-entry-runtime-continuity-shared-reference-first-slice-implementation.md`
 131. `131-update-entry-runtime-continuity-follow-through-proposal.md`
 132. `132-codex-claude-installation-parity-audit-deferred-note.md`
+133. `133-update-entry-runtime-continuity-follow-through-implementation.md`
+134. `134-codex-claude-parity-classification-carrier-proposal.md`
+135. `135-codex-claude-parity-classification-carrier-implementation.md`
 
 ## Proposal Rule
 
@@ -187,8 +190,10 @@ Status: active proposal/disposition batch
 - [d:r:i] `130` now records the landed first proof itself: one sibling reference, one new overlay `add` slot, direct `new-project.md` plus `ingest-docs.md` readers, focused contract coverage, and the matching propagation refresh in `48`.
 - [d:r:i] Lane `17` now rereads that landed proof and keeps the branch while pressing the next move farther: tighten provider-horizon wording, make the greenfield trigger more route-evaluable, keep the entry-side `_when_present` asymmetry explicit, widen the focused contract test, and route directly into `update` plus `gsd-update` before `from-gsd2`.
 - [d:r:i] `131` now opens that adjacent consumer route directly and is now locally revised by lane `18`: carry the shared entry/runtime continuity reference into `update.md` plus `gsd-update`, keep lane-17 harden recognized as already landed in `6f588ab`, keep broader runtime-detection narrowing separate, and leave `from-gsd2` as the wrapper-side branch after that proof.
-- [d:r:i] `132` now keeps the next adjacent `.codex` / `.claude` installation-parity audit explicit without stealing the current boundary: upstream already treats install shape as runtime-specific, but the repo-local audit should open only after the landed `update + gsd-update` consumer branch is checkpointed.
+- [d:r:i] `132` now records the completed opening note and route pointer for the `.codex` / `.claude` installation-parity family: the bounded audit is finished, its local inheritance is written, and larger `.claude` install/materialization widening stays later.
 - [d:r:i] `133` now records the landed `update + gsd-update` consumer follow-through itself: provider-gated workflow-side reference pointer and review beat, wrapper-side continuity boundary, focused contract extension, rematerialization, and the matching propagation refresh in `49`.
+- [d:r:i] `134` now records the next bounded parity follow-through cleared by lane `19`: keep the first slice inside `portable_gsd_contract.py verify-materialized`, preserve the current three contextual `.claude` hits explicitly, and route any non-baseline hit to contextual reread rather than to fake automatic defect judgment.
+- [d:r:i] `135` now records the landed classification carrier itself: `verify-materialized` now emits a typed runtime-specific reference report, the current three-hit baseline is frozen with context/ownership labels, focused tests hold both baseline and unreviewed-hit behavior, and the matching propagation refresh now lands in `50`.
 - [d:r:i] `43` now records the bounded compatibility follow-through inside that same uplift chain: the durable uplift outputs carry an observed-basis compatibility anchor without widening into a broader version-window claim.
 - [d:r:i] `44` now records the consumer-chain follow-through that keeps the compatibility anchor from remaining only as stored uplift memory.
 - [d:r:i] `45` now sequences the first harness-improvement follow-through tranche after the full-field Opus widening: canary/invariant assertion first, audit-program infrastructure second, standing self-improvement register third.

@@ -1208,9 +1208,22 @@
   - [entry-uplift-audit/launch-truth/19-codex-claude-installation-parity-audit-launch-truth.md](entry-uplift-audit/launch-truth/19-codex-claude-installation-parity-audit-launch-truth.md)
 - output:
   - [entry-uplift-audit/outputs/23-codex-claude-installation-parity-audit-opus47-max-r1.md](entry-uplift-audit/outputs/23-codex-claude-installation-parity-audit-opus47-max-r1.md)
-- status:
-  - `launched`
+- inheritance:
+  - [entry-uplift-audit/dispositions/23-codex-claude-installation-parity-audit-inheritance.md](entry-uplift-audit/dispositions/23-codex-claude-installation-parity-audit-inheritance.md)
 - timing estimate:
   - `12-18 minutes`
-- note:
-  - this lane explicitly treats `.claude` hits contextually rather than as automatic defects and keeps `.codex` / `.claude` as the only provider horizon
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `786.116`
+  - session id: `26c23312-de91-4bcb-85ba-d83e761a2a12`
+  - total cost usd: `4.14505825`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/codex-claude-installation-parity-audit-opus47-max-r1-20260422-060042.n3yj88n0.stream.jsonl`
+    - `/tmp/codex-claude-installation-parity-audit-opus47-max-r1-20260422-060042.l8sfr70c.stderr.log`
+    - `/tmp/codex-claude-installation-parity-audit-opus47-max-r1-20260422-060042.8fwx94vl.debug.log`
+- timing calibration:
+  - actual runtime landed inside the `12-18 minute` estimate at roughly `13.1 minutes`
+- disposition:
+  - `accept with local widening and landed first classification carrier`
+  - current state carries zero currently evidenced active-pointer defects in the `.codex` tree
+  - the first follow-through is a report-only classified parity carrier inside `verify-materialized`, not a Claude-side install branch
