@@ -89,6 +89,11 @@ Status: active durable register
 - [d:r:i] Keep the later harness-modifier extraction/distribution route explicit through `115`, but hold actual repo/package split until the present uplift/cross-runtime and propagation contracts travel farther
 - [d:r:i] After the completed extraction audit lane `01`, the next bounded extraction move is now no longer a vague route note; it is the in-repo `harness_modifier/` rehome route through `138` and landed `139`, while compatibility declaration, standalone repo extraction, and npm packaging remain later sequence steps
 - [d:r:i] After the completed extraction audit lane `02`, the extraction family now also carries one explicit overlay frontier freeze through `144` and landed `146`: the roster plus contextualized blocker scan now exist, and the next bounded move is `147` rather than another ambient overlay-classification note
+- [d:r:i] After the completed extraction audit lane `04`, helper-payload authority now splits more sharply too:
+  - `project_uplift.py` is the modifier-facing payload candidate, but only after a neutralization slice
+  - `seed_migration_inventory.py` is downstream of `project_uplift.py`
+  - `audit_refmap.py` is outside the later payload-movement candidate set and remains repo-local audit tooling
+  - the next bounded extraction move is therefore `project_uplift.py` neutralization, not relocation or a second filesystem tranche
 - [d:r:i] The workspace-state audit lane `01` is now completed and inherited:
   - the first landed governance carries are `Horizon Routing` in this register and `Bounded Parallelization And Overlap` in `AUDIT-LANE-PATTERN-LIBRARY.md`
   - the lane also now sharpens `136`: host-project versus harness scope leakage counts as real extraction pressure, not only future packaging appetite

@@ -1399,3 +1399,41 @@
   - keep the first specialist source split as a landed gain
   - do not widen directly into a second overlay tranche, helper-payload move, overwrite-family move, or standalone extraction route
   - open `149` as the next bounded extraction object
+
+## 2026-04-22 `extraction-audit lane-04`
+
+- date: `2026-04-22`
+- purpose: bounded Opus reread over the helper-payload authority question opened by `151`, so the extraction family can classify per-helper payload authority and shim-lifetime posture before any payload relocation, second overlay tranche, or standalone widening reopens
+- frozen launch basis commit: `64310aa`
+- requested model / reasoning: `opus[1m]` / `xhigh`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- prompt artifact: [extraction-audit/prompts/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1-launch-prompt.md](extraction-audit/prompts/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1-launch-prompt.md)
+- governing spec: [extraction-audit/specs/04-harness-modifier-helper-payload-authority-map-reread-spec.md](extraction-audit/specs/04-harness-modifier-helper-payload-authority-map-reread-spec.md)
+- governing packet: [extraction-audit/packets/04-harness-modifier-helper-payload-authority-map-reread-packet.md](extraction-audit/packets/04-harness-modifier-helper-payload-authority-map-reread-packet.md)
+- launch-truth artifact: [extraction-audit/launch-truth/04-harness-modifier-helper-payload-authority-map-reread-launch-truth.md](extraction-audit/launch-truth/04-harness-modifier-helper-payload-authority-map-reread-launch-truth.md)
+- output artifact: [extraction-audit/outputs/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1.md](extraction-audit/outputs/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1.md)
+- pre-launch estimate:
+  - `10-16 minutes`
+- current state:
+  - completed
+  - the lane stayed on per-helper payload authority and shim-boundary judgment
+  - it did not reopen second tranche, overwrite-family, standalone repo, or package-distribution appetite
+- repo-local artifacts:
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/04/probe-summary.txt`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/04/extraction-audit-04-20260422-181524.9c3fsxl_.stream.jsonl`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/04/extraction-audit-04-20260422-181524.7akqeimx.stderr.log`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/04/extraction-audit-04-20260422-181524.1o4_p0cw.debug.log`
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `340.276`
+  - session id: `eaf5a932-c728-47b9-9003-aff08ff87a8b`
+  - total cost usd: `2.6278252500000003`
+- timing calibration:
+  - actual runtime was shorter than the `10-16 minute` estimate at roughly `5.7 minutes`
+  - the lane behaved like a focused helper-authority classification reread rather than a wider extraction redesign lane
+- disposition:
+  - [extraction-audit/dispositions/04-harness-modifier-helper-payload-authority-map-reread-inheritance.md](extraction-audit/dispositions/04-harness-modifier-helper-payload-authority-map-reread-inheritance.md)
+  - `accept with authority-map next move`
+  - keep the per-helper split explicit
+  - keep `audit_refmap.py` out of the later payload-movement candidate set
+  - land the authority map before opening `project_uplift.py` neutralization

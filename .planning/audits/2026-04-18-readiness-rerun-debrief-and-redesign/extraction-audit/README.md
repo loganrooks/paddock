@@ -82,6 +82,13 @@ Status: active opening audit family
   - [prompts/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1-launch-prompt.md](prompts/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1-launch-prompt.md)
   - [launch-truth/04-harness-modifier-helper-payload-authority-map-reread-launch-truth.md](launch-truth/04-harness-modifier-helper-payload-authority-map-reread-launch-truth.md)
   - [outputs/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1.md](outputs/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1.md)
+- [d:r:i] Lane `04` is now completed and inherited:
+  - [outputs/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1.md](outputs/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1.md)
+  - [dispositions/04-harness-modifier-helper-payload-authority-map-reread-inheritance.md](dispositions/04-harness-modifier-helper-payload-authority-map-reread-inheritance.md)
+- [d:r:i] The next carried artifact is now landed too:
+  - [../../../../harness_modifier/overlay/helpers/AUTHORITY-MAP.md](../../../../harness_modifier/overlay/helpers/AUTHORITY-MAP.md)
+  - [../intervention-proposals/152-harness-modifier-helper-payload-authority-map-implementation.md](../intervention-proposals/152-harness-modifier-helper-payload-authority-map-implementation.md)
+- [d:r:i] The next extraction move is no longer another generic helper-authority note. It is the bounded `project_uplift.py` neutralization proposal that the authority map now points at directly.
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern

@@ -26,8 +26,8 @@ Status: active launch-truth record
 ## Timing
 
 - [d:r:i] Pre-launch estimate: `10-16 minutes`
-- [d:r:i] Actual elapsed seconds: `pending`
-- [d:r:i] Timing calibration: `pending until lane return`
+- [e:c+i] Actual elapsed seconds: `340.276`
+- [d:r:i] Timing calibration: shorter than expected at roughly `5.7 minutes`; this behaved like a focused helper-authority classification reread rather than a wider extraction redesign lane.
 
 ## Launch Note
 
@@ -36,8 +36,11 @@ Status: active launch-truth record
 
 ## Return Summary
 
-- [e:c+i] Exit code: `pending`
-- [e:c+i] Session id: `pending`
-- [e:c+i] Total cost usd: `pending`
+- [e:c+i] Exit code: `0`
+- [e:c+i] Session id: `eaf5a932-c728-47b9-9003-aff08ff87a8b`
+- [e:c+i] Total cost usd: `2.6278252500000003`
 - [e:c+i] Repo-local artifacts reserved or active:
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/04/probe-summary.txt`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/04/extraction-audit-04-20260422-181524.9c3fsxl_.stream.jsonl`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/04/extraction-audit-04-20260422-181524.7akqeimx.stderr.log`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/04/extraction-audit-04-20260422-181524.1o4_p0cw.debug.log`
