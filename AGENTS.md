@@ -160,6 +160,7 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
     - `replanning/revision/gap-filling`
     - `execution/verification`
   - state the mapping in commentary as `agent -> model -> reasoning`
+  - state a bounded expected wall-clock duration in commentary when the task is substantial enough to outlive a trivial wait
 - Before delegating substantial bounded edits, establish an auditable baseline and clean task boundary.
   - Prefer a checkpoint commit when the current state is coherent and reviewable.
   - If the current state is not yet coherent enough to commit, split, park, or otherwise stabilize it first rather than forcing a bad commit.
@@ -177,6 +178,10 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
 - For doctrine-sensitive or otherwise high-stakes spawned work, preserve durable requested-vs-effective launch truth instead of relying on sqlite checks plus memory alone.
   - Prefer `python3 tooling/codex/capture_launch_truth.py --since ...` over weaker `--latest` capture.
   - Preserve the capture in the relevant review, audit, launch-truth, or disposition artifact before accepting the return.
+- For substantial external audit lanes or delegated jobs, preserve timing calibration too instead of treating elapsed time as ambient memory.
+  - Record an estimated wall-clock duration or bounded range before launch.
+  - Record actual elapsed time after completion when the surface already carries launch truth or a durable review/disposition note.
+  - Add one short calibration note comparing estimate versus actual so later launches inherit a less naive timing model.
 
 ## Maintenance
 

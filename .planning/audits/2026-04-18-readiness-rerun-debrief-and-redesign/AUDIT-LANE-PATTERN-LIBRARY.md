@@ -51,7 +51,28 @@ Status: active audit-program infrastructure surface
   - packet/spec/prompt paths
   - requested model settings
   - effective model settings
+  - estimated wall-clock time or bounded runtime range before launch
+  - actual elapsed wall-clock time after completion
+  - one short calibration note comparing estimate versus actual so later launches can inherit a less naive timing expectation
   - any discovered mismatch and how it was handled
+
+### Timing estimate
+
+- [g:r:i] For every substantial external lane or delegated bounded job, preserve an explicit timing expectation before launch instead of treating wait behavior as ambient intuition.
+- [d:r:i] The estimate may be:
+  - one expected duration
+  - or one bounded range when the frontier is still uncertain
+- [d:r:i] The estimate should reflect the real lane shape:
+  - read-set size
+  - model/reasoning choice
+  - whether the lane is widening, bounded reread, or implementation review
+  - whether the output is expected to be short, medium, or long
+- [d:r:i] After completion, compare actual elapsed time to the estimate and record one brief calibration note:
+  - `shorter than expected because ...`
+  - `roughly matched because ...`
+  - `longer than expected because ...`
+- [d:r:i] The task is not perfect prediction.
+- [d:r:i] The task is to build a less naive local runtime model over repeated lanes.
 
 ### Output
 
@@ -128,6 +149,7 @@ Status: active audit-program infrastructure surface
 
 - [g:r:i] Prefer a coherent baseline before a substantial lane or bounded edit batch.
 - [d:r:i] Preserve launch truth when the lane materially matters.
+- [d:r:i] Preserve timing expectation and post-run comparison when the lane materially matters.
 - [d:r:i] Preserve explicit inheritance before treating output as live doctrine.
 - [d:r:i] Keep contextual reread sovereign over heuristic scanner quieting.
 - [d:r:i] Use audit/program verification surfaces that fit the slice:

@@ -1,5 +1,21 @@
 # Launch Ledger
 
+## Timing Calibration Rule
+
+- [g:r:i] For later external lanes or other durable review launches, do not preserve only requested/effective model settings and raw elapsed seconds.
+- [d:r:i] Preserve three timing fields when the lane materially matters:
+  - pre-launch estimated wall-clock duration or bounded range
+  - actual elapsed time after completion
+  - one brief calibration note comparing estimate versus actual
+- [d:r:i] The point is not false precision.
+- [d:r:i] The point is to let repeated lanes build a less naive local runtime model for:
+  - model choice
+  - reasoning choice
+  - read-set size
+  - lane shape
+  - expected output length
+- [d:r:i] Earlier ledger entries may lack this field. Newer lanes should carry it forward instead of relying on operator memory.
+
 ## 2026-04-18 `lane-01`
 
 - date: `2026-04-18`

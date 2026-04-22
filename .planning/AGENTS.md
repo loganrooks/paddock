@@ -177,6 +177,12 @@ For spawned planning, audit, review, or doctrine-sensitive work inside `.plannin
 - use a tight pre-spawn `--since` boundary when available
 - preserve the capture in the relevant launch-truth, review, audit, or disposition artifact before inheriting the return
 - treat missing runtime fields as unresolved rather than silently inferred matches
+- for substantial external lanes or delegated jobs, preserve timing expectation and timing outcome too
+  - record an estimated wall-clock duration or bounded runtime range before launch
+  - record actual elapsed time after completion when the lane closes
+  - add one short calibration note comparing estimate versus actual so later launches inherit a less naive timing expectation
+- do not let one fast or slow lane become folklore
+  - keep the timing comparison attached to the actual packet/spec/model/reasoning shape that produced it
 
 ## Research And Audit Quality
 
