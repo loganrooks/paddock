@@ -321,6 +321,30 @@
   - keep the landed `125` carrier pair
   - do not widen into `from-gsd2`, `update`, verifier, entry surfaces, or `.claude` parity/translation from this reread
   - next move: same-carrier harden follow-through in `126/127` plus compatibility-family refresh `47`
+
+## 2026-04-22 `entry-uplift-lane-16`
+
+- date: `2026-04-22`
+- purpose: bounded Opus reread of the reopened shared-reference branch after the landed health harden slice, focused on whether `128` scopes the next entry/runtime continuity proof correctly
+- frozen launch basis commit: `607348b`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth:
+  - [entry-uplift-audit/launch-truth/16-entry-runtime-continuity-shared-reference-proposal-reread-launch-truth.md](entry-uplift-audit/launch-truth/16-entry-runtime-continuity-shared-reference-proposal-reread-launch-truth.md)
+- packet:
+  - [entry-uplift-audit/packets/22-entry-runtime-continuity-shared-reference-proposal-reread-packet.md](entry-uplift-audit/packets/22-entry-runtime-continuity-shared-reference-proposal-reread-packet.md)
+- spec:
+  - [entry-uplift-audit/specs/16-entry-runtime-continuity-shared-reference-proposal-reread-spec.md](entry-uplift-audit/specs/16-entry-runtime-continuity-shared-reference-proposal-reread-spec.md)
+- prompt:
+  - [entry-uplift-audit/prompts/16-entry-runtime-continuity-shared-reference-proposal-reread-opus47-max-r1-launch-prompt.md](entry-uplift-audit/prompts/16-entry-runtime-continuity-shared-reference-proposal-reread-opus47-max-r1-launch-prompt.md)
+- reserved output:
+  - [entry-uplift-audit/outputs/20-entry-runtime-continuity-shared-reference-proposal-reread-opus47-max-r1.md](entry-uplift-audit/outputs/20-entry-runtime-continuity-shared-reference-proposal-reread-opus47-max-r1.md)
+- timing calibration:
+  - estimated wall-clock duration: `8-12 minutes`
+  - actual elapsed: `pending`
+  - calibration note: compact proposal reread with live-surface grounding; expected to run longer than the lane-15 same-carrier judgment and shorter than a broad family-mapping lane
+- disposition:
+  - `pending`
 - requested model / reasoning: `opus[1m]` / `max`
 - requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
 - frozen launch basis commit: `a733a1e`
