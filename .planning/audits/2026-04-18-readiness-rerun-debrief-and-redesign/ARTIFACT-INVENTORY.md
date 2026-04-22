@@ -251,6 +251,9 @@ Status: active inventory
 - `intervention-proposals/98-propagation-review-route-first-slice-implementation.md`
 - `intervention-proposals/99-propagation-review-route-harden-follow-through-proposal.md`
 - `intervention-proposals/100-propagation-review-route-harden-follow-through-implementation.md`
+- `intervention-proposals/101-repo-local-workflow-additions-and-propagation-map-orientation.md`
+- `intervention-proposals/102-uplift-agent-assist-first-slice-proposal.md`
+- `intervention-proposals/103-uplift-agent-assist-patterns.md`
 
 ## Challenge And Output Subtrees
 

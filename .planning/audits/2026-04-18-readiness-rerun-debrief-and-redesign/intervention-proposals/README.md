@@ -108,6 +108,9 @@ Status: active proposal/disposition batch
 98. `98-propagation-review-route-first-slice-implementation.md`
 99. `99-propagation-review-route-harden-follow-through-proposal.md`
 100. `100-propagation-review-route-harden-follow-through-implementation.md`
+101. `101-repo-local-workflow-additions-and-propagation-map-orientation.md`
+102. `102-uplift-agent-assist-first-slice-proposal.md`
+103. `103-uplift-agent-assist-patterns.md`
 
 ## Proposal Rule
 
@@ -131,6 +134,9 @@ Status: active proposal/disposition batch
 - [d:r:i] `95` and `96` now land the first baseline/delta pair itself: upstream-pristine propagation baseline first, repo-local propagation delta beside it.
 - [d:r:i] `97` and `98` now land one operator-facing review route on top of that pair: `$gsd-propagation-review` reads the baseline/delta packet, widens through the typed registry only as needed, and keeps contextual reread sovereign over helper output.
 - [d:r:i] `99` and `100` now record the bounded route-hardening follow-through after the first route reread: durable-note placement, claim-type carry, sharper tool-result-to-disposition guidance, and a slightly wider focused contract-test frontier are now explicit at the same route instead of remaining only in the reread inheritance note.
+- [d:r:i] `101` now keeps the current repo-local workflow additions and the stable-versus-evolving propagation-map split explicit in one compact operator note instead of leaving those answers distributed across `93/95/96` plus the workflow files.
+- [d:r:i] `102` now turns the remaining uplift-agent question into one bounded next route: define assist patterns for narrower uplift subproblems while keeping the composition layer and final uplift judgment in the parent thread.
+- [d:r:i] `103` now lands that assist-pattern reference itself: allowed uplift subproblem shapes, packet expectations, write boundaries, disposition rules, and the split between Codex subagents for bounded repo-local packet work versus Opus lanes for later widening/challenge work.
 - [d:r:i] `43` now records the bounded compatibility follow-through inside that same uplift chain: the durable uplift outputs carry an observed-basis compatibility anchor without widening into a broader version-window claim.
 - [d:r:i] `44` now records the consumer-chain follow-through that keeps the compatibility anchor from remaining only as stored uplift memory.
 - [d:r:i] `45` now sequences the first harness-improvement follow-through tranche after the full-field Opus widening: canary/invariant assertion first, audit-program infrastructure second, standing self-improvement register third.

@@ -44,6 +44,8 @@ Status: active durable register
 - [d:r:i] Portable setup robustness follow-through beyond the first bounded recovery/capture slice
 - [d:r:i] Standing self-improvement register growth beyond this first slice
 - [d:r:i] Explicit canon-absorption use on later landed intervention families
+- [d:r:i] Bounded uplift-agent-assist patterning that keeps composition-layer judgment in the parent thread while delegation sharpens narrower uplift subproblems
+- [d:r:i] One opt-in uplift-route hook or one concrete delegated packet family built from the landed assist-pattern reference instead of another abstract delegation note
 
 ## Ownerless Concerns
 
