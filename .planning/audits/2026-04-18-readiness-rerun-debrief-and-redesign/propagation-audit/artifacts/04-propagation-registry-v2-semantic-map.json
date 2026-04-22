@@ -948,6 +948,29 @@
         "portable_contract_tests",
         "project_uplift_contract_tests"
       ]
+    },
+    {
+      "id": "overlay_roster_document",
+      "family": "install_overlay",
+      "path": "harness_modifier/overlay/ROSTER.md",
+      "role": "frozen per-entry classification of the tracked overlay frontier across generic, shared-boundary, and host-local entries for later extraction sequencing",
+      "support_mode": "roster_plus_extraction_classification",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "overlay_roster_impl_146",
+        "overlay_host_path_scan_146"
+      ]
+    },
+    {
+      "id": "overlay_host_path_scan",
+      "family": "governance_lane",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/artifacts/03-overlay-embedded-host-path-scan.md",
+      "role": "contextual blocker scan over overlay workflows, skills, and compact prompts that keeps host audit-workspace embeds, helper-home drift, host-local prompt bodies, and non-blocking canon references distinct",
+      "support_mode": "audit_artifact_plus_extraction_classification",
+      "evidence_refs": [
+        "overlay_roster_impl_146",
+        "overlay_host_path_scan_146"
+      ]
     }
   ],
   "edges": [
@@ -2339,6 +2362,18 @@
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "entry_runtime_continuity_impl_130"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_manifest_to_overlay_roster_document",
+      "from": "overlay_manifest",
+      "to": "overlay_roster_document",
+      "kind": "manifest_frontier_frozen_into_extraction_roster",
+      "support_mode": "declared_contract_plus_extraction_classification",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "overlay_roster_impl_146"
       ],
       "status": "mapped"
     }

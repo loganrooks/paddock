@@ -41,10 +41,15 @@ Status: active opening audit family
   - [launch-truth/02-harness-modifier-overlay-carrier-rehome-reread-launch-truth.md](launch-truth/02-harness-modifier-overlay-carrier-rehome-reread-launch-truth.md)
   - [outputs/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1.md](outputs/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1.md)
   - [dispositions/02-harness-modifier-overlay-carrier-rehome-reread-inheritance.md](dispositions/02-harness-modifier-overlay-carrier-rehome-reread-inheritance.md)
-- [d:r:i] Lane `02` is now completed and the next extraction move is narrower than the older `142` wording:
+- [d:r:i] Lane `02` is now completed and the narrowing it called for is now landed:
   - [../intervention-proposals/144-harness-modifier-overlay-roster-and-embedded-host-path-scan-proposal.md](../intervention-proposals/144-harness-modifier-overlay-roster-and-embedded-host-path-scan-proposal.md)
-  - no filesystem rehome yet
-  - roster + embedded-host-path scan first
+  - [harness_modifier/overlay/ROSTER.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/ROSTER.md)
+  - [artifacts/03-overlay-embedded-host-path-scan.md](artifacts/03-overlay-embedded-host-path-scan.md)
+  - [../intervention-proposals/146-harness-modifier-overlay-roster-and-embedded-host-path-scan-implementation.md](../intervention-proposals/146-harness-modifier-overlay-roster-and-embedded-host-path-scan-implementation.md)
+- [d:r:i] The next extraction move is now the first actual overlay filesystem-rehome proposal:
+  - [../intervention-proposals/147-harness-modifier-first-overlay-filesystem-rehome-proposal.md](../intervention-proposals/147-harness-modifier-first-overlay-filesystem-rehome-proposal.md)
+  - still bounded to the specialist trio only
+  - compact-prompt split, overwrite-family migration, and standalone repo design remain later
 
 ## Expected Artifact Pattern
 

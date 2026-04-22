@@ -505,6 +505,24 @@
       "evidence_lane": "implementation_note",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/141-harness-modifier-compatibility-declaration-carrier-implementation.md",
       "note": "landed extraction step-2 slice carrying the portable compatibility declaration into project_uplift, portable_gsd_contract, durable uplift memory, and later standalone-project travel"
+    },
+    {
+      "id": "overlay_roster_doc_current",
+      "evidence_lane": "declared_roster",
+      "path": "harness_modifier/overlay/ROSTER.md",
+      "note": "frozen per-entry overlay classification across generic, shared-boundary, and host-local entries derived from the tracked overlay manifest frontier"
+    },
+    {
+      "id": "overlay_roster_impl_146",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/146-harness-modifier-overlay-roster-and-embedded-host-path-scan-implementation.md",
+      "note": "landed extraction freeze that turns the overlay roster plus contextualized blocker scan into durable extraction authority before the first filesystem-rehome slice"
+    },
+    {
+      "id": "overlay_host_path_scan_146",
+      "evidence_lane": "audit_artifact",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/artifacts/03-overlay-embedded-host-path-scan.md",
+      "note": "contextualized blocker scan over host audit-workspace embeds, helper-home drift, host-local compact-prompt bodies, and non-blocking generic planning-canon mentions inside the overlay frontier"
     }
   ]
 }
