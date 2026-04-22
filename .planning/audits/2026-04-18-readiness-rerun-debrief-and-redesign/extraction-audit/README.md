@@ -54,7 +54,7 @@ Status: active opening audit family
   - modifier-owned source files under `harness_modifier/overlay/`
   - stable install targets still declared at `tooling/portable-gsd/overlay/OVERLAY-MANIFEST.json`
   - explicit source-path indirection instead of duplicated overlay ownership
-- [d:r:i] The next extraction move is now a bounded reread of the landed specialist source split before a second overlay tranche is chosen.
+- [d:r:i] The next extraction move is now staged as lane `03`: a bounded reread of the landed specialist source split before a second overlay tranche is chosen.
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern
