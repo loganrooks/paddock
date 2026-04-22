@@ -14,6 +14,9 @@ Status: frozen lane spec
 - [g:r:i] Keep failure-path salvage explicit.
 - [g:r:i] Keep lane-home and launch-truth discipline explicit.
 - [g:r:i] Keep the planner consumer contract explicit so later replanning can still use the route cleanly.
+- [g:r:i] Name adjacent review-workflow uplift opportunities when they materially sharpen the route family, while still distinguishing:
+  - what should land in the first live slice
+  - what should remain a later adjacent route
 
 ## Avoid
 
@@ -46,6 +49,9 @@ Return markdown with exactly these sections:
 - ...
 
 ## Failure Salvage And Last-Message Recovery
+- ...
+
+## Other Review Workflow Uplift Routes
 - ...
 
 ## Verification And Review Gates

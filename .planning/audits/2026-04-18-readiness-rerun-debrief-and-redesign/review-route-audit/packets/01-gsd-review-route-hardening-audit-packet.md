@@ -57,6 +57,11 @@ Read these exact files:
   - `codex` jsonl/last-message + salvage
   - plain stdout/stderr reviewers
 - [g:r:i] Which parts belong in a helper/tooling layer, and which should remain workflow/skill contract?
+- [g:r:i] What other bounded uplift routes around the review workflow are worth naming now, even if they are not the first live slice?
+  - route split by review subject (`phase-plan review` versus `audit/proposal reread` versus other review families)
+  - stronger relation between `gsd-review` and repo-local audit-lane discipline
+  - propagation and governance surfaces that should change when the route changes
+  - later provider-specific salvage or model-truth follow-through beyond the first slice
 
 ## Anti-Misread Notes
 
@@ -65,6 +70,7 @@ Read these exact files:
 - [g:r:i] Do not treat `capture_launch_truth.py` as the only launch-truth model here; this lane crosses external CLI process truth too.
 - [g:r:i] Do not flatten failure handling into a binary success/failure question. The lane should consider what can still be salvaged or preserved when a reviewer partially returns.
 - [g:r:i] Do not propose a giant telemetry system as the first slice unless you can justify why the simpler run-home/logging layer would not carry the route far enough.
+- [g:r:i] Do not assume the current phase-plan review route is the only review-shaped surface worth improving; the lane may name adjacent review-route opportunities if it keeps their ownership and ordering explicit.
 
 ## Output Target
 
