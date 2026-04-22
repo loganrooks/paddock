@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "a95ef91",
+  "basis_commit": "9722ad9",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -202,6 +202,20 @@
         "state_continuity"
       ],
       "claim_boundary": "declares how project uplift scans current versus legacy seed corpus posture plus current-version shape gaps, how uplift-project plus gsd-uplift-project keep that posture visible while separating deeper packet disclosure from durable write side effects, how progress and resume consume it through the progress-note bridge with specialist packet candidate counts, compact breakdown disclosure, and inspect/write command split when migration candidates are present, how durable uplift memory preserves the aggregated migration count plus breakdown, and how later legacy-seed migration stays separate from detect-only uplift"
+    },
+    {
+      "id": "uplift_compatibility_annotation_contract",
+      "path": "tooling/codex/project_uplift.py",
+      "validator": "tooling/codex/tests/test_project_uplift.py",
+      "contract_kind": "observed-basis compatibility anchor plus held runtime annotation semantics through durable uplift outputs and read-only current-runtime consumers",
+      "families_touched": [
+        "helper",
+        "workflow_output",
+        "wrapper",
+        "state_continuity",
+        "install_pristine"
+      ],
+      "claim_boundary": "declares how project_uplift keeps .codex as the observed runtime basis, records .claude as a held runtime annotation rather than a relabeled top-level basis, preserves that distinction in uplift report/manifest/state output, and routes held-runtime annotation movement into the read-only progress/resume consumer path without widening into matrix or translation claims"
     },
     {
       "id": "seed_audit_gate_contract",

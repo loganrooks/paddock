@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "25aee9f",
+  "basis_commit": "9722ad9",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -174,6 +174,16 @@
       ]
     },
     {
+      "id": "held_runtime_version_file",
+      "family": "install_pristine",
+      "path": ".claude/get-shit-done/VERSION",
+      "role": "held runtime annotation source for cross-runtime uplift compatibility without changing the observed-basis label",
+      "support_mode": "roster_plus_observed_runtime",
+      "evidence_refs": [
+        "held_runtime_version_current"
+      ]
+    },
+    {
       "id": "quality_reasoning",
       "family": "registry",
       "path": "tooling/codex/portable_gsd_contract.py",
@@ -218,10 +228,11 @@
       "id": "project_uplift",
       "family": "helper",
       "path": "tooling/codex/project_uplift.py",
-      "role": "authoritative uplift producer, compatibility-drift router, shared seed-shape contract carrier, seed-corpus posture scanner, current-version shape-gap detector, and progress-note source for operator-facing seed visibility plus bounded specialist-packet disclosure with candidate breakdown and inspect/write command split when migration candidates are present",
+      "role": "authoritative uplift producer, observed-basis compatibility anchor owner, held runtime annotation owner, compatibility-drift router, shared seed-shape contract carrier, seed-corpus posture scanner, current-version shape-gap detector, and progress-note source for operator-facing seed visibility plus bounded specialist-packet disclosure with candidate breakdown and inspect/write command split when migration candidates are present",
       "support_mode": "roster_plus_producer_report",
       "evidence_refs": [
         "uplift_manifest_current",
+        "uplift_compatibility_annotation_impl_116",
         "uplift_seed_corpus_impl_80",
         "seed_operator_consumer_impl_82",
         "seed_operator_consumer_contract_tests",
@@ -229,6 +240,28 @@
         "seed_migration_harden_impl_88",
         "seed_migration_pointer_bridge_impl_90",
         "seed_migration_bridge_harden_impl_92"
+      ]
+    },
+    {
+      "id": "uplift_progress_consumer",
+      "family": "workflow_output",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/progress.md",
+      "role": "read-only current-runtime consumer surfacing held runtime annotation from the uplift note when present",
+      "support_mode": "semantic_plus_consumer_route",
+      "evidence_refs": [
+        "uplift_compatibility_annotation_impl_116",
+        "uplift_manifest_current"
+      ]
+    },
+    {
+      "id": "uplift_resume_consumer",
+      "family": "workflow_output",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/resume-project.md",
+      "role": "read-only current-runtime consumer surfacing held runtime annotation from the uplift note when present",
+      "support_mode": "semantic_plus_consumer_route",
+      "evidence_refs": [
+        "uplift_compatibility_annotation_impl_116",
+        "uplift_manifest_current"
       ]
     },
     {

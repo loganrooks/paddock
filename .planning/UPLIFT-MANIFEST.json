@@ -1,6 +1,6 @@
 {
-  "schema_version": 5,
-  "generated_at": "2026-04-22T04:41:12+00:00",
+  "schema_version": 6,
+  "generated_at": "2026-04-22T06:05:05+00:00",
   "mode": "detect-only",
   "last_uplift_class": "cross-runtime uplift",
   "last_uplift_secondary_signals": [
@@ -14,7 +14,7 @@
     "note": "phase CONTEXT carries explicit rerun-boundary posture"
   },
   "doctrine_reference_hash": "5caf65641c559023c995f74395e08f5701cd8a506dd9e6d7d70e64953f3f30f2",
-  "project_fingerprint_hash": "6f7cfec68fb473527be45d8f8f9560b67eed1ca4ba1c971c22e4bb397ea2a417",
+  "project_fingerprint_hash": "ab5b07cafcd7d3be8c1c21f79f87676d8e82de60dde7d493b190890c8ddc6c4e",
   "current_status": "planning",
   "runtime_dirs": [
     ".codex",
@@ -85,11 +85,20 @@
     "observed_runtime_version_set": [
       "1.38.3"
     ],
+    "held_runtime_annotation": {
+      "runtime": ".claude",
+      "version": "1.34.2",
+      "version_source": ".claude/get-shit-done/VERSION",
+      "annotation_posture": "held_annotation",
+      "note": "second runtime is recorded as a held compatibility annotation while the observed basis remains anchored to .codex"
+    },
+    "held_runtime_annotation_summary": ".claude 1.34.2 (held_annotation)",
     "overlay_manifest_schema_version": 1,
-    "uplift_manifest_schema_version": 5,
+    "uplift_manifest_schema_version": 6,
     "check_protocol": [
       "compare candidate runtime version to observed_runtime_version",
       "compare candidate runtime manifest version to observed_runtime_manifest_version when present",
+      "compare held runtime annotation values when a second runtime is intentionally carried inside the compatibility anchor",
       "rerun ./scripts/setup-portable-gsd.sh before refreshing durable uplift memory after runtime movement",
       "rerun $gsd-uplift-project --write after runtime movement so compatibility anchors and uplift posture stay in tune"
     ],

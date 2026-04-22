@@ -80,13 +80,14 @@ Recent decisions affecting current work:
 
 ## Project Uplift
 
-Last uplift pass: 2026-04-22T04:41:12+00:00
+Last uplift pass: 2026-04-22T06:05:05+00:00
 Last uplift class: cross-runtime uplift
 Last uplift secondary signals: mid_phase
 Phase boundary signal: phase CONTEXT carries explicit rerun-boundary posture
 Doctrine reference changed since prior uplift: no
 Compatibility posture: observed_basis_only
 Observed runtime basis: 1.38.3
+Held runtime annotation: .claude 1.34.2 (held_annotation)
 Seed corpus posture: no_seed_corpus (total 0; current 0; legacy 0; noncurrent none; shape gaps 0)
 Pending doctrine-sensitive proposals: 0
 Current recommendation: Continue with ordinary routing; uplift memory keeps this posture explicit.

@@ -1,4 +1,4 @@
-Date: 2026-04-21
+Date: 2026-04-22
 Status: active inventory
 
 # Artifact Inventory
@@ -152,6 +152,7 @@ Status: active inventory
 - `intervention-proposals/42-project-uplift-signal-layer-harden-slice.md`
 - `intervention-proposals/43-project-uplift-compatibility-anchor-slice.md`
 - `intervention-proposals/44-project-uplift-compatibility-consumer-follow-through.md`
+- `intervention-proposals/116-uplift-compatibility-annotation-first-slice-implementation.md`
 - repo-local uplift outputs:
   - `.planning/UPLIFT-REPORT.md`
   - `.planning/UPLIFT-MANIFEST.json`
@@ -212,6 +213,7 @@ Status: active inventory
 - `propagation-audit/36-seed-migration-detect-only-harden-change-triggered-refresh.md`
 - `propagation-audit/37-seed-migration-operator-facing-pointer-change-triggered-refresh.md`
 - `propagation-audit/38-seed-migration-pointer-bridge-harden-change-triggered-refresh.md`
+- `propagation-audit/43-uplift-compatibility-annotation-change-triggered-refresh.md`
 - `propagation-audit/39-propagation-review-route-change-triggered-refresh.md`
 - `propagation-audit/40-propagation-review-route-harden-change-triggered-refresh.md`
 - `propagation-audit/launch-truth/07-propagation-review-route-reread-launch-truth.md`

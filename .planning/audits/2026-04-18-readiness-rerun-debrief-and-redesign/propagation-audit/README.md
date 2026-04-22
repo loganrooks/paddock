@@ -1,4 +1,4 @@
-Date: 2026-04-21
+Date: 2026-04-22
 Status: active lane; widened inheritance batch
 
 # Propagation Audit
@@ -156,6 +156,7 @@ Status: active lane; widened inheritance batch
 - [36-seed-migration-detect-only-harden-change-triggered-refresh.md](36-seed-migration-detect-only-harden-change-triggered-refresh.md)
 - [37-seed-migration-operator-facing-pointer-change-triggered-refresh.md](37-seed-migration-operator-facing-pointer-change-triggered-refresh.md)
 - [38-seed-migration-pointer-bridge-harden-change-triggered-refresh.md](38-seed-migration-pointer-bridge-harden-change-triggered-refresh.md)
+- [43-uplift-compatibility-annotation-change-triggered-refresh.md](43-uplift-compatibility-annotation-change-triggered-refresh.md)
 - [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 - [artifacts/02-propagation-registry-v2-inventory-roster.json](artifacts/02-propagation-registry-v2-inventory-roster.json)
 - [artifacts/03-propagation-registry-v2-declared-contracts.json](artifacts/03-propagation-registry-v2-declared-contracts.json)
@@ -202,6 +203,7 @@ Status: active lane; widened inheritance batch
 - [d:r:i] The layered `v2` first refresh is now landed too: `15` plus `artifacts/02-06` split roster sources, declared contracts, semantic map, observed evidence, and coverage/refresh control into separate surfaces.
 - [d:r:i] The first real `change_triggered_slice_refresh` is now landed too: `16` records the compatibility-anchor slice, and `artifacts/04-06` now answer back to that live contract change rather than only to the earlier flat-registry redesign.
 - [d:r:i] The next compatibility-bearing refresh is now landed too: `17` records the consumer-chain follow-through after the xhigh reread surfaced a durable-output-only carry gap, and the typed `v2` semantic/coverage surfaces now keep the live `progress` / `resume-project` routing in view.
+- [d:r:i] The next compatibility-bearing refresh is now landed too: `43` records the held-runtime annotation slice, and the typed `v2` semantic/coverage surfaces now keep observed `.codex` basis, held `.claude` annotation, and read-only current-runtime carry distinct instead of flattening them back into one compatibility row.
 - [d:r:i] A second non-uplift change-triggered refresh is now landed too: `18` records the threshold-scanner historical-reread slice, and the typed `v2` semantic/coverage surfaces now keep the scanner helper plus threshold-audit lane inheritance in view instead of leaving that helper/governance relation ambient.
 - [d:r:i] A third non-uplift change-triggered refresh is now landed too: `19` records the verifier-lifecycle slice, and the typed `v2` layers now keep verifier-side workflow/template/reference/registry movement explicit instead of leaving the lifecycle bridge ambient behind one widened proposal note.
 - [d:r:i] A fourth non-uplift change-triggered refresh is now landing too: `20` records the setup/materialization robustness slice, and the typed `v2` layers now keep the setup entry bridge, bounded `gsd-sdk` runtime helper, and fresh-install pristine overwrite capture explicit instead of leaving reinstall-truth movement compressed into one generic installer row.

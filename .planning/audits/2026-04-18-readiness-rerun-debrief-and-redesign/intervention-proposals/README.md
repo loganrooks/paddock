@@ -1,4 +1,4 @@
-Date: 2026-04-21
+Date: 2026-04-22
 Status: active proposal/disposition batch
 
 # Intervention Proposals
@@ -119,6 +119,7 @@ Status: active proposal/disposition batch
 113. `113-uplift-cross-runtime-concern-family-split-next-move.md`
 114. `114-uplift-cross-runtime-compatibility-widening-shape-proposal.md`
 115. `115-harness-modifier-extraction-and-npx-distribution-route.md`
+116. `116-uplift-compatibility-annotation-first-slice-implementation.md`
 
 ## Proposal Rule
 
@@ -153,6 +154,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `113` now records the next bounded move after the completed Opus widening reread over that packet: keep the visible cross-runtime concern families explicit, then route through a concern-family split before any live translation, compatibility-matrix claim, or composition judgment.
 - [d:r:i] `114` now records the revised next bounded proposal after the completed compatibility-shape reread: annotation posture first, explicit held-scalar versus structural-row split, posture-label discipline around `observed_basis_only`, direct 1.38.3 versus 1.34.2 evidence, and family-6 parallelizability while consumer-chain asymmetry remains downstream.
 - [d:r:i] `115` now keeps the later harness-modifier extraction route explicit too: a separate repo plus npm/`npx` installer is thinkable, but actual extraction stays held until the current uplift/cross-runtime and propagation contracts sharpen farther.
+- [d:r:i] `116` now records the landed first implementation slice cleared by `114`: the compatibility anchor keeps `observed_basis_only`, carries a held `.claude` runtime annotation beside the observed `.codex` basis, refreshes durable uplift memory, and widens the read-only current-runtime consumer chain without opening matrix claims or a standalone multi-runtime carrier.
 - [d:r:i] `43` now records the bounded compatibility follow-through inside that same uplift chain: the durable uplift outputs carry an observed-basis compatibility anchor without widening into a broader version-window claim.
 - [d:r:i] `44` now records the consumer-chain follow-through that keeps the compatibility anchor from remaining only as stored uplift memory.
 - [d:r:i] `45` now sequences the first harness-improvement follow-through tranche after the full-field Opus widening: canary/invariant assertion first, audit-program infrastructure second, standing self-improvement register third.

@@ -1,4 +1,4 @@
-Date: 2026-04-21
+Date: 2026-04-22
 Status: active durable register
 
 # Harness Improvement Register
@@ -28,8 +28,8 @@ Status: active durable register
   - current state: first bounded local harden slice landed through `ensure_gsd_sdk_runtime.py`, fresh-install pristine overwrite capture, and the routed `setup-portable-gsd.sh` recovery path
   - current pressure: keep widening repeated reinstall durability without confusing repo-local repair with upstream installer control
 - [d:r:i] Uplift / propagation consumer completion
-  - current state: upstream-pristine baseline plus repo-local delta pair are now explicit through `95` and `96`, the first operator-facing propagation-review route is now landed through `97` and `98`, its first bounded reread is now inherited through lane `07`, and its harden follow-through is now landed through `99`, `100`, and `40`
-  - current pressure: keep the cleaner route, keep the uplift-assist pointer plus docs-governance runtime-proof explicit in the propagation family, and use the now-landed first cross-runtime packet exercise to shape an Opus widening lane before any wider composition judgment
+  - current state: upstream-pristine baseline plus repo-local delta pair are now explicit through `95` and `96`, the first operator-facing propagation-review route is now landed through `97` and `98`, its first bounded reread is now inherited through lane `07`, its harden follow-through is now landed through `99`, `100`, and `40`, and the uplift compatibility family now also carries the narrower annotation slice through `116` plus propagation refresh `43`
+  - current pressure: keep the cleaner route, keep the uplift-assist pointer plus docs-governance runtime-proof explicit in the propagation family, preserve observed-basis versus held-annotation discipline in later cross-runtime widening, and use the now-landed first cross-runtime packet exercise to shape an Opus widening lane before any wider composition judgment
 - [d:r:i] Durable-memory / vintage / decay semantics
   - current pressure: make staleness and movement over time more visible across durable artifacts
 - [d:r:i] Safety / cost / privacy carriers
@@ -47,6 +47,7 @@ Status: active durable register
 - [d:r:i] Explicit canon-absorption use on later landed intervention families
 - [d:r:i] Bounded uplift-agent-assist patterning that keeps composition-layer judgment in the parent thread while delegation sharpens narrower uplift subproblems
 - [d:r:i] After the first three exercised uplift-assist patterns, the landed narrow route pointer, the landed docs-governance runtime-proof, the first cross-runtime packet exercise, the completed Opus widening reread, and the completed concern-family split lane, the next bounded move is the compatibility-family widening-shape proposal in `114` rather than direct `.claude` translation or composition work
+- [d:r:i] After the first compatibility-family implementation slice in `116`, the next adjacent move is no longer `whether the anchor carries any cross-runtime detail at all`; it is whether later widening should intensify consumer-chain asymmetry, structural-row annotation, or another bounded cross-runtime family without collapsing observed-basis discipline
 - [d:r:i] Keep the later harness-modifier extraction/distribution route explicit through `115`, but hold actual repo/package split until the present uplift/cross-runtime and propagation contracts travel farther
 
 ## Ownerless Concerns

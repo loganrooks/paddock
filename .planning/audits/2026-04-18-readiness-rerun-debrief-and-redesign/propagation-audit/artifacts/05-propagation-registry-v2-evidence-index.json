@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "a95ef91",
+  "basis_commit": "9722ad9",
   "evidence_entries": [
     {
       "id": "overlay_contract_validation",
@@ -31,6 +31,12 @@
       "evidence_lane": "observed_runtime",
       "path": ".codex/get-shit-done/VERSION",
       "note": "materialized runtime version file carrying the current observed version anchor for uplift compatibility"
+    },
+    {
+      "id": "held_runtime_version_current",
+      "evidence_lane": "observed_runtime",
+      "path": ".claude/get-shit-done/VERSION",
+      "note": "held runtime annotation source for the current cross-runtime uplift compatibility slice"
     },
     {
       "id": "runtime_visibility_snapshot",
@@ -235,6 +241,12 @@
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_seed_operator_consumer_follow_through_contract.py",
       "note": "focused contract coverage for progress/resume seed posture display plus specialist packet candidate-count and pointer disclosure through the uplift-note bridge"
+    },
+    {
+      "id": "uplift_compatibility_annotation_impl_116",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/116-uplift-compatibility-annotation-first-slice-implementation.md",
+      "note": "landed compatibility-annotation slice keeping .codex as observed basis, recording .claude as held annotation, and widening read-only current-runtime consumers plus durable uplift memory"
     },
     {
       "id": "seed_audit_gate_impl_84",

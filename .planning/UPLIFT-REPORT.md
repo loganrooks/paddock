@@ -1,6 +1,6 @@
 # Project Uplift Report
 
-- Generated: 2026-04-22T04:41:12+00:00
+- Generated: 2026-04-22T06:05:05+00:00
 - Mode: detect-only
 - Project class: cross-runtime uplift
 - Secondary signals: mid_phase
@@ -27,14 +27,24 @@
 - Observed runtime manifest version: 1.38.3
 - Runtime version alignment: aligned
 - Overlay manifest schema version: 1
-- Uplift manifest schema version: 5
+- Uplift manifest schema version: 6
 
 ### Compatibility Check Protocol
 
 - compare candidate runtime version to observed_runtime_version
 - compare candidate runtime manifest version to observed_runtime_manifest_version when present
+- compare held runtime annotation values when a second runtime is intentionally carried inside the compatibility anchor
 - rerun ./scripts/setup-portable-gsd.sh before refreshing durable uplift memory after runtime movement
 - rerun $gsd-uplift-project --write after runtime movement so compatibility anchors and uplift posture stay in tune
+
+### Held Runtime Annotation
+
+- Runtime: .claude
+- Held runtime version: 1.34.2
+- Held runtime version source: .claude/get-shit-done/VERSION
+- Annotation posture: held_annotation
+- Note: second runtime is recorded as a held compatibility annotation while the observed basis remains anchored to .codex
+
 
 ### Wider Compatibility Claims Held
 
