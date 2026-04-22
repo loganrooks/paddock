@@ -126,7 +126,7 @@
     {
       "id": "portable_contract",
       "family": "install_overlay",
-      "path": "tooling/codex/portable_gsd_contract.py",
+      "path": "harness_modifier/contract/portable_gsd_contract.py",
       "role": "fresh-install pristine capture, overlay validation/application, reasoning defaults, materialization verification, and typed runtime-specific parity-reference reporting for live .codex materialization",
       "support_mode": "declared_contract_plus_validation",
       "evidence_refs": [
@@ -188,7 +188,7 @@
     {
       "id": "quality_reasoning",
       "family": "registry",
-      "path": "tooling/codex/portable_gsd_contract.py",
+      "path": "harness_modifier/contract/portable_gsd_contract.py",
       "role": "installer-side reasoning defaults map",
       "support_mode": "semantic_plus_materialization_evidence",
       "evidence_refs": [
@@ -209,7 +209,7 @@
     {
       "id": "launch_truth_tool",
       "family": "launch_truth",
-      "path": "tooling/codex/capture_launch_truth.py",
+      "path": "harness_modifier/capture/capture_launch_truth.py",
       "role": "requested-vs-effective launch capture",
       "support_mode": "semantic_plus_capture_evidence",
       "evidence_refs": [
@@ -271,7 +271,7 @@
     {
       "id": "runtime_visibility",
       "family": "helper",
-      "path": "tooling/codex/runtime_visibility.py",
+      "path": "harness_modifier/contract/runtime_visibility.py",
       "role": "runtime classification producer",
       "support_mode": "roster_plus_observed_runtime",
       "evidence_refs": [
@@ -281,7 +281,7 @@
     {
       "id": "manifest_coherence",
       "family": "helper",
-      "path": "tooling/codex/manifest_install_coherence.py",
+      "path": "harness_modifier/contract/manifest_install_coherence.py",
       "role": "multi-surface coherence producer",
       "support_mode": "roster_plus_coherence_evidence",
       "evidence_refs": [
@@ -621,7 +621,7 @@
     {
       "id": "gsd_sdk_runtime_helper",
       "family": "helper",
-      "path": "tooling/codex/ensure_gsd_sdk_runtime.py",
+      "path": "harness_modifier/contract/ensure_gsd_sdk_runtime.py",
       "role": "repo-local gsd-sdk runtime verification and bounded executable-bit repair",
       "support_mode": "roster_plus_tested_behavior",
       "evidence_refs": [

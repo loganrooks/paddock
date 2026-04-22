@@ -164,6 +164,7 @@ Status: active lane; widened inheritance batch
 - [48-entry-runtime-continuity-shared-reference-change-triggered-refresh.md](48-entry-runtime-continuity-shared-reference-change-triggered-refresh.md)
 - [49-update-entry-runtime-continuity-follow-through-change-triggered-refresh.md](49-update-entry-runtime-continuity-follow-through-change-triggered-refresh.md)
 - [50-codex-claude-parity-classification-carrier-change-triggered-refresh.md](50-codex-claude-parity-classification-carrier-change-triggered-refresh.md)
+- [51-harness-modifier-in-place-rehome-step-1-change-triggered-refresh.md](51-harness-modifier-in-place-rehome-step-1-change-triggered-refresh.md)
 - [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 - [artifacts/02-propagation-registry-v2-inventory-roster.json](artifacts/02-propagation-registry-v2-inventory-roster.json)
 - [artifacts/03-propagation-registry-v2-declared-contracts.json](artifacts/03-propagation-registry-v2-declared-contracts.json)
@@ -243,6 +244,7 @@ Status: active lane; widened inheritance batch
 - [d:r:i] A twenty-third non-uplift change-triggered refresh is now landed too: `39` records the new propagation-review workflow and wrapper, and the typed `v2` layers now keep the baseline/delta-guided operator route explicit instead of leaving later multi-family review on chat memory or local diff intuition alone.
 - [d:r:i] The first bounded reread of that route is now completed and inherited through lane `07`.
 - [d:r:i] A twenty-fourth non-uplift change-triggered refresh is now landed too: `40` records the route-hardening follow-through, and the typed `v2` layers now keep durable-note placement, claim-type carry, and tool-result-to-disposition guidance explicit at the same route instead of leaving them ambient in the workflow diff alone.
+- [d:r:i] A later non-uplift change-triggered refresh is now landed too: `51` records the first harness-modifier rehome slice, and the typed `v2` layers now keep the new `harness_modifier/` authority explicit instead of leaving carrier-location movement ambient behind compatibility shims.
 - [d:r:i] With that narrower harden slice landed, the adjacent move can now shift back toward the later `93` family rather than remaining inside route-local hardening by default.
 - [d:r:i] The next adjacent seed-family route is now a bounded reread of the hardened operator-facing bridge before later entry-wrapper widening, broader audit-open consumer widening, or rewrite/normalization family work inherits next.
 - [d:r:i] That bounded reread is now completed and inherited through lane `06` on the clean post-hardening basis.

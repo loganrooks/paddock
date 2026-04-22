@@ -139,6 +139,10 @@ Status: active proposal/disposition batch
 133. `133-update-entry-runtime-continuity-follow-through-implementation.md`
 134. `134-codex-claude-parity-classification-carrier-proposal.md`
 135. `135-codex-claude-parity-classification-carrier-implementation.md`
+136. `136-harness-extraction-escalation-and-scope-boundary-note.md`
+137. `137-harness-extraction-field-map.md`
+138. `138-harness-modifier-in-place-rehome-step-1-proposal.md`
+139. `139-harness-modifier-in-place-rehome-step-1-implementation.md`
 
 ## Proposal Rule
 
@@ -196,6 +200,10 @@ Status: active proposal/disposition batch
 - [d:r:i] `133` now records the landed `update + gsd-update` consumer follow-through itself: provider-gated workflow-side reference pointer and review beat, wrapper-side continuity boundary, focused contract extension, rematerialization, and the matching propagation refresh in `49`.
 - [d:r:i] `134` now records the next bounded parity follow-through cleared by lane `19`: keep the first slice inside `portable_gsd_contract.py verify-materialized`, preserve the current three contextual `.claude` hits explicitly, and route any non-baseline hit to contextual reread rather than to fake automatic defect judgment.
 - [d:r:i] `135` now records the landed classification carrier itself: `verify-materialized` now emits a typed runtime-specific reference report, the current three-hit baseline is frozen with context/ownership labels, focused tests hold both baseline and unreviewed-hit behavior, and the matching propagation refresh now lands in `50`.
+- [d:r:i] `136` now keeps the extraction pressure explicit as a real scope-boundary consequence rather than only as later packaging appetite.
+- [d:r:i] `137` now records the local extraction field map itself: generic harness carriers, host-project-specific carriers, shared boundaries, compatibility declaration shape, installer/materialization ownership, and migration sequence are disclosed before any standalone-project move.
+- [d:r:i] `138` now records the bounded in-repo next step cleared by the extraction audit: rehome generic helper carriers first, keep shared-boundary helpers explicit, and hold repo/package distribution later.
+- [d:r:i] `139` now records the landed first rehome slice itself: the authoritative helper home is now `harness_modifier/`, the first contract/capture carriers moved there, old `tooling/codex/*.py` paths remain only as thin compatibility shims, and the matching propagation refresh now lands in `51`.
 - [d:r:i] `43` now records the bounded compatibility follow-through inside that same uplift chain: the durable uplift outputs carry an observed-basis compatibility anchor without widening into a broader version-window claim.
 - [d:r:i] `44` now records the consumer-chain follow-through that keeps the compatibility anchor from remaining only as stored uplift memory.
 - [d:r:i] `45` now sequences the first harness-improvement follow-through tranche after the full-field Opus widening: canary/invariant assertion first, audit-program infrastructure second, standing self-improvement register third.

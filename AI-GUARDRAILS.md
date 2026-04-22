@@ -87,7 +87,7 @@ Those operations require an explicit decision or a documented retention rule in 
 ## Verification and honesty rule
 
 - Never present requested runtime settings as if they prove effective launch settings.
-- For doctrine-sensitive spawned-worker launches, preserve a requested-versus-effective launch-truth capture with `tooling/codex/capture_launch_truth.py` or an equally reviewable artifact instead of relying on private sqlite queries alone.
+- For doctrine-sensitive spawned-worker launches, preserve a requested-versus-effective launch-truth capture with `harness_modifier/capture/capture_launch_truth.py` or an equally reviewable artifact instead of relying on private sqlite queries alone.
 - Treat missing runtime fields in that capture as unresolved, not as implied matches.
 - Never present inferred closure as if it were verified closure.
 - If a result is mixed, say so.

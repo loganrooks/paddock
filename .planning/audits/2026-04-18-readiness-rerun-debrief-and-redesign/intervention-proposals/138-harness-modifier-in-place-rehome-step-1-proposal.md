@@ -10,24 +10,25 @@ Status: active bounded proposal
 
 ## Proposed Move
 
-- [d:r:i] Create one top-level `harness-modifier/` directory inside this repo.
+- [d:r:i] Create one top-level importable `harness_modifier/` directory inside this repo.
 - [d:r:i] Move the current generic harness carriers into that directory while keeping them git-tracked in this repo.
+- [d:r:i] Keep the old `tooling/codex/*.py` paths only as thin compatibility shims during this first rehome step.
 - [d:r:i] Leave shared-boundary helpers explicit about their host-contract reads rather than pretending they are pure generic carriers.
 
 ## Candidate First-Slice Contents
 
-- [d:r:i] `harness-modifier/contract/`
+- [d:r:i] `harness_modifier/contract/`
   - `portable_gsd_contract.py`
   - `ensure_gsd_sdk_runtime.py`
   - `manifest_install_coherence.py`
   - `runtime_visibility.py`
   - `harness_canary.py`
-- [d:r:i] `harness-modifier/capture/`
+- [d:r:i] `harness_modifier/capture/`
   - `run_claude_probe.py`
   - `capture_launch_truth.py`
   - `capture_runtime_visibility_snapshot.py`
   - `extract_stream_text.py`
-- [d:r:i] `harness-modifier/overlay/`
+- [d:r:i] later `harness_modifier/overlay/`
   - the overlay-owned workflow / skill / template / reference surfaces that are generic harness carriers rather than host-product doctrine
 - [d:r:i] keep explicit shared-boundary holdouts for now:
   - `project_uplift.py`
@@ -53,7 +54,7 @@ Status: active bounded proposal
 ## Propagation Obligations
 
 - [d:r:i] `scripts/setup-portable-gsd.sh`
-- [d:r:i] import paths across `tooling/codex/*.py`
+- [d:r:i] import paths across `harness_modifier/*` plus the thin `tooling/codex/*.py` shims
 - [d:r:i] tests covering the moved helpers
 - [d:r:i] propagation registry `v2` carrier locations
 - [d:r:i] any workflow/skill docs that mention the moved helper paths
@@ -64,7 +65,7 @@ Status: active bounded proposal
 - [d:r:i] path moves only for this slice; no silent semantic changes
 - [d:r:i] focused test pass for the moved helpers
 - [d:r:i] `./scripts/setup-portable-gsd.sh`
-- [d:r:i] `portable_gsd_contract.py verify-materialized --strict`
+- [d:r:i] `python3 harness_modifier/contract/portable_gsd_contract.py verify-materialized . --strict`
 - [d:r:i] `audit_refmap.py verify`
 - [d:r:i] `git diff --check`
 - [d:r:i] explicit propagation refresh note for the rehome slice

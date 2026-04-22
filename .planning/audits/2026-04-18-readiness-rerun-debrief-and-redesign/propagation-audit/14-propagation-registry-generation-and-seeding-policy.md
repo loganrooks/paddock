@@ -30,7 +30,7 @@ Status: active layered registry policy
 ### L1 Declared Contracts
 
 - [d:r:i] `L1` answers `what authored local contract or ownership declaration already exists?`
-- [e:c+i] The clearest current prototype is [OVERLAY-MANIFEST.json](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/OVERLAY-MANIFEST.json:1) plus [portable_gsd_contract.py](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/portable_gsd_contract.py:1).
+- [e:c+i] The clearest current prototype is [OVERLAY-MANIFEST.json](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/OVERLAY-MANIFEST.json:1) plus [portable_gsd_contract.py](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/contract/portable_gsd_contract.py:1).
 - [d:r:i] `L1` should carry declared ownership, add/overwrite typing, and other authored local contracts where they really exist.
 - [d:r:i] `L1` should not smuggle in runtime observations or semantic edges.
 
@@ -52,8 +52,8 @@ Status: active layered registry policy
   - coherence evidence
 - [e:c+i] Current examples include:
   - [.planning/UPLIFT-MANIFEST.json](/home/rookslog/workspace/projects/prix-guesser/.planning/UPLIFT-MANIFEST.json:1)
-  - runtime-visibility outputs from [runtime_visibility.py](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/runtime_visibility.py:1)
-  - overlay validation/materialization outputs from [portable_gsd_contract.py](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/portable_gsd_contract.py:1)
+  - runtime-visibility outputs from [runtime_visibility.py](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/contract/runtime_visibility.py:1)
+  - overlay validation/materialization outputs from [portable_gsd_contract.py](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/contract/portable_gsd_contract.py:1)
   - coherence outputs from `manifest_install_coherence.py`
   - launch captures from `capture_launch_truth.py`
 - [d:r:i] `L3` points at bounded proofs or observations. It does not own family/edge semantics.

@@ -5,7 +5,7 @@
     {
       "id": "overlay_contract_validation",
       "evidence_lane": "contract_validation",
-      "path": "tooling/codex/portable_gsd_contract.py",
+      "path": "harness_modifier/contract/portable_gsd_contract.py",
       "note": "validator and post-materialization contract checks for tracked overlay ownership"
     },
     {

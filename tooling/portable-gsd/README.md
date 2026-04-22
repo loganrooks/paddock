@@ -41,7 +41,7 @@ The overlay currently patches regular local GSD so this project gets:
 The tracked overlay now carries an explicit install contract instead of relying on ambient knowledge:
 
 - [OVERLAY-MANIFEST.json](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/OVERLAY-MANIFEST.json)
-- [portable_gsd_contract.py](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/portable_gsd_contract.py)
+- [portable_gsd_contract.py](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/contract/portable_gsd_contract.py)
 
 That shared contract is now used by:
 

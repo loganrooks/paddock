@@ -72,7 +72,7 @@ This document defines the repo's human and agent operating workflow.
 - Preferred protocol:
   1. record a pre-spawn boundary such as `launch_truth_since=$(date +%s)`
   2. launch the worker
-  3. capture requested-versus-effective truth with `python3 tooling/codex/capture_launch_truth.py --since "$launch_truth_since" --label "<purpose>" --requested-model ... --requested-reasoning ... --requested-approval ... --requested-sandbox ...`
+  3. capture requested-versus-effective truth with `python3 harness_modifier/capture/capture_launch_truth.py --since "$launch_truth_since" --label "<purpose>" --requested-model ... --requested-reasoning ... --requested-approval ... --requested-sandbox ...`
   4. preserve that output in the relevant review artifact, checkpoint notes, or branch notes when the launch is doctrine-sensitive
 - Use `--requested-agent` and `--requested-agent-path` when the named worker or config file is itself part of what later review may question.
 - If the stronger `--since` boundary was missed, `--latest N` is an allowed fallback, but label it as weaker evidence.

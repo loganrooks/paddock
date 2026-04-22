@@ -21,6 +21,18 @@ Status: active opening audit family
   - [prompts/01-harness-extraction-field-map-audit-opus47-max-r1-launch-prompt.md](prompts/01-harness-extraction-field-map-audit-opus47-max-r1-launch-prompt.md)
   - [launch-truth/01-harness-extraction-field-map-audit-launch-truth.md](launch-truth/01-harness-extraction-field-map-audit-launch-truth.md)
   - [outputs/01-harness-extraction-field-map-audit-opus47-max-r1.md](outputs/01-harness-extraction-field-map-audit-opus47-max-r1.md)
+  - [dispositions/01-harness-extraction-field-map-audit-inheritance.md](dispositions/01-harness-extraction-field-map-audit-inheritance.md)
+
+## Current Next Step
+
+- [d:r:i] The first bounded extraction follow-through is now landed:
+  - [intervention-proposals/139-harness-modifier-in-place-rehome-step-1-implementation.md](../intervention-proposals/139-harness-modifier-in-place-rehome-step-1-implementation.md)
+  - [../propagation-audit/51-harness-modifier-in-place-rehome-step-1-change-triggered-refresh.md](../propagation-audit/51-harness-modifier-in-place-rehome-step-1-change-triggered-refresh.md)
+- [d:r:i] The next adjacent extraction question is no longer whether an in-repo rehome is earned. It is which later step should inherit after the first code-helper rehome:
+  - overlay/workflow/skill/template/reference carriers
+  - compatibility declaration carrier
+  - standalone repo boundary design
+  - second-host exercise
 
 ## Expected Artifact Pattern
 

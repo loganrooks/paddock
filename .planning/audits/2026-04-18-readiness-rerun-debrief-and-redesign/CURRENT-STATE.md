@@ -159,7 +159,7 @@ Status: active governing synthesis
 - [d:r:i] The workspace-state audit lane `01` is now completed and inherited under `workspace-state-audit/`: the machine reading, horizon-routing split, deferred/held/seed/doctrine carrier map, and bounded parallelization posture are now durable audit context rather than commentary-only operator memory.
 - [d:r:i] That same lane also exposed one scope leak clearly: unqualified use of host-project long-horizon doctrine as if it were already harness doctrine. Local inheritance narrows that carry; host-project `LONG-ARC.md` is not adopted here as the default long-horizon carrier for harness-improvement work.
 - [d:r:i] The next extraction step is now active too: [intervention-proposals/137-harness-extraction-field-map.md](intervention-proposals/137-harness-extraction-field-map.md) separates generic harness carriers, host-project-specific carriers, and shared boundaries before any standalone-project execution route is judged.
-- [d:r:i] That extraction lane is now completed too: [extraction-audit/outputs/01-harness-extraction-field-map-audit-opus47-max-r1.md](extraction-audit/outputs/01-harness-extraction-field-map-audit-opus47-max-r1.md) and [extraction-audit/dispositions/01-harness-extraction-field-map-audit-inheritance.md](extraction-audit/dispositions/01-harness-extraction-field-map-audit-inheritance.md) keep extraction staged, keep host doctrine from traveling, and route the next move into [intervention-proposals/138-harness-modifier-in-place-rehome-step-1-proposal.md](intervention-proposals/138-harness-modifier-in-place-rehome-step-1-proposal.md).
+- [d:r:i] That extraction lane is now completed too: [extraction-audit/outputs/01-harness-extraction-field-map-audit-opus47-max-r1.md](extraction-audit/outputs/01-harness-extraction-field-map-audit-opus47-max-r1.md) and [extraction-audit/dispositions/01-harness-extraction-field-map-audit-inheritance.md](extraction-audit/dispositions/01-harness-extraction-field-map-audit-inheritance.md) keep extraction staged, keep host doctrine from traveling, route the next move into [intervention-proposals/138-harness-modifier-in-place-rehome-step-1-proposal.md](intervention-proposals/138-harness-modifier-in-place-rehome-step-1-proposal.md), and that first rehome step is now landed through [intervention-proposals/139-harness-modifier-in-place-rehome-step-1-implementation.md](intervention-proposals/139-harness-modifier-in-place-rehome-step-1-implementation.md) plus [propagation-audit/51-harness-modifier-in-place-rehome-step-1-change-triggered-refresh.md](propagation-audit/51-harness-modifier-in-place-rehome-step-1-change-triggered-refresh.md).
 - [d:r:i] The first landed governance carries from that lane are:
   - `Horizon Routing` in `.planning/HARNESS-IMPROVEMENT-REGISTER.md`
   - `Bounded Parallelization And Overlap` in `AUDIT-LANE-PATTERN-LIBRARY.md`
@@ -181,7 +181,11 @@ Status: active governing synthesis
   - npm/`npx` installer
   - another distribution path
 - [o:r:i] Which co-location confusions should now count as extraction pressure rather than being handled only as local governance cleanup inside the host repo?
-- [o:r:i] Should `138` be challenged once more before implementation, or is the step-1 rehome now sharp enough to execute directly with hard propagation gates?
+- [o:r:i] After the landed `139` first code-helper rehome slice, what should inherit next inside the extraction family:
+  - overlay/workflow/skill/template/reference carriers
+  - compatibility declaration carrier
+  - standalone repo boundary design
+  - second-host exercise
 - [o:r:i] As the helper-backed `gsd-review` first slice lands, which adjacent review-workflow uplift opportunities should remain explicit as later family moves rather than being silently dropped?
 - [o:r:i] Which parts of the submitted docs PR should remain stable governance/reference docs, and which should be paired with stronger intervention-oriented companions?
 - [o:r:i] If later family growth overloads the governance set again, what further routing surfaces would sharpen relevance without pushing the short synthesis back toward warehouse behavior?

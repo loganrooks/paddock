@@ -59,16 +59,16 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
 - Update adjacent live carriers in the same slice when the propagation path is already clear. If some neighbors are intentionally held, record that boundary explicitly in a proposal, disposition, or audit artifact instead of leaving it ambient.
 - Use the repo-local propagation tools where they fit:
   - `python3 tooling/codex/audit_refmap.py`
-  - `python3 tooling/codex/runtime_visibility.py`
-  - `python3 tooling/codex/manifest_install_coherence.py`
-  - `python3 tooling/codex/harness_canary.py`
+  - `python3 harness_modifier/contract/runtime_visibility.py`
+  - `python3 harness_modifier/contract/manifest_install_coherence.py`
+  - `python3 harness_modifier/contract/harness_canary.py`
   - `python3 tooling/codex/project_uplift.py`
-  - `python3 tooling/codex/portable_gsd_contract.py`
+  - `python3 harness_modifier/contract/portable_gsd_contract.py`
 - When the change crosses several producer/consumer families and you want the operator-facing review route rather than another ad hoc reread, use `$gsd-propagation-review`.
 - For the current worked example of this repo-local doctrine in action, start with:
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/`
-- When one slice crosses several propagation families at once, prefer a clean-boundary runtime snapshot plus `python3 tooling/codex/manifest_install_coherence.py . --snapshot <snapshot.json> --strict` as a bounded coherence gate rather than trusting the local diff alone.
-- When the question is whether current runtime/install invariants still hold after a bounded slice, prefer `python3 tooling/codex/harness_canary.py report . --strict` over ad hoc reread of `.codex/` files.
+- When one slice crosses several propagation families at once, prefer a clean-boundary runtime snapshot plus `python3 harness_modifier/contract/manifest_install_coherence.py . --snapshot <snapshot.json> --strict` as a bounded coherence gate rather than trusting the local diff alone.
+- When the question is whether current runtime/install invariants still hold after a bounded slice, prefer `python3 harness_modifier/contract/harness_canary.py report . --strict` over ad hoc reread of `.codex/` files.
 - Do not mistake those partial tools for proof that the whole network stayed aligned. When the change crosses several producer/consumer families, open or update an explicit propagation audit surface.
 
 ## Quality Bar
@@ -176,7 +176,7 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
 - Verify effective launch settings after every spawn against `~/.codex/state_5.sqlite`.
 - If requested and effective settings differ, stop immediately, kill the agent, and report the mismatch plainly.
 - For doctrine-sensitive or otherwise high-stakes spawned work, preserve durable requested-vs-effective launch truth instead of relying on sqlite checks plus memory alone.
-  - Prefer `python3 tooling/codex/capture_launch_truth.py --since ...` over weaker `--latest` capture.
+  - Prefer `python3 harness_modifier/capture/capture_launch_truth.py --since ...` over weaker `--latest` capture.
   - Preserve the capture in the relevant review, audit, launch-truth, or disposition artifact before accepting the return.
 - For substantial external audit lanes or delegated jobs, preserve timing calibration too instead of treating elapsed time as ambient memory.
   - Record an estimated wall-clock duration or bounded range before launch.

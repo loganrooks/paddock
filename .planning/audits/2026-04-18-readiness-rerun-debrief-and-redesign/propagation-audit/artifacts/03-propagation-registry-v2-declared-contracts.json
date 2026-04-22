@@ -5,7 +5,7 @@
     {
       "id": "overlay_ownership_contract",
       "path": "tooling/portable-gsd/overlay/OVERLAY-MANIFEST.json",
-      "validator": "tooling/codex/portable_gsd_contract.py",
+      "validator": "harness_modifier/contract/portable_gsd_contract.py",
       "contract_kind": "tracked overlay ownership and add/overwrite typing",
       "families_touched": [
         "install_overlay",
@@ -19,8 +19,8 @@
     },
     {
       "id": "portable_materialization_contract",
-      "path": "tooling/codex/portable_gsd_contract.py",
-      "validator": "tooling/codex/portable_gsd_contract.py",
+      "path": "harness_modifier/contract/portable_gsd_contract.py",
+      "validator": "harness_modifier/contract/portable_gsd_contract.py",
       "contract_kind": "fresh-install pristine capture, overlay application, post-materialization verification semantics, and typed parity-reference disclosure for runtime-specific .claude hits inside live .codex materialization",
       "families_touched": [
         "install_pristine",
@@ -45,8 +45,8 @@
     },
     {
       "id": "gsd_sdk_runtime_contract",
-      "path": "tooling/codex/ensure_gsd_sdk_runtime.py",
-      "validator": "tooling/codex/ensure_gsd_sdk_runtime.py",
+      "path": "harness_modifier/contract/ensure_gsd_sdk_runtime.py",
+      "validator": "harness_modifier/contract/ensure_gsd_sdk_runtime.py",
       "contract_kind": "repo-local gsd-sdk runtime verification and bounded executable repair",
       "families_touched": [
         "install_pristine",
@@ -70,7 +70,7 @@
     {
       "id": "milestone_boundary_future_carry_contract",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/new-milestone.md",
-      "validator": "tooling/codex/portable_gsd_contract.py",
+      "validator": "harness_modifier/contract/portable_gsd_contract.py",
       "contract_kind": "milestone-boundary long-arc and future-carry reread semantics",
       "families_touched": [
         "install_overlay",
