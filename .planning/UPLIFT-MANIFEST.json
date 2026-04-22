@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-04-22T01:32:54+00:00",
+  "generated_at": "2026-04-22T02:01:24+00:00",
   "mode": "detect-only",
   "last_uplift_class": "cross-runtime uplift",
   "last_uplift_secondary_signals": [
@@ -106,6 +106,8 @@
     "noncurrent_version_counts": {},
     "legacy_unversioned_examples": [],
     "noncurrent_version_examples": [],
+    "current_contract_shape_gap_count": 0,
+    "current_contract_shape_gap_examples": [],
     "corpus_fingerprint": null
   },
   "carriers": [

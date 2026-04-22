@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "9aba1fb",
+  "basis_commit": "b66c00a",
   "evidence_entries": [
     {
       "id": "overlay_contract_validation",
@@ -228,7 +228,7 @@
       "id": "project_uplift_contract_tests",
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_project_uplift.py",
-      "note": "focused helper and consumer coverage for uplift classification, durable output schema, compatibility drift routing, seed-corpus posture movement, and operator-facing seed posture visibility"
+      "note": "focused helper and consumer coverage for uplift classification, durable output schema, compatibility drift routing, seed-corpus posture movement, operator-facing seed posture visibility, and current-version seed shape-gap discovery"
     },
     {
       "id": "seed_operator_consumer_contract_tests",
@@ -258,13 +258,31 @@
       "id": "seed_migration_inventory_tests",
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_seed_migration_inventory.py",
-      "note": "focused helper coverage for mixed vintage seed corpora, current-version contract-shape gaps, and durable seed-migration report/manifest writes"
+      "note": "focused helper coverage for mixed vintage seed corpora, current-version contract-shape gaps, route-state disambiguation, post-write durable packet wording, and durable seed-migration report/manifest writes"
     },
     {
       "id": "seed_migration_inventory_follow_through_tests",
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_seed_migration_inventory_follow_through_contract.py",
-      "note": "focused contract coverage for overlay ownership of the specialist workflow/wrapper, uplift-route handoff into the seed-migration packet, and rewrite staying separate from detect-only"
+      "note": "focused contract coverage for overlay ownership of the specialist workflow/wrapper, uplift-route handoff into the seed-migration packet, producer-follow-through against the tracked plant-seed template, and rewrite staying separate from detect-only"
+    },
+    {
+      "id": "seed_migration_reread_output_04",
+      "evidence_lane": "external_reread_output",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/outputs/04-seed-migration-detect-only-first-slice-reread-opus47-max-r1.md",
+      "note": "bounded Opus reread over the landed detect-only migration slice, widening the inheritance toward post-write state, producer-follow-through, route-state disambiguation, uplift-side shape-gap discovery, and narrower disclosure/write guidance"
+    },
+    {
+      "id": "seed_migration_harden_impl_88",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/88-seed-migration-detect-only-harden-follow-through-implementation.md",
+      "note": "landed harden follow-through over the detect-only migration packet, covering route-state split, post-write durable-output wording, shared plant-seed shape constants, uplift-side current-version shape-gap discovery, and narrower workflow/wrapper disclosure"
+    },
+    {
+      "id": "seed_migration_harden_refresh_36",
+      "evidence_lane": "change_triggered_refresh",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/36-seed-migration-detect-only-harden-change-triggered-refresh.md",
+      "note": "typed v2 refresh that keeps the reread-earned harden semantics explicit at the helper/workflow/wrapper/uplift cluster instead of leaving them ambient after the first detect-only landing"
     }
   ]
 }

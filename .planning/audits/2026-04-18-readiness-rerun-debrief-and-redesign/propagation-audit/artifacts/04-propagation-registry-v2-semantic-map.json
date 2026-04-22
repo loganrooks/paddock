@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "9aba1fb",
+  "basis_commit": "b66c00a",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -218,14 +218,15 @@
       "id": "project_uplift",
       "family": "helper",
       "path": "tooling/codex/project_uplift.py",
-      "role": "authoritative uplift producer, compatibility-drift router, seed-corpus posture scanner, and progress-note source for operator-facing seed visibility",
+      "role": "authoritative uplift producer, compatibility-drift router, shared seed-shape contract carrier, seed-corpus posture scanner, current-version shape-gap detector, and progress-note source for operator-facing seed visibility",
       "support_mode": "roster_plus_producer_report",
       "evidence_refs": [
         "uplift_manifest_current",
         "uplift_seed_corpus_impl_80",
         "seed_operator_consumer_impl_82",
         "seed_operator_consumer_contract_tests",
-        "project_uplift_contract_tests"
+        "project_uplift_contract_tests",
+        "seed_migration_harden_impl_88"
       ]
     },
     {
@@ -305,7 +306,7 @@
       "id": "uplift_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md",
-      "role": "operator-facing uplift workflow with layered read packet control over helper output, current uplift outputs, seed corpus posture, and specialist detect-only migration handoff when older seed posture surfaces",
+      "role": "operator-facing uplift workflow with layered read-packet control over helper output, current uplift outputs, seed corpus posture, and the specialist detect-only migration handoff for legacy, noncurrent, or current-version shape-gap posture, while separating deeper packet disclosure from durable write side effects",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
@@ -314,7 +315,8 @@
         "project_uplift_contract_tests",
         "read_packet_relevance_control_impl_66",
         "read_packet_tier_contract_tests",
-        "seed_migration_inventory_impl_86"
+        "seed_migration_inventory_impl_86",
+        "seed_migration_harden_impl_88"
       ]
     },
     {
@@ -403,13 +405,14 @@
       "id": "uplift_skill_wrapper",
       "family": "wrapper",
       "path": "tooling/portable-gsd/overlay/skills/gsd-uplift-project/SKILL.md",
-      "role": "invocation-binding wrapper that keeps detect-only uplift posture, seed-corpus visibility, and later migration separation explicit while naming the specialist seed-migration packet when that route activates",
+      "role": "invocation-binding wrapper that keeps detect-only uplift posture, seed-corpus visibility, and later migration separation explicit while naming the specialist seed-migration packet for legacy, noncurrent, or current-version shape-gap posture and keeping deeper packet disclosure distinct from durable write side effects",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "uplift_seed_corpus_impl_80",
         "project_uplift_contract_tests",
-        "seed_migration_inventory_follow_through_tests"
+        "seed_migration_inventory_follow_through_tests",
+        "seed_migration_harden_impl_88"
       ]
     },
     {
@@ -756,35 +759,44 @@
       "id": "seed_migration_inventory_helper",
       "family": "helper",
       "path": "tooling/codex/seed_migration_inventory.py",
-      "role": "specialist detect-only helper that inventories per-seed legacy or drifted seed posture, contract-shape gaps, and bounded migration moves without rewriting seed files",
+      "role": "specialist detect-only helper that inventories per-seed legacy or drifted seed posture, contract-shape gaps, route-state distinctions, post-write durable packet state, and bounded migration moves without rewriting seed files",
       "support_mode": "roster_plus_tested_behavior",
       "evidence_refs": [
         "seed_migration_inventory_impl_86",
-        "seed_migration_inventory_tests"
+        "seed_migration_inventory_tests",
+        "seed_migration_reread_output_04",
+        "seed_migration_harden_impl_88",
+        "seed_migration_harden_refresh_36"
       ]
     },
     {
       "id": "seed_migration_inventory_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/seed-migration-inventory.md",
-      "role": "operator-facing specialist workflow that turns older seed posture into a detect-only migration packet while keeping direct rewrites separate",
+      "role": "operator-facing specialist workflow that turns older or shape-gapped seed posture into a detect-only migration packet, narrows supporting reading toward flagged candidates, and keeps direct rewrites plus durable write side effects separate from deeper packet disclosure",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "seed_migration_inventory_impl_86",
-        "seed_migration_inventory_follow_through_tests"
+        "seed_migration_inventory_follow_through_tests",
+        "seed_migration_reread_output_04",
+        "seed_migration_harden_impl_88",
+        "seed_migration_harden_refresh_36"
       ]
     },
     {
       "id": "seed_migration_inventory_skill_wrapper",
       "family": "wrapper",
       "path": "tooling/portable-gsd/overlay/skills/gsd-seed-migration-inventory/SKILL.md",
-      "role": "invocation-binding wrapper that keeps the seed-migration route detect-only and specialist-owned instead of widening it into generic uplift or progress routing",
+      "role": "invocation-binding wrapper that keeps the seed-migration route detect-only and specialist-owned, while separating deeper packet disclosure from durable write side effects instead of widening it into generic uplift or progress routing",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "seed_migration_inventory_impl_86",
-        "seed_migration_inventory_follow_through_tests"
+        "seed_migration_inventory_follow_through_tests",
+        "seed_migration_reread_output_04",
+        "seed_migration_harden_impl_88",
+        "seed_migration_harden_refresh_36"
       ]
     }
   ],
@@ -1814,11 +1826,25 @@
       "id": "seed_migration_inventory_workflow_to_helper",
       "from": "seed_migration_inventory_workflow",
       "to": "seed_migration_inventory_helper",
-      "kind": "workflow_invokes_helper",
+      "kind": "workflow_invokes_helper_with_route_state_disambiguation_and_post_write_packet_state",
       "support_mode": "semantic_plus_tested_behavior",
       "evidence_refs": [
         "seed_migration_inventory_impl_86",
-        "seed_migration_inventory_tests"
+        "seed_migration_inventory_tests",
+        "seed_migration_reread_output_04",
+        "seed_migration_harden_impl_88"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "plant_seed_workflow_to_seed_migration_inventory_helper",
+      "from": "plant_seed_workflow",
+      "to": "seed_migration_inventory_helper",
+      "kind": "migration_helper_samples_current_seed_producer_contract_shape_from_plant_seed",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "seed_migration_harden_impl_88",
+        "seed_migration_inventory_follow_through_tests"
       ],
       "status": "mapped"
     },
@@ -1826,11 +1852,12 @@
       "id": "uplift_workflow_to_seed_migration_inventory_workflow",
       "from": "uplift_workflow",
       "to": "seed_migration_inventory_workflow",
-      "kind": "uplift_route_hands_legacy_seed_posture_into_specialist_detect_only_migration_packet",
+      "kind": "uplift_route_hands_legacy_noncurrent_or_current_version_shape_gap_posture_into_specialist_detect_only_migration_packet",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "seed_migration_inventory_impl_86",
-        "seed_migration_inventory_follow_through_tests"
+        "seed_migration_inventory_follow_through_tests",
+        "seed_migration_harden_impl_88"
       ],
       "status": "mapped"
     }

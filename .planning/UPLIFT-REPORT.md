@@ -1,6 +1,6 @@
 # Project Uplift Report
 
-- Generated: 2026-04-22T01:32:54+00:00
+- Generated: 2026-04-22T02:01:24+00:00
 - Mode: detect-only
 - Project class: cross-runtime uplift
 - Secondary signals: mid_phase
@@ -44,7 +44,7 @@
 
 ## Seed Corpus Posture
 
-- Summary: no_seed_corpus (total 0; current 0; legacy 0; noncurrent none)
+- Summary: no_seed_corpus (total 0; current 0; legacy 0; noncurrent none; shape gaps 0)
 - Current contract version: 2
 - Legacy-unversioned examples: none
 - Noncurrent-version examples: none

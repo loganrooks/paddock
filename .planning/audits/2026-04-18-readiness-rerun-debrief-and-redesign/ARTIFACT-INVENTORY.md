@@ -123,6 +123,8 @@ Status: active inventory
 - `intervention-proposals/84-seed-audit-gate-widening-first-slice-implementation.md`
 - `intervention-proposals/85-legacy-seed-corpus-migration-detect-only-first-slice-proposal.md`
 - `intervention-proposals/86-legacy-seed-corpus-migration-detect-only-first-slice-implementation.md`
+- `intervention-proposals/87-seed-migration-detect-only-harden-follow-through-proposal.md`
+- `intervention-proposals/88-seed-migration-detect-only-harden-follow-through-implementation.md`
 
 ### Self-Overcoming Family
 
@@ -199,9 +201,16 @@ Status: active inventory
 - `propagation-audit/33-seed-operator-consumer-widening-change-triggered-refresh.md`
 - `propagation-audit/34-seed-audit-gate-widening-change-triggered-refresh.md`
 - `propagation-audit/35-legacy-seed-corpus-migration-detect-only-change-triggered-refresh.md`
+- `propagation-audit/36-seed-migration-detect-only-harden-change-triggered-refresh.md`
 - `propagation-audit/launch-truth/30-seed-doctrine-vintage-sidecar-launch-truth.md`
 - `propagation-audit/outputs/04-seed-vintage-and-consumer-field-sidecar-gpt54-xhigh-r1.md`
 - `propagation-audit/dispositions/04-seed-vintage-and-consumer-field-sidecar-inheritance.md`
+- `propagation-audit/packets/04-seed-migration-detect-only-first-slice-reread-packet.md`
+- `propagation-audit/specs/04-seed-migration-detect-only-first-slice-reread-spec.md`
+- `propagation-audit/prompts/04-seed-migration-detect-only-first-slice-reread-opus47-max-r1-launch-prompt.md`
+- `propagation-audit/launch-truth/04-seed-migration-detect-only-first-slice-reread-launch-truth.md`
+- `propagation-audit/outputs/04-seed-migration-detect-only-first-slice-reread-opus47-max-r1.md`
+- `propagation-audit/dispositions/04-seed-migration-detect-only-first-slice-reread-inheritance.md`
 - `propagation-audit/artifacts/01-propagation-field-registry-v1.json`
 - `propagation-audit/artifacts/02-propagation-registry-v2-inventory-roster.json`
 - `propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json`

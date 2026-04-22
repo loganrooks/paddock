@@ -311,6 +311,52 @@
     - no whole-harness auto-extraction
     - no semantic overclaim from validation/coherence tooling
 
+## 2026-04-22 `propagation-audit-lane-04`
+
+- date: `2026-04-22`
+- purpose: bounded reread of the landed seed-migration detect-only first slice after implementation
+- frozen launch basis commit: `b66c00a`
+- requested model / reasoning:
+  - Opus: `opus[1m]` / `max`
+- requested launch mode:
+  - headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- launch-truth artifact: [propagation-audit/launch-truth/04-seed-migration-detect-only-first-slice-reread-launch-truth.md](propagation-audit/launch-truth/04-seed-migration-detect-only-first-slice-reread-launch-truth.md)
+- prompt artifact:
+  - [propagation-audit/prompts/04-seed-migration-detect-only-first-slice-reread-opus47-max-r1-launch-prompt.md](propagation-audit/prompts/04-seed-migration-detect-only-first-slice-reread-opus47-max-r1-launch-prompt.md)
+- governing spec / packet:
+  - [propagation-audit/specs/04-seed-migration-detect-only-first-slice-reread-spec.md](propagation-audit/specs/04-seed-migration-detect-only-first-slice-reread-spec.md)
+  - [propagation-audit/packets/04-seed-migration-detect-only-first-slice-reread-packet.md](propagation-audit/packets/04-seed-migration-detect-only-first-slice-reread-packet.md)
+- output artifact:
+  - [propagation-audit/outputs/04-seed-migration-detect-only-first-slice-reread-opus47-max-r1.md](propagation-audit/outputs/04-seed-migration-detect-only-first-slice-reread-opus47-max-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `489.533`
+  - session id: `3d5e4b3c-e0e4-42eb-86bb-6971b50ae084`
+  - total cost usd: `2.94244325`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/seed-migration-detect-only-first-slice-reread-opus47-max-r1-20260421-213556.9zm3o5qt.stream.jsonl`
+    - `/tmp/seed-migration-detect-only-first-slice-reread-opus47-max-r1-20260421-213556.80jid_e4.stderr.log`
+    - `/tmp/seed-migration-detect-only-first-slice-reread-opus47-max-r1-20260421-213556.pae4_0sp.debug.log`
+- disposition:
+  - [propagation-audit/dispositions/04-seed-migration-detect-only-first-slice-reread-inheritance.md](propagation-audit/dispositions/04-seed-migration-detect-only-first-slice-reread-inheritance.md)
+  - `accept as bounded harden guide`
+  - carry forward:
+    - specialist detect-only trio as active basis
+    - continuity split between `.planning/seeds/SEED-*.md` corpus and `STATE.md Future Carry Forward -> Seeded`
+    - later-family hold on rewrite/normalization, broader audit-open widening, and generic wrapper sweep
+  - revise next:
+    - post-write durable-output state
+    - producer-follow-through to `plant-seed`
+    - route-state disambiguation
+    - uplift-side current-version shape-gap discovery
+    - narrower reading/write guidance
+  - landed now:
+    - [intervention-proposals/87-seed-migration-detect-only-harden-follow-through-proposal.md](intervention-proposals/87-seed-migration-detect-only-harden-follow-through-proposal.md)
+    - [intervention-proposals/88-seed-migration-detect-only-harden-follow-through-implementation.md](intervention-proposals/88-seed-migration-detect-only-harden-follow-through-implementation.md)
+    - [propagation-audit/36-seed-migration-detect-only-harden-change-triggered-refresh.md](propagation-audit/36-seed-migration-detect-only-harden-change-triggered-refresh.md)
+  - next adjacent route:
+    - operator-facing specialist-packet pointer disclosure through `progress` / `resume-project`
+
 ## 2026-04-20 `tranche-audit-lane-01`
 
 - date: `2026-04-20`

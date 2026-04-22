@@ -68,13 +68,26 @@ Status: active lane; widened inheritance batch
     - [outputs/03-propagation-registry-system-gpt54-xhigh-r1.md](outputs/03-propagation-registry-system-gpt54-xhigh-r1.md)
   - inheritance:
     - [dispositions/03-propagation-registry-system-cross-vendor-inheritance.md](dispositions/03-propagation-registry-system-cross-vendor-inheritance.md)
-- lane `04`:
+- bounded sidecar:
   - launch-truth:
     - [launch-truth/30-seed-doctrine-vintage-sidecar-launch-truth.md](launch-truth/30-seed-doctrine-vintage-sidecar-launch-truth.md)
   - output:
     - [outputs/04-seed-vintage-and-consumer-field-sidecar-gpt54-xhigh-r1.md](outputs/04-seed-vintage-and-consumer-field-sidecar-gpt54-xhigh-r1.md)
   - inheritance:
     - [dispositions/04-seed-vintage-and-consumer-field-sidecar-inheritance.md](dispositions/04-seed-vintage-and-consumer-field-sidecar-inheritance.md)
+- lane `04`:
+  - packet:
+    - [packets/04-seed-migration-detect-only-first-slice-reread-packet.md](packets/04-seed-migration-detect-only-first-slice-reread-packet.md)
+  - spec:
+    - [specs/04-seed-migration-detect-only-first-slice-reread-spec.md](specs/04-seed-migration-detect-only-first-slice-reread-spec.md)
+  - prompt:
+    - [prompts/04-seed-migration-detect-only-first-slice-reread-opus47-max-r1-launch-prompt.md](prompts/04-seed-migration-detect-only-first-slice-reread-opus47-max-r1-launch-prompt.md)
+  - launch-truth:
+    - [launch-truth/04-seed-migration-detect-only-first-slice-reread-launch-truth.md](launch-truth/04-seed-migration-detect-only-first-slice-reread-launch-truth.md)
+  - output:
+    - [outputs/04-seed-migration-detect-only-first-slice-reread-opus47-max-r1.md](outputs/04-seed-migration-detect-only-first-slice-reread-opus47-max-r1.md)
+  - inheritance:
+    - [dispositions/04-seed-migration-detect-only-first-slice-reread-inheritance.md](dispositions/04-seed-migration-detect-only-first-slice-reread-inheritance.md)
 
 ## Current Follow-Through
 
@@ -109,6 +122,7 @@ Status: active lane; widened inheritance batch
 - [33-seed-operator-consumer-widening-change-triggered-refresh.md](33-seed-operator-consumer-widening-change-triggered-refresh.md)
 - [34-seed-audit-gate-widening-change-triggered-refresh.md](34-seed-audit-gate-widening-change-triggered-refresh.md)
 - [35-legacy-seed-corpus-migration-detect-only-change-triggered-refresh.md](35-legacy-seed-corpus-migration-detect-only-change-triggered-refresh.md)
+- [36-seed-migration-detect-only-harden-change-triggered-refresh.md](36-seed-migration-detect-only-harden-change-triggered-refresh.md)
 - [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 - [artifacts/02-propagation-registry-v2-inventory-roster.json](artifacts/02-propagation-registry-v2-inventory-roster.json)
 - [artifacts/03-propagation-registry-v2-declared-contracts.json](artifacts/03-propagation-registry-v2-declared-contracts.json)
@@ -173,3 +187,5 @@ Status: active lane; widened inheritance batch
 - [d:r:i] A seventeenth non-uplift change-triggered refresh is now landing too: `33` records operator-facing seed consumer widening, and the typed `v2` layers now keep the `project_uplift -> progress/resume-project` bridge explicit as a seed-visibility route instead of leaving ordinary re-entry on a generic uplift note alone.
 - [d:r:i] An eighteenth non-uplift change-triggered refresh is now landing too: `34` records audit-open seed widening, and the typed `v2` layers now keep the `plant-seed -> audit-open helper -> milestone-close` route explicit instead of leaving richer seed audit judgment ambient inside helper output alone.
 - [d:r:i] A nineteenth non-uplift change-triggered refresh is now landing too: `35` records the specialist detect-only legacy-seed migration slice, and the typed `v2` layers now keep the helper/workflow/wrapper plus uplift handoff explicit instead of leaving migration planning at posture counts and held-later prose alone.
+- [d:r:i] A twentieth non-uplift change-triggered refresh is now landed too: `36` records the harden follow-through after the Opus reread, and the typed `v2` layers now keep post-write durable-output state, producer-follow-through to `plant-seed`, route-state disambiguation, and uplift-side shape-gap discovery explicit instead of leaving the sharper packet semantics ambient.
+- [d:r:i] The next adjacent seed-family route is now narrower than another helper/workflow harden pass: operator-facing specialist-packet pointer disclosure through `progress` / `resume-project`, with rewrite widening and generic wrapper sweep still held later.

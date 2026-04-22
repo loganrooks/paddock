@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "9aba1fb",
+  "basis_commit": "b66c00a",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -194,14 +194,14 @@
       "id": "uplift_seed_corpus_posture_contract",
       "path": "tooling/codex/project_uplift.py",
       "validator": "tooling/codex/tests/test_project_uplift.py",
-      "contract_kind": "uplift-side seed corpus posture semantics with durable memory refresh, operator-facing visibility, and later migration separation",
+      "contract_kind": "uplift-side seed corpus posture semantics with current-version shape-gap discovery, durable memory refresh, operator-facing visibility, and later migration separation",
       "families_touched": [
         "helper",
         "workflow_output",
         "wrapper",
         "state_continuity"
       ],
-      "claim_boundary": "declares how project uplift scans current versus legacy seed corpus posture, how uplift-project plus gsd-uplift-project keep that posture visible, how progress and resume consume it through the progress-note bridge, how durable uplift memory preserves it, and how later legacy-seed migration stays separate from detect-only uplift"
+      "claim_boundary": "declares how project uplift scans current versus legacy seed corpus posture plus current-version shape gaps, how uplift-project plus gsd-uplift-project keep that posture visible while separating deeper packet disclosure from durable write side effects, how progress and resume consume it through the progress-note bridge, how durable uplift memory preserves it, and how later legacy-seed migration stays separate from detect-only uplift"
     },
     {
       "id": "seed_audit_gate_contract",
@@ -219,13 +219,13 @@
       "id": "seed_migration_inventory_contract",
       "path": "tooling/codex/seed_migration_inventory.py",
       "validator": "tooling/codex/tests/test_seed_migration_inventory.py",
-      "contract_kind": "detect-only seed migration inventory semantics with explicit uplift handoff and rewrite separation",
+      "contract_kind": "detect-only seed migration inventory semantics with route-state disambiguation, post-write durable-output state, explicit producer-follow-through, uplift handoff, and rewrite separation",
       "families_touched": [
         "helper",
         "workflow_output",
         "wrapper"
       ],
-      "claim_boundary": "declares how seed_migration_inventory inventories per-seed vintage and contract-shape gaps, can write a durable seed-migration report plus manifest, and stays detect-only while uplift routes legacy or noncurrent seed posture into that specialist packet instead of treating counts/examples as the whole migration story"
+      "claim_boundary": "declares how seed_migration_inventory inventories per-seed vintage and contract-shape gaps, distinguishes no_corpus from current_only from surfaced, writes post-write durable packet state, reuses the current plant-seed contract shape rather than a helper-local mirror, and stays detect-only while uplift routes legacy, noncurrent, or current-version shape-gap posture into that specialist packet instead of treating counts/examples as the whole migration story"
     }
   ]
 }
