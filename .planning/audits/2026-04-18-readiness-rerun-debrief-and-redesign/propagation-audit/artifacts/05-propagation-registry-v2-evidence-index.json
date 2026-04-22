@@ -303,6 +303,24 @@
       "note": "typed v2 refresh that keeps repair-facing health uplift continuity explicit on top of the earlier compatibility-family anchor, consumer-chain, held-annotation, transition/state, and milestone-boundary continuity refreshes"
     },
     {
+      "id": "health_uplift_deepen_harden_impl_127",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/127-health-uplift-deepen-in-place-harden-follow-through-implementation.md",
+      "note": "landed same-carrier harden slice tightening the health-side trigger, literal silent-case carry, step/footer coexistence, and authoritative split placement without widening into new repair-family carriers"
+    },
+    {
+      "id": "health_uplift_deepen_harden_contract_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_health_uplift_deepen_in_place_contract.py",
+      "note": "widened focused contract coverage for post-validation meaning, literal silent-case carry, footer/step coexistence, and the kept read-only ownership split at the repair-facing health route"
+    },
+    {
+      "id": "health_uplift_deepen_harden_refresh_47",
+      "evidence_lane": "change_triggered_refresh",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/47-health-uplift-deepen-in-place-harden-change-triggered-refresh.md",
+      "note": "typed v2 refresh that keeps the health-side trigger, silence, and step/footer relation sharper on top of the earlier repair-facing health uplift continuity refresh"
+    },
+    {
       "id": "seed_audit_gate_impl_84",
       "evidence_lane": "implementation_note",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/84-seed-audit-gate-widening-first-slice-implementation.md",

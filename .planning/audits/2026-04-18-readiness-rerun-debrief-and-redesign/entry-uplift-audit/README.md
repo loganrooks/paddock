@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread; lane-07 completed and locally inherited after cross-runtime first-exercise reread; lane-08 completed and locally inherited after concern-family split reread; lane-09 completed and locally inherited after compatibility-shape reread; lane-10 completed and locally inherited after post-annotation next-move reread; lane-11 completed and locally inherited after consumer-chain proposal reread; lane-12 completed and locally inherited after transition/state continuity reread; lane-13 completed and locally inherited after milestone-boundary shared-reference reread; lane-14 completed and locally inherited after health deepen-in-place reread
+Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread; lane-07 completed and locally inherited after cross-runtime first-exercise reread; lane-08 completed and locally inherited after concern-family split reread; lane-09 completed and locally inherited after compatibility-shape reread; lane-10 completed and locally inherited after post-annotation next-move reread; lane-11 completed and locally inherited after consumer-chain proposal reread; lane-12 completed and locally inherited after transition/state continuity reread; lane-13 completed and locally inherited after milestone-boundary shared-reference reread; lane-14 completed and locally inherited after health deepen-in-place reread; lane-15 completed and locally inherited after landed health harden follow-through reread
 
 # Entry Uplift Audit
 
@@ -235,70 +235,31 @@ For each lane, keep this tuple explicit:
 - local inheritance:
   - [dispositions/18-health-uplift-deepen-in-place-first-slice-proposal-reread-inheritance.md](dispositions/18-health-uplift-deepen-in-place-first-slice-proposal-reread-inheritance.md)
 
+## Lane 15
+
+- packet:
+  - [packets/21-landed-health-uplift-deepen-in-place-first-slice-reread-packet.md](packets/21-landed-health-uplift-deepen-in-place-first-slice-reread-packet.md)
+- spec:
+  - [specs/15-landed-health-uplift-deepen-in-place-first-slice-reread-spec.md](specs/15-landed-health-uplift-deepen-in-place-first-slice-reread-spec.md)
+- prompt:
+  - [prompts/15-landed-health-uplift-deepen-in-place-first-slice-reread-opus47-max-r1-launch-prompt.md](prompts/15-landed-health-uplift-deepen-in-place-first-slice-reread-opus47-max-r1-launch-prompt.md)
+- launch-truth:
+  - [launch-truth/15-landed-health-uplift-deepen-in-place-first-slice-reread-launch-truth.md](launch-truth/15-landed-health-uplift-deepen-in-place-first-slice-reread-launch-truth.md)
+- output:
+  - [outputs/19-landed-health-uplift-deepen-in-place-first-slice-reread-opus47-max-r1.md](outputs/19-landed-health-uplift-deepen-in-place-first-slice-reread-opus47-max-r1.md)
+- local inheritance:
+  - [dispositions/19-landed-health-uplift-deepen-in-place-first-slice-reread-inheritance.md](dispositions/19-landed-health-uplift-deepen-in-place-first-slice-reread-inheritance.md)
+
 ## Current Adjacent Move
 
-- [d:r:i] The uplift-assist family no longer points first toward a live route hook.
-- [d:r:i] The packet/disposition layer is now landed and has one real round trip:
-  - [intervention-proposals/104-uplift-docs-governance-classification-packet-template-proposal.md](../intervention-proposals/104-uplift-docs-governance-classification-packet-template-proposal.md)
-  - [entry-uplift-audit/packets/06-uplift-docs-governance-classification-packet-template.md](packets/06-uplift-docs-governance-classification-packet-template.md)
-  - [intervention-proposals/105-uplift-docs-governance-classification-packet-template-implementation.md](../intervention-proposals/105-uplift-docs-governance-classification-packet-template-implementation.md)
-- [d:r:i] The first end-to-end packet exercise is now also landed:
-  - [entry-uplift-audit/packets/07-uplift-docs-governance-classification-first-exercise-packet.md](packets/07-uplift-docs-governance-classification-first-exercise-packet.md)
-  - [entry-uplift-audit/outputs/06-uplift-docs-governance-classification-first-exercise.md](outputs/06-uplift-docs-governance-classification-first-exercise.md)
-  - [entry-uplift-audit/dispositions/06-uplift-docs-governance-classification-first-exercise-disposition.md](dispositions/06-uplift-docs-governance-classification-first-exercise-disposition.md)
-  - [intervention-proposals/106-uplift-docs-governance-classification-first-exercise.md](../intervention-proposals/106-uplift-docs-governance-classification-first-exercise.md)
-- [d:r:i] The lane-06 reread and inheritance are now also landed:
-  - [launch-truth/06-uplift-assist-post-first-exercise-next-move-launch-truth.md](launch-truth/06-uplift-assist-post-first-exercise-next-move-launch-truth.md)
-  - [outputs/07-uplift-assist-post-first-exercise-next-move-opus47-max-r1.md](outputs/07-uplift-assist-post-first-exercise-next-move-opus47-max-r1.md)
-  - [dispositions/07-uplift-assist-post-first-exercise-next-move-inheritance.md](dispositions/07-uplift-assist-post-first-exercise-next-move-inheritance.md)
-- [d:r:i] The second exercised pattern is now landed too:
-  - [packets/08-uplift-carrier-gap-identification-packet-template.md](packets/08-uplift-carrier-gap-identification-packet-template.md)
-  - [packets/09-uplift-carrier-gap-identification-second-exercise-packet.md](packets/09-uplift-carrier-gap-identification-second-exercise-packet.md)
-  - [outputs/08-uplift-carrier-gap-identification-second-exercise.md](outputs/08-uplift-carrier-gap-identification-second-exercise.md)
-  - [dispositions/08-uplift-carrier-gap-identification-second-exercise-disposition.md](dispositions/08-uplift-carrier-gap-identification-second-exercise-disposition.md)
-  - [../intervention-proposals/107-uplift-carrier-gap-identification-second-exercise.md](../intervention-proposals/107-uplift-carrier-gap-identification-second-exercise.md)
-- [d:r:i] The narrow live route pointer is now landed in the live uplift workflow:
-  - [../intervention-proposals/108-uplift-assist-route-pointer-first-slice-implementation.md](../intervention-proposals/108-uplift-assist-route-pointer-first-slice-implementation.md)
-- [d:r:i] The `docs_governance_classification` pattern now also has one live-trigger runtime-proof:
-  - [packets/10-uplift-docs-governance-classification-runtime-proof-packet.md](packets/10-uplift-docs-governance-classification-runtime-proof-packet.md)
-  - [outputs/09-uplift-docs-governance-classification-runtime-proof.md](outputs/09-uplift-docs-governance-classification-runtime-proof.md)
-  - [dispositions/09-uplift-docs-governance-classification-runtime-proof-disposition.md](dispositions/09-uplift-docs-governance-classification-runtime-proof-disposition.md)
-  - [../intervention-proposals/109-uplift-docs-governance-runtime-proof-and-refresh.md](../intervention-proposals/109-uplift-docs-governance-runtime-proof-and-refresh.md)
-- [d:r:i] The `cross_runtime_comparison_packet` family now also has one reusable packet carrier:
-  - [../intervention-proposals/110-uplift-cross-runtime-comparison-packet-template-proposal.md](../intervention-proposals/110-uplift-cross-runtime-comparison-packet-template-proposal.md)
-  - [packets/11-uplift-cross-runtime-comparison-packet-template.md](packets/11-uplift-cross-runtime-comparison-packet-template.md)
-  - [../intervention-proposals/111-uplift-cross-runtime-comparison-packet-template-implementation.md](../intervention-proposals/111-uplift-cross-runtime-comparison-packet-template-implementation.md)
-- [d:r:i] The `cross_runtime_comparison_packet` family now also has its first bounded exercise:
-  - [packets/12-uplift-cross-runtime-comparison-first-exercise-packet.md](packets/12-uplift-cross-runtime-comparison-first-exercise-packet.md)
-  - [outputs/10-uplift-cross-runtime-comparison-first-exercise.md](outputs/10-uplift-cross-runtime-comparison-first-exercise.md)
-  - [dispositions/10-uplift-cross-runtime-comparison-first-exercise-disposition.md](dispositions/10-uplift-cross-runtime-comparison-first-exercise-disposition.md)
-  - [../intervention-proposals/112-uplift-cross-runtime-comparison-first-exercise.md](../intervention-proposals/112-uplift-cross-runtime-comparison-first-exercise.md)
-- [d:r:i] That bounded Opus widening lane is now completed and inherited too:
-  - [launch-truth/07-uplift-cross-runtime-comparison-first-exercise-reread-launch-truth.md](launch-truth/07-uplift-cross-runtime-comparison-first-exercise-reread-launch-truth.md)
-  - [outputs/11-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1.md](outputs/11-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1.md)
-  - [dispositions/11-uplift-cross-runtime-comparison-first-exercise-reread-inheritance.md](dispositions/11-uplift-cross-runtime-comparison-first-exercise-reread-inheritance.md)
-- [d:r:i] That concern-family split note and follow-on Opus lane are now completed and locally inherited too:
-  - [launch-truth/08-uplift-cross-runtime-concern-family-split-launch-truth.md](launch-truth/08-uplift-cross-runtime-concern-family-split-launch-truth.md)
-  - [outputs/12-uplift-cross-runtime-concern-family-split-opus47-max-r1.md](outputs/12-uplift-cross-runtime-concern-family-split-opus47-max-r1.md)
-  - [dispositions/12-uplift-cross-runtime-concern-family-split-inheritance.md](dispositions/12-uplift-cross-runtime-concern-family-split-inheritance.md)
-- [d:r:i] The compatibility-family widening-shape proposal in:
-  - [../intervention-proposals/114-uplift-cross-runtime-compatibility-widening-shape-proposal.md](../intervention-proposals/114-uplift-cross-runtime-compatibility-widening-shape-proposal.md)
-- [d:r:i] The first ≤2-carrier implementation proposal now also has its bounded reread and local inheritance:
-  - [../intervention-proposals/120-transition-state-uplift-continuity-first-slice-proposal.md](../intervention-proposals/120-transition-state-uplift-continuity-first-slice-proposal.md)
-  - [launch-truth/12-transition-state-uplift-continuity-first-slice-proposal-reread-launch-truth.md](launch-truth/12-transition-state-uplift-continuity-first-slice-proposal-reread-launch-truth.md)
-  - [outputs/16-transition-state-uplift-continuity-first-slice-proposal-reread-opus47-max-r1.md](outputs/16-transition-state-uplift-continuity-first-slice-proposal-reread-opus47-max-r1.md)
-  - [dispositions/16-transition-state-uplift-continuity-first-slice-proposal-reread-inheritance.md](dispositions/16-transition-state-uplift-continuity-first-slice-proposal-reread-inheritance.md)
-- [d:r:i] That first ≤2-carrier implementation slice is now landed too:
-  - [../intervention-proposals/121-transition-state-uplift-continuity-first-slice-implementation.md](../intervention-proposals/121-transition-state-uplift-continuity-first-slice-implementation.md)
-- [d:r:i] The next adjacent move is no longer the transition/state pair itself.
-- [d:r:i] The milestone-boundary reread is now also completed and locally inherited:
-  - [launch-truth/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-launch-truth.md](launch-truth/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-launch-truth.md)
-  - [outputs/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-opus47-max-r1.md](outputs/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-opus47-max-r1.md)
-  - [dispositions/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-inheritance.md](dispositions/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-inheritance.md)
-- [d:r:i] The next adjacent move is no longer another reread on `122`.
-- [d:r:i] The active next route is now:
-  - implement the revised shared-reference slice from [../intervention-proposals/122-milestone-boundary-uplift-shared-reference-first-slice-proposal.md](../intervention-proposals/122-milestone-boundary-uplift-shared-reference-first-slice-proposal.md)
-  - then land the matching compatibility-family refresh plus governance-trace note
-- [d:r:i] The adjacent held single-carrier alternative remains:
-  - `health.md` deepen-in-place follow-through
-- [d:r:i] Family-6 wider route mapping and later extraction/distribution still remain outside that next bounded choice.
+- [d:r:i] The repair-facing health carrier no longer points at the thinner `125` boundary.
+- [d:r:i] Lane `15` is now completed and locally inherited:
+  - [launch-truth/15-landed-health-uplift-deepen-in-place-first-slice-reread-launch-truth.md](launch-truth/15-landed-health-uplift-deepen-in-place-first-slice-reread-launch-truth.md)
+  - [outputs/19-landed-health-uplift-deepen-in-place-first-slice-reread-opus47-max-r1.md](outputs/19-landed-health-uplift-deepen-in-place-first-slice-reread-opus47-max-r1.md)
+  - [dispositions/19-landed-health-uplift-deepen-in-place-first-slice-reread-inheritance.md](dispositions/19-landed-health-uplift-deepen-in-place-first-slice-reread-inheritance.md)
+- [d:r:i] The same-carrier harden follow-through is now landed:
+  - [../intervention-proposals/126-health-uplift-deepen-in-place-harden-follow-through-proposal.md](../intervention-proposals/126-health-uplift-deepen-in-place-harden-follow-through-proposal.md)
+  - [../intervention-proposals/127-health-uplift-deepen-in-place-harden-follow-through-implementation.md](../intervention-proposals/127-health-uplift-deepen-in-place-harden-follow-through-implementation.md)
+  - [../propagation-audit/47-health-uplift-deepen-in-place-harden-change-triggered-refresh.md](../propagation-audit/47-health-uplift-deepen-in-place-harden-change-triggered-refresh.md)
+- [d:r:i] The next adjacent move can now return to the broader `119` frontier on a cleaner repair-facing basis instead of widening from the older thinner trigger surface.
+- [d:r:i] Keep broader cross-runtime, extraction, and new-carrier movement held until that next bounded choice is reopened explicitly.

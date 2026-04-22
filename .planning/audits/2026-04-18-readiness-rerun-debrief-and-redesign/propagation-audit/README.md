@@ -160,6 +160,7 @@ Status: active lane; widened inheritance batch
 - [44-transition-state-uplift-continuity-change-triggered-refresh.md](44-transition-state-uplift-continuity-change-triggered-refresh.md)
 - [45-milestone-boundary-uplift-shared-reference-change-triggered-refresh.md](45-milestone-boundary-uplift-shared-reference-change-triggered-refresh.md)
 - [46-health-uplift-deepen-in-place-change-triggered-refresh.md](46-health-uplift-deepen-in-place-change-triggered-refresh.md)
+- [47-health-uplift-deepen-in-place-harden-change-triggered-refresh.md](47-health-uplift-deepen-in-place-harden-change-triggered-refresh.md)
 - [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 - [artifacts/02-propagation-registry-v2-inventory-roster.json](artifacts/02-propagation-registry-v2-inventory-roster.json)
 - [artifacts/03-propagation-registry-v2-declared-contracts.json](artifacts/03-propagation-registry-v2-declared-contracts.json)

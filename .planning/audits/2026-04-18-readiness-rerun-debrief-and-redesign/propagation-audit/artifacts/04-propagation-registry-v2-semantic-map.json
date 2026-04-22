@@ -674,14 +674,16 @@
       "id": "health_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/health.md",
-      "role": "structural-health workflow with layered read-packet control, explicit missing-planning routing, a post-validation read-only uplift continuity reread that starts from the compact Project Uplift digest and only widens toward narrative and typed carriers when ambiguity remains, and a later write-side uplift route kept separate from repair",
+      "role": "structural-health workflow with layered read-packet control, explicit missing-planning routing, a post-validation read-only uplift continuity reread that starts from the compact Project Uplift digest, keeps trigger and silent-case semantics more explicit, widens toward narrative and typed carriers only when ambiguity remains, and keeps the later write-side uplift route separate from repair",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "health_migration_follow_through_impl_70",
         "health_migration_follow_through_tests",
         "health_uplift_deepen_impl_125",
-        "health_uplift_deepen_contract_tests"
+        "health_uplift_deepen_contract_tests",
+        "health_uplift_deepen_harden_impl_127",
+        "health_uplift_deepen_harden_contract_tests"
       ]
     },
     {
@@ -746,7 +748,9 @@
         "health_migration_follow_through_impl_70",
         "health_migration_follow_through_tests",
         "health_uplift_deepen_impl_125",
-        "health_uplift_deepen_contract_tests"
+        "health_uplift_deepen_contract_tests",
+        "health_uplift_deepen_harden_impl_127",
+        "health_uplift_deepen_harden_contract_tests"
       ]
     },
     {

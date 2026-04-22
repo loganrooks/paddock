@@ -285,11 +285,42 @@
   - estimated wall-clock duration: `8-12 minutes`
   - actual elapsed: `7 minutes 37.939 seconds`
   - calibration note: slightly shorter than estimate, but still within the same high-single-digit bounded reread band; future Opus rereads of similar size should still be budgeted materially longer than short polls
-- disposition:
+  - disposition:
   - `accept with local revision`
   - health remains the next adjacent carrier and should deepen in place
   - accepted now: tighter trigger discipline, five-part local reread grammar, explicit post-repair placement, positive three-way ownership split, extra holds against drift computation/footer widening/manifest mirroring
   - next move: bounded implementation slice plus contract test, propagation refresh `46`, and implementation note `125`
+
+## 2026-04-22 `entry-uplift-lane-15`
+
+- date: `2026-04-22`
+- purpose: bounded Opus reread of the landed `125` health deepen-in-place slice, to judge whether the repair-facing carrier should widen outward or harden further at the same route
+- frozen launch basis commit: `273700d`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth:
+  - [entry-uplift-audit/launch-truth/15-landed-health-uplift-deepen-in-place-first-slice-reread-launch-truth.md](entry-uplift-audit/launch-truth/15-landed-health-uplift-deepen-in-place-first-slice-reread-launch-truth.md)
+- output:
+  - [entry-uplift-audit/outputs/19-landed-health-uplift-deepen-in-place-first-slice-reread-opus47-max-r1.md](entry-uplift-audit/outputs/19-landed-health-uplift-deepen-in-place-first-slice-reread-opus47-max-r1.md)
+- inheritance:
+  - [entry-uplift-audit/dispositions/19-landed-health-uplift-deepen-in-place-first-slice-reread-inheritance.md](entry-uplift-audit/dispositions/19-landed-health-uplift-deepen-in-place-first-slice-reread-inheritance.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `377.013`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/landed-health-uplift-deepen-in-place-first-slice-reread-opus47-max-r1-20260422-041829.c5mpa9to.stream.jsonl`
+    - `/tmp/landed-health-uplift-deepen-in-place-first-slice-reread-opus47-max-r1-20260422-041829.fi06m3ut.stderr.log`
+    - `/tmp/landed-health-uplift-deepen-in-place-first-slice-reread-opus47-max-r1-20260422-041829.9gme2kzt.debug.log`
+- timing calibration:
+  - pre-launch durable estimate: not recorded
+  - retroactive comparison band: `8-12 minutes`
+  - actual elapsed: `6 minutes 17.013 seconds`
+  - calibration note: shorter than the retroactive comparison band; this behaved more like a compact same-carrier harden judgment than a wider family-split or topology lane
+- disposition:
+  - `accept with local harden follow-through`
+  - keep the landed `125` carrier pair
+  - do not widen into `from-gsd2`, `update`, verifier, entry surfaces, or `.claude` parity/translation from this reread
+  - next move: same-carrier harden follow-through in `126/127` plus compatibility-family refresh `47`
 - requested model / reasoning: `opus[1m]` / `max`
 - requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
 - frozen launch basis commit: `a733a1e`

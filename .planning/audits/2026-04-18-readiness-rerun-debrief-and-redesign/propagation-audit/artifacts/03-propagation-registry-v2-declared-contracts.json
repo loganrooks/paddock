@@ -166,7 +166,7 @@
         "state_continuity",
         "reference_behavior"
       ],
-      "claim_boundary": "declares how health now carries one explicit post-validation read-only uplift continuity step, how that step reads STATE.md Project Uplift first then widens to UPLIFT-REPORT.md and UPLIFT-MANIFEST.json only when ambiguity remains, and how the wrapper keeps structural-health authority separate from later write-side uplift refresh"
+      "claim_boundary": "declares how health now carries one explicit post-validation read-only uplift continuity step, how that step reads STATE.md Project Uplift first then widens to UPLIFT-REPORT.md and UPLIFT-MANIFEST.json only when ambiguity remains, how the compact trigger and silent case stay literal enough for focused contract coverage, how the footer remains a write-side route pointer rather than a second uplift workflow, and how the wrapper keeps structural-health authority separate from later write-side uplift refresh"
     },
     {
       "id": "update_follow_through_contract",
