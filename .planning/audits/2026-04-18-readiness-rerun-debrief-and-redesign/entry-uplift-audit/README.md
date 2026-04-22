@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread; lane-07 completed and locally inherited after cross-runtime first-exercise reread; lane-08 completed and locally inherited after concern-family split reread; lane-09 completed and locally inherited after compatibility-shape reread; lane-10 completed and locally inherited after post-annotation next-move reread; lane-11 completed and locally inherited after consumer-chain proposal reread
+Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread; lane-07 completed and locally inherited after cross-runtime first-exercise reread; lane-08 completed and locally inherited after concern-family split reread; lane-09 completed and locally inherited after compatibility-shape reread; lane-10 completed and locally inherited after post-annotation next-move reread; lane-11 completed and locally inherited after consumer-chain proposal reread; lane-12 completed and locally inherited after transition/state continuity reread
 
 # Entry Uplift Audit
 
@@ -190,6 +190,21 @@ For each lane, keep this tuple explicit:
 - local inheritance:
   - [dispositions/15-uplift-consumer-chain-asymmetry-proposal-reread-inheritance.md](dispositions/15-uplift-consumer-chain-asymmetry-proposal-reread-inheritance.md)
 
+## Lane 12
+
+- packet:
+  - [packets/18-transition-state-uplift-continuity-first-slice-proposal-reread-packet.md](packets/18-transition-state-uplift-continuity-first-slice-proposal-reread-packet.md)
+- spec:
+  - [specs/12-transition-state-uplift-continuity-first-slice-proposal-reread-spec.md](specs/12-transition-state-uplift-continuity-first-slice-proposal-reread-spec.md)
+- prompt:
+  - [prompts/12-transition-state-uplift-continuity-first-slice-proposal-reread-opus47-max-r1-launch-prompt.md](prompts/12-transition-state-uplift-continuity-first-slice-proposal-reread-opus47-max-r1-launch-prompt.md)
+- launch-truth:
+  - [launch-truth/12-transition-state-uplift-continuity-first-slice-proposal-reread-launch-truth.md](launch-truth/12-transition-state-uplift-continuity-first-slice-proposal-reread-launch-truth.md)
+- outputs:
+  - [outputs/16-transition-state-uplift-continuity-first-slice-proposal-reread-opus47-max-r1.md](outputs/16-transition-state-uplift-continuity-first-slice-proposal-reread-opus47-max-r1.md)
+- local inheritance:
+  - [dispositions/16-transition-state-uplift-continuity-first-slice-proposal-reread-inheritance.md](dispositions/16-transition-state-uplift-continuity-first-slice-proposal-reread-inheritance.md)
+
 ## Current Adjacent Move
 
 - [d:r:i] The uplift-assist family no longer points first toward a live route hook.
@@ -238,6 +253,12 @@ For each lane, keep this tuple explicit:
   - [dispositions/12-uplift-cross-runtime-concern-family-split-inheritance.md](dispositions/12-uplift-cross-runtime-concern-family-split-inheritance.md)
 - [d:r:i] The compatibility-family widening-shape proposal in:
   - [../intervention-proposals/114-uplift-cross-runtime-compatibility-widening-shape-proposal.md](../intervention-proposals/114-uplift-cross-runtime-compatibility-widening-shape-proposal.md)
+- [d:r:i] The first ≤2-carrier implementation proposal now also has its bounded reread and local inheritance:
+  - [../intervention-proposals/120-transition-state-uplift-continuity-first-slice-proposal.md](../intervention-proposals/120-transition-state-uplift-continuity-first-slice-proposal.md)
+  - [launch-truth/12-transition-state-uplift-continuity-first-slice-proposal-reread-launch-truth.md](launch-truth/12-transition-state-uplift-continuity-first-slice-proposal-reread-launch-truth.md)
+  - [outputs/16-transition-state-uplift-continuity-first-slice-proposal-reread-opus47-max-r1.md](outputs/16-transition-state-uplift-continuity-first-slice-proposal-reread-opus47-max-r1.md)
+  - [dispositions/16-transition-state-uplift-continuity-first-slice-proposal-reread-inheritance.md](dispositions/16-transition-state-uplift-continuity-first-slice-proposal-reread-inheritance.md)
+- [d:r:i] The next bounded move is now the implementation slice for the transition/state pair, not another proposal reread loop.
   is now no longer the active next object by itself; its first slice landed in `116`, and lane-10 has now inherited the adjacent field opened by that slice.
 - [d:r:i] The current adjacent move is now the per-carrier classification return in:
   - [../intervention-proposals/119-uplift-consumer-chain-asymmetry-classification-return.md](../intervention-proposals/119-uplift-consumer-chain-asymmetry-classification-return.md)

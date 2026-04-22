@@ -219,6 +219,25 @@
   - agent nickname: `Lovelace`
   - output artifact: [wave-2/outputs/06-rerun-design-gpt54-xhigh-r1.md](wave-2/outputs/06-rerun-design-gpt54-xhigh-r1.md)
 
+## 2026-04-22 `entry-uplift-lane-12`
+
+- date: `2026-04-22`
+- purpose: bounded Opus reread of the first ≤2-carrier transition/state continuity proposal after the consumer-chain classification return
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- frozen launch basis commit: `b04e29a`
+- prompt artifact: [.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/prompts/12-transition-state-uplift-continuity-first-slice-proposal-reread-opus47-max-r1-launch-prompt.md](.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/prompts/12-transition-state-uplift-continuity-first-slice-proposal-reread-opus47-max-r1-launch-prompt.md)
+- governing spec: [.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/specs/12-transition-state-uplift-continuity-first-slice-proposal-reread-spec.md](.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/specs/12-transition-state-uplift-continuity-first-slice-proposal-reread-spec.md)
+- governing packet: [.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/packets/18-transition-state-uplift-continuity-first-slice-proposal-reread-packet.md](.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/packets/18-transition-state-uplift-continuity-first-slice-proposal-reread-packet.md)
+- output artifact: [.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/outputs/16-transition-state-uplift-continuity-first-slice-proposal-reread-opus47-max-r1.md](.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/outputs/16-transition-state-uplift-continuity-first-slice-proposal-reread-opus47-max-r1.md)
+- probe summary:
+  - exit code: `0`
+  - session id: `cdc5bd7b-c84d-41e0-bd51-8c2d8bf07eb5`
+- disposition:
+  - `accept with local revision`
+  - transition/state continuity remains the first implementation pair
+  - next move is implementation plus a matching compatibility-family consumer-chain refresh
+
 ## 2026-04-21 `propagation-audit-lane-01`
 
 - date: `2026-04-21`

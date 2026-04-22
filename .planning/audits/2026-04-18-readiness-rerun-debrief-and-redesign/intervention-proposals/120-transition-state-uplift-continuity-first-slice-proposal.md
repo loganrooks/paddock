@@ -33,13 +33,24 @@ Status: active bounded proposal
 
 ## Proposed Slice
 
-- [d:r:i] Add a compact `Project Uplift` continuity block to the state template so later state regeneration does not rely on one-off local memory.
-- [d:r:i] Teach `transition.md` to preserve or refresh that compact uplift block as part of bounded state continuity, not as an ambient side effect.
+- [d:r:i] Add a compact top-level `## Project Uplift` continuity block to the state template so later state regeneration does not rely on one-off local memory.
+- [d:r:i] Keep that block adjacent to `Accumulated Context`, not nested inside it.
+- [d:r:i] Treat ownership explicitly:
+  - the template declares the section as a placeholder
+  - the helper fills it in place during `--write`
+- [d:r:i] Teach `transition.md` to handle the compact uplift block through one bounded continuity step, not as an ambient side effect and not by folding it into `load_future_preservation_carry` or `review_accumulated_context`.
+- [d:r:i] Split the continuity step into two explicit paths:
+  - preserve path:
+    - when observed runtime basis and held runtime annotation still match the block, keep the block in place
+  - refresh path:
+    - when runtime movement is detected inside the phase, rerun `$gsd-uplift-project --write` before transition closes so the block reflects current values
 - [d:r:i] Keep the slice read-only in character:
   - no new write-recommending compatibility dispatcher
   - no matrix or version-window claim
   - no route translation
   - no structural promotion of scalar summary fields into a broader compatibility table
+- [d:r:i] Keep the `gsd-tools.cjs phase complete` interaction explicit:
+  - its basic state edits must preserve the `Project Uplift` section across transition
 
 ## What The Slice Should Carry
 
@@ -49,7 +60,17 @@ Status: active bounded proposal
   - observed runtime basis
   - held runtime annotation
   - current recommendation
+- [d:r:i] The template placeholder should pin the minimum scalar field set:
+  - last uplift class
+  - compatibility posture
+  - observed runtime basis
+  - held runtime annotation
+  - current recommendation
 - [d:r:i] The block should remain small enough to sit beside `Future Carry Forward` rather than competing with it.
+- [d:r:i] `beside` means an adjacent top-level section, not a nested sub-block under `Accumulated Context`.
+- [d:r:i] The scalar-summary versus structural-manifest split must remain durable through this consumer surface:
+  - `STATE.md` carries the compact scalar digest
+  - `UPLIFT-MANIFEST.json` remains the typed structural carrier
 
 ## What This Slice Does Not Authorize
 
@@ -57,6 +78,8 @@ Status: active bounded proposal
 - [d:r:i] No structural-row promotion inside `STATE.md`.
 - [d:r:i] No standalone compatibility carrier.
 - [d:r:i] No `.claude` translation or parity claim.
+- [d:r:i] No third-runtime annotation surfacing through the state-continuity block.
+- [d:r:i] No widening of the state block into a shared-reference surface for milestone-boundary carriers.
 - [d:r:i] No extraction or npm/`npx` implementation work.
 
 ## Verification Gates
@@ -66,8 +89,13 @@ Status: active bounded proposal
 - [d:r:i] The slice must keep summary shape distinct from structural manifest shape.
 - [d:r:i] The slice must preserve `compatibility_posture: observed_basis_only`.
 - [d:r:i] The slice must keep family-6 and later extraction pressure outside the implementation boundary.
+- [d:r:i] The slice must keep the transition/state test frontier bounded to this pair of carriers rather than widening across the whole consumer field.
+- [d:r:i] The slice must extend the compatibility-family consumer-chain refresh on top of `43`, not backfill that movement into lifecycle-carry `21`.
 
 ## Current Consequence
 
 - [d:r:i] The cross-runtime family now has its first concrete ≤2-carrier implementation proposal candidate.
-- [d:r:i] If `120` is accepted, the next move should be a bounded reread of this proposal before implementation, not a jump straight into template/workflow edits.
+- [d:r:i] After the lane-12 reread and local inheritance, the next move is no longer another proposal loop.
+- [d:r:i] The next move is the bounded implementation slice itself on:
+  - `transition.md`
+  - `templates/state.md`

@@ -120,6 +120,10 @@ Status: active proposal/disposition batch
 114. `114-uplift-cross-runtime-compatibility-widening-shape-proposal.md`
 115. `115-harness-modifier-extraction-and-npx-distribution-route.md`
 116. `116-uplift-compatibility-annotation-first-slice-implementation.md`
+117. `117-uplift-cross-runtime-post-annotation-next-move-note.md`
+118. `118-uplift-consumer-chain-asymmetry-next-proposal.md`
+119. `119-uplift-consumer-chain-asymmetry-classification-return.md`
+120. `120-transition-state-uplift-continuity-first-slice-proposal.md`
 
 ## Proposal Rule
 
@@ -158,6 +162,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `117` now records the post-annotation field-map note that lane-10 has answered: the adjacent field was disclosed before the next proposal narrowed.
 - [d:r:i] `118` now turns lane-10 inheritance into the next bounded cross-runtime proposal: consumer-chain asymmetry travels first inside the compatibility family, the already-landed read-only four stay out of scope, family-6 wider route mapping stays parallelizable, and extraction/distribution remains later.
 - [d:r:i] `119` now records the missing intermediate object lane-11 cleared: a per-carrier classification return that labels the silent-carrier field before any ≤2-carrier implementation slice opens.
+- [d:r:i] `120` now records the first ≤2-carrier implementation candidate after lane-12 local revision: transition/state continuity first, bounded preserve-versus-refresh behavior, top-level state placement, helper/template co-ownership, CLI preservation pressure, and a matching consumer-chain refresh after landing.
 - [d:r:i] `43` now records the bounded compatibility follow-through inside that same uplift chain: the durable uplift outputs carry an observed-basis compatibility anchor without widening into a broader version-window claim.
 - [d:r:i] `44` now records the consumer-chain follow-through that keeps the compatibility anchor from remaining only as stored uplift memory.
 - [d:r:i] `45` now sequences the first harness-improvement follow-through tranche after the full-field Opus widening: canary/invariant assertion first, audit-program infrastructure second, standing self-improvement register third.
