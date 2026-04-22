@@ -5,7 +5,7 @@ Status: active launch-truth record
 
 ## Frozen Basis
 
-- [g:r:i] Frozen launch basis commit: `PENDING-LAUNCH-COMMIT`
+- [g:r:i] Frozen launch basis commit: `64310aa`
 - [e:c+i] Packet: [../packets/04-harness-modifier-helper-payload-authority-map-reread-packet.md](../packets/04-harness-modifier-helper-payload-authority-map-reread-packet.md)
 - [e:c+i] Spec: [../specs/04-harness-modifier-helper-payload-authority-map-reread-spec.md](../specs/04-harness-modifier-helper-payload-authority-map-reread-spec.md)
 - [e:c+i] Opus prompt: [../prompts/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1-launch-prompt.md](../prompts/04-harness-modifier-helper-payload-authority-map-reread-opus47-max-r1-launch-prompt.md)
