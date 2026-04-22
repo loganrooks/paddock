@@ -108,6 +108,7 @@ Status: active lane; widened inheritance batch
 - [32-uplift-seed-corpus-posture-change-triggered-refresh.md](32-uplift-seed-corpus-posture-change-triggered-refresh.md)
 - [33-seed-operator-consumer-widening-change-triggered-refresh.md](33-seed-operator-consumer-widening-change-triggered-refresh.md)
 - [34-seed-audit-gate-widening-change-triggered-refresh.md](34-seed-audit-gate-widening-change-triggered-refresh.md)
+- [35-legacy-seed-corpus-migration-detect-only-change-triggered-refresh.md](35-legacy-seed-corpus-migration-detect-only-change-triggered-refresh.md)
 - [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 - [artifacts/02-propagation-registry-v2-inventory-roster.json](artifacts/02-propagation-registry-v2-inventory-roster.json)
 - [artifacts/03-propagation-registry-v2-declared-contracts.json](artifacts/03-propagation-registry-v2-declared-contracts.json)
@@ -171,3 +172,4 @@ Status: active lane; widened inheritance batch
 - [d:r:i] A sixteenth non-uplift change-triggered refresh is now landing too: `32` records uplift-side seed corpus posture, and the typed `v2` layers now keep project_uplift, uplift-project, gsd-uplift-project, and durable uplift outputs aligned around seed compatibility instead of leaving that posture only at milestone-open.
 - [d:r:i] A seventeenth non-uplift change-triggered refresh is now landing too: `33` records operator-facing seed consumer widening, and the typed `v2` layers now keep the `project_uplift -> progress/resume-project` bridge explicit as a seed-visibility route instead of leaving ordinary re-entry on a generic uplift note alone.
 - [d:r:i] An eighteenth non-uplift change-triggered refresh is now landing too: `34` records audit-open seed widening, and the typed `v2` layers now keep the `plant-seed -> audit-open helper -> milestone-close` route explicit instead of leaving richer seed audit judgment ambient inside helper output alone.
+- [d:r:i] A nineteenth non-uplift change-triggered refresh is now landing too: `35` records the specialist detect-only legacy-seed migration slice, and the typed `v2` layers now keep the helper/workflow/wrapper plus uplift handoff explicit instead of leaving migration planning at posture counts and held-later prose alone.

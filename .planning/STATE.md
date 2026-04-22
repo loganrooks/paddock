@@ -80,7 +80,7 @@ Recent decisions affecting current work:
 
 ## Project Uplift
 
-Last uplift pass: 2026-04-22T00:39:41+00:00
+Last uplift pass: 2026-04-22T01:32:54+00:00
 Last uplift class: cross-runtime uplift
 Last uplift secondary signals: mid_phase
 Phase boundary signal: phase CONTEXT carries explicit rerun-boundary posture

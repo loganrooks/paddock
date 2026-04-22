@@ -1,6 +1,6 @@
 # Project Uplift Report
 
-- Generated: 2026-04-22T00:39:41+00:00
+- Generated: 2026-04-22T01:32:54+00:00
 - Mode: detect-only
 - Project class: cross-runtime uplift
 - Secondary signals: mid_phase
@@ -62,7 +62,7 @@
 | Verification Report Template | doctrine_sensitive | present | content_sha256 | d55c07b990f6c9d24fb41bf221a05a9b7025b2c96bf8163244012eebbb4e4980 | file carrier present |
 | Claim Types | additive_install | present | content_sha256 | 73a4261f9fb17860f95349aaf7e7bcf69d34d4a2644cf8cbc1c02a850fc5c64a | file carrier present |
 | Long Arc | additive_install | present | frontmatter_hash | 2c98d73ba277ca146ac6f83b6b589080ee3507e147af6bdb48b2103e0e9c3eb5 | file carrier present |
-| Tooling Inventory | additive_install | present | inventory_item_hash | 079b0bca2d69485ed744acbca763752b8f91d3c4914dfc869e8d62e7cf94a3b7 | file carrier present |
+| Tooling Inventory | additive_install | present | inventory_item_hash | e7c0722be8c48f4cfeb26920cff89c0fd4ee8343ec7830117bdc9f13f3b50283 | file carrier present |
 | Runtime Config | runtime_registry | present | normalized_toml_hash | 8cce9c25e0779b2c742275757cca9d9b96c38a6fca32fec31a01659217cb0cb5 | file carrier present |
 | Runtime Agent Contract: gsd-advisor-researcher | runtime_registry | present | normalized_toml_hash | ee1d11c2e983b4038b1fb4ae8aeca311fe661f9e3d359c25a282977c144f3fe5 | file carrier present |
 | Runtime Agent Contract: gsd-ai-researcher | runtime_registry | present | normalized_toml_hash | 5f3d1da031bdc6e3a79f6e7eb3918b76308747d2bba3a76314ddf47b027178e5 | file carrier present |
@@ -117,7 +117,7 @@
 - upstream-template drift machinery — held
 - aged-bespoke deep merge — held
 - audit-subtree aging carry — held
-- legacy seed corpus migration — held
+- legacy seed corpus migration — partially landed: tooling/portable-gsd/overlay/get-shit-done/workflows/seed-migration-inventory.md
 - routed-entry hooks beyond `progress` — partially landed: propagation-audit/04-resume-project-second-consumer-implementation.md
 - forensics / archived-milestone integration — held
 - workstream parent/child posture reconciliation — held

@@ -82,6 +82,7 @@ Status: active governing synthesis
 - [d:r:i] The propagation family now also carries a sixteenth non-uplift change-triggered refresh in `32`, so the typed `v2` registry now keeps uplift-side seed corpus posture explicit at the helper/workflow/wrapper/output cluster instead of leaving seed compatibility only at milestone-open or inside operator memory.
 - [d:r:i] The propagation family now also carries a seventeenth non-uplift change-triggered refresh in `33`, so the typed `v2` registry now keeps operator-facing seed posture visibility explicit at the `project_uplift -> progress/resume-project` bridge instead of leaving ordinary re-entry on a generic uplift note alone.
 - [d:r:i] The propagation family now also carries an eighteenth non-uplift change-triggered refresh in `34`, so the typed `v2` registry now keeps the `plant-seed -> audit-open helper -> milestone-close` route explicit instead of leaving richer seed audit judgment ambient inside helper output alone.
+- [d:r:i] The propagation family now also carries a nineteenth non-uplift change-triggered refresh in `35`, so the typed `v2` registry now keeps the specialist `seed_migration_inventory.py -> seed-migration-inventory workflow -> gsd-seed-migration-inventory wrapper` route explicit together with the uplift handoff instead of leaving legacy-seed migration at posture counts plus a held-later line.
 
 ## Immediate Decision Surfaces
 
@@ -121,7 +122,7 @@ Status: active governing synthesis
 - [o:r:i] Should the compatibility anchor remain embedded inside uplift memory, or later grow into a standalone compatibility carrier after more runtime-change slices have exercised it?
 - [o:r:i] Which parts of the submitted docs PR should remain stable governance/reference docs, and which should be paired with stronger intervention-oriented companions?
 - [o:r:i] If later family growth overloads the governance set again, what further routing surfaces would sharpen relevance without pushing the short synthesis back toward warehouse behavior?
-- [o:r:i] Which adjacent seed-family move should inherit next after the landed seed-audit gate slice: a later wider entry-wrapper retrofit, a later broader audit-open consumer family beyond milestone-close, or any later standalone legacy seed migration family?
+- [o:r:i] Which adjacent seed-family move should inherit next after the landed detect-only migration slice: a later wider entry-wrapper retrofit, a later broader audit-open consumer family beyond milestone-close, or a later rewrite/normalization family?
 - [o:r:i] Which adjacent setup/materialization follow-through should inherit after the first bounded harden slice: wider repeated-reinstall probes, updater/frontier movement, or a later standalone compatibility carrier?
 
 ## Read Next

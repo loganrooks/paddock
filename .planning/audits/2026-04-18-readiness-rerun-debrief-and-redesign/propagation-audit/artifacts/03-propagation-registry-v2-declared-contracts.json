@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "a5d7160",
+  "basis_commit": "9aba1fb",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -214,6 +214,18 @@
         "workflow_output"
       ],
       "claim_boundary": "declares how audit-open keeps canonical seed id, contract vintage, Why This Matters, and Strengthening Carry visible in JSON and human report output, and how milestone-close keeps those richer seed lines visible during acknowledgment or deferment judgment instead of flattening them back to bare seed ids"
+    },
+    {
+      "id": "seed_migration_inventory_contract",
+      "path": "tooling/codex/seed_migration_inventory.py",
+      "validator": "tooling/codex/tests/test_seed_migration_inventory.py",
+      "contract_kind": "detect-only seed migration inventory semantics with explicit uplift handoff and rewrite separation",
+      "families_touched": [
+        "helper",
+        "workflow_output",
+        "wrapper"
+      ],
+      "claim_boundary": "declares how seed_migration_inventory inventories per-seed vintage and contract-shape gaps, can write a durable seed-migration report plus manifest, and stays detect-only while uplift routes legacy or noncurrent seed posture into that specialist packet instead of treating counts/examples as the whole migration story"
     }
   ]
 }

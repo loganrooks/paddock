@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-04-22T00:39:41+00:00",
+  "generated_at": "2026-04-22T01:32:54+00:00",
   "mode": "detect-only",
   "last_uplift_class": "cross-runtime uplift",
   "last_uplift_secondary_signals": [
@@ -13,8 +13,8 @@
     "mid_phase_signal": true,
     "note": "phase CONTEXT carries explicit rerun-boundary posture"
   },
-  "doctrine_reference_hash": "d5079d2a24a0e0af8aa127626ccf5d4ba4a4f558ee76b1b1226a4392ba89ac78",
-  "project_fingerprint_hash": "9a272edc76786fffbfe8e21c59b0c056e7c7f6129406f243be5841f07d66cd19",
+  "doctrine_reference_hash": "ba0b349e5ccb4a49cc03aac5b83af9e5a6b42ff7626f7f1514cfcf4c41980574",
+  "project_fingerprint_hash": "01767a909e07fb52047cf23b0c1db5cd14f559e647f7b3e66ee5b2c744fbb013",
   "current_status": "planning",
   "runtime_dirs": [
     ".codex",
@@ -52,8 +52,8 @@
     },
     {
       "family": "legacy seed corpus migration",
-      "status": "held",
-      "pointer": null
+      "status": "partially landed",
+      "pointer": "tooling/portable-gsd/overlay/get-shit-done/workflows/seed-migration-inventory.md"
     },
     {
       "family": "routed-entry hooks beyond `progress`",
@@ -205,7 +205,7 @@
       "present": true,
       "status": "present",
       "fingerprint_shape": "inventory_item_hash",
-      "fingerprint": "079b0bca2d69485ed744acbca763752b8f91d3c4914dfc869e8d62e7cf94a3b7",
+      "fingerprint": "e7c0722be8c48f4cfeb26920cff89c0fd4ee8343ec7830117bdc9f13f3b50283",
       "note": "file carrier present"
     },
     {
