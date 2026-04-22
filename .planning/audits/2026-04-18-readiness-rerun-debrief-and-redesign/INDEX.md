@@ -136,6 +136,8 @@
   - [entry-uplift-audit/dispositions/14-uplift-cross-runtime-post-annotation-next-move-inheritance.md](entry-uplift-audit/dispositions/14-uplift-cross-runtime-post-annotation-next-move-inheritance.md)
   - [entry-uplift-audit/dispositions/15-uplift-consumer-chain-asymmetry-proposal-reread-inheritance.md](entry-uplift-audit/dispositions/15-uplift-consumer-chain-asymmetry-proposal-reread-inheritance.md)
   - [entry-uplift-audit/dispositions/16-transition-state-uplift-continuity-first-slice-proposal-reread-inheritance.md](entry-uplift-audit/dispositions/16-transition-state-uplift-continuity-first-slice-proposal-reread-inheritance.md)
+  - [entry-uplift-audit/launch-truth/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-launch-truth.md](entry-uplift-audit/launch-truth/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-launch-truth.md)
+  - [entry-uplift-audit/dispositions/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-inheritance.md](entry-uplift-audit/dispositions/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-inheritance.md)
   - [propagation-audit/README.md](propagation-audit/README.md)
   - [propagation-audit/01-contract-propagation-and-dependency-carry-opening-note.md](propagation-audit/01-contract-propagation-and-dependency-carry-opening-note.md)
   - [propagation-audit/02-project-uplift-producer-consumer-and-impact-map.md](propagation-audit/02-project-uplift-producer-consumer-and-impact-map.md)

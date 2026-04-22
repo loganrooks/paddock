@@ -125,6 +125,7 @@ Status: active proposal/disposition batch
 119. `119-uplift-consumer-chain-asymmetry-classification-return.md`
 120. `120-transition-state-uplift-continuity-first-slice-proposal.md`
 121. `121-transition-state-uplift-continuity-first-slice-implementation.md`
+122. `122-milestone-boundary-uplift-shared-reference-first-slice-proposal.md`
 
 ## Proposal Rule
 
@@ -165,7 +166,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `119` now records the missing intermediate object lane-11 cleared: a per-carrier classification return that labels the silent-carrier field before any ≤2-carrier implementation slice opens.
 - [d:r:i] `120` now records the first ≤2-carrier implementation candidate after lane-12 local revision: transition/state continuity first, bounded preserve-versus-refresh behavior, top-level state placement, helper/template co-ownership, CLI preservation pressure, and a matching consumer-chain refresh after landing.
 - [d:r:i] `121` now records the landed transition/state continuity slice itself: top-level state slot, helper fill-in-place behavior, bounded transition preserve-versus-refresh step, direct `phase complete` preservation proof, rematerialized live runtime carry, and the now-open next `119` priority choice after the matching refresh.
-- [d:r:i] `122` now turns that next `119` priority choice into one explicit bounded object: milestone-boundary uplift continuity should travel next through a shared read-only reference attached to both milestone workflows, while `health.md` remains the adjacent held single-carrier route.
+- [d:r:i] `122` now carries the reread-cleared second `119` route in revised form: milestone-boundary uplift continuity should travel next through one dedicated shared read-only reference attached to both milestone workflows, materialized through overlay ownership, with per-boundary surfacing triggers, explicit read-only voice, explicit relation to `60` and `121`, and the matching compatibility-family refresh plus governance-trace note queued as the follow-through after implementation.
 - [d:r:i] `43` now records the bounded compatibility follow-through inside that same uplift chain: the durable uplift outputs carry an observed-basis compatibility anchor without widening into a broader version-window claim.
 - [d:r:i] `44` now records the consumer-chain follow-through that keeps the compatibility anchor from remaining only as stored uplift memory.
 - [d:r:i] `45` now sequences the first harness-improvement follow-through tranche after the full-field Opus widening: canary/invariant assertion first, audit-program infrastructure second, standing self-improvement register third.

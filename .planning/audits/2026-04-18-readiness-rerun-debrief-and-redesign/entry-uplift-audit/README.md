@@ -205,6 +205,21 @@ For each lane, keep this tuple explicit:
 - local inheritance:
   - [dispositions/16-transition-state-uplift-continuity-first-slice-proposal-reread-inheritance.md](dispositions/16-transition-state-uplift-continuity-first-slice-proposal-reread-inheritance.md)
 
+## Lane 13
+
+- packet:
+  - [packets/19-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-packet.md](packets/19-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-packet.md)
+- spec:
+  - [specs/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-spec.md](specs/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-spec.md)
+- prompt:
+  - [prompts/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-opus47-max-r1-launch-prompt.md](prompts/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-opus47-max-r1-launch-prompt.md)
+- launch-truth:
+  - [launch-truth/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-launch-truth.md](launch-truth/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-launch-truth.md)
+- outputs:
+  - [outputs/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-opus47-max-r1.md](outputs/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-opus47-max-r1.md)
+- local inheritance:
+  - [dispositions/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-inheritance.md](dispositions/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-inheritance.md)
+
 ## Current Adjacent Move
 
 - [d:r:i] The uplift-assist family no longer points first toward a live route hook.
@@ -261,9 +276,14 @@ For each lane, keep this tuple explicit:
 - [d:r:i] That first ≤2-carrier implementation slice is now landed too:
   - [../intervention-proposals/121-transition-state-uplift-continuity-first-slice-implementation.md](../intervention-proposals/121-transition-state-uplift-continuity-first-slice-implementation.md)
 - [d:r:i] The next adjacent move is no longer the transition/state pair itself.
-- [d:r:i] The next adjacent move is now explicit in:
-  - [../intervention-proposals/122-milestone-boundary-uplift-shared-reference-first-slice-proposal.md](../intervention-proposals/122-milestone-boundary-uplift-shared-reference-first-slice-proposal.md)
-- [d:r:i] The active next route is milestone-boundary uplift continuity through one shared read-only reference.
+- [d:r:i] The milestone-boundary reread is now also completed and locally inherited:
+  - [launch-truth/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-launch-truth.md](launch-truth/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-launch-truth.md)
+  - [outputs/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-opus47-max-r1.md](outputs/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-opus47-max-r1.md)
+  - [dispositions/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-inheritance.md](dispositions/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-inheritance.md)
+- [d:r:i] The next adjacent move is no longer another reread on `122`.
+- [d:r:i] The active next route is now:
+  - implement the revised shared-reference slice from [../intervention-proposals/122-milestone-boundary-uplift-shared-reference-first-slice-proposal.md](../intervention-proposals/122-milestone-boundary-uplift-shared-reference-first-slice-proposal.md)
+  - then land the matching compatibility-family refresh plus governance-trace note
 - [d:r:i] The adjacent held single-carrier alternative remains:
   - `health.md` deepen-in-place follow-through
 - [d:r:i] Family-6 wider route mapping and later extraction/distribution still remain outside that next bounded choice.
