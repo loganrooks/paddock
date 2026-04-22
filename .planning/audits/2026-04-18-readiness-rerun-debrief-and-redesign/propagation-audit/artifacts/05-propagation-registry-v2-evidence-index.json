@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "b66c00a",
+  "basis_commit": "25aee9f",
   "evidence_entries": [
     {
       "id": "overlay_contract_validation",
@@ -313,6 +313,24 @@
       "evidence_lane": "change_triggered_refresh",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/38-seed-migration-pointer-bridge-harden-change-triggered-refresh.md",
       "note": "typed v2 refresh that keeps breakdown disclosure, inspect/write split, fixture-backed packet shape, and stronger consumer gating proof explicit at the project_uplift -> progress/resume -> specialist-packet bridge"
+    },
+    {
+      "id": "propagation_review_route_impl_98",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/98-propagation-review-route-first-slice-implementation.md",
+      "note": "landed operator-facing propagation review route covering the new workflow and wrapper, baseline/delta-first packet discipline, partial-tool sovereignty limits, and explicit verification expectations for later multi-family slices"
+    },
+    {
+      "id": "propagation_review_route_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_propagation_review_route_contract.py",
+      "note": "focused contract coverage for overlay ownership of the propagation-review workflow and wrapper, baseline/delta packet presence, bounded runtime/install gate tooling references, and read-only plus specialist-handoff wrapper language"
+    },
+    {
+      "id": "propagation_review_route_refresh_39",
+      "evidence_lane": "change_triggered_refresh",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/39-propagation-review-route-change-triggered-refresh.md",
+      "note": "typed v2 refresh that keeps the new baseline/delta-guided propagation-review route explicit instead of leaving later multi-family reread on chat memory or local diff intuition"
     }
   ]
 }

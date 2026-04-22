@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "b66c00a",
+  "basis_commit": "25aee9f",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -226,6 +226,20 @@
         "wrapper"
       ],
       "claim_boundary": "declares how seed_migration_inventory inventories per-seed vintage and contract-shape gaps, distinguishes no_corpus from current_only from surfaced, writes post-write durable packet state, reuses the current plant-seed contract shape rather than a helper-local mirror, and stays detect-only while uplift routes legacy, noncurrent, or current-version shape-gap posture into that specialist packet instead of treating counts/examples as the whole migration story"
+    },
+    {
+      "id": "propagation_review_route_contract",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md",
+      "validator": "tooling/codex/tests/test_propagation_review_route_contract.py",
+      "contract_kind": "operator-facing propagation review semantics for concrete multi-family contract movement across baseline, delta, typed carrier layers, and bounded runtime/install gate tooling",
+      "families_touched": [
+        "install_overlay",
+        "workflow_output",
+        "wrapper",
+        "governance_lane",
+        "helper"
+      ],
+      "claim_boundary": "declares how later contract-changing slices reread the upstream-pristine baseline plus repo-local delta pair before widening into the typed propagation family, how local tooling remains partial visibility instead of whole-network proof, and how explicit held boundaries stay visible when adjacent carriers do not move in the same slice"
     }
   ]
 }

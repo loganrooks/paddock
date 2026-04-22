@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "b66c00a",
+  "basis_commit": "25aee9f",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -549,6 +549,22 @@
       ]
     },
     {
+      "id": "propagation_baseline_95",
+      "family": "governance_lane",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/95-upstream-pristine-propagation-baseline-first-slice.md",
+      "role": "operator-facing upstream-pristine baseline packet for later propagation review",
+      "support_mode": "semantic_only_local",
+      "evidence_refs": []
+    },
+    {
+      "id": "propagation_delta_96",
+      "family": "governance_lane",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/96-repo-local-propagation-delta-first-slice.md",
+      "role": "operator-facing repo-local delta packet for later propagation review",
+      "support_mode": "semantic_only_local",
+      "evidence_refs": []
+    },
+    {
       "id": "gsd_sdk_runtime_helper",
       "family": "helper",
       "path": "tooling/codex/ensure_gsd_sdk_runtime.py",
@@ -807,6 +823,32 @@
         "seed_migration_reread_output_04",
         "seed_migration_harden_impl_88",
         "seed_migration_harden_refresh_36"
+      ]
+    },
+    {
+      "id": "propagation_review_workflow",
+      "family": "workflow_output",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md",
+      "role": "operator-facing propagation review workflow that reads the upstream-pristine baseline plus repo-local delta pair first, widens through the typed propagation family second, and keeps tooling partial while explicit hold/update disposition remains sovereign",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "propagation_review_route_impl_98",
+        "propagation_review_route_tests",
+        "propagation_review_route_refresh_39"
+      ]
+    },
+    {
+      "id": "propagation_review_skill_wrapper",
+      "family": "wrapper",
+      "path": "tooling/portable-gsd/overlay/skills/gsd-propagation-review/SKILL.md",
+      "role": "invocation-binding wrapper that keeps the propagation review route read-only by default, preserves contextual reread sovereignty over helper output, and hands off specialist uplift or seed-migration routes separately when the review surfaces them",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "propagation_review_route_impl_98",
+        "propagation_review_route_tests",
+        "propagation_review_route_refresh_39"
       ]
     }
   ],
@@ -1900,6 +1942,80 @@
         "seed_operator_consumer_contract_tests",
         "project_uplift_contract_tests",
         "seed_migration_bridge_harden_impl_92"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "propagation_baseline_to_review_workflow",
+      "from": "propagation_baseline_95",
+      "to": "propagation_review_workflow",
+      "kind": "baseline_packet_guides_later_multi_family_review",
+      "support_mode": "semantic_plus_change_triggered_refresh",
+      "evidence_refs": [
+        "propagation_review_route_impl_98",
+        "propagation_review_route_refresh_39"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "propagation_delta_to_review_workflow",
+      "from": "propagation_delta_96",
+      "to": "propagation_review_workflow",
+      "kind": "delta_packet_guides_later_multi_family_review",
+      "support_mode": "semantic_plus_change_triggered_refresh",
+      "evidence_refs": [
+        "propagation_review_route_impl_98",
+        "propagation_review_route_refresh_39"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "mandatory_initial_read_to_propagation_review_workflow",
+      "from": "mandatory_initial_read",
+      "to": "propagation_review_workflow",
+      "kind": "shared_required_reading_bootstraps_review_route_before_baseline_and_delta_widening",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "propagation_review_route_impl_98",
+        "propagation_review_route_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_propagation_review_workflow",
+      "from": "overlay_manifest",
+      "to": "propagation_review_workflow",
+      "kind": "overlay_owns_workflow_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "propagation_review_route_impl_98",
+        "propagation_review_route_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_propagation_review_skill_wrapper",
+      "from": "overlay_manifest",
+      "to": "propagation_review_skill_wrapper",
+      "kind": "overlay_owns_wrapper_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "propagation_review_route_impl_98",
+        "propagation_review_route_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "propagation_review_skill_wrapper_to_workflow",
+      "from": "propagation_review_skill_wrapper",
+      "to": "propagation_review_workflow",
+      "kind": "wrapper_binds_skill_to_workflow",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "propagation_review_route_impl_98",
+        "propagation_review_route_tests"
       ],
       "status": "mapped"
     }

@@ -104,6 +104,8 @@ Status: active proposal/disposition batch
 94. `94-propagation-baseline-delta-split-first-follow-through-proposal.md`
 95. `95-upstream-pristine-propagation-baseline-first-slice.md`
 96. `96-repo-local-propagation-delta-first-slice.md`
+97. `97-propagation-review-route-first-slice-proposal.md`
+98. `98-propagation-review-route-first-slice-implementation.md`
 
 ## Proposal Rule
 
@@ -125,6 +127,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `93` now keeps two adjacent later-family routes explicit: bounded agent-assist for uplift, and a cleaner upstream-baseline versus repo-local-delta split for the propagation family.
 - [d:r:i] `94` now turns that adjacent family into one concrete next route: baseline/delta split first, uplift agent-assist second.
 - [d:r:i] `95` and `96` now land the first baseline/delta pair itself: upstream-pristine propagation baseline first, repo-local propagation delta beside it.
+- [d:r:i] `97` and `98` now land one operator-facing review route on top of that pair: `$gsd-propagation-review` reads the baseline/delta packet, widens through the typed registry only as needed, and keeps contextual reread sovereign over helper output.
 - [d:r:i] `43` now records the bounded compatibility follow-through inside that same uplift chain: the durable uplift outputs carry an observed-basis compatibility anchor without widening into a broader version-window claim.
 - [d:r:i] `44` now records the consumer-chain follow-through that keeps the compatibility anchor from remaining only as stored uplift memory.
 - [d:r:i] `45` now sequences the first harness-improvement follow-through tranche after the full-field Opus widening: canary/invariant assertion first, audit-program infrastructure second, standing self-improvement register third.

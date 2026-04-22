@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "9aba1fb",
+  "basis_commit": "25aee9f",
   "scope": "typed first refresh of the propagation registry family",
   "roster_sources": [
     {

@@ -16,6 +16,11 @@ Status: active lane; widened inheritance batch
   - [intervention-proposals/42-project-uplift-signal-layer-harden-slice.md](../intervention-proposals/42-project-uplift-signal-layer-harden-slice.md)
   - the older Checkpoint-3 workflow/artifact-contract lineage
   - the companion harness docs layer
+- [d:r:i] The current operator-facing route for concrete multi-family slices is now:
+  - [../intervention-proposals/95-upstream-pristine-propagation-baseline-first-slice.md](../intervention-proposals/95-upstream-pristine-propagation-baseline-first-slice.md)
+  - [../intervention-proposals/96-repo-local-propagation-delta-first-slice.md](../intervention-proposals/96-repo-local-propagation-delta-first-slice.md)
+  - [39-propagation-review-route-change-triggered-refresh.md](39-propagation-review-route-change-triggered-refresh.md)
+  - `$gsd-propagation-review`
 
 ## Opening Sequence
 
@@ -219,6 +224,7 @@ Status: active lane; widened inheritance batch
 - [d:r:i] A twenty-first non-uplift change-triggered refresh is now landed too: `37` records the narrower operator-facing pointer bridge, and the typed `v2` layers now keep specialist packet candidate counts plus bounded packet disclosure explicit at the `project_uplift -> progress/resume-project` bridge instead of leaving that bridge at seed posture visibility alone.
 - [d:r:i] Lane `05` is now completed and locally inherited too: the bounded Opus reread over the landed bridge has now been absorbed into a narrower bridge-hardening slice rather than into a new wrapper family.
 - [d:r:i] A twenty-second non-uplift change-triggered refresh is now landed too: `38` records the bridge-hardening follow-through, and the typed `v2` layers now keep candidate breakdown, inspect/write split, fixture-backed packet shape, and stronger consumer gating proof explicit at the same bridge instead of leaving those sharpenings ambient.
+- [d:r:i] A twenty-third non-uplift change-triggered refresh is now landed too: `39` records the new propagation-review workflow and wrapper, and the typed `v2` layers now keep the baseline/delta-guided operator route explicit instead of leaving later multi-family review on chat memory or local diff intuition alone.
 - [d:r:i] The next adjacent seed-family route is now a bounded reread of the hardened operator-facing bridge before later entry-wrapper widening, broader audit-open consumer widening, or rewrite/normalization family work inherits next.
 - [d:r:i] That bounded reread is now completed and inherited through lane `06` on the clean post-hardening basis.
 - [d:r:i] The next adjacent route now shifts toward the `93` family rather than another default seed-family harden pass without live corpus.

@@ -64,6 +64,7 @@ $gsd-new-project --auto @discovery/14-gsd-seed.md
   - `python3 tooling/codex/harness_canary.py`
   - `python3 tooling/codex/project_uplift.py`
   - `python3 tooling/codex/portable_gsd_contract.py`
+- When the change crosses several producer/consumer families and you want the operator-facing review route rather than another ad hoc reread, use `$gsd-propagation-review`.
 - For the current worked example of this repo-local doctrine in action, start with:
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/`
 - When one slice crosses several propagation families at once, prefer a clean-boundary runtime snapshot plus `python3 tooling/codex/manifest_install_coherence.py . --snapshot <snapshot.json> --strict` as a bounded coherence gate rather than trusting the local diff alone.

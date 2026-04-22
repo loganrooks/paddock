@@ -212,6 +212,7 @@ Status: active inventory
 - `propagation-audit/36-seed-migration-detect-only-harden-change-triggered-refresh.md`
 - `propagation-audit/37-seed-migration-operator-facing-pointer-change-triggered-refresh.md`
 - `propagation-audit/38-seed-migration-pointer-bridge-harden-change-triggered-refresh.md`
+- `propagation-audit/39-propagation-review-route-change-triggered-refresh.md`
 - `propagation-audit/packets/06-seed-migration-pointer-bridge-harden-reread-packet.md`
 - `propagation-audit/specs/06-seed-migration-pointer-bridge-harden-reread-spec.md`
 - `propagation-audit/prompts/06-seed-migration-pointer-bridge-harden-reread-opus47-max-r1-launch-prompt.md`
@@ -240,6 +241,10 @@ Status: active inventory
 - `propagation-audit/artifacts/05-propagation-registry-v2-evidence-index.json`
 - `propagation-audit/artifacts/06-propagation-registry-v2-coverage-and-refresh.json`
 - `propagation-audit/artifacts/07-seed-migration-manifest-shape-fixture.json`
+- `intervention-proposals/95-upstream-pristine-propagation-baseline-first-slice.md`
+- `intervention-proposals/96-repo-local-propagation-delta-first-slice.md`
+- `intervention-proposals/97-propagation-review-route-first-slice-proposal.md`
+- `intervention-proposals/98-propagation-review-route-first-slice-implementation.md`
 
 ## Challenge And Output Subtrees
 
