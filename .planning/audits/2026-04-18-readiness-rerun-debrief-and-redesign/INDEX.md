@@ -132,6 +132,7 @@
   - [intervention-proposals/121-transition-state-uplift-continuity-first-slice-implementation.md](intervention-proposals/121-transition-state-uplift-continuity-first-slice-implementation.md)
   - [intervention-proposals/122-milestone-boundary-uplift-shared-reference-first-slice-proposal.md](intervention-proposals/122-milestone-boundary-uplift-shared-reference-first-slice-proposal.md)
   - [intervention-proposals/123-milestone-boundary-uplift-shared-reference-first-slice-implementation.md](intervention-proposals/123-milestone-boundary-uplift-shared-reference-first-slice-implementation.md)
+  - [intervention-proposals/124-health-uplift-deepen-in-place-first-slice-proposal.md](intervention-proposals/124-health-uplift-deepen-in-place-first-slice-proposal.md)
   - [propagation-audit/44-transition-state-uplift-continuity-change-triggered-refresh.md](propagation-audit/44-transition-state-uplift-continuity-change-triggered-refresh.md)
   - [propagation-audit/45-milestone-boundary-uplift-shared-reference-change-triggered-refresh.md](propagation-audit/45-milestone-boundary-uplift-shared-reference-change-triggered-refresh.md)
   - [entry-uplift-audit/dispositions/04-landed-project-uplift-first-slice-reread-inheritance.md](entry-uplift-audit/dispositions/04-landed-project-uplift-first-slice-reread-inheritance.md)
