@@ -143,6 +143,8 @@ Status: active proposal/disposition batch
 137. `137-harness-extraction-field-map.md`
 138. `138-harness-modifier-in-place-rehome-step-1-proposal.md`
 139. `139-harness-modifier-in-place-rehome-step-1-implementation.md`
+140. `140-harness-modifier-compatibility-declaration-carrier-proposal.md`
+141. `141-harness-modifier-compatibility-declaration-carrier-implementation.md`
 
 ## Proposal Rule
 
@@ -204,6 +206,8 @@ Status: active proposal/disposition batch
 - [d:r:i] `137` now records the local extraction field map itself: generic harness carriers, host-project-specific carriers, shared boundaries, compatibility declaration shape, installer/materialization ownership, and migration sequence are disclosed before any standalone-project move.
 - [d:r:i] `138` now records the bounded in-repo next step cleared by the extraction audit: rehome generic helper carriers first, keep shared-boundary helpers explicit, and hold repo/package distribution later.
 - [d:r:i] `139` now records the landed first rehome slice itself: the authoritative helper home is now `harness_modifier/`, the first contract/capture carriers moved there, old `tooling/codex/*.py` paths remain only as thin compatibility shims, and the matching propagation refresh now lands in `51`.
+- [d:r:i] `140` now records the next extraction step cleared after that rehome: promote compatibility posture, held-runtime annotation semantics, parity baseline, and window posture into one typed carrier under `harness_modifier/compatibility/`.
+- [d:r:i] `141` now records the landed compatibility declaration slice itself: uplift and materialization helpers now read the same portable declaration, durable uplift memory now surfaces it, and the matching propagation refresh now lands in `52`.
 - [d:r:i] `43` now records the bounded compatibility follow-through inside that same uplift chain: the durable uplift outputs carry an observed-basis compatibility anchor without widening into a broader version-window claim.
 - [d:r:i] `44` now records the consumer-chain follow-through that keeps the compatibility anchor from remaining only as stored uplift memory.
 - [d:r:i] `45` now sequences the first harness-improvement follow-through tranche after the full-field Opus widening: canary/invariant assertion first, audit-program infrastructure second, standing self-improvement register third.

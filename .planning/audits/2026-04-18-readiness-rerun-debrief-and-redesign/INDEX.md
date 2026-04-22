@@ -272,6 +272,8 @@
   - [intervention-proposals/115-harness-modifier-extraction-and-npx-distribution-route.md](intervention-proposals/115-harness-modifier-extraction-and-npx-distribution-route.md)
   - [intervention-proposals/136-harness-extraction-escalation-and-scope-boundary-note.md](intervention-proposals/136-harness-extraction-escalation-and-scope-boundary-note.md)
   - [intervention-proposals/137-harness-extraction-field-map.md](intervention-proposals/137-harness-extraction-field-map.md)
+  - [intervention-proposals/140-harness-modifier-compatibility-declaration-carrier-proposal.md](intervention-proposals/140-harness-modifier-compatibility-declaration-carrier-proposal.md)
+  - [intervention-proposals/141-harness-modifier-compatibility-declaration-carrier-implementation.md](intervention-proposals/141-harness-modifier-compatibility-declaration-carrier-implementation.md)
   - [entry-uplift-audit/packets/15-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-packet.md](entry-uplift-audit/packets/15-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-packet.md)
   - [entry-uplift-audit/specs/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-spec.md](entry-uplift-audit/specs/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-spec.md)
   - [entry-uplift-audit/prompts/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1-launch-prompt.md](entry-uplift-audit/prompts/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1-launch-prompt.md)
@@ -348,6 +350,9 @@
   - [intervention-proposals/138-harness-modifier-in-place-rehome-step-1-proposal.md](intervention-proposals/138-harness-modifier-in-place-rehome-step-1-proposal.md)
   - [intervention-proposals/139-harness-modifier-in-place-rehome-step-1-implementation.md](intervention-proposals/139-harness-modifier-in-place-rehome-step-1-implementation.md)
   - [propagation-audit/51-harness-modifier-in-place-rehome-step-1-change-triggered-refresh.md](propagation-audit/51-harness-modifier-in-place-rehome-step-1-change-triggered-refresh.md)
+  - [intervention-proposals/140-harness-modifier-compatibility-declaration-carrier-proposal.md](intervention-proposals/140-harness-modifier-compatibility-declaration-carrier-proposal.md)
+  - [intervention-proposals/141-harness-modifier-compatibility-declaration-carrier-implementation.md](intervention-proposals/141-harness-modifier-compatibility-declaration-carrier-implementation.md)
+  - [propagation-audit/52-harness-modifier-compatibility-declaration-carrier-change-triggered-refresh.md](propagation-audit/52-harness-modifier-compatibility-declaration-carrier-change-triggered-refresh.md)
 
 ## Current Session Rule
 

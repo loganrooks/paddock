@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "3f745a1",
+  "basis_commit": "16cfb8a",
   "inherited_dispositions": [
     "propagation-audit/dispositions/01-propagation-chain-reread-inheritance.md",
     "propagation-audit/dispositions/02-broader-network-propagation-field-mapping-inheritance.md",
@@ -37,7 +37,9 @@
     "propagation-audit/47-health-uplift-deepen-in-place-harden-change-triggered-refresh.md",
     "propagation-audit/48-entry-runtime-continuity-shared-reference-change-triggered-refresh.md",
     "propagation-audit/49-update-entry-runtime-continuity-follow-through-change-triggered-refresh.md",
-    "propagation-audit/50-codex-claude-parity-classification-carrier-change-triggered-refresh.md"
+    "propagation-audit/50-codex-claude-parity-classification-carrier-change-triggered-refresh.md",
+    "propagation-audit/51-harness-modifier-in-place-rehome-step-1-change-triggered-refresh.md",
+    "propagation-audit/52-harness-modifier-compatibility-declaration-carrier-change-triggered-refresh.md"
   ],
   "coverage_gate": [
     {
@@ -50,13 +52,13 @@
       "family": "helper",
       "coverage_status": "mapped",
       "roster_source": "local_tooling_inventory",
-      "notes": "helper cohort is still sampled rather than exhaustive; current slice now covers the named high-consequence helpers plus the threshold scanner helper, the gsd-sdk runtime helper, uplift-side seed corpus posture at project_uplift, operator-facing seed posture note emission through project_uplift, and the specialist seed-migration inventory helper with route-state disambiguation, post-write durable packet state, and producer-follow-through to plant-seed"
+      "notes": "helper cohort is still sampled rather than exhaustive; current slice now covers the named high-consequence helpers plus the threshold scanner helper, the gsd-sdk runtime helper, uplift-side seed corpus posture at project_uplift, operator-facing seed posture note emission through project_uplift, and the specialist seed-migration inventory helper with route-state disambiguation, post-write durable packet state, and producer-follow-through to plant-seed, plus the host-boundary project_uplift consumer now reading a portable compatibility declaration instead of re-declaring that posture locally"
     },
     {
       "family": "install_overlay",
       "coverage_status": "mapped",
       "roster_source": "overlay_manifest_roster",
-      "notes": "typed through the overlay contract frontier, with fresh-install pristine capture now preserving overwrite-mode baseline truth before overlay application and the portable materialization contract now carrying bounded parity-reference disclosure for runtime-specific .claude hits inside live .codex materialization"
+      "notes": "typed through the overlay contract frontier, with fresh-install pristine capture now preserving overwrite-mode baseline truth before overlay application and the portable materialization contract now carrying bounded parity-reference disclosure for runtime-specific .claude hits inside live .codex materialization; the portable materialization contract now also echoes the typed compatibility declaration and checks overlay-schema alignment against it"
     },
     {
       "family": "install_pristine",
@@ -68,7 +70,7 @@
       "family": "registry",
       "coverage_status": "mapped",
       "roster_source": "upstream_inventory",
-      "notes": "current slice now keeps both general runtime registry carriers and the verifier agent overlay contract explicit"
+      "notes": "current slice now keeps both general runtime registry carriers and the verifier agent overlay contract explicit; the registry family now also includes the portable compatibility declaration carrier that later standalone extraction can travel with unchanged"
     },
     {
       "family": "launch_truth",

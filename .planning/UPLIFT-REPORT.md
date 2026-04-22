@@ -1,6 +1,6 @@
 # Project Uplift Report
 
-- Generated: 2026-04-22T06:05:05+00:00
+- Generated: 2026-04-22T19:33:29+00:00
 - Mode: detect-only
 - Project class: cross-runtime uplift
 - Secondary signals: mid_phase
@@ -23,11 +23,18 @@
 ## Compatibility Basis
 
 - Compatibility posture: observed_basis_only
+- Compatibility declaration: harness_modifier/compatibility/declaration.json
+- Compatibility declaration schema version: 1
+- Declared runtime basis: .codex (observed_runtime_anchor)
 - Observed runtime version: 1.38.3
 - Observed runtime manifest version: 1.38.3
 - Runtime version alignment: aligned
+- Declared overlay schema version: 1
 - Overlay manifest schema version: 1
+- Overlay schema declaration alignment: aligned
 - Uplift manifest schema version: 6
+- Upstream compatibility window: unknown (observed_basis_only)
+- Parity scan baseline: .codex (3 rules)
 
 ### Compatibility Check Protocol
 
@@ -64,10 +71,10 @@
 
 | Carrier | Group | State | Fingerprint Shape | Fingerprint | Note |
 |---------|-------|-------|-------------------|-------------|------|
-| Root AGENTS | doctrine_sensitive | present | content_sha256 | bb4b0e82b28c65e1725735a22eca3d460303bc51167ad797ff217e985ad20aa1 | file carrier present |
-| Planning AGENTS | doctrine_sensitive | present | content_sha256 | 1c33fa86628b3fbfcaf03907397fb092f44f2a0180b9c8abab62881b47052b6e | file carrier present |
+| Root AGENTS | doctrine_sensitive | present | content_sha256 | 9dbe3db3967052f00b857b59f41a5cfdf401cc4a6cb9eb059bafe0d001518e75 | file carrier present |
+| Planning AGENTS | doctrine_sensitive | present | content_sha256 | 4058dc4d78174369bfcdc27634163ecb85210b667b49bfdd37b8e845bb39c279 | file carrier present |
 | Root CLAUDE | doctrine_sensitive | present | content_sha256 | 81c48b1986f32bbd5aa980ce69e2495aec3f1cf57b006f9cfc7491608382a471 | file carrier present |
-| Planning CLAUDE | doctrine_sensitive | present | content_sha256 | 99053bccfd1722258ef9e6ec8c25514ff22228c5125e149da7ab6b298a390c27 | file carrier present |
+| Planning CLAUDE | doctrine_sensitive | present | content_sha256 | bd1a05d6df0dc274dc1f00f5ca89d9fa797bc406c2b6742dbbed26da9e8fa83b | file carrier present |
 | Verification Workflow | doctrine_sensitive | present | content_sha256 | eeefbd8865d021b59de99a05685a146084f9be88fc8d1130aa28f2f751f4f6df | file carrier present |
 | Verification Report Template | doctrine_sensitive | present | content_sha256 | d55c07b990f6c9d24fb41bf221a05a9b7025b2c96bf8163244012eebbb4e4980 | file carrier present |
 | Claim Types | additive_install | present | content_sha256 | 73a4261f9fb17860f95349aaf7e7bcf69d34d4a2644cf8cbc1c02a850fc5c64a | file carrier present |

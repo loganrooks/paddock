@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-04-22T06:05:05+00:00",
+  "generated_at": "2026-04-22T19:33:29+00:00",
   "mode": "detect-only",
   "last_uplift_class": "cross-runtime uplift",
   "last_uplift_secondary_signals": [
@@ -13,8 +13,8 @@
     "mid_phase_signal": true,
     "note": "phase CONTEXT carries explicit rerun-boundary posture"
   },
-  "doctrine_reference_hash": "5caf65641c559023c995f74395e08f5701cd8a506dd9e6d7d70e64953f3f30f2",
-  "project_fingerprint_hash": "ab5b07cafcd7d3be8c1c21f79f87676d8e82de60dde7d493b190890c8ddc6c4e",
+  "doctrine_reference_hash": "2557afb678d531229435a98990502b2e55d47bd0a2edfc2f8af8a6d89814fd11",
+  "project_fingerprint_hash": "fc93e6ec56adac67f2e1e77c20fccaf0bb98193556267aebb6bc940f38de8fd3",
   "current_status": "planning",
   "runtime_dirs": [
     ".codex",
@@ -77,6 +77,22 @@
   ],
   "compatibility_basis": {
     "compatibility_posture": "observed_basis_only",
+    "compatibility_declaration_path": "harness_modifier/compatibility/declaration.json",
+    "compatibility_declaration_schema_version": 1,
+    "runtime_basis": {
+      "runtime": ".codex",
+      "basis_mode": "observed_runtime_anchor",
+      "version_source": ".codex/get-shit-done/VERSION",
+      "manifest_version_source": ".codex/gsd-file-manifest.json"
+    },
+    "runtime_held_annotations": [
+      {
+        "runtime": ".claude",
+        "annotation_posture": "held_annotation",
+        "version_source": ".claude/get-shit-done/VERSION",
+        "note": "second runtime is recorded as a held compatibility annotation while the observed basis remains anchored to .codex"
+      }
+    ],
     "observed_runtime_version": "1.38.3",
     "observed_runtime_version_source": ".codex/get-shit-done/VERSION",
     "observed_runtime_manifest_version": "1.38.3",
@@ -93,8 +109,19 @@
       "note": "second runtime is recorded as a held compatibility annotation while the observed basis remains anchored to .codex"
     },
     "held_runtime_annotation_summary": ".claude 1.34.2 (held_annotation)",
+    "declared_overlay_schema_version": 1,
     "overlay_manifest_schema_version": 1,
+    "overlay_manifest_schema_version_matches_declaration": true,
     "uplift_manifest_schema_version": 6,
+    "upstream_compatibility_window": {
+      "mode": "observed_basis_only",
+      "state": "unknown",
+      "note": "support-window claims stay anchored to the observed runtime basis until later exercised widening earns more"
+    },
+    "parity_scan_baseline": {
+      "target_runtime": ".codex",
+      "rule_count": 3
+    },
     "check_protocol": [
       "compare candidate runtime version to observed_runtime_version",
       "compare candidate runtime manifest version to observed_runtime_manifest_version when present",
@@ -138,7 +165,7 @@
       "present": true,
       "status": "present",
       "fingerprint_shape": "content_sha256",
-      "fingerprint": "bb4b0e82b28c65e1725735a22eca3d460303bc51167ad797ff217e985ad20aa1",
+      "fingerprint": "9dbe3db3967052f00b857b59f41a5cfdf401cc4a6cb9eb059bafe0d001518e75",
       "note": "file carrier present"
     },
     {
@@ -149,7 +176,7 @@
       "present": true,
       "status": "present",
       "fingerprint_shape": "content_sha256",
-      "fingerprint": "1c33fa86628b3fbfcaf03907397fb092f44f2a0180b9c8abab62881b47052b6e",
+      "fingerprint": "4058dc4d78174369bfcdc27634163ecb85210b667b49bfdd37b8e845bb39c279",
       "note": "file carrier present"
     },
     {
@@ -171,7 +198,7 @@
       "present": true,
       "status": "present",
       "fingerprint_shape": "content_sha256",
-      "fingerprint": "99053bccfd1722258ef9e6ec8c25514ff22228c5125e149da7ab6b298a390c27",
+      "fingerprint": "bd1a05d6df0dc274dc1f00f5ca89d9fa797bc406c2b6742dbbed26da9e8fa83b",
       "note": "file carrier present"
     },
     {

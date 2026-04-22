@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "3f745a1",
+  "basis_commit": "16cfb8a",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -295,6 +295,19 @@
         "state_continuity"
       ],
       "claim_boundary": "declares how new-project and ingest-docs share one read-only entry/runtime continuity reference, how that reference widens from route-state and optional Project Uplift digest into narrative and typed uplift carriers only when needed, and how entry routes keep observed_basis_only plus held annotation visible without widening mandatory-initial-read or becoming write-side uplift dispatch"
+    },
+    {
+      "id": "harness_modifier_compatibility_declaration_contract",
+      "path": "harness_modifier/compatibility/declaration.json",
+      "validator": "harness_modifier/contract/portable_gsd_contract.py",
+      "contract_kind": "portable compatibility posture, held-runtime annotation semantics, parity baseline, and observed-basis compatibility-window declaration",
+      "families_touched": [
+        "install_overlay",
+        "registry",
+        "helper",
+        "state_continuity"
+      ],
+      "claim_boundary": "declares the portable compatibility semantics that later standalone extraction can carry unchanged, while current host-boundary consumers observe runtime-specific values against that declaration rather than re-declaring the posture locally"
     }
   ]
 }

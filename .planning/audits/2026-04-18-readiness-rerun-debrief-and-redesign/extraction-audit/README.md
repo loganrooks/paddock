@@ -25,12 +25,13 @@ Status: active opening audit family
 
 ## Current Next Step
 
-- [d:r:i] The first bounded extraction follow-through is now landed:
+- [d:r:i] The first two bounded extraction follow-through slices are now landed:
   - [intervention-proposals/139-harness-modifier-in-place-rehome-step-1-implementation.md](../intervention-proposals/139-harness-modifier-in-place-rehome-step-1-implementation.md)
   - [../propagation-audit/51-harness-modifier-in-place-rehome-step-1-change-triggered-refresh.md](../propagation-audit/51-harness-modifier-in-place-rehome-step-1-change-triggered-refresh.md)
-- [d:r:i] The next adjacent extraction question is no longer whether an in-repo rehome is earned. It is which later step should inherit after the first code-helper rehome:
+  - [intervention-proposals/141-harness-modifier-compatibility-declaration-carrier-implementation.md](../intervention-proposals/141-harness-modifier-compatibility-declaration-carrier-implementation.md)
+  - [../propagation-audit/52-harness-modifier-compatibility-declaration-carrier-change-triggered-refresh.md](../propagation-audit/52-harness-modifier-compatibility-declaration-carrier-change-triggered-refresh.md)
+- [d:r:i] The next adjacent extraction question is no longer whether the compatibility carrier should exist. It is which later step should inherit after the helper rehome plus portable declaration:
   - overlay/workflow/skill/template/reference carriers
-  - compatibility declaration carrier
   - standalone repo boundary design
   - second-host exercise
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "3f745a1",
+  "basis_commit": "16cfb8a",
   "evidence_entries": [
     {
       "id": "overlay_contract_validation",
@@ -493,6 +493,18 @@
       "evidence_lane": "change_triggered_refresh",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/49-update-entry-runtime-continuity-follow-through-change-triggered-refresh.md",
       "note": "typed v2 refresh that keeps the first workflow-plus-wrapper update consumer of the shared entry/runtime continuity reference explicit, including the provider-horizon gate, read-only review beat, and clean-install reader/rewriter asymmetry"
+    },
+    {
+      "id": "compatibility_declaration_file",
+      "evidence_lane": "declared_contract",
+      "path": "harness_modifier/compatibility/declaration.json",
+      "note": "typed portable compatibility declaration carrying observed-basis posture, held-runtime annotation semantics, parity baseline, and the currently held wider-window claims"
+    },
+    {
+      "id": "compatibility_declaration_impl_141",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/141-harness-modifier-compatibility-declaration-carrier-implementation.md",
+      "note": "landed extraction step-2 slice carrying the portable compatibility declaration into project_uplift, portable_gsd_contract, durable uplift memory, and later standalone-project travel"
     }
   ]
 }

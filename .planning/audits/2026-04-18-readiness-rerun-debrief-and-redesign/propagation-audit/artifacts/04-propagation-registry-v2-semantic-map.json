@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "3f745a1",
+  "basis_commit": "16cfb8a",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -127,7 +127,7 @@
       "id": "portable_contract",
       "family": "install_overlay",
       "path": "harness_modifier/contract/portable_gsd_contract.py",
-      "role": "fresh-install pristine capture, overlay validation/application, reasoning defaults, materialization verification, and typed runtime-specific parity-reference reporting for live .codex materialization",
+      "role": "fresh-install pristine capture, overlay validation/application, reasoning defaults, materialization verification, typed runtime-specific parity-reference reporting for live .codex materialization, and compatibility-declaration echo with overlay-schema alignment",
       "support_mode": "declared_contract_plus_validation",
       "evidence_refs": [
         "overlay_contract_validation",
@@ -230,7 +230,7 @@
       "id": "project_uplift",
       "family": "helper",
       "path": "tooling/codex/project_uplift.py",
-      "role": "authoritative uplift producer, observed-basis compatibility anchor owner, held runtime annotation owner, compatibility-drift router, top-level Project Uplift slot writer, shared seed-shape contract carrier, seed-corpus posture scanner, current-version shape-gap detector, and progress-note source for operator-facing seed visibility plus bounded specialist-packet disclosure with candidate breakdown and inspect/write command split when migration candidates are present",
+      "role": "authoritative uplift producer, portable compatibility-declaration consumer, observed-basis compatibility anchor owner, held runtime annotation owner, compatibility-drift router, top-level Project Uplift slot writer, shared seed-shape contract carrier, seed-corpus posture scanner, current-version shape-gap detector, and progress-note source for operator-facing seed visibility plus bounded specialist-packet disclosure with candidate breakdown and inspect/write command split when migration candidates are present",
       "support_mode": "roster_plus_producer_report",
       "evidence_refs": [
         "uplift_manifest_current",
@@ -934,6 +934,19 @@
         "entry_runtime_continuity_impl_130",
         "entry_runtime_continuity_tests",
         "update_entry_runtime_continuity_impl_133"
+      ]
+    },
+    {
+      "id": "compatibility_declaration",
+      "family": "registry",
+      "path": "harness_modifier/compatibility/declaration.json",
+      "role": "portable compatibility posture, held-runtime annotation semantics, parity baseline, and observed-basis window declaration intended to travel unchanged into later standalone modifier installs",
+      "support_mode": "declared_contract_plus_runtime_echo",
+      "evidence_refs": [
+        "compatibility_declaration_file",
+        "compatibility_declaration_impl_141",
+        "portable_contract_tests",
+        "project_uplift_contract_tests"
       ]
     }
   ],
