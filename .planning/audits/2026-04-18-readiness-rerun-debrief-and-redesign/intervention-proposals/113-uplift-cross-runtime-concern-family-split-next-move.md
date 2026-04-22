@@ -64,6 +64,14 @@ Status: active next-move note
   - recommend which of the three near-term sub-families should earn its own bounded proposal first
 - [d:r:i] The lane should stay Opus-led.
 
+## Current Consequence
+
+- [d:r:i] That concern-family split lane is now completed and inherited through:
+  - [../entry-uplift-audit/outputs/12-uplift-cross-runtime-concern-family-split-opus47-max-r1.md](../entry-uplift-audit/outputs/12-uplift-cross-runtime-concern-family-split-opus47-max-r1.md)
+  - [../entry-uplift-audit/dispositions/12-uplift-cross-runtime-concern-family-split-inheritance.md](../entry-uplift-audit/dispositions/12-uplift-cross-runtime-concern-family-split-inheritance.md)
+- [d:r:i] The next bounded move is now the compatibility-family widening-shape proposal in:
+  - [114-uplift-cross-runtime-compatibility-widening-shape-proposal.md](114-uplift-cross-runtime-compatibility-widening-shape-proposal.md)
+
 ## What Remains Held
 
 - [d:r:i] Live `.claude` route translation

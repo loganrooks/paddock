@@ -264,6 +264,7 @@ Status: active inventory
 - `intervention-proposals/111-uplift-cross-runtime-comparison-packet-template-implementation.md`
 - `intervention-proposals/112-uplift-cross-runtime-comparison-first-exercise.md`
 - `intervention-proposals/113-uplift-cross-runtime-concern-family-split-next-move.md`
+- `intervention-proposals/114-uplift-cross-runtime-compatibility-widening-shape-proposal.md`
 - `entry-uplift-audit/packets/06-uplift-docs-governance-classification-packet-template.md`
 - `entry-uplift-audit/packets/07-uplift-docs-governance-classification-first-exercise-packet.md`
 - `entry-uplift-audit/packets/12-uplift-cross-runtime-comparison-first-exercise-packet.md`
@@ -272,9 +273,11 @@ Status: active inventory
 - `entry-uplift-audit/outputs/10-uplift-cross-runtime-comparison-first-exercise.md`
 - `entry-uplift-audit/outputs/11-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1.md`
 - `entry-uplift-audit/launch-truth/07-uplift-cross-runtime-comparison-first-exercise-reread-launch-truth.md`
+- `entry-uplift-audit/launch-truth/08-uplift-cross-runtime-concern-family-split-launch-truth.md`
 - `entry-uplift-audit/dispositions/06-uplift-docs-governance-classification-first-exercise-disposition.md`
 - `entry-uplift-audit/dispositions/10-uplift-cross-runtime-comparison-first-exercise-disposition.md`
 - `entry-uplift-audit/dispositions/11-uplift-cross-runtime-comparison-first-exercise-reread-inheritance.md`
+- `entry-uplift-audit/dispositions/12-uplift-cross-runtime-concern-family-split-inheritance.md`
 - `entry-uplift-audit/specs/07-uplift-cross-runtime-comparison-first-exercise-reread-spec.md`
 - `entry-uplift-audit/prompts/07-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1-launch-prompt.md`
 - `entry-uplift-audit/launch-truth/06-uplift-assist-post-first-exercise-next-move-launch-truth.md`

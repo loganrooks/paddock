@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread; lane-07 completed and locally inherited after cross-runtime first-exercise reread
+Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread; lane-07 completed and locally inherited after cross-runtime first-exercise reread; lane-08 completed and locally inherited after concern-family split reread
 
 # Entry Uplift Audit
 
@@ -130,6 +130,21 @@ For each lane, keep this tuple explicit:
 - local inheritance:
   - [dispositions/11-uplift-cross-runtime-comparison-first-exercise-reread-inheritance.md](dispositions/11-uplift-cross-runtime-comparison-first-exercise-reread-inheritance.md)
 
+## Lane 08
+
+- packet:
+  - [packets/14-uplift-cross-runtime-concern-family-split-packet.md](packets/14-uplift-cross-runtime-concern-family-split-packet.md)
+- spec:
+  - [specs/08-uplift-cross-runtime-concern-family-split-spec.md](specs/08-uplift-cross-runtime-concern-family-split-spec.md)
+- prompt:
+  - [prompts/08-uplift-cross-runtime-concern-family-split-opus47-max-r1-launch-prompt.md](prompts/08-uplift-cross-runtime-concern-family-split-opus47-max-r1-launch-prompt.md)
+- launch-truth:
+  - [launch-truth/08-uplift-cross-runtime-concern-family-split-launch-truth.md](launch-truth/08-uplift-cross-runtime-concern-family-split-launch-truth.md)
+- outputs:
+  - [outputs/12-uplift-cross-runtime-concern-family-split-opus47-max-r1.md](outputs/12-uplift-cross-runtime-concern-family-split-opus47-max-r1.md)
+- local inheritance:
+  - [dispositions/12-uplift-cross-runtime-concern-family-split-inheritance.md](dispositions/12-uplift-cross-runtime-concern-family-split-inheritance.md)
+
 ## Current Adjacent Move
 
 - [d:r:i] The uplift-assist family no longer points first toward a live route hook.
@@ -172,4 +187,10 @@ For each lane, keep this tuple explicit:
   - [launch-truth/07-uplift-cross-runtime-comparison-first-exercise-reread-launch-truth.md](launch-truth/07-uplift-cross-runtime-comparison-first-exercise-reread-launch-truth.md)
   - [outputs/11-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1.md](outputs/11-uplift-cross-runtime-comparison-first-exercise-reread-opus47-max-r1.md)
   - [dispositions/11-uplift-cross-runtime-comparison-first-exercise-reread-inheritance.md](dispositions/11-uplift-cross-runtime-comparison-first-exercise-reread-inheritance.md)
-- [d:r:i] The current adjacent move is now a bounded concern-family split note and follow-on Opus lane over the widened cross-runtime family, with live `.claude` translation, compatibility-matrix claims, and composition judgment still held after the widening round.
+- [d:r:i] That concern-family split note and follow-on Opus lane are now completed and locally inherited too:
+  - [launch-truth/08-uplift-cross-runtime-concern-family-split-launch-truth.md](launch-truth/08-uplift-cross-runtime-concern-family-split-launch-truth.md)
+  - [outputs/12-uplift-cross-runtime-concern-family-split-opus47-max-r1.md](outputs/12-uplift-cross-runtime-concern-family-split-opus47-max-r1.md)
+  - [dispositions/12-uplift-cross-runtime-concern-family-split-inheritance.md](dispositions/12-uplift-cross-runtime-concern-family-split-inheritance.md)
+- [d:r:i] The current adjacent move is now the bounded compatibility-family widening-shape proposal in:
+  - [../intervention-proposals/114-uplift-cross-runtime-compatibility-widening-shape-proposal.md](../intervention-proposals/114-uplift-cross-runtime-compatibility-widening-shape-proposal.md)
+- [d:r:i] Live `.claude` translation, compatibility-matrix claims, and composition judgment remain held after that inheritance.
