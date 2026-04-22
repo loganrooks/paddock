@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread; lane-07 completed and locally inherited after cross-runtime first-exercise reread; lane-08 completed and locally inherited after concern-family split reread
+Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread; lane-07 completed and locally inherited after cross-runtime first-exercise reread; lane-08 completed and locally inherited after concern-family split reread; lane-09 completed and locally inherited after compatibility-shape reread
 
 # Entry Uplift Audit
 
@@ -145,6 +145,21 @@ For each lane, keep this tuple explicit:
 - local inheritance:
   - [dispositions/12-uplift-cross-runtime-concern-family-split-inheritance.md](dispositions/12-uplift-cross-runtime-concern-family-split-inheritance.md)
 
+## Lane 09
+
+- packet:
+  - [packets/15-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-packet.md](packets/15-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-packet.md)
+- spec:
+  - [specs/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-spec.md](specs/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-spec.md)
+- prompt:
+  - [prompts/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1-launch-prompt.md](prompts/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1-launch-prompt.md)
+- launch-truth:
+  - [launch-truth/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-launch-truth.md](launch-truth/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-launch-truth.md)
+- outputs:
+  - [outputs/13-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1.md](outputs/13-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1.md)
+- local inheritance:
+  - [dispositions/13-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-inheritance.md](dispositions/13-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-inheritance.md)
+
 ## Current Adjacent Move
 
 - [d:r:i] The uplift-assist family no longer points first toward a live route hook.
@@ -191,6 +206,7 @@ For each lane, keep this tuple explicit:
   - [launch-truth/08-uplift-cross-runtime-concern-family-split-launch-truth.md](launch-truth/08-uplift-cross-runtime-concern-family-split-launch-truth.md)
   - [outputs/12-uplift-cross-runtime-concern-family-split-opus47-max-r1.md](outputs/12-uplift-cross-runtime-concern-family-split-opus47-max-r1.md)
   - [dispositions/12-uplift-cross-runtime-concern-family-split-inheritance.md](dispositions/12-uplift-cross-runtime-concern-family-split-inheritance.md)
-- [d:r:i] The current adjacent move is now the bounded compatibility-family widening-shape proposal in:
+- [d:r:i] The current adjacent move is now the revised bounded compatibility-family widening-shape proposal in:
   - [../intervention-proposals/114-uplift-cross-runtime-compatibility-widening-shape-proposal.md](../intervention-proposals/114-uplift-cross-runtime-compatibility-widening-shape-proposal.md)
-- [d:r:i] Live `.claude` translation, compatibility-matrix claims, and composition judgment remain held after that inheritance.
+- [d:r:i] Lane-09 kept the overall ordering but revised the package: annotation posture now carries a visible held-scalar versus structural-row split, posture-label discipline is explicit, the `.codex` `1.38.3` versus `.claude` `1.34.2` gap is named directly, and family-6 wider route mapping remains parallelizable.
+- [d:r:i] Live `.claude` translation, compatibility-matrix claims, composition judgment, and cross-repo extraction remain held after that inheritance.

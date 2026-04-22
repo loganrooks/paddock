@@ -259,6 +259,32 @@
   - live but not chosen: `Proposal C` nearest fallback, bounded `Proposal F` strongest switch path, `Proposal E` still prospective
   - not earned: full `Proposal F`, full `Proposal C-first`, `Proposal E-first`, blanket `.codex` de-ignore, broad audit-space reorganization, immediate launch-truth hook automation
 
+## 2026-04-22 `entry-uplift-audit-lane-09`
+
+- date: `2026-04-22`
+- purpose: bounded Opus reread of the compatibility-family widening-shape proposal after the concern-family split, to sharpen the package before any live compatibility-anchor implementation slice opens
+- frozen launch basis commit: `f1556fd`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- launch-truth artifact: [entry-uplift-audit/launch-truth/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-launch-truth.md](entry-uplift-audit/launch-truth/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-launch-truth.md)
+- prompt artifact: [entry-uplift-audit/prompts/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1-launch-prompt.md](entry-uplift-audit/prompts/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1-launch-prompt.md)
+- governing spec: [entry-uplift-audit/specs/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-spec.md](entry-uplift-audit/specs/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-spec.md)
+- governing packet: [entry-uplift-audit/packets/15-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-packet.md](entry-uplift-audit/packets/15-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-packet.md)
+- output artifact: [entry-uplift-audit/outputs/13-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1.md](entry-uplift-audit/outputs/13-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1.md)
+- probe summary:
+  - exit code: `0`
+  - session id: `cdc5bd7b-c84d-41e0-bd51-8c2d8bf07eb5`
+  - total cost usd: `2.2370035`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1-20260422-012915.gpvsca_i.stream.jsonl`
+    - `/tmp/uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1-20260422-012915.m4eyeb5u.stderr.log`
+    - `/tmp/uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1-20260422-012915.6u4u2gii.debug.log`
+- disposition:
+  - [entry-uplift-audit/dispositions/13-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-inheritance.md](entry-uplift-audit/dispositions/13-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-inheritance.md)
+  - `revise`
+  - carried now: sharper annotation sub-shape split, posture-label discipline, direct version-gap evidence, explicit family-6 parallelizability, and clearer helper-side implementation choice hold
+  - still held: live anchor mutation, compatibility matrix, `.claude` translation, composition judgment, cross-repo extraction execution
+
 ## 2026-04-21 `propagation-audit-lane-03`
 
 - date: `2026-04-21`

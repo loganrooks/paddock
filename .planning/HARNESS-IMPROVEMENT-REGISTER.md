@@ -36,6 +36,7 @@ Status: active durable register
   - current pressure: stop leaving these as ambient rows
 - [d:r:i] Cross-repo distribution
   - current pressure: later portability of repo-local harness gains without forcing it early
+  - current evidence: `115` now keeps separate-repo plus npm/`npx` distribution explicit as a later route while the current uplift/cross-runtime and propagation contracts continue sharpening
 
 ## Current Bounded Next Slices
 
@@ -46,6 +47,7 @@ Status: active durable register
 - [d:r:i] Explicit canon-absorption use on later landed intervention families
 - [d:r:i] Bounded uplift-agent-assist patterning that keeps composition-layer judgment in the parent thread while delegation sharpens narrower uplift subproblems
 - [d:r:i] After the first three exercised uplift-assist patterns, the landed narrow route pointer, the landed docs-governance runtime-proof, the first cross-runtime packet exercise, the completed Opus widening reread, and the completed concern-family split lane, the next bounded move is the compatibility-family widening-shape proposal in `114` rather than direct `.claude` translation or composition work
+- [d:r:i] Keep the later harness-modifier extraction/distribution route explicit through `115`, but hold actual repo/package split until the present uplift/cross-runtime and propagation contracts travel farther
 
 ## Ownerless Concerns
 

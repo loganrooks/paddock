@@ -118,6 +118,7 @@ Status: active proposal/disposition batch
 112. `112-uplift-cross-runtime-comparison-first-exercise.md`
 113. `113-uplift-cross-runtime-concern-family-split-next-move.md`
 114. `114-uplift-cross-runtime-compatibility-widening-shape-proposal.md`
+115. `115-harness-modifier-extraction-and-npx-distribution-route.md`
 
 ## Proposal Rule
 
@@ -150,7 +151,8 @@ Status: active proposal/disposition batch
 - [d:r:i] `111` now records that carrier as landed: the cross-runtime family now has one reusable packet template, and the next adjacent move is the first bounded comparison packet before any later Opus widening or composition judgment.
 - [d:r:i] `112` now records the first exercised cross-runtime packet itself: shared doctrine/wrapper basis, continuation-floor overlap, and route asymmetry are explicit while live `.claude` translation, compatibility-matrix claims, and composition judgment remain held.
 - [d:r:i] `113` now records the next bounded move after the completed Opus widening reread over that packet: keep the visible cross-runtime concern families explicit, then route through a concern-family split before any live translation, compatibility-matrix claim, or composition judgment.
-- [d:r:i] `114` now records the next bounded proposal after the completed concern-family split lane: widen the current compatibility anchor by annotation posture first, keep matrix claims and composition judgment held, and unblock later consumer-chain asymmetry routing on a cleaner home.
+- [d:r:i] `114` now records the revised next bounded proposal after the completed compatibility-shape reread: annotation posture first, explicit held-scalar versus structural-row split, posture-label discipline around `observed_basis_only`, direct 1.38.3 versus 1.34.2 evidence, and family-6 parallelizability while consumer-chain asymmetry remains downstream.
+- [d:r:i] `115` now keeps the later harness-modifier extraction route explicit too: a separate repo plus npm/`npx` installer is thinkable, but actual extraction stays held until the current uplift/cross-runtime and propagation contracts sharpen farther.
 - [d:r:i] `43` now records the bounded compatibility follow-through inside that same uplift chain: the durable uplift outputs carry an observed-basis compatibility anchor without widening into a broader version-window claim.
 - [d:r:i] `44` now records the consumer-chain follow-through that keeps the compatibility anchor from remaining only as stored uplift memory.
 - [d:r:i] `45` now sequences the first harness-improvement follow-through tranche after the full-field Opus widening: canary/invariant assertion first, audit-program infrastructure second, standing self-improvement register third.
