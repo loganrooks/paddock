@@ -92,6 +92,8 @@ Status: landed bounded reference
 - [d:r:i] Packet assembly stays parent-thread-owned unless a later helper or wrapper earns that job explicitly.
 - [d:r:i] For `docs_governance_classification`, use the packet template at:
   - [entry-uplift-audit/packets/06-uplift-docs-governance-classification-packet-template.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/packets/06-uplift-docs-governance-classification-packet-template.md)
+- [d:r:i] For `carrier_gap_identification`, use the packet template at:
+  - [entry-uplift-audit/packets/08-uplift-carrier-gap-identification-packet-template.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/packets/08-uplift-carrier-gap-identification-packet-template.md)
 - [d:r:i] Do not infer that the other three patterns have the same packet shape.
 - [d:r:i] Each later pattern should earn its own assembly carrier when its concrete subproblem becomes live.
 
@@ -132,5 +134,7 @@ Status: landed bounded reference
 ## Current Consequence
 
 - [d:r:i] The uplift-agent question now has a bounded reference surface rather than only an open note and a proposal.
-- [d:r:i] The next adjacent move is now one concrete `docs_governance_classification` packet template paired with a named disposition home, then one end-to-end packet exercise.
-- [d:r:i] The opt-in uplift-route hook remains later work until that packet/disposition round trip has actually happened.
+- [d:r:i] The family now carries two exercised patterns with explicit packet templates:
+  - `docs_governance_classification`
+  - `carrier_gap_identification`
+- [d:r:i] The next adjacent move is now one narrow live route pointer that cites both exercised packet templates while preserving detect-only posture and parent-thread ownership.

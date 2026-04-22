@@ -1,5 +1,5 @@
-Date: 2026-04-21
-Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread
+Date: 2026-04-22
+Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread
 
 # Entry Uplift Audit
 
@@ -100,6 +100,21 @@ For each lane, keep this tuple explicit:
 - local inheritance:
   - [dispositions/05-uplift-agent-assist-proposal-and-patterns-reread-inheritance.md](dispositions/05-uplift-agent-assist-proposal-and-patterns-reread-inheritance.md)
 
+## Lane 06
+
+- packet:
+  - [packets/06-uplift-assist-post-first-exercise-next-move-packet.md](packets/06-uplift-assist-post-first-exercise-next-move-packet.md)
+- spec:
+  - [specs/06-uplift-assist-post-first-exercise-next-move-spec.md](specs/06-uplift-assist-post-first-exercise-next-move-spec.md)
+- prompt:
+  - [prompts/06-uplift-assist-post-first-exercise-next-move-opus47-max-r1-launch-prompt.md](prompts/06-uplift-assist-post-first-exercise-next-move-opus47-max-r1-launch-prompt.md)
+- launch-truth:
+  - [launch-truth/06-uplift-assist-post-first-exercise-next-move-launch-truth.md](launch-truth/06-uplift-assist-post-first-exercise-next-move-launch-truth.md)
+- outputs:
+  - [outputs/07-uplift-assist-post-first-exercise-next-move-opus47-max-r1.md](outputs/07-uplift-assist-post-first-exercise-next-move-opus47-max-r1.md)
+- local inheritance:
+  - [dispositions/07-uplift-assist-post-first-exercise-next-move-inheritance.md](dispositions/07-uplift-assist-post-first-exercise-next-move-inheritance.md)
+
 ## Current Adjacent Move
 
 - [d:r:i] The uplift-assist family no longer points first toward a live route hook.
@@ -112,6 +127,14 @@ For each lane, keep this tuple explicit:
   - [entry-uplift-audit/outputs/06-uplift-docs-governance-classification-first-exercise.md](outputs/06-uplift-docs-governance-classification-first-exercise.md)
   - [entry-uplift-audit/dispositions/06-uplift-docs-governance-classification-first-exercise-disposition.md](dispositions/06-uplift-docs-governance-classification-first-exercise-disposition.md)
   - [intervention-proposals/106-uplift-docs-governance-classification-first-exercise.md](../intervention-proposals/106-uplift-docs-governance-classification-first-exercise.md)
-- [d:r:i] The current adjacent decision surface is now:
-  - whether one narrow live route pointer is earned
-  - or whether a second assist-pattern exercise would strengthen the family more first
+- [d:r:i] The lane-06 reread and inheritance are now also landed:
+  - [launch-truth/06-uplift-assist-post-first-exercise-next-move-launch-truth.md](launch-truth/06-uplift-assist-post-first-exercise-next-move-launch-truth.md)
+  - [outputs/07-uplift-assist-post-first-exercise-next-move-opus47-max-r1.md](outputs/07-uplift-assist-post-first-exercise-next-move-opus47-max-r1.md)
+  - [dispositions/07-uplift-assist-post-first-exercise-next-move-inheritance.md](dispositions/07-uplift-assist-post-first-exercise-next-move-inheritance.md)
+- [d:r:i] The second exercised pattern is now landed too:
+  - [packets/08-uplift-carrier-gap-identification-packet-template.md](packets/08-uplift-carrier-gap-identification-packet-template.md)
+  - [packets/09-uplift-carrier-gap-identification-second-exercise-packet.md](packets/09-uplift-carrier-gap-identification-second-exercise-packet.md)
+  - [outputs/08-uplift-carrier-gap-identification-second-exercise.md](outputs/08-uplift-carrier-gap-identification-second-exercise.md)
+  - [dispositions/08-uplift-carrier-gap-identification-second-exercise-disposition.md](dispositions/08-uplift-carrier-gap-identification-second-exercise-disposition.md)
+  - [../intervention-proposals/107-uplift-carrier-gap-identification-second-exercise.md](../intervention-proposals/107-uplift-carrier-gap-identification-second-exercise.md)
+- [d:r:i] The current adjacent move is now one narrow live route pointer that cites both exercised packet templates while preserving detect-only posture and parent-thread ownership.

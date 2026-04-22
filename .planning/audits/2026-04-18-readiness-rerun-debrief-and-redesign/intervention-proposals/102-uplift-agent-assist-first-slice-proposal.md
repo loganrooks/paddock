@@ -93,5 +93,7 @@ Status: reference landed via `103`; route-hook hold remains open
   - automatic-spawn refusal
   - durable-write parent-thread ownership
   - broader propagation-map hold
-- [d:r:i] The next bounded move after the landed reference is not another abstract discussion of whether agents might help.
-- [d:r:i] The next bounded move is one concrete delegated-packet template plus named disposition carrier for `docs_governance_classification`, then one end-to-end packet exercise before any opt-in uplift-route hook is reconsidered.
+- [d:r:i] The first bounded packet/disposition layer and the first two parent-thread exercises now exist:
+  - `docs_governance_classification`
+  - `carrier_gap_identification`
+- [d:r:i] The next bounded move is now the narrow operator-initiated route pointer that cites both exercised packet templates while preserving detect-only posture and parent-thread ownership.

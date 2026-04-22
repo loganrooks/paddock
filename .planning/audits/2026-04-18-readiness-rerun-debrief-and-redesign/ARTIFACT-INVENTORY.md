@@ -257,10 +257,18 @@ Status: active inventory
 - `intervention-proposals/104-uplift-docs-governance-classification-packet-template-proposal.md`
 - `intervention-proposals/105-uplift-docs-governance-classification-packet-template-implementation.md`
 - `intervention-proposals/106-uplift-docs-governance-classification-first-exercise.md`
+- `intervention-proposals/107-uplift-carrier-gap-identification-second-exercise.md`
 - `entry-uplift-audit/packets/06-uplift-docs-governance-classification-packet-template.md`
 - `entry-uplift-audit/packets/07-uplift-docs-governance-classification-first-exercise-packet.md`
 - `entry-uplift-audit/outputs/06-uplift-docs-governance-classification-first-exercise.md`
 - `entry-uplift-audit/dispositions/06-uplift-docs-governance-classification-first-exercise-disposition.md`
+- `entry-uplift-audit/launch-truth/06-uplift-assist-post-first-exercise-next-move-launch-truth.md`
+- `entry-uplift-audit/outputs/07-uplift-assist-post-first-exercise-next-move-opus47-max-r1.md`
+- `entry-uplift-audit/dispositions/07-uplift-assist-post-first-exercise-next-move-inheritance.md`
+- `entry-uplift-audit/packets/08-uplift-carrier-gap-identification-packet-template.md`
+- `entry-uplift-audit/packets/09-uplift-carrier-gap-identification-second-exercise-packet.md`
+- `entry-uplift-audit/outputs/08-uplift-carrier-gap-identification-second-exercise.md`
+- `entry-uplift-audit/dispositions/08-uplift-carrier-gap-identification-second-exercise-disposition.md`
 
 ## Challenge And Output Subtrees
 

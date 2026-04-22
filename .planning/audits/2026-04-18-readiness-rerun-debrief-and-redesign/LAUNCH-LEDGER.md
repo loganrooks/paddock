@@ -882,3 +882,30 @@
   - the family bookkeeping and runtime/disposition clarifications should land before any live hook
   - the first adjacent live move is one `docs_governance_classification` packet template plus named disposition carrier
   - the opt-in uplift-route hook remains held until one packet/disposition round trip has actually happened
+
+## 2026-04-22 `entry-uplift-audit lane-06`
+
+- date: `2026-04-22`
+- purpose: bounded reread of the uplift-assist family after its first real packet -> output -> disposition round trip, to choose the stronger next move before any live route pointer lands
+- frozen launch basis commit: `6efac8b`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth:
+  - [entry-uplift-audit/launch-truth/06-uplift-assist-post-first-exercise-next-move-launch-truth.md](entry-uplift-audit/launch-truth/06-uplift-assist-post-first-exercise-next-move-launch-truth.md)
+- output:
+  - [entry-uplift-audit/outputs/07-uplift-assist-post-first-exercise-next-move-opus47-max-r1.md](entry-uplift-audit/outputs/07-uplift-assist-post-first-exercise-next-move-opus47-max-r1.md)
+- inheritance:
+  - [entry-uplift-audit/dispositions/07-uplift-assist-post-first-exercise-next-move-inheritance.md](entry-uplift-audit/dispositions/07-uplift-assist-post-first-exercise-next-move-inheritance.md)
+- probe summary:
+  - exit code: `0`
+  - session id: `0aa553c1-9b35-46ad-a13f-f47f20caa7d4`
+  - total cost usd: `1.9843382499999997`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/uplift-assist-post-first-exercise-next-move-opus47-max-r1-20260422-001836.vknr7cdl.stream.jsonl`
+    - `/tmp/uplift-assist-post-first-exercise-next-move-opus47-max-r1-20260422-001836.yxj5mz3f.stderr.log`
+    - `/tmp/uplift-assist-post-first-exercise-next-move-opus47-max-r1-20260422-001836.nw06bdvl.debug.log`
+- disposition:
+  - `accept as widening input`
+  - lane-06 closes the missing-packet-carrier reason for holding the pointer, but keeps the live pointer held because coverage-breadth should intensify before reach-breadth
+  - the next move is one `carrier_gap_identification` template-plus-exercise slice
+  - the later route pointer should follow that second exercised pattern rather than precede it

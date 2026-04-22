@@ -29,7 +29,7 @@ Status: active durable register
   - current pressure: keep widening repeated reinstall durability without confusing repo-local repair with upstream installer control
 - [d:r:i] Uplift / propagation consumer completion
   - current state: upstream-pristine baseline plus repo-local delta pair are now explicit through `95` and `96`, the first operator-facing propagation-review route is now landed through `97` and `98`, its first bounded reread is now inherited through lane `07`, and its harden follow-through is now landed through `99`, `100`, and `40`
-  - current pressure: keep the cleaner route, but move the uplift-assist family through its first packet/disposition round trip before any live route hook or wider assist family expansion
+  - current pressure: keep the cleaner route, carry the uplift-assist family through its second exercised pattern and then land the narrow route pointer before any wider assist-family expansion
 - [d:r:i] Durable-memory / vintage / decay semantics
   - current pressure: make staleness and movement over time more visible across durable artifacts
 - [d:r:i] Safety / cost / privacy carriers
@@ -45,7 +45,7 @@ Status: active durable register
 - [d:r:i] Standing self-improvement register growth beyond this first slice
 - [d:r:i] Explicit canon-absorption use on later landed intervention families
 - [d:r:i] Bounded uplift-agent-assist patterning that keeps composition-layer judgment in the parent thread while delegation sharpens narrower uplift subproblems
-- [d:r:i] After the first real `docs_governance_classification` packet round trip, decide whether one narrow live route pointer is now earned or whether a second assist-pattern exercise would still strengthen the family more first
+- [d:r:i] After the first two exercised uplift-assist patterns, land the narrow route pointer and only then widen later into delegated-runtime proof or other assist families
 
 ## Ownerless Concerns
 
