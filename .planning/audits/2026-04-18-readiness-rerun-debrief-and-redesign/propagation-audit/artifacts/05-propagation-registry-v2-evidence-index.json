@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "07c0cdb",
+  "basis_commit": "3711cde",
   "evidence_entries": [
     {
       "id": "overlay_contract_validation",
@@ -219,10 +219,22 @@
       "note": "landed uplift-side seed corpus posture slice covering helper-side classification, durable uplift-memory carry, wrapper/workflow visibility, and later migration separation"
     },
     {
+      "id": "seed_operator_consumer_impl_82",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/82-seed-operator-consumer-widening-first-slice-implementation.md",
+      "note": "landed operator-facing seed consumer slice covering project_uplift progress-note fields plus progress/resume visibility through the existing uplift bridge"
+    },
+    {
       "id": "project_uplift_contract_tests",
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_project_uplift.py",
-      "note": "focused helper and consumer coverage for uplift classification, durable output schema, compatibility drift routing, and seed-corpus posture movement"
+      "note": "focused helper and consumer coverage for uplift classification, durable output schema, compatibility drift routing, seed-corpus posture movement, and operator-facing seed posture visibility"
+    },
+    {
+      "id": "seed_operator_consumer_contract_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_seed_operator_consumer_follow_through_contract.py",
+      "note": "focused contract coverage for progress/resume seed posture display through the uplift-note bridge"
     }
   ]
 }

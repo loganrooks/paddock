@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "07c0cdb",
+  "basis_commit": "3711cde",
   "inherited_dispositions": [
     "propagation-audit/dispositions/01-propagation-chain-reread-inheritance.md",
     "propagation-audit/dispositions/02-broader-network-propagation-field-mapping-inheritance.md",
@@ -21,7 +21,8 @@
     "propagation-audit/29-seed-consumer-carry-change-triggered-refresh.md",
     "propagation-audit/30-explore-seed-producer-convergence-change-triggered-refresh.md",
     "propagation-audit/31-seed-doctrine-vintage-anchor-change-triggered-refresh.md",
-    "propagation-audit/32-uplift-seed-corpus-posture-change-triggered-refresh.md"
+    "propagation-audit/32-uplift-seed-corpus-posture-change-triggered-refresh.md",
+    "propagation-audit/33-seed-operator-consumer-widening-change-triggered-refresh.md"
   ],
   "coverage_gate": [
     {
@@ -34,7 +35,7 @@
       "family": "helper",
       "coverage_status": "mapped",
       "roster_source": "local_tooling_inventory",
-      "notes": "helper cohort is still sampled rather than exhaustive; current slice now covers the named high-consequence helpers plus the threshold scanner helper, the gsd-sdk runtime helper, and uplift-side seed corpus posture at project_uplift"
+      "notes": "helper cohort is still sampled rather than exhaustive; current slice now covers the named high-consequence helpers plus the threshold scanner helper, the gsd-sdk runtime helper, uplift-side seed corpus posture at project_uplift, and the operator-facing seed posture note emitted through project_uplift"
     },
     {
       "family": "install_overlay",
@@ -64,7 +65,7 @@
       "family": "workflow_output",
       "coverage_status": "mapped",
       "roster_source": "upstream_inventory",
-      "notes": "current slice now keeps uplift, progress, resume, new-project, new-milestone, plant-seed, explore, ingest-docs, health, update, verifier, transition, complete-milestone, spec-phase, and discuss-phase workflows explicit as routed carriers, with upstream spec future-carry movement plus re-entry, initialization/doc-ingest, repair-side, update-side, seed producer/consumer carry, ideation-side seed producer convergence, current-versus-legacy seed vintage anchor carry, and uplift-side seed corpus posture visible too"
+      "notes": "current slice now keeps uplift, progress, resume, new-project, new-milestone, plant-seed, explore, ingest-docs, health, update, verifier, transition, complete-milestone, spec-phase, and discuss-phase workflows explicit as routed carriers, with upstream spec future-carry movement plus re-entry, initialization/doc-ingest, repair-side, update-side, seed producer/consumer carry, ideation-side seed producer convergence, current-versus-legacy seed vintage anchor carry, uplift-side seed corpus posture, and operator-facing seed posture visibility at progress/resume all explicit too"
     },
     {
       "family": "wrapper",
@@ -111,8 +112,8 @@
     },
     {
       "kind": "change_triggered_slice_refresh",
-      "status": "anchor_consumer_threshold_scanner_verifier_lifecycle_setup_robustness_transition_lifecycle_milestone_boundary_first_read_consumer_spec_lifecycle_read_packet_initialization_ingest_health_migration_update_seed_consumer_explore_seed_producer_convergence_seed_vintage_anchor_and_uplift_seed_corpus_posture_landed",
-      "notes": "the compatibility anchor slice refreshed uplift/runtime carriers, the consumer-chain follow-through refreshed live read-only routing surfaces, the threshold-scanner slice refreshed helper plus lane-governance carry, the verifier-lifecycle slice refreshed workflow/template/reference/registry carry, the setup/materialization slice refreshed installer-entry/helper/contract carry, the transition-lifecycle slice refreshed phase-close workflow/template/state-continuity carry, the milestone-boundary slice refreshed milestone-open plus milestone-close workflow/state-continuity carry, the first-read consumer slice refreshed the state helper plus progress/resume future-carry routing, the spec lifecycle slice refreshed the spec producer pair plus discuss-phase upstream spec carry, the read-packet slice refreshed the shared mandatory-read contract plus current operator-facing reading-control consumers, the initialization/ingest slice refreshed the shared mandatory-read contract plus new-project/new-milestone/ingest-docs consumers with explicit progress-then-uplift and merge-versus-later-uplift route separation, the health/migration slice refreshed health plus the two wrappers with structural-repair, validation, and later-uplift route separation, the update slice refreshed update-side route separation, the seed-consumer slice refreshed the plant-seed -> new-milestone bridge, the explore convergence slice refreshed the ideation-side producer route into the live seed contract, the seed vintage anchor slice refreshed current-versus-legacy-unversioned carry at the main producer and main milestone-open consumer, and the uplift seed posture slice refreshed project-wide seed visibility at the helper/workflow/wrapper/output cluster"
+      "status": "anchor_consumer_threshold_scanner_verifier_lifecycle_setup_robustness_transition_lifecycle_milestone_boundary_first_read_consumer_spec_lifecycle_read_packet_initialization_ingest_health_migration_update_seed_consumer_explore_seed_producer_convergence_seed_vintage_anchor_uplift_seed_corpus_posture_and_seed_operator_consumer_widening_landed",
+      "notes": "the compatibility anchor slice refreshed uplift/runtime carriers, the consumer-chain follow-through refreshed live read-only routing surfaces, the threshold-scanner slice refreshed helper plus lane-governance carry, the verifier-lifecycle slice refreshed workflow/template/reference/registry carry, the setup/materialization slice refreshed installer-entry/helper/contract carry, the transition-lifecycle slice refreshed phase-close workflow/template/state-continuity carry, the milestone-boundary slice refreshed milestone-open plus milestone-close workflow/state-continuity carry, the first-read consumer slice refreshed the state helper plus progress/resume future-carry routing, the spec lifecycle slice refreshed the spec producer pair plus discuss-phase upstream spec carry, the read-packet slice refreshed the shared mandatory-read contract plus current operator-facing reading-control consumers, the initialization/ingest slice refreshed the shared mandatory-read contract plus new-project/new-milestone/ingest-docs consumers with explicit progress-then-uplift and merge-versus-later-uplift route separation, the health/migration slice refreshed health plus the two wrappers with structural-repair, validation, and later-uplift route separation, the update slice refreshed update-side route separation, the seed-consumer slice refreshed the plant-seed -> new-milestone bridge, the explore convergence slice refreshed the ideation-side producer route into the live seed contract, the seed vintage anchor slice refreshed current-versus-legacy-unversioned carry at the main producer and main milestone-open consumer, the uplift seed posture slice refreshed project-wide seed visibility at the helper/workflow/wrapper/output cluster, and the operator-consumer widening slice refreshed the project_uplift -> progress/resume bridge so ordinary re-entry keeps seed posture explicit too"
     },
     {
       "kind": "scheduled_whole_registry_refresh",
@@ -134,7 +135,7 @@
     "broader compatibility window or standalone compatibility carrier",
     "broader registry authorship policy across vendors",
     "richer role-aware heuristic classification that still cannot drift into prose control",
-    "later lifecycle carry beyond the verifier, transition, milestone-boundary, first-read consumer, spec, and re-entry plus initialization/doc-ingest plus repair/migration plus update read-packet and route-separation bridges, including broader seed consumers beyond milestone open, later audit.cjs widening, wider entry-wrapper retrofit, and any later standalone legacy seed migration family beyond uplift-side posture detection",
+    "later lifecycle carry beyond the verifier, transition, milestone-boundary, first-read consumer, spec, and re-entry plus initialization/doc-ingest plus repair/migration plus update read-packet and route-separation bridges, including later audit.cjs widening, wider entry-wrapper retrofit, and any later standalone legacy seed migration family beyond uplift-side posture detection",
     "broader repeated-reinstall durability beyond the first local setup/materialization harden slice"
   ]
 }

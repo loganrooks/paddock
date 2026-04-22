@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "07c0cdb",
+  "basis_commit": "3711cde",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -194,14 +194,14 @@
       "id": "uplift_seed_corpus_posture_contract",
       "path": "tooling/codex/project_uplift.py",
       "validator": "tooling/codex/tests/test_project_uplift.py",
-      "contract_kind": "uplift-side seed corpus posture semantics with durable memory refresh and later migration separation",
+      "contract_kind": "uplift-side seed corpus posture semantics with durable memory refresh, operator-facing visibility, and later migration separation",
       "families_touched": [
         "helper",
         "workflow_output",
         "wrapper",
         "state_continuity"
       ],
-      "claim_boundary": "declares how project uplift scans current versus legacy seed corpus posture, how uplift-project and gsd-uplift-project keep that posture visible, how durable uplift memory preserves it, and how later legacy-seed migration stays separate from detect-only uplift"
+      "claim_boundary": "declares how project uplift scans current versus legacy seed corpus posture, how uplift-project plus gsd-uplift-project keep that posture visible, how progress and resume consume it through the progress-note bridge, how durable uplift memory preserves it, and how later legacy-seed migration stays separate from detect-only uplift"
     }
   ]
 }

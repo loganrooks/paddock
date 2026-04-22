@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "07c0cdb",
+  "basis_commit": "3711cde",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -218,11 +218,13 @@
       "id": "project_uplift",
       "family": "helper",
       "path": "tooling/codex/project_uplift.py",
-      "role": "authoritative uplift producer, compatibility-drift router, and seed-corpus posture scanner",
+      "role": "authoritative uplift producer, compatibility-drift router, seed-corpus posture scanner, and progress-note source for operator-facing seed visibility",
       "support_mode": "roster_plus_producer_report",
       "evidence_refs": [
         "uplift_manifest_current",
         "uplift_seed_corpus_impl_80",
+        "seed_operator_consumer_impl_82",
+        "seed_operator_consumer_contract_tests",
         "project_uplift_contract_tests"
       ]
     },
@@ -306,12 +308,14 @@
       "id": "progress_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/progress.md",
-      "role": "read-only uplift, future-carry, and seed-posture consumer for first-read progress summaries with layered read packet control over primary, route-local, and deeper widening",
+      "role": "read-only uplift, future-carry, and seed-posture consumer for first-read progress summaries, now carrying explicit seed corpus posture through the progress-note bridge",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "uplift_manifest_current",
         "uplift_seed_corpus_impl_80",
+        "seed_operator_consumer_impl_82",
+        "seed_operator_consumer_contract_tests",
         "project_uplift_contract_tests",
         "state_progress_resume_future_carry_impl_62",
         "read_packet_relevance_control_impl_66",
@@ -322,12 +326,14 @@
       "id": "resume_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/resume-project.md",
-      "role": "read-only uplift, future-carry, and seed-posture consumer for first-read re-entry with layered packet control over startup, route-local support, and deeper reread",
+      "role": "read-only uplift, future-carry, and seed-posture consumer for first-read re-entry, now carrying explicit seed corpus posture through the progress-note bridge",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "uplift_manifest_current",
         "uplift_seed_corpus_impl_80",
+        "seed_operator_consumer_impl_82",
+        "seed_operator_consumer_contract_tests",
         "project_uplift_contract_tests",
         "state_progress_resume_future_carry_impl_62",
         "read_packet_relevance_control_impl_66",
@@ -794,10 +800,12 @@
       "id": "helper_to_progress",
       "from": "project_uplift",
       "to": "progress_workflow",
-      "kind": "read_only_json_bridge",
+      "kind": "read_only_json_bridge_with_seed_posture_visibility",
       "support_mode": "semantic_plus_producer_report",
       "evidence_refs": [
         "uplift_manifest_current",
+        "seed_operator_consumer_impl_82",
+        "seed_operator_consumer_contract_tests",
         "runtime_manifest_current",
         "runtime_version_current"
       ],
@@ -807,10 +815,12 @@
       "id": "helper_to_resume",
       "from": "project_uplift",
       "to": "resume_workflow",
-      "kind": "read_only_json_bridge",
+      "kind": "read_only_json_bridge_with_seed_posture_visibility",
       "support_mode": "semantic_plus_producer_report",
       "evidence_refs": [
         "uplift_manifest_current",
+        "seed_operator_consumer_impl_82",
+        "seed_operator_consumer_contract_tests",
         "runtime_manifest_current",
         "runtime_version_current"
       ],
