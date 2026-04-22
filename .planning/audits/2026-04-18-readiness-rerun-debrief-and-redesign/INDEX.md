@@ -138,6 +138,7 @@
   - [intervention-proposals/127-health-uplift-deepen-in-place-harden-follow-through-implementation.md](intervention-proposals/127-health-uplift-deepen-in-place-harden-follow-through-implementation.md)
   - [intervention-proposals/128-entry-runtime-continuity-shared-reference-proposal.md](intervention-proposals/128-entry-runtime-continuity-shared-reference-proposal.md)
   - [intervention-proposals/129-entry-runtime-continuity-shared-reference-first-slice-proposal.md](intervention-proposals/129-entry-runtime-continuity-shared-reference-first-slice-proposal.md)
+  - [intervention-proposals/130-entry-runtime-continuity-shared-reference-first-slice-implementation.md](intervention-proposals/130-entry-runtime-continuity-shared-reference-first-slice-implementation.md)
   - [propagation-audit/46-health-uplift-deepen-in-place-change-triggered-refresh.md](propagation-audit/46-health-uplift-deepen-in-place-change-triggered-refresh.md)
   - [propagation-audit/47-health-uplift-deepen-in-place-harden-change-triggered-refresh.md](propagation-audit/47-health-uplift-deepen-in-place-harden-change-triggered-refresh.md)
   - [propagation-audit/44-transition-state-uplift-continuity-change-triggered-refresh.md](propagation-audit/44-transition-state-uplift-continuity-change-triggered-refresh.md)

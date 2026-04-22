@@ -133,6 +133,7 @@ Status: active proposal/disposition batch
 127. `127-health-uplift-deepen-in-place-harden-follow-through-implementation.md`
 128. `128-entry-runtime-continuity-shared-reference-proposal.md`
 129. `129-entry-runtime-continuity-shared-reference-first-slice-proposal.md`
+130. `130-entry-runtime-continuity-shared-reference-first-slice-implementation.md`
 
 ## Proposal Rule
 
@@ -168,6 +169,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `114` now records the revised next bounded proposal after the completed compatibility-shape reread: annotation posture first, explicit held-scalar versus structural-row split, posture-label discipline around `observed_basis_only`, direct 1.38.3 versus 1.34.2 evidence, and family-6 parallelizability while consumer-chain asymmetry remains downstream.
 - [d:r:i] `115` now keeps the later harness-modifier extraction route explicit too: a separate repo plus npm/`npx` installer is thinkable, but actual extraction stays held until the current uplift/cross-runtime and propagation contracts sharpen farther.
 - [d:r:i] `116` now records the landed first implementation slice cleared by `114`: the compatibility anchor keeps `observed_basis_only`, carries a held `.claude` runtime annotation beside the observed `.codex` basis, refreshes durable uplift memory, and widens the read-only current-runtime consumer chain without opening matrix claims or a standalone multi-runtime carrier.
+- [d:r:i] `130` now records the landed first entry/runtime shared-reference slice cleared by `129`: one dedicated sibling reference, overlay `add` ownership, direct `new-project.md` plus `ingest-docs.md` pointers, explicit four-route-state surfacing grammar, and a kept boundary where `mandatory-initial-read.md` stays grammar-only while `update` plus `gsd-update` and `from-gsd2` remain the next adjacent consumer branch.
 - [d:r:i] `117` now records the post-annotation field-map note that lane-10 has answered: the adjacent field was disclosed before the next proposal narrowed.
 - [d:r:i] `118` now turns lane-10 inheritance into the next bounded cross-runtime proposal: consumer-chain asymmetry travels first inside the compatibility family, the already-landed read-only four stay out of scope, family-6 wider route mapping stays parallelizable, and extraction/distribution remains later.
 - [d:r:i] `119` now records the missing intermediate object lane-11 cleared: a per-carrier classification return that labels the silent-carrier field before any ≤2-carrier implementation slice opens.

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "d7b2d7c",
+  "basis_commit": "3f745a1",
   "contracts": [
     {
       "id": "overlay_ownership_contract",
@@ -281,6 +281,19 @@
         "helper"
       ],
       "claim_boundary": "declares how later contract-changing slices reread the upstream-pristine baseline plus repo-local delta pair before widening into the typed propagation family, how local tooling remains partial visibility instead of whole-network proof, how explicit held boundaries stay visible when adjacent carriers do not move in the same slice, how route-local durable notes prefer existing lane homes, and how helper results sharpen Updated In This Slice versus Held With Explicit Boundary rather than silently closing the route"
+    },
+    {
+      "id": "entry_runtime_uplift_continuity_contract",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/references/entry-runtime-uplift-continuity.md",
+      "validator": "tooling/codex/tests/test_entry_runtime_continuity_shared_reference_contract.py",
+      "contract_kind": "entry-route runtime uplift continuity shared-reference semantics",
+      "families_touched": [
+        "install_overlay",
+        "workflow_output",
+        "reference_behavior",
+        "state_continuity"
+      ],
+      "claim_boundary": "declares how new-project and ingest-docs share one read-only entry/runtime continuity reference, how that reference widens from route-state and optional Project Uplift digest into narrative and typed uplift carriers only when needed, and how entry routes keep observed_basis_only plus held annotation visible without widening mandatory-initial-read or becoming write-side uplift dispatch"
     }
   ]
 }

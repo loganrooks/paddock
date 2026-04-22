@@ -269,4 +269,7 @@ For each lane, keep this tuple explicit:
   - [dispositions/20-entry-runtime-continuity-shared-reference-proposal-reread-inheritance.md](dispositions/20-entry-runtime-continuity-shared-reference-proposal-reread-inheritance.md)
 - [d:r:i] The implementation-side next move is now explicit:
   - [../intervention-proposals/129-entry-runtime-continuity-shared-reference-first-slice-proposal.md](../intervention-proposals/129-entry-runtime-continuity-shared-reference-first-slice-proposal.md)
-- [d:r:i] Keep broader cross-runtime, extraction, and new-carrier movement held until that next bounded choice is reopened explicitly.
+- [d:r:i] That first live slice is now landed:
+  - [../intervention-proposals/130-entry-runtime-continuity-shared-reference-first-slice-implementation.md](../intervention-proposals/130-entry-runtime-continuity-shared-reference-first-slice-implementation.md)
+- [d:r:i] The next adjacent move is now a bounded reread of the landed entry/runtime slice before the later `update` plus `gsd-update` and `from-gsd2` consumer branch is reopened explicitly.
+- [d:r:i] Keep broader cross-runtime, extraction, and new-carrier movement held until that later bounded choice is reopened explicitly.

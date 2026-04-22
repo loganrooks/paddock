@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "basis_commit": "d7b2d7c",
+  "basis_commit": "3f745a1",
   "inherits_from": "artifacts/01-propagation-field-registry-v1.json",
   "families": [
     {
@@ -650,24 +650,28 @@
       "id": "new_project_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/new-project.md",
-      "role": "operator-facing project initialization workflow carrying layered read-packet control over init plus idea context, route-local brownfield widening, and explicit existing-project refresh toward progress then later uplift",
+      "role": "operator-facing project initialization workflow carrying layered read-packet control over init plus idea context, route-local brownfield widening, a sibling entry/runtime continuity reference for read-only observed-basis and held-annotation surfacing when the route state calls for it, and explicit existing-project refresh toward progress then later uplift",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "initialization_ingest_read_packet_impl_68",
-        "initialization_read_packet_contract_tests"
+        "initialization_read_packet_contract_tests",
+        "entry_runtime_continuity_impl_130",
+        "entry_runtime_continuity_tests"
       ]
     },
     {
       "id": "ingest_docs_workflow",
       "family": "workflow_output",
       "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/ingest-docs.md",
-      "role": "operator-facing doc-ingest workflow carrying layered read-packet control over parse or init context, staged discovery and merge widening, and a later repo-local uplift route kept distinct from planning-doc merge",
+      "role": "operator-facing doc-ingest workflow carrying layered read-packet control over parse or init context, staged discovery and merge widening, a sibling entry/runtime continuity reference for read-only observed-basis and held-annotation surfacing when the route state calls for it, and a later repo-local uplift route kept distinct from planning-doc merge",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
         "initialization_ingest_read_packet_impl_68",
-        "initialization_read_packet_contract_tests"
+        "initialization_read_packet_contract_tests",
+        "entry_runtime_continuity_impl_130",
+        "entry_runtime_continuity_tests"
       ]
     },
     {
@@ -913,6 +917,18 @@
         "propagation_review_route_impl_98",
         "propagation_review_route_tests",
         "propagation_review_route_refresh_39"
+      ]
+    },
+    {
+      "id": "entry_runtime_uplift_reference",
+      "family": "reference_behavior",
+      "path": "tooling/portable-gsd/overlay/get-shit-done/references/entry-runtime-uplift-continuity.md",
+      "role": "shared read-only entry/runtime continuity reference guiding new-project and ingest-docs widening from route-state and optional Project Uplift digest toward narrative and typed uplift carriers without widening mandatory-initial-read or turning entry routes into write-side uplift dispatch",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "entry_runtime_continuity_impl_130",
+        "entry_runtime_continuity_tests"
       ]
     }
   ],
@@ -2211,6 +2227,76 @@
       "evidence_refs": [
         "propagation_review_route_impl_98",
         "propagation_review_route_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "overlay_to_entry_runtime_uplift_reference",
+      "from": "overlay_manifest",
+      "to": "entry_runtime_uplift_reference",
+      "kind": "overlay_owns_reference_surface",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "overlay_contract_validation",
+        "entry_runtime_continuity_impl_130"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "entry_runtime_uplift_reference_to_new_project_workflow",
+      "from": "entry_runtime_uplift_reference",
+      "to": "new_project_workflow",
+      "kind": "shared_reference_guides_workflow_reading_control",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "entry_runtime_continuity_impl_130",
+        "entry_runtime_continuity_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "entry_runtime_uplift_reference_to_ingest_docs_workflow",
+      "from": "entry_runtime_uplift_reference",
+      "to": "ingest_docs_workflow",
+      "kind": "shared_reference_guides_workflow_reading_control",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "entry_runtime_continuity_impl_130",
+        "entry_runtime_continuity_tests"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "entry_runtime_uplift_reference_to_state",
+      "from": "entry_runtime_uplift_reference",
+      "to": "state_md",
+      "kind": "shared_reference_points_first_to_compact_state_digest_when_present",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "entry_runtime_continuity_impl_130",
+        "transition_state_uplift_impl_121"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "entry_runtime_uplift_reference_to_uplift_report",
+      "from": "entry_runtime_uplift_reference",
+      "to": "uplift_report_output",
+      "kind": "shared_reference_widens_to_narrative_uplift_carrier",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "entry_runtime_continuity_impl_130"
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "entry_runtime_uplift_reference_to_uplift_manifest",
+      "from": "entry_runtime_uplift_reference",
+      "to": "uplift_manifest_output",
+      "kind": "shared_reference_widens_to_typed_uplift_carrier",
+      "support_mode": "declared_contract_plus_semantic_carry",
+      "evidence_refs": [
+        "entry_runtime_continuity_impl_130"
       ],
       "status": "mapped"
     }
