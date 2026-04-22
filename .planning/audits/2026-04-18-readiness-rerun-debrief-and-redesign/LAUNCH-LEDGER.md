@@ -341,30 +341,18 @@
   - [entry-uplift-audit/outputs/20-entry-runtime-continuity-shared-reference-proposal-reread-opus47-max-r1.md](entry-uplift-audit/outputs/20-entry-runtime-continuity-shared-reference-proposal-reread-opus47-max-r1.md)
 - timing calibration:
   - estimated wall-clock duration: `8-12 minutes`
-  - actual elapsed: `pending`
-  - calibration note: compact proposal reread with live-surface grounding; expected to run longer than the lane-15 same-carrier judgment and shorter than a broad family-mapping lane
+  - actual elapsed: `571.798 seconds`
+  - calibration note: landed comfortably inside the estimate; materially longer than lane `15` and still clearly smaller than a broad family-widening field map
 - disposition:
-  - `pending`
-- requested model / reasoning: `opus[1m]` / `max`
-- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
-- frozen launch basis commit: `a733a1e`
-- launch-truth artifact: [.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/launch-truth/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-launch-truth.md](.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/launch-truth/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-launch-truth.md)
-- prompt artifact: [.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/prompts/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-opus47-max-r1-launch-prompt.md](.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/prompts/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-opus47-max-r1-launch-prompt.md)
-- governing spec: [.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/specs/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-spec.md](.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/specs/13-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-spec.md)
-- governing packet: [.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/packets/19-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-packet.md](.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/packets/19-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-packet.md)
-- output artifact: [.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/outputs/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-opus47-max-r1.md](.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/entry-uplift-audit/outputs/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-opus47-max-r1.md)
-- timing:
-  - retrospective estimate: `10-15 minutes`
-  - actual elapsed: `486.315 seconds`
-  - calibration note: shorter than the corrected `10-15 minute` expectation, much longer than the earlier naive short-poll rhythm; similar bounded Opus rereads should now be expected in the high-single-digit to mid-teen-minute band depending on read-set size and output depth
-- probe summary:
-  - exit code: `0`
-  - session id: `8aab048e-84f6-41a2-80ae-3953eee47d12`
-  - total cost usd: `2.2392630000000002`
-- disposition:
-  - `accept with local revision`
-  - the milestone-boundary shared-reference route remains the next bounded `119` implementation target
-  - next move is the dedicated-reference implementation slice plus the matching compatibility-family refresh and governance-trace note
+  - `accept with local revision and implementation-side follow-through`
+  - branch choice in `128` stands
+  - keep the first live consumer pair at `new-project.md` plus `ingest-docs.md`
+  - revise before implementation:
+    - keep `mandatory-initial-read.md` grammar-only
+    - concretize four route-state triggers
+    - tighten verification gates to match the `122` shared-reference precedent
+    - add the explicit boundary against silently widening `mandatory-initial-read.md`
+  - next move: revise `128`, open implementation-side proposal `129`, keep `update` and `from-gsd2` as the next adjacent consumer branch
 
 ## 2026-04-21 `propagation-audit-lane-01`
 

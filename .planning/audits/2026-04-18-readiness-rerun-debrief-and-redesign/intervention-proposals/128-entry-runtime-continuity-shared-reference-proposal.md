@@ -32,13 +32,15 @@ Status: active bounded proposal
   - [tooling/portable-gsd/overlay/get-shit-done/workflows/ingest-docs.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/ingest-docs.md)
 - [e:c+i] `update.md` still carries a broader runtime/install frontier across `claude`, `opencode`, `gemini`, `kilo`, and `codex`. Source:
   - [tooling/portable-gsd/overlay/get-shit-done/workflows/update.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/update.md)
-- [d:r:i] That broader runtime language is not automatically wrong for installer truth, but it is broader than the repo-local operator horizon we actually care about here.
-- [d:r:i] The shared-reference branch is therefore not about denying install/runtime reality.
-- [d:r:i] It is about giving the entry surfaces a narrower, more durable repo-local continuity doctrine so later uplift, ingestion, migration, and update work does not keep rediscovering the same `.codex` / held `.claude` posture from scratch.
+- [d:r:i] That broader runtime language is not automatically wrong for installer truth.
+- [d:r:i] The shared-reference branch is not about rewriting that installer/runtime reality in the same slice.
+- [d:r:i] It is about adding one bounded repo-local continuity carrier at entry routes so later uplift, ingestion, migration, and update work does not keep rediscovering the same `.codex` / held `.claude` posture from scratch.
 
 ## Proposed Shared Reference Family
 
 - [d:r:i] Add one repo-local shared reference under the GSD references layer for entry/runtime continuity.
+- [d:r:i] Keep `mandatory-initial-read.md` grammar-only in this slice.
+- [d:r:i] The new reference should be a sibling surface pointed at directly by consumer workflows, mirroring the shared-reference posture already proven by `122/123`.
 - [d:r:i] That reference should carry:
   - the repo-local provider horizon:
     - observed `.codex` basis
@@ -56,20 +58,26 @@ Status: active bounded proposal
 
 - [d:r:i] The first implementation slice should stay at:
   - the new shared reference
-  - `mandatory-initial-read.md`
   - `new-project.md`
   - `ingest-docs.md`
+- [d:r:i] `mandatory-initial-read.md` remains the grammar surface in this slice.
+- [d:r:i] `new-project.md` and `ingest-docs.md` should point directly at the sibling entry/runtime continuity reference rather than turning `mandatory-initial-read.md` into a grammar-plus-content-pointer surface.
 - [d:r:i] `new-project` and `ingest-docs` are the first live consumers because they are the earliest repo-entry routes and they currently still widen attention across provider families that do not matter operationally here.
 - [d:r:i] The first slice should teach those routes:
   - when to surface the repo-local `.codex` / `.claude` continuity question
   - when to stay at ordinary entry behavior
   - how to keep read-only continuity distinct from later write-side uplift
+- [d:r:i] The first slice should concretize `When To Surface` for four route states before implementation opens:
+  - greenfield `new-project.md`
+  - brownfield `new-project.md`
+  - new-mode `ingest-docs.md`
+  - merge-mode `ingest-docs.md`
 - [d:r:i] The first slice should not yet make `update` or `from-gsd2` inherit the new reference in the same batch.
 
 ## Later Adjacent Slice Held Explicitly
 
 - [d:r:i] `update` plus `gsd-update`
-- [d:r:i] `from-gsd2` plus `gsd-from-gsd2`
+- [d:r:i] `from-gsd2` skill-wrapper route
 - [d:r:i] Those two later consumers should attach after the shared-reference shape is proven at the earlier entry pair, not in the same first implementation batch.
 
 ## What This Proposal Does Not Authorize
@@ -78,25 +86,27 @@ Status: active bounded proposal
 - [d:r:i] No `.claude` route translation or parity push.
 - [d:r:i] No helper-side widening of `project_uplift.py` beyond the already-held annotation discipline.
 - [d:r:i] No sweeping rewrite of low-level installer/runtime detection just to erase wider provider names.
+- [d:r:i] No silent widening of `mandatory-initial-read.md` from grammar-only to grammar-plus-content-pointer without a separate reopened proposal.
 - [d:r:i] No extraction or npm/`npx` work from `115`.
 
 ## Verification Gates
 
 - [d:r:i] The first implementation slice must add focused contract coverage for:
   - shared-reference presence and read shape
-  - `mandatory-initial-read.md` carrying the new reference in the right packet tier
+  - `mandatory-initial-read.md` staying grammar-only while `new-project.md` and `ingest-docs.md` point directly at the sibling reference
+  - concrete `When To Surface` triggers for greenfield/brownfield `new-project.md` and new/merge `ingest-docs.md`
   - `new-project.md` and `ingest-docs.md` reading the new reference without collapsing read-only continuity into automatic uplift
   - `.codex` / `.claude` horizon discipline staying explicit in the repo-local operator layer
 - [d:r:i] The slice must refresh propagation carriers in the same batch because it will move:
   - one shared reference
-  - one shared read-packet doctrine surface
   - two entry workflow consumers
+- [d:r:i] The propagation refresh should land as the sibling after `47`, not as backfill into an older lifecycle carrier.
+- [d:r:i] The slice should also land one inheritance note and one implementation note so the governance trace matches the earlier shared-reference precedent.
 
 ## Current Consequence
 
 - [d:r:i] The next bounded move after this proposal should be one implementation slice for:
   - the shared reference
-  - `mandatory-initial-read.md`
   - `new-project.md`
   - `ingest-docs.md`
 - [d:r:i] `update` and `from-gsd2` should stay as the next adjacent branch after that first proof, not be silently absorbed into the same initial batch.

@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: launched launch-truth capture
+Status: completed launch-truth capture
 
 # Entry Runtime Continuity Shared-Reference Proposal Reread Launch Truth
 
@@ -28,8 +28,23 @@ Status: launched launch-truth capture
 
 - [d:r:i] Pre-launch estimate:
   - `8-12 minutes`
+- [e:c+i] Actual elapsed seconds:
+  - `571.798`
 - [d:r:i] Calibration note:
-  - bounded proposal reread over one newly opened branch plus five live surfaces; longer than the lane-15 same-carrier harden judgment, shorter than a full family-widening topology lane
+  - landed inside the estimate; longer than lane `15` and still clearly smaller than a broad family-widening topology lane
+
+## Probe Summary
+
+- [e:c+i] Exit code:
+  - `0`
+- [e:c+i] Session id:
+  - `1c2136c7-2e91-4343-9784-aa3e17f710d0`
+- [e:c+i] Total cost usd:
+  - `3.11486775`
+- [e:c+i] Probe artifacts:
+  - stream: `/tmp/entry-runtime-continuity-shared-reference-proposal-reread-opus47-max-r1-20260422-044046.7wln70d8.stream.jsonl`
+  - stderr: `/tmp/entry-runtime-continuity-shared-reference-proposal-reread-opus47-max-r1-20260422-044046.yuinumar.stderr.log`
+  - debug: `/tmp/entry-runtime-continuity-shared-reference-proposal-reread-opus47-max-r1-20260422-044046._c1riz6k.debug.log`
 
 ## Output Path
 
