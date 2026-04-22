@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread; lane-07 completed and locally inherited after cross-runtime first-exercise reread; lane-08 completed and locally inherited after concern-family split reread; lane-09 completed and locally inherited after compatibility-shape reread; lane-10 completed and locally inherited after post-annotation next-move reread
+Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread; lane-07 completed and locally inherited after cross-runtime first-exercise reread; lane-08 completed and locally inherited after concern-family split reread; lane-09 completed and locally inherited after compatibility-shape reread; lane-10 completed and locally inherited after post-annotation next-move reread; lane-11 completed and locally inherited after consumer-chain proposal reread
 
 # Entry Uplift Audit
 
@@ -175,6 +175,21 @@ For each lane, keep this tuple explicit:
 - local inheritance:
   - [dispositions/14-uplift-cross-runtime-post-annotation-next-move-inheritance.md](dispositions/14-uplift-cross-runtime-post-annotation-next-move-inheritance.md)
 
+## Lane 11
+
+- packet:
+  - [packets/17-uplift-consumer-chain-asymmetry-proposal-reread-packet.md](packets/17-uplift-consumer-chain-asymmetry-proposal-reread-packet.md)
+- spec:
+  - [specs/11-uplift-consumer-chain-asymmetry-proposal-reread-spec.md](specs/11-uplift-consumer-chain-asymmetry-proposal-reread-spec.md)
+- prompt:
+  - [prompts/11-uplift-consumer-chain-asymmetry-proposal-reread-opus47-max-r1-launch-prompt.md](prompts/11-uplift-consumer-chain-asymmetry-proposal-reread-opus47-max-r1-launch-prompt.md)
+- launch-truth:
+  - [launch-truth/11-uplift-consumer-chain-asymmetry-proposal-reread-launch-truth.md](launch-truth/11-uplift-consumer-chain-asymmetry-proposal-reread-launch-truth.md)
+- outputs:
+  - [outputs/15-uplift-consumer-chain-asymmetry-proposal-reread-opus47-max-r1.md](outputs/15-uplift-consumer-chain-asymmetry-proposal-reread-opus47-max-r1.md)
+- local inheritance:
+  - [dispositions/15-uplift-consumer-chain-asymmetry-proposal-reread-inheritance.md](dispositions/15-uplift-consumer-chain-asymmetry-proposal-reread-inheritance.md)
+
 ## Current Adjacent Move
 
 - [d:r:i] The uplift-assist family no longer points first toward a live route hook.
@@ -224,6 +239,6 @@ For each lane, keep this tuple explicit:
 - [d:r:i] The compatibility-family widening-shape proposal in:
   - [../intervention-proposals/114-uplift-cross-runtime-compatibility-widening-shape-proposal.md](../intervention-proposals/114-uplift-cross-runtime-compatibility-widening-shape-proposal.md)
   is now no longer the active next object by itself; its first slice landed in `116`, and lane-10 has now inherited the adjacent field opened by that slice.
-- [d:r:i] The current adjacent move is now the bounded consumer-chain asymmetry proposal in:
-  - [../intervention-proposals/118-uplift-consumer-chain-asymmetry-next-proposal.md](../intervention-proposals/118-uplift-consumer-chain-asymmetry-next-proposal.md)
-- [d:r:i] Lane-10 keeps family-6 wider route mapping parallelizable, while live `.claude` translation, compatibility-matrix claims, composition judgment, and cross-repo extraction remain held later.
+- [d:r:i] The current adjacent move is now the per-carrier classification return in:
+  - [../intervention-proposals/119-uplift-consumer-chain-asymmetry-classification-return.md](../intervention-proposals/119-uplift-consumer-chain-asymmetry-classification-return.md)
+- [d:r:i] Lane-11 keeps the bounded consumer-chain proposal `118`, adds setup/materialization plus helper-asymmetry pressure directly to its field, and clears the next sequencing rule: classification return first, then a ≤2-carrier implementation slice, while family-6 wider route mapping and later extraction remain separate.

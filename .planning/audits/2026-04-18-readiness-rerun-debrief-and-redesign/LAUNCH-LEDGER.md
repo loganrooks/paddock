@@ -313,6 +313,33 @@
   - family-6 wider route mapping remains parallelizable
   - structural-row, typed carrier, translation, and extraction remain later
 
+## 2026-04-22 `entry-uplift-audit-lane-11`
+
+- date: `2026-04-22`
+- purpose: bounded reread of the `118` consumer-chain asymmetry proposal against the live helper/output chain and the named propagation carrier frontier
+- frozen launch basis commit: `86e9bb9`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local prompt/spec path, `--dangerously-skip-permissions`
+- launch-truth artifact: [entry-uplift-audit/launch-truth/11-uplift-consumer-chain-asymmetry-proposal-reread-launch-truth.md](entry-uplift-audit/launch-truth/11-uplift-consumer-chain-asymmetry-proposal-reread-launch-truth.md)
+- prompt artifact: [entry-uplift-audit/prompts/11-uplift-consumer-chain-asymmetry-proposal-reread-opus47-max-r1-launch-prompt.md](entry-uplift-audit/prompts/11-uplift-consumer-chain-asymmetry-proposal-reread-opus47-max-r1-launch-prompt.md)
+- governing spec: [entry-uplift-audit/specs/11-uplift-consumer-chain-asymmetry-proposal-reread-spec.md](entry-uplift-audit/specs/11-uplift-consumer-chain-asymmetry-proposal-reread-spec.md)
+- governing packet: [entry-uplift-audit/packets/17-uplift-consumer-chain-asymmetry-proposal-reread-packet.md](entry-uplift-audit/packets/17-uplift-consumer-chain-asymmetry-proposal-reread-packet.md)
+- output artifact: [entry-uplift-audit/outputs/15-uplift-consumer-chain-asymmetry-proposal-reread-opus47-max-r1.md](entry-uplift-audit/outputs/15-uplift-consumer-chain-asymmetry-proposal-reread-opus47-max-r1.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `419.210`
+  - session id: `f3b0ace9-955b-48b6-8e39-ebfc8ea1d98e`
+  - total cost usd: `2.7675184999999995`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/uplift-consumer-chain-asymmetry-proposal-reread-opus47-max-r1-20260422-022356.ex8vkwbl.stream.jsonl`
+    - `/tmp/uplift-consumer-chain-asymmetry-proposal-reread-opus47-max-r1-20260422-022356.7nq97rfb.stderr.log`
+    - `/tmp/uplift-consumer-chain-asymmetry-proposal-reread-opus47-max-r1-20260422-022356.eaa9nxox.debug.log`
+- disposition:
+  - [entry-uplift-audit/dispositions/15-uplift-consumer-chain-asymmetry-proposal-reread-inheritance.md](entry-uplift-audit/dispositions/15-uplift-consumer-chain-asymmetry-proposal-reread-inheritance.md)
+  - `accept with local revision`
+  - `118` remains the right proposal, but it now carries setup/materialization, surfacing-direction, helper-asymmetry, and tighter out-of-scope/test-frontier discipline
+  - the next internal object is the per-carrier classification return in `119`, then a ≤2-carrier implementation slice
+
 ## 2026-04-21 `propagation-audit-lane-03`
 
 - date: `2026-04-21`

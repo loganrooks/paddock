@@ -39,6 +39,7 @@ Status: active bounded proposal
   - `40`
   - `43`
 - [d:r:i] At minimum, the proposal should inspect silent or still-uneven carriers across:
+  - setup / materialization bridge
   - transition lifecycle
   - milestone-boundary lifecycle
   - spec lifecycle
@@ -53,10 +54,17 @@ Status: active bounded proposal
   - `attach through a shared reference`
   - `explicitly held`
 - [d:r:i] The proposal should say why the chosen classification is the right fit for that carrier family, not just assign labels.
+- [d:r:i] When materially relevant, the proposal should also keep surfacing direction explicit:
+  - `read-only`
+  - `write-recommending`
+- [d:r:i] The proposal must not flatten those two directions into one generic inheritance move.
 
 ## What Must Remain Explicit
 
 - [d:r:i] Preserve `compatibility_posture: observed_basis_only`.
+- [d:r:i] Keep the helper-side asymmetry explicit:
+  - the runtime detection frontier is wider
+  - the held-runtime annotation reader is narrower and currently `.claude`-specific
 - [d:r:i] Keep held-runtime annotation distinct from:
   - dual-basis relabel
   - typed standalone carrier
@@ -73,6 +81,8 @@ Status: active bounded proposal
 - [d:r:i] No typed multi-runtime carrier.
 - [d:r:i] No compatibility matrix, version-window, or upstream-template-drift compatibility claim.
 - [d:r:i] No extraction or npm/`npx` implementation work.
+- [d:r:i] No silent widening of `compatibility_drift_reasons` into a broader write-side dispatcher.
+- [d:r:i] No silent promotion of scalar summary fields into downstream structural columns.
 
 ## Verification Gates
 
@@ -80,6 +90,8 @@ Status: active bounded proposal
 - [d:r:i] The proposal must keep the already-landed read-only four out of scope.
 - [d:r:i] The proposal must identify silent carriers concretely enough that a later implementation slice could travel without re-discovering the same field.
 - [d:r:i] The proposal must leave later structural-row, typed-carrier, translation, and extraction work explicitly later rather than silently forgotten.
+- [d:r:i] The proposal must keep family-6 inventory recoverable rather than letting consumer-chain classification silently answer family-6's registry / translation / doctrine split.
+- [d:r:i] The proposal must keep test-frontier widening per-carrier rather than implying one sweeping retrofit.
 
 ## Current Consequence
 
@@ -88,4 +100,4 @@ Status: active bounded proposal
   - `116` landed the first slice
   - lane `10` judged the adjacent field
   - `118` now turns that result into the next proposal
-- [d:r:i] If `118` is accepted, the next move after it should be one bounded implementation slice for the selected silent carriers, with family-6 still openable in parallel.
+- [d:r:i] If `118` is accepted, the next move after it should be one per-carrier classification return, then one bounded implementation slice for a ≤2-carrier subset, with family-6 still openable in parallel.

@@ -47,7 +47,7 @@ Status: active durable register
 - [d:r:i] Explicit canon-absorption use on later landed intervention families
 - [d:r:i] Bounded uplift-agent-assist patterning that keeps composition-layer judgment in the parent thread while delegation sharpens narrower uplift subproblems
 - [d:r:i] After the first three exercised uplift-assist patterns, the landed narrow route pointer, the landed docs-governance runtime-proof, the first cross-runtime packet exercise, the completed Opus widening reread, and the completed concern-family split lane, the compatibility-family widening-shape proposal in `114` is now no longer just prospective; its first slice landed in `116`
-- [d:r:i] After the first compatibility-family implementation slice in `116` and the completed post-annotation reread in lane `10`, the next bounded move is the consumer-chain asymmetry proposal in `118`, while family-6 wider route mapping remains parallelizable and extraction/distribution remains later
+- [d:r:i] After the first compatibility-family implementation slice in `116`, the completed post-annotation reread in lane `10`, and the proposal reread in lane `11`, the next bounded move is no longer direct implementation; it is the per-carrier classification return in `119`, while family-6 wider route mapping remains parallelizable and extraction/distribution remains later
 - [d:r:i] Keep the later harness-modifier extraction/distribution route explicit through `115`, but hold actual repo/package split until the present uplift/cross-runtime and propagation contracts travel farther
 
 ## Ownerless Concerns

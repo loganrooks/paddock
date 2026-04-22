@@ -154,6 +154,7 @@ Status: active inventory
 - `intervention-proposals/44-project-uplift-compatibility-consumer-follow-through.md`
 - `intervention-proposals/116-uplift-compatibility-annotation-first-slice-implementation.md`
 - `intervention-proposals/118-uplift-consumer-chain-asymmetry-next-proposal.md`
+- `intervention-proposals/119-uplift-consumer-chain-asymmetry-classification-return.md`
 - repo-local uplift outputs:
   - `.planning/UPLIFT-REPORT.md`
   - `.planning/UPLIFT-MANIFEST.json`

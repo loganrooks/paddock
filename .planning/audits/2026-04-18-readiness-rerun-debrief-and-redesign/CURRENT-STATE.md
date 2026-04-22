@@ -55,7 +55,7 @@ Status: active governing synthesis
 - [d:r:i] The next adjacent move after that widening is no longer the compatibility-shape question in `114`; that shape has already landed through `116`, and lane `10` now clears the next bounded proposal in `118`, not direct cross-runtime composition and not immediate `.claude` route translation.
 - [d:r:i] The uplift family now also carries an embedded observed-basis compatibility anchor through `UPLIFT-REPORT.md`, `UPLIFT-MANIFEST.json`, and `STATE.md` rather than leaving compatibility only as an abstract later question.
 - [d:r:i] That compatibility anchor now also reaches the live read-only consumer chain: `progress-note` routes runtime-basis movement toward `$gsd-uplift-project --write`, and `progress` / `resume-project` inherit that route instead of flattening the movement into `Continue with current routing.`
-- [d:r:i] The next bounded cross-runtime move is still inside proposal space, not live mutation: after `114` chose the widening shape, `116` landed the first slice, and lane `10` judged the adjacent field, `118` now opens the consumer-chain asymmetry proposal while preserving `compatibility_posture: observed_basis_only` and leaving family-6 wider route mapping parallelizable instead of silently sequenced behind the compatibility-family route.
+- [d:r:i] The next bounded cross-runtime move is still inside proposal space, not live mutation: after `114` chose the widening shape, `116` landed the first slice, lane `10` judged the adjacent field, and lane `11` sharpened `118`, the immediate next internal object is now the per-carrier classification return in `119` rather than a direct implementation slice.
 - [d:r:i] A later cross-repo/package route is now explicit too: `115` keeps npm/`npx`-style extraction thinkable, but holds actual repo split and installer work until the current uplift/cross-runtime and propagation contracts sharpen farther.
 - [d:r:i] The propagation family now also has one concrete adjacent follow-through: `resume-project` is a second live uplift consumer through tracked overlay carry and installer-backed materialization.
 - [d:r:i] The first bounded external reread of that stronger chain is now completed and inherited. The accepted next strengthening routes are JSON-to-prose contract testing, held-later status typing, read-only consumer skill-edge typing, chain-flow disclosure, and governance/inventory disclosure upgrades.
@@ -110,7 +110,7 @@ Status: active governing synthesis
 - [d:r:i] The nearest adjacent move for the uplift family is now explicit:
   - use the hardened signal layer plus the completed cross-runtime first packet, widening reread, and concern-family split lane as the active baseline
   - keep the newly separated cross-runtime concern families explicit
-  - move next through the bounded consumer-chain asymmetry proposal in `118` before any live translation, compatibility-matrix claim, composition judgment, or cross-repo extraction move
+  - move next through the bounded consumer-chain asymmetry proposal in `118`, then the per-carrier classification return in `119`, before any live translation, compatibility-matrix claim, composition judgment, or cross-repo extraction move
 - [d:r:i] The broader propagation question is now also explicit:
   - the bounded `resume-project` second-consumer slice is now landed
   - the first bounded propagation reread lane is now completed and inherited
@@ -146,10 +146,10 @@ Status: active governing synthesis
 
 ## Live Open Questions
 
-- [o:r:i] After the landed held-scalar slice in `116` and the lane-10 field map, which silent write-side and operator-routing carriers inside the compatibility family should now:
-  - deepen in place
-  - attach through a shared reference
-  - or remain explicitly held
+- [o:r:i] After the lane-11 reread and the local classification return in `119`, which ≤2-carrier subset should open first for the initial implementation slice:
+  - `transition.md` + `templates/state.md`
+  - `new-milestone.md` + `complete-milestone.md` through a shared reference
+  - or `health.md`
 - [o:r:i] How should family-6 wider route-asymmetry mapping travel in parallel with `118` without collapsing into route-translation appetite or hidden parity pressure?
 - [o:r:i] How should the sharpened propagation disclosure batch land across `08`, companion family docs, and discovery/governance surfaces so the field stays more explicit instead of re-blending under later edits?
 - [o:r:i] How should the recomputed rerun-floor rule family be landed into the actual carrying surfaces?
