@@ -26,8 +26,8 @@ Status: active bounded proposal
 - [d:r:i] This proposal explicitly excludes the already-landed read-only four:
   - [progress.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/progress.md)
   - [resume-project.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/resume-project.md)
-  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md)
-  - [gsd-uplift-project/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/skills/gsd-uplift-project/SKILL.md)
+  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/uplift-project.md)
+  - [gsd-uplift-project/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/skills/gsd-uplift-project/SKILL.md)
 - [d:r:i] Those carriers are already the covered side of the asymmetry. The proposal concerns the still-silent neighboring carriers, not a re-touch of the read-only four.
 
 ## Inventory Frontier

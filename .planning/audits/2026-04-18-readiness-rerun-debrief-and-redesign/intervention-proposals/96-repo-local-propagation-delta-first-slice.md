@@ -30,8 +30,8 @@ Status: landed first delta slice
 
 - [e:c+i] Repo-local adds a new composition-layer workflow and wrapper family that pristine upstream does not ship:
   - [project_uplift.py](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/project_uplift.py)
-  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md)
-  - [gsd-uplift-project/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/skills/gsd-uplift-project/SKILL.md)
+  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/uplift-project.md)
+  - [gsd-uplift-project/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/skills/gsd-uplift-project/SKILL.md)
   - [UPLIFT-REPORT.md](/home/rookslog/workspace/projects/prix-guesser/.planning/UPLIFT-REPORT.md)
   - [UPLIFT-MANIFEST.json](/home/rookslog/workspace/projects/prix-guesser/.planning/UPLIFT-MANIFEST.json)
 - [d:r:i] This family does not replace upstream entry surfaces.
@@ -40,8 +40,8 @@ Status: landed first delta slice
 ### 2. Seed Specialist And Operator-Facing Bridge
 
 - [e:c+i] Repo-local adds a specialist seed-migration route that pristine upstream does not ship:
-  - [seed-migration-inventory.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/seed-migration-inventory.md)
-  - [gsd-seed-migration-inventory/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/skills/gsd-seed-migration-inventory/SKILL.md)
+  - [seed-migration-inventory.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/seed-migration-inventory.md)
+  - [gsd-seed-migration-inventory/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/skills/gsd-seed-migration-inventory/SKILL.md)
 - [e:c+i] Repo-local also widens upstream `progress` and `resume-project` through the uplift note so routine re-entry can disclose:
   - seed posture
   - migration candidate count
@@ -99,8 +99,8 @@ Status: landed first delta slice
 ### 5. Propagation Review Route
 
 - [e:c+i] Repo-local now adds one operator-facing review route that pristine upstream does not ship:
-  - [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md)
-  - [gsd-propagation-review/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/skills/gsd-propagation-review/SKILL.md)
+  - [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/propagation-review.md)
+  - [gsd-propagation-review/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/skills/gsd-propagation-review/SKILL.md)
   - [97-propagation-review-route-first-slice-proposal.md](97-propagation-review-route-first-slice-proposal.md)
   - [98-propagation-review-route-first-slice-implementation.md](98-propagation-review-route-first-slice-implementation.md)
 - [d:r:i] This route reads the baseline/delta pair together with the typed propagation family, then uses repo-local tooling only as partial visibility while keeping contextual reread and explicit hold/update disposition sovereign.
@@ -132,6 +132,6 @@ Status: landed first delta slice
   - [95-upstream-pristine-propagation-baseline-first-slice.md](95-upstream-pristine-propagation-baseline-first-slice.md)
   - this artifact
 - [d:r:i] The repo also now has one operator-facing review route for using that pair on concrete multi-family slices:
-  - [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md)
-  - [gsd-propagation-review/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/skills/gsd-propagation-review/SKILL.md)
+  - [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/propagation-review.md)
+  - [gsd-propagation-review/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/skills/gsd-propagation-review/SKILL.md)
 - [d:r:i] The next adjacent move in this family should decide whether to reread and sharpen that new route or widen later into the bounded uplift agent-assist question that `93` still keeps explicit.

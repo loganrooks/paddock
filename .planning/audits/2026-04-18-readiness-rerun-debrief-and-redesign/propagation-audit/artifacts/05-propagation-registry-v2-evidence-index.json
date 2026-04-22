@@ -523,6 +523,18 @@
       "evidence_lane": "audit_artifact",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/artifacts/03-overlay-embedded-host-path-scan.md",
       "note": "contextualized blocker scan over host audit-workspace embeds, helper-home drift, host-local compact-prompt bodies, and non-blocking generic planning-canon mentions inside the overlay frontier"
+    },
+    {
+      "id": "overlay_first_rehome_impl_148",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/148-harness-modifier-first-overlay-filesystem-rehome-implementation.md",
+      "note": "landed first specialist overlay source split carrying authoritative source files under harness_modifier/overlay, explicit overlay-manifest source-path indirection, and package-owned helper shims for the moved workflow shells"
+    },
+    {
+      "id": "overlay_first_rehome_refresh_55",
+      "evidence_lane": "change_triggered_refresh",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/55-harness-modifier-first-overlay-filesystem-rehome-change-triggered-refresh.md",
+      "note": "change-triggered refresh that keeps the first specialist source split explicit across overlay roster, install-target contract, materialization helper, moved workflow/wrapper sources, and package-owned helper shims"
     }
   ]
 }

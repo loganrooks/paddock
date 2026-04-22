@@ -46,10 +46,16 @@ Status: active opening audit family
   - [harness_modifier/overlay/ROSTER.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/ROSTER.md)
   - [artifacts/03-overlay-embedded-host-path-scan.md](artifacts/03-overlay-embedded-host-path-scan.md)
   - [../intervention-proposals/146-harness-modifier-overlay-roster-and-embedded-host-path-scan-implementation.md](../intervention-proposals/146-harness-modifier-overlay-roster-and-embedded-host-path-scan-implementation.md)
-- [d:r:i] The next extraction move is now the first actual overlay filesystem-rehome proposal:
+- [d:r:i] That proposal is now landed too through:
   - [../intervention-proposals/147-harness-modifier-first-overlay-filesystem-rehome-proposal.md](../intervention-proposals/147-harness-modifier-first-overlay-filesystem-rehome-proposal.md)
-  - still bounded to the specialist trio only
-  - compact-prompt split, overwrite-family migration, and standalone repo design remain later
+  - [../intervention-proposals/148-harness-modifier-first-overlay-filesystem-rehome-implementation.md](../intervention-proposals/148-harness-modifier-first-overlay-filesystem-rehome-implementation.md)
+  - [../propagation-audit/55-harness-modifier-first-overlay-filesystem-rehome-change-triggered-refresh.md](../propagation-audit/55-harness-modifier-first-overlay-filesystem-rehome-change-triggered-refresh.md)
+- [d:r:i] The first specialist overlay tranche now uses:
+  - modifier-owned source files under `harness_modifier/overlay/`
+  - stable install targets still declared at `tooling/portable-gsd/overlay/OVERLAY-MANIFEST.json`
+  - explicit source-path indirection instead of duplicated overlay ownership
+- [d:r:i] The next extraction move is now a bounded reread of the landed specialist source split before a second overlay tranche is chosen.
+- [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern
 

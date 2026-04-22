@@ -25,7 +25,7 @@ Status: completed reread output (opus47-max-r1)
 
 ### 3. Output-lane home discipline inherited from the propagation-review route
 
-- [e:c+i] `103` routes assist outputs through the same lane-home discipline that the propagation-review harden follow-through landed: `outputs/` for preserved external/composite returns, `dispositions/` for local inheritance or judgment, `*-change-triggered-refresh.md` when the note itself becomes a propagation carrier. Source: [103-uplift-agent-assist-patterns.md:90-93](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/103-uplift-agent-assist-patterns.md:90), inheriting from [propagation-review.md:123-130](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md:123) and the harden slice recorded at [100-propagation-review-route-harden-follow-through-implementation.md:18-21](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/100-propagation-review-route-harden-follow-through-implementation.md:18).
+- [e:c+i] `103` routes assist outputs through the same lane-home discipline that the propagation-review harden follow-through landed: `outputs/` for preserved external/composite returns, `dispositions/` for local inheritance or judgment, `*-change-triggered-refresh.md` when the note itself becomes a propagation carrier. Source: [103-uplift-agent-assist-patterns.md:90-93](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/103-uplift-agent-assist-patterns.md:90), inheriting from [propagation-review.md:123-130](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/propagation-review.md:123) and the harden slice recorded at [100-propagation-review-route-harden-follow-through-implementation.md:18-21](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/100-propagation-review-route-harden-follow-through-implementation.md:18).
 - [d:r:i] That inheritance is the first place the pair commits to actually sharing a durable-note grammar with an adjacent repo-local route rather than inventing a new `uplift-assist-output/` path. Sharing the same lane-home vocabulary means later readers do not have to reconstruct where a delegated packet landed — the placement rule is the same as for propagation-review notes.
 
 ### 4. Explicit disposition vocabulary held in the parent thread
@@ -63,7 +63,7 @@ Status: completed reread output (opus47-max-r1)
 
 ### Output-lane placement maps to existing propagation-review lane homes
 
-- [e:c+i] `103:89-93` routes uplift assist outputs to the same `outputs/`, `dispositions/`, `*-change-triggered-refresh.md` lane homes that [propagation-review.md:123-130](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md:123) uses.
+- [e:c+i] `103:89-93` routes uplift assist outputs to the same `outputs/`, `dispositions/`, `*-change-triggered-refresh.md` lane homes that [propagation-review.md:123-130](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/propagation-review.md:123) uses.
 - [d:r:i] The boundary is sharpest where it coincides with an existing route's durable-note placement rule. A reader following a later delegated packet will find it where they already look for propagation-review dispositions, rather than in a new `uplift-assist-output/` bucket.
 
 ## Which Assist Patterns Look Most Coherently Bounded
@@ -123,7 +123,7 @@ Status: completed reread output (opus47-max-r1)
 
 ### 6. The live routes do not yet cite `102` or `103`
 
-- [e:c+i] [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md) and [gsd-uplift-project/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/skills/gsd-uplift-project/SKILL.md) do not reference `102` or `103`.
+- [e:c+i] [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/uplift-project.md) and [gsd-uplift-project/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/skills/gsd-uplift-project/SKILL.md) do not reference `102` or `103`.
 - [d:r:i] This is consistent with the held-later route-note update named in `102:40-42` and the "no automatic spawn" boundary in `102:76`. It is also a non-carry for a reader coming from the live uplift route: someone running `$gsd-uplift-project` today will not encounter any pointer toward `103`'s assist patterns even at the operator's explicit request. The pair carries its doctrine inside the audit workspace, not on the live route surface. That is the right first-slice posture but it also means the reference carry thins at the live-route boundary until the later opt-in hook lands.
 
 ## Strongest First Live Implementation Move

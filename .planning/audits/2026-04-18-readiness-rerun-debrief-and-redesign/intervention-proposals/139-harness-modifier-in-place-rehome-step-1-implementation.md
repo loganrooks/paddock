@@ -42,7 +42,7 @@ Status: landed
   - [.planning/CLAUDE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/CLAUDE.md:14)
   - [tooling/codex/README.md](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/README.md:1)
   - [tooling/portable-gsd/README.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/README.md:44)
-  - [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md:63)
+  - [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/propagation-review.md:63)
 - [d:r:i] Focused moved-helper tests now import from `harness_modifier`.
 
 ## Why This Shape

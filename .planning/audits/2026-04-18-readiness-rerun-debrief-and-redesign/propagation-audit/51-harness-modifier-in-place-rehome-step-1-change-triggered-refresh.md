@@ -32,7 +32,7 @@ Status: landed change-triggered refresh
   - [tooling/codex/README.md](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/README.md:1)
   - [tooling/portable-gsd/README.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/README.md:44)
 - [d:r:i] workflow-side operator route:
-  - [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md:63)
+  - [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/propagation-review.md:63)
 - [d:r:i] typed propagation registry `v2` path carriers:
   - [14-propagation-registry-generation-and-seeding-policy.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/14-propagation-registry-generation-and-seeding-policy.md:33)
   - [artifacts/03-propagation-registry-v2-declared-contracts.json](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/artifacts/03-propagation-registry-v2-declared-contracts.json:1)

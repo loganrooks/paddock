@@ -58,8 +58,8 @@ Status: active packet
 29. [test_seed_migration_pointer_bridge_e2e.py](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/tests/test_seed_migration_pointer_bridge_e2e.py)
 30. [progress.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/progress.md)
 31. [resume-project.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/resume-project.md)
-32. [seed-migration-inventory.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/seed-migration-inventory.md)
-33. [gsd-seed-migration-inventory/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/skills/gsd-seed-migration-inventory/SKILL.md)
+32. [seed-migration-inventory.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/seed-migration-inventory.md)
+33. [gsd-seed-migration-inventory/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/skills/gsd-seed-migration-inventory/SKILL.md)
 34. [UPLIFT-HELD-LATER.md](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/UPLIFT-HELD-LATER.md)
 
 ### Live Repo Outputs

@@ -24,7 +24,7 @@ Status: landed compatibility anchor slice
   - [UPLIFT-REPORT.md](/home/rookslog/workspace/projects/prix-guesser/.planning/UPLIFT-REPORT.md)
   - [UPLIFT-MANIFEST.json](/home/rookslog/workspace/projects/prix-guesser/.planning/UPLIFT-MANIFEST.json)
   - the `Project Uplift` section in [STATE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/STATE.md)
-- [e:r:i] The operator workflow contract now names the compatibility block explicitly in [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md), and the helper docs now describe the block in [tooling/codex/README.md](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/README.md).
+- [e:r:i] The operator workflow contract now names the compatibility block explicitly in [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/uplift-project.md), and the helper docs now describe the block in [tooling/codex/README.md](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/README.md).
 
 ## Why This Shape
 

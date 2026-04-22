@@ -146,6 +146,12 @@ Status: active proposal/disposition batch
 140. `140-harness-modifier-compatibility-declaration-carrier-proposal.md`
 141. `141-harness-modifier-compatibility-declaration-carrier-implementation.md`
 142. `142-harness-modifier-overlay-carrier-rehome-next-proposal.md`
+143. `143-gsd-review-helper-backed-run-home-first-slice-proposal.md`
+144. `144-harness-modifier-overlay-roster-and-embedded-host-path-scan-proposal.md`
+145. `145-gsd-review-helper-backed-run-home-first-slice-implementation.md`
+146. `146-harness-modifier-overlay-roster-and-embedded-host-path-scan-implementation.md`
+147. `147-harness-modifier-first-overlay-filesystem-rehome-proposal.md`
+148. `148-harness-modifier-first-overlay-filesystem-rehome-implementation.md`
 
 ## Proposal Rule
 
@@ -215,6 +221,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `145` now records the landed review-route first slice itself: authoritative helper under `harness_modifier/capture/`, thin `tooling/codex/` shim, workflow/wrapper durable-reviewer-trail carry, focused tests, and the paired propagation refresh in `53`.
 - [d:r:i] `146` now records the landed extraction freeze itself: `harness_modifier/overlay/ROSTER.md` plus the contextualized embedded-host-path scan now make the specialist first-rehome set, the compact-prompt host-local hold, and the helper-home / audit-workspace blockers explicit instead of ambient in lane prose.
 - [d:r:i] `147` now turns that frozen pair into the next bounded extraction move: specialist trio workflow/skill filesystem rehome only, preceded in the same slice by text abstraction of host audit-workspace links and helper-home refs, with compact prompts, overwrite families, and standalone repo design still held later.
+- [d:r:i] `148` now records the landed first specialist overlay source split itself: the specialist trio now lives under `harness_modifier/overlay/`, the overlay manifest carries explicit source-path indirection with schema version `2`, package-owned helper shims carry the moved workflow shells, and the matching propagation refresh now lands in `55`.
 - [d:r:i] `43` now records the bounded compatibility follow-through inside that same uplift chain: the durable uplift outputs carry an observed-basis compatibility anchor without widening into a broader version-window claim.
 - [d:r:i] `44` now records the consumer-chain follow-through that keeps the compatibility anchor from remaining only as stored uplift memory.
 - [d:r:i] `45` now sequences the first harness-improvement follow-through tranche after the full-field Opus widening: canary/invariant assertion first, audit-program infrastructure second, standing self-improvement register third.

@@ -15,7 +15,7 @@
         "reference_owner_skill",
         "registry"
       ],
-      "claim_boundary": "declares which carried files are added versus overwritten and which local overlay surfaces belong to the tracked frontier"
+      "claim_boundary": "declares which carried files are added versus overwritten, which local overlay surfaces belong to the tracked frontier, and when authoritative source files are allowed to live outside the install-target mirror through explicit source-path indirection"
     },
     {
       "id": "portable_materialization_contract",
@@ -271,7 +271,7 @@
     },
     {
       "id": "propagation_review_route_contract",
-      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md",
+      "path": "harness_modifier/overlay/get-shit-done/workflows/propagation-review.md",
       "validator": "tooling/codex/tests/test_propagation_review_route_contract.py",
       "contract_kind": "operator-facing propagation review semantics for concrete multi-family contract movement across baseline, delta, typed carrier layers, bounded runtime/install gate tooling, explicit durable-note placement, and explicit tool-result-to-disposition carry",
       "families_touched": [

@@ -24,7 +24,7 @@ Status: landed first slice
 - [e:r:i] The current re-entry surfaces now carry that layered reading doctrine explicitly:
   - [tooling/portable-gsd/overlay/get-shit-done/workflows/progress.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/progress.md)
   - [tooling/portable-gsd/overlay/get-shit-done/workflows/resume-project.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/resume-project.md)
-  - [tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md)
+  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/uplift-project.md)
 - [e:r:i] Those surfaces now make their first packet explicit instead of leaving the read posture ambient:
   - `progress` starts from structured roadmap/state extracts and only widens by route
   - `resume-project` starts from init/state/project/handoff and only widens when the chosen route actually needs more

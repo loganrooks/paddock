@@ -39,7 +39,7 @@ Status: completed parent-thread packet
 
 ### 4. Packet-Time Propagation-Review Scope Note
 
-- [d:r:i] Use [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md) here only as the wider neighboring route that would own a concrete multi-family contract-change review.
+- [d:r:i] Use [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/propagation-review.md) here only as the wider neighboring route that would own a concrete multi-family contract-change review.
 - [d:r:i] In this packet, keep the question narrower:
   - identify which carriers the current uplift-assist family still leaves thinner
   - do not widen into a full propagation-review note or a typed-registry refresh in the same move

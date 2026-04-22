@@ -10,8 +10,8 @@ Status: landed change-triggered refresh
 ## What Moved
 
 - [e:c+i] The repo now carries:
-  - [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md)
-  - [gsd-propagation-review/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/skills/gsd-propagation-review/SKILL.md)
+  - [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/propagation-review.md)
+  - [gsd-propagation-review/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/skills/gsd-propagation-review/SKILL.md)
   - [97-propagation-review-route-first-slice-proposal.md](../intervention-proposals/97-propagation-review-route-first-slice-proposal.md)
   - [98-propagation-review-route-first-slice-implementation.md](../intervention-proposals/98-propagation-review-route-first-slice-implementation.md)
 - [d:r:i] The route binds the first baseline/delta pair back into live operator practice:

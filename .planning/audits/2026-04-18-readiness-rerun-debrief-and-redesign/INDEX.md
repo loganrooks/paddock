@@ -279,6 +279,7 @@
   - [intervention-proposals/144-harness-modifier-overlay-roster-and-embedded-host-path-scan-proposal.md](intervention-proposals/144-harness-modifier-overlay-roster-and-embedded-host-path-scan-proposal.md)
   - [intervention-proposals/146-harness-modifier-overlay-roster-and-embedded-host-path-scan-implementation.md](intervention-proposals/146-harness-modifier-overlay-roster-and-embedded-host-path-scan-implementation.md)
   - [intervention-proposals/147-harness-modifier-first-overlay-filesystem-rehome-proposal.md](intervention-proposals/147-harness-modifier-first-overlay-filesystem-rehome-proposal.md)
+  - [intervention-proposals/148-harness-modifier-first-overlay-filesystem-rehome-implementation.md](intervention-proposals/148-harness-modifier-first-overlay-filesystem-rehome-implementation.md)
   - [extraction-audit/packets/02-harness-modifier-overlay-carrier-rehome-reread-packet.md](extraction-audit/packets/02-harness-modifier-overlay-carrier-rehome-reread-packet.md)
   - [extraction-audit/specs/02-harness-modifier-overlay-carrier-rehome-reread-spec.md](extraction-audit/specs/02-harness-modifier-overlay-carrier-rehome-reread-spec.md)
   - [extraction-audit/prompts/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1-launch-prompt.md](extraction-audit/prompts/02-harness-modifier-overlay-carrier-rehome-reread-opus47-max-r1-launch-prompt.md)

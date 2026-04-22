@@ -18,8 +18,8 @@ Status: landed consumer-chain follow-through
   - records explicit movement reasons instead of returning a flat continue signal
 - [e:r:i] The helper now anchors the observed runtime version only to the canonical repo-local path `.codex/get-shit-done/VERSION` rather than silently falling back to `.codex/VERSION`.
 - [e:r:i] The overlay workflow and skill now inherit that sharper routed consequence:
-  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md)
-  - [gsd-uplift-project/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/skills/gsd-uplift-project/SKILL.md)
+  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/uplift-project.md)
+  - [gsd-uplift-project/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/skills/gsd-uplift-project/SKILL.md)
 - [e:r:i] The helper test suite now covers:
   - runtime-basis movement producing a `--write` recommendation
   - noncanonical `.codex/VERSION` presence not masquerading as observed regular-runtime truth

@@ -37,8 +37,8 @@ Status: active packet
 
 ### Live Implementation Surfaces
 
-13. [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md)
-14. [gsd-propagation-review/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/skills/gsd-propagation-review/SKILL.md)
+13. [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/propagation-review.md)
+14. [gsd-propagation-review/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/skills/gsd-propagation-review/SKILL.md)
 15. [test_propagation_review_route_contract.py](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/tests/test_propagation_review_route_contract.py)
 16. [OVERLAY-MANIFEST.json](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/OVERLAY-MANIFEST.json)
 17. [README.md](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/README.md)

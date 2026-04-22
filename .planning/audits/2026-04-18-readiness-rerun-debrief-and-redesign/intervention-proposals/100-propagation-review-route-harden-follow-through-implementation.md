@@ -5,10 +5,10 @@ Status: landed bounded harden slice
 
 ## What Landed
 
-- [e:c+i] The route workflow now makes the tool-result-to-disposition bridge explicit in [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md).
+- [e:c+i] The route workflow now makes the tool-result-to-disposition bridge explicit in [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/propagation-review.md).
 - [e:c+i] The route workflow and wrapper now also make durable-note placement more explicit:
-  - [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md)
-  - [gsd-propagation-review/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/skills/gsd-propagation-review/SKILL.md)
+  - [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/propagation-review.md)
+  - [gsd-propagation-review/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/skills/gsd-propagation-review/SKILL.md)
 - [e:c+i] Local planning governance now carries the same routing rule in [.planning/AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/AGENTS.md).
 - [e:c+i] The operator-routes surface in [tooling/codex/README.md](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/README.md) now mirrors the same sharpened route posture.
 - [e:c+i] The focused route contract test is now wider in [test_propagation_review_route_contract.py](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/tests/test_propagation_review_route_contract.py).

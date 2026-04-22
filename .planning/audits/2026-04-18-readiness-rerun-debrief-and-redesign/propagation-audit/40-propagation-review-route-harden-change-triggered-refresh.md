@@ -10,10 +10,10 @@ Status: landed change-triggered refresh
 ## What Moved
 
 - [e:c+i] The route workflow and wrapper now keep durable-note placement more explicit:
-  - [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md)
-  - [gsd-propagation-review/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/skills/gsd-propagation-review/SKILL.md)
+  - [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/propagation-review.md)
+  - [gsd-propagation-review/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/skills/gsd-propagation-review/SKILL.md)
 - [e:c+i] The route workflow now keeps the tool-result-to-disposition bridge more explicit:
-  - [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md)
+  - [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/propagation-review.md)
 - [e:c+i] The focused contract test now covers part of that harden slice too:
   - [test_propagation_review_route_contract.py](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/tests/test_propagation_review_route_contract.py)
 - [e:c+i] The route-hardening proposal/implementation pair is now explicit:

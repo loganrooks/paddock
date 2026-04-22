@@ -11,8 +11,8 @@ Status: reference, route pointer, and docs-governance runtime-proof landed
 ## Why This Route Now
 
 - [e:c+i] The repo-local uplift route is already a real composition-layer workflow with helper-driven detect/write posture and explicit held-later routes. Sources:
-  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md:24)
-  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md:104)
+  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/uplift-project.md:24)
+  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/uplift-project.md:104)
 - [e:c+i] The propagation family now also has a cleaner operator-facing review route with the route-hardening follow-through landed, so later delegation no longer needs to answer to a thinner propagation surface. Sources:
   - [97-propagation-review-route-first-slice-proposal.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/97-propagation-review-route-first-slice-proposal.md:8)
   - [100-propagation-review-route-harden-follow-through-implementation.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/100-propagation-review-route-harden-follow-through-implementation.md:5)

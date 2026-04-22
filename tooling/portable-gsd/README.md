@@ -12,9 +12,10 @@ This overlay solves that by tracking only the project-specific patched files and
 
 1. [`scripts/setup-portable-gsd.sh`](/home/rookslog/workspace/projects/prix-guesser/scripts/setup-portable-gsd.sh) installs regular local GSD with:
    - `npx get-shit-done-cc --codex --local`
-2. The script validates [OVERLAY-MANIFEST.json](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/OVERLAY-MANIFEST.json), which explicitly types every tracked overlay file as either:
+2. The script validates [OVERLAY-MANIFEST.json](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/OVERLAY-MANIFEST.json), which explicitly types every tracked install target as either:
    - `overwrite` — deliberate replacement of an upstream-shipped surface already backed by `backup-meta.json`
    - `add` — deliberate additive repo-local owner outside the updater/carried-subset backup surface
+   - some additive carriers now point at authoritative source files under [harness_modifier/overlay/](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/ROSTER.md) rather than living physically under `tooling/portable-gsd/overlay/`
 3. The script then copies the tracked overlay files into `.codex/`
 4. While copying, it replaces `__PROJECT_ROOT__` with the current checkout path
 5. It also materializes the compact prompt selector:

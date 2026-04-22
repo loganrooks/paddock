@@ -6,9 +6,9 @@ Status: landed first operator-facing route pointer
 ## What Landed
 
 - [e:c+i] The live operator-facing pointer now lives in:
-  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md)
+  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/uplift-project.md)
 - [e:c+i] The wrapper now inherits the route without mirroring the packet-template details:
-  - [gsd-uplift-project/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/skills/gsd-uplift-project/SKILL.md)
+  - [gsd-uplift-project/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/skills/gsd-uplift-project/SKILL.md)
 - [e:c+i] The focused contract test now checks that the route stays operator-initiated and helper-neutral:
   - [test_uplift_assist_route_pointer_contract.py](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/tests/test_uplift_assist_route_pointer_contract.py)
 

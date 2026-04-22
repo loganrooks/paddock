@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-04-22T19:33:29+00:00",
+  "generated_at": "2026-04-22T20:39:21+00:00",
   "mode": "detect-only",
   "last_uplift_class": "cross-runtime uplift",
   "last_uplift_secondary_signals": [
@@ -14,7 +14,7 @@
     "note": "phase CONTEXT carries explicit rerun-boundary posture"
   },
   "doctrine_reference_hash": "2557afb678d531229435a98990502b2e55d47bd0a2edfc2f8af8a6d89814fd11",
-  "project_fingerprint_hash": "fc93e6ec56adac67f2e1e77c20fccaf0bb98193556267aebb6bc940f38de8fd3",
+  "project_fingerprint_hash": "55108c44362d958acd2b7054386cc59e7f2fbb05c0c56e3c9081911793689cb3",
   "current_status": "planning",
   "runtime_dirs": [
     ".codex",
@@ -54,7 +54,7 @@
       "family": "legacy seed corpus migration",
       "status": "partially landed",
       "pointer": [
-        "tooling/portable-gsd/overlay/get-shit-done/workflows/seed-migration-inventory.md",
+        "harness_modifier/overlay/get-shit-done/workflows/seed-migration-inventory.md",
         "intervention-proposals/92-seed-migration-pointer-bridge-harden-follow-through-implementation.md",
         "propagation-audit/38-seed-migration-pointer-bridge-harden-change-triggered-refresh.md"
       ]
@@ -109,8 +109,8 @@
       "note": "second runtime is recorded as a held compatibility annotation while the observed basis remains anchored to .codex"
     },
     "held_runtime_annotation_summary": ".claude 1.34.2 (held_annotation)",
-    "declared_overlay_schema_version": 1,
-    "overlay_manifest_schema_version": 1,
+    "declared_overlay_schema_version": 2,
+    "overlay_manifest_schema_version": 2,
     "overlay_manifest_schema_version_matches_declaration": true,
     "uplift_manifest_schema_version": 6,
     "upstream_compatibility_window": {

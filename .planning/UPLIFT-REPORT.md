@@ -1,6 +1,6 @@
 # Project Uplift Report
 
-- Generated: 2026-04-22T19:33:29+00:00
+- Generated: 2026-04-22T20:39:21+00:00
 - Mode: detect-only
 - Project class: cross-runtime uplift
 - Secondary signals: mid_phase
@@ -29,8 +29,8 @@
 - Observed runtime version: 1.38.3
 - Observed runtime manifest version: 1.38.3
 - Runtime version alignment: aligned
-- Declared overlay schema version: 1
-- Overlay manifest schema version: 1
+- Declared overlay schema version: 2
+- Overlay manifest schema version: 2
 - Overlay schema declaration alignment: aligned
 - Uplift manifest schema version: 6
 - Upstream compatibility window: unknown (observed_basis_only)
@@ -134,7 +134,7 @@
 - upstream-template drift machinery — held
 - aged-bespoke deep merge — held
 - audit-subtree aging carry — held
-- legacy seed corpus migration — partially landed: tooling/portable-gsd/overlay/get-shit-done/workflows/seed-migration-inventory.md | intervention-proposals/92-seed-migration-pointer-bridge-harden-follow-through-implementation.md | propagation-audit/38-seed-migration-pointer-bridge-harden-change-triggered-refresh.md
+- legacy seed corpus migration — partially landed: harness_modifier/overlay/get-shit-done/workflows/seed-migration-inventory.md | intervention-proposals/92-seed-migration-pointer-bridge-harden-follow-through-implementation.md | propagation-audit/38-seed-migration-pointer-bridge-harden-change-triggered-refresh.md
 - routed-entry hooks beyond `progress` — partially landed: propagation-audit/04-resume-project-second-consumer-implementation.md
 - forensics / archived-milestone integration — held
 - workstream parent/child posture reconciliation — held

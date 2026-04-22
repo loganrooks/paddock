@@ -139,7 +139,7 @@
       "id": "overlay_manifest",
       "family": "install_overlay",
       "path": "tooling/portable-gsd/overlay/OVERLAY-MANIFEST.json",
-      "role": "tracked overlay ownership and add/overwrite typing",
+      "role": "tracked overlay ownership, add/overwrite typing, and explicit source-path indirection for modifier-owned source files that no longer live inside the install-target mirror",
       "support_mode": "declared_contract",
       "evidence_refs": [
         "overlay_contract_validation"
@@ -344,8 +344,8 @@
     {
       "id": "uplift_workflow",
       "family": "workflow_output",
-      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md",
-      "role": "operator-facing uplift workflow with layered read-packet control over helper output, current uplift outputs, seed corpus posture, and the specialist detect-only migration handoff for legacy, noncurrent, or current-version shape-gap posture, while separating deeper packet disclosure from durable write side effects",
+      "path": "harness_modifier/overlay/get-shit-done/workflows/uplift-project.md",
+      "role": "operator-facing uplift workflow with layered read-packet control over helper output, current uplift outputs, seed corpus posture, and the specialist detect-only migration handoff for legacy, noncurrent, or current-version shape-gap posture, while separating deeper packet disclosure from durable write side effects and now living as modifier-owned source outside the install-target mirror",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
         "overlay_contract_validation",
@@ -449,7 +449,7 @@
     {
       "id": "uplift_skill_wrapper",
       "family": "wrapper",
-      "path": "tooling/portable-gsd/overlay/skills/gsd-uplift-project/SKILL.md",
+      "path": "harness_modifier/overlay/skills/gsd-uplift-project/SKILL.md",
       "role": "invocation-binding wrapper that keeps detect-only uplift posture, seed-corpus visibility, and later migration separation explicit while naming the specialist seed-migration packet for legacy, noncurrent, or current-version shape-gap posture and keeping deeper packet disclosure distinct from durable write side effects",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
@@ -868,7 +868,7 @@
     {
       "id": "seed_migration_inventory_workflow",
       "family": "workflow_output",
-      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/seed-migration-inventory.md",
+      "path": "harness_modifier/overlay/get-shit-done/workflows/seed-migration-inventory.md",
       "role": "operator-facing specialist workflow that turns older or shape-gapped seed posture into a detect-only migration packet, narrows supporting reading toward flagged candidates, keeps direct rewrites plus durable write side effects separate from deeper packet disclosure, and now stays explicitly aligned with the bridge's inspect/write command split",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
@@ -885,7 +885,7 @@
     {
       "id": "seed_migration_inventory_skill_wrapper",
       "family": "wrapper",
-      "path": "tooling/portable-gsd/overlay/skills/gsd-seed-migration-inventory/SKILL.md",
+      "path": "harness_modifier/overlay/skills/gsd-seed-migration-inventory/SKILL.md",
       "role": "invocation-binding wrapper that keeps the seed-migration route detect-only and specialist-owned, while separating deeper packet disclosure from durable write side effects instead of widening it into generic uplift or progress routing",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
@@ -900,7 +900,7 @@
     {
       "id": "propagation_review_workflow",
       "family": "workflow_output",
-      "path": "tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md",
+      "path": "harness_modifier/overlay/get-shit-done/workflows/propagation-review.md",
       "role": "operator-facing propagation review workflow that reads the upstream-pristine baseline plus repo-local delta pair first, widens through the typed propagation family second, and keeps tooling partial while explicit hold/update disposition remains sovereign",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [
@@ -913,7 +913,7 @@
     {
       "id": "propagation_review_skill_wrapper",
       "family": "wrapper",
-      "path": "tooling/portable-gsd/overlay/skills/gsd-propagation-review/SKILL.md",
+      "path": "harness_modifier/overlay/skills/gsd-propagation-review/SKILL.md",
       "role": "invocation-binding wrapper that keeps the propagation review route read-only by default, preserves contextual reread sovereignty over helper output, and hands off specialist uplift or seed-migration routes separately when the review surfaces them",
       "support_mode": "declared_contract_plus_semantic_carry",
       "evidence_refs": [

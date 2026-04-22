@@ -22,8 +22,8 @@ Status: landed first slice
   - noncurrent version presence
 - [e:r:i] The helper now treats seed corpus movement like another durable-memory refresh trigger, so live progress/resume routing can push toward `--write` after seed posture changes instead of leaving stored uplift memory stale.
 - [e:r:i] The uplift workflow and wrapper now keep that posture visible while still holding migration as a later route:
-  - [tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md)
-  - [tooling/portable-gsd/overlay/skills/gsd-uplift-project/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/skills/gsd-uplift-project/SKILL.md)
+  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/uplift-project.md)
+  - [gsd-uplift-project/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/skills/gsd-uplift-project/SKILL.md)
 - [e:r:i] The held-later uplift register now keeps seed migration explicit rather than silent:
   - [tooling/codex/UPLIFT-HELD-LATER.md](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/UPLIFT-HELD-LATER.md)
 

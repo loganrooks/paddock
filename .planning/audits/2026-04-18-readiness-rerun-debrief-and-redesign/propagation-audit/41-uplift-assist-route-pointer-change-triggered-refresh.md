@@ -10,9 +10,9 @@ Status: landed change-triggered refresh
 ## What Moved
 
 - [e:c+i] The live uplift workflow now carries one operator-facing assist-family pointer in its route block:
-  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md)
+  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/uplift-project.md)
 - [e:c+i] The wrapper now inherits that route without duplicating the packet-template details:
-  - [gsd-uplift-project/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/skills/gsd-uplift-project/SKILL.md)
+  - [gsd-uplift-project/SKILL.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/skills/gsd-uplift-project/SKILL.md)
 - [e:c+i] The route now points at the assist-family reference plus both exercised packet templates:
   - [../intervention-proposals/103-uplift-agent-assist-patterns.md](../intervention-proposals/103-uplift-agent-assist-patterns.md)
   - [../entry-uplift-audit/packets/06-uplift-docs-governance-classification-packet-template.md](../entry-uplift-audit/packets/06-uplift-docs-governance-classification-packet-template.md)

@@ -11,9 +11,9 @@ Status: landed bounded reference
 ## Governing Rule
 
 - [e:c+i] The uplift workflow remains detect-only by default, keeps broader uplift refresh/install routes held for later slices, and keeps composition separate from current execution/verification routing when the helper classifies the repo as `mid-phase uplift`. Sources:
-  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md:24)
-  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md:31)
-  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/uplift-project.md:120)
+  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/uplift-project.md:24)
+  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/uplift-project.md:31)
+  - [uplift-project.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/uplift-project.md:120)
 - [d:c+i] Later uplift delegation should therefore sharpen narrower subproblems while leaving final uplift judgment, durable uplift writes, and multi-route composition in the parent thread. Sources:
   - [93-uplift-agent-assist-and-propagation-baseline-split-note.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/93-uplift-agent-assist-and-propagation-baseline-split-note.md:41)
   - [102-uplift-agent-assist-first-slice-proposal.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/102-uplift-agent-assist-first-slice-proposal.md:20)
@@ -99,7 +99,7 @@ Status: landed bounded reference
 
 ## Output Discipline
 
-- [e:c+i] The propagation-review route now already requires durable notes to prefer existing lane homes and to preserve local claim-type grammar when they land inside this audit workspace. Source: [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/get-shit-done/workflows/propagation-review.md:123).
+- [e:c+i] The propagation-review route now already requires durable notes to prefer existing lane homes and to preserve local claim-type grammar when they land inside this audit workspace. Source: [propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/get-shit-done/workflows/propagation-review.md:123).
 - [d:r:i] Later uplift assist lanes should follow the same discipline:
   - `outputs/` for preserved external/composite returns
   - `dispositions/` for local inheritance or judgment

@@ -168,6 +168,7 @@ Status: active lane; widened inheritance batch
 - [52-harness-modifier-compatibility-declaration-carrier-change-triggered-refresh.md](52-harness-modifier-compatibility-declaration-carrier-change-triggered-refresh.md)
 - [53-review-route-helper-backed-run-home-first-slice-change-triggered-refresh.md](53-review-route-helper-backed-run-home-first-slice-change-triggered-refresh.md)
 - [54-harness-modifier-overlay-roster-and-scan-change-triggered-refresh.md](54-harness-modifier-overlay-roster-and-scan-change-triggered-refresh.md)
+- [55-harness-modifier-first-overlay-filesystem-rehome-change-triggered-refresh.md](55-harness-modifier-first-overlay-filesystem-rehome-change-triggered-refresh.md)
 - [artifacts/01-propagation-field-registry-v1.json](artifacts/01-propagation-field-registry-v1.json)
 - [artifacts/02-propagation-registry-v2-inventory-roster.json](artifacts/02-propagation-registry-v2-inventory-roster.json)
 - [artifacts/03-propagation-registry-v2-declared-contracts.json](artifacts/03-propagation-registry-v2-declared-contracts.json)
