@@ -98,4 +98,4 @@ Status: reference, route pointer, and docs-governance runtime-proof landed
   - `carrier_gap_identification`
 - [d:r:i] The narrow operator-initiated route pointer is now landed in the live uplift route.
 - [d:r:i] The `docs_governance_classification` pattern now also has one live-trigger runtime-proof and the resulting parent-thread durable refresh.
-- [d:r:i] The next bounded move is now later assist-family widening or other bounded uplift follow-through, not first-proof or first-discoverability work.
+- [d:r:i] The next bounded move is now the first `cross_runtime_comparison_packet` exercise using the newly landed packet template, not first-proof or first-discoverability work.

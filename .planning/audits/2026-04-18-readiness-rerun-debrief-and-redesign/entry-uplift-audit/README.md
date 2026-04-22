@@ -144,4 +144,8 @@ For each lane, keep this tuple explicit:
   - [outputs/09-uplift-docs-governance-classification-runtime-proof.md](outputs/09-uplift-docs-governance-classification-runtime-proof.md)
   - [dispositions/09-uplift-docs-governance-classification-runtime-proof-disposition.md](dispositions/09-uplift-docs-governance-classification-runtime-proof-disposition.md)
   - [../intervention-proposals/109-uplift-docs-governance-runtime-proof-and-refresh.md](../intervention-proposals/109-uplift-docs-governance-runtime-proof-and-refresh.md)
-- [d:r:i] The current adjacent move is now later assist-family widening or other bounded uplift follow-through, with the resulting durable-refresh movement also carried into the propagation family.
+- [d:r:i] The `cross_runtime_comparison_packet` family now also has one reusable packet carrier:
+  - [../intervention-proposals/110-uplift-cross-runtime-comparison-packet-template-proposal.md](../intervention-proposals/110-uplift-cross-runtime-comparison-packet-template-proposal.md)
+  - [packets/11-uplift-cross-runtime-comparison-packet-template.md](packets/11-uplift-cross-runtime-comparison-packet-template.md)
+  - [../intervention-proposals/111-uplift-cross-runtime-comparison-packet-template-implementation.md](../intervention-proposals/111-uplift-cross-runtime-comparison-packet-template-implementation.md)
+- [d:r:i] The current adjacent move is now the first `cross_runtime_comparison_packet` exercise using that carrier, with any later Opus widening or composition judgment still held after the first bounded packet exists.
