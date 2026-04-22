@@ -20,6 +20,8 @@ Status: landed first-slice implementation
 - [e:r:i] Overlay ownership for that reference is now explicit in:
   - [tooling/portable-gsd/overlay/OVERLAY-MANIFEST.json](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/OVERLAY-MANIFEST.json)
   - ownership mode: `add`
+- [d:r:i] That ownership widening was bounded to the new sibling reference only.
+  - `new-project.md` and `ingest-docs.md` were already tracked `overwrite` carriers before this slice and were not introduced as new manifest rows here.
 - [e:r:i] The shared reference now defines the minimum entry/runtime continuity grammar:
   - `Primary Compact Read`
   - `Supporting Narrative Read`
@@ -64,6 +66,8 @@ Status: landed first-slice implementation
 - [e:r:i] That contract test proves:
   - overlay ownership is `add`
   - the new reference carries the required five-section minimum shape
+  - the reference keeps observed `.codex` basis plus held `.claude` annotation explicit
+  - each route-state section keeps at least one trigger bullet
   - `mandatory-initial-read.md` stays grammar-only
   - `new-project.md` points at the shared reference and keeps the route read-only
   - `ingest-docs.md` points at the shared reference and keeps the route read-only
@@ -72,4 +76,5 @@ Status: landed first-slice implementation
 
 - [d:r:i] The entry/runtime continuity route is no longer only a reread-cleared proposal.
 - [d:r:i] It is now a real carried reference/workflow slice at the earliest entry pair.
-- [d:r:i] The matching next follow-through is the change-triggered propagation refresh in `48`, then a bounded reread of the landed slice before inheriting the later `update` plus `gsd-update` and `from-gsd2` branch.
+- [d:r:i] The matching next follow-through is no longer another harden-only loop over the same landed surface.
+- [d:r:i] The next adjacent branch is `update` plus `gsd-update`, with the small reference-side and contract-side sharpenings now folded into that consumer inheritance route before `from-gsd2` opens after it.

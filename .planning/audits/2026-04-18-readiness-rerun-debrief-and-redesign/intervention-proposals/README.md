@@ -134,6 +134,7 @@ Status: active proposal/disposition batch
 128. `128-entry-runtime-continuity-shared-reference-proposal.md`
 129. `129-entry-runtime-continuity-shared-reference-first-slice-proposal.md`
 130. `130-entry-runtime-continuity-shared-reference-first-slice-implementation.md`
+131. `131-update-entry-runtime-continuity-follow-through-proposal.md`
 
 ## Proposal Rule
 
@@ -182,6 +183,9 @@ Status: active proposal/disposition batch
 - [d:r:i] `127` now records the landed harden slice itself: the health carrier holds more of its own trigger, silence, and ownership semantics locally, the focused contract test is wider, and the next adjacent move can return to the broader `119` frontier on a cleaner repair-facing basis.
 - [d:r:i] `128` now turns that reopened `119` branch into one bounded shared-reference proposal: entry/runtime continuity should travel first through a dedicated shared reference plus `mandatory-initial-read.md`, `new-project.md`, and `ingest-docs.md`, while `update` and `from-gsd2` remain the next adjacent consumers after that first proof.
 - [d:r:i] `129` now turns the reread-cleared and revised `128` branch into the first live implementation proposal: keep `mandatory-initial-read.md` grammar-only, point `new-project.md` and `ingest-docs.md` directly at one sibling entry/runtime continuity reference, concretize the four route-state triggers, and hold `update` plus `from-gsd2` as the next adjacent consumer branch.
+- [d:r:i] `130` now records the landed first proof itself: one sibling reference, one new overlay `add` slot, direct `new-project.md` plus `ingest-docs.md` readers, focused contract coverage, and the matching propagation refresh in `48`.
+- [d:r:i] Lane `17` now rereads that landed proof and keeps the branch while pressing the next move farther: tighten provider-horizon wording, make the greenfield trigger more route-evaluable, keep the entry-side `_when_present` asymmetry explicit, widen the focused contract test, and route directly into `update` plus `gsd-update` before `from-gsd2`.
+- [d:r:i] `131` now opens that adjacent consumer route directly: carry the shared entry/runtime continuity reference into `update.md` plus `gsd-update`, fold the small reference/test harden into the same batch, keep broader runtime-detection narrowing separate, and leave `from-gsd2` as the wrapper-side branch after that proof.
 - [d:r:i] `43` now records the bounded compatibility follow-through inside that same uplift chain: the durable uplift outputs carry an observed-basis compatibility anchor without widening into a broader version-window claim.
 - [d:r:i] `44` now records the consumer-chain follow-through that keeps the compatibility anchor from remaining only as stored uplift memory.
 - [d:r:i] `45` now sequences the first harness-improvement follow-through tranche after the full-field Opus widening: canary/invariant assertion first, audit-program infrastructure second, standing self-improvement register third.

@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: launched capture
+Status: completed launch-truth capture
 
 # Landed Entry Runtime Continuity First Slice Reread Launch Truth
 
@@ -9,7 +9,7 @@ Status: launched capture
   - `opus[1m]`
   - `max`
 - [g:r:i] Frozen launch basis commit:
-  - `TO_FILL_AFTER_STAGING_COMMIT`
+  - `6b8f40d`
 - [g:r:i] Requested launch mode:
   - headless Claude CLI probe via `tooling/codex/run_claude_probe.py`
   - repo-local packet/spec/prompt paths
@@ -28,6 +28,25 @@ Status: launched capture
 
 - [d:r:i] Pre-launch estimate:
   - `8-12 minutes`
+- [e:c+i] Actual elapsed seconds:
+  - `494.153`
+- [d:r:i] Actual elapsed:
+  - `8 minutes 14.153 seconds`
+- [d:r:i] Calibration note:
+  - landed inside the estimate and behaved like a real landed-slice reread rather than a compact same-carrier harden pass; future slices of similar packet size should still be budgeted in the high-single-digit-minute band rather than short polls
+
+## Probe Summary
+
+- [e:c+i] Exit code:
+  - `0`
+- [e:c+i] Session id:
+  - `66109058-67c2-4732-942d-716ca887b756`
+- [e:c+i] Total cost usd:
+  - `2.8653725`
+- [e:c+i] Probe artifacts:
+  - stream: `/tmp/landed-entry-runtime-continuity-first-slice-reread-opus47-max-r1-20260422-050859.pesgbj6y.stream.jsonl`
+  - stderr: `/tmp/landed-entry-runtime-continuity-first-slice-reread-opus47-max-r1-20260422-050859.sdudz6v4.stderr.log`
+  - debug: `/tmp/landed-entry-runtime-continuity-first-slice-reread-opus47-max-r1-20260422-050859.2rex8wfp.debug.log`
 
 ## Output Path
 

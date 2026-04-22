@@ -354,6 +354,38 @@
     - add the explicit boundary against silently widening `mandatory-initial-read.md`
   - next move: revise `128`, open implementation-side proposal `129`, keep `update` and `from-gsd2` as the next adjacent consumer branch
 
+## 2026-04-22 `entry-uplift-lane-17`
+
+- date: `2026-04-22`
+- purpose: bounded Opus reread of the landed `130` entry/runtime shared-reference slice, to judge what the live first proof now carries, where it still thins, and which adjacent consumer branch should inherit next
+- frozen launch basis commit: `6b8f40d`
+- requested model / reasoning: `opus[1m]` / `max`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth:
+  - [entry-uplift-audit/launch-truth/17-landed-entry-runtime-continuity-first-slice-reread-launch-truth.md](entry-uplift-audit/launch-truth/17-landed-entry-runtime-continuity-first-slice-reread-launch-truth.md)
+- output:
+  - [entry-uplift-audit/outputs/21-landed-entry-runtime-continuity-first-slice-reread-opus47-max-r1.md](entry-uplift-audit/outputs/21-landed-entry-runtime-continuity-first-slice-reread-opus47-max-r1.md)
+- inheritance:
+  - [entry-uplift-audit/dispositions/21-landed-entry-runtime-continuity-first-slice-reread-inheritance.md](entry-uplift-audit/dispositions/21-landed-entry-runtime-continuity-first-slice-reread-inheritance.md)
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `494.153`
+  - session id: `66109058-67c2-4732-942d-716ca887b756`
+  - total cost usd: `2.8653725`
+  - stdout/stderr/debug artifacts:
+    - `/tmp/landed-entry-runtime-continuity-first-slice-reread-opus47-max-r1-20260422-050859.pesgbj6y.stream.jsonl`
+    - `/tmp/landed-entry-runtime-continuity-first-slice-reread-opus47-max-r1-20260422-050859.sdudz6v4.stderr.log`
+    - `/tmp/landed-entry-runtime-continuity-first-slice-reread-opus47-max-r1-20260422-050859.2rex8wfp.debug.log`
+- timing calibration:
+  - estimated wall-clock duration: `8-12 minutes`
+  - actual elapsed: `8 minutes 14.153 seconds`
+  - calibration note: landed inside the estimate and behaved like a real landed-slice reread rather than a compact same-carrier harden pass
+- disposition:
+  - `accept with local harden follow-through and next-consumer routing`
+  - keep the landed sibling-reference branch
+  - tighten the provider-horizon and trigger-shape contract now
+  - next move: `update` plus `gsd-update` consumer follow-through before `from-gsd2`
+
 ## 2026-04-21 `propagation-audit-lane-01`
 
 - date: `2026-04-21`
