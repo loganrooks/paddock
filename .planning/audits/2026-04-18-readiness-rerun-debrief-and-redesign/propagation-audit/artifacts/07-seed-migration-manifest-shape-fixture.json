@@ -132,6 +132,7 @@
     "noncurrent_version_total": 1,
     "posture": "mixed_with_noncurrent_versions",
     "seed_dir_present": true,
+    "seed_dir_rel_path": ".planning/seeds",
     "seed_file_count": 3
   },
   "seed_count": 3,

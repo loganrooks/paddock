@@ -230,7 +230,7 @@
       "id": "project_uplift",
       "family": "helper",
       "path": "tooling/codex/project_uplift.py",
-      "role": "authoritative uplift producer, portable compatibility-declaration consumer, observed-basis compatibility anchor owner, held runtime annotation owner, compatibility-drift router, top-level Project Uplift slot writer, shared seed-shape contract carrier, seed-corpus posture scanner, current-version shape-gap detector, and progress-note source for operator-facing seed visibility plus bounded specialist-packet disclosure with candidate breakdown and inspect/write command split when migration candidates are present",
+      "role": "authoritative uplift producer, portable compatibility-declaration consumer, typed runtime-observation consumer, typed uplift-output-policy consumer, typed seed-contract-shape consumer, observed-basis compatibility anchor owner, held runtime annotation owner, compatibility-drift router, top-level Project Uplift slot writer, seed-corpus posture scanner, current-version shape-gap detector, and progress-note source for operator-facing seed visibility plus bounded specialist-packet disclosure with candidate breakdown and inspect/write command split when migration candidates are present",
       "support_mode": "roster_plus_producer_report",
       "evidence_refs": [
         "uplift_manifest_current",
@@ -243,7 +243,11 @@
         "seed_migration_pointer_bridge_impl_90",
         "seed_migration_bridge_harden_impl_92",
         "transition_state_uplift_impl_121",
-        "transition_state_uplift_tests"
+        "transition_state_uplift_tests",
+        "runtime_observation_policy_file",
+        "uplift_output_policy_file",
+        "seed_contract_shape_file",
+        "project_uplift_neutralization_impl_154"
       ]
     },
     {
@@ -853,7 +857,7 @@
       "id": "seed_migration_inventory_helper",
       "family": "helper",
       "path": "tooling/codex/seed_migration_inventory.py",
-      "role": "specialist detect-only helper that inventories per-seed legacy or drifted seed posture, contract-shape gaps, route-state distinctions, post-write durable packet state, and bounded migration moves without rewriting seed files, now with a committed fixture-backed packet shape anchor",
+      "role": "specialist detect-only helper that inventories per-seed legacy or drifted seed posture, contract-shape gaps, route-state distinctions, post-write durable packet state, and bounded migration moves without rewriting seed files, now reading the shared seed-contract carrier instead of mirroring seed-shape policy through project_uplift constants and still carrying a committed fixture-backed packet shape anchor",
       "support_mode": "roster_plus_tested_behavior",
       "evidence_refs": [
         "seed_migration_inventory_impl_86",
@@ -862,7 +866,9 @@
         "seed_migration_harden_impl_88",
         "seed_migration_harden_refresh_36",
         "seed_migration_bridge_harden_impl_92",
-        "seed_migration_manifest_shape_fixture"
+        "seed_migration_manifest_shape_fixture",
+        "seed_contract_shape_file",
+        "project_uplift_neutralization_impl_154"
       ]
     },
     {
@@ -970,6 +976,57 @@
       "evidence_refs": [
         "overlay_roster_impl_146",
         "overlay_host_path_scan_146"
+      ]
+    },
+    {
+      "id": "runtime_observation_policy",
+      "family": "registry",
+      "path": "harness_modifier/compatibility/observation.json",
+      "role": "portable runtime observation declaration separating observed runtime directories from candidate runtime directories so project_uplift runtime discovery no longer depends on helper-local directory lists",
+      "support_mode": "declared_contract_plus_helper_read",
+      "evidence_refs": [
+        "runtime_observation_policy_file",
+        "project_uplift_contract_tests",
+        "project_uplift_neutralization_impl_154"
+      ]
+    },
+    {
+      "id": "uplift_output_policy",
+      "family": "registry",
+      "path": "harness_modifier/uplift/output_policy.json",
+      "role": "portable uplift output topology declaration for the Project Uplift state heading plus report, manifest, and held-later paths used by project_uplift and harness_canary",
+      "support_mode": "declared_contract_plus_shared_consumer_read",
+      "evidence_refs": [
+        "uplift_output_policy_file",
+        "project_uplift_contract_tests",
+        "harness_canary_contract_tests",
+        "project_uplift_neutralization_impl_154"
+      ]
+    },
+    {
+      "id": "seed_contract_shape",
+      "family": "registry",
+      "path": "harness_modifier/compatibility/seed_contract.json",
+      "role": "portable seed contract declaration for the seed root, current version, required frontmatter keys, and required section headings shared by project_uplift and the specialist seed migration inventory",
+      "support_mode": "declared_contract_plus_shared_consumer_read",
+      "evidence_refs": [
+        "seed_contract_shape_file",
+        "project_uplift_contract_tests",
+        "seed_migration_inventory_tests",
+        "seed_migration_inventory_follow_through_tests",
+        "project_uplift_neutralization_impl_154"
+      ]
+    },
+    {
+      "id": "harness_canary_helper",
+      "family": "helper",
+      "path": "harness_modifier/contract/harness_canary.py",
+      "role": "bounded harness-quality report helper that now reads the shared uplift output-policy carrier when checking uplift manifest/output alignment",
+      "support_mode": "roster_plus_tested_behavior",
+      "evidence_refs": [
+        "harness_quality_canary_impl_49",
+        "harness_canary_contract_tests",
+        "project_uplift_neutralization_impl_154"
       ]
     }
   ],
@@ -2376,6 +2433,72 @@
         "overlay_roster_impl_146"
       ],
       "status": "mapped"
+    },
+    {
+      "id": "runtime_observation_policy_to_project_uplift",
+      "from": "runtime_observation_policy",
+      "to": "project_uplift",
+      "kind": "declared_runtime_observation_policy_drives_helper_runtime_scan",
+      "status": "mapped",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "runtime_observation_policy_file",
+        "project_uplift_contract_tests",
+        "project_uplift_neutralization_impl_154"
+      ]
+    },
+    {
+      "id": "uplift_output_policy_to_project_uplift",
+      "from": "uplift_output_policy",
+      "to": "project_uplift",
+      "kind": "declared_output_topology_drives_uplift_outputs_and_state_slot",
+      "status": "mapped",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "uplift_output_policy_file",
+        "project_uplift_contract_tests",
+        "project_uplift_neutralization_impl_154"
+      ]
+    },
+    {
+      "id": "uplift_output_policy_to_harness_canary",
+      "from": "uplift_output_policy",
+      "to": "harness_canary_helper",
+      "kind": "declared_output_topology_drives_canary_uplift_alignment_check",
+      "status": "mapped",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "uplift_output_policy_file",
+        "harness_canary_contract_tests",
+        "project_uplift_neutralization_impl_154"
+      ]
+    },
+    {
+      "id": "seed_contract_shape_to_project_uplift",
+      "from": "seed_contract_shape",
+      "to": "project_uplift",
+      "kind": "declared_seed_contract_shape_drives_uplift_seed_posture_scan",
+      "status": "mapped",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "seed_contract_shape_file",
+        "project_uplift_contract_tests",
+        "project_uplift_neutralization_impl_154"
+      ]
+    },
+    {
+      "id": "seed_contract_shape_to_seed_migration_inventory",
+      "from": "seed_contract_shape",
+      "to": "seed_migration_inventory_helper",
+      "kind": "declared_seed_contract_shape_drives_specialist_inventory_shape_rules",
+      "status": "mapped",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "seed_contract_shape_file",
+        "seed_migration_inventory_tests",
+        "seed_migration_inventory_follow_through_tests",
+        "project_uplift_neutralization_impl_154"
+      ]
     }
   ]
 }

@@ -157,6 +157,7 @@ Status: active proposal/disposition batch
 151. `151-harness-modifier-helper-payload-authority-map-proposal.md`
 152. `152-harness-modifier-helper-payload-authority-map-implementation.md`
 153. `153-harness-modifier-project-uplift-neutralization-proposal.md`
+154. `154-harness-modifier-project-uplift-neutralization-implementation.md`
 
 ## Proposal Rule
 
@@ -282,5 +283,6 @@ Status: active proposal/disposition batch
 - [d:r:i] `151` now opens the next extraction object directly: classify helper-payload authority across `project_uplift.py`, `seed_migration_inventory.py`, `audit_refmap.py`, and the current shim boundary before any later payload relocation, default-source-root migration, overwrite-family source split, or standalone-project widening inherits next.
 - [d:r:i] `152` now records the landed authority-map slice itself: the lane-04 reread is inherited, `harness_modifier/overlay/helpers/AUTHORITY-MAP.md` now freezes the per-helper split, `audit_refmap.py` is explicitly out of the later payload-movement candidate set, and the next bounded extraction move is now `project_uplift.py` neutralization rather than relocation.
 - [d:r:i] `153` now opens that next bounded extraction move directly: neutralize `project_uplift.py` runtime discovery posture, uplift output/path posture, and compatibility-anchor routing posture before any later payload relocation is reconsidered.
+- [d:r:i] `154` now records the landed neutralization slice itself: typed observation, uplift-output-policy, and seed-contract carriers now live under `harness_modifier/`, `project_uplift.py` now consumes them instead of re-declaring them as helper-local constants, `seed_migration_inventory.py` and `harness_canary.py` now consume the same carriers where they touch the same policy, and the next bounded extraction move is now post-neutralization payload-home judgment rather than carrier neutralization.
 - [d:r:i] `42` now records that harden slice as landed: multi-axis posture, phase-boundary signal, per-carrier fingerprint shape, runtime-agent globbing, typed proposal routes, file-backed held-later carry, widened tests, and the two live consumer/output bugs it surfaced and corrected.
 - [d:r:i] The current broader consequence after `42-74`: use the cleaner uplift slice, the active propagation family, the landed verifier / transition / milestone-boundary / first-read / spec lifecycle bridges, the landed re-entry plus initialization/doc-ingest plus repair/migration plus update plus seed producer/consumer slices, and the hardened setup/materialization path together rather than assuming one helper or one bounded slice already proves whole-network carry.

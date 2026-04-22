@@ -94,6 +94,11 @@ Status: active durable register
   - `seed_migration_inventory.py` is downstream of `project_uplift.py`
   - `audit_refmap.py` is outside the later payload-movement candidate set and remains repo-local audit tooling
   - the next bounded extraction move is therefore `project_uplift.py` neutralization, not relocation or a second filesystem tranche
+- [d:r:i] That neutralization slice is now landed too through `154` and propagation `57`:
+  - typed observation, seed-contract, and uplift-output-policy carriers now exist under `harness_modifier/`
+  - `project_uplift.py` now consumes those carriers instead of re-declaring them as helper-local constants
+  - `seed_migration_inventory.py` and `harness_canary.py` now consume the same carriers where they touch the same policy
+  - the next bounded extraction move is now post-neutralization payload-home judgment for `project_uplift.py`, not neutralization itself
 - [d:r:i] The workspace-state audit lane `01` is now completed and inherited:
   - the first landed governance carries are `Horizon Routing` in this register and `Bounded Parallelization And Overlap` in `AUDIT-LANE-PATTERN-LIBRARY.md`
   - the lane also now sharpens `136`: host-project versus harness scope leakage counts as real extraction pressure, not only future packaging appetite

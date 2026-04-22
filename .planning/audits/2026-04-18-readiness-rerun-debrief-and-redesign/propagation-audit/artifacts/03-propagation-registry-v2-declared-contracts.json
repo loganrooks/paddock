@@ -308,6 +308,56 @@
         "state_continuity"
       ],
       "claim_boundary": "declares the portable compatibility semantics that later standalone extraction can carry unchanged, while current host-boundary consumers observe runtime-specific values against that declaration rather than re-declaring the posture locally"
+    },
+    {
+      "id": "harness_modifier_runtime_observation_contract",
+      "path": "harness_modifier/compatibility/observation.json",
+      "validator": "tooling/codex/tests/test_project_uplift.py",
+      "contract_kind": "portable runtime observation declaration for observed and candidate runtime directories used by project_uplift runtime discovery",
+      "families_touched": [
+        "registry",
+        "helper",
+        "state_continuity"
+      ],
+      "claim_boundary": "declares which runtime directories count as observed basis and which remain candidate runtime directories so project_uplift can disclose runtime presence without re-declaring that policy as helper-local constants"
+    },
+    {
+      "id": "harness_modifier_uplift_output_policy_contract",
+      "path": "harness_modifier/uplift/output_policy.json",
+      "validator": "tooling/codex/tests/test_project_uplift.py",
+      "contract_kind": "portable uplift output topology declaration for state heading plus report, manifest, and held-later paths",
+      "families_touched": [
+        "registry",
+        "helper",
+        "workflow_output",
+        "state_continuity"
+      ],
+      "claim_boundary": "declares the Project Uplift state heading plus report, manifest, and held-later output paths so project_uplift and harness_canary read one shared topology instead of duplicating helper-local path constants"
+    },
+    {
+      "id": "harness_modifier_seed_contract_shape_contract",
+      "path": "harness_modifier/compatibility/seed_contract.json",
+      "validator": "tooling/codex/tests/test_seed_migration_inventory_follow_through_contract.py",
+      "contract_kind": "portable seed contract shape declaration for uplift posture scanning and seed migration inventory",
+      "families_touched": [
+        "registry",
+        "helper",
+        "workflow_output",
+        "wrapper"
+      ],
+      "claim_boundary": "declares the seed root, current seed contract version, required frontmatter keys, and required section headings so project_uplift and seed_migration_inventory share one typed seed-shape surface instead of mirroring it through helper-local constants"
+    },
+    {
+      "id": "harness_quality_canary_contract",
+      "path": "harness_modifier/contract/harness_canary.py",
+      "validator": "tooling/codex/tests/test_harness_canary.py",
+      "contract_kind": "bounded harness-quality canary report with shared uplift output-policy alignment checks",
+      "families_touched": [
+        "helper",
+        "registry",
+        "install_overlay"
+      ],
+      "claim_boundary": "declares the bounded harness-quality canary checks, including the check that now reads shared uplift output topology rather than helper-local manifest-path constants"
     }
   ]
 }

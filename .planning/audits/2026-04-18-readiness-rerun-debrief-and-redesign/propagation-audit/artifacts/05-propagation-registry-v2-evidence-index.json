@@ -258,7 +258,7 @@
       "id": "project_uplift_contract_tests",
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_project_uplift.py",
-      "note": "focused helper and consumer coverage for uplift classification, durable output schema, compatibility drift routing, seed-corpus posture movement, operator-facing seed posture visibility, bounded specialist packet disclosure, and current-version seed shape-gap discovery"
+      "note": "focused helper and consumer coverage for uplift classification, declaration-driven compatibility drift routing, typed runtime observation consumption, typed uplift output-policy consumption, typed seed-contract consumption, seed-corpus posture movement, operator-facing seed posture visibility, bounded specialist packet disclosure, and current-version seed shape-gap discovery"
     },
     {
       "id": "seed_operator_consumer_contract_tests",
@@ -366,7 +366,7 @@
       "id": "seed_migration_inventory_tests",
       "evidence_lane": "tested_behavior",
       "path": "tooling/codex/tests/test_seed_migration_inventory.py",
-      "note": "focused helper coverage for mixed vintage seed corpora, current-version contract-shape gaps, route-state disambiguation, post-write durable packet wording, and durable seed-migration report/manifest writes"
+      "note": "focused specialist helper coverage for detect-only seed inventory posture, migration move classification, route-state distinctions, and shared typed seed-contract consumption"
     },
     {
       "id": "seed_migration_inventory_follow_through_tests",
@@ -553,6 +553,48 @@
       "evidence_lane": "refresh_note",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/56-harness-modifier-first-overlay-residue-classification-change-triggered-refresh.md",
       "note": "change-triggered refresh capturing the resolved skill-adapter source-path residue and the three remaining later-bound extraction pressures after the first specialist source split"
+    },
+    {
+      "id": "runtime_observation_policy_file",
+      "evidence_lane": "declared_contract",
+      "path": "harness_modifier/compatibility/observation.json",
+      "note": "typed runtime-observation carrier separating observed runtime directories from candidate runtime directories for project_uplift runtime discovery"
+    },
+    {
+      "id": "seed_contract_shape_file",
+      "evidence_lane": "declared_contract",
+      "path": "harness_modifier/compatibility/seed_contract.json",
+      "note": "typed seed-contract carrier declaring seed root, current version, required frontmatter keys, and required section headings for shared uplift plus specialist inventory use"
+    },
+    {
+      "id": "uplift_output_policy_file",
+      "evidence_lane": "declared_contract",
+      "path": "harness_modifier/uplift/output_policy.json",
+      "note": "typed uplift output-policy carrier declaring the Project Uplift state heading plus report, manifest, and held-later paths for shared helper and canary use"
+    },
+    {
+      "id": "harness_quality_canary_impl_49",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/49-harness-quality-canary-first-slice-implementation.md",
+      "note": "landed first canary slice covering bounded harness-quality assertion and the initial helper/report route"
+    },
+    {
+      "id": "harness_canary_contract_tests",
+      "evidence_lane": "tested_behavior",
+      "path": "tooling/codex/tests/test_harness_canary.py",
+      "note": "focused contract coverage for the bounded harness-quality canary helper, including uplift output-policy alignment after the neutralization slice"
+    },
+    {
+      "id": "project_uplift_neutralization_impl_154",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/154-harness-modifier-project-uplift-neutralization-implementation.md",
+      "note": "landed neutralization slice moving runtime observation, uplift output topology, and seed-contract shape into typed carriers and thinning project_uplift, seed_migration_inventory, and harness_canary around them"
+    },
+    {
+      "id": "project_uplift_neutralization_refresh_57",
+      "evidence_lane": "change_triggered_refresh",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/57-harness-modifier-project-uplift-neutralization-change-triggered-refresh.md",
+      "note": "typed v2 refresh that keeps the neutralized observation, output-policy, and seed-contract carriers explicit together with the thinned helper/downstream consumers they now govern"
     }
   ]
 }

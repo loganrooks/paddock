@@ -98,11 +98,15 @@ Status: active opening audit family
   - [outputs/05-harness-modifier-project-uplift-neutralization-proposal-reread-opus47-max-r1.md](outputs/05-harness-modifier-project-uplift-neutralization-proposal-reread-opus47-max-r1.md)
   - [dispositions/05-harness-modifier-project-uplift-neutralization-proposal-reread-inheritance.md](dispositions/05-harness-modifier-project-uplift-neutralization-proposal-reread-inheritance.md)
 - [d:r:i] The next extraction move is now the bounded neutralization implementation slice the lane named:
+  - [../intervention-proposals/154-harness-modifier-project-uplift-neutralization-implementation.md](../intervention-proposals/154-harness-modifier-project-uplift-neutralization-implementation.md)
+- [d:r:i] That slice is now landed:
   - typed observation carrier
   - typed uplift output-policy carrier
   - typed seed-contract-shape carrier
   - thinner declaration consumption in `project_uplift.py`
   - downstream seed-shape carrier adoption in `seed_migration_inventory.py`
+  - uplift-output-policy adoption in `harness_canary.py`
+- [d:r:i] The next extraction move is now no longer carrier neutralization. It is a post-neutralization judgment of whether `project_uplift.py` still wants later payload movement on top of the cleaner carrier split.
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern
