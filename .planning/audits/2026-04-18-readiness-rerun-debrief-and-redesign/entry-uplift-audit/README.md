@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread; lane-07 completed and locally inherited after cross-runtime first-exercise reread; lane-08 completed and locally inherited after concern-family split reread; lane-09 completed and locally inherited after compatibility-shape reread; lane-10 completed and locally inherited after post-annotation next-move reread; lane-11 completed and locally inherited after consumer-chain proposal reread; lane-12 completed and locally inherited after transition/state continuity reread; lane-13 completed and locally inherited after milestone-boundary shared-reference reread
+Status: active companion; lane-01 completed and inherited; lane-02 completed and comparatively inherited with Opus-leading widening plus GPT compactness restraint; lane-03 completed and locally inherited after bounded reread; lane-04 completed and locally inherited after landed-slice reread; lane-05 completed and locally inherited after assist-family widening reread; lane-06 completed and locally inherited after first-exercise reread; lane-07 completed and locally inherited after cross-runtime first-exercise reread; lane-08 completed and locally inherited after concern-family split reread; lane-09 completed and locally inherited after compatibility-shape reread; lane-10 completed and locally inherited after post-annotation next-move reread; lane-11 completed and locally inherited after consumer-chain proposal reread; lane-12 completed and locally inherited after transition/state continuity reread; lane-13 completed and locally inherited after milestone-boundary shared-reference reread; lane-14 packet/spec/prompt now drafted for the adjacent health deepen-in-place reread
 
 # Entry Uplift Audit
 
@@ -219,6 +219,21 @@ For each lane, keep this tuple explicit:
   - [outputs/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-opus47-max-r1.md](outputs/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-opus47-max-r1.md)
 - local inheritance:
   - [dispositions/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-inheritance.md](dispositions/17-milestone-boundary-uplift-shared-reference-first-slice-proposal-reread-inheritance.md)
+
+## Lane 14
+
+- packet:
+  - [packets/20-health-uplift-deepen-in-place-first-slice-proposal-reread-packet.md](packets/20-health-uplift-deepen-in-place-first-slice-proposal-reread-packet.md)
+- spec:
+  - [specs/14-health-uplift-deepen-in-place-first-slice-proposal-reread-spec.md](specs/14-health-uplift-deepen-in-place-first-slice-proposal-reread-spec.md)
+- prompt:
+  - [prompts/14-health-uplift-deepen-in-place-first-slice-proposal-reread-opus47-max-r1-launch-prompt.md](prompts/14-health-uplift-deepen-in-place-first-slice-proposal-reread-opus47-max-r1-launch-prompt.md)
+- output:
+  - [outputs/18-health-uplift-deepen-in-place-first-slice-proposal-reread-opus47-max-r1.md](outputs/18-health-uplift-deepen-in-place-first-slice-proposal-reread-opus47-max-r1.md)
+- launch-truth:
+  - pending launch
+- local inheritance:
+  - pending reread return
 
 ## Current Adjacent Move
 
