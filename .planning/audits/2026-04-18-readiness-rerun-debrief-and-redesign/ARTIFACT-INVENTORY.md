@@ -157,6 +157,7 @@ Status: active inventory
 - `intervention-proposals/119-uplift-consumer-chain-asymmetry-classification-return.md`
 - `intervention-proposals/120-transition-state-uplift-continuity-first-slice-proposal.md`
 - `intervention-proposals/121-transition-state-uplift-continuity-first-slice-implementation.md`
+- `intervention-proposals/122-milestone-boundary-uplift-shared-reference-first-slice-proposal.md`
 - `propagation-audit/44-transition-state-uplift-continuity-change-triggered-refresh.md`
 - repo-local uplift outputs:
   - `.planning/UPLIFT-REPORT.md`

@@ -261,11 +261,9 @@ For each lane, keep this tuple explicit:
 - [d:r:i] That first ≤2-carrier implementation slice is now landed too:
   - [../intervention-proposals/121-transition-state-uplift-continuity-first-slice-implementation.md](../intervention-proposals/121-transition-state-uplift-continuity-first-slice-implementation.md)
 - [d:r:i] The next adjacent move is no longer the transition/state pair itself.
-- [d:r:i] The next adjacent move is the next `119` priority choice on the cleaner baseline:
-  - milestone-boundary pair through a shared reference
-  - or `health.md` as the next single-carrier deepen-in-place route
-- [d:r:i] The next bounded move is now the implementation slice for the transition/state pair, not another proposal reread loop.
-  is now no longer the active next object by itself; its first slice landed in `116`, and lane-10 has now inherited the adjacent field opened by that slice.
-- [d:r:i] The current adjacent move is now the per-carrier classification return in:
-  - [../intervention-proposals/119-uplift-consumer-chain-asymmetry-classification-return.md](../intervention-proposals/119-uplift-consumer-chain-asymmetry-classification-return.md)
-- [d:r:i] Lane-11 keeps the bounded consumer-chain proposal `118`, adds setup/materialization plus helper-asymmetry pressure directly to its field, and clears the next sequencing rule: classification return first, then a ≤2-carrier implementation slice, while family-6 wider route mapping and later extraction remain separate.
+- [d:r:i] The next adjacent move is now explicit in:
+  - [../intervention-proposals/122-milestone-boundary-uplift-shared-reference-first-slice-proposal.md](../intervention-proposals/122-milestone-boundary-uplift-shared-reference-first-slice-proposal.md)
+- [d:r:i] The active next route is milestone-boundary uplift continuity through one shared read-only reference.
+- [d:r:i] The adjacent held single-carrier alternative remains:
+  - `health.md` deepen-in-place follow-through
+- [d:r:i] Family-6 wider route mapping and later extraction/distribution still remain outside that next bounded choice.
