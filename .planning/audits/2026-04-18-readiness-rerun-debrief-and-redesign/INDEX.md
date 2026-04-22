@@ -271,6 +271,7 @@
   - [intervention-proposals/114-uplift-cross-runtime-compatibility-widening-shape-proposal.md](intervention-proposals/114-uplift-cross-runtime-compatibility-widening-shape-proposal.md)
   - [intervention-proposals/115-harness-modifier-extraction-and-npx-distribution-route.md](intervention-proposals/115-harness-modifier-extraction-and-npx-distribution-route.md)
   - [intervention-proposals/136-harness-extraction-escalation-and-scope-boundary-note.md](intervention-proposals/136-harness-extraction-escalation-and-scope-boundary-note.md)
+  - [intervention-proposals/137-harness-extraction-field-map.md](intervention-proposals/137-harness-extraction-field-map.md)
   - [entry-uplift-audit/packets/15-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-packet.md](entry-uplift-audit/packets/15-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-packet.md)
   - [entry-uplift-audit/specs/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-spec.md](entry-uplift-audit/specs/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-spec.md)
   - [entry-uplift-audit/prompts/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1-launch-prompt.md](entry-uplift-audit/prompts/09-uplift-cross-runtime-compatibility-widening-shape-proposal-reread-opus47-max-r1-launch-prompt.md)
@@ -336,6 +337,11 @@
   - [workspace-state-audit/outputs/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-opus47-max-r1.md](workspace-state-audit/outputs/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-opus47-max-r1.md)
   - [workspace-state-audit/dispositions/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-inheritance.md](workspace-state-audit/dispositions/01-where-are-we-now-horizon-inheritance-and-parallelization-audit-inheritance.md)
   - [intervention-proposals/136-harness-extraction-escalation-and-scope-boundary-note.md](intervention-proposals/136-harness-extraction-escalation-and-scope-boundary-note.md)
+- extraction audit:
+  - [extraction-audit/README.md](extraction-audit/README.md)
+  - [extraction-audit/packets/01-harness-extraction-field-map-audit-packet.md](extraction-audit/packets/01-harness-extraction-field-map-audit-packet.md)
+  - [extraction-audit/specs/01-harness-extraction-field-map-audit-spec.md](extraction-audit/specs/01-harness-extraction-field-map-audit-spec.md)
+  - [extraction-audit/prompts/01-harness-extraction-field-map-audit-opus47-max-r1-launch-prompt.md](extraction-audit/prompts/01-harness-extraction-field-map-audit-opus47-max-r1-launch-prompt.md)
 
 ## Current Session Rule
 

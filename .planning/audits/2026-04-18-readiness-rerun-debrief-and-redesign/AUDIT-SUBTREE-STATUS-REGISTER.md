@@ -107,6 +107,17 @@ Status: active audit-program infrastructure surface
   - `../../HARNESS-IMPROVEMENT-REGISTER.md`
   - `AUDIT-LANE-PATTERN-LIBRARY.md`
 
+### `extraction-audit/`
+
+- [d:r:i] Status: active opening lane
+- [d:r:i] Why:
+  - host-project versus harness scope leakage is now concrete enough that standalone extraction needs its own bounded field map
+  - the next extraction move is not repo split execution; it is one challenged carrier map over ownership, compatibility, materialization, and migration shape
+- [d:r:i] Default reread path:
+  - `intervention-proposals/136-harness-extraction-escalation-and-scope-boundary-note.md`
+  - `intervention-proposals/137-harness-extraction-field-map.md`
+  - `extraction-audit/README.md`
+
 ## Current Local Consequence
 
 - [d:r:i] This register is now the quickest route for deciding which audit subtree should still be a default reread path and which should be treated more as companion or trace.
