@@ -61,6 +61,12 @@ Status: active opening audit family
   - [launch-truth/03-harness-modifier-first-overlay-filesystem-rehome-reread-launch-truth.md](launch-truth/03-harness-modifier-first-overlay-filesystem-rehome-reread-launch-truth.md)
   - [outputs/03-harness-modifier-first-overlay-filesystem-rehome-reread-opus47-max-r1.md](outputs/03-harness-modifier-first-overlay-filesystem-rehome-reread-opus47-max-r1.md)
 - [d:r:i] Lane `03` keeps the question bounded to the landed specialist source split before any second overlay tranche is chosen.
+- [d:r:i] Lane `03` is now completed and inherited:
+  - [outputs/03-harness-modifier-first-overlay-filesystem-rehome-reread-opus47-max-r1.md](outputs/03-harness-modifier-first-overlay-filesystem-rehome-reread-opus47-max-r1.md)
+  - [dispositions/03-harness-modifier-first-overlay-filesystem-rehome-reread-inheritance.md](dispositions/03-harness-modifier-first-overlay-filesystem-rehome-reread-inheritance.md)
+- [d:r:i] The next extraction move is now narrowed again:
+  - [../intervention-proposals/149-harness-modifier-first-overlay-residue-classification-pass-proposal.md](../intervention-proposals/149-harness-modifier-first-overlay-residue-classification-pass-proposal.md)
+- [d:r:i] `149` keeps the next move on the first slice's residues instead of widening directly into a second filesystem tranche.
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern

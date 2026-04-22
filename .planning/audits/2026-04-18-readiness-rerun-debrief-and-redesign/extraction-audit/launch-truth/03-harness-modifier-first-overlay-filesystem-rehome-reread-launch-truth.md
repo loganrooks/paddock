@@ -26,8 +26,8 @@ Status: active launch-truth record
 ## Timing
 
 - [d:r:i] Pre-launch estimate: `10-16 minutes`
-- [o:r:i] Actual elapsed seconds: pending return
-- [o:r:i] Timing calibration: pending return
+- [e:c+i] Actual elapsed seconds: `436.270`
+- [d:r:i] Timing calibration: shorter than expected at roughly `7.3 minutes`; this behaved like a bounded residue-classification reread rather than a wider second-tranche or standalone-extraction design lane.
 
 ## Launch Note
 
@@ -36,9 +36,9 @@ Status: active launch-truth record
 
 ## Return Summary
 
-- [o:r:i] Exit code: pending return
-- [o:r:i] Session id: pending return
-- [o:r:i] Total cost usd: pending return
+- [e:c+i] Exit code: `0`
+- [e:c+i] Session id: `e72d17cf-1573-4892-aeaa-442eff3c8375`
+- [e:c+i] Total cost usd: `3.552747250000001`
 - [e:c+i] Repo-local artifacts reserved or active:
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/03/probe-summary.txt`
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/03/extraction-audit-03-20260422-171221.lakfwtu5.stream.jsonl`

@@ -1377,11 +1377,25 @@
 - pre-launch estimate:
   - `10-16 minutes`
 - current state:
-  - running
-  - the lane is intentionally narrower than lane `02`
-  - it challenges the landed first specialist source split itself, not standalone extraction appetite
+  - completed
+  - the lane was intentionally narrower than lane `02`
+  - it challenged the landed first specialist source split itself, not standalone extraction appetite
 - repo-local artifacts:
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/03/probe-summary.txt`
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/03/extraction-audit-03-20260422-171221.lakfwtu5.stream.jsonl`
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/03/extraction-audit-03-20260422-171221.289tdxux.stderr.log`
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/03/extraction-audit-03-20260422-171221.6tk25w9u.debug.log`
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `436.270`
+  - session id: `e72d17cf-1573-4892-aeaa-442eff3c8375`
+  - total cost usd: `3.552747250000001`
+- timing calibration:
+  - actual runtime was shorter than the `10-16 minute` estimate at roughly `7.3 minutes`
+  - the lane behaved like a bounded residue-classification reread rather than a wider second-tranche or standalone-extraction design lane
+- disposition:
+  - [extraction-audit/dispositions/03-harness-modifier-first-overlay-filesystem-rehome-reread-inheritance.md](extraction-audit/dispositions/03-harness-modifier-first-overlay-filesystem-rehome-reread-inheritance.md)
+  - `accept with bounded residue-classification next move`
+  - keep the first specialist source split as a landed gain
+  - do not widen directly into a second overlay tranche, helper-payload move, overwrite-family move, or standalone extraction route
+  - open `149` as the next bounded extraction object
