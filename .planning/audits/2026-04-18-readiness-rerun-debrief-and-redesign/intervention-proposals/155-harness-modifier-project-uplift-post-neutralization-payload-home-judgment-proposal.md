@@ -5,9 +5,9 @@ Status: proposed
 
 ## Role
 
-- [g:r:i] This proposal defines the next bounded extraction move after the landed neutralization slice in `154`.
+- [g:r:i] This proposal defines the reopened bounded extraction move after the landed neutralization slices in `154` and `157`.
 - [g:r:i] Its job is not to relocate `project_uplift.py` yet.
-- [g:r:i] Its job is to judge, on top of the neutralized carrier split, whether later payload movement is still the sharper extraction route or whether the cleaner boundary changes that answer.
+- [g:r:i] Its job is to judge, on top of both landed neutralization tranches, whether later payload movement is still the sharper extraction route or whether the cleaner boundary changes that answer.
 
 ## Why This Slice Now
 
@@ -15,18 +15,23 @@ Status: proposed
   - runtime discovery posture now routes through a typed observation carrier
   - uplift output topology now routes through a typed output-policy carrier
   - seed contract shape now routes through a typed seed-contract carrier
-- [d:r:i] `project_uplift.py` can now be judged on its remaining boundary conditions rather than on hidden doctrine embedded in helper constants.
+- [d:r:i] `157` discharged the second remaining helper-local doctrine blur that lane `06` had surfaced:
+  - host-doctrine carrier rows now route through a typed uplift carrier catalog
+  - runtime-agent registry shape now routes through that same typed catalog as a named sibling object
+  - rerun-boundary phrases, command tokens, and operator-facing recommendation sentences now route through a typed uplift vocabulary carrier
+- [d:r:i] `project_uplift.py` can now be judged on its remaining boundary conditions rather than on hidden policy or host-doctrine embedded in helper constants.
 - [d:r:i] `seed_migration_inventory.py` and `harness_canary.py` now consume the same typed carriers where they touch the same policy, so the remaining question is no longer “where should the policy live?” but “where should the helper payload live, if anywhere else at all?”
 
 ## Judgment Questions
 
 ### 1. What Host Or Shared-Boundary Coupling Still Remains?
 
-- [d:r:i] The slice should identify what still ties `project_uplift.py` to this host repo or to a wider shared-boundary family after neutralization.
+- [d:r:i] The slice should identify what still ties `project_uplift.py` to this host repo or to a wider shared-boundary family after both landed neutralization tranches.
 - [d:r:i] This includes:
   - any remaining host-governance or audit-workspace assumptions
   - any remaining helper-home assumptions
   - any remaining installer/materialization or runtime-boundary coupling
+  - any remaining host planning-surface writer or scanner reach
 
 ### 2. What Should Travel With The Helper If It Ever Moves?
 
@@ -58,6 +63,8 @@ Status: proposed
   - `harness_modifier/compatibility/seed_contract.json`
   - `harness_modifier/uplift/output_policy.json`
   - `harness_modifier/compatibility/declaration.json`
+  - `harness_modifier/uplift/carrier_catalog.json`
+  - `harness_modifier/uplift/vocabulary.json`
 - [d:r:i] extraction/governance carry:
   - `harness_modifier/overlay/helpers/AUTHORITY-MAP.md`
   - `harness_modifier/overlay/ROSTER.md`
@@ -77,5 +84,5 @@ Status: proposed
 
 ## Exact Next Move
 
-1. [d:r:i] Run one bounded reread on the post-neutralization helper boundary rather than assuming the earlier payload-candidate posture still holds unchanged.
+1. [d:r:i] Run one bounded reread on the post-second-neutralization helper boundary rather than assuming the earlier payload-candidate posture still holds unchanged.
 2. [d:r:i] Use that reread to decide whether later movement remains earned, or whether the cleaner carrier split now points at a different adjacent extraction family.
