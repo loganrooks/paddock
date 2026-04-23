@@ -1,11 +1,11 @@
 Date: 2026-04-22
-Status: prepared launch-truth record
+Status: completed attempt-1 launch-truth record
 
 # Harness Modifier Project Uplift Post-Neutralization Payload-Home Judgment Reread Launch Truth
 
 - [d:r:i] Lane id: `06`
 - [d:r:i] Family: `extraction-audit`
-- [d:r:i] Frozen launch basis commit: `TBD`
+- [d:r:i] Frozen launch basis commit: `c3841b2`
 - [d:r:i] Requested reviewer: `Opus 4.7 Max`
 - [d:r:i] Requested runtime string: `opus[1m]`
 - [d:r:i] Requested reasoning effort: `xhigh`
@@ -31,8 +31,37 @@ python3 tooling/codex/run_claude_probe.py \
   > .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/06/probe-summary.txt
 ```
 
-- [d:r:i] Probe summary:
-  - exit code: `pending`
-  - elapsed seconds: `pending`
-  - session id: `pending`
-  - total cost usd: `pending`
+## Attempt 1: full packet reread
+
+- [e:c+i] Command shape:
+  - `python3 tooling/codex/run_claude_probe.py --label extraction-audit-06 --model 'opus[1m]' --effort xhigh --dangerously-skip-permissions --output-dir .../extraction-audit/logs/06 --prompt-file .../prompts/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-launch-prompt.md`
+- [e:c+i] Parent exec session id: `43596`
+- [e:c+i] Repo-local artifacts:
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/06/probe-summary.txt`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/06/extraction-audit-06-20260422-201315.v31cv9sy.stream.jsonl`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/06/extraction-audit-06-20260422-201315.lgcelxwx.debug.log`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/06/extraction-audit-06-20260422-201315.ekgnqdk2.stderr.log`
+- [e:c+i] Probe summary fields:
+  - exit code: `1`
+  - elapsed seconds: `not cleanly captured because the wrapper never flushed summary output before the stalled run was cut`
+  - last stream activity after launch: `133.962s`
+  - external session id: `1e862303-0fc6-4041-b358-6ceff77e4ae6`
+  - total cost usd: `not captured from the stalled run`
+- [e:c+i] Outcome:
+  - the run read the packet and spec
+  - the run then fell into repeated oversized `Read` calls against large workspace-governance files
+  - the stream never produced a final audit or wrote the requested output file
+  - the only recoverable assistant text is preserved in [../artifacts/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-attempt-1-partial.md](../artifacts/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-attempt-1-partial.md)
+- [d:r:i] Consequence:
+  - do not treat attempt `1` as a finished lane return
+  - preserve the stall evidence
+  - open a compact retry packet and prompt under the same lane
+
+## Compact Retry Prepared
+
+- [e:c+i] Compact retry packet:
+  - [../packets/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-compact-packet.md](../packets/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-compact-packet.md)
+- [e:c+i] Compact retry prompt:
+  - [../prompts/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-compact-launch-prompt.md](../prompts/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-compact-launch-prompt.md)
+- [d:r:i] Compact retry estimate:
+  - `6-10 minutes`

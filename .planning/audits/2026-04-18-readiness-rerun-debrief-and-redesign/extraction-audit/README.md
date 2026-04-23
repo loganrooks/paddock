@@ -114,6 +114,12 @@ Status: active opening audit family
   - [prompts/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-launch-prompt.md](prompts/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-launch-prompt.md)
   - [launch-truth/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-launch-truth.md](launch-truth/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-launch-truth.md)
   - [outputs/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1.md](outputs/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1.md)
+- [d:r:i] Lane `06` attempt `1` is now preserved as a stalled partial rather than a completed return:
+  - [artifacts/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-attempt-1-partial.md](artifacts/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-attempt-1-partial.md)
+  - [launch-truth/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-launch-truth.md](launch-truth/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-launch-truth.md)
+- [d:r:i] The next move inside lane `06` is the compact retry, not a wider family redirect:
+  - [packets/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-compact-packet.md](packets/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-compact-packet.md)
+  - [prompts/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-compact-launch-prompt.md](prompts/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-compact-launch-prompt.md)
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern

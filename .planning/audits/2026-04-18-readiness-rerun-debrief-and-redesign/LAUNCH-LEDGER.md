@@ -16,6 +16,33 @@
   - expected output length
 - [d:r:i] Earlier ledger entries may lack this field. Newer lanes should carry it forward instead of relying on operator memory.
 
+## 2026-04-22 `extraction-audit-lane-06`
+
+- date: `2026-04-22`
+- purpose: bounded Opus reread of the post-neutralization payload-home judgment for `project_uplift.py`, after the typed carrier split landed in `154`
+- frozen launch basis commit: `c3841b2`
+- requested model / reasoning: `opus[1m]` / `xhigh`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth artifact: [extraction-audit/launch-truth/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-launch-truth.md](extraction-audit/launch-truth/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-launch-truth.md)
+- prompt artifact: [extraction-audit/prompts/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-launch-prompt.md](extraction-audit/prompts/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-launch-prompt.md)
+- governing spec: [extraction-audit/specs/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-spec.md](extraction-audit/specs/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-spec.md)
+- governing packet: [extraction-audit/packets/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-packet.md](extraction-audit/packets/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-packet.md)
+- output artifact: [extraction-audit/outputs/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1.md](extraction-audit/outputs/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1.md)
+- estimated wall-clock duration: `8-14 minutes`
+- current status:
+  - attempt `1` stalled after repeated oversized reads against large governance files
+  - local exec session: `43596`
+  - final wrapper summary did not flush before the stalled run was cut
+  - compact retry prepared inside the same lane
+- attempt `1` evidence:
+  - partial artifact: [extraction-audit/artifacts/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-attempt-1-partial.md](extraction-audit/artifacts/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-attempt-1-partial.md)
+  - compact retry packet: [extraction-audit/packets/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-compact-packet.md](extraction-audit/packets/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-compact-packet.md)
+  - compact retry prompt: [extraction-audit/prompts/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-compact-launch-prompt.md](extraction-audit/prompts/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-compact-launch-prompt.md)
+- attempt `1` timing:
+  - last stream activity after launch: `133.962s`
+  - clean elapsed capture: unavailable because the wrapper hung and was cut
+  - calibration note: the `8-14 minute` estimate overshot the actual failure window; the lane hit its stall in roughly `2.2 minutes`, which points at packet shape rather than model-latency as the dominant issue
+
 ## 2026-04-18 `lane-01`
 
 - date: `2026-04-18`
