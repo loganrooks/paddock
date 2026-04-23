@@ -16,6 +16,28 @@
   - expected output length
 - [d:r:i] Earlier ledger entries may lack this field. Newer lanes should carry it forward instead of relying on operator memory.
 
+## 2026-04-22 `responsible-closure-audit lane-01`
+
+- date: `2026-04-22`
+- purpose: bounded Opus field map for responsible closure across deployability, host-context testing, adaptive feedback, discrepancy capture, and harness-agential closure quality
+- frozen launch basis commit: `ceda940`
+- requested model / reasoning: `opus[1m]` / `xhigh`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth artifact: [responsible-closure-audit/launch-truth/01-harness-modifier-responsible-closure-field-map-audit-launch-truth.md](responsible-closure-audit/launch-truth/01-harness-modifier-responsible-closure-field-map-audit-launch-truth.md)
+- prompt artifact: [responsible-closure-audit/prompts/01-harness-modifier-responsible-closure-field-map-audit-opus47-max-r1-launch-prompt.md](responsible-closure-audit/prompts/01-harness-modifier-responsible-closure-field-map-audit-opus47-max-r1-launch-prompt.md)
+- governing spec: [responsible-closure-audit/specs/01-harness-modifier-responsible-closure-field-map-audit-spec.md](responsible-closure-audit/specs/01-harness-modifier-responsible-closure-field-map-audit-spec.md)
+- governing packet: [responsible-closure-audit/packets/01-harness-modifier-responsible-closure-field-map-audit-packet.md](responsible-closure-audit/packets/01-harness-modifier-responsible-closure-field-map-audit-packet.md)
+- output artifact: [responsible-closure-audit/outputs/01-harness-modifier-responsible-closure-field-map-audit-opus47-max-r1.md](responsible-closure-audit/outputs/01-harness-modifier-responsible-closure-field-map-audit-opus47-max-r1.md)
+- estimated wall-clock duration: `12-18 minutes`
+- current state:
+  - launched
+  - local monitoring session: `65050`
+- repo-local artifacts:
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/responsible-closure-audit/logs/01/probe-summary.txt`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/responsible-closure-audit/logs/01/responsible-closure-audit-01-20260422-224435.gw57qc_r.stream.jsonl`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/responsible-closure-audit/logs/01/responsible-closure-audit-01-20260422-224435.apaoj85u.stderr.log`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/responsible-closure-audit/logs/01/responsible-closure-audit-01-20260422-224435.9g9vgvyu.debug.log`
+
 ## 2026-04-22 `extraction-audit-lane-06`
 
 - date: `2026-04-22`

@@ -130,6 +130,11 @@ These should be implemented in the remote host when available:
   - `.planning/SESSION-REENTRY-CHECKLIST.md`
 - Prefer fresh-thread boundaries at meaningful checkpoints over letting one thread absorb repeated compactions.
 - Treat `/status` and similar UI surfaces as advisory when they conflict with direct repo state or observed behavior.
+- When the current work is harness improvement rather than host-product delivery, keep harness-program horizons separate from host-product horizons during continuity/re-entry.
+- If a live external lane or delegated review is in flight:
+  - preserve the lane id, frozen basis, estimate, and current run state in continuity notes
+  - after any safe companion work finishes, recheck whether the lane has completed before waiting idly
+  - do not touch the live lane's read-set surfaces until inheritance unless the lane is explicitly being abandoned and relaunched
 
 ## DevOps minimum
 

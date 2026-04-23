@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: active opening audit family
+Status: active launched audit family
 
 # Responsible Closure Audit
 
@@ -15,6 +15,7 @@ Status: active opening audit family
 ## Opening Lane
 
 - [d:r:i] Lane `01` is the first bounded field map for this family.
+- [d:r:i] Lane `01` is now launched against frozen basis `ceda940`.
 - [d:r:i] Its current tuple is:
   - [packets/01-harness-modifier-responsible-closure-field-map-audit-packet.md](packets/01-harness-modifier-responsible-closure-field-map-audit-packet.md)
   - [specs/01-harness-modifier-responsible-closure-field-map-audit-spec.md](specs/01-harness-modifier-responsible-closure-field-map-audit-spec.md)

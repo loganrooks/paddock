@@ -32,6 +32,37 @@ Additional rules:
 - Keep harness-improvement horizons separate from host-product horizons unless a slice explicitly crosses into product planning, rerun coupling, or entry / re-entry integration.
 - If a note uses `uplift` or `long horizon` in a way that could name either the host project or the harness-improvement program, sharpen the target explicitly rather than relying on ambient context.
 
+## Harness-Program Routing
+
+When the work is about harness uplift, audit infrastructure, deployability, extraction, or governance rather than host-product delivery, route findings by carrier type instead of by whichever file is currently open:
+
+- `active bounded slice`
+  - the adjacent proposal/implementation/checkpoint path
+- `held later`
+  - belongs to the same family but should not move in the present slice
+- `seed`
+  - trigger-bound later possibility rather than current work
+- `deferred / milestone-crossing residue`
+  - should survive the current slice without becoming always-on doctrine
+- `doctrine / protected seam`
+  - durable policy, boundary, or long-horizon guidance that should outlive one local family
+- `audit-family memory`
+  - contextual widening/challenge context that should remain inspectable without being promoted yet
+
+Additional routing rules:
+
+- If a finding concerns harness-program horizons, do not silently route it into host-product carriers like `LONG-ARC.md` unless the slice truly crosses into product planning or rerun coupling.
+- If a finding concerns `parallelization`, name the domain explicitly:
+  - harness in action
+  - harness-improvement program
+- If a finding concerns `uplift`, name the target explicitly:
+  - harness-contract
+  - host-artifact
+  - harness-agential
+  - harness-operational
+  - harness-adaptive
+  - distribution / deployability
+
 ## Artifact Discipline
 
 The detailed artifact taxonomy and retention rules live in [ARTIFACT-GOVERNANCE.md](/home/rookslog/workspace/projects/prix-guesser/ARTIFACT-GOVERNANCE.md).
