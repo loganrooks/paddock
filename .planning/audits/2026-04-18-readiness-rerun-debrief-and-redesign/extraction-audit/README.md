@@ -124,6 +124,12 @@ Status: active opening audit family
   - [outputs/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1.md](outputs/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1.md)
   - [dispositions/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-inheritance.md](dispositions/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-inheritance.md)
 - [d:r:i] The next extraction object is now [../intervention-proposals/156-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal.md](../intervention-proposals/156-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal.md), not relocation and not a different adjacent family.
+- [d:r:i] Lane `07` is now the active challenge on that boundary:
+  - [packets/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-packet.md](packets/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-packet.md)
+  - [specs/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-spec.md](specs/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-spec.md)
+  - [prompts/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-opus47-max-r1-launch-prompt.md](prompts/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-opus47-max-r1-launch-prompt.md)
+  - [launch-truth/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-launch-truth.md](launch-truth/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-launch-truth.md)
+  - [outputs/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-opus47-max-r1.md](outputs/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-opus47-max-r1.md)
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern
