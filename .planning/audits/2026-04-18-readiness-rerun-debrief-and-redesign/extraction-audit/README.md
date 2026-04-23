@@ -162,6 +162,13 @@ Status: active opening audit family
 - [d:r:i] The next bounded extraction move is now:
   - [../intervention-proposals/160-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-proposal.md](../intervention-proposals/160-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-proposal.md)
 - [d:r:i] The payload-home judgment now reopens after policy-data, host-doctrine/vocabulary, and host-planning-shape neutralization rather than after only the earlier two dissolutions.
+- [d:r:i] Lane `10` is now prepared as the bounded reread over that reopened `160` judgment:
+  - [packets/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-packet.md](packets/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-packet.md)
+  - [specs/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-spec.md](specs/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-spec.md)
+  - [prompts/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-opus47-max-r1-launch-prompt.md](prompts/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-opus47-max-r1-launch-prompt.md)
+  - [launch-truth/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-launch-truth.md](launch-truth/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-launch-truth.md)
+  - [outputs/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-opus47-max-r1.md](outputs/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-opus47-max-r1.md)
+  - [dispositions/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-inheritance.md](dispositions/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-inheritance.md)
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern
