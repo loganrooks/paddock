@@ -1539,3 +1539,41 @@
   - `accept with typed-carrier split`
   - land one bounded neutralization implementation slice
   - keep relocation, second overlay tranche, overwrite-family split, standalone repo, npm/`npx`, and second-host work explicitly later
+
+## 2026-04-22 `extraction-audit lane-08`
+
+- date: `2026-04-22`
+- purpose: bounded Opus reread over the reopened `project_uplift.py` payload-home judgment after both landed neutralization tranches, so the extraction family can judge what host/shared-boundary coupling still materially remains before any later relocation reopening
+- frozen launch basis commit: `506fece`
+- requested model / reasoning: `opus[1m]` / `xhigh`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- prompt artifact: [extraction-audit/prompts/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-opus47-max-r1-launch-prompt.md](extraction-audit/prompts/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-opus47-max-r1-launch-prompt.md)
+- governing spec: [extraction-audit/specs/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-spec.md](extraction-audit/specs/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-spec.md)
+- governing packet: [extraction-audit/packets/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-packet.md](extraction-audit/packets/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-packet.md)
+- launch-truth artifact: [extraction-audit/launch-truth/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-launch-truth.md](extraction-audit/launch-truth/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-launch-truth.md)
+- output artifact: [extraction-audit/outputs/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-opus47-max-r1.md](extraction-audit/outputs/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-opus47-max-r1.md)
+- pre-launch estimate:
+  - `6-10 minutes`
+- current state:
+  - completed
+  - the lane stayed on the reopened payload-home judgment after both landed neutralization tranches
+  - it did not reopen second overlay tranche, overwrite-family widening, standalone repo execution, packaging, or broader parity redesign
+- repo-local artifacts:
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/08/probe-summary.txt`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/08/extraction-audit-08-20260422-205316.jvs20zhz.stream.jsonl`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/08/extraction-audit-08-20260422-205316.366agkx6.stderr.log`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/08/extraction-audit-08-20260422-205316.p_q1whdk.debug.log`
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `248.774`
+  - session id: `47dedbe6-b3c9-42c5-8c4b-0d34cea7c959`
+  - total cost usd: `1.6594189999999998`
+- timing calibration:
+  - actual runtime was shorter than the `6-10 minute` estimate at roughly `4.1 minutes`
+  - the lane behaved like a tightly bounded post-neutralization judgment reread rather than a broader extraction redesign lane
+- disposition:
+  - [extraction-audit/dispositions/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-inheritance.md](extraction-audit/dispositions/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-inheritance.md)
+  - `accept with host-planning-shape neutralization next move`
+  - keep relocation later
+  - keep `OVERLAY_MANIFEST_REL_PATH` as a separate later install-contract slice
+  - open `158` as the next bounded extraction object

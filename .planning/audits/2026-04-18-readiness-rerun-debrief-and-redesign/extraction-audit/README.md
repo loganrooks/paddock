@@ -136,7 +136,18 @@ Status: active opening audit family
 - [d:r:i] The second neutralization tranche is now landed too:
   - [../intervention-proposals/157-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-implementation.md](../intervention-proposals/157-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-implementation.md)
   - [../propagation-audit/58-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-change-triggered-refresh.md](../propagation-audit/58-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-change-triggered-refresh.md)
-- [d:r:i] The next extraction move is now to reopen the payload-home judgment on top of both landed neutralization tranches rather than widening into another adjacent extraction family first.
+- [d:r:i] The next extraction move is now reopened under lane `08`:
+  - [packets/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-packet.md](packets/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-packet.md)
+  - [specs/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-spec.md](specs/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-spec.md)
+  - [prompts/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-opus47-max-r1-launch-prompt.md](prompts/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-opus47-max-r1-launch-prompt.md)
+  - [launch-truth/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-launch-truth.md](launch-truth/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-launch-truth.md)
+  - [outputs/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-opus47-max-r1.md](outputs/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-opus47-max-r1.md)
+  - [dispositions/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-inheritance.md](dispositions/08-harness-modifier-project-uplift-post-second-neutralization-payload-home-judgment-reread-inheritance.md)
+- [d:r:i] Lane `08` is now completed and inherited:
+  - relocation still remains later
+  - the materially remaining host-coupling surface is now the host-planning-shape writer/scanner reach
+  - `OVERLAY_MANIFEST_REL_PATH` stays a separate later install-contract slice
+- [d:r:i] The next extraction object is now [../intervention-proposals/158-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal.md](../intervention-proposals/158-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal.md), not relocation and not another adjacent extraction family.
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern
