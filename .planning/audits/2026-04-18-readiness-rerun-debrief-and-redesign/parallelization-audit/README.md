@@ -33,6 +33,7 @@ Status: active companion audit family
 
 - [d:r:i] `164` remains only the framing map.
 - [d:r:i] `165` is now no longer only a route note; it now has a completed first lane under this subtree.
+- [d:r:i] The paired internal cross-audit is now also preserved as a local inheritance companion under [dispositions/02-parallelization-internal-cross-audit-inheritance.md](dispositions/02-parallelization-internal-cross-audit-inheritance.md), with requested-versus-effective launch truth at [launch-truth/02-parallelization-internal-cross-audit-launch-truth.md](launch-truth/02-parallelization-internal-cross-audit-launch-truth.md).
 - [d:r:i] This subtree should preserve:
   - the vanilla/modifier/program split
   - the difference between declared capability and governed live use

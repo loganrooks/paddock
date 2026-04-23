@@ -169,6 +169,7 @@ Status: active proposal/disposition batch
 163. `163-harness-program-horizons-and-future-carry-doctrine.md`
 164. `164-harness-parallelization-opportunity-map.md`
 165. `165-harness-parallelization-field-mapping-and-diagnosis-route.md`
+166. `166-harness-modifier-development-program-plan.md`
 
 ## Proposal Rule
 

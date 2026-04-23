@@ -414,7 +414,7 @@ Date: 2026-04-22
 55. keep explicitly later from the same lane:
    - splitting `CURRENT-STATE.md` `Active Baselines`
    - mirroring the operator directive into compaction / continuation prompts
-   - promoting horizon-routing into `.planning/AGENTS.md`
+   - later refinement of `.planning/AGENTS.md` if another narrower doctrine split proves necessary
 56. inherit the same lane with one scope correction: host-project planning docs are contextual for harness work unless a slice explicitly crosses into product planning, rerun coupling, or entry / re-entry integration
 57. keep the extraction consequence explicit through `115` and `136`: co-location now counts as real harness-extraction pressure, not only ambient future packaging appetite
 58. once `54`, `56`, and `57` are landed, return to the adjacent substantive routes rather than opening another widening lane first:
@@ -449,7 +449,8 @@ Date: 2026-04-22
 - current review-route first-slice status: `intervention-proposals/143-gsd-review-helper-backed-run-home-first-slice-proposal.md now turns the completed widening lane into one explicit local route: harden gsd-review in place through a helper-backed run-home / launch-truth / timing / salvage layer, keep REVIEWS.md and the Review Consumer Contract stable, and keep subject-split / retry / telemetry / wider parity routes explicit as later family moves`
 - current review-route implementation status: `intervention-proposals/145-gsd-review-helper-backed-run-home-first-slice-implementation.md plus propagation-audit/53-review-route-helper-backed-run-home-first-slice-change-triggered-refresh.md now land the helper-backed run-home layer itself: authoritative helper under harness_modifier/capture with tooling/codex shim, workflow/wrapper carry away from /tmp cleanup language, focused helper + route contract tests, and explicit producer-to-consumer propagation framing`
 - current parallelization field-map status: `parallelization-audit lane-01` now answers the three-way diagnosis directly across vanilla GSD posture, modified-harness posture, and harness-improvement-program overlap, and carries the active three-class taxonomy for later overlap questions
-- current responsible-closure status: `161` is now widened into a dedicated audit-family question under `responsible-closure-audit/`; lane `01` is the next bounded field map rather than another ambient route note
+- current responsible-closure status: `161` is now widened into a dedicated audit-family question under `responsible-closure-audit/`; lane `01` is completed and inherited, and the next bounded object is the integrated development-program plan in `166`
+- current development-program planning status: `166` now carries the next sovereign plan for harness-modifier development itself: development-side parallelization now, harness-in-action parallelization later, intervention lifecycle protocol pressure, actual and possible intervention surfaces, and responsible-closure sequencing are all gathered there rather than remaining scattered across route notes
 - explicitly later from that lane:
   - single-writer governance-surface list as a later bounded doctrine carry
   - fan-out packet template as a later bounded protocol carrier

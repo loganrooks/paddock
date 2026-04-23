@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: launched lane
+Status: completed lane
 
 # Harness Modifier Responsible Closure Field Map Audit Launch Truth
 
@@ -14,6 +14,10 @@ Status: launched lane
 - [d:r:i] Output artifact: [../outputs/01-harness-modifier-responsible-closure-field-map-audit-opus47-max-r1.md](../outputs/01-harness-modifier-responsible-closure-field-map-audit-opus47-max-r1.md)
 - [d:r:i] Pre-launch estimate: `12-18 minutes`
 - [d:r:i] Local monitoring session: `65050`
+- [d:r:i] Actual elapsed seconds: `585.840`
+- [d:r:i] External session id: `b16aeb61-5923-4937-89b8-22440f394c99`
+- [d:r:i] Total cost usd: `2.3847994999999997`
+- [d:r:i] Calibration note: the lane completed materially faster than the `12-18 minute` estimate at roughly `9.8 minutes`, which aligns with the current local pattern that compact field maps complete faster than broad widening passes.
 - [d:r:i] Repo-local artifacts:
   - `responsible-closure-audit/logs/01/probe-summary.txt`
   - `responsible-closure-audit/logs/01/responsible-closure-audit-01-20260422-224435.gw57qc_r.stream.jsonl`

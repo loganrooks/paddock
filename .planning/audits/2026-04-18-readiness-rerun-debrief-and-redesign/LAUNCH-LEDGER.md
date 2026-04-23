@@ -30,8 +30,12 @@
 - output artifact: [responsible-closure-audit/outputs/01-harness-modifier-responsible-closure-field-map-audit-opus47-max-r1.md](responsible-closure-audit/outputs/01-harness-modifier-responsible-closure-field-map-audit-opus47-max-r1.md)
 - estimated wall-clock duration: `12-18 minutes`
 - current state:
-  - launched
+  - completed
   - local monitoring session: `65050`
+  - actual elapsed seconds: `585.840`
+  - external session id: `b16aeb61-5923-4937-89b8-22440f394c99`
+  - total cost usd: `2.3847994999999997`
+  - calibration note: the lane completed materially faster than the `12-18 minute` estimate at roughly `9.8 minutes`, which fits the current pattern that compact-but-serious field maps are shorter than broad widening passes
 - repo-local artifacts:
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/responsible-closure-audit/logs/01/probe-summary.txt`
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/responsible-closure-audit/logs/01/responsible-closure-audit-01-20260422-224435.gw57qc_r.stream.jsonl`
