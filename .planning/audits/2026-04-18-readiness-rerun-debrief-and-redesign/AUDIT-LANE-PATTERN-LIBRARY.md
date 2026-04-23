@@ -20,6 +20,12 @@ Status: active audit-program infrastructure surface
   - scope
   - non-goals
   - why this lane exists now instead of later
+- [d:r:i] When the lane is parallelization-adjacent, add one lane-local declaration block on the face of the opening note:
+  - frozen basis
+  - authority surface
+  - companion-safe carry
+  - must-wait set
+  - recheck window
 
 ### Packet
 
@@ -29,6 +35,13 @@ Status: active audit-program infrastructure surface
   - explicit absolute paths for external or sibling-repo docs when those matter
   - anti-misread framing
   - what the lane should not silently widen into
+- [d:r:i] When the lane is parallelization-adjacent, preserve the same declaration shape inside the packet too:
+  - frozen basis
+  - read set
+  - authority surface
+  - companion-safe carry
+  - must-wait set
+  - recheck window
 
 ### Spec
 
@@ -55,6 +68,18 @@ Status: active audit-program infrastructure surface
   - actual elapsed wall-clock time after completion
   - one short calibration note comparing estimate versus actual so later launches can inherit a less naive timing expectation
   - any discovered mismatch and how it was handled
+- [d:r:i] Preserve one of two launch-truth shapes explicitly rather than blurring them:
+  - `launch-truth-lite`:
+    - packet/spec/prompt paths
+    - frozen basis
+    - requested settings
+    - timing expectation and actual outcome
+    - output path
+    - reviewer-state classification when relevant (`complete` / `partial` / `absent`)
+  - full requested-versus-effective capture:
+    - the `launch-truth-lite` fields above
+    - plus the requested/effective runtime fields preserved through `capture_launch_truth.py` or an equivalent stronger carrier
+- [d:r:i] Do not let a lane silently downgrade from full capture to `launch-truth-lite`; name the lighter shape directly when that is all the runner can honestly preserve.
 
 ### Timing estimate
 
@@ -73,6 +98,9 @@ Status: active audit-program infrastructure surface
   - `longer than expected because ...`
 - [d:r:i] The task is not perfect prediction.
 - [d:r:i] The task is to build a less naive local runtime model over repeated lanes.
+- [d:r:i] When the lane is review-family or helper-backed review work, cross-reference the helper-backed run-home case rather than reconstructing timing expectations from chat memory:
+  - [intervention-proposals/145-gsd-review-helper-backed-run-home-first-slice-implementation.md](intervention-proposals/145-gsd-review-helper-backed-run-home-first-slice-implementation.md)
+  - [propagation-audit/53-review-route-helper-backed-run-home-first-slice-change-triggered-refresh.md](propagation-audit/53-review-route-helper-backed-run-home-first-slice-change-triggered-refresh.md)
 
 ## Bounded Parallelization And Overlap
 
@@ -102,6 +130,31 @@ Status: active audit-program infrastructure surface
   - if companion carry finishes before that window, check the lane rather than idling on user reply
   - if there is nothing safe and useful left to do, wait on the lane instead of manufacturing filler work
 - [d:r:i] Read this section together with `Timing estimate`; one governs when to check, the other governs what can safely travel while waiting.
+
+### Parent-thread retention
+
+- [g:r:i] Parent-thread retention is the default when delegated or overlapping work is used inside harness-modifier development.
+- [d:r:i] The parent thread keeps ownership of:
+  - disposition authority
+  - governance carry
+  - propagation carry
+  - checkpoint boundaries
+  - inheritance writing
+
+### Sub-agent earned work
+
+- [g:r:i] Use sub-agents only for bounded work that sharpens the slice without displacing composition ownership.
+- [d:r:i] Earned categories include:
+  - bounded classification
+  - packet assembly
+  - gap identification
+  - focused audit reads
+  - focused implementation slices with a clean write boundary
+  - bounded verification / review against intended effects and propagation obligations
+- [d:r:i] If a verifier or reviewer is launched, keep its role explicit:
+  - what slice it is checking
+  - what it is not authorized to widen into
+  - what artifact should preserve its return
 
 ### Output
 
@@ -185,6 +238,21 @@ Status: active audit-program infrastructure surface
   - `audit_refmap.py verify` for audit-link integrity
   - helper-specific tests for tooling slices
   - runtime/install gates like `harness_canary.py` only when the slice actually changes those families
+
+## Intervention Lifecycle
+
+- [g:r:i] Treat intervention work as a repeated loop, not as one local patch plus ambient memory.
+- [d:r:i] The minimal lifecycle declaration on proposal, implementation, or inheritance surfaces should carry:
+  - `Intended Effects`
+  - `Propagation Obligations`
+  - `Monitor Target`
+  - disposition-verb close (`accept` / `revise` / `park` / `reject`)
+- [d:r:i] When a slice's effects are not self-evident from the landed diff alone, schedule one bounded verification or review task rather than leaving proof implicit.
+- [d:r:i] Prefer reusable verification shape over one-off prompt reinvention:
+  - intended-effects check
+  - propagation-obligation check
+  - mismatch / under-carry check
+  - whether a periodic big-picture review gate is now due
 
 ## Anti-Patterns
 

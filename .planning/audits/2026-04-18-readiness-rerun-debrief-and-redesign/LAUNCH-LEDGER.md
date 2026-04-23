@@ -176,6 +176,29 @@
 - repo-local artifacts directory:
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/responsible-closure-audit/logs/03/`
 
+## 2026-04-23 `responsible-closure-audit lane-04`
+
+- date: `2026-04-23`
+- purpose: bounded composite Opus reread over the revised development-side protocol tranche plus its sharpened review-route propagation companion
+- frozen launch basis commit: `6604d1e`
+- requested model / reasoning: `opus[1m]` / `xhigh`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth artifact: [responsible-closure-audit/launch-truth/04-harness-modifier-protocol-composite-reread-launch-truth.md](responsible-closure-audit/launch-truth/04-harness-modifier-protocol-composite-reread-launch-truth.md)
+- prompt artifact: [responsible-closure-audit/prompts/04-harness-modifier-protocol-composite-reread-opus47-max-r1-launch-prompt.md](responsible-closure-audit/prompts/04-harness-modifier-protocol-composite-reread-opus47-max-r1-launch-prompt.md)
+- governing spec: [responsible-closure-audit/specs/04-harness-modifier-protocol-composite-reread-spec.md](responsible-closure-audit/specs/04-harness-modifier-protocol-composite-reread-spec.md)
+- governing packet: [responsible-closure-audit/packets/04-harness-modifier-protocol-composite-reread-packet.md](responsible-closure-audit/packets/04-harness-modifier-protocol-composite-reread-packet.md)
+- output artifact: [responsible-closure-audit/outputs/04-harness-modifier-protocol-composite-reread-opus47-max-r1.md](responsible-closure-audit/outputs/04-harness-modifier-protocol-composite-reread-opus47-max-r1.md)
+- estimated wall-clock duration: `8-14 minutes`
+- current state:
+  - completed
+  - local monitoring session: `97850`
+  - actual elapsed seconds: `448.725`
+  - external session id: `8f9f3bd1-3beb-4cbf-8b51-3a4d675b1163`
+  - total cost usd: `1.77795525`
+  - calibration note: the lane completed slightly faster than the `8-14 minute` estimate at roughly `7.5 minutes`, which keeps matching the compact composite-reread pattern rather than the heavier integrated-plan audit pattern
+- repo-local artifacts directory:
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/responsible-closure-audit/logs/04/`
+
 ## 2026-04-18 `lane-01`
 
 - date: `2026-04-18`

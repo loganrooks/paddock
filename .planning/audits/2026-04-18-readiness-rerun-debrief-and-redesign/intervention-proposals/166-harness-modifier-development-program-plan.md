@@ -170,9 +170,9 @@ Status: active audited sovereign plan
   - keep the extraction-family next move explicit as [167-harness-modifier-project-uplift-install-contract-pointer-neutralization-proposal.md](167-harness-modifier-project-uplift-install-contract-pointer-neutralization-proposal.md)
   - keep the held-later artifact-home sibling explicit as [168-harness-modifier-project-uplift-held-later-artifact-home-sibling-note.md](168-harness-modifier-project-uplift-held-later-artifact-home-sibling-note.md)
 - [d:r:i] `planning / protocol`
-  - cut one bounded development-parallelization protocol tranche
-  - cut one bounded intervention lifecycle protocol consolidation tranche
+  - land one bounded development-parallelization and intervention-lifecycle protocol slice through `171`
   - make lane-local companion-work / must-wait / recheck rules explicit
+  - keep verifier/review scheduling pressure explicit through `170` until a later bounded refinement either consolidates it into a reusable template or narrows it further
 - [d:r:i] `audit / propagation`
   - pair the protocol tranche with a targeted propagation audit on already-landed parallelization-adjacent workflow changes
   - preserve external-lane measurement/provenance implications rather than leaving them ownerless
@@ -331,8 +331,8 @@ Status: active audited sovereign plan
 2. [d:r:i] Treat `160` as closed on its bounded reread basis through lane `10`.
 3. [d:r:i] Keep `167` as the next extraction-family object and `168` as the explicit held-later sibling.
 4. [d:r:i] Treat responsible-closure lane `03` as the completed cross-vendor challenge over the current protocol tranche plus its paired propagation companion.
-5. [d:r:i] Revise [../propagation-audit/60-review-route-parallelization-adjacent-propagation-audit-opening-note.md](../propagation-audit/60-review-route-parallelization-adjacent-propagation-audit-opening-note.md) with the concrete candidate under-carried surfaces lane `03` named.
-6. [d:r:i] Run one bounded composite reread over [169-harness-modifier-development-parallelization-and-intervention-lifecycle-protocol-consolidation-proposal.md](169-harness-modifier-development-parallelization-and-intervention-lifecycle-protocol-consolidation-proposal.md) plus the revised `60`.
-7. [d:r:i] Land the pattern-library-dominant first protocol slice from that reread's carrier map, keeping `.planning/AGENTS.md` and `readiness.md` narrow unless the reread earns more.
+5. [d:r:i] Treat responsible-closure lane `04` as the completed composite reread over `169 + revised 60`.
+6. [d:r:i] Treat [171-harness-modifier-development-protocol-first-slice-implementation.md](171-harness-modifier-development-protocol-first-slice-implementation.md) plus [../propagation-audit/61-development-protocol-first-slice-change-triggered-refresh.md](../propagation-audit/61-development-protocol-first-slice-change-triggered-refresh.md) as the landed first protocol slice from that reread's carrier map.
+7. [d:r:i] Keep verifier/review scheduling pressure explicit through [170-development-parallelization-verifier-and-review-scheduling-side-note.md](170-development-parallelization-verifier-and-review-scheduling-side-note.md) as the next adjacent refinement rather than letting it dissolve back into commentary.
 8. [d:r:i] Return next to the responsible-closure deployability bundle from the cleaner protocol baseline as medium-horizon follow-through.
 9. [d:r:i] Keep harness-in-action parallelization explicit, but later.

@@ -207,6 +207,9 @@ For spawned planning, audit, review, or doctrine-sensitive work inside `.plannin
 
 - do not rely on private sqlite inspection plus chat memory as the only launch-truth surface
 - prefer durable requested-vs-effective capture with `python3 tooling/codex/capture_launch_truth.py`
+- preserve the launch-truth shape explicitly:
+  - `launch-truth-lite` when the runner can honestly preserve packet/spec/prompt paths, requested settings, timing, output path, and reviewer-state vocabulary but not the full requested/effective runtime field set
+  - full requested-vs-effective capture when `capture_launch_truth.py` or an equivalent stronger carrier is available
 - use a tight pre-spawn `--since` boundary when available
 - preserve the capture in the relevant launch-truth, review, audit, or disposition artifact before inheriting the return
 - treat missing runtime fields as unresolved rather than silently inferred matches

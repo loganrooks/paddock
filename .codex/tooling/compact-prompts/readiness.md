@@ -17,6 +17,29 @@ Prioritize, in order:
    - preserve-only vs active
    - milestone scope vs long-arc doctrine
    - current task vs deferred follow-up
+10. if the work is on harness improvement rather than host-product delivery:
+   - keep harness-program horizons separate from host-product horizons
+   - name whether `uplift` refers to harness-contract, host-artifact, harness-agential, harness-operational, harness-adaptive, or distribution/deployability change
+11. if a live external lane exists:
+   - preserve the lane id, frozen basis commit, estimated runtime window, and whether it is still running or completed
+   - preserve what companion work is safe while it runs and what must wait for inheritance
+12. preserve the intended carrier for open findings when that has been made explicit:
+   - active bounded slice
+   - held later
+   - seed
+   - deferred residue
+   - doctrine / protected seam
+   - audit-family memory
+13. if the work is inside a harness-program tranche rather than host-product delivery:
+   - preserve the active tranche id and its adjacent proposal/implementation carrier
+   - preserve lifecycle-loop state:
+     - intended effects
+     - propagation obligations
+     - monitor target
+     - current disposition verb
+   - preserve the paired propagation companion id and state when one exists
+   - preserve any scheduled bounded verification/review work that was explicitly earned by the slice
+   - preserve the explicit Phase 01 rerun hold across that tranche
 
 Prefer exact repo file paths over vague prose.
 
