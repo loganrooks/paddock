@@ -29,7 +29,8 @@ Status: proposed
   - label
   - fingerprint shape
   - marker string where the carrier is marker-based rather than whole-file-based
-- [d:r:i] Include the runtime-agent registry shape (`.codex/agents/*.toml`) through this same catalog or a very narrow sibling so `build_runtime_agent_specs` stops hard-coding the runtime-agent walk.
+- [d:r:i] Include the runtime-agent registry shape (`.codex/agents/*.toml`) as a named sibling object inside the same catalog so `build_runtime_agent_specs` stops hard-coding the runtime-agent walk without hiding the expand-by-glob case inside `file_carriers`.
+- [d:r:i] The catalog should also declare a stable ordering rule so authored reordering does not silently churn later doctrine hashes.
 
 ### 2. Uplift Vocabulary Carrier
 
@@ -38,7 +39,7 @@ Status: proposed
   - rerun-boundary pattern phrases
   - `$gsd-uplift-project`
   - `$gsd-seed-migration-inventory`
-  - any other host-facing vocabulary currently embedded directly into recommendation/state/progress-note text
+  - the full operator-facing sentence templates currently embedded directly into recommendation/state/progress-note text, not only the raw tokens
 
 ### 3. Keep Analysis Logic Local
 
@@ -49,6 +50,16 @@ Status: proposed
   - report/manifest rendering
   - dataclasses and CLI wiring
 - [d:r:i] The move is to externalize typed observed doctrine surfaces, not to flatten the analysis algorithm into data.
+
+### 4. Test Frontier
+
+- [d:r:i] Tie the tranche to focused parity tests in `tooling/codex/tests/test_project_uplift.py`.
+- [d:r:i] The test frontier should cover:
+  - carrier fingerprint stability
+  - absent-additive list stability
+  - doctrine-reference hash stability across no-op catalog ordering
+  - drift-reason text equivalence
+  - recommendation-sentence equivalence
 
 ## Carrying Surfaces
 
@@ -81,6 +92,7 @@ Status: proposed
 - [d:r:i] No standalone repo or npm/`npx` packaging move.
 - [d:r:i] No broader `.codex` / `.claude` parity redesign beyond the already landed compatibility declaration posture.
 - [d:r:i] No `.planning/STATE.md` writer or `.planning/phases/` scanner neutralization yet; hold that as the later host-planning-shape slice.
+- [d:r:i] No `OVERLAY_MANIFEST_REL_PATH` neutralization in this tranche; hold install-contract pointer neutralization as its own later slice.
 
 ## Exact Next Move
 

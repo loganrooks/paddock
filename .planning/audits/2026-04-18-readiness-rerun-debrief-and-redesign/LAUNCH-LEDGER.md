@@ -56,6 +56,31 @@
   - debug artifact: `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/06b/extraction-audit-06b-20260422-202157.1o6a8spb.debug.log`
   - calibration note: the compact retry again completed materially faster than the estimate at roughly `3.8 minutes`, which confirms that the first failure was driven by packet shape rather than intrinsic model latency
 
+## 2026-04-22 `extraction-audit-lane-07`
+
+- date: `2026-04-22`
+- purpose: bounded Opus reread over `156`, to judge the cleaner second neutralization tranche for `project_uplift.py` after the completed payload-home lane
+- frozen launch basis commit: `aa4d770`
+- requested model / reasoning: `opus[1m]` / `xhigh`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth artifact: [extraction-audit/launch-truth/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-launch-truth.md](extraction-audit/launch-truth/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-launch-truth.md)
+- prompt artifact: [extraction-audit/prompts/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-opus47-max-r1-launch-prompt.md](extraction-audit/prompts/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-opus47-max-r1-launch-prompt.md)
+- governing spec: [extraction-audit/specs/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-spec.md](extraction-audit/specs/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-spec.md)
+- governing packet: [extraction-audit/packets/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-packet.md](extraction-audit/packets/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-packet.md)
+- output artifact: [extraction-audit/outputs/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-opus47-max-r1.md](extraction-audit/outputs/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-opus47-max-r1.md)
+- estimated wall-clock duration: `6-10 minutes`
+- current status:
+  - completed
+  - local exec session: `30247`
+  - exit code: `0`
+  - actual elapsed seconds: `279.070`
+  - external session id: `21cb758f-89ed-4f9d-933e-b60ab7c8ea7e`
+  - total cost usd: `1.4670557499999999`
+  - stream artifact: `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/07/extraction-audit-07-20260422-203003.e5n92buo.stream.jsonl`
+  - stderr artifact: `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/07/extraction-audit-07-20260422-203003.ayfo_dw_.stderr.log`
+  - debug artifact: `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/07/extraction-audit-07-20260422-203003.zvw2jcgh.debug.log`
+  - calibration note: the lane again completed materially faster than the `6-10 minute` estimate at roughly `4.7 minutes`, reinforcing the local model that these compact extraction rereads are short bounded passes rather than medium-duration field maps
+
 ## 2026-04-18 `lane-01`
 
 - date: `2026-04-18`

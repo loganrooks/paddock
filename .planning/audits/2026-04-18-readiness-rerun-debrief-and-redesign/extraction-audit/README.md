@@ -130,6 +130,9 @@ Status: active opening audit family
   - [prompts/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-opus47-max-r1-launch-prompt.md](prompts/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-opus47-max-r1-launch-prompt.md)
   - [launch-truth/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-launch-truth.md](launch-truth/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-launch-truth.md)
   - [outputs/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-opus47-max-r1.md](outputs/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-opus47-max-r1.md)
+- [d:r:i] Lane `07` is now completed and inherited through:
+  - [outputs/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-opus47-max-r1.md](outputs/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-opus47-max-r1.md)
+  - [dispositions/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-inheritance.md](dispositions/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-inheritance.md)
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern
