@@ -63,6 +63,21 @@ Status: active companion audit family
   2. run one composite reread over `169 + revised 60`
   3. land a pattern-library-dominant first protocol slice from that reread's carrier map
   4. keep `167` sequential rather than concurrent
+
+## Lane `04`
+
+- [d:r:i] Lane `04` is the bounded composite reread over the revised `169 + 60` pair.
+- [d:r:i] It is scoped to:
+  - [../intervention-proposals/169-harness-modifier-development-parallelization-and-intervention-lifecycle-protocol-consolidation-proposal.md](../intervention-proposals/169-harness-modifier-development-parallelization-and-intervention-lifecycle-protocol-consolidation-proposal.md)
+  - [../propagation-audit/60-review-route-parallelization-adjacent-propagation-audit-opening-note.md](../propagation-audit/60-review-route-parallelization-adjacent-propagation-audit-opening-note.md)
+  - the lane-03 output and inheritance that sharpened the pair
+- [d:r:i] Its tuple is now prepared:
+  - [packets/04-harness-modifier-protocol-composite-reread-packet.md](packets/04-harness-modifier-protocol-composite-reread-packet.md)
+  - [specs/04-harness-modifier-protocol-composite-reread-spec.md](specs/04-harness-modifier-protocol-composite-reread-spec.md)
+  - [prompts/04-harness-modifier-protocol-composite-reread-opus47-max-r1-launch-prompt.md](prompts/04-harness-modifier-protocol-composite-reread-opus47-max-r1-launch-prompt.md)
+  - [launch-truth/04-harness-modifier-protocol-composite-reread-launch-truth.md](launch-truth/04-harness-modifier-protocol-composite-reread-launch-truth.md)
+  - [outputs/04-harness-modifier-protocol-composite-reread-opus47-max-r1.md](outputs/04-harness-modifier-protocol-composite-reread-opus47-max-r1.md)
+  - [dispositions/04-harness-modifier-protocol-composite-reread-inheritance.md](dispositions/04-harness-modifier-protocol-composite-reread-inheritance.md)
 - [d:r:i] This subtree should preserve:
   - the difference between deployability pressure and rush pressure
   - the difference between contract uplift, host-artifact uplift, harness-agential uplift, and adaptive post-deploy learning
