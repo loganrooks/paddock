@@ -16,16 +16,33 @@ Status: proposed integrated program plan
   - horizon routing
   - task-type routing
 
+## Inherited Doctrine
+
+- [g:r:i] This plan inherits the six-surface uplift split from [161](161-harness-modifier-responsible-closure-deployability-and-adaptive-feedback-route.md), [162](162-harness-uplift-semantics-and-target-mode-split.md), and [responsible-closure-audit lane-01](../responsible-closure-audit/outputs/01-harness-modifier-responsible-closure-field-map-audit-opus47-max-r1.md).
+- [g:r:i] This plan inherits the five-family signal taxonomy from [responsible-closure-audit lane-01](../responsible-closure-audit/outputs/01-harness-modifier-responsible-closure-field-map-audit-opus47-max-r1.md):
+  - `deployment-context`
+  - `expectation-vs-observation`
+  - `semantic-deviation`
+  - `positive-gain`
+  - `measurement-provenance`
+- [g:r:i] This plan inherits the three-class parallelization taxonomy from [parallelization-audit lane-01](../parallelization-audit/outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md):
+  - `safe earned`
+  - `promising but not-yet-governed`
+  - `likely coherence/quality risk`
+- [g:r:i] This plan inherits the current operator directive from [.planning/HARNESS-IMPROVEMENT-REGISTER.md](/home/rookslog/workspace/projects/prix-guesser/.planning/HARNESS-IMPROVEMENT-REGISTER.md): no shortcuts that trade away future control, triple-check high-consequence boundaries, and keep propagation / verification / governance carriers in tune after local intervention.
+- [g:r:i] This plan inherits the explicit anti-threshold doctrine from [CLAUDE.md](/home/rookslog/workspace/projects/prix-guesser/CLAUDE.md) and [.planning/CLAUDE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/CLAUDE.md): the question is stronger carry and better future control, not whether one gate is barely crossed.
+
 ## Scope Rule
 
 - [g:r:i] Harness-program horizons are separate from `prix-guesser` product horizons.
 - [g:r:i] Development-side parallelization for the harness-modifier program is the active protocol question now.
 - [d:r:i] Harness-in-action parallelization remains a real later family, but it is not the current implementation target for this plan.
 - [d:r:i] When this plan says `uplift`, it refers to the harness-modifier program unless it names another target explicitly.
+- [d:r:i] Read this scope together with [163](163-harness-program-horizons-and-future-carry-doctrine.md), which remains the horizon-doctrine carrier this plan is instancing rather than replacing.
 
 ## Domain Split
 
-- [d:r:i] This plan routes through the currently explicit uplift target split:
+- [d:r:i] This plan routes through the currently explicit uplift target split inherited from `162` and responsible-closure lane `01`:
   - `harness-contract`
   - `host-artifact`
   - `harness-agential`
@@ -37,126 +54,164 @@ Status: proposed integrated program plan
   - the modifier as an agential project-development machine
   - the modifier as a future deployable/distributable system
 
-## Actual Intervention Surfaces
-
-- [d:r:i] The current actual intervention surfaces for developing the harness-modifier are:
-  - `audit / review lane machinery`
-    - lane packets, specs, prompts, launch truth, outputs, dispositions, timing ledgers
-  - `governance routing`
-    - `CURRENT-STATE.md`
-    - `STATUS.md`
-    - `INDEX.md`
-    - `.planning/HARNESS-IMPROVEMENT-REGISTER.md`
-    - `AUDIT-SUBTREE-STATUS-REGISTER.md`
-    - `.planning/AGENTS.md`
-    - `WORKFLOW.md`
-    - readiness compaction prompts
-  - `propagation carry`
-    - change-triggered refresh notes
-    - propagation baseline/delta carriers
-    - propagation-review route
-  - `verification and materialization`
-    - tests
-    - installer/materialization checks
-    - parity carriers
-    - contract verification
-  - `extraction / rehome work`
-    - `harness_modifier/` carrier moves
-    - overlay authority splits
-    - helper neutralization
-    - payload-home judgment
-  - `responsible-closure field mapping`
-    - deployability
-    - host-context testing breadth
-    - adaptive feedback
-    - discrepancy and positive-gain capture
-    - agential closure quality
-  - `development-overlap governance`
-    - safe companion work
-    - waiting / recheck discipline
-    - delegation boundaries
-
-## Possible Or Virtual Intervention Surfaces
-
-- [g:r:i] The program should not map only already-materialized surfaces. It should also keep openable surfaces visible when repeated pressure suggests they may need to exist.
-- [d:r:i] The current possible or virtual intervention surfaces are:
-  - `development parallelization protocol carrier`
-    - a canonical protocol for lane-local read-set, companion work, must-wait surfaces, recheck timing, and same-basis concurrency
-  - `intervention lifecycle protocol carrier`
-    - propose -> launch -> monitor -> review -> disposition -> propagate -> verify -> revise
-  - `single-writer / lane-exclusive authority surface map`
-    - broader than governance files alone
-  - `fan-out packet template`
-    - for safe concurrent readers over a frozen basis
-  - `parallelization impact carrier` inside propagation review
-  - `development intervention-surface map`
-    - a dedicated map of actual and virtual surfaces for developing the modifier
-  - `measurement/provenance carrier`
-    - explicit capture of lane-side observations, discrepancies, positive gains, and provenance
-  - `observation carrier` for host exercises
-  - `dogfooding surface`
-    - a later possibility where the modifier is developed in its own repo and can use itself more directly
-- [d:r:i] A virtual surface is worth promoting only when:
-  - repeated pressure appears across more than one family
-  - current carriers cannot hold the needed distinction cleanly
-  - ownership can be made explicit if the surface is created
-  - propagation consequences can be named in advance
-  - the surface can be audited or verified once opened
-
 ## Planning Stance
 
 - [g:r:i] The active stance is `responsible closure`, not `rush to deployment`.
 - [g:r:i] The goal is not to stop widening. The goal is to widen in a way that prepares the modifier for real deployment, adaptation, and later repo separation without blurring program governance.
+- [g:r:i] The anti-threshold posture is explicit here: closure is what broadens, sharpens, intensifies, and becomes more durable across the six uplift surfaces, not what merely satisfies one readiness gate.
 - [d:r:i] The current program should therefore prioritize:
   - stronger protocol and lifecycle discipline for development
   - stronger visibility of actual and possible intervention surfaces
   - stronger responsible-closure sequencing
   - explicit later boundaries where the field is not yet earned
 
-## Short Horizon
+## Actual Intervention Surfaces
+
+- [d:r:i] `audit / review lane machinery`
+  - [AUDIT-LANE-PATTERN-LIBRARY.md](../AUDIT-LANE-PATTERN-LIBRARY.md)
+  - [AUDIT-CANON-ABSORPTION-PROTOCOL.md](../AUDIT-CANON-ABSORPTION-PROTOCOL.md)
+  - [AUDIT-SUBTREE-AGING-AND-GRADUATION.md](../AUDIT-SUBTREE-AGING-AND-GRADUATION.md)
+  - [AUDIT-SUBTREE-STATUS-REGISTER.md](../AUDIT-SUBTREE-STATUS-REGISTER.md)
+  - `launch-truth/`, `outputs/`, and `dispositions/` lane carriers
+- [d:r:i] `governance routing`
+  - [.planning/HARNESS-IMPROVEMENT-REGISTER.md](/home/rookslog/workspace/projects/prix-guesser/.planning/HARNESS-IMPROVEMENT-REGISTER.md) `Horizon Routing`
+  - [CURRENT-STATE.md](../CURRENT-STATE.md)
+  - [STATUS.md](../STATUS.md)
+  - [INDEX.md](../INDEX.md)
+  - [.planning/AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/AGENTS.md)
+  - [WORKFLOW.md](/home/rookslog/workspace/projects/prix-guesser/WORKFLOW.md)
+  - [CLAUDE.md](/home/rookslog/workspace/projects/prix-guesser/CLAUDE.md)
+  - [.planning/CLAUDE.md](/home/rookslog/workspace/projects/prix-guesser/.planning/CLAUDE.md)
+  - readiness compaction prompt at [tooling/portable-gsd/overlay/tooling/compact-prompts/readiness.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/tooling/compact-prompts/readiness.md)
+- [d:r:i] `propagation carry`
+  - [95-upstream-pristine-propagation-baseline-first-slice.md](95-upstream-pristine-propagation-baseline-first-slice.md)
+  - [96-repo-local-propagation-delta-first-slice.md](96-repo-local-propagation-delta-first-slice.md)
+  - [propagation-audit/15-propagation-registry-v2-layered-first-refresh.md](../propagation-audit/15-propagation-registry-v2-layered-first-refresh.md)
+  - `propagation-audit/artifacts/02-06`
+  - [.codex/get-shit-done/workflows/propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/.codex/get-shit-done/workflows/propagation-review.md)
+- [d:r:i] `verification and materialization`
+  - [harness_modifier/contract/harness_canary.py](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/contract/harness_canary.py)
+  - [tooling/codex/runtime_visibility.py](/home/rookslog/workspace/projects/prix-guesser/tooling/codex/runtime_visibility.py)
+  - [harness_modifier/contract/portable_gsd_contract.py](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/contract/portable_gsd_contract.py)
+  - `verify-materialized --strict`
+  - installer/materialization tests and route contracts
+- [d:r:i] `extraction / rehome work`
+  - [115-harness-modifier-extraction-and-npx-distribution-route.md](115-harness-modifier-extraction-and-npx-distribution-route.md)
+  - [harness_modifier/compatibility/declaration.json](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/compatibility/declaration.json)
+  - [harness_modifier/compatibility/declaration.py](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/compatibility/declaration.py)
+  - [harness_modifier/overlay/helpers/AUTHORITY-MAP.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/helpers/AUTHORITY-MAP.md)
+  - [harness_modifier/overlay/ROSTER.md](/home/rookslog/workspace/projects/prix-guesser/harness_modifier/overlay/ROSTER.md)
+  - [148-harness-modifier-first-overlay-filesystem-rehome-implementation.md](148-harness-modifier-first-overlay-filesystem-rehome-implementation.md)
+  - [159-harness-modifier-project-uplift-host-planning-shape-neutralization-implementation.md](159-harness-modifier-project-uplift-host-planning-shape-neutralization-implementation.md)
+- [d:r:i] `responsible-closure field mapping`
+  - [161-harness-modifier-responsible-closure-deployability-and-adaptive-feedback-route.md](161-harness-modifier-responsible-closure-deployability-and-adaptive-feedback-route.md)
+  - [responsible-closure-audit/outputs/01-harness-modifier-responsible-closure-field-map-audit-opus47-max-r1.md](../responsible-closure-audit/outputs/01-harness-modifier-responsible-closure-field-map-audit-opus47-max-r1.md)
+  - [responsible-closure-audit/dispositions/01-harness-modifier-responsible-closure-field-map-audit-inheritance.md](../responsible-closure-audit/dispositions/01-harness-modifier-responsible-closure-field-map-audit-inheritance.md)
+- [d:r:i] `development-overlap governance`
+  - [AUDIT-LANE-PATTERN-LIBRARY.md](../AUDIT-LANE-PATTERN-LIBRARY.md) `Bounded Parallelization And Overlap`
+  - [parallelization-audit/outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md](../parallelization-audit/outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md)
+  - [parallelization-audit/dispositions/01-harness-parallelization-field-map-and-diagnosis-audit-inheritance.md](../parallelization-audit/dispositions/01-harness-parallelization-field-map-and-diagnosis-audit-inheritance.md)
+  - [parallelization-audit/dispositions/02-parallelization-internal-cross-audit-inheritance.md](../parallelization-audit/dispositions/02-parallelization-internal-cross-audit-inheritance.md)
+- [d:r:i] `review-workflow carry`
+  - [145-gsd-review-helper-backed-run-home-first-slice-implementation.md](145-gsd-review-helper-backed-run-home-first-slice-implementation.md)
+  - [propagation-audit/53-review-route-helper-backed-run-home-first-slice-change-triggered-refresh.md](../propagation-audit/53-review-route-helper-backed-run-home-first-slice-change-triggered-refresh.md)
+  - `review-route-audit/` lane `01`
+- [d:r:i] `operator directive surface`
+  - [.planning/HARNESS-IMPROVEMENT-REGISTER.md](/home/rookslog/workspace/projects/prix-guesser/.planning/HARNESS-IMPROVEMENT-REGISTER.md) `Current Operator Directive`
+
+## Possible Or Virtual Intervention Surfaces
+
+- [d:r:i] `held-later with named trigger`
+  - `fan-out packet template`
+    - already held later by [parallelization-audit/dispositions/01-harness-parallelization-field-map-and-diagnosis-audit-inheritance.md](../parallelization-audit/dispositions/01-harness-parallelization-field-map-and-diagnosis-audit-inheritance.md)
+    - trigger: one more real overlap exercise
+  - `single-writer / lane-exclusive authority surface map`
+    - already held later by the same disposition
+    - trigger: one more real overlap exercise before promoting into stronger doctrine
+  - `Parallelization Impact` carrier inside propagation review
+    - already held later by the same disposition
+    - trigger: a bounded proposal that materially touches a parallelization-adjacent surface
+  - `cross-vendor responsible-closure audit`
+    - already scheduled by [161](161-harness-modifier-responsible-closure-deployability-and-adaptive-feedback-route.md) commitment `#6` and responsible-closure lane `01`
+    - trigger: payload-home closure plus the first observation-carrier slice
+- [d:r:i] `shaped proposal not yet written`
+  - `observation carrier for host exercises`
+    - first-slice shape already inherited from responsible-closure lane `01`:
+      - five signal families
+      - observe-only
+      - operator-triggered
+      - single-writer
+      - keyed to one host exercise
+      - v2-split provenance
+  - `measurement / provenance carrier`
+  - `development intervention-surface map`
+- [d:r:i] `net-virtual`
+  - `development parallelization protocol carrier`
+  - `intervention lifecycle protocol consolidation`
+  - `dogfooding surface`
+- [d:r:i] Promotion should be read through maturity indicators, not a gate:
+  - pressure replication signal
+  - carrier insufficiency signal
+  - ownership nameability
+  - propagation traceability
+  - audit/verification shape
+- [d:r:i] Rule of thumb:
+  - two or more indicators earn a bounded proposal
+  - all five earn promotion into an active carrier
+
+## Short Horizon (harness-program)
 
 - [d:r:i] `audit`
   - freeze responsible-closure lane `01` as a completed baseline
   - preserve the paired internal parallelization cross-audit as a durable inheritance note
   - run a cross-vendor audit over this plan
+- [d:r:i] `planning / implementation`
+  - close [160-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-proposal.md](160-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-proposal.md) on a bounded reread basis
+  - treat `160` as a frozen-input classification exercise on the landed neutralization tranches, not as a protocol-dependent move
 - [d:r:i] `planning / protocol`
   - cut one bounded development-parallelization protocol tranche
-  - cut one bounded intervention lifecycle protocol tranche
+  - cut one bounded intervention lifecycle protocol consolidation tranche
   - make lane-local companion-work / must-wait / recheck rules explicit
 - [d:r:i] `audit / propagation`
-  - run a targeted propagation audit on already-landed parallelization-adjacent workflow changes
+  - pair the protocol tranche with a targeted propagation audit on already-landed parallelization-adjacent workflow changes
   - preserve external-lane measurement/provenance implications rather than leaving them ownerless
 - [d:r:i] `governance`
   - route the plan into the live governing surfaces
   - keep harness-program horizons distinct from host-product horizons
+- [d:r:i] `forbidden overlap`
+  - keep the Phase 01 rerun boundary held across every lane this plan launches
 
-## Medium Horizon
+## Medium Horizon (harness-program)
 
-- [d:r:i] `planning / implementation`
-  - close `160` payload-home judgment on the cleaner program baseline
-  - open the first development intervention-surface map if `166` still proves too compact to carry the field alone
-- [d:r:i] `planning / research`
-  - cut the first durable observation-carrier proposal for deployability/adaptive feedback
+- [d:r:i] `planning`
+  - cut the first durable observation-carrier proposal for deployability/adaptive feedback using the five-family signal taxonomy inherited above
   - define the first actual host-exercise packet for observe-only dry-run work
 - [d:r:i] `audit / verification`
   - run one observe-only second-host dry run
   - run one observe-only mixed `.codex` + held-annotation `.claude` dry run if earned
+  - run one cross-vendor parity-classifier pass on the frozen declaration baseline (`.codex` observed basis vs `.claude` held annotation)
+- [d:r:i] `planning / implementation`
+  - open the first development intervention-surface map if `166` still proves too compact to carry the field alone
 - [d:r:i] `protocol`
   - decide whether the virtual surfaces above should remain virtual, become proposals, or become real carriers
+- [d:r:i] `closure scheduling`
+  - keep the cross-vendor responsible-closure audit scheduled against payload-home closure plus the first observation-carrier slice
 
-## Long Horizon
+## Long Horizon (harness-program)
 
 - [d:r:i] `research / planning`
   - standalone harness-modifier repo
   - npm / `npx` distribution
-  - stronger dogfooding posture once repo separation exists
+  - broader host-context deployability
 - [d:r:i] `adaptive`
   - richer telemetry and semantic-signal capture
   - stronger discrepancy / positive-gain sedimentation
   - post-deploy correction loops
-- [d:r:i] `parallelization in action`
-  - workflow-local harness parallelization beyond current execution-wave patterns
-  - only after development-side protocol work and closure discipline are stronger
+- [d:r:i] `parallelization frameworks`
+  - stronger parallelization frameworks for both harness-in-action and harness-improvement-program work
+- [d:r:i] `dogfooding`
+  - either when repo separation lands
+  - or when the modifier’s development program can be driven by its own audit/review/propagation carriers without host-side scaffolding
 
 ## Task-Type Routing
 
@@ -172,6 +227,8 @@ Status: proposed integrated program plan
 - [d:r:i] `research`
   - GSD / GSD Reflect reference-field comparison for telemetry and lifecycle ideas
   - deployment-context and host-exercise field shaping
+- [d:r:i] `proposal`
+  - `intervention-proposals/` as the carrier for shaping the next bounded object before protocol or implementation planning
 - [d:r:i] `planning`
   - protocol carriers
   - lifecycle carriers
@@ -186,20 +243,25 @@ Status: proposed integrated program plan
   - installer/materialization checks
   - host observe-only dry runs
   - propagation refresh validation
+- [d:r:i] `measurement`
+  - observation carrier upkeep
+  - `measurement-provenance` family
+  - deployment-context / expectation-vs-observation / semantic-deviation / positive-gain capture
 - [d:r:i] `governance`
   - current-state / status / register / index routing
   - launch-truth and ledger upkeep
   - continuity prompt carry
+  - disposition-verb discipline (`accept` / `revise` / `park` / `reject`)
 
 ## Workstreams
 
 - [d:r:i] `Workstream A: development operations and protocol`
   - current status: under-carried
-  - next type: planning -> audit -> implementation
-  - main objects: development parallelization protocol, intervention lifecycle protocol, lane-local overlap rules
+  - next type: proposal -> audit -> planning -> implementation
+  - main objects: development parallelization protocol, intervention lifecycle protocol consolidation, lane-local overlap rules
 - [d:r:i] `Workstream B: responsible closure and deployability`
   - current status: first field map completed
-  - next type: planning -> audit -> implementation
+  - next type: audit -> planning -> implementation
   - main objects: payload-home judgment, observation carrier, host-context dry-run exercises
 - [d:r:i] `Workstream C: propagation and verification`
   - current status: strong field map exists, but parallelization-adjacent consequences are still unevenly carried
@@ -207,16 +269,25 @@ Status: proposed integrated program plan
   - main objects: targeted propagation audit over already-landed workflow changes, later `Parallelization Impact` extension if earned
 - [d:r:i] `Workstream D: intervention-surface expansion`
   - current status: actual surfaces are partly visible, virtual surfaces are not yet governed strongly enough
-  - next type: exploration -> planning
+  - next type: exploration -> proposal -> planning
   - main objects: actual/virtual development intervention-surface map, criteria for promoting virtual surfaces
 
 ## Parallelization Rule
 
 - [g:r:i] The current plan uses parallelization first as a development-program multiplier, not as a harness-in-action rewrite agenda.
+- [d:r:i] Read overlap opportunities through the inherited three-class taxonomy:
+  - `safe earned`
+  - `promising but not-yet-governed`
+  - `likely coherence/quality risk`
 - [d:r:i] Safe overlap for this plan:
   - external plan audit lane plus unrelated governance carry
   - later paired internal audit plus parent-thread plan revision
   - later targeted propagation audit on already-landed workflow slices while another bounded read-only audit is in flight
+- [d:r:i] Keep the forbidden-overlap set inherited from the parallelization audit active:
+  - no packet/spec/prompt or basis edits to a live lane
+  - no refmap/topology rewrites during a live lane
+  - no installer/materialization rewrites during a live lane that depends on the previous basis
+  - no Phase 01 rerun crossing while a prior-basis lane is returning
 - [d:r:i] Out of scope for this plan:
   - harness-in-action workflow rewrites
   - execute-family or review-family redesigns
@@ -232,11 +303,33 @@ Status: proposed integrated program plan
   - sequences closure and deployability without rush pressure
   - preserves later futures instead of foreclosing them through local convenience
 
+## Held Later
+
+- [d:r:i] Workflow-level parallelization rewrites across harness-in-action routes
+- [d:r:i] Standalone harness-modifier repo split, npm / `npx`, installer binary execution
+- [d:r:i] Full `.claude` materialization claim beyond the held-annotation posture in `141`
+- [d:r:i] Full GSD Reflect adaptive stack:
+  - auto-collection
+  - reentrancy-locked sensor daemons
+  - synthesizer / reflector agents
+  - lifecycle state machine
+  - per-phase signal caps
+  - cross-project KB aggregation
+  - hook-install wiring
+- [d:r:i] `automation.level >= 2` for modifier-owned features
+- [d:r:i] Vanilla `--gemini` / `--opencode` / other-provider support
+- [d:r:i] Promoting `Horizon Routing` into `.planning/AGENTS.md`
+- [d:r:i] Promoting single-writer or lane-exclusive authority surfaces into root/planning agent doctrine before one more real overlap exercise
+- [d:r:i] Second overlay tranche classification beyond its current bounded opening note
+- [d:r:i] Fan-out packet template creation before one more real overlap exercise
+- [d:r:i] Reopening Phase 01
+
 ## Exact Next Moves
 
 1. [d:r:i] Treat this plan as the active integrated development-program object.
 2. [d:r:i] Audit this plan cross-vendor before cutting the next protocol tranche.
-3. [d:r:i] After that audit returns, land one bounded development-parallelization and intervention-lifecycle protocol slice.
-4. [d:r:i] Pair that protocol slice with one targeted propagation audit over already-landed parallelization-adjacent workflow changes.
-5. [d:r:i] Return next to `160` payload-home judgment and the responsible-closure deployability bundle from the cleaner protocol baseline.
-6. [d:r:i] Keep harness-in-action parallelization explicit, but later.
+3. [d:r:i] Close `160` payload-home judgment on a bounded reread in short horizon.
+4. [d:r:i] After the plan audit returns, land one bounded development-parallelization and intervention-lifecycle protocol consolidation slice.
+5. [d:r:i] Pair that protocol slice with one targeted propagation audit over already-landed parallelization-adjacent workflow changes.
+6. [d:r:i] Return next to the responsible-closure deployability bundle from the cleaner protocol baseline as medium-horizon follow-through.
+7. [d:r:i] Keep harness-in-action parallelization explicit, but later.

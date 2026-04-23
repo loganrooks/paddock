@@ -125,11 +125,13 @@ Status: active audit-program infrastructure surface
 - [d:r:i] Why:
   - this family now owns the live question of what responsible closure should mean for the harness-modifier program before broader deployment or extraction pressure increases
   - the opening lane is now completed and inherited
-  - the next bounded object is the integrated development-program plan plus its prepared plan-audit tuple
+  - the plan-audit lane is now completed and inherited too
+  - the next bounded object is no longer a prepared plan-audit tuple; it is execution of the revised integrated development-program plan
   - deployability, adaptive feedback, discrepancy capture, development-side parallelization, intervention lifecycle protocol pressure, and harness-agential closure now need one sovereign plan rather than scattered route notes
 - [d:r:i] Default reread path:
   - `responsible-closure-audit/README.md`
   - `responsible-closure-audit/dispositions/01-harness-modifier-responsible-closure-field-map-audit-inheritance.md`
+  - `responsible-closure-audit/dispositions/02-harness-modifier-development-program-plan-audit-inheritance.md`
   - `intervention-proposals/166-harness-modifier-development-program-plan.md`
 
 ### `extraction-audit/`

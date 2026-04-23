@@ -28,7 +28,8 @@ Status: active companion audit family
 
 - [d:r:i] Lane `02` is the next bounded plan audit for this family.
 - [d:r:i] It is scoped to the integrated development-program plan in [../intervention-proposals/166-harness-modifier-development-program-plan.md](../intervention-proposals/166-harness-modifier-development-program-plan.md).
-- [d:r:i] Its prepared tuple is:
+- [d:r:i] Lane `02` is now completed and inherited against frozen basis `153313d`.
+- [d:r:i] Its tuple is:
   - [packets/02-harness-modifier-development-program-plan-audit-packet.md](packets/02-harness-modifier-development-program-plan-audit-packet.md)
   - [specs/02-harness-modifier-development-program-plan-audit-spec.md](specs/02-harness-modifier-development-program-plan-audit-spec.md)
   - [prompts/02-harness-modifier-development-program-plan-audit-opus47-max-r1-launch-prompt.md](prompts/02-harness-modifier-development-program-plan-audit-opus47-max-r1-launch-prompt.md)
@@ -40,6 +41,7 @@ Status: active companion audit family
 
 - [d:r:i] `161` is now no longer only an intervention-route note; it is the basis for a dedicated audit family.
 - [d:r:i] [intervention-proposals/166-harness-modifier-development-program-plan.md](../intervention-proposals/166-harness-modifier-development-program-plan.md) is now the current sovereign planning object for the next development-program boundary inside this family.
+- [d:r:i] Lane `02` now sharpens that plan rather than replacing it: named inherited doctrine, actual/virtual development-surface classification, short-horizon `160` closure, and the protocol-plus-propagation next sequence are now carried in the plan itself.
 - [d:r:i] This subtree should preserve:
   - the difference between deployability pressure and rush pressure
   - the difference between contract uplift, host-artifact uplift, harness-agential uplift, and adaptive post-deploy learning

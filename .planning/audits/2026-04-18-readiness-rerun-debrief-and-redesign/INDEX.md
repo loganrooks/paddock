@@ -52,6 +52,8 @@
 - [responsible-closure-audit/outputs/01-harness-modifier-responsible-closure-field-map-audit-opus47-max-r1.md](responsible-closure-audit/outputs/01-harness-modifier-responsible-closure-field-map-audit-opus47-max-r1.md)
 - [responsible-closure-audit/dispositions/01-harness-modifier-responsible-closure-field-map-audit-inheritance.md](responsible-closure-audit/dispositions/01-harness-modifier-responsible-closure-field-map-audit-inheritance.md)
 - [intervention-proposals/166-harness-modifier-development-program-plan.md](intervention-proposals/166-harness-modifier-development-program-plan.md)
+- [responsible-closure-audit/outputs/02-harness-modifier-development-program-plan-audit-opus47-max-r1.md](responsible-closure-audit/outputs/02-harness-modifier-development-program-plan-audit-opus47-max-r1.md)
+- [responsible-closure-audit/dispositions/02-harness-modifier-development-program-plan-audit-inheritance.md](responsible-closure-audit/dispositions/02-harness-modifier-development-program-plan-audit-inheritance.md)
 
 ### Need Authority Or Role Boundaries
 

@@ -42,6 +42,29 @@
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/responsible-closure-audit/logs/01/responsible-closure-audit-01-20260422-224435.apaoj85u.stderr.log`
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/responsible-closure-audit/logs/01/responsible-closure-audit-01-20260422-224435.9g9vgvyu.debug.log`
 
+## 2026-04-22 `responsible-closure-audit lane-02`
+
+- date: `2026-04-22`
+- purpose: bounded Opus audit of the integrated harness-modifier development-program plan in `166`
+- frozen launch basis commit: `153313d`
+- requested model / reasoning: `opus[1m]` / `xhigh`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth artifact: [responsible-closure-audit/launch-truth/02-harness-modifier-development-program-plan-audit-launch-truth.md](responsible-closure-audit/launch-truth/02-harness-modifier-development-program-plan-audit-launch-truth.md)
+- prompt artifact: [responsible-closure-audit/prompts/02-harness-modifier-development-program-plan-audit-opus47-max-r1-launch-prompt.md](responsible-closure-audit/prompts/02-harness-modifier-development-program-plan-audit-opus47-max-r1-launch-prompt.md)
+- governing spec: [responsible-closure-audit/specs/02-harness-modifier-development-program-plan-audit-spec.md](responsible-closure-audit/specs/02-harness-modifier-development-program-plan-audit-spec.md)
+- governing packet: [responsible-closure-audit/packets/02-harness-modifier-development-program-plan-audit-packet.md](responsible-closure-audit/packets/02-harness-modifier-development-program-plan-audit-packet.md)
+- output artifact: [responsible-closure-audit/outputs/02-harness-modifier-development-program-plan-audit-opus47-max-r1.md](responsible-closure-audit/outputs/02-harness-modifier-development-program-plan-audit-opus47-max-r1.md)
+- estimated wall-clock duration: `10-16 minutes`
+- current state:
+  - completed
+  - local monitoring session: `2021`
+  - actual elapsed seconds: `736.015`
+  - external session id: `29141db1-f082-4b74-a169-eaca2d0497d5`
+  - total cost usd: `2.7629140000000003`
+  - calibration note: the lane completed inside the estimate at roughly `12.3 minutes`, which fits a heavier integrated-plan audit better than the shorter compact reread pattern
+- repo-local artifacts directory:
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/responsible-closure-audit/logs/02/`
+
 ## 2026-04-22 `extraction-audit-lane-06`
 
 - date: `2026-04-22`
