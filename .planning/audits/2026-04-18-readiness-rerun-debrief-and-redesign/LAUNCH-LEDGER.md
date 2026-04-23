@@ -1615,3 +1615,29 @@
   - keep `158` as the right next family
   - split the tranche into `state_section.json` plus `phase_layout.json` plus `state_writer.py`
   - keep `OVERLAY_MANIFEST_REL_PATH` as a separate later install-contract slice
+
+## 2026-04-22 `parallelization-audit lane-01`
+
+- date: `2026-04-22`
+- purpose: bounded Opus diagnosis of three distinct parallelization fields: vanilla GSD posture, modified-harness posture, and harness-improvement-program overlap posture
+- frozen launch basis commit: `6f2dc74`
+- requested model / reasoning: `opus[1m]` / `xhigh`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- prompt artifact: [parallelization-audit/prompts/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1-launch-prompt.md](parallelization-audit/prompts/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1-launch-prompt.md)
+- governing spec: [parallelization-audit/specs/01-harness-parallelization-field-map-and-diagnosis-audit-spec.md](parallelization-audit/specs/01-harness-parallelization-field-map-and-diagnosis-audit-spec.md)
+- governing packet: [parallelization-audit/packets/01-harness-parallelization-field-map-and-diagnosis-audit-packet.md](parallelization-audit/packets/01-harness-parallelization-field-map-and-diagnosis-audit-packet.md)
+- launch-truth artifact: [parallelization-audit/launch-truth/01-harness-parallelization-field-map-and-diagnosis-audit-launch-truth.md](parallelization-audit/launch-truth/01-harness-parallelization-field-map-and-diagnosis-audit-launch-truth.md)
+- output artifact: [parallelization-audit/outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md](parallelization-audit/outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md)
+- pre-launch estimate:
+  - `14-22 minutes`
+- current state:
+  - active
+  - the lane is frozen on the three-way diagnosis split and should not be widened into telemetry, deployment feedback, or host-product planning horizons
+  - safe companion work must stay off the lane read set while it runs
+- repo-local artifacts:
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01/probe-summary.txt`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01/parallelization-audit-01-20260422-222056.dkqbcr7b.stream.jsonl`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01/parallelization-audit-01-20260422-222056.l0sg6lnx.stderr.log`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01/parallelization-audit-01-20260422-222056.ajq2b5wh.debug.log`
+- probe summary:
+  - local monitoring session: `23887`
