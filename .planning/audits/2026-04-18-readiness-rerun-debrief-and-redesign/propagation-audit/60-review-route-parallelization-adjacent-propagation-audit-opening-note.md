@@ -1,5 +1,5 @@
 Date: 2026-04-23
-Status: active opening note
+Status: revised active opening note
 
 # Review-Route Parallelization-Adjacent Propagation Audit Opening Note
 
@@ -34,6 +34,16 @@ Status: active opening note
 
 - [d:r:i] Do not only reread the helper and workflow patch itself.
 - [d:r:i] Ask whether adjacent doctrine or operator surfaces should already have moved but did not.
+- [d:r:i] Probe these candidate under-carried surfaces explicitly rather than treating the audit as an open survey:
+  - [../../../tooling/portable-gsd/overlay/tooling/compact-prompts/readiness.md](/home/rookslog/workspace/projects/prix-guesser/tooling/portable-gsd/overlay/tooling/compact-prompts/readiness.md)
+  - [../../../.codex/get-shit-done/workflows/propagation-review.md](/home/rookslog/workspace/projects/prix-guesser/.codex/get-shit-done/workflows/propagation-review.md)
+  - [../review-route-audit/README.md](../review-route-audit/README.md)
+  - [../../../../.planning/AGENTS.md](/home/rookslog/workspace/projects/prix-guesser/.planning/AGENTS.md) `Launch-Truth Discipline`
+  - [../AUDIT-LANE-PATTERN-LIBRARY.md](../AUDIT-LANE-PATTERN-LIBRARY.md) `Launch-truth note`
+  - [../AUDIT-LANE-PATTERN-LIBRARY.md](../AUDIT-LANE-PATTERN-LIBRARY.md) `Timing estimate`
+  - [../../../../.planning/HARNESS-IMPROVEMENT-REGISTER.md](/home/rookslog/workspace/projects/prix-guesser/.planning/HARNESS-IMPROVEMENT-REGISTER.md)
+  - [../CURRENT-STATE.md](../CURRENT-STATE.md)
+  - [../STATUS.md](../STATUS.md)
 
 ### 3. What Should Stay Explicitly Later?
 
@@ -61,6 +71,6 @@ Status: active opening note
 
 ## Exact Next Move
 
-1. [d:r:i] Read this note together with `169`.
+1. [d:r:i] Read this revised note together with `169`.
 2. [d:r:i] Run one bounded reread over the pair before implementation.
-3. [d:r:i] Use the return to decide whether the first protocol slice should land only in doctrine/continuity surfaces or whether it already earns a second review-route propagation follow-through note.
+3. [d:r:i] Use the return to decide the carrier map, the pattern-library-dominant first-slice boundary, and whether the ownerless surfaces can fold into the same slice or earn a second review-route propagation follow-through note.

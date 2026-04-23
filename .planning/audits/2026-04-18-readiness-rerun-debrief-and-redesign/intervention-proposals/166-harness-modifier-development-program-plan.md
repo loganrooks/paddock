@@ -328,10 +328,11 @@ Status: active audited sovereign plan
 ## Exact Next Moves
 
 1. [d:r:i] Treat this plan as the active integrated development-program object.
-2. [d:r:i] Audit this plan cross-vendor before cutting the next protocol tranche.
-3. [d:r:i] Treat `160` as closed on its bounded reread basis through lane `10`.
-4. [d:r:i] Keep `167` as the next extraction-family object and `168` as the explicit held-later sibling.
-5. [d:r:i] Open [169-harness-modifier-development-parallelization-and-intervention-lifecycle-protocol-consolidation-proposal.md](169-harness-modifier-development-parallelization-and-intervention-lifecycle-protocol-consolidation-proposal.md) as the next program-wide operational tranche.
-6. [d:r:i] Pair that tranche with [../propagation-audit/60-review-route-parallelization-adjacent-propagation-audit-opening-note.md](../propagation-audit/60-review-route-parallelization-adjacent-propagation-audit-opening-note.md) over the already-landed review-route helper-backed run-home slice.
-7. [d:r:i] Return next to the responsible-closure deployability bundle from the cleaner protocol baseline as medium-horizon follow-through.
-8. [d:r:i] Keep harness-in-action parallelization explicit, but later.
+2. [d:r:i] Treat `160` as closed on its bounded reread basis through lane `10`.
+3. [d:r:i] Keep `167` as the next extraction-family object and `168` as the explicit held-later sibling.
+4. [d:r:i] Treat responsible-closure lane `03` as the completed cross-vendor challenge over the current protocol tranche plus its paired propagation companion.
+5. [d:r:i] Revise [../propagation-audit/60-review-route-parallelization-adjacent-propagation-audit-opening-note.md](../propagation-audit/60-review-route-parallelization-adjacent-propagation-audit-opening-note.md) with the concrete candidate under-carried surfaces lane `03` named.
+6. [d:r:i] Run one bounded composite reread over [169-harness-modifier-development-parallelization-and-intervention-lifecycle-protocol-consolidation-proposal.md](169-harness-modifier-development-parallelization-and-intervention-lifecycle-protocol-consolidation-proposal.md) plus the revised `60`.
+7. [d:r:i] Land the pattern-library-dominant first protocol slice from that reread's carrier map, keeping `.planning/AGENTS.md` and `readiness.md` narrow unless the reread earns more.
+8. [d:r:i] Return next to the responsible-closure deployability bundle from the cleaner protocol baseline as medium-horizon follow-through.
+9. [d:r:i] Keep harness-in-action parallelization explicit, but later.

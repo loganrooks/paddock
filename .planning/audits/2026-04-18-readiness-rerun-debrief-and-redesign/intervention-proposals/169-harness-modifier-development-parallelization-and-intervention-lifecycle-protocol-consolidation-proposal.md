@@ -96,6 +96,22 @@ Status: proposed
 
 - [d:r:i] Name what counts as intervention success, under-carry, or mismatch.
 - [d:r:i] Name which artifacts should surface those states without inventing a giant new telemetry stack first.
+- [d:r:i] The composite reread should decide whether the smallest load-bearing answer is the declarative proposal/implementation shape:
+  - `Intended Effects`
+  - `Propagation Obligations`
+  - `Monitor Target`
+  - disposition-verb close
+  rather than a broader lifecycle state machine.
+
+### 4. What Is The Smallest Load-Bearing First Slice?
+
+- [d:r:i] The composite reread should return an explicit carrier map rather than letting implementation improvise it.
+- [d:r:i] The current expected first slice is pattern-library-dominant:
+  - lane-local declaration fields in `AUDIT-LANE-PATTERN-LIBRARY.md`
+  - parent-thread retention list in the same library
+  - small harness-program continuity carry in `readiness.md`
+- [d:r:i] `.planning/AGENTS.md` should only move where cross-family doctrine is actually thin.
+- [d:r:i] Root `AGENTS.md` and `WORKFLOW.md` should stay untouched unless the composite reread explicitly earns that wider carry.
 
 ## Explicitly Out Of Scope
 
@@ -108,6 +124,7 @@ Status: proposed
 
 ## Exact Next Move
 
-1. [d:r:i] Run one bounded reread over this proposal plus the paired propagation opening note before implementation.
-2. [d:r:i] Use that reread to decide the smallest load-bearing protocol slice that should actually land next.
-3. [d:r:i] Keep `167` explicit as the next extraction-family object while this program-wide protocol tranche is audited.
+1. [d:r:i] Keep [../propagation-audit/60-review-route-parallelization-adjacent-propagation-audit-opening-note.md](../propagation-audit/60-review-route-parallelization-adjacent-propagation-audit-opening-note.md) revised with the concrete candidate under-carried surfaces named by responsible-closure lane `03`.
+2. [d:r:i] Run one bounded composite reread over this proposal plus the revised propagation opening note before implementation.
+3. [d:r:i] Use that reread to decide the explicit carrier map, lifecycle-verification shape, and smallest load-bearing protocol slice that should actually land next.
+4. [d:r:i] Keep `167` explicit as the next extraction-family object while this program-wide protocol tranche is reread, and keep it sequential rather than concurrent with the first protocol slice.
