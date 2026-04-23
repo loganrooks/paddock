@@ -120,6 +120,10 @@ Status: active opening audit family
 - [d:r:i] The next move inside lane `06` is the compact retry, not a wider family redirect:
   - [packets/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-compact-packet.md](packets/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-compact-packet.md)
   - [prompts/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-compact-launch-prompt.md](prompts/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-compact-launch-prompt.md)
+- [d:r:i] Lane `06` is now completed and inherited through:
+  - [outputs/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1.md](outputs/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1.md)
+  - [dispositions/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-inheritance.md](dispositions/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-inheritance.md)
+- [d:r:i] The next extraction object is now [../intervention-proposals/156-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal.md](../intervention-proposals/156-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal.md), not relocation and not a different adjacent family.
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern

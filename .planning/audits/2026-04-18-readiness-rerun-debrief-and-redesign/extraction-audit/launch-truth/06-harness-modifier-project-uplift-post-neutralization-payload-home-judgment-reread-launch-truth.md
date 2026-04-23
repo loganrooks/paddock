@@ -65,3 +65,25 @@ python3 tooling/codex/run_claude_probe.py \
   - [../prompts/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-compact-launch-prompt.md](../prompts/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-compact-launch-prompt.md)
 - [d:r:i] Compact retry estimate:
   - `6-10 minutes`
+
+## Attempt 2: compact retry launch
+
+- [d:r:i] Frozen launch basis commit for the compact retry: `18891cf`
+- [e:c+i] Command shape:
+  - `python3 tooling/codex/run_claude_probe.py --label extraction-audit-06b --model 'opus[1m]' --effort xhigh --dangerously-skip-permissions --output-dir .../extraction-audit/logs/06b --prompt-file .../prompts/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-compact-launch-prompt.md`
+- [e:c+i] Parent exec session id: `95765`
+- [e:c+i] Repo-local artifacts:
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/06b/probe-summary.txt`
+- [e:c+i] Probe summary fields:
+  - exit code: `0`
+  - elapsed seconds: `225.724`
+  - external session id: `5cbfd838-50d7-40a5-acee-937c0f4f027d`
+  - total cost usd: `1.67382975`
+  - stream artifact: `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/06b/extraction-audit-06b-20260422-202157.kwfc69k2.stream.jsonl`
+  - stderr artifact: `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/06b/extraction-audit-06b-20260422-202157.owsujjsa.stderr.log`
+  - debug artifact: `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/06b/extraction-audit-06b-20260422-202157.1o6a8spb.debug.log`
+- [e:c+i] Outcome:
+  - the compact retry completed successfully
+  - the requested audit output was written to [../outputs/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1.md](../outputs/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1.md)
+- [d:r:i] Calibration note:
+  - the `6-10 minute` estimate again overshot the actual runtime; the compact retry completed in roughly `3.8 minutes`, which confirms that packet shape was the dominant issue rather than model latency

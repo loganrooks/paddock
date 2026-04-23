@@ -159,6 +159,7 @@ Status: active proposal/disposition batch
 153. `153-harness-modifier-project-uplift-neutralization-proposal.md`
 154. `154-harness-modifier-project-uplift-neutralization-implementation.md`
 155. `155-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-proposal.md`
+156. `156-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal.md`
 
 ## Proposal Rule
 

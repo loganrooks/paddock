@@ -42,6 +42,19 @@
   - last stream activity after launch: `133.962s`
   - clean elapsed capture: unavailable because the wrapper hung and was cut
   - calibration note: the `8-14 minute` estimate overshot the actual failure window; the lane hit its stall in roughly `2.2 minutes`, which points at packet shape rather than model-latency as the dominant issue
+- attempt `2`:
+  - compact retry launch basis: `18891cf`
+  - local exec session: `95765`
+  - estimated wall-clock duration: `6-10 minutes`
+  - prompt artifact: [extraction-audit/prompts/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-compact-launch-prompt.md](extraction-audit/prompts/06b-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-compact-launch-prompt.md)
+  - exit code: `0`
+  - actual elapsed seconds: `225.724`
+  - external session id: `5cbfd838-50d7-40a5-acee-937c0f4f027d`
+  - total cost usd: `1.67382975`
+  - stream artifact: `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/06b/extraction-audit-06b-20260422-202157.kwfc69k2.stream.jsonl`
+  - stderr artifact: `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/06b/extraction-audit-06b-20260422-202157.owsujjsa.stderr.log`
+  - debug artifact: `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/06b/extraction-audit-06b-20260422-202157.1o6a8spb.debug.log`
+  - calibration note: the compact retry again completed materially faster than the estimate at roughly `3.8 minutes`, which confirms that the first failure was driven by packet shape rather than intrinsic model latency
 
 ## 2026-04-18 `lane-01`
 
