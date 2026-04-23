@@ -58,6 +58,8 @@
 - [extraction-audit/dispositions/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-inheritance.md](extraction-audit/dispositions/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-inheritance.md)
 - [intervention-proposals/167-harness-modifier-project-uplift-install-contract-pointer-neutralization-proposal.md](intervention-proposals/167-harness-modifier-project-uplift-install-contract-pointer-neutralization-proposal.md)
 - [intervention-proposals/168-harness-modifier-project-uplift-held-later-artifact-home-sibling-note.md](intervention-proposals/168-harness-modifier-project-uplift-held-later-artifact-home-sibling-note.md)
+- [intervention-proposals/169-harness-modifier-development-parallelization-and-intervention-lifecycle-protocol-consolidation-proposal.md](intervention-proposals/169-harness-modifier-development-parallelization-and-intervention-lifecycle-protocol-consolidation-proposal.md)
+- [propagation-audit/60-review-route-parallelization-adjacent-propagation-audit-opening-note.md](propagation-audit/60-review-route-parallelization-adjacent-propagation-audit-opening-note.md)
 
 ### Need Authority Or Role Boundaries
 

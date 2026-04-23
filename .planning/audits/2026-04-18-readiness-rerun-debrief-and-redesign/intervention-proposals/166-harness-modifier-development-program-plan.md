@@ -331,7 +331,7 @@ Status: active audited sovereign plan
 2. [d:r:i] Audit this plan cross-vendor before cutting the next protocol tranche.
 3. [d:r:i] Treat `160` as closed on its bounded reread basis through lane `10`.
 4. [d:r:i] Keep `167` as the next extraction-family object and `168` as the explicit held-later sibling.
-5. [d:r:i] Land one bounded development-parallelization and intervention-lifecycle protocol consolidation slice as the next program-wide operational tranche.
-6. [d:r:i] Pair that protocol slice with one targeted propagation audit over already-landed parallelization-adjacent workflow changes.
+5. [d:r:i] Open [169-harness-modifier-development-parallelization-and-intervention-lifecycle-protocol-consolidation-proposal.md](169-harness-modifier-development-parallelization-and-intervention-lifecycle-protocol-consolidation-proposal.md) as the next program-wide operational tranche.
+6. [d:r:i] Pair that tranche with [../propagation-audit/60-review-route-parallelization-adjacent-propagation-audit-opening-note.md](../propagation-audit/60-review-route-parallelization-adjacent-propagation-audit-opening-note.md) over the already-landed review-route helper-backed run-home slice.
 7. [d:r:i] Return next to the responsible-closure deployability bundle from the cleaner protocol baseline as medium-horizon follow-through.
 8. [d:r:i] Keep harness-in-action parallelization explicit, but later.
