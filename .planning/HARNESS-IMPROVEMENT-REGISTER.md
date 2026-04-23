@@ -40,7 +40,11 @@ Status: active durable register
 - [d:r:i] Uplift semantics, harness-program horizons, and parallelization opportunity mapping
   - current state: the semantic split is now explicit through `162`, `163`, and `164`
   - current pressure: stop letting host-product horizons, host-artifact uplift, harness-agential uplift, and harness-operational overlap logic collapse back into one overloaded `uplift` or `long horizon` vocabulary
-  - current next move: do not treat `164` as a completed diagnosis; lane `01` under `parallelization-audit/` now maps vanilla GSD posture, modified-harness posture, and harness-improvement-program overlap more explicitly before stronger parallelization doctrine lands
+  - current next move: keep `164` as framing only and inherit the completed lane `01` diagnosis through the dedicated parallelization family rather than collapsing semantics/horizons and overlap-governance back into one row
+- [d:r:i] Parallelization field map and overlap governance
+  - current state: the first explicit three-domain diagnosis is now completed under `parallelization-audit/` lane `01`
+  - current evidence: [parallelization-audit/outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md) and [parallelization-audit/dispositions/01-harness-parallelization-field-map-and-diagnosis-audit-inheritance.md](/home/rookslog/workspace/projects/prix-guesser/.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/dispositions/01-harness-parallelization-field-map-and-diagnosis-audit-inheritance.md)
+  - current pressure: keep the three-class taxonomy active on later overlap questions without prematurely rewriting workflows or flattening later carries such as the single-writer governance-surface list, fan-out packet template, or `propagation-review` parallelization-impact extension into settled doctrine
 - [d:r:i] Cross-vendor review-route and audit-lane carry
   - current state: the bounded `gsd-review` route audit is now completed under `review-route-audit/`; lane `01` widened the family beyond a narrow route patch and is now inherited as one helper-backed in-place hardening slice with adjacent later review-workflow routes kept explicit
   - current pressure: land that first helper-versus-workflow slice without flattening the broader review-workflow field back into one command-local fix or silently dropping the later route families the audit surfaced
@@ -134,7 +138,7 @@ Status: active durable register
   - whether generated traces should become governed durable artifacts
   - stay runtime-only and ignored
   - or route through a separate measurement subtree instead of appearing as unmanaged repo drift
-- [o:r:i] how the harness in action, not only the harness-improvement program, should map and govern parallelization opportunities beyond execution-wave splitting
+- [d:r:i] the harness-in-action parallelization question is no longer ownerless; it now routes through the active `Parallelization field map and overlap governance` family above
 
 ## Cross-Dimensional Quality Basket
 

@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: completed attempt-1 launch-truth record
+Status: completed launch-truth record
 
 # Harness Parallelization Field Map And Diagnosis Audit Launch Truth
 
@@ -76,5 +76,17 @@ Status: completed attempt-1 launch-truth record
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01b/parallelization-audit-01b-20260422-222817.jj2bdmk9.stream.jsonl`
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01b/parallelization-audit-01b-20260422-222817.rryv4rl3.stderr.log`
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01b/parallelization-audit-01b-20260422-222817.7_irxt93.debug.log`
-- [e:r:i] Current state:
-  - `running`
+- [e:c+i] Observed stream fields:
+  - first stream timestamp: `2026-04-23T02:28:22.944Z`
+  - last stream timestamp: `2026-04-23T02:33:53.324Z`
+  - observed stream elapsed seconds: `330.380`
+  - last observed external session id: `9f42fe52-4e38-41f3-8474-18aa51e5a9ec`
+  - recoverable assistant text blocks: `2`
+  - result events: `0`
+- [e:c+i] Outcome:
+  - the compact retry wrote the requested audit output to [../outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md](../outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md)
+  - the wrapper never flushed `probe-summary.txt`
+  - a late write-tool correction appears in the stream, but the final output file is complete and well-formed
+  - after the file stabilized and the wrapper remained hung, the local operator cut the lingering wrapper process instead of waiting for a summary that was not going to flush
+- [d:r:i] Calibration note:
+  - the compact retry estimate `8-14 minutes` overshot the useful return time; the audit artifact was written in roughly `5.5 minutes`, and the remaining wall time was wrapper hang rather than model latency

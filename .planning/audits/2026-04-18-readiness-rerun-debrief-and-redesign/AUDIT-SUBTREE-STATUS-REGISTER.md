@@ -107,6 +107,18 @@ Status: active audit-program infrastructure surface
   - `../../HARNESS-IMPROVEMENT-REGISTER.md`
   - `AUDIT-LANE-PATTERN-LIBRARY.md`
 
+### `parallelization-audit/`
+
+- [d:r:i] Status: active companion
+- [d:r:i] Why:
+  - lane `01` is now completed and inherited
+  - the subtree now carries the first explicit three-domain parallelization diagnosis instead of only an opening route note
+  - later overlap questions should start from this field map rather than reconstructing the baseline from chat memory
+- [d:r:i] Default reread path:
+  - `parallelization-audit/dispositions/01-harness-parallelization-field-map-and-diagnosis-audit-inheritance.md`
+  - `parallelization-audit/outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md`
+  - `../../HARNESS-IMPROVEMENT-REGISTER.md`
+
 ### `extraction-audit/`
 
 - [d:r:i] Status: active companion

@@ -1638,10 +1638,10 @@
   - attempt `1`: `14-22 minutes`
   - compact retry attempt `2`: `8-14 minutes`
 - current state:
-  - active compact retry
+  - completed composite lane
   - attempt `1` stalled before any recoverable assistant text and is preserved as stall evidence
-  - the compact retry remains frozen on the three-way diagnosis split and should not be widened into telemetry, deployment feedback, or host-product planning horizons
-  - safe companion work must stay off the compact retry read set while it runs
+  - compact retry attempt `2` wrote the final audit output
+  - the compact retry wrapper then hung after the successful write and was cut locally once the output stabilized
 - repo-local artifacts:
   - attempt `1`:
     - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01/probe-summary.txt`
@@ -1656,3 +1656,8 @@
 - probe summary:
   - attempt `1` local monitoring session: `23887`
   - compact retry attempt `2` local monitoring session: `8307`
+- compact retry actual:
+  - observed stream elapsed seconds: `330.380`
+  - last observed external session id: `9f42fe52-4e38-41f3-8474-18aa51e5a9ec`
+  - output artifact was written cleanly even though `probe-summary.txt` never flushed
+  - calibration note: the `8-14 minute` estimate overshot; useful return landed in roughly `5.5 minutes`, and the extra wall time was wrapper hang rather than model latency

@@ -258,8 +258,8 @@ Date: 2026-04-22
 - current extraction overlay-tranche status: `intervention-proposals/142-harness-modifier-overlay-carrier-rehome-next-proposal.md now opens the next extraction object directly: separate the generic overlay/workflow/skill/reference tranche the later standalone project would need, while keeping host canon, wrapper docs, compact-prompt content, and broader repo/package moves outside this next bounded choice`
 - current extraction overlay-reread status: `extraction-audit lane-02 is now active against frozen basis d6b7989: packet/spec/prompt/launch-truth are written for the overlay/workflow/skill/reference tranche, and the review explicitly keeps harness-uplift horizons separate from prix-guesser product-planning horizons so the extraction boundary is judged on the right project frame`
 - current extraction overlay-reread status: `extraction-audit lane-02 is now completed: the Opus reread kept the overlay/workflow/skill/reference tranche as the real next object but narrowed the exact next move from immediate rehome to one roster + embedded-host-path scan first, with specialist workflow/skill filesystem rehome explicitly held until that freeze exists`
-- parallelization-audit subtree opened under `parallelization-audit/`
-- parallelization-audit lane-01 packet/spec/prompt drafted against the explicit three-way diagnosis split: vanilla GSD posture, modified-harness posture, and harness-improvement-program overlap
+- parallelization-audit subtree is now an active companion audit family under `parallelization-audit/`
+- parallelization-audit lane-01 is now completed and inherited: attempt `1` is preserved as a no-text stall, compact retry attempt `2` wrote the full audit, and the resulting baseline now lives in `parallelization-audit/outputs/01-*` plus `dispositions/01-*`
 - current extraction roster-scan status: `intervention-proposals/146-harness-modifier-overlay-roster-and-embedded-host-path-scan-implementation.md is now landed: harness_modifier/overlay/ROSTER.md freezes all 78 tracked overlay entries as generic/shared-boundary/host-local, extraction-audit/artifacts/03-overlay-embedded-host-path-scan.md freezes the real blockers contextually instead of flattening all planning-canon mentions into defects, and the specialist first-rehome set is now explicit rather than ambient in lane prose`
 - current extraction first-overlay-rehome status: `intervention-proposals/148-harness-modifier-first-overlay-filesystem-rehome-implementation.md is now landed: the specialist trio's authoritative source files now live under harness_modifier/overlay/, the stable install targets remain declared in tooling/portable-gsd/overlay/OVERLAY-MANIFEST.json, explicit source-path indirection now binds source authority to install targets, and propagation follow-through now lands in propagation-audit/55-harness-modifier-first-overlay-filesystem-rehome-change-triggered-refresh.md`
 - current extraction residue-classification status: `extraction-audit lane-03 is now completed against frozen basis ed3a17b, intervention-proposals/149-harness-modifier-first-overlay-residue-classification-pass-proposal.md is now carried through intervention-proposals/150-harness-modifier-first-overlay-residue-classification-pass-implementation.md, and propagation follow-through now lands in propagation-audit/56-harness-modifier-first-overlay-residue-classification-change-triggered-refresh.md: source-side token abstraction is now explicit in the moved skill adapters, while helper-payload promotion, default-source-root migration, and overwrite-mode source indirection remain bounded later pressures instead of ambient second-tranche momentum`
@@ -439,16 +439,12 @@ Date: 2026-04-22
 - after the widened `gsd-review` audit lane returns, what should land as the first live review-route slice, and which adjacent review-workflow uplift opportunities should remain explicit as later routes rather than disappearing back into operator memory?
 - current review-route first-slice status: `intervention-proposals/143-gsd-review-helper-backed-run-home-first-slice-proposal.md now turns the completed widening lane into one explicit local route: harden gsd-review in place through a helper-backed run-home / launch-truth / timing / salvage layer, keep REVIEWS.md and the Review Consumer Contract stable, and keep subject-split / retry / telemetry / wider parity routes explicit as later family moves`
 - current review-route implementation status: `intervention-proposals/145-gsd-review-helper-backed-run-home-first-slice-implementation.md plus propagation-audit/53-review-route-helper-backed-run-home-first-slice-change-triggered-refresh.md now land the helper-backed run-home layer itself: authoritative helper under harness_modifier/capture with tooling/codex shim, workflow/wrapper carry away from /tmp cleanup language, focused helper + route contract tests, and explicit producer-to-consumer propagation framing`
-- in the upcoming workspace-state reread, where is bounded parallelization actually earned:
-  - sub-agents
-  - external-lane overlap with local implementation or governance work
-  - timing-calibrated wait windows
-  - administrative upkeep that should travel alongside substantive family uplift
-- which governance/operator surfaces should change if the answer above is currently too implicit:
-  - root/planning `AGENTS.md`
-  - audit-lane pattern docs
-  - continuation / compaction prompts
-  - other routing surfaces not yet made explicit
+- current parallelization field-map status: `parallelization-audit lane-01` now answers the three-way diagnosis directly across vanilla GSD posture, modified-harness posture, and harness-improvement-program overlap, and carries the active three-class taxonomy for later overlap questions
+- explicitly later from that lane:
+  - single-writer governance-surface list as a later bounded doctrine carry
+  - fan-out packet template as a later bounded protocol carrier
+  - optional `Parallelization Impact` extension inside `propagation-review`
+  - workflow-local rewrites only when a concrete triggering slice earns them
 - what is the best durable shape for a repo-local harness intervention onboarding doc that can carry both current runtime truth and longer-horizon modification planning?
 - how should the newly explicit harness-program semantic split in `162`, `163`, and `164` change later extraction, deployability, telemetry, and host-artifact uplift decisions?
 - what is the right durable carrier for harness-in-action parallelization beyond execution-wave planning:
@@ -456,7 +452,7 @@ Date: 2026-04-22
   - protocol set
   - workflow-local notes
   - or a layered combination?
-- what does a full vanilla-GSD versus modified-harness parallelization diagnosis actually show once we stop assuming the answer from a few visible examples?
+- how should later bounded slices exercise the completed parallelization diagnosis so the three-class taxonomy becomes a lived operator aid rather than a one-off audit artifact?
 - how should the newly named long-horizon lifecycle gaps, horizon tensions, and positive strengthening opportunities be mapped as one field, and which parts of that field are still too weakly articulated or too diffusely framed?
 - how should the current `29` register be revised now that the long-horizon cross-vendor pair has added `preservation-debt`, roadmap-time preservation criteria, later-lifecycle canonical-ref rereads, and bounded horizon-watch surfaces?
 - how much threshold / pass-fail residue still lives in older specs, prompts, reviews, and inherited lane artifacts despite the newer anti-threshold doctrine already present in root/planning `AGENTS.md` and both `CLAUDE.md` wrappers?

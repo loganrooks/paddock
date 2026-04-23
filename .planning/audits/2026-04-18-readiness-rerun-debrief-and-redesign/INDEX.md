@@ -44,8 +44,8 @@
 - [intervention-proposals/164-harness-parallelization-opportunity-map.md](intervention-proposals/164-harness-parallelization-opportunity-map.md)
 - [intervention-proposals/165-harness-parallelization-field-mapping-and-diagnosis-route.md](intervention-proposals/165-harness-parallelization-field-mapping-and-diagnosis-route.md)
 - [parallelization-audit/README.md](parallelization-audit/README.md)
-- [parallelization-audit/packets/01-harness-parallelization-field-map-and-diagnosis-audit-packet.md](parallelization-audit/packets/01-harness-parallelization-field-map-and-diagnosis-audit-packet.md)
-- [parallelization-audit/specs/01-harness-parallelization-field-map-and-diagnosis-audit-spec.md](parallelization-audit/specs/01-harness-parallelization-field-map-and-diagnosis-audit-spec.md)
+- [parallelization-audit/outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md](parallelization-audit/outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md)
+- [parallelization-audit/dispositions/01-harness-parallelization-field-map-and-diagnosis-audit-inheritance.md](parallelization-audit/dispositions/01-harness-parallelization-field-map-and-diagnosis-audit-inheritance.md)
 - [intervention-proposals/161-harness-modifier-responsible-closure-deployability-and-adaptive-feedback-route.md](intervention-proposals/161-harness-modifier-responsible-closure-deployability-and-adaptive-feedback-route.md)
 
 ### Need Authority Or Role Boundaries
