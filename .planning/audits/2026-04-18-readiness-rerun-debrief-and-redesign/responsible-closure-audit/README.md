@@ -37,11 +37,26 @@ Status: active companion audit family
   - [outputs/02-harness-modifier-development-program-plan-audit-opus47-max-r1.md](outputs/02-harness-modifier-development-program-plan-audit-opus47-max-r1.md)
   - [dispositions/02-harness-modifier-development-program-plan-audit-inheritance.md](dispositions/02-harness-modifier-development-program-plan-audit-inheritance.md)
 
+## Lane `03`
+
+- [d:r:i] Lane `03` is the next bounded protocol-tranche audit for this family.
+- [d:r:i] It is scoped to:
+  - [../intervention-proposals/169-harness-modifier-development-parallelization-and-intervention-lifecycle-protocol-consolidation-proposal.md](../intervention-proposals/169-harness-modifier-development-parallelization-and-intervention-lifecycle-protocol-consolidation-proposal.md)
+  - [../propagation-audit/60-review-route-parallelization-adjacent-propagation-audit-opening-note.md](../propagation-audit/60-review-route-parallelization-adjacent-propagation-audit-opening-note.md)
+- [d:r:i] Its tuple is now prepared:
+  - [packets/03-harness-modifier-protocol-consolidation-tranche-audit-packet.md](packets/03-harness-modifier-protocol-consolidation-tranche-audit-packet.md)
+  - [specs/03-harness-modifier-protocol-consolidation-tranche-audit-spec.md](specs/03-harness-modifier-protocol-consolidation-tranche-audit-spec.md)
+  - [prompts/03-harness-modifier-protocol-consolidation-tranche-audit-opus47-max-r1-launch-prompt.md](prompts/03-harness-modifier-protocol-consolidation-tranche-audit-opus47-max-r1-launch-prompt.md)
+  - [launch-truth/03-harness-modifier-protocol-consolidation-tranche-audit-launch-truth.md](launch-truth/03-harness-modifier-protocol-consolidation-tranche-audit-launch-truth.md)
+  - [outputs/03-harness-modifier-protocol-consolidation-tranche-audit-opus47-max-r1.md](outputs/03-harness-modifier-protocol-consolidation-tranche-audit-opus47-max-r1.md)
+  - [dispositions/03-harness-modifier-protocol-consolidation-tranche-audit-inheritance.md](dispositions/03-harness-modifier-protocol-consolidation-tranche-audit-inheritance.md)
+
 ## Current Consequence
 
 - [d:r:i] `161` is now no longer only an intervention-route note; it is the basis for a dedicated audit family.
 - [d:r:i] [intervention-proposals/166-harness-modifier-development-program-plan.md](../intervention-proposals/166-harness-modifier-development-program-plan.md) is now the current sovereign planning object for the next development-program boundary inside this family.
 - [d:r:i] Lane `02` now sharpens that plan rather than replacing it: named inherited doctrine, actual/virtual development-surface classification, short-horizon `160` closure, and the protocol-plus-propagation next sequence are now carried in the plan itself.
+- [d:r:i] Lane `03` is the next bounded challenge over that sequence, aimed specifically at the first development-side protocol tranche plus its paired propagation companion rather than at another full-plan rewrite.
 - [d:r:i] This subtree should preserve:
   - the difference between deployability pressure and rush pressure
   - the difference between contract uplift, host-artifact uplift, harness-agential uplift, and adaptive post-deploy learning
