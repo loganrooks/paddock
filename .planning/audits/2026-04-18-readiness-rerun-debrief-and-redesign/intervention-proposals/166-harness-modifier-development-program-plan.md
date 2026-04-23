@@ -166,8 +166,9 @@ Status: active audited sovereign plan
   - preserve the paired internal parallelization cross-audit as a durable inheritance note
   - run a cross-vendor audit over this plan
 - [d:r:i] `planning / implementation`
-  - close [160-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-proposal.md](160-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-proposal.md) on a bounded reread basis
-  - treat `160` as a frozen-input classification exercise on the landed neutralization tranches, not as a protocol-dependent move
+  - keep [160-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-proposal.md](160-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-proposal.md) closed on its bounded reread basis through lane `10`
+  - keep the extraction-family next move explicit as [167-harness-modifier-project-uplift-install-contract-pointer-neutralization-proposal.md](167-harness-modifier-project-uplift-install-contract-pointer-neutralization-proposal.md)
+  - keep the held-later artifact-home sibling explicit as [168-harness-modifier-project-uplift-held-later-artifact-home-sibling-note.md](168-harness-modifier-project-uplift-held-later-artifact-home-sibling-note.md)
 - [d:r:i] `planning / protocol`
   - cut one bounded development-parallelization protocol tranche
   - cut one bounded intervention lifecycle protocol consolidation tranche
@@ -328,8 +329,9 @@ Status: active audited sovereign plan
 
 1. [d:r:i] Treat this plan as the active integrated development-program object.
 2. [d:r:i] Audit this plan cross-vendor before cutting the next protocol tranche.
-3. [d:r:i] Close `160` payload-home judgment on a bounded reread in short horizon.
-4. [d:r:i] After the plan audit returns, land one bounded development-parallelization and intervention-lifecycle protocol consolidation slice.
-5. [d:r:i] Pair that protocol slice with one targeted propagation audit over already-landed parallelization-adjacent workflow changes.
-6. [d:r:i] Return next to the responsible-closure deployability bundle from the cleaner protocol baseline as medium-horizon follow-through.
-7. [d:r:i] Keep harness-in-action parallelization explicit, but later.
+3. [d:r:i] Treat `160` as closed on its bounded reread basis through lane `10`.
+4. [d:r:i] Keep `167` as the next extraction-family object and `168` as the explicit held-later sibling.
+5. [d:r:i] Land one bounded development-parallelization and intervention-lifecycle protocol consolidation slice as the next program-wide operational tranche.
+6. [d:r:i] Pair that protocol slice with one targeted propagation audit over already-landed parallelization-adjacent workflow changes.
+7. [d:r:i] Return next to the responsible-closure deployability bundle from the cleaner protocol baseline as medium-horizon follow-through.
+8. [d:r:i] Keep harness-in-action parallelization explicit, but later.

@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: proposed
+Status: completed bounded reread basis
 
 # Harness Modifier Project Uplift Post-Host-Planning-Shape Payload-Home Judgment Proposal
 
@@ -52,6 +52,7 @@ Status: proposed
 
 ## Exact Next Move
 
-1. [d:r:i] Run one bounded reread on this post-third-neutralization payload-home judgment.
-2. [d:r:i] Use that reread to classify the remaining helper authority more sharply.
-3. [d:r:i] Only after that judgment lands, decide whether any later movement route has actually become cleaner.
+1. [d:r:i] Treat the completed lane-`10` reread plus inheritance as the authoritative closeout for this reopened payload-home judgment.
+2. [d:r:i] Open the narrower next extraction object in [167-harness-modifier-project-uplift-install-contract-pointer-neutralization-proposal.md](167-harness-modifier-project-uplift-install-contract-pointer-neutralization-proposal.md).
+3. [d:r:i] Keep the held-later artifact-home question explicit through [168-harness-modifier-project-uplift-held-later-artifact-home-sibling-note.md](168-harness-modifier-project-uplift-held-later-artifact-home-sibling-note.md) rather than blurring it into `167`.
+4. [d:r:i] Only after `167` lands and its propagation/governance carry is recorded should the held-later artifact-home tranche reopen.

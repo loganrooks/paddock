@@ -130,6 +130,29 @@
   - debug artifact: `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/07/extraction-audit-07-20260422-203003.zvw2jcgh.debug.log`
   - calibration note: the lane again completed materially faster than the `6-10 minute` estimate at roughly `4.7 minutes`, reinforcing the local model that these compact extraction rereads are short bounded passes rather than medium-duration field maps
 
+## 2026-04-22 `extraction-audit-lane-10`
+
+- date: `2026-04-22`
+- purpose: bounded Opus reread of the post-third-neutralization payload-home judgment for `project_uplift.py` under `160`
+- frozen launch basis commit: `b2c1be5`
+- requested model / reasoning: `opus[1m]` / `xhigh`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- launch-truth artifact: [extraction-audit/launch-truth/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-launch-truth.md](extraction-audit/launch-truth/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-launch-truth.md)
+- prompt artifact: [extraction-audit/prompts/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-opus47-max-r1-launch-prompt.md](extraction-audit/prompts/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-opus47-max-r1-launch-prompt.md)
+- governing spec: [extraction-audit/specs/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-spec.md](extraction-audit/specs/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-spec.md)
+- governing packet: [extraction-audit/packets/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-packet.md](extraction-audit/packets/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-packet.md)
+- output artifact: [extraction-audit/outputs/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-opus47-max-r1.md](extraction-audit/outputs/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-opus47-max-r1.md)
+- estimated wall-clock duration: `8-14 minutes`
+- current state:
+  - completed
+  - local monitoring session: `95472`
+  - actual elapsed seconds: `252.928`
+  - external session id: `e6848d32-908d-481f-b1e7-467b57bf2222`
+  - total cost usd: `1.57670825`
+  - calibration note: the lane completed materially faster than the `8-14 minute` estimate at roughly `4.2 minutes`, which keeps matching the compact extraction-reread pattern rather than the heavier field-map pattern
+- repo-local artifacts directory:
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/10/`
+
 ## 2026-04-18 `lane-01`
 
 - date: `2026-04-18`

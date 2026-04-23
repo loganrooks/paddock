@@ -54,6 +54,10 @@
 - [intervention-proposals/166-harness-modifier-development-program-plan.md](intervention-proposals/166-harness-modifier-development-program-plan.md)
 - [responsible-closure-audit/outputs/02-harness-modifier-development-program-plan-audit-opus47-max-r1.md](responsible-closure-audit/outputs/02-harness-modifier-development-program-plan-audit-opus47-max-r1.md)
 - [responsible-closure-audit/dispositions/02-harness-modifier-development-program-plan-audit-inheritance.md](responsible-closure-audit/dispositions/02-harness-modifier-development-program-plan-audit-inheritance.md)
+- [extraction-audit/outputs/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-opus47-max-r1.md](extraction-audit/outputs/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-opus47-max-r1.md)
+- [extraction-audit/dispositions/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-inheritance.md](extraction-audit/dispositions/10-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-reread-inheritance.md)
+- [intervention-proposals/167-harness-modifier-project-uplift-install-contract-pointer-neutralization-proposal.md](intervention-proposals/167-harness-modifier-project-uplift-install-contract-pointer-neutralization-proposal.md)
+- [intervention-proposals/168-harness-modifier-project-uplift-held-later-artifact-home-sibling-note.md](intervention-proposals/168-harness-modifier-project-uplift-held-later-artifact-home-sibling-note.md)
 
 ### Need Authority Or Role Boundaries
 
