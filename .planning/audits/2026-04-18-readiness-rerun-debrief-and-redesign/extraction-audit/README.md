@@ -108,6 +108,12 @@ Status: active opening audit family
   - uplift-output-policy adoption in `harness_canary.py`
 - [d:r:i] The next extraction move is now no longer carrier neutralization. It is the post-neutralization payload-home judgment opened in:
   - [../intervention-proposals/155-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-proposal.md](../intervention-proposals/155-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-proposal.md)
+- [d:r:i] Lane `06` is now the active challenge on that boundary:
+  - [packets/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-packet.md](packets/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-packet.md)
+  - [specs/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-spec.md](specs/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-spec.md)
+  - [prompts/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-launch-prompt.md](prompts/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1-launch-prompt.md)
+  - [launch-truth/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-launch-truth.md](launch-truth/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-launch-truth.md)
+  - [outputs/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1.md](outputs/06-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-reread-opus47-max-r1.md)
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern
