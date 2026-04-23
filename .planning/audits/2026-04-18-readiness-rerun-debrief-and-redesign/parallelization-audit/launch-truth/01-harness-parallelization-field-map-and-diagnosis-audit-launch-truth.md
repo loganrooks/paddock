@@ -1,5 +1,5 @@
 Date: 2026-04-22
-Status: launched capture
+Status: completed attempt-1 launch-truth record
 
 # Harness Parallelization Field Map And Diagnosis Audit Launch Truth
 
@@ -23,30 +23,43 @@ Status: launched capture
 ## Requested Launch Mode
 
 - [d:r:i] Requested operator-facing model / reasoning: `Opus 4.7 Max` / `xhigh`
-- [d:r:i] Effective Claude model string: `opus[1m]`
-- [d:r:i] Launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`
+- [d:r:i] Effective Claude model string requested on every attempt: `opus[1m]`
+- [d:r:i] Launch mode on every attempt: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`
+
+## Attempt 1: full packet reread
+
 - [e:c+i] Command shape:
   - `python3 tooling/codex/run_claude_probe.py --label parallelization-audit-01 --model 'opus[1m]' --effort xhigh --dangerously-skip-permissions --output-dir .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01 --prompt-file .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/prompts/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1-launch-prompt.md > .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01/probe-summary.txt`
-
-## Timing
-
-- [d:r:i] Pre-launch estimate: `14-22 minutes`
-- [d:r:i] Timing calibration note:
-  - this lane is broader than the recent extraction rereads because it spans upstream vanilla surfaces, modified-harness surfaces, and harness-improvement-program overlap doctrine rather than one bounded local family only
-
-## Probe Status
-
-- [e:r:i] Local monitoring session:
+- [e:c+i] Parent exec session id:
   - `23887`
-- [e:r:i] Current state:
-  - `running`
-- [e:r:i] Repo-local artifacts:
+- [d:r:i] Pre-launch estimate:
+  - `14-22 minutes`
+- [e:c+i] Repo-local artifacts:
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01/probe-summary.txt`
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01/parallelization-audit-01-20260422-222056.dkqbcr7b.stream.jsonl`
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01/parallelization-audit-01-20260422-222056.l0sg6lnx.stderr.log`
   - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01/parallelization-audit-01-20260422-222056.ajq2b5wh.debug.log`
+- [e:c+i] Observed stream fields:
+  - first stream timestamp: `2026-04-23T02:21:01.501Z`
+  - last stream timestamp: `2026-04-23T02:23:20.127Z`
+  - last observed external session id: `63b4e661-0c15-4f1f-a81c-c193bc5ca3d4`
+  - recoverable assistant text blocks: `0`
+  - result events: `0`
+- [e:c+i] Outcome:
+  - the run never wrote the requested audit output
+  - the probe summary file remained empty
+  - the stream shows repeated `Read` calls across the oversized governance/workflow frontier, then stops before any final judgment
+  - the stalled-attempt evidence is preserved at [../artifacts/01-harness-parallelization-field-map-and-diagnosis-audit-attempt-1-stall.md](../artifacts/01-harness-parallelization-field-map-and-diagnosis-audit-attempt-1-stall.md)
+- [d:r:i] Consequence:
+  - do not treat attempt `1` as a finished lane return
+  - preserve the stall evidence
+  - open a compact retry under the same lane
 
-## Current Consequence
+## Compact Retry Prepared
 
-- [d:r:i] The lane is now reading on a frozen basis.
-- [d:r:i] While it runs, safe companion work must stay off the packet/spec/prompt and off the governed read-set surfaces the lane is currently using.
+- [e:c+i] Compact retry packet:
+  - [../packets/01b-harness-parallelization-field-map-and-diagnosis-audit-compact-packet.md](../packets/01b-harness-parallelization-field-map-and-diagnosis-audit-compact-packet.md)
+- [e:c+i] Compact retry prompt:
+  - [../prompts/01b-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1-compact-launch-prompt.md](../prompts/01b-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1-compact-launch-prompt.md)
+- [d:r:i] Compact retry estimate:
+  - `8-14 minutes`

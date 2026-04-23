@@ -14,14 +14,19 @@ Status: active opening audit family
 ## Opening Lane
 
 - [d:r:i] Lane `01` is the first explicit diagnosis pass on that split.
-- [d:r:i] Its current tuple is:
+- [d:r:i] Attempt `1` used the full packet/spec/prompt tuple:
   - [packets/01-harness-parallelization-field-map-and-diagnosis-audit-packet.md](packets/01-harness-parallelization-field-map-and-diagnosis-audit-packet.md)
   - [specs/01-harness-parallelization-field-map-and-diagnosis-audit-spec.md](specs/01-harness-parallelization-field-map-and-diagnosis-audit-spec.md)
   - [prompts/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1-launch-prompt.md](prompts/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1-launch-prompt.md)
+- [d:r:i] Attempt `1` stalled before any recoverable assistant text or final output:
+  - [artifacts/01-harness-parallelization-field-map-and-diagnosis-audit-attempt-1-stall.md](artifacts/01-harness-parallelization-field-map-and-diagnosis-audit-attempt-1-stall.md)
+- [d:r:i] The next move inside lane `01` is the compact retry:
+  - [packets/01b-harness-parallelization-field-map-and-diagnosis-audit-compact-packet.md](packets/01b-harness-parallelization-field-map-and-diagnosis-audit-compact-packet.md)
+  - [specs/01-harness-parallelization-field-map-and-diagnosis-audit-spec.md](specs/01-harness-parallelization-field-map-and-diagnosis-audit-spec.md)
+  - [prompts/01b-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1-compact-launch-prompt.md](prompts/01b-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1-compact-launch-prompt.md)
   - [launch-truth/01-harness-parallelization-field-map-and-diagnosis-audit-launch-truth.md](launch-truth/01-harness-parallelization-field-map-and-diagnosis-audit-launch-truth.md)
   - [outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md](outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md)
   - [dispositions/01-harness-parallelization-field-map-and-diagnosis-audit-inheritance.md](dispositions/01-harness-parallelization-field-map-and-diagnosis-audit-inheritance.md)
-- [d:r:i] Lane `01` is now live against frozen basis `6f2dc74`.
 
 ## Current Consequence
 
