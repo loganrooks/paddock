@@ -119,6 +119,18 @@ Status: active audit-program infrastructure surface
   - `parallelization-audit/outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md`
   - `../../HARNESS-IMPROVEMENT-REGISTER.md`
 
+### `responsible-closure-audit/`
+
+- [d:r:i] Status: active lane
+- [d:r:i] Why:
+  - this family now owns the live question of what responsible closure should mean for the harness-modifier program before broader deployment or extraction pressure increases
+  - the opening lane is designed to inherit the completed parallelization diagnosis rather than reopening it ambiently
+  - deployability, adaptive feedback, discrepancy capture, and harness-agential closure now need one bounded field map rather than scattered route notes
+- [d:r:i] Default reread path:
+  - `responsible-closure-audit/README.md`
+  - `responsible-closure-audit/packets/01-harness-modifier-responsible-closure-field-map-audit-packet.md`
+  - `intervention-proposals/161-harness-modifier-responsible-closure-deployability-and-adaptive-feedback-route.md`
+
 ### `extraction-audit/`
 
 - [d:r:i] Status: active companion

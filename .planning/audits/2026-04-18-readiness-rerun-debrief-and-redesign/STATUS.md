@@ -260,6 +260,8 @@ Date: 2026-04-22
 - current extraction overlay-reread status: `extraction-audit lane-02 is now completed: the Opus reread kept the overlay/workflow/skill/reference tranche as the real next object but narrowed the exact next move from immediate rehome to one roster + embedded-host-path scan first, with specialist workflow/skill filesystem rehome explicitly held until that freeze exists`
 - parallelization-audit subtree is now an active companion audit family under `parallelization-audit/`
 - parallelization-audit lane-01 is now completed and inherited: attempt `1` is preserved as a no-text stall, compact retry attempt `2` wrote the full audit, and the resulting baseline now lives in `parallelization-audit/outputs/01-*` plus `dispositions/01-*`
+- responsible-closure-audit subtree is now an active opening audit family under `responsible-closure-audit/`
+- responsible-closure-audit lane-01 packet/spec/prompt/output/disposition placeholders are now drafted as the next bounded field map for deployability, adaptive feedback, and harness-agential closure pressure
 - current extraction roster-scan status: `intervention-proposals/146-harness-modifier-overlay-roster-and-embedded-host-path-scan-implementation.md is now landed: harness_modifier/overlay/ROSTER.md freezes all 78 tracked overlay entries as generic/shared-boundary/host-local, extraction-audit/artifacts/03-overlay-embedded-host-path-scan.md freezes the real blockers contextually instead of flattening all planning-canon mentions into defects, and the specialist first-rehome set is now explicit rather than ambient in lane prose`
 - current extraction first-overlay-rehome status: `intervention-proposals/148-harness-modifier-first-overlay-filesystem-rehome-implementation.md is now landed: the specialist trio's authoritative source files now live under harness_modifier/overlay/, the stable install targets remain declared in tooling/portable-gsd/overlay/OVERLAY-MANIFEST.json, explicit source-path indirection now binds source authority to install targets, and propagation follow-through now lands in propagation-audit/55-harness-modifier-first-overlay-filesystem-rehome-change-triggered-refresh.md`
 - current extraction residue-classification status: `extraction-audit lane-03 is now completed against frozen basis ed3a17b, intervention-proposals/149-harness-modifier-first-overlay-residue-classification-pass-proposal.md is now carried through intervention-proposals/150-harness-modifier-first-overlay-residue-classification-pass-implementation.md, and propagation follow-through now lands in propagation-audit/56-harness-modifier-first-overlay-residue-classification-change-triggered-refresh.md: source-side token abstraction is now explicit in the moved skill adapters, while helper-payload promotion, default-source-root migration, and overwrite-mode source indirection remain bounded later pressures instead of ambient second-tranche momentum`
@@ -423,7 +425,13 @@ Date: 2026-04-22
    - `uplift` has multiple targets and modes
    - harness-in-action parallelization should not be reduced to execution-wave splitting alone
 60. refine responsible closure through `161` with the added harness-agential and parallelization pressure rather than letting deployability/feedback carry remain too narrow
-61. treat `164` as a framing note, not a final posture judgment; use `165` to run a proper field-mapping / diagnosis pass over:
+61. run the opening `responsible-closure-audit/` lane `01` as the bounded field map for:
+   - deployability and host-context testing breadth
+   - adaptive feedback / measurement / telemetry
+   - semantic discrepancy and positive-gain capture
+   - harness-agential closure quality
+   - post-deploy observation versus pre-deploy obligation
+62. treat `164` as a framing note, not a final posture judgment; use `165` to run a proper field-mapping / diagnosis pass over:
    - vanilla GSD parallelization posture
    - modified harness parallelization posture
    - harness-improvement-program overlap posture
@@ -440,6 +448,7 @@ Date: 2026-04-22
 - current review-route first-slice status: `intervention-proposals/143-gsd-review-helper-backed-run-home-first-slice-proposal.md now turns the completed widening lane into one explicit local route: harden gsd-review in place through a helper-backed run-home / launch-truth / timing / salvage layer, keep REVIEWS.md and the Review Consumer Contract stable, and keep subject-split / retry / telemetry / wider parity routes explicit as later family moves`
 - current review-route implementation status: `intervention-proposals/145-gsd-review-helper-backed-run-home-first-slice-implementation.md plus propagation-audit/53-review-route-helper-backed-run-home-first-slice-change-triggered-refresh.md now land the helper-backed run-home layer itself: authoritative helper under harness_modifier/capture with tooling/codex shim, workflow/wrapper carry away from /tmp cleanup language, focused helper + route contract tests, and explicit producer-to-consumer propagation framing`
 - current parallelization field-map status: `parallelization-audit lane-01` now answers the three-way diagnosis directly across vanilla GSD posture, modified-harness posture, and harness-improvement-program overlap, and carries the active three-class taxonomy for later overlap questions
+- current responsible-closure status: `161` is now widened into a dedicated audit-family question under `responsible-closure-audit/`; lane `01` is the next bounded field map rather than another ambient route note
 - explicitly later from that lane:
   - single-writer governance-surface list as a later bounded doctrine carry
   - fan-out packet template as a later bounded protocol carrier
@@ -453,6 +462,12 @@ Date: 2026-04-22
   - workflow-local notes
   - or a layered combination?
 - how should later bounded slices exercise the completed parallelization diagnosis so the three-class taxonomy becomes a lived operator aid rather than a one-off audit artifact?
+- what is the right first responsible-closure bundle before broader deployment pressure:
+  - host-context testing breadth
+  - adaptive feedback / measurement / telemetry
+  - semantic discrepancy and positive-gain capture
+  - harness-agential closure quality
+  - and what should remain explicitly observational/post-deploy instead of being forced into pre-deploy closure theater?
 - how should the newly named long-horizon lifecycle gaps, horizon tensions, and positive strengthening opportunities be mapped as one field, and which parts of that field are still too weakly articulated or too diffusely framed?
 - how should the current `29` register be revised now that the long-horizon cross-vendor pair has added `preservation-debt`, roadmap-time preservation criteria, later-lifecycle canonical-ref rereads, and bounded horizon-watch surfaces?
 - how much threshold / pass-fail residue still lives in older specs, prompts, reviews, and inherited lane artifacts despite the newer anti-threshold doctrine already present in root/planning `AGENTS.md` and both `CLAUDE.md` wrappers?

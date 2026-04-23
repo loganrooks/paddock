@@ -47,6 +47,9 @@
 - [parallelization-audit/outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md](parallelization-audit/outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md)
 - [parallelization-audit/dispositions/01-harness-parallelization-field-map-and-diagnosis-audit-inheritance.md](parallelization-audit/dispositions/01-harness-parallelization-field-map-and-diagnosis-audit-inheritance.md)
 - [intervention-proposals/161-harness-modifier-responsible-closure-deployability-and-adaptive-feedback-route.md](intervention-proposals/161-harness-modifier-responsible-closure-deployability-and-adaptive-feedback-route.md)
+- [responsible-closure-audit/README.md](responsible-closure-audit/README.md)
+- [responsible-closure-audit/packets/01-harness-modifier-responsible-closure-field-map-audit-packet.md](responsible-closure-audit/packets/01-harness-modifier-responsible-closure-field-map-audit-packet.md)
+- [responsible-closure-audit/specs/01-harness-modifier-responsible-closure-field-map-audit-spec.md](responsible-closure-audit/specs/01-harness-modifier-responsible-closure-field-map-audit-spec.md)
 
 ### Need Authority Or Role Boundaries
 
