@@ -63,3 +63,18 @@ Status: completed attempt-1 launch-truth record
   - [../prompts/01b-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1-compact-launch-prompt.md](../prompts/01b-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1-compact-launch-prompt.md)
 - [d:r:i] Compact retry estimate:
   - `8-14 minutes`
+
+## Attempt 2: compact retry launch
+
+- [d:r:i] Frozen launch basis commit for the compact retry: `8d9111d`
+- [e:c+i] Command shape:
+  - `python3 tooling/codex/run_claude_probe.py --label parallelization-audit-01b --model 'opus[1m]' --effort xhigh --dangerously-skip-permissions --output-dir .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01b --prompt-file .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/prompts/01b-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1-compact-launch-prompt.md > .planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01b/probe-summary.txt`
+- [e:c+i] Parent exec session id:
+  - `8307`
+- [e:c+i] Repo-local artifacts:
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01b/probe-summary.txt`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01b/parallelization-audit-01b-20260422-222817.jj2bdmk9.stream.jsonl`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01b/parallelization-audit-01b-20260422-222817.rryv4rl3.stderr.log`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/parallelization-audit/logs/01b/parallelization-audit-01b-20260422-222817.7_irxt93.debug.log`
+- [e:r:i] Current state:
+  - `running`

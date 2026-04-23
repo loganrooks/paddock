@@ -27,6 +27,7 @@ Status: active opening audit family
   - [launch-truth/01-harness-parallelization-field-map-and-diagnosis-audit-launch-truth.md](launch-truth/01-harness-parallelization-field-map-and-diagnosis-audit-launch-truth.md)
   - [outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md](outputs/01-harness-parallelization-field-map-and-diagnosis-audit-opus47-max-r1.md)
   - [dispositions/01-harness-parallelization-field-map-and-diagnosis-audit-inheritance.md](dispositions/01-harness-parallelization-field-map-and-diagnosis-audit-inheritance.md)
+- [d:r:i] The compact retry is now live against frozen basis `8d9111d`.
 
 ## Current Consequence
 
