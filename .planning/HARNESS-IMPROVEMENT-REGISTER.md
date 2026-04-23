@@ -40,7 +40,7 @@ Status: active durable register
 - [d:r:i] Uplift semantics, harness-program horizons, and parallelization opportunity mapping
   - current state: the semantic split is now explicit through `162`, `163`, and `164`
   - current pressure: stop letting host-product horizons, host-artifact uplift, harness-agential uplift, and harness-operational overlap logic collapse back into one overloaded `uplift` or `long horizon` vocabulary
-  - current next move: do not treat `164` as a completed diagnosis; use `165` to map vanilla GSD posture, modified-harness posture, and harness-improvement-program overlap more explicitly before stronger parallelization doctrine lands
+  - current next move: do not treat `164` as a completed diagnosis; lane `01` under `parallelization-audit/` now maps vanilla GSD posture, modified-harness posture, and harness-improvement-program overlap more explicitly before stronger parallelization doctrine lands
 - [d:r:i] Cross-vendor review-route and audit-lane carry
   - current state: the bounded `gsd-review` route audit is now completed under `review-route-audit/`; lane `01` widened the family beyond a narrow route patch and is now inherited as one helper-backed in-place hardening slice with adjacent later review-workflow routes kept explicit
   - current pressure: land that first helper-versus-workflow slice without flattening the broader review-workflow field back into one command-local fix or silently dropping the later route families the audit surfaced
