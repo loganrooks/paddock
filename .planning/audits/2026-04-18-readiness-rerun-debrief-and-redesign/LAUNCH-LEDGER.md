@@ -1577,3 +1577,41 @@
   - keep relocation later
   - keep `OVERLAY_MANIFEST_REL_PATH` as a separate later install-contract slice
   - open `158` as the next bounded extraction object
+
+## 2026-04-22 `extraction-audit lane-09`
+
+- date: `2026-04-22`
+- purpose: bounded Opus reread over the `158` host-planning-shape neutralization proposal so the extraction family can judge the cleanest carrier/writer/layout split for the third neutralization tranche before implementation
+- frozen launch basis commit: `6c58663`
+- requested model / reasoning: `opus[1m]` / `xhigh`
+- requested launch mode: headless Claude CLI probe via `tooling/codex/run_claude_probe.py`, repo-local packet/spec/prompt paths, `--dangerously-skip-permissions`
+- prompt artifact: [extraction-audit/prompts/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-opus47-max-r1-launch-prompt.md](extraction-audit/prompts/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-opus47-max-r1-launch-prompt.md)
+- governing spec: [extraction-audit/specs/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-spec.md](extraction-audit/specs/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-spec.md)
+- governing packet: [extraction-audit/packets/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-packet.md](extraction-audit/packets/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-packet.md)
+- launch-truth artifact: [extraction-audit/launch-truth/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-launch-truth.md](extraction-audit/launch-truth/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-launch-truth.md)
+- output artifact: [extraction-audit/outputs/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-opus47-max-r1.md](extraction-audit/outputs/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-opus47-max-r1.md)
+- pre-launch estimate:
+  - `6-10 minutes`
+- current state:
+  - completed
+  - the lane stayed on the bounded third neutralization tranche
+  - it did not reopen relocation, second overlay tranche, overwrite-family widening, standalone repo, packaging, or broader parity redesign
+- repo-local artifacts:
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/09/probe-summary.txt`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/09/extraction-audit-09-20260422-210049.vp_i_dtn.stream.jsonl`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/09/extraction-audit-09-20260422-210049.ohn1aegv.stderr.log`
+  - `.planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/extraction-audit/logs/09/extraction-audit-09-20260422-210049.kqex_nml.debug.log`
+- probe summary:
+  - exit code: `0`
+  - elapsed seconds: `381.658`
+  - session id: `f732a693-2432-4de8-843b-3294a8365894`
+  - total cost usd: `1.6168685000000003`
+- timing calibration:
+  - actual runtime was shorter than the `6-10 minute` estimate at roughly `6.4 minutes`
+  - the lane behaved like a bounded third-tranche shape reread rather than a broader extraction redesign lane
+- disposition:
+  - [extraction-audit/dispositions/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-inheritance.md](extraction-audit/dispositions/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-inheritance.md)
+  - `accept with sharper carrier split`
+  - keep `158` as the right next family
+  - split the tranche into `state_section.json` plus `phase_layout.json` plus `state_writer.py`
+  - keep `OVERLAY_MANIFEST_REL_PATH` as a separate later install-contract slice

@@ -43,9 +43,9 @@ Status: proposed
 ### 3. What Is The Cleaner Neutralization Shape?
 
 - [d:r:i] The slice should judge the cleanest bounded split across:
-  - a typed host-planning-shape carrier
-  - a narrow writer module
-  - a typed phase-layout anchor
+  - a typed writer-side state-section carrier
+  - a typed analysis-side phase-layout carrier
+  - a narrow writer module with distinct render and update entries
 - [d:r:i] It should keep `OVERLAY_MANIFEST_REL_PATH` explicitly out of this tranche and hold that as a later install-contract slice.
 
 ## Proposed Carrying Surfaces
@@ -61,6 +61,7 @@ Status: proposed
   - `harness_modifier/uplift/vocabulary.json`
 - [d:r:i] proposed new bounded carrier/writer pair:
   - `harness_modifier/uplift/state_section.json`
+  - `harness_modifier/uplift/phase_layout.json`
   - `harness_modifier/uplift/state_writer.py`
 - [d:r:i] extraction/governance carry:
   - `harness_modifier/overlay/helpers/AUTHORITY-MAP.md`
@@ -79,6 +80,42 @@ Status: proposed
 - [d:r:i] No standalone repo or npm/`npx` packaging move.
 - [d:r:i] No broader `.codex` / `.claude` parity redesign.
 - [d:r:i] No `OVERLAY_MANIFEST_REL_PATH` neutralization inside this tranche.
+- [d:r:i] No `seed_migration_inventory.py` or `harness_canary.py` changes inside this tranche.
+- [d:r:i] No `tooling/codex/UPLIFT-HELD-LATER.md` artifact-home move inside this tranche.
+
+## Sharpened Shape
+
+- [d:r:i] `state_heading` remains owned by `harness_modifier/uplift/output_policy.json`; the new state-section carrier references that heading rather than re-declaring `"## Project Uplift"`.
+- [d:r:i] `harness_modifier/uplift/state_section.json` should carry:
+  - `.planning/STATE.md` path anchor
+  - sibling-marker names
+  - ordered label tuple
+  - typed selector vocabulary
+- [d:r:i] `harness_modifier/uplift/phase_layout.json` should carry:
+  - `.planning/phases` root anchor
+  - phase-prefix grammar
+  - discovery globs for `*-CONTEXT.md`, `*-PLAN.md`, and `*-SUMMARY.md`
+- [d:r:i] `harness_modifier/uplift/state_writer.py` should expose distinct render and update entries so parity tests can judge each boundary separately.
+- [d:r:i] Selector dispatch stays in writer code; do not pull rendering logic into carrier data as `(label, field_selector)` tuples.
+
+## Focused Parity Frontier
+
+- [d:r:i] The tranche should name and hold:
+  - rendered state-section byte equivalence on a representative analysis fixture
+  - emitted uplift manifest field equivalence
+  - `update_state_section` byte equivalence across anchor-match, sibling-marker-insert, and trailing-append paths
+  - `latest_phase_context_path`, `count_phase_files`, and `phase_sort_key` equivalence after the phase-layout carrier replaces embedded literals
+
+## Governance Carry
+
+- [d:r:i] The landed tranche should refresh:
+  - `harness_modifier/overlay/helpers/AUTHORITY-MAP.md`
+  - `harness_modifier/overlay/ROSTER.md`
+  - `.planning/HARNESS-IMPROVEMENT-REGISTER.md`
+  - `CURRENT-STATE.md`
+  - `STATUS.md`
+  - `extraction-audit/README.md`
+- [d:r:i] The landed tranche should also open a propagation-audit entry modeled on `57` and `58`.
 
 ## Exact Next Move
 

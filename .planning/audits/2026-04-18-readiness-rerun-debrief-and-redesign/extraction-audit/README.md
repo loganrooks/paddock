@@ -148,6 +148,14 @@ Status: active opening audit family
   - the materially remaining host-coupling surface is now the host-planning-shape writer/scanner reach
   - `OVERLAY_MANIFEST_REL_PATH` stays a separate later install-contract slice
 - [d:r:i] The next extraction object is now [../intervention-proposals/158-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal.md](../intervention-proposals/158-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal.md), not relocation and not another adjacent extraction family.
+- [d:r:i] Lane `09` is now completed and inherited too:
+  - [packets/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-packet.md](packets/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-packet.md)
+  - [specs/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-spec.md](specs/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-spec.md)
+  - [prompts/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-opus47-max-r1-launch-prompt.md](prompts/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-opus47-max-r1-launch-prompt.md)
+  - [launch-truth/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-launch-truth.md](launch-truth/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-launch-truth.md)
+  - [outputs/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-opus47-max-r1.md](outputs/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-opus47-max-r1.md)
+  - [dispositions/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-inheritance.md](dispositions/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-inheritance.md)
+- [d:r:i] Lane `09` keeps `158` as the right next family but sharpens its internal split: `state_section.json`, `phase_layout.json`, and `state_writer.py` with distinct render/update entries, while `OVERLAY_MANIFEST_REL_PATH` stays a separate later install-contract slice.
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern
