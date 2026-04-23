@@ -348,6 +348,19 @@
       "claim_boundary": "declares the seed root, current seed contract version, required frontmatter keys, and required section headings so project_uplift and seed_migration_inventory share one typed seed-shape surface instead of mirroring it through helper-local constants"
     },
     {
+      "id": "harness_modifier_uplift_host_doctrine_contract",
+      "path": "harness_modifier/uplift/carrier_catalog.json",
+      "validator": "tooling/codex/tests/test_project_uplift.py",
+      "contract_kind": "portable uplift host-doctrine carrier catalog and typed host-facing vocabulary declaration for project_uplift runtime registry discovery plus operator-facing uplift language",
+      "families_touched": [
+        "registry",
+        "helper",
+        "workflow_output",
+        "state_continuity"
+      ],
+      "claim_boundary": "declares the typed file-carrier roster, runtime-agent registry sibling object, marker-carrier roster, rerun-boundary patterns, phase-boundary notes, command tokens, and recommendation sentences so project_uplift no longer keeps those host-doctrine and vocabulary payloads as helper-local declaration blobs"
+    },
+    {
       "id": "harness_quality_canary_contract",
       "path": "harness_modifier/contract/harness_canary.py",
       "validator": "tooling/codex/tests/test_harness_canary.py",

@@ -230,7 +230,7 @@
       "id": "project_uplift",
       "family": "helper",
       "path": "tooling/codex/project_uplift.py",
-      "role": "authoritative uplift producer, portable compatibility-declaration consumer, typed runtime-observation consumer, typed uplift-output-policy consumer, typed seed-contract-shape consumer, observed-basis compatibility anchor owner, held runtime annotation owner, compatibility-drift router, top-level Project Uplift slot writer, seed-corpus posture scanner, current-version shape-gap detector, and progress-note source for operator-facing seed visibility plus bounded specialist-packet disclosure with candidate breakdown and inspect/write command split when migration candidates are present",
+      "role": "authoritative uplift producer, portable compatibility-declaration consumer, typed runtime-observation consumer, typed uplift-output-policy consumer, typed seed-contract-shape consumer, typed host-doctrine carrier-catalog consumer, typed host-facing vocabulary consumer, observed-basis compatibility anchor owner, held runtime annotation owner, compatibility-drift router, top-level Project Uplift slot writer, seed-corpus posture scanner, current-version shape-gap detector, runtime-agent registry scanner, and progress-note source for operator-facing seed visibility plus bounded specialist-packet disclosure with candidate breakdown and inspect/write command split when migration candidates are present",
       "support_mode": "roster_plus_producer_report",
       "evidence_refs": [
         "uplift_manifest_current",
@@ -247,7 +247,10 @@
         "runtime_observation_policy_file",
         "uplift_output_policy_file",
         "seed_contract_shape_file",
-        "project_uplift_neutralization_impl_154"
+        "uplift_carrier_catalog_file",
+        "uplift_vocabulary_file",
+        "project_uplift_neutralization_impl_154",
+        "project_uplift_host_doctrine_neutralization_impl_157"
       ]
     },
     {
@@ -1015,6 +1018,30 @@
         "seed_migration_inventory_tests",
         "seed_migration_inventory_follow_through_tests",
         "project_uplift_neutralization_impl_154"
+      ]
+    },
+    {
+      "id": "uplift_carrier_catalog",
+      "family": "registry",
+      "path": "harness_modifier/uplift/carrier_catalog.json",
+      "role": "typed uplift host-doctrine catalog declaring the file-carrier roster, runtime-agent registry sibling object, marker-carrier roster, and stable ordering rule now consumed by project_uplift",
+      "support_mode": "declared_contract_plus_helper_read",
+      "evidence_refs": [
+        "uplift_carrier_catalog_file",
+        "project_uplift_contract_tests",
+        "project_uplift_host_doctrine_neutralization_impl_157"
+      ]
+    },
+    {
+      "id": "uplift_vocabulary",
+      "family": "registry",
+      "path": "harness_modifier/uplift/vocabulary.json",
+      "role": "typed host-facing uplift vocabulary declaring rerun-boundary patterns, phase-boundary notes, command tokens, and recommendation sentences for project_uplift report, state, and progress-note carry",
+      "support_mode": "declared_contract_plus_helper_read",
+      "evidence_refs": [
+        "uplift_vocabulary_file",
+        "project_uplift_contract_tests",
+        "project_uplift_host_doctrine_neutralization_impl_157"
       ]
     },
     {
@@ -2498,6 +2525,32 @@
         "seed_migration_inventory_tests",
         "seed_migration_inventory_follow_through_tests",
         "project_uplift_neutralization_impl_154"
+      ]
+    },
+    {
+      "id": "uplift_carrier_catalog_to_project_uplift",
+      "from": "uplift_carrier_catalog",
+      "to": "project_uplift",
+      "kind": "declared_host_doctrine_catalog_drives_uplift_runtime_registry_and_marker_scan",
+      "status": "mapped",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "uplift_carrier_catalog_file",
+        "project_uplift_contract_tests",
+        "project_uplift_host_doctrine_neutralization_impl_157"
+      ]
+    },
+    {
+      "id": "uplift_vocabulary_to_project_uplift",
+      "from": "uplift_vocabulary",
+      "to": "project_uplift",
+      "kind": "declared_uplift_vocabulary_drives_report_state_and_progress_note_language",
+      "status": "mapped",
+      "support_mode": "declared_contract_plus_tested_behavior",
+      "evidence_refs": [
+        "uplift_vocabulary_file",
+        "project_uplift_contract_tests",
+        "project_uplift_host_doctrine_neutralization_impl_157"
       ]
     }
   ]

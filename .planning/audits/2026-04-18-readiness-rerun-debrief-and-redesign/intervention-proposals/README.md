@@ -160,6 +160,7 @@ Status: active proposal/disposition batch
 154. `154-harness-modifier-project-uplift-neutralization-implementation.md`
 155. `155-harness-modifier-project-uplift-post-neutralization-payload-home-judgment-proposal.md`
 156. `156-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal.md`
+157. `157-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-implementation.md`
 
 ## Proposal Rule
 
@@ -287,5 +288,7 @@ Status: active proposal/disposition batch
 - [d:r:i] `153` now opens that next bounded extraction move directly: neutralize `project_uplift.py` runtime discovery posture, uplift output/path posture, and compatibility-anchor routing posture before any later payload relocation is reconsidered.
 - [d:r:i] `154` now records the landed neutralization slice itself: typed observation, uplift-output-policy, and seed-contract carriers now live under `harness_modifier/`, `project_uplift.py` now consumes them instead of re-declaring them as helper-local constants, `seed_migration_inventory.py` and `harness_canary.py` now consume the same carriers where they touch the same policy, and the next bounded extraction move is now post-neutralization payload-home judgment rather than carrier neutralization.
 - [d:r:i] `155` now opens that next bounded extraction move directly: judge `project_uplift.py` again after neutralization, on top of the cleaner carrier split, before any later relocation or different adjacent extraction family is chosen.
+- [d:r:i] `156` now records the second neutralization boundary cleared by lane `07`: host-doctrine carrier rows plus host-facing operator vocabulary should move into typed uplift carriers before payload-home judgment reopens.
+- [d:r:i] `157` now records the landed second neutralization slice itself: typed uplift carrier-catalog and vocabulary carriers now govern the remaining host-doctrine and operator-facing surfaces inside `project_uplift.py`, focused parity tests now hold canonical ordering and recommendation equivalence, and the next bounded extraction move returns to post-neutralization payload-home judgment on top of that cleaner split rather than widening into another adjacent family.
 - [d:r:i] `42` now records that harden slice as landed: multi-axis posture, phase-boundary signal, per-carrier fingerprint shape, runtime-agent globbing, typed proposal routes, file-backed held-later carry, widened tests, and the two live consumer/output bugs it surfaced and corrected.
 - [d:r:i] The current broader consequence after `42-74`: use the cleaner uplift slice, the active propagation family, the landed verifier / transition / milestone-boundary / first-read / spec lifecycle bridges, the landed re-entry plus initialization/doc-ingest plus repair/migration plus update plus seed producer/consumer slices, and the hardened setup/materialization path together rather than assuming one helper or one bounded slice already proves whole-network carry.

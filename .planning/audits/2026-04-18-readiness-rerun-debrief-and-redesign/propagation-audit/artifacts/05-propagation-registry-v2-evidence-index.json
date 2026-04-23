@@ -573,6 +573,18 @@
       "note": "typed uplift output-policy carrier declaring the Project Uplift state heading plus report, manifest, and held-later paths for shared helper and canary use"
     },
     {
+      "id": "uplift_carrier_catalog_file",
+      "evidence_lane": "declared_contract",
+      "path": "harness_modifier/uplift/carrier_catalog.json",
+      "note": "typed uplift host-doctrine catalog declaring file carriers, the runtime-agent registry sibling object, marker carriers, and stable ordering for project_uplift"
+    },
+    {
+      "id": "uplift_vocabulary_file",
+      "evidence_lane": "declared_contract",
+      "path": "harness_modifier/uplift/vocabulary.json",
+      "note": "typed host-facing uplift vocabulary declaring rerun-boundary patterns, phase-boundary notes, command tokens, and recommendation sentences for project_uplift outputs"
+    },
+    {
       "id": "harness_quality_canary_impl_49",
       "evidence_lane": "implementation_note",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/49-harness-quality-canary-first-slice-implementation.md",
@@ -595,6 +607,18 @@
       "evidence_lane": "change_triggered_refresh",
       "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/57-harness-modifier-project-uplift-neutralization-change-triggered-refresh.md",
       "note": "typed v2 refresh that keeps the neutralized observation, output-policy, and seed-contract carriers explicit together with the thinned helper/downstream consumers they now govern"
+    },
+    {
+      "id": "project_uplift_host_doctrine_neutralization_impl_157",
+      "evidence_lane": "implementation_note",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/intervention-proposals/157-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-implementation.md",
+      "note": "landed second neutralization tranche moving file-carrier doctrine, runtime-agent registry shape, marker-carrier doctrine, and host-facing uplift vocabulary into typed carriers while thinning project_uplift around them"
+    },
+    {
+      "id": "project_uplift_host_doctrine_neutralization_refresh_58",
+      "evidence_lane": "change_triggered_refresh",
+      "path": ".planning/audits/2026-04-18-readiness-rerun-debrief-and-redesign/propagation-audit/58-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-change-triggered-refresh.md",
+      "note": "typed v2 refresh that keeps the new host-doctrine catalog and vocabulary carriers explicit together with the thinned helper, runtime-agent registry discovery, and operator-facing uplift language they now govern"
     }
   ]
 }

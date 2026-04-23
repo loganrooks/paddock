@@ -133,6 +133,10 @@ Status: active opening audit family
 - [d:r:i] Lane `07` is now completed and inherited through:
   - [outputs/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-opus47-max-r1.md](outputs/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-opus47-max-r1.md)
   - [dispositions/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-inheritance.md](dispositions/07-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal-reread-inheritance.md)
+- [d:r:i] The second neutralization tranche is now landed too:
+  - [../intervention-proposals/157-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-implementation.md](../intervention-proposals/157-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-implementation.md)
+  - [../propagation-audit/58-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-change-triggered-refresh.md](../propagation-audit/58-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-change-triggered-refresh.md)
+- [d:r:i] The next extraction move is now to reopen the payload-home judgment on top of both landed neutralization tranches rather than widening into another adjacent extraction family first.
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern
