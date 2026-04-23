@@ -156,6 +156,12 @@ Status: active opening audit family
   - [outputs/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-opus47-max-r1.md](outputs/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-opus47-max-r1.md)
   - [dispositions/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-inheritance.md](dispositions/09-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal-reread-inheritance.md)
 - [d:r:i] Lane `09` keeps `158` as the right next family but sharpens its internal split: `state_section.json`, `phase_layout.json`, and `state_writer.py` with distinct render/update entries, while `OVERLAY_MANIFEST_REL_PATH` stays a separate later install-contract slice.
+- [d:r:i] That third neutralization tranche is now landed too:
+  - [../intervention-proposals/159-harness-modifier-project-uplift-host-planning-shape-neutralization-implementation.md](../intervention-proposals/159-harness-modifier-project-uplift-host-planning-shape-neutralization-implementation.md)
+  - [../propagation-audit/59-harness-modifier-project-uplift-host-planning-shape-neutralization-change-triggered-refresh.md](../propagation-audit/59-harness-modifier-project-uplift-host-planning-shape-neutralization-change-triggered-refresh.md)
+- [d:r:i] The next bounded extraction move is now:
+  - [../intervention-proposals/160-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-proposal.md](../intervention-proposals/160-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-proposal.md)
+- [d:r:i] The payload-home judgment now reopens after policy-data, host-doctrine/vocabulary, and host-planning-shape neutralization rather than after only the earlier two dissolutions.
 - [d:r:i] Compact-prompt split, overwrite-family migration, and standalone repo design remain later.
 
 ## Expected Artifact Pattern

@@ -37,6 +37,14 @@
 
 - [ARTIFACT-INVENTORY.md](ARTIFACT-INVENTORY.md)
 
+### Need Harness-Program Semantics, Horizons, Or Parallelization Framing
+
+- [intervention-proposals/162-harness-uplift-semantics-and-target-mode-split.md](intervention-proposals/162-harness-uplift-semantics-and-target-mode-split.md)
+- [intervention-proposals/163-harness-program-horizons-and-future-carry-doctrine.md](intervention-proposals/163-harness-program-horizons-and-future-carry-doctrine.md)
+- [intervention-proposals/164-harness-parallelization-opportunity-map.md](intervention-proposals/164-harness-parallelization-opportunity-map.md)
+- [intervention-proposals/165-harness-parallelization-field-mapping-and-diagnosis-route.md](intervention-proposals/165-harness-parallelization-field-mapping-and-diagnosis-route.md)
+- [intervention-proposals/161-harness-modifier-responsible-closure-deployability-and-adaptive-feedback-route.md](intervention-proposals/161-harness-modifier-responsible-closure-deployability-and-adaptive-feedback-route.md)
+
 ### Need Authority Or Role Boundaries
 
 - [WORKSPACE-AUTHORITY-AND-ORGANIZATION.md](WORKSPACE-AUTHORITY-AND-ORGANIZATION.md)

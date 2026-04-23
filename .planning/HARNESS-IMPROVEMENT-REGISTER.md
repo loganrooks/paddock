@@ -37,6 +37,10 @@ Status: active durable register
 - [d:r:i] Cross-repo distribution
   - current pressure: later portability of repo-local harness gains without forcing it early
   - current evidence: `115` keeps separate-repo plus npm/`npx` distribution explicit as a later route while the current uplift/cross-runtime and propagation contracts continue sharpening, and `136` now records host-project versus harness scope leakage as concrete extraction pressure rather than ambient future appetite alone
+- [d:r:i] Uplift semantics, harness-program horizons, and parallelization opportunity mapping
+  - current state: the semantic split is now explicit through `162`, `163`, and `164`
+  - current pressure: stop letting host-product horizons, host-artifact uplift, harness-agential uplift, and harness-operational overlap logic collapse back into one overloaded `uplift` or `long horizon` vocabulary
+  - current next move: do not treat `164` as a completed diagnosis; use `165` to map vanilla GSD posture, modified-harness posture, and harness-improvement-program overlap more explicitly before stronger parallelization doctrine lands
 - [d:r:i] Cross-vendor review-route and audit-lane carry
   - current state: the bounded `gsd-review` route audit is now completed under `review-route-audit/`; lane `01` widened the family beyond a narrow route patch and is now inherited as one helper-backed in-place hardening slice with adjacent later review-workflow routes kept explicit
   - current pressure: land that first helper-versus-workflow slice without flattening the broader review-workflow field back into one command-local fix or silently dropping the later route families the audit surfaced
@@ -79,6 +83,11 @@ Status: active durable register
 - [d:r:i] Explicit canon-absorption use on later landed intervention families
 - [d:r:i] Bounded uplift-agent-assist patterning that keeps composition-layer judgment in the parent thread while delegation sharpens narrower uplift subproblems
 - [d:r:i] After the first three exercised uplift-assist patterns, the landed narrow route pointer, the landed docs-governance runtime-proof, the first cross-runtime packet exercise, the completed Opus widening reread, and the completed concern-family split lane, the compatibility-family widening-shape proposal in `114` is now no longer just prospective; its first slice landed in `116`
+- [d:r:i] Responsible-closure follow-through now also includes:
+  - deployability and host-context testing breadth
+  - adaptive feedback / telemetry / discrepancy carriers
+  - harness-agential uplift
+  - stronger parallelization design both for the harness-improvement program and for the harness in action itself
 - [d:r:i] After the first compatibility-family implementation slice in `116`, the completed post-annotation reread in lane `10`, and the proposal reread in lane `11`, the next bounded move is no longer direct implementation; it is the per-carrier classification return in `119`, while family-6 wider route mapping remains parallelizable and extraction/distribution remains later
 - [d:r:i] After the classification return in `119`, the completed Opus rereads in lanes `12` and `13`, and the landed implementation slice in `121`, the transition/state continuity bridge is now part of the active uplift baseline, the matching compatibility-family refresh now sits in propagation `44`, and the next bounded move is the revised `122` implementation slice:
   - dedicated milestone-boundary uplift shared reference first
@@ -125,6 +134,7 @@ Status: active durable register
   - whether generated traces should become governed durable artifacts
   - stay runtime-only and ignored
   - or route through a separate measurement subtree instead of appearing as unmanaged repo drift
+- [o:r:i] how the harness in action, not only the harness-improvement program, should map and govern parallelization opportunities beyond execution-wave splitting
 
 ## Cross-Dimensional Quality Basket
 

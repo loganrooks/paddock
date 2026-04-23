@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-04-22T20:39:21+00:00",
+  "generated_at": "2026-04-23T02:12:34+00:00",
   "mode": "detect-only",
   "last_uplift_class": "cross-runtime uplift",
   "last_uplift_secondary_signals": [
@@ -13,8 +13,8 @@
     "mid_phase_signal": true,
     "note": "phase CONTEXT carries explicit rerun-boundary posture"
   },
-  "doctrine_reference_hash": "2557afb678d531229435a98990502b2e55d47bd0a2edfc2f8af8a6d89814fd11",
-  "project_fingerprint_hash": "55108c44362d958acd2b7054386cc59e7f2fbb05c0c56e3c9081911793689cb3",
+  "doctrine_reference_hash": "c12f5b85f0a2ce9d7d7fd5d93dbf382d889963687265fdc5ecaeb98cec136deb",
+  "project_fingerprint_hash": "e0bc3d2c58cb25c558ba314d0cf83ad177e91f361890cde82c02f053e2597110",
   "current_status": "planning",
   "runtime_dirs": [
     ".codex",
@@ -138,6 +138,7 @@
   "seed_corpus_posture": {
     "seed_dir_present": false,
     "seed_file_count": 0,
+    "seed_dir_rel_path": ".planning/seeds",
     "current_contract_version": "2",
     "posture": "no_seed_corpus",
     "current_contract_count": 0,
@@ -157,72 +158,6 @@
     "corpus_fingerprint": null
   },
   "carriers": [
-    {
-      "key": "root_agents",
-      "label": "Root AGENTS",
-      "group": "doctrine_sensitive",
-      "rel_path": "AGENTS.md",
-      "present": true,
-      "status": "present",
-      "fingerprint_shape": "content_sha256",
-      "fingerprint": "9dbe3db3967052f00b857b59f41a5cfdf401cc4a6cb9eb059bafe0d001518e75",
-      "note": "file carrier present"
-    },
-    {
-      "key": "planning_agents",
-      "label": "Planning AGENTS",
-      "group": "doctrine_sensitive",
-      "rel_path": ".planning/AGENTS.md",
-      "present": true,
-      "status": "present",
-      "fingerprint_shape": "content_sha256",
-      "fingerprint": "4058dc4d78174369bfcdc27634163ecb85210b667b49bfdd37b8e845bb39c279",
-      "note": "file carrier present"
-    },
-    {
-      "key": "root_claude",
-      "label": "Root CLAUDE",
-      "group": "doctrine_sensitive",
-      "rel_path": "CLAUDE.md",
-      "present": true,
-      "status": "present",
-      "fingerprint_shape": "content_sha256",
-      "fingerprint": "81c48b1986f32bbd5aa980ce69e2495aec3f1cf57b006f9cfc7491608382a471",
-      "note": "file carrier present"
-    },
-    {
-      "key": "planning_claude",
-      "label": "Planning CLAUDE",
-      "group": "doctrine_sensitive",
-      "rel_path": ".planning/CLAUDE.md",
-      "present": true,
-      "status": "present",
-      "fingerprint_shape": "content_sha256",
-      "fingerprint": "bd1a05d6df0dc274dc1f00f5ca89d9fa797bc406c2b6742dbbed26da9e8fa83b",
-      "note": "file carrier present"
-    },
-    {
-      "key": "verification_workflow",
-      "label": "Verification Workflow",
-      "group": "doctrine_sensitive",
-      "rel_path": ".codex/get-shit-done/workflows/verify-phase.md",
-      "present": true,
-      "status": "present",
-      "fingerprint_shape": "content_sha256",
-      "fingerprint": "eeefbd8865d021b59de99a05685a146084f9be88fc8d1130aa28f2f751f4f6df",
-      "note": "file carrier present"
-    },
-    {
-      "key": "verification_report_template",
-      "label": "Verification Report Template",
-      "group": "doctrine_sensitive",
-      "rel_path": ".codex/get-shit-done/templates/verification-report.md",
-      "present": true,
-      "status": "present",
-      "fingerprint_shape": "content_sha256",
-      "fingerprint": "d55c07b990f6c9d24fb41bf221a05a9b7025b2c96bf8163244012eebbb4e4980",
-      "note": "file carrier present"
-    },
     {
       "key": "claim_types",
       "label": "Claim Types",
@@ -246,14 +181,47 @@
       "note": "file carrier present"
     },
     {
-      "key": "tooling_inventory",
-      "label": "Tooling Inventory",
-      "group": "additive_install",
-      "rel_path": "tooling/codex/README.md",
+      "key": "planning_agents",
+      "label": "Planning AGENTS",
+      "group": "doctrine_sensitive",
+      "rel_path": ".planning/AGENTS.md",
       "present": true,
       "status": "present",
-      "fingerprint_shape": "inventory_item_hash",
-      "fingerprint": "2b8e98edfcdca8d631d3ba0a39374047c1067cd470107f26df2850e09769446e",
+      "fingerprint_shape": "content_sha256",
+      "fingerprint": "21f521804f17f7e56c898b4f83bd4ef9dfb4ef91d54b631fb6931c4d24a98622",
+      "note": "file carrier present"
+    },
+    {
+      "key": "planning_claude",
+      "label": "Planning CLAUDE",
+      "group": "doctrine_sensitive",
+      "rel_path": ".planning/CLAUDE.md",
+      "present": true,
+      "status": "present",
+      "fingerprint_shape": "content_sha256",
+      "fingerprint": "bd1a05d6df0dc274dc1f00f5ca89d9fa797bc406c2b6742dbbed26da9e8fa83b",
+      "note": "file carrier present"
+    },
+    {
+      "key": "root_agents",
+      "label": "Root AGENTS",
+      "group": "doctrine_sensitive",
+      "rel_path": "AGENTS.md",
+      "present": true,
+      "status": "present",
+      "fingerprint_shape": "content_sha256",
+      "fingerprint": "9dbe3db3967052f00b857b59f41a5cfdf401cc4a6cb9eb059bafe0d001518e75",
+      "note": "file carrier present"
+    },
+    {
+      "key": "root_claude",
+      "label": "Root CLAUDE",
+      "group": "doctrine_sensitive",
+      "rel_path": "CLAUDE.md",
+      "present": true,
+      "status": "present",
+      "fingerprint_shape": "content_sha256",
+      "fingerprint": "81c48b1986f32bbd5aa980ce69e2495aec3f1cf57b006f9cfc7491608382a471",
       "note": "file carrier present"
     },
     {
@@ -265,6 +233,39 @@
       "status": "present",
       "fingerprint_shape": "normalized_toml_hash",
       "fingerprint": "8cce9c25e0779b2c742275757cca9d9b96c38a6fca32fec31a01659217cb0cb5",
+      "note": "file carrier present"
+    },
+    {
+      "key": "tooling_inventory",
+      "label": "Tooling Inventory",
+      "group": "additive_install",
+      "rel_path": "tooling/codex/README.md",
+      "present": true,
+      "status": "present",
+      "fingerprint_shape": "inventory_item_hash",
+      "fingerprint": "2b8e98edfcdca8d631d3ba0a39374047c1067cd470107f26df2850e09769446e",
+      "note": "file carrier present"
+    },
+    {
+      "key": "verification_report_template",
+      "label": "Verification Report Template",
+      "group": "doctrine_sensitive",
+      "rel_path": ".codex/get-shit-done/templates/verification-report.md",
+      "present": true,
+      "status": "present",
+      "fingerprint_shape": "content_sha256",
+      "fingerprint": "d55c07b990f6c9d24fb41bf221a05a9b7025b2c96bf8163244012eebbb4e4980",
+      "note": "file carrier present"
+    },
+    {
+      "key": "verification_workflow",
+      "label": "Verification Workflow",
+      "group": "doctrine_sensitive",
+      "rel_path": ".codex/get-shit-done/workflows/verify-phase.md",
+      "present": true,
+      "status": "present",
+      "fingerprint_shape": "content_sha256",
+      "fingerprint": "eeefbd8865d021b59de99a05685a146084f9be88fc8d1130aa28f2f751f4f6df",
       "note": "file carrier present"
     },
     {
@@ -631,17 +632,6 @@
       "note": "file carrier present"
     },
     {
-      "key": "strengthening_discuss",
-      "label": "Discuss Strengthening Route",
-      "group": "doctrine_sensitive",
-      "rel_path": ".codex/get-shit-done/workflows/discuss-phase.md",
-      "present": true,
-      "status": "marker_present",
-      "fingerprint_shape": "marker_block_hash",
-      "fingerprint": "25ddded63c66bbad9e9a033dee5ef34024aab003311c9953fbbe5c4c11f6ef15",
-      "note": "marker present on carrier"
-    },
-    {
       "key": "strengthening_context",
       "label": "Context Strengthening Route",
       "group": "doctrine_sensitive",
@@ -650,6 +640,17 @@
       "status": "marker_present",
       "fingerprint_shape": "marker_block_hash",
       "fingerprint": "d81d21022782aa1190400c46c1a55dac7efef39820635ed3bb7fb6b123849f4c",
+      "note": "marker present on carrier"
+    },
+    {
+      "key": "strengthening_discuss",
+      "label": "Discuss Strengthening Route",
+      "group": "doctrine_sensitive",
+      "rel_path": ".codex/get-shit-done/workflows/discuss-phase.md",
+      "present": true,
+      "status": "marker_present",
+      "fingerprint_shape": "marker_block_hash",
+      "fingerprint": "25ddded63c66bbad9e9a033dee5ef34024aab003311c9953fbbe5c4c11f6ef15",
       "note": "marker present on carrier"
     },
     {

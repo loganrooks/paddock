@@ -162,6 +162,13 @@ Status: active proposal/disposition batch
 156. `156-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-proposal.md`
 157. `157-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-implementation.md`
 158. `158-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal.md`
+159. `159-harness-modifier-project-uplift-host-planning-shape-neutralization-implementation.md`
+160. `160-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-proposal.md`
+161. `161-harness-modifier-responsible-closure-deployability-and-adaptive-feedback-route.md`
+162. `162-harness-uplift-semantics-and-target-mode-split.md`
+163. `163-harness-program-horizons-and-future-carry-doctrine.md`
+164. `164-harness-parallelization-opportunity-map.md`
+165. `165-harness-parallelization-field-mapping-and-diagnosis-route.md`
 
 ## Proposal Rule
 
@@ -293,5 +300,12 @@ Status: active proposal/disposition batch
 - [d:r:i] `157` now records the landed second neutralization slice itself: typed uplift carrier-catalog and vocabulary carriers now govern the remaining host-doctrine and operator-facing surfaces inside `project_uplift.py`, focused parity tests now hold canonical ordering and recommendation equivalence, and the next bounded extraction move returns to post-neutralization payload-home judgment on top of that cleaner split rather than widening into another adjacent family.
 - [d:r:i] `158` now records the next bounded third neutralization tranche named by lane `08`: neutralize the remaining host-planning-shape writer/scanner reach inside `project_uplift.py` before reopening relocation, while keeping `OVERLAY_MANIFEST_REL_PATH` as a separate later install-contract slice.
 - [d:r:i] Lane `09` now sharpens `158` further before implementation: keep `state_heading` owned by `output_policy.json`, split the new carrier surface into `state_section.json` plus `phase_layout.json`, split `state_writer.py` into distinct render/update entries, keep selector dispatch in writer code, and keep `seed_migration_inventory.py`, `harness_canary.py`, and `UPLIFT-HELD-LATER.md` explicitly untouched in this tranche.
+- [d:r:i] `159` now records the landed third neutralization slice itself: typed `state_section` and `phase_layout` carriers plus the narrow `state_writer` move the remaining host-planning-shape literals out of `project_uplift.py` without widening into relocation or install-contract pointer work.
+- [d:r:i] `160` now reopens payload-home judgment on top of all three landed neutralization tranches rather than letting earlier pre-neutralization judgments keep steering the extraction family.
+- [d:r:i] `161` now widens responsible closure beyond deployability/feedback alone: harness-agential uplift, horizon management, and better-designed parallelization pressure are now explicit parts of the same route rather than ambient operator wishes.
+- [d:r:i] `162` now fixes the semantics of `uplift` directly by splitting target and mode: harness-contract, host-artifact, harness-agential, harness-operational, harness-adaptive, and distribution/deployability uplift should not be collapsed back into one overloaded label.
+- [d:r:i] `163` now records the harness-program horizon doctrine directly: near, medium, and far horizons for the harness-improvement program are distinct from host-product horizons unless a slice explicitly crosses into product-planning or rerun-coupling territory.
+- [d:r:i] `164` now opens the broader harness parallelization question in one explicit framing map: it separates harness-in-action parallelization from harness-improvement-program overlap and keeps execution-wave splitting as one visible example rather than a claimed exhaustive baseline.
+- [d:r:i] `165` now turns that framing note into the next explicit route: run a real field-mapping / diagnosis pass over vanilla GSD posture, modified-harness posture, and improvement-program overlap before stronger workflow or doctrine changes are proposed.
 - [d:r:i] `42` now records that harden slice as landed: multi-axis posture, phase-boundary signal, per-carrier fingerprint shape, runtime-agent globbing, typed proposal routes, file-backed held-later carry, widened tests, and the two live consumer/output bugs it surfaced and corrected.
 - [d:r:i] The current broader consequence after `42-74`: use the cleaner uplift slice, the active propagation family, the landed verifier / transition / milestone-boundary / first-read / spec lifecycle bridges, the landed re-entry plus initialization/doc-ingest plus repair/migration plus update plus seed producer/consumer slices, and the hardened setup/materialization path together rather than assuming one helper or one bounded slice already proves whole-network carry.

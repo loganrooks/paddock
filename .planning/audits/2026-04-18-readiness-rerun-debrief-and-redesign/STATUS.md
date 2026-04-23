@@ -276,7 +276,7 @@ Date: 2026-04-22
 - current extraction host-doctrine neutralization reread completion status: `that reread is now completed against frozen basis aa4d770 and inherited through extraction-audit/launch-truth|outputs|dispositions/07-*: 156 is accepted with sharpenings on runtime-agent registry shape, full operator-facing sentence ownership in the vocabulary carrier, catalog ordering, test frontier, and explicit hold of OVERLAY_MANIFEST_REL_PATH as later install-contract wiring`
 - current extraction host-doctrine neutralization status: `intervention-proposals/157-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-implementation.md is now landed and propagation follow-through now lands in propagation-audit/58-harness-modifier-project-uplift-host-doctrine-catalog-neutralization-change-triggered-refresh.md: typed uplift carrier-catalog and vocabulary carriers now govern the remaining host-doctrine and operator-facing surfaces inside project_uplift.py, focused parity tests now hold canonical ordering plus recommendation equivalence, and the next bounded extraction move returns to payload-home judgment on top of both landed neutralization tranches`
 - current extraction reopened payload-home judgment status: `extraction-audit lane-08 is now completed against frozen basis 506fece, inherited through extraction-audit/launch-truth|outputs|dispositions/08-*: relocation still remains later, the materially remaining host-coupling surface is now the host-planning-shape writer/scanner reach inside project_uplift.py, OVERLAY_MANIFEST_REL_PATH stays a separate later install-contract slice, and the next bounded extraction move is now intervention-proposals/158-harness-modifier-project-uplift-host-planning-shape-neutralization-proposal.md`
-- current extraction host-planning-shape proposal status: `extraction-audit lane-09 is now completed against frozen basis 6c58663, inherited through extraction-audit/launch-truth|outputs|dispositions/09-*: 158 remains the right next family, but its sharper internal split is now explicit as state_section.json + phase_layout.json + state_writer.py with distinct render/update entries, output_policy.json keeps state_heading ownership, OVERLAY_MANIFEST_REL_PATH stays a separate later install-contract slice, and the next move is now direct implementation of the third neutralization tranche on top of the revised proposal`
+- current extraction host-planning-shape neutralization status: `the third neutralization tranche is now landed through intervention-proposals/159-harness-modifier-project-uplift-host-planning-shape-neutralization-implementation.md and propagation-audit/59-harness-modifier-project-uplift-host-planning-shape-neutralization-change-triggered-refresh.md: state_section.json + phase_layout.json + state_writer.py now own the remaining host-planning-shape grammar outside project_uplift.py, output_policy.json still owns state_heading, OVERLAY_MANIFEST_REL_PATH stays a separate later install-contract slice, and the next bounded extraction move is now intervention-proposals/160-harness-modifier-project-uplift-post-host-planning-shape-payload-home-judgment-proposal.md`
 - current propagation-registry-threshold-refresh status: `the next real change-triggered refresh is now landed under propagation-audit/18-threshold-scanner-change-triggered-refresh.md: the typed v2 layer now keeps the scanner helper, the threshold-audit historical reread output, and the 05 inheritance note explicit as helper/lane carriers instead of leaving that relation ambient`
 - current propagation-registry-verifier-refresh status: `the next real change-triggered refresh is now landed under propagation-audit/19-verifier-lifecycle-carry-change-triggered-refresh.md: the typed v2 layers now keep verifier-side workflow, template, reference, registry, and helper-fingerprint movement explicit instead of leaving the lifecycle bridge ambient behind one widened proposal note`
 - current propagation-registry-setup-refresh status: `the next real change-triggered refresh is now landed under propagation-audit/20-setup-portable-gsd-robustness-change-triggered-refresh.md: the typed v2 layers now keep the setup entry bridge, bounded gsd-sdk runtime helper, and fresh-install pristine overwrite capture explicit instead of compressing reinstall-truth movement into one generic installer row`
@@ -416,6 +416,15 @@ Date: 2026-04-22
    - the helper-backed `gsd-review` first slice
    - `from-gsd2` as the next uplift-continuity consumer
    - exercising the landed parity classifier on later real materialization boundaries
+59. keep the harness-program semantic split explicit through `162`, `163`, and `164` before more extraction/deployability work lands:
+   - harness horizons are not host-product horizons
+   - `uplift` has multiple targets and modes
+   - harness-in-action parallelization should not be reduced to execution-wave splitting alone
+60. refine responsible closure through `161` with the added harness-agential and parallelization pressure rather than letting deployability/feedback carry remain too narrow
+61. treat `164` as a framing note, not a final posture judgment; use `165` to run a proper field-mapping / diagnosis pass over:
+   - vanilla GSD parallelization posture
+   - modified harness parallelization posture
+   - harness-improvement-program overlap posture
 
 ## Open Questions
 
@@ -439,6 +448,13 @@ Date: 2026-04-22
   - continuation / compaction prompts
   - other routing surfaces not yet made explicit
 - what is the best durable shape for a repo-local harness intervention onboarding doc that can carry both current runtime truth and longer-horizon modification planning?
+- how should the newly explicit harness-program semantic split in `162`, `163`, and `164` change later extraction, deployability, telemetry, and host-artifact uplift decisions?
+- what is the right durable carrier for harness-in-action parallelization beyond execution-wave planning:
+  - opportunity map
+  - protocol set
+  - workflow-local notes
+  - or a layered combination?
+- what does a full vanilla-GSD versus modified-harness parallelization diagnosis actually show once we stop assuming the answer from a few visible examples?
 - how should the newly named long-horizon lifecycle gaps, horizon tensions, and positive strengthening opportunities be mapped as one field, and which parts of that field are still too weakly articulated or too diffusely framed?
 - how should the current `29` register be revised now that the long-horizon cross-vendor pair has added `preservation-debt`, roadmap-time preservation criteria, later-lifecycle canonical-ref rereads, and bounded horizon-watch surfaces?
 - how much threshold / pass-fail residue still lives in older specs, prompts, reviews, and inherited lane artifacts despite the newer anti-threshold doctrine already present in root/planning `AGENTS.md` and both `CLAUDE.md` wrappers?

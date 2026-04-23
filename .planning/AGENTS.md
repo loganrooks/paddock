@@ -29,6 +29,8 @@ Additional rules:
 - Prefer canon docs over exploratory notes when they conflict.
 - Treat `discovery/` as upstream context, not live operational state.
 - If canon conflicts, report the conflict explicitly instead of silently choosing one side.
+- Keep harness-improvement horizons separate from host-product horizons unless a slice explicitly crosses into product planning, rerun coupling, or entry / re-entry integration.
+- If a note uses `uplift` or `long horizon` in a way that could name either the host project or the harness-improvement program, sharpen the target explicitly rather than relying on ambient context.
 
 ## Artifact Discipline
 
