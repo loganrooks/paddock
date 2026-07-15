@@ -2,7 +2,7 @@ name: Refresh Spa OpenF1 references
 
 on:
   push:
-    branches: [spa-race-lab-pages]
+    branches: [spa-telemetry-import]
     paths:
       - "spa-race-lab/scripts-fetch-openf1.mjs"
       - ".github/workflows/spa-openf1-data.yml"
@@ -15,14 +15,19 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
         with:
-          ref: spa-race-lab-pages
-      - uses: actions/setup-node@v6
+          ref: spa-telemetry-import
+      - uses: actions/setup-node@v4
         with:
           node-version: 22
       - name: Fetch and normalize OpenF1 traces
         run: node spa-race-lab/scripts-fetch-openf1.mjs
+      - name: Verify snapshot completeness
+        run: |
+          grep -q 'BUNDLED_SPA_REFERENCES' spa-race-lab/js/reference-data.js
+          grep -q '2025-q-' spa-race-lab/js/reference-data.js
+          grep -q '2025-sq-' spa-race-lab/js/reference-data.js
       - name: Commit generated snapshot
         run: |
           if git diff --quiet -- spa-race-lab/js/reference-data.js; then
@@ -32,5 +37,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add spa-race-lab/js/reference-data.js
-          git commit -m "data: refresh Spa OpenF1 reference laps"
-          git push origin HEAD:spa-race-lab-pages
+          git commit -m "data: refresh Spa OpenF1 reference laps [skip ci]"
+          git push origin HEAD:spa-telemetry-import
