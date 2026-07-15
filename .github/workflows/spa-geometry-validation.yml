@@ -1,0 +1,39 @@
+name: Validate Spa Geometry
+
+on:
+  pull_request:
+    branches:
+      - spa-race-lab-pages
+    paths:
+      - "spa-race-lab/tools/**"
+      - "spa-race-lab/data/reference/**"
+      - ".github/workflows/spa-geometry-validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install numerical tools
+        run: python -m pip install --disable-pip-version-check numpy
+
+      - name: Build and validate independent reference model
+        run: python spa-race-lab/tools/build_reference_model.py
+
+      - name: Archive validated reference model
+        uses: actions/upload-artifact@v4
+        with:
+          name: spa-reference-model
+          path: spa-race-lab/data/reference
+          if-no-files-found: error
