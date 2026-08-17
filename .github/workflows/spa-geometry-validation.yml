@@ -1,17 +1,16 @@
 name: Validate Spa Geometry
 
 on:
-  pull_request:
+  push:
     branches:
-      - spa-race-lab-pages
+      - spa-geometry-validation
     paths:
       - "spa-race-lab/tools/**"
-      - "spa-race-lab/data/reference/**"
       - ".github/workflows/spa-geometry-validation.yml"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   validate:
@@ -19,6 +18,8 @@ jobs:
     steps:
       - name: Check out source
         uses: actions/checkout@v4
+        with:
+          ref: spa-geometry-validation
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,6 +31,18 @@ jobs:
 
       - name: Build and validate independent reference model
         run: python spa-race-lab/tools/build_reference_model.py
+
+      - name: Commit validated reference model
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add spa-race-lab/data/reference
+          if git diff --cached --quiet; then
+            echo "Reference model is unchanged."
+          else
+            git commit -m "data: generate validated Spa reference model [skip ci]"
+            git push origin HEAD:spa-geometry-validation
+          fi
 
       - name: Archive validated reference model
         uses: actions/upload-artifact@v4
